@@ -5,11 +5,11 @@ Graph-theoretic problems arise in real-world applications like logistics, commun
 ## Framework of MA-GTS
 
  <p align="center">
-  <img width="65%" src='./PIC/framework.pdf' />
+  <img width="65%" src='./PIC/framework.png' />
 </p>
 
 ## Pipeline of MA-GTS
 
  <p align="center">
-  <img width="65%" src='./PIC/pipeline.pdf' />
+  <img width="65%" src='./PIC/pipeline.png' />
 </p>
