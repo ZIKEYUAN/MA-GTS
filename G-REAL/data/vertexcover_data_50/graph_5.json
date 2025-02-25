@@ -1,0 +1,3854 @@
+[
+ {
+  "graph_index": 0,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Oceanview",
+   "Server Seabreeze",
+   "Server Silverhawk",
+   "Server Sunflower",
+   "Server Silverstone"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Oceanview, Server Seabreeze, Server Silverhawk, Server Sunflower and Server Silverstone. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Oceanview is connected with Server Seabreeze, Server Sunflower, Server Silverstone. \nServer Seabreeze is connected with Server Silverstone. \nServer Silverhawk is connected with Server Sunflower. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Seabreeze",
+     "Server Silverhawk"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Seabreeze",
+     "Server Silverhawk"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Seabreeze",
+     "Server Silverhawk",
+     "Server Sunflower",
+     "Server Silverstone"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 1,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Blackwood",
+   "Server Seabreeze",
+   "Server Twilight",
+   "Server Moonlight",
+   "Server Falconeye"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Blackwood, Server Seabreeze, Server Twilight, Server Moonlight and Server Falconeye. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Blackwood is connected with Server Seabreeze, Server Twilight, Server Falconeye. \nServer Twilight is connected with Server Moonlight. \nServer Moonlight is connected with Server Falconeye. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Moonlight"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Moonlight"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Seabreeze",
+     "Server Twilight",
+     "Server Moonlight",
+     "Server Falconeye"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 2,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Twilight",
+   "Server Seabreeze",
+   "Server Glacier",
+   "Server Blackwood",
+   "Server Crimsoncloud"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Twilight, Server Seabreeze, Server Glacier, Server Blackwood and Server Crimsoncloud. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Twilight is connected with Server Seabreeze, Server Glacier, Server Blackwood. \nServer Seabreeze is connected with Server Glacier. \nServer Blackwood is connected with Server Crimsoncloud. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Seabreeze",
+     "Server Blackwood"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Seabreeze",
+     "Server Blackwood"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Seabreeze",
+     "Server Glacier",
+     "Server Blackwood",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 3,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Nightshade",
+   "Server Blackwood",
+   "Server Seabreeze",
+   "Server Ironbark",
+   "Server Bluebird"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Nightshade, Server Blackwood, Server Seabreeze, Server Ironbark and Server Bluebird. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Nightshade is connected with Server Seabreeze, Server Ironbark. \nServer Blackwood is connected with Server Ironbark, Server Bluebird. \nServer Ironbark is connected with Server Bluebird. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Blackwood",
+     "Server Ironbark"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Blackwood",
+     "Server Ironbark"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Blackwood",
+     "Server Seabreeze",
+     "Server Ironbark",
+     "Server Bluebird"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 4,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Sunflower",
+   "Server Firefly",
+   "Server Darkhorse",
+   "Server Ghostwind",
+   "Server Nightshade"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Sunflower, Server Firefly, Server Darkhorse, Server Ghostwind and Server Nightshade. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Sunflower is connected with Server Nightshade. \nServer Firefly is connected with Server Darkhorse, Server Ghostwind, Server Nightshade. \nServer Ghostwind is connected with Server Nightshade. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Nightshade"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Nightshade"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Firefly",
+     "Server Darkhorse",
+     "Server Ghostwind",
+     "Server Nightshade"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 5,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Tempest",
+   "Server Firefly",
+   "Server Ghostwind",
+   "Server Moonlight",
+   "Server Blackwood"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Tempest, Server Firefly, Server Ghostwind, Server Moonlight and Server Blackwood. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Tempest is connected with Server Firefly, Server Ghostwind. \nServer Firefly is connected with Server Ghostwind, Server Blackwood. \nServer Ghostwind is connected with Server Moonlight. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Tempest",
+     "Server Firefly",
+     "Server Ghostwind",
+     "Server Moonlight"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 6,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Bluewave",
+   "Server Firefly",
+   "Server Silverhawk",
+   "Server Windswept",
+   "Server Mirage"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Bluewave, Server Firefly, Server Silverhawk, Server Windswept and Server Mirage. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Bluewave is connected with Server Silverhawk, Server Windswept, Server Mirage. \nServer Firefly is connected with Server Silverhawk, Server Windswept. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Bluewave",
+     "Server Firefly"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Bluewave",
+     "Server Firefly"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Bluewave",
+     "Server Firefly",
+     "Server Silverhawk"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 7,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Mirage",
+   "Server Oceanview",
+   "Server Amberwave",
+   "Server Silverhawk",
+   "Server Crimsoncloud"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Mirage, Server Oceanview, Server Amberwave, Server Silverhawk and Server Crimsoncloud. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Mirage is connected with Server Oceanview. \nServer Oceanview is connected with Server Silverhawk, Server Crimsoncloud. \nServer Amberwave is connected with Server Silverhawk. \nServer Silverhawk is connected with Server Crimsoncloud. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Silverhawk"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Silverhawk"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Oceanview",
+     "Server Amberwave",
+     "Server Silverhawk",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 8,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverhawk",
+   "Server Amberwave",
+   "Server Ravenstone",
+   "Server Skyhawk",
+   "Server Willowbrook"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Silverhawk, Server Amberwave, Server Ravenstone, Server Skyhawk and Server Willowbrook. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Silverhawk is connected with Server Skyhawk. \nServer Amberwave is connected with Server Skyhawk. \nServer Ravenstone is connected with Server Skyhawk, Server Willowbrook. \nServer Skyhawk is connected with Server Willowbrook. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverhawk",
+     "Server Amberwave",
+     "Server Ravenstone",
+     "Server Skyhawk",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 9,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Twilight",
+   "Server Glacier",
+   "Server Silverstream",
+   "Server Tempest",
+   "Server Stealthwind"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Twilight, Server Glacier, Server Silverstream, Server Tempest and Server Stealthwind. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Twilight is connected with Server Glacier, Server Stealthwind. \nServer Silverstream is connected with Server Tempest, Server Stealthwind. \nServer Tempest is connected with Server Stealthwind. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Silverstream",
+     "Server Tempest"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Silverstream",
+     "Server Stealthwind"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Glacier",
+     "Server Silverstream",
+     "Server Tempest",
+     "Server Stealthwind"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 10,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Sunflower",
+   "Server Ironclad",
+   "Server Willowbrook",
+   "Server Skyhawk",
+   "Server Windswept"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Sunflower, Server Ironclad, Server Willowbrook, Server Skyhawk and Server Windswept. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Sunflower is connected with Server Skyhawk, Server Windswept. \nServer Ironclad is connected with Server Willowbrook. \nServer Willowbrook is connected with Server Skyhawk, Server Windswept. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Ironclad",
+     "Server Willowbrook",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 11,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Mirage",
+   "Server Sunflower",
+   "Server Stormcloud",
+   "Server Vortex",
+   "Server Oceanview"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Mirage, Server Sunflower, Server Stormcloud, Server Vortex and Server Oceanview. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Mirage is connected with Server Sunflower, Server Oceanview. \nServer Sunflower is connected with Server Stormcloud. \nServer Stormcloud is connected with Server Vortex. \nServer Vortex is connected with Server Oceanview. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Sunflower",
+     "Server Vortex"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Stormcloud",
+     "Server Vortex"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Sunflower",
+     "Server Stormcloud",
+     "Server Vortex",
+     "Server Oceanview"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 12,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Nightfall",
+   "Server Silverstone",
+   "Server Twilight",
+   "Server Ravenstone",
+   "Server Tempest"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Nightfall, Server Silverstone, Server Twilight, Server Ravenstone and Server Tempest. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Nightfall is connected with Server Silverstone, Server Ravenstone, Server Tempest. \nServer Silverstone is connected with Server Tempest. \nServer Twilight is connected with Server Ravenstone. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Silverstone",
+     "Server Twilight"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Silverstone",
+     "Server Twilight"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Silverstone",
+     "Server Twilight",
+     "Server Ravenstone",
+     "Server Tempest"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 13,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Starfire",
+   "Server Glacier",
+   "Server Eaglecrest",
+   "Server Frostmoon",
+   "Server Frostbite"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Starfire, Server Glacier, Server Eaglecrest, Server Frostmoon and Server Frostbite. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Starfire is connected with Server Frostmoon, Server Frostbite. \nServer Glacier is connected with Server Eaglecrest, Server Frostmoon, Server Frostbite. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Glacier"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Glacier"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Glacier",
+     "Server Eaglecrest",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 14,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Lighthouse",
+   "Server Moonlight",
+   "Server Blackwood",
+   "Server Stormbreaker",
+   "Server Thunderbolt"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Lighthouse, Server Moonlight, Server Blackwood, Server Stormbreaker and Server Thunderbolt. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Lighthouse is connected with Server Moonlight, Server Thunderbolt. \nServer Moonlight is connected with Server Blackwood, Server Stormbreaker, Server Thunderbolt. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Moonlight"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Moonlight"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Moonlight",
+     "Server Blackwood"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 15,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberfall",
+   "Server Starfire",
+   "Server Frostmoon",
+   "Server Brightstar",
+   "Server Nightshade"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Emberfall, Server Starfire, Server Frostmoon, Server Brightstar and Server Nightshade. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Emberfall is connected with Server Starfire, Server Brightstar, Server Nightshade. \nServer Starfire is connected with Server Frostmoon. \nServer Frostmoon is connected with Server Brightstar. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Starfire",
+     "Server Frostmoon",
+     "Server Brightstar"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 16,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ravenstone",
+   "Server Vortex",
+   "Server Stormbreaker",
+   "Server Nightfall",
+   "Server Glacier"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Ravenstone, Server Vortex, Server Stormbreaker, Server Nightfall and Server Glacier. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Ravenstone is connected with Server Stormbreaker, Server Nightfall, Server Glacier. \nServer Vortex is connected with Server Stormbreaker, Server Glacier. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Vortex"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Vortex"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Vortex",
+     "Server Stormbreaker"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 17,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Nightfall",
+   "Server Stormcloud",
+   "Server Frostbite",
+   "Server Blackwood",
+   "Server Windswept"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Nightfall, Server Stormcloud, Server Frostbite, Server Blackwood and Server Windswept. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Nightfall is connected with Server Windswept. \nServer Stormcloud is connected with Server Frostbite, Server Blackwood, Server Windswept. \nServer Frostbite is connected with Server Windswept. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Windswept"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Windswept"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Stormcloud",
+     "Server Frostbite",
+     "Server Windswept"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 18,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stealthwind",
+   "Server Firestorm",
+   "Server Windmill",
+   "Server Bluewave",
+   "Server Goldleaf"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Stealthwind, Server Firestorm, Server Windmill, Server Bluewave and Server Goldleaf. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Stealthwind is connected with Server Firestorm, Server Windmill. \nServer Firestorm is connected with Server Windmill. \nServer Windmill is connected with Server Bluewave. \nServer Bluewave is connected with Server Goldleaf. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Firestorm",
+     "Server Bluewave"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Windmill",
+     "Server Bluewave"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Firestorm",
+     "Server Windmill",
+     "Server Bluewave",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 19,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Solarflare",
+   "Server Windmill",
+   "Server Blackwood",
+   "Server Lighthouse",
+   "Server Thunderbolt"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Solarflare, Server Windmill, Server Blackwood, Server Lighthouse and Server Thunderbolt. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Solarflare is connected with Server Windmill, Server Blackwood, Server Lighthouse, Server Thunderbolt. \nServer Windmill is connected with Server Blackwood. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Windmill"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Windmill"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Windmill",
+     "Server Blackwood"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 20,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windswept",
+   "Server Glacierpeak",
+   "Server Emberlight",
+   "Server Stealthwind",
+   "Server Frostbite"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Windswept, Server Glacierpeak, Server Emberlight, Server Stealthwind and Server Frostbite. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Windswept is connected with Server Glacierpeak, Server Emberlight, Server Stealthwind. \nServer Emberlight is connected with Server Frostbite. \nServer Stealthwind is connected with Server Frostbite. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windswept",
+     "Server Frostbite"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windswept",
+     "Server Frostbite"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windswept",
+     "Server Glacierpeak",
+     "Server Emberlight",
+     "Server Stealthwind",
+     "Server Frostbite"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 21,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Vortex",
+   "Server Stormcloud",
+   "Server Ravenstone",
+   "Server Darkhorse",
+   "Server Goldleaf"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Vortex, Server Stormcloud, Server Ravenstone, Server Darkhorse and Server Goldleaf. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Vortex is connected with Server Stormcloud, Server Darkhorse. \nServer Stormcloud is connected with Server Goldleaf. \nServer Ravenstone is connected with Server Darkhorse. \nServer Darkhorse is connected with Server Goldleaf. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Darkhorse"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Darkhorse"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Stormcloud",
+     "Server Ravenstone",
+     "Server Darkhorse",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 22,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Mirage",
+   "Server Silverstream",
+   "Server Vortex",
+   "Server Nightshade",
+   "Server Emberlight"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Mirage, Server Silverstream, Server Vortex, Server Nightshade and Server Emberlight. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Mirage is connected with Server Silverstream. \nServer Silverstream is connected with Server Emberlight. \nServer Vortex is connected with Server Nightshade, Server Emberlight. \nServer Nightshade is connected with Server Emberlight. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Vortex",
+     "Server Emberlight"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Vortex",
+     "Server Emberlight"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Silverstream",
+     "Server Vortex",
+     "Server Nightshade",
+     "Server Emberlight"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 23,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Willowbrook",
+   "Server Ghostwind",
+   "Server Ironbark",
+   "Server Amberwave",
+   "Server Frostmoon"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Willowbrook, Server Ghostwind, Server Ironbark, Server Amberwave and Server Frostmoon. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Willowbrook is connected with Server Ghostwind. \nServer Ghostwind is connected with Server Amberwave, Server Frostmoon. \nServer Ironbark is connected with Server Amberwave, Server Frostmoon. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ghostwind",
+     "Server Ironbark"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ghostwind",
+     "Server Ironbark"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Ghostwind",
+     "Server Ironbark",
+     "Server Amberwave"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 24,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Firestorm",
+   "Server Silverstone",
+   "Server Solarflare",
+   "Server Twilight",
+   "Server Falconeye"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Firestorm, Server Silverstone, Server Solarflare, Server Twilight and Server Falconeye. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Firestorm is connected with Server Solarflare. \nServer Silverstone is connected with Server Solarflare, Server Falconeye. \nServer Solarflare is connected with Server Twilight. \nServer Twilight is connected with Server Falconeye. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Falconeye"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Falconeye"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Firestorm",
+     "Server Silverstone",
+     "Server Solarflare",
+     "Server Twilight",
+     "Server Falconeye"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 25,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Oceanview",
+   "Server Tempest",
+   "Server Twilight",
+   "Server Bluebird",
+   "Server Stealthwind"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Oceanview, Server Tempest, Server Twilight, Server Bluebird and Server Stealthwind. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Oceanview is connected with Server Twilight, Server Bluebird, Server Stealthwind. \nServer Twilight is connected with Server Stealthwind. \nServer Bluebird is connected with Server Stealthwind. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Stealthwind"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Stealthwind"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Twilight",
+     "Server Bluebird",
+     "Server Stealthwind"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 26,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Redwood",
+   "Server Stormcloud",
+   "Server Sunflower",
+   "Server Thunderbolt",
+   "Server Ravenstone"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Redwood, Server Stormcloud, Server Sunflower, Server Thunderbolt and Server Ravenstone. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Redwood is connected with Server Sunflower, Server Thunderbolt, Server Ravenstone. \nServer Stormcloud is connected with Server Sunflower. \nServer Sunflower is connected with Server Thunderbolt. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Sunflower"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Sunflower"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Stormcloud",
+     "Server Sunflower",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 27,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Starfire",
+   "Server Sunflower",
+   "Server Sandstorm",
+   "Server Bluewave",
+   "Server Tempest"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Starfire, Server Sunflower, Server Sandstorm, Server Bluewave and Server Tempest. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Starfire is connected with Server Bluewave, Server Tempest. \nServer Sunflower is connected with Server Sandstorm. \nServer Sandstorm is connected with Server Bluewave. \nServer Bluewave is connected with Server Tempest. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Sunflower",
+     "Server Bluewave"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Sunflower",
+     "Server Bluewave"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Sunflower",
+     "Server Sandstorm",
+     "Server Bluewave",
+     "Server Tempest"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 28,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ironclad",
+   "Server Stormcloud",
+   "Server Goldleaf",
+   "Server Frostbite",
+   "Server Blackwood"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Ironclad, Server Stormcloud, Server Goldleaf, Server Frostbite and Server Blackwood. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Ironclad is connected with Server Stormcloud, Server Goldleaf. \nServer Stormcloud is connected with Server Frostbite, Server Blackwood. \nServer Goldleaf is connected with Server Blackwood. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Stormcloud",
+     "Server Goldleaf",
+     "Server Frostbite",
+     "Server Blackwood"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 29,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Oceanview",
+   "Server Firestorm",
+   "Server Silverstone",
+   "Server Glacierpeak",
+   "Server Sandstorm"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Oceanview, Server Firestorm, Server Silverstone, Server Glacierpeak and Server Sandstorm. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Oceanview is connected with Server Silverstone, Server Sandstorm. \nServer Firestorm is connected with Server Silverstone, Server Glacierpeak. \nServer Glacierpeak is connected with Server Sandstorm. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Firestorm",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Firestorm",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Firestorm",
+     "Server Silverstone",
+     "Server Glacierpeak",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 30,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Starfire",
+   "Server Brightstar",
+   "Server Twilight",
+   "Server Frostmoon",
+   "Server Nightshade"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Starfire, Server Brightstar, Server Twilight, Server Frostmoon and Server Nightshade. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Starfire is connected with Server Twilight, Server Frostmoon, Server Nightshade. \nServer Brightstar is connected with Server Nightshade. \nServer Twilight is connected with Server Nightshade. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Nightshade"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Nightshade"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Brightstar",
+     "Server Twilight",
+     "Server Nightshade"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 31,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Tempest",
+   "Server Vortex",
+   "Server Frostmoon",
+   "Server Blackwood",
+   "Server Oceanview"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Tempest, Server Vortex, Server Frostmoon, Server Blackwood and Server Oceanview. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Tempest is connected with Server Vortex, Server Blackwood. \nServer Vortex is connected with Server Frostmoon, Server Blackwood, Server Oceanview. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Tempest",
+     "Server Vortex"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Tempest",
+     "Server Vortex"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Tempest",
+     "Server Vortex",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 32,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Frostmoon",
+   "Server Brightstar",
+   "Server Shadowbrook",
+   "Server Willowbrook",
+   "Server Nightshade"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Frostmoon, Server Brightstar, Server Shadowbrook, Server Willowbrook and Server Nightshade. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Frostmoon is connected with Server Shadowbrook, Server Willowbrook, Server Nightshade. \nServer Brightstar is connected with Server Willowbrook, Server Nightshade. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Brightstar"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Brightstar"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Brightstar",
+     "Server Shadowbrook",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 33,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Skyhawk",
+   "Server Willowbrook",
+   "Server Redwood",
+   "Server Stormcloud",
+   "Server Eaglecrest"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Skyhawk, Server Willowbrook, Server Redwood, Server Stormcloud and Server Eaglecrest. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Skyhawk is connected with Server Redwood, Server Stormcloud. \nServer Willowbrook is connected with Server Stormcloud. \nServer Redwood is connected with Server Stormcloud. \nServer Stormcloud is connected with Server Eaglecrest. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Willowbrook",
+     "Server Redwood",
+     "Server Stormcloud",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 34,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Willowbrook",
+   "Server Blackwood",
+   "Server Redwood",
+   "Server Amberwave",
+   "Server Eaglecrest"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Willowbrook, Server Blackwood, Server Redwood, Server Amberwave and Server Eaglecrest. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Willowbrook is connected with Server Amberwave, Server Eaglecrest. \nServer Blackwood is connected with Server Amberwave. \nServer Redwood is connected with Server Amberwave. \nServer Amberwave is connected with Server Eaglecrest. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Amberwave"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Amberwave"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Blackwood",
+     "Server Redwood",
+     "Server Amberwave",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 35,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Lighthouse",
+   "Server Goldleaf",
+   "Server Ravenstone",
+   "Server Frostmoon",
+   "Server Mirage"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Lighthouse, Server Goldleaf, Server Ravenstone, Server Frostmoon and Server Mirage. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Lighthouse is connected with Server Frostmoon, Server Mirage. \nServer Goldleaf is connected with Server Frostmoon. \nServer Ravenstone is connected with Server Frostmoon, Server Mirage. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Mirage"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Mirage"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Goldleaf",
+     "Server Ravenstone",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 36,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Moonlight",
+   "Server Windswept",
+   "Server Silverhawk",
+   "Server Willowbrook",
+   "Server Windmill"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Moonlight, Server Windswept, Server Silverhawk, Server Willowbrook and Server Windmill. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Moonlight is connected with Server Silverhawk, Server Windmill. \nServer Windswept is connected with Server Silverhawk, Server Willowbrook. \nServer Willowbrook is connected with Server Windmill. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Windswept",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Windswept",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Windswept",
+     "Server Silverhawk",
+     "Server Willowbrook",
+     "Server Windmill"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 37,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Goldleaf",
+   "Server Ironclad",
+   "Server Ghostwind",
+   "Server Solarflare",
+   "Server Stormcloud"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Goldleaf, Server Ironclad, Server Ghostwind, Server Solarflare and Server Stormcloud. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Goldleaf is connected with Server Stormcloud. \nServer Ironclad is connected with Server Ghostwind, Server Solarflare, Server Stormcloud. \nServer Ghostwind is connected with Server Solarflare. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Ironclad",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Ironclad",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Ironclad",
+     "Server Ghostwind",
+     "Server Solarflare",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 38,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberlight",
+   "Server Willowbrook",
+   "Server Brightstar",
+   "Server Amberwave",
+   "Server Nightfall"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Emberlight, Server Willowbrook, Server Brightstar, Server Amberwave and Server Nightfall. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Emberlight is connected with Server Brightstar, Server Nightfall. \nServer Willowbrook is connected with Server Brightstar, Server Nightfall. \nServer Brightstar is connected with Server Amberwave. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Nightfall"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Nightfall"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Willowbrook",
+     "Server Brightstar",
+     "Server Amberwave"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 39,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Thunderbolt",
+   "Server Skyhawk",
+   "Server Nightfall",
+   "Server Eaglecrest",
+   "Server Ravenstone"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Thunderbolt, Server Skyhawk, Server Nightfall, Server Eaglecrest and Server Ravenstone. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Thunderbolt is connected with Server Skyhawk, Server Nightfall. \nServer Skyhawk is connected with Server Eaglecrest. \nServer Nightfall is connected with Server Eaglecrest. \nServer Eaglecrest is connected with Server Ravenstone. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Skyhawk",
+     "Server Nightfall",
+     "Server Eaglecrest",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 40,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ironbark",
+   "Server Firestorm",
+   "Server Lighthouse",
+   "Server Darkhorse",
+   "Server Thunderstrike"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Ironbark, Server Firestorm, Server Lighthouse, Server Darkhorse and Server Thunderstrike. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Ironbark is connected with Server Thunderstrike. \nServer Firestorm is connected with Server Darkhorse, Server Thunderstrike. \nServer Lighthouse is connected with Server Darkhorse. \nServer Darkhorse is connected with Server Thunderstrike. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ironbark",
+     "Server Firestorm",
+     "Server Lighthouse",
+     "Server Darkhorse",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 41,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windswept",
+   "Server Redwood",
+   "Server Tempest",
+   "Server Crimsoncloud",
+   "Server Frostbite"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Windswept, Server Redwood, Server Tempest, Server Crimsoncloud and Server Frostbite. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Windswept is connected with Server Tempest. \nServer Redwood is connected with Server Crimsoncloud, Server Frostbite. \nServer Tempest is connected with Server Crimsoncloud, Server Frostbite. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Tempest"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Tempest"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windswept",
+     "Server Redwood",
+     "Server Tempest",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 42,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Goldleaf",
+   "Server Windmill",
+   "Server Emberlight",
+   "Server Thunderbolt",
+   "Server Firestorm"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Goldleaf, Server Windmill, Server Emberlight, Server Thunderbolt and Server Firestorm. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Goldleaf is connected with Server Windmill, Server Thunderbolt, Server Firestorm. \nServer Windmill is connected with Server Firestorm. \nServer Emberlight is connected with Server Firestorm. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Firestorm"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Firestorm"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Windmill",
+     "Server Emberlight",
+     "Server Firestorm"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 43,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Frostbite",
+   "Server Moonlight",
+   "Server Windswept",
+   "Server Bluewave",
+   "Server Ironbark"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Frostbite, Server Moonlight, Server Windswept, Server Bluewave and Server Ironbark. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Frostbite is connected with Server Windswept, Server Bluewave, Server Ironbark. \nServer Moonlight is connected with Server Ironbark. \nServer Windswept is connected with Server Bluewave. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Frostbite",
+     "Server Moonlight",
+     "Server Windswept"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Frostbite",
+     "Server Moonlight",
+     "Server Windswept"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Frostbite",
+     "Server Moonlight",
+     "Server Windswept",
+     "Server Bluewave",
+     "Server Ironbark"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 44,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Darkhorse",
+   "Server Amberwave",
+   "Server Thunderbolt",
+   "Server Starfire",
+   "Server Willowbrook"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Darkhorse, Server Amberwave, Server Thunderbolt, Server Starfire and Server Willowbrook. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Darkhorse is connected with Server Willowbrook. \nServer Amberwave is connected with Server Starfire, Server Willowbrook. \nServer Thunderbolt is connected with Server Starfire. \nServer Starfire is connected with Server Willowbrook. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Amberwave",
+     "Server Thunderbolt",
+     "Server Starfire",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 45,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ravenstone",
+   "Server Sunflower",
+   "Server Glacier",
+   "Server Oceanview",
+   "Server Firestorm"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Ravenstone, Server Sunflower, Server Glacier, Server Oceanview and Server Firestorm. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Ravenstone is connected with Server Oceanview, Server Firestorm. \nServer Sunflower is connected with Server Glacier, Server Firestorm. \nServer Glacier is connected with Server Oceanview. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Sunflower",
+     "Server Glacier"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Sunflower",
+     "Server Glacier"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Sunflower",
+     "Server Glacier",
+     "Server Oceanview"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 46,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberlight",
+   "Server Firefly",
+   "Server Brightstar",
+   "Server Amberwave",
+   "Server Ironbark"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Emberlight, Server Firefly, Server Brightstar, Server Amberwave and Server Ironbark. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Emberlight is connected with Server Amberwave, Server Ironbark. \nServer Firefly is connected with Server Brightstar, Server Amberwave, Server Ironbark. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Firefly"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Firefly"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Firefly",
+     "Server Brightstar",
+     "Server Amberwave"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 47,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Willowbrook",
+   "Server Stormbreaker",
+   "Server Darkhorse",
+   "Server Seabreeze",
+   "Server Ravenstone"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Willowbrook, Server Stormbreaker, Server Darkhorse, Server Seabreeze and Server Ravenstone. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Willowbrook is connected with Server Ravenstone. \nServer Stormbreaker is connected with Server Darkhorse, Server Seabreeze. \nServer Darkhorse is connected with Server Seabreeze. \nServer Seabreeze is connected with Server Ravenstone. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Stormbreaker",
+     "Server Seabreeze"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Stormbreaker",
+     "Server Seabreeze"
+    ],
+    "min_vertex": 3,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Stormbreaker",
+     "Server Darkhorse",
+     "Server Seabreeze",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 48,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Oceanview",
+   "Server Falconeye",
+   "Server Shadowbrook",
+   "Server Skyhawk",
+   "Server Silverstone"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Oceanview, Server Falconeye, Server Shadowbrook, Server Skyhawk and Server Silverstone. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Oceanview is connected with Server Falconeye, Server Skyhawk, Server Silverstone. \nServer Falconeye is connected with Server Skyhawk. \nServer Shadowbrook is connected with Server Skyhawk. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Falconeye",
+     "Server Shadowbrook",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 49,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Solarflare",
+   "Server Glacierpeak",
+   "Server Redwood",
+   "Server Tempest",
+   "Server Seabreeze"
+  ],
+  "Q": "Our company has 5 computers connected by several communication links. These computers are named: Server Solarflare, Server Glacierpeak, Server Redwood, Server Tempest and Server Seabreeze. \nTo ensure network security, we need to install monitoring devices (such as firewalls or intrusion detection systems) on some of these computers so that all communication links are monitored. \nAssume that the connections between the computers (i.e., the communication links) are bidirectional. This means that information can flow in both directions across any link. Our goal is to deploy monitoring devices in a way that ensures all communication links are covered by at least one monitoring device. \nProblem: How can we select the minimum number of computers to deploy monitoring devices, such that every communication link is monitored by at least one device? \nCommunication links as follows: : \nServer Solarflare is connected with Server Redwood, Server Tempest, Server Seabreeze. \nServer Glacierpeak is connected with Server Tempest. \nServer Redwood is connected with Server Tempest. \n",
+  "result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Tempest"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Tempest"
+    ],
+    "min_vertex": 2,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Glacierpeak",
+     "Server Redwood",
+     "Server Tempest"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   }
+  }
+ }
+]
