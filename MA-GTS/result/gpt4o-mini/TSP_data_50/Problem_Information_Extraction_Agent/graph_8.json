@@ -1,0 +1,10752 @@
+[
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 0,
+  "adj": [
+   [
+    0,
+    7,
+    2,
+    3,
+    7,
+    6,
+    2,
+    3,
+    5
+   ],
+   [
+    7,
+    0,
+    6,
+    7,
+    7,
+    9,
+    8,
+    3,
+    10
+   ],
+   [
+    2,
+    6,
+    0,
+    5,
+    8,
+    2,
+    6,
+    6,
+    5
+   ],
+   [
+    3,
+    7,
+    5,
+    0,
+    9,
+    5,
+    4,
+    9,
+    3
+   ],
+   [
+    7,
+    7,
+    8,
+    9,
+    0,
+    9,
+    5,
+    9,
+    5
+   ],
+   [
+    6,
+    9,
+    2,
+    5,
+    9,
+    0,
+    3,
+    8,
+    9
+   ],
+   [
+    2,
+    8,
+    6,
+    4,
+    5,
+    3,
+    0,
+    5,
+    3
+   ],
+   [
+    3,
+    3,
+    6,
+    9,
+    9,
+    8,
+    5,
+    0,
+    1
+   ],
+   [
+    5,
+    10,
+    5,
+    3,
+    5,
+    9,
+    3,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Amber Plaza",
+   "Flare Alley",
+   "Azure Gardens",
+   "Granite Plaza",
+   "Velvet Corner",
+   "Quarry Point",
+   "Gilded Archway",
+   "Northwind Tower"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Velvet Corner",
+     "Quarry Point",
+     "Granite Plaza",
+     "Amber Plaza",
+     "Gilded Archway",
+     "Northwind Tower",
+     "Azure Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Gilded Archway",
+     "Northwind Tower",
+     "Amber Plaza",
+     "Granite Plaza",
+     "Quarry Point",
+     "Azure Gardens",
+     "Velvet Corner",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 39,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Velvet Corner",
+     "Quarry Point",
+     "Northwind Tower",
+     "Gilded Archway",
+     "Amber Plaza",
+     "Azure Gardens",
+     "Granite Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 37,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Velvet Corner",
+     "Quarry Point",
+     "Northwind Tower",
+     "Gilded Archway",
+     "Amber Plaza",
+     "Azure Gardens",
+     "Granite Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 37,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Velvet Corner",
+     "Azure Gardens",
+     "Northwind Tower",
+     "Gilded Archway",
+     "Amber Plaza",
+     "Granite Plaza",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Granite Plaza",
+     "Velvet Corner",
+     "Flare Alley",
+     "Amber Plaza",
+     "Gilded Archway",
+     "Northwind Tower",
+     "Azure Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 34,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 1,
+  "adj": [
+   [
+    0,
+    5,
+    6,
+    4,
+    2,
+    1,
+    1,
+    10,
+    9
+   ],
+   [
+    5,
+    0,
+    5,
+    3,
+    9,
+    5,
+    1,
+    9,
+    5
+   ],
+   [
+    6,
+    5,
+    0,
+    6,
+    6,
+    4,
+    3,
+    2,
+    3
+   ],
+   [
+    4,
+    3,
+    6,
+    0,
+    10,
+    8,
+    3,
+    5,
+    5
+   ],
+   [
+    2,
+    9,
+    6,
+    10,
+    0,
+    2,
+    8,
+    5,
+    9
+   ],
+   [
+    1,
+    5,
+    4,
+    8,
+    2,
+    0,
+    4,
+    6,
+    9
+   ],
+   [
+    1,
+    1,
+    3,
+    3,
+    8,
+    4,
+    0,
+    5,
+    4
+   ],
+   [
+    10,
+    9,
+    2,
+    5,
+    5,
+    6,
+    5,
+    0,
+    2
+   ],
+   [
+    9,
+    5,
+    3,
+    5,
+    9,
+    9,
+    4,
+    2,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Sapphire Arena",
+   "Jade Fountain",
+   "Jasper Marina",
+   "Skyline Gardens",
+   "Haven Docks",
+   "Copper Clock Square",
+   "Silvercrest Observatory",
+   "Yarrow Plaza"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Skyline Gardens",
+     "Haven Docks",
+     "Jade Fountain",
+     "Silvercrest Observatory",
+     "Yarrow Plaza",
+     "Jasper Marina",
+     "Sapphire Arena",
+     "Copper Clock Square",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Copper Clock Square",
+     "Jade Fountain",
+     "Silvercrest Observatory",
+     "Yarrow Plaza",
+     "Jasper Marina",
+     "Sapphire Arena",
+     "Skyline Gardens",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Skyline Gardens",
+     "Silvercrest Observatory",
+     "Jade Fountain",
+     "Copper Clock Square",
+     "Sapphire Arena",
+     "Jasper Marina",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Skyline Gardens",
+     "Silvercrest Observatory",
+     "Jade Fountain",
+     "Copper Clock Square",
+     "Sapphire Arena",
+     "Jasper Marina",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Copper Clock Square",
+     "Sapphire Arena",
+     "Jasper Marina",
+     "Yarrow Plaza",
+     "Silvercrest Observatory",
+     "Jade Fountain",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Skyline Gardens",
+     "Silvercrest Observatory",
+     "Jade Fountain",
+     "Yarrow Plaza",
+     "Jasper Marina",
+     "Sapphire Arena",
+     "Copper Clock Square",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled during the delivery route.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 2,
+  "adj": [
+   [
+    0,
+    9,
+    8,
+    3,
+    3,
+    7,
+    10,
+    8,
+    3
+   ],
+   [
+    9,
+    0,
+    3,
+    3,
+    10,
+    10,
+    5,
+    3,
+    6
+   ],
+   [
+    8,
+    3,
+    0,
+    2,
+    7,
+    2,
+    6,
+    9,
+    8
+   ],
+   [
+    3,
+    3,
+    2,
+    0,
+    1,
+    6,
+    4,
+    6,
+    1
+   ],
+   [
+    3,
+    10,
+    7,
+    1,
+    0,
+    2,
+    2,
+    6,
+    3
+   ],
+   [
+    7,
+    10,
+    2,
+    6,
+    2,
+    0,
+    7,
+    1,
+    1
+   ],
+   [
+    10,
+    5,
+    6,
+    4,
+    2,
+    7,
+    0,
+    2,
+    9
+   ],
+   [
+    8,
+    3,
+    9,
+    6,
+    6,
+    1,
+    2,
+    0,
+    10
+   ],
+   [
+    3,
+    6,
+    8,
+    1,
+    3,
+    1,
+    9,
+    10,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Opal Theater",
+   "Umbra Theater",
+   "Haven Docks",
+   "Rosewood Hall",
+   "Copper Clock Square",
+   "Zenith Arena",
+   "Brass Lantern Tavern",
+   "Lunar Pier"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Rosewood Hall",
+     "Zenith Arena",
+     "Brass Lantern Tavern",
+     "Opal Theater",
+     "Umbra Theater",
+     "Copper Clock Square",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Opal Theater",
+     "Umbra Theater",
+     "Haven Docks",
+     "Lunar Pier",
+     "Copper Clock Square",
+     "Brass Lantern Tavern",
+     "Zenith Arena",
+     "Rosewood Hall",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Rosewood Hall",
+     "Copper Clock Square",
+     "Brass Lantern Tavern",
+     "Zenith Arena",
+     "Opal Theater",
+     "Umbra Theater",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Rosewood Hall",
+     "Copper Clock Square",
+     "Brass Lantern Tavern",
+     "Zenith Arena",
+     "Opal Theater",
+     "Umbra Theater",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Rosewood Hall",
+     "Zenith Arena",
+     "Brass Lantern Tavern",
+     "Opal Theater",
+     "Umbra Theater",
+     "Copper Clock Square",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Haven Docks",
+     "Opal Theater",
+     "Umbra Theater",
+     "Zenith Arena",
+     "Brass Lantern Tavern",
+     "Copper Clock Square",
+     "Rosewood Hall",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 1.21
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 3,
+  "adj": [
+   [
+    0,
+    9,
+    6,
+    4,
+    10,
+    9,
+    5,
+    8,
+    4
+   ],
+   [
+    9,
+    0,
+    9,
+    4,
+    5,
+    9,
+    9,
+    8,
+    4
+   ],
+   [
+    6,
+    9,
+    0,
+    1,
+    3,
+    8,
+    9,
+    9,
+    5
+   ],
+   [
+    4,
+    4,
+    1,
+    0,
+    1,
+    2,
+    9,
+    3,
+    5
+   ],
+   [
+    10,
+    5,
+    3,
+    1,
+    0,
+    3,
+    2,
+    1,
+    3
+   ],
+   [
+    9,
+    9,
+    8,
+    2,
+    3,
+    0,
+    2,
+    2,
+    4
+   ],
+   [
+    5,
+    9,
+    9,
+    9,
+    2,
+    2,
+    0,
+    3,
+    9
+   ],
+   [
+    8,
+    8,
+    9,
+    3,
+    1,
+    2,
+    3,
+    0,
+    4
+   ],
+   [
+    4,
+    4,
+    5,
+    5,
+    3,
+    4,
+    9,
+    4,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Granite Plaza",
+   "Umbra Theater",
+   "Maplewood Conservatory",
+   "Cobalt Market",
+   "Brass Lantern Tavern",
+   "Yarrow Plaza",
+   "Azure Gardens",
+   "Opal Theater"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Yarrow Plaza",
+     "Brass Lantern Tavern",
+     "Azure Gardens",
+     "Cobalt Market",
+     "Umbra Theater",
+     "Maplewood Conservatory",
+     "Granite Plaza",
+     "Opal Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Yarrow Plaza",
+     "Cobalt Market",
+     "Azure Gardens",
+     "Brass Lantern Tavern",
+     "Maplewood Conservatory",
+     "Umbra Theater",
+     "Opal Theater",
+     "Granite Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Maplewood Conservatory",
+     "Umbra Theater",
+     "Cobalt Market",
+     "Azure Gardens",
+     "Brass Lantern Tavern",
+     "Yarrow Plaza",
+     "Granite Plaza",
+     "Opal Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Maplewood Conservatory",
+     "Umbra Theater",
+     "Cobalt Market",
+     "Azure Gardens",
+     "Brass Lantern Tavern",
+     "Yarrow Plaza",
+     "Granite Plaza",
+     "Opal Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Yarrow Plaza",
+     "Brass Lantern Tavern",
+     "Azure Gardens",
+     "Cobalt Market",
+     "Umbra Theater",
+     "Maplewood Conservatory",
+     "Granite Plaza",
+     "Opal Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Yarrow Plaza",
+     "Cobalt Market",
+     "Brass Lantern Tavern",
+     "Azure Gardens",
+     "Maplewood Conservatory",
+     "Umbra Theater",
+     "Granite Plaza",
+     "Opal Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 33,
+    "cost_time": 1.21
+   }
+  },
+  "response": "{\n    \"objective\": \"Determine the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 4,
+  "adj": [
+   [
+    0,
+    6,
+    10,
+    8,
+    3,
+    4,
+    10,
+    6,
+    9
+   ],
+   [
+    6,
+    0,
+    5,
+    1,
+    7,
+    8,
+    3,
+    5,
+    9
+   ],
+   [
+    10,
+    5,
+    0,
+    3,
+    9,
+    10,
+    5,
+    1,
+    7
+   ],
+   [
+    8,
+    1,
+    3,
+    0,
+    3,
+    5,
+    2,
+    1,
+    6
+   ],
+   [
+    3,
+    7,
+    9,
+    3,
+    0,
+    3,
+    5,
+    4,
+    1
+   ],
+   [
+    4,
+    8,
+    10,
+    5,
+    3,
+    0,
+    3,
+    8,
+    9
+   ],
+   [
+    10,
+    3,
+    5,
+    2,
+    5,
+    3,
+    0,
+    6,
+    3
+   ],
+   [
+    6,
+    5,
+    1,
+    1,
+    4,
+    8,
+    6,
+    0,
+    2
+   ],
+   [
+    9,
+    9,
+    7,
+    6,
+    1,
+    9,
+    3,
+    2,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Lighthouse Point",
+   "Moonlit Promenade",
+   "Temple Square",
+   "Duskwood Park",
+   "Jasper Marina",
+   "Evergreen Circle",
+   "Amber Plaza",
+   "Echo Station"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Duskwood Park",
+     "Echo Station",
+     "Amber Plaza",
+     "Moonlit Promenade",
+     "Temple Square",
+     "Lighthouse Point",
+     "Evergreen Circle",
+     "Jasper Marina",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Duskwood Park",
+     "Jasper Marina",
+     "Evergreen Circle",
+     "Temple Square",
+     "Lighthouse Point",
+     "Amber Plaza",
+     "Moonlit Promenade",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 34,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Duskwood Park",
+     "Echo Station",
+     "Amber Plaza",
+     "Moonlit Promenade",
+     "Temple Square",
+     "Lighthouse Point",
+     "Evergreen Circle",
+     "Jasper Marina",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Duskwood Park",
+     "Echo Station",
+     "Amber Plaza",
+     "Moonlit Promenade",
+     "Temple Square",
+     "Lighthouse Point",
+     "Evergreen Circle",
+     "Jasper Marina",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Jasper Marina",
+     "Evergreen Circle",
+     "Echo Station",
+     "Amber Plaza",
+     "Moonlit Promenade",
+     "Lighthouse Point",
+     "Temple Square",
+     "Duskwood Park",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Jasper Marina",
+     "Evergreen Circle",
+     "Echo Station",
+     "Amber Plaza",
+     "Moonlit Promenade",
+     "Lighthouse Point",
+     "Temple Square",
+     "Duskwood Park",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 1.22
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 5,
+  "adj": [
+   [
+    0,
+    1,
+    2,
+    1,
+    4,
+    6,
+    9,
+    10,
+    4
+   ],
+   [
+    1,
+    0,
+    8,
+    1,
+    4,
+    6,
+    4,
+    4,
+    7
+   ],
+   [
+    2,
+    8,
+    0,
+    3,
+    5,
+    7,
+    8,
+    5,
+    2
+   ],
+   [
+    1,
+    1,
+    3,
+    0,
+    9,
+    6,
+    1,
+    2,
+    1
+   ],
+   [
+    4,
+    4,
+    5,
+    9,
+    0,
+    5,
+    4,
+    5,
+    5
+   ],
+   [
+    6,
+    6,
+    7,
+    6,
+    5,
+    0,
+    5,
+    1,
+    3
+   ],
+   [
+    9,
+    4,
+    8,
+    1,
+    4,
+    5,
+    0,
+    2,
+    2
+   ],
+   [
+    10,
+    4,
+    5,
+    2,
+    5,
+    1,
+    2,
+    0,
+    9
+   ],
+   [
+    4,
+    7,
+    2,
+    1,
+    5,
+    3,
+    2,
+    9,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Riverstone Wharf",
+   "Cobalt Market",
+   "Amber Plaza",
+   "Union Square Market",
+   "Rosewood Hall",
+   "Umbra Theater",
+   "Jade Fountain",
+   "Mosaic Plaza"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Riverstone Wharf",
+     "Union Square Market",
+     "Rosewood Hall",
+     "Jade Fountain",
+     "Umbra Theater",
+     "Amber Plaza",
+     "Mosaic Plaza",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Union Square Market",
+     "Rosewood Hall",
+     "Jade Fountain",
+     "Amber Plaza",
+     "Mosaic Plaza",
+     "Cobalt Market",
+     "Umbra Theater",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Riverstone Wharf",
+     "Amber Plaza",
+     "Umbra Theater",
+     "Jade Fountain",
+     "Rosewood Hall",
+     "Mosaic Plaza",
+     "Cobalt Market",
+     "Union Square Market",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Riverstone Wharf",
+     "Amber Plaza",
+     "Umbra Theater",
+     "Jade Fountain",
+     "Rosewood Hall",
+     "Mosaic Plaza",
+     "Cobalt Market",
+     "Union Square Market",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Union Square Market",
+     "Rosewood Hall",
+     "Jade Fountain",
+     "Umbra Theater",
+     "Mosaic Plaza",
+     "Amber Plaza",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Riverstone Wharf",
+     "Amber Plaza",
+     "Mosaic Plaza",
+     "Umbra Theater",
+     "Jade Fountain",
+     "Rosewood Hall",
+     "Union Square Market",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 6,
+  "adj": [
+   [
+    0,
+    6,
+    5,
+    9,
+    3,
+    1,
+    9,
+    10,
+    1
+   ],
+   [
+    6,
+    0,
+    1,
+    2,
+    10,
+    2,
+    8,
+    8,
+    3
+   ],
+   [
+    5,
+    1,
+    0,
+    7,
+    5,
+    2,
+    4,
+    8,
+    8
+   ],
+   [
+    9,
+    2,
+    7,
+    0,
+    8,
+    7,
+    6,
+    4,
+    1
+   ],
+   [
+    3,
+    10,
+    5,
+    8,
+    0,
+    2,
+    7,
+    1,
+    9
+   ],
+   [
+    1,
+    2,
+    2,
+    7,
+    2,
+    0,
+    8,
+    6,
+    6
+   ],
+   [
+    9,
+    8,
+    4,
+    6,
+    7,
+    8,
+    0,
+    7,
+    2
+   ],
+   [
+    10,
+    8,
+    8,
+    4,
+    1,
+    6,
+    7,
+    0,
+    1
+   ],
+   [
+    1,
+    3,
+    8,
+    1,
+    9,
+    6,
+    2,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Oakshade Library",
+   "Ironbridge Crossing",
+   "Willowshade Pavilion",
+   "Cobalt Market",
+   "Umbra Theater",
+   "King’s Row",
+   "Dragon’s Gate",
+   "Westgate Station"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Umbra Theater",
+     "Cobalt Market",
+     "Dragon’s Gate",
+     "Willowshade Pavilion",
+     "Oakshade Library",
+     "Ironbridge Crossing",
+     "King’s Row",
+     "Westgate Station",
+     "Warehouse"
+    ],
+    "ans_distance": 18,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "King’s Row",
+     "Ironbridge Crossing",
+     "Oakshade Library",
+     "Willowshade Pavilion",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Umbra Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 18,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Umbra Theater",
+     "Oakshade Library",
+     "Ironbridge Crossing",
+     "King’s Row",
+     "Westgate Station",
+     "Willowshade Pavilion",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Umbra Theater",
+     "Oakshade Library",
+     "Ironbridge Crossing",
+     "King’s Row",
+     "Westgate Station",
+     "Willowshade Pavilion",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Willowshade Pavilion",
+     "Oakshade Library",
+     "Ironbridge Crossing",
+     "King’s Row",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Umbra Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Umbra Theater",
+     "Ironbridge Crossing",
+     "Oakshade Library",
+     "Willowshade Pavilion",
+     "King’s Row",
+     "Westgate Station",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 1.19
+   }
+  },
+  "response": "{\n    \"objective\": \"Determine the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 7,
+  "adj": [
+   [
+    0,
+    7,
+    3,
+    5,
+    3,
+    5,
+    2,
+    3,
+    6
+   ],
+   [
+    7,
+    0,
+    2,
+    10,
+    1,
+    3,
+    7,
+    3,
+    9
+   ],
+   [
+    3,
+    2,
+    0,
+    2,
+    9,
+    10,
+    10,
+    7,
+    9
+   ],
+   [
+    5,
+    10,
+    2,
+    0,
+    2,
+    3,
+    3,
+    7,
+    7
+   ],
+   [
+    3,
+    1,
+    9,
+    2,
+    0,
+    2,
+    9,
+    6,
+    8
+   ],
+   [
+    5,
+    3,
+    10,
+    3,
+    2,
+    0,
+    8,
+    6,
+    7
+   ],
+   [
+    2,
+    7,
+    10,
+    3,
+    9,
+    8,
+    0,
+    10,
+    10
+   ],
+   [
+    3,
+    3,
+    7,
+    7,
+    6,
+    6,
+    10,
+    0,
+    4
+   ],
+   [
+    6,
+    9,
+    9,
+    7,
+    8,
+    7,
+    10,
+    4,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Skyline Gardens",
+   "Moonlit Promenade",
+   "Quartz District",
+   "Dragon’s Gate",
+   "Lunar Pier",
+   "Twilight Harbor",
+   "Sapphire Arena",
+   "Cobalt Market"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Quartz District",
+     "Moonlit Promenade",
+     "Skyline Gardens",
+     "Dragon’s Gate",
+     "Lunar Pier",
+     "Cobalt Market",
+     "Sapphire Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Sapphire Arena",
+     "Cobalt Market",
+     "Lunar Pier",
+     "Dragon’s Gate",
+     "Skyline Gardens",
+     "Moonlit Promenade",
+     "Quartz District",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Quartz District",
+     "Moonlit Promenade",
+     "Skyline Gardens",
+     "Dragon’s Gate",
+     "Lunar Pier",
+     "Sapphire Arena",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Quartz District",
+     "Moonlit Promenade",
+     "Skyline Gardens",
+     "Dragon’s Gate",
+     "Lunar Pier",
+     "Sapphire Arena",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Quartz District",
+     "Moonlit Promenade",
+     "Skyline Gardens",
+     "Sapphire Arena",
+     "Cobalt Market",
+     "Lunar Pier",
+     "Dragon’s Gate",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Lunar Pier",
+     "Dragon’s Gate",
+     "Quartz District",
+     "Moonlit Promenade",
+     "Skyline Gardens",
+     "Cobalt Market",
+     "Sapphire Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 34,
+    "cost_time": 1.22
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 8,
+  "adj": [
+   [
+    0,
+    1,
+    9,
+    8,
+    7,
+    8,
+    5,
+    10,
+    8
+   ],
+   [
+    1,
+    0,
+    8,
+    2,
+    3,
+    10,
+    3,
+    4,
+    8
+   ],
+   [
+    9,
+    8,
+    0,
+    10,
+    6,
+    5,
+    4,
+    4,
+    2
+   ],
+   [
+    8,
+    2,
+    10,
+    0,
+    3,
+    5,
+    3,
+    1,
+    9
+   ],
+   [
+    7,
+    3,
+    6,
+    3,
+    0,
+    4,
+    9,
+    2,
+    1
+   ],
+   [
+    8,
+    10,
+    5,
+    5,
+    4,
+    0,
+    4,
+    6,
+    6
+   ],
+   [
+    5,
+    3,
+    4,
+    3,
+    9,
+    4,
+    0,
+    2,
+    1
+   ],
+   [
+    10,
+    4,
+    4,
+    1,
+    2,
+    6,
+    2,
+    0,
+    2
+   ],
+   [
+    8,
+    8,
+    2,
+    9,
+    1,
+    6,
+    1,
+    2,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Beacon Tower",
+   "Jasper Marina",
+   "Flare Alley",
+   "Dragon’s Gate",
+   "Westgate Station",
+   "Nimbus Plaza",
+   "Skyline Gardens",
+   "Cobalt Market"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Flare Alley",
+     "Skyline Gardens",
+     "Dragon’s Gate",
+     "Westgate Station",
+     "Jasper Marina",
+     "Cobalt Market",
+     "Nimbus Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Nimbus Plaza",
+     "Cobalt Market",
+     "Dragon’s Gate",
+     "Westgate Station",
+     "Jasper Marina",
+     "Skyline Gardens",
+     "Flare Alley",
+     "Beacon Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Flare Alley",
+     "Skyline Gardens",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Nimbus Plaza",
+     "Jasper Marina",
+     "Westgate Station",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Flare Alley",
+     "Skyline Gardens",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Nimbus Plaza",
+     "Jasper Marina",
+     "Westgate Station",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Nimbus Plaza",
+     "Cobalt Market",
+     "Jasper Marina",
+     "Westgate Station",
+     "Dragon’s Gate",
+     "Skyline Gardens",
+     "Flare Alley",
+     "Beacon Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Nimbus Plaza",
+     "Westgate Station",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Jasper Marina",
+     "Skyline Gardens",
+     "Flare Alley",
+     "Beacon Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 9,
+  "adj": [
+   [
+    0,
+    9,
+    4,
+    5,
+    8,
+    1,
+    9,
+    2,
+    8
+   ],
+   [
+    9,
+    0,
+    9,
+    10,
+    10,
+    9,
+    4,
+    9,
+    1
+   ],
+   [
+    4,
+    9,
+    0,
+    1,
+    6,
+    2,
+    5,
+    1,
+    9
+   ],
+   [
+    5,
+    10,
+    1,
+    0,
+    8,
+    10,
+    3,
+    8,
+    5
+   ],
+   [
+    8,
+    10,
+    6,
+    8,
+    0,
+    4,
+    9,
+    5,
+    8
+   ],
+   [
+    1,
+    9,
+    2,
+    10,
+    4,
+    0,
+    4,
+    7,
+    1
+   ],
+   [
+    9,
+    4,
+    5,
+    3,
+    9,
+    4,
+    0,
+    2,
+    6
+   ],
+   [
+    2,
+    9,
+    1,
+    8,
+    5,
+    7,
+    2,
+    0,
+    2
+   ],
+   [
+    8,
+    1,
+    9,
+    5,
+    8,
+    1,
+    6,
+    2,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Oakshade Library",
+   "Twilight Harbor",
+   "Quarry Point",
+   "Amber Plaza",
+   "Temple Square",
+   "Westgate Station",
+   "Echo Station",
+   "Maplewood Conservatory"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Amber Plaza",
+     "Twilight Harbor",
+     "Quarry Point",
+     "Westgate Station",
+     "Oakshade Library",
+     "Maplewood Conservatory",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Westgate Station",
+     "Twilight Harbor",
+     "Quarry Point",
+     "Oakshade Library",
+     "Maplewood Conservatory",
+     "Temple Square",
+     "Amber Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 34,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Maplewood Conservatory",
+     "Oakshade Library",
+     "Westgate Station",
+     "Echo Station",
+     "Twilight Harbor",
+     "Quarry Point",
+     "Amber Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Maplewood Conservatory",
+     "Oakshade Library",
+     "Westgate Station",
+     "Echo Station",
+     "Twilight Harbor",
+     "Quarry Point",
+     "Amber Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Amber Plaza",
+     "Twilight Harbor",
+     "Quarry Point",
+     "Westgate Station",
+     "Oakshade Library",
+     "Maplewood Conservatory",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Twilight Harbor",
+     "Amber Plaza",
+     "Temple Square",
+     "Maplewood Conservatory",
+     "Oakshade Library",
+     "Westgate Station",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 10,
+  "adj": [
+   [
+    0,
+    2,
+    4,
+    10,
+    10,
+    7,
+    9,
+    8,
+    10
+   ],
+   [
+    2,
+    0,
+    2,
+    8,
+    1,
+    5,
+    5,
+    4,
+    9
+   ],
+   [
+    4,
+    2,
+    0,
+    6,
+    5,
+    6,
+    7,
+    6,
+    10
+   ],
+   [
+    10,
+    8,
+    6,
+    0,
+    10,
+    2,
+    4,
+    3,
+    2
+   ],
+   [
+    10,
+    1,
+    5,
+    10,
+    0,
+    3,
+    10,
+    8,
+    3
+   ],
+   [
+    7,
+    5,
+    6,
+    2,
+    3,
+    0,
+    6,
+    7,
+    4
+   ],
+   [
+    9,
+    5,
+    7,
+    4,
+    10,
+    6,
+    0,
+    6,
+    3
+   ],
+   [
+    8,
+    4,
+    6,
+    3,
+    8,
+    7,
+    6,
+    0,
+    5
+   ],
+   [
+    10,
+    9,
+    10,
+    2,
+    3,
+    4,
+    3,
+    5,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Horizon Mall",
+   "Oakshade Library",
+   "King’s Row",
+   "Temple Square",
+   "Primrose Boulevard",
+   "Ironbridge Crossing",
+   "Yarrow Plaza",
+   "Westgate Station"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Horizon Mall",
+     "Temple Square",
+     "Primrose Boulevard",
+     "King’s Row",
+     "Westgate Station",
+     "Ironbridge Crossing",
+     "Yarrow Plaza",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Horizon Mall",
+     "Ironbridge Crossing",
+     "Westgate Station",
+     "King’s Row",
+     "Yarrow Plaza",
+     "Primrose Boulevard",
+     "Temple Square",
+     "Warehouse"
+    ],
+    "ans_distance": 39,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Horizon Mall",
+     "Temple Square",
+     "Primrose Boulevard",
+     "King’s Row",
+     "Westgate Station",
+     "Ironbridge Crossing",
+     "Yarrow Plaza",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Horizon Mall",
+     "Temple Square",
+     "Primrose Boulevard",
+     "King’s Row",
+     "Westgate Station",
+     "Ironbridge Crossing",
+     "Yarrow Plaza",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Horizon Mall",
+     "Temple Square",
+     "Westgate Station",
+     "Ironbridge Crossing",
+     "Yarrow Plaza",
+     "King’s Row",
+     "Primrose Boulevard",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Temple Square",
+     "Horizon Mall",
+     "Ironbridge Crossing",
+     "Westgate Station",
+     "King’s Row",
+     "Primrose Boulevard",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 37,
+    "cost_time": 1.21
+   }
+  },
+  "response": "{\n    \"objective\": \"Determine the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 11,
+  "adj": [
+   [
+    0,
+    3,
+    8,
+    3,
+    9,
+    1,
+    2,
+    3,
+    8
+   ],
+   [
+    3,
+    0,
+    2,
+    5,
+    1,
+    5,
+    1,
+    1,
+    10
+   ],
+   [
+    8,
+    2,
+    0,
+    3,
+    9,
+    3,
+    4,
+    9,
+    10
+   ],
+   [
+    3,
+    5,
+    3,
+    0,
+    2,
+    9,
+    6,
+    6,
+    2
+   ],
+   [
+    9,
+    1,
+    9,
+    2,
+    0,
+    4,
+    2,
+    8,
+    2
+   ],
+   [
+    1,
+    5,
+    3,
+    9,
+    4,
+    0,
+    5,
+    2,
+    9
+   ],
+   [
+    2,
+    1,
+    4,
+    6,
+    2,
+    5,
+    0,
+    1,
+    8
+   ],
+   [
+    3,
+    1,
+    9,
+    6,
+    8,
+    2,
+    1,
+    0,
+    10
+   ],
+   [
+    8,
+    10,
+    10,
+    2,
+    2,
+    9,
+    8,
+    10,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Lunar Pier",
+   "Yarrow Plaza",
+   "Primrose Boulevard",
+   "Dragon’s Gate",
+   "Silvercrest Observatory",
+   "Copper Clock Square",
+   "Umbra Theater",
+   "Cobalt Market"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Silvercrest Observatory",
+     "Yarrow Plaza",
+     "Primrose Boulevard",
+     "Cobalt Market",
+     "Dragon’s Gate",
+     "Lunar Pier",
+     "Umbra Theater",
+     "Copper Clock Square",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Copper Clock Square",
+     "Lunar Pier",
+     "Yarrow Plaza",
+     "Cobalt Market",
+     "Primrose Boulevard",
+     "Dragon’s Gate",
+     "Umbra Theater",
+     "Silvercrest Observatory",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Silvercrest Observatory",
+     "Umbra Theater",
+     "Lunar Pier",
+     "Dragon’s Gate",
+     "Primrose Boulevard",
+     "Cobalt Market",
+     "Copper Clock Square",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Silvercrest Observatory",
+     "Umbra Theater",
+     "Lunar Pier",
+     "Dragon’s Gate",
+     "Primrose Boulevard",
+     "Cobalt Market",
+     "Copper Clock Square",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Cobalt Market",
+     "Dragon’s Gate",
+     "Copper Clock Square",
+     "Lunar Pier",
+     "Yarrow Plaza",
+     "Silvercrest Observatory",
+     "Umbra Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Silvercrest Observatory",
+     "Yarrow Plaza",
+     "Lunar Pier",
+     "Umbra Theater",
+     "Copper Clock Square",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Primrose Boulevard",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 12,
+  "adj": [
+   [
+    0,
+    9,
+    3,
+    3,
+    6,
+    8,
+    2,
+    9,
+    4
+   ],
+   [
+    9,
+    0,
+    9,
+    7,
+    9,
+    1,
+    5,
+    1,
+    3
+   ],
+   [
+    3,
+    9,
+    0,
+    8,
+    8,
+    2,
+    6,
+    3,
+    3
+   ],
+   [
+    3,
+    7,
+    8,
+    0,
+    2,
+    4,
+    8,
+    3,
+    6
+   ],
+   [
+    6,
+    9,
+    8,
+    2,
+    0,
+    9,
+    9,
+    2,
+    1
+   ],
+   [
+    8,
+    1,
+    2,
+    4,
+    9,
+    0,
+    1,
+    7,
+    9
+   ],
+   [
+    2,
+    5,
+    6,
+    8,
+    9,
+    1,
+    0,
+    1,
+    8
+   ],
+   [
+    9,
+    1,
+    3,
+    3,
+    2,
+    7,
+    1,
+    0,
+    7
+   ],
+   [
+    4,
+    3,
+    3,
+    6,
+    1,
+    9,
+    8,
+    7,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Jasper Marina",
+   "Ivory Spire Cathedral",
+   "Quartz District",
+   "Twilight Harbor",
+   "Evergreen Circle",
+   "Echo Station",
+   "Union Square Market",
+   "Flare Alley"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Twilight Harbor",
+     "Flare Alley",
+     "Ivory Spire Cathedral",
+     "Evergreen Circle",
+     "Jasper Marina",
+     "Union Square Market",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Twilight Harbor",
+     "Flare Alley",
+     "Union Square Market",
+     "Jasper Marina",
+     "Evergreen Circle",
+     "Ivory Spire Cathedral",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Evergreen Circle",
+     "Jasper Marina",
+     "Union Square Market",
+     "Twilight Harbor",
+     "Flare Alley",
+     "Ivory Spire Cathedral",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Evergreen Circle",
+     "Jasper Marina",
+     "Union Square Market",
+     "Twilight Harbor",
+     "Flare Alley",
+     "Ivory Spire Cathedral",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Evergreen Circle",
+     "Echo Station",
+     "Union Square Market",
+     "Jasper Marina",
+     "Flare Alley",
+     "Twilight Harbor",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Twilight Harbor",
+     "Flare Alley",
+     "Jasper Marina",
+     "Union Square Market",
+     "Echo Station",
+     "Evergreen Circle",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 1.19
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 13,
+  "adj": [
+   [
+    0,
+    1,
+    5,
+    4,
+    2,
+    9,
+    10,
+    1,
+    9
+   ],
+   [
+    1,
+    0,
+    7,
+    1,
+    5,
+    10,
+    6,
+    5,
+    8
+   ],
+   [
+    5,
+    7,
+    0,
+    5,
+    8,
+    6,
+    10,
+    4,
+    5
+   ],
+   [
+    4,
+    1,
+    5,
+    0,
+    9,
+    7,
+    1,
+    8,
+    2
+   ],
+   [
+    2,
+    5,
+    8,
+    9,
+    0,
+    8,
+    10,
+    3,
+    5
+   ],
+   [
+    9,
+    10,
+    6,
+    7,
+    8,
+    0,
+    10,
+    10,
+    4
+   ],
+   [
+    10,
+    6,
+    10,
+    1,
+    10,
+    10,
+    0,
+    3,
+    10
+   ],
+   [
+    1,
+    5,
+    4,
+    8,
+    3,
+    10,
+    3,
+    0,
+    6
+   ],
+   [
+    9,
+    8,
+    5,
+    2,
+    5,
+    4,
+    10,
+    6,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Zenith Arena",
+   "Flare Alley",
+   "Amber Plaza",
+   "Granite Plaza",
+   "Brass Lantern Tavern",
+   "Westgate Station",
+   "Jade Fountain",
+   "Beacon Tower"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Amber Plaza",
+     "Westgate Station",
+     "Jade Fountain",
+     "Flare Alley",
+     "Brass Lantern Tavern",
+     "Beacon Tower",
+     "Granite Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Granite Plaza",
+     "Jade Fountain",
+     "Flare Alley",
+     "Brass Lantern Tavern",
+     "Beacon Tower",
+     "Amber Plaza",
+     "Westgate Station",
+     "Zenith Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Amber Plaza",
+     "Westgate Station",
+     "Jade Fountain",
+     "Granite Plaza",
+     "Beacon Tower",
+     "Brass Lantern Tavern",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Amber Plaza",
+     "Westgate Station",
+     "Jade Fountain",
+     "Granite Plaza",
+     "Beacon Tower",
+     "Brass Lantern Tavern",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Flare Alley",
+     "Brass Lantern Tavern",
+     "Beacon Tower",
+     "Amber Plaza",
+     "Westgate Station",
+     "Jade Fountain",
+     "Granite Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Granite Plaza",
+     "Flare Alley",
+     "Brass Lantern Tavern",
+     "Beacon Tower",
+     "Amber Plaza",
+     "Zenith Arena",
+     "Westgate Station",
+     "Jade Fountain",
+     "Warehouse"
+    ],
+    "ans_distance": 33,
+    "cost_time": 1.21
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 14,
+  "adj": [
+   [
+    0,
+    8,
+    10,
+    1,
+    4,
+    4,
+    7,
+    4,
+    8
+   ],
+   [
+    8,
+    0,
+    9,
+    9,
+    5,
+    7,
+    2,
+    6,
+    10
+   ],
+   [
+    10,
+    9,
+    0,
+    3,
+    8,
+    8,
+    2,
+    7,
+    9
+   ],
+   [
+    1,
+    9,
+    3,
+    0,
+    8,
+    2,
+    7,
+    2,
+    7
+   ],
+   [
+    4,
+    5,
+    8,
+    8,
+    0,
+    10,
+    8,
+    9,
+    5
+   ],
+   [
+    4,
+    7,
+    8,
+    2,
+    10,
+    0,
+    8,
+    10,
+    1
+   ],
+   [
+    7,
+    2,
+    2,
+    7,
+    8,
+    8,
+    0,
+    9,
+    3
+   ],
+   [
+    4,
+    6,
+    7,
+    2,
+    9,
+    10,
+    9,
+    0,
+    5
+   ],
+   [
+    8,
+    10,
+    9,
+    7,
+    5,
+    1,
+    3,
+    5,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Quarry Point",
+   "Dragon’s Gate",
+   "Union Square Market",
+   "Flint Forge Quarter",
+   "Lighthouse Point",
+   "Riverstone Wharf",
+   "Granite Plaza",
+   "Yarrow Plaza"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Quarry Point",
+     "Riverstone Wharf",
+     "Dragon’s Gate",
+     "Union Square Market",
+     "Lighthouse Point",
+     "Yarrow Plaza",
+     "Granite Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Quarry Point",
+     "Riverstone Wharf",
+     "Dragon’s Gate",
+     "Union Square Market",
+     "Granite Plaza",
+     "Yarrow Plaza",
+     "Lighthouse Point",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Union Square Market",
+     "Lighthouse Point",
+     "Yarrow Plaza",
+     "Riverstone Wharf",
+     "Quarry Point",
+     "Flint Forge Quarter",
+     "Dragon’s Gate",
+     "Granite Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 33,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Union Square Market",
+     "Lighthouse Point",
+     "Yarrow Plaza",
+     "Riverstone Wharf",
+     "Quarry Point",
+     "Flint Forge Quarter",
+     "Dragon’s Gate",
+     "Granite Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 33,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Riverstone Wharf",
+     "Dragon’s Gate",
+     "Union Square Market",
+     "Lighthouse Point",
+     "Yarrow Plaza",
+     "Granite Plaza",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 36,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Granite Plaza",
+     "Yarrow Plaza",
+     "Lighthouse Point",
+     "Flint Forge Quarter",
+     "Quarry Point",
+     "Riverstone Wharf",
+     "Dragon’s Gate",
+     "Union Square Market",
+     "Warehouse"
+    ],
+    "ans_distance": 33,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 15,
+  "adj": [
+   [
+    0,
+    10,
+    4,
+    4,
+    1,
+    8,
+    9,
+    2,
+    2
+   ],
+   [
+    10,
+    0,
+    2,
+    9,
+    7,
+    1,
+    2,
+    10,
+    8
+   ],
+   [
+    4,
+    2,
+    0,
+    4,
+    7,
+    4,
+    1,
+    7,
+    1
+   ],
+   [
+    4,
+    9,
+    4,
+    0,
+    7,
+    5,
+    3,
+    7,
+    8
+   ],
+   [
+    1,
+    7,
+    7,
+    7,
+    0,
+    10,
+    3,
+    2,
+    5
+   ],
+   [
+    8,
+    1,
+    4,
+    5,
+    10,
+    0,
+    8,
+    6,
+    4
+   ],
+   [
+    9,
+    2,
+    1,
+    3,
+    3,
+    8,
+    0,
+    10,
+    10
+   ],
+   [
+    2,
+    10,
+    7,
+    7,
+    2,
+    6,
+    10,
+    0,
+    6
+   ],
+   [
+    2,
+    8,
+    1,
+    8,
+    5,
+    4,
+    10,
+    6,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Rosewood Hall",
+   "Horizon Mall",
+   "Flare Alley",
+   "Flint Forge Quarter",
+   "Velvet Corner",
+   "Gilded Archway",
+   "Lunar Pier",
+   "Riverstone Wharf"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Flint Forge Quarter",
+     "Gilded Archway",
+     "Flare Alley",
+     "Velvet Corner",
+     "Rosewood Hall",
+     "Horizon Mall",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Gilded Archway",
+     "Horizon Mall",
+     "Velvet Corner",
+     "Rosewood Hall",
+     "Riverstone Wharf",
+     "Lunar Pier",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Lunar Pier",
+     "Velvet Corner",
+     "Rosewood Hall",
+     "Horizon Mall",
+     "Gilded Archway",
+     "Flare Alley",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Lunar Pier",
+     "Velvet Corner",
+     "Rosewood Hall",
+     "Horizon Mall",
+     "Gilded Archway",
+     "Flare Alley",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Flint Forge Quarter",
+     "Riverstone Wharf",
+     "Horizon Mall",
+     "Gilded Archway",
+     "Rosewood Hall",
+     "Velvet Corner",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Gilded Archway",
+     "Rosewood Hall",
+     "Riverstone Wharf",
+     "Horizon Mall",
+     "Velvet Corner",
+     "Lunar Pier",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 16,
+  "adj": [
+   [
+    0,
+    5,
+    10,
+    4,
+    1,
+    8,
+    5,
+    3,
+    2
+   ],
+   [
+    5,
+    0,
+    3,
+    5,
+    4,
+    2,
+    7,
+    10,
+    5
+   ],
+   [
+    10,
+    3,
+    0,
+    1,
+    7,
+    9,
+    9,
+    10,
+    6
+   ],
+   [
+    4,
+    5,
+    1,
+    0,
+    1,
+    8,
+    1,
+    5,
+    6
+   ],
+   [
+    1,
+    4,
+    7,
+    1,
+    0,
+    9,
+    5,
+    10,
+    5
+   ],
+   [
+    8,
+    2,
+    9,
+    8,
+    9,
+    0,
+    4,
+    6,
+    8
+   ],
+   [
+    5,
+    7,
+    9,
+    1,
+    5,
+    4,
+    0,
+    1,
+    8
+   ],
+   [
+    3,
+    10,
+    10,
+    5,
+    10,
+    6,
+    1,
+    0,
+    1
+   ],
+   [
+    2,
+    5,
+    6,
+    6,
+    5,
+    8,
+    8,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Amber Plaza",
+   "Dragon’s Gate",
+   "Lunar Pier",
+   "Quartz District",
+   "Moonlit Promenade",
+   "Westgate Station",
+   "Opal Theater",
+   "Flare Alley"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Lunar Pier",
+     "Dragon’s Gate",
+     "Amber Plaza",
+     "Moonlit Promenade",
+     "Westgate Station",
+     "Opal Theater",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Opal Theater",
+     "Westgate Station",
+     "Lunar Pier",
+     "Moonlit Promenade",
+     "Amber Plaza",
+     "Dragon’s Gate",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Lunar Pier",
+     "Dragon’s Gate",
+     "Amber Plaza",
+     "Moonlit Promenade",
+     "Westgate Station",
+     "Opal Theater",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Lunar Pier",
+     "Dragon’s Gate",
+     "Amber Plaza",
+     "Moonlit Promenade",
+     "Westgate Station",
+     "Opal Theater",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Quartz District",
+     "Lunar Pier",
+     "Dragon’s Gate",
+     "Amber Plaza",
+     "Moonlit Promenade",
+     "Westgate Station",
+     "Opal Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Opal Theater",
+     "Westgate Station",
+     "Moonlit Promenade",
+     "Amber Plaza",
+     "Dragon’s Gate",
+     "Lunar Pier",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 1.21
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 17,
+  "adj": [
+   [
+    0,
+    9,
+    2,
+    2,
+    5,
+    10,
+    5,
+    1,
+    10
+   ],
+   [
+    9,
+    0,
+    4,
+    1,
+    6,
+    2,
+    7,
+    9,
+    2
+   ],
+   [
+    2,
+    4,
+    0,
+    2,
+    2,
+    10,
+    6,
+    10,
+    6
+   ],
+   [
+    2,
+    1,
+    2,
+    0,
+    1,
+    7,
+    4,
+    10,
+    6
+   ],
+   [
+    5,
+    6,
+    2,
+    1,
+    0,
+    2,
+    5,
+    1,
+    10
+   ],
+   [
+    10,
+    2,
+    10,
+    7,
+    2,
+    0,
+    8,
+    10,
+    7
+   ],
+   [
+    5,
+    7,
+    6,
+    4,
+    5,
+    8,
+    0,
+    9,
+    10
+   ],
+   [
+    1,
+    9,
+    10,
+    10,
+    1,
+    10,
+    9,
+    0,
+    10
+   ],
+   [
+    10,
+    2,
+    6,
+    6,
+    10,
+    7,
+    10,
+    10,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Horizon Mall",
+   "King’s Row",
+   "Jasper Marina",
+   "Union Square Market",
+   "Twilight Harbor",
+   "Copper Clock Square",
+   "Ivory Spire Cathedral",
+   "Lighthouse Point"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Copper Clock Square",
+     "Jasper Marina",
+     "King’s Row",
+     "Lighthouse Point",
+     "Horizon Mall",
+     "Twilight Harbor",
+     "Union Square Market",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "King’s Row",
+     "Lighthouse Point",
+     "Horizon Mall",
+     "Twilight Harbor",
+     "Jasper Marina",
+     "Copper Clock Square",
+     "Union Square Market",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Union Square Market",
+     "Jasper Marina",
+     "Horizon Mall",
+     "Twilight Harbor",
+     "Lighthouse Point",
+     "King’s Row",
+     "Copper Clock Square",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Union Square Market",
+     "Jasper Marina",
+     "Horizon Mall",
+     "Twilight Harbor",
+     "Lighthouse Point",
+     "King’s Row",
+     "Copper Clock Square",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Copper Clock Square",
+     "Jasper Marina",
+     "King’s Row",
+     "Lighthouse Point",
+     "Horizon Mall",
+     "Twilight Harbor",
+     "Union Square Market",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Union Square Market",
+     "Twilight Harbor",
+     "Horizon Mall",
+     "Lighthouse Point",
+     "King’s Row",
+     "Jasper Marina",
+     "Copper Clock Square",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 1.19
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 18,
+  "adj": [
+   [
+    0,
+    6,
+    6,
+    3,
+    7,
+    6,
+    7,
+    9,
+    3
+   ],
+   [
+    6,
+    0,
+    9,
+    9,
+    3,
+    10,
+    1,
+    1,
+    6
+   ],
+   [
+    6,
+    9,
+    0,
+    8,
+    10,
+    5,
+    2,
+    8,
+    3
+   ],
+   [
+    3,
+    9,
+    8,
+    0,
+    3,
+    3,
+    9,
+    10,
+    7
+   ],
+   [
+    7,
+    3,
+    10,
+    3,
+    0,
+    5,
+    4,
+    9,
+    6
+   ],
+   [
+    6,
+    10,
+    5,
+    3,
+    5,
+    0,
+    10,
+    8,
+    10
+   ],
+   [
+    7,
+    1,
+    2,
+    9,
+    4,
+    10,
+    0,
+    4,
+    8
+   ],
+   [
+    9,
+    1,
+    8,
+    10,
+    9,
+    8,
+    4,
+    0,
+    6
+   ],
+   [
+    3,
+    6,
+    3,
+    7,
+    6,
+    10,
+    8,
+    6,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Ivory Spire Cathedral",
+   "Flint Forge Quarter",
+   "Amber Plaza",
+   "Dragon’s Gate",
+   "Skyline Gardens",
+   "Haven Docks",
+   "Lunar Pier",
+   "Evergreen Circle"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Skyline Gardens",
+     "Dragon’s Gate",
+     "Ivory Spire Cathedral",
+     "Lunar Pier",
+     "Haven Docks",
+     "Flint Forge Quarter",
+     "Evergreen Circle",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Evergreen Circle",
+     "Flint Forge Quarter",
+     "Haven Docks",
+     "Ivory Spire Cathedral",
+     "Lunar Pier",
+     "Dragon’s Gate",
+     "Skyline Gardens",
+     "Amber Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Dragon’s Gate",
+     "Ivory Spire Cathedral",
+     "Haven Docks",
+     "Flint Forge Quarter",
+     "Evergreen Circle",
+     "Lunar Pier",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Dragon’s Gate",
+     "Ivory Spire Cathedral",
+     "Haven Docks",
+     "Flint Forge Quarter",
+     "Evergreen Circle",
+     "Lunar Pier",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Skyline Gardens",
+     "Dragon’s Gate",
+     "Ivory Spire Cathedral",
+     "Lunar Pier",
+     "Haven Docks",
+     "Flint Forge Quarter",
+     "Evergreen Circle",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Evergreen Circle",
+     "Flint Forge Quarter",
+     "Haven Docks",
+     "Ivory Spire Cathedral",
+     "Lunar Pier",
+     "Dragon’s Gate",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 37,
+    "cost_time": 1.19
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 19,
+  "adj": [
+   [
+    0,
+    3,
+    6,
+    2,
+    8,
+    3,
+    7,
+    4,
+    9
+   ],
+   [
+    3,
+    0,
+    7,
+    9,
+    7,
+    8,
+    8,
+    8,
+    5
+   ],
+   [
+    6,
+    7,
+    0,
+    9,
+    4,
+    3,
+    1,
+    9,
+    5
+   ],
+   [
+    2,
+    9,
+    9,
+    0,
+    3,
+    9,
+    9,
+    3,
+    4
+   ],
+   [
+    8,
+    7,
+    4,
+    3,
+    0,
+    3,
+    6,
+    7,
+    9
+   ],
+   [
+    3,
+    8,
+    3,
+    9,
+    3,
+    0,
+    8,
+    2,
+    5
+   ],
+   [
+    7,
+    8,
+    1,
+    9,
+    6,
+    8,
+    0,
+    5,
+    2
+   ],
+   [
+    4,
+    8,
+    9,
+    3,
+    7,
+    2,
+    5,
+    0,
+    1
+   ],
+   [
+    9,
+    5,
+    5,
+    4,
+    9,
+    5,
+    2,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Cobalt Market",
+   "Haven Docks",
+   "Willowshade Pavilion",
+   "Knight’s Market",
+   "Azure Gardens",
+   "Jade Fountain",
+   "Northwind Tower",
+   "Ivory Spire Cathedral"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Haven Docks",
+     "Jade Fountain",
+     "Ivory Spire Cathedral",
+     "Northwind Tower",
+     "Azure Gardens",
+     "Knight’s Market",
+     "Willowshade Pavilion",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Azure Gardens",
+     "Northwind Tower",
+     "Ivory Spire Cathedral",
+     "Jade Fountain",
+     "Haven Docks",
+     "Knight’s Market",
+     "Willowshade Pavilion",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Willowshade Pavilion",
+     "Knight’s Market",
+     "Azure Gardens",
+     "Northwind Tower",
+     "Ivory Spire Cathedral",
+     "Jade Fountain",
+     "Haven Docks",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Willowshade Pavilion",
+     "Knight’s Market",
+     "Azure Gardens",
+     "Northwind Tower",
+     "Ivory Spire Cathedral",
+     "Jade Fountain",
+     "Haven Docks",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Haven Docks",
+     "Jade Fountain",
+     "Ivory Spire Cathedral",
+     "Northwind Tower",
+     "Azure Gardens",
+     "Knight’s Market",
+     "Willowshade Pavilion",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Willowshade Pavilion",
+     "Ivory Spire Cathedral",
+     "Jade Fountain",
+     "Haven Docks",
+     "Azure Gardens",
+     "Northwind Tower",
+     "Knight’s Market",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 1.22
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 20,
+  "adj": [
+   [
+    0,
+    3,
+    1,
+    9,
+    5,
+    1,
+    10,
+    9,
+    6
+   ],
+   [
+    3,
+    0,
+    6,
+    7,
+    1,
+    9,
+    4,
+    3,
+    6
+   ],
+   [
+    1,
+    6,
+    0,
+    1,
+    6,
+    5,
+    8,
+    6,
+    1
+   ],
+   [
+    9,
+    7,
+    1,
+    0,
+    5,
+    6,
+    3,
+    7,
+    2
+   ],
+   [
+    5,
+    1,
+    6,
+    5,
+    0,
+    9,
+    5,
+    6,
+    10
+   ],
+   [
+    1,
+    9,
+    5,
+    6,
+    9,
+    0,
+    10,
+    8,
+    9
+   ],
+   [
+    10,
+    4,
+    8,
+    3,
+    5,
+    10,
+    0,
+    8,
+    4
+   ],
+   [
+    9,
+    3,
+    6,
+    7,
+    6,
+    8,
+    8,
+    0,
+    9
+   ],
+   [
+    6,
+    6,
+    1,
+    2,
+    10,
+    9,
+    4,
+    9,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Sapphire Arena",
+   "Yarrow Plaza",
+   "King’s Row",
+   "Nimbus Plaza",
+   "Quartz District",
+   "Westgate Station",
+   "Primrose Boulevard",
+   "Copper Clock Square"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Yarrow Plaza",
+     "Copper Clock Square",
+     "King’s Row",
+     "Westgate Station",
+     "Nimbus Plaza",
+     "Sapphire Arena",
+     "Primrose Boulevard",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Sapphire Arena",
+     "Primrose Boulevard",
+     "Nimbus Plaza",
+     "Westgate Station",
+     "King’s Row",
+     "Yarrow Plaza",
+     "Copper Clock Square",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Yarrow Plaza",
+     "King’s Row",
+     "Copper Clock Square",
+     "Westgate Station",
+     "Sapphire Arena",
+     "Nimbus Plaza",
+     "Primrose Boulevard",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Yarrow Plaza",
+     "King’s Row",
+     "Copper Clock Square",
+     "Westgate Station",
+     "Sapphire Arena",
+     "Nimbus Plaza",
+     "Primrose Boulevard",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Nimbus Plaza",
+     "Sapphire Arena",
+     "Primrose Boulevard",
+     "Westgate Station",
+     "King’s Row",
+     "Copper Clock Square",
+     "Yarrow Plaza",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Primrose Boulevard",
+     "Sapphire Arena",
+     "Nimbus Plaza",
+     "Westgate Station",
+     "King’s Row",
+     "Copper Clock Square",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Determine the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 21,
+  "adj": [
+   [
+    0,
+    9,
+    7,
+    2,
+    3,
+    7,
+    7,
+    7,
+    4
+   ],
+   [
+    9,
+    0,
+    1,
+    8,
+    2,
+    2,
+    5,
+    8,
+    9
+   ],
+   [
+    7,
+    1,
+    0,
+    4,
+    7,
+    3,
+    9,
+    2,
+    4
+   ],
+   [
+    2,
+    8,
+    4,
+    0,
+    7,
+    5,
+    4,
+    10,
+    6
+   ],
+   [
+    3,
+    2,
+    7,
+    7,
+    0,
+    10,
+    9,
+    7,
+    5
+   ],
+   [
+    7,
+    2,
+    3,
+    5,
+    10,
+    0,
+    6,
+    7,
+    2
+   ],
+   [
+    7,
+    5,
+    9,
+    4,
+    9,
+    6,
+    0,
+    5,
+    5
+   ],
+   [
+    7,
+    8,
+    2,
+    10,
+    7,
+    7,
+    5,
+    0,
+    5
+   ],
+   [
+    4,
+    9,
+    4,
+    6,
+    5,
+    2,
+    5,
+    5,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Ivory Spire Cathedral",
+   "Union Square Market",
+   "Quarry Point",
+   "Oakshade Library",
+   "Shadowbridge Arcade",
+   "Granite Plaza",
+   "Moonlit Promenade",
+   "Rosewood Hall"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Granite Plaza",
+     "Moonlit Promenade",
+     "Union Square Market",
+     "Ivory Spire Cathedral",
+     "Shadowbridge Arcade",
+     "Rosewood Hall",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Ivory Spire Cathedral",
+     "Shadowbridge Arcade",
+     "Rosewood Hall",
+     "Moonlit Promenade",
+     "Union Square Market",
+     "Granite Plaza",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Union Square Market",
+     "Ivory Spire Cathedral",
+     "Oakshade Library",
+     "Rosewood Hall",
+     "Shadowbridge Arcade",
+     "Granite Plaza",
+     "Moonlit Promenade",
+     "Warehouse"
+    ],
+    "ans_distance": 34,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Union Square Market",
+     "Ivory Spire Cathedral",
+     "Oakshade Library",
+     "Rosewood Hall",
+     "Shadowbridge Arcade",
+     "Granite Plaza",
+     "Moonlit Promenade",
+     "Warehouse"
+    ],
+    "ans_distance": 34,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Granite Plaza",
+     "Moonlit Promenade",
+     "Union Square Market",
+     "Ivory Spire Cathedral",
+     "Shadowbridge Arcade",
+     "Rosewood Hall",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Ivory Spire Cathedral",
+     "Shadowbridge Arcade",
+     "Union Square Market",
+     "Moonlit Promenade",
+     "Granite Plaza",
+     "Quarry Point",
+     "Rosewood Hall",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled during the delivery route.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 22,
+  "adj": [
+   [
+    0,
+    5,
+    8,
+    4,
+    1,
+    6,
+    7,
+    8,
+    6
+   ],
+   [
+    5,
+    0,
+    1,
+    9,
+    10,
+    10,
+    8,
+    5,
+    10
+   ],
+   [
+    8,
+    1,
+    0,
+    5,
+    6,
+    3,
+    8,
+    10,
+    3
+   ],
+   [
+    4,
+    9,
+    5,
+    0,
+    4,
+    6,
+    7,
+    1,
+    8
+   ],
+   [
+    1,
+    10,
+    6,
+    4,
+    0,
+    10,
+    6,
+    7,
+    1
+   ],
+   [
+    6,
+    10,
+    3,
+    6,
+    10,
+    0,
+    5,
+    7,
+    7
+   ],
+   [
+    7,
+    8,
+    8,
+    7,
+    6,
+    5,
+    0,
+    2,
+    7
+   ],
+   [
+    8,
+    5,
+    10,
+    1,
+    7,
+    7,
+    2,
+    0,
+    2
+   ],
+   [
+    6,
+    10,
+    3,
+    8,
+    1,
+    7,
+    7,
+    2,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Lunar Pier",
+   "Union Square Market",
+   "Jasper Marina",
+   "Oakshade Library",
+   "Ironbridge Crossing",
+   "Beacon Tower",
+   "Ivory Spire Cathedral",
+   "Jade Fountain"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Union Square Market",
+     "Ironbridge Crossing",
+     "Beacon Tower",
+     "Jasper Marina",
+     "Ivory Spire Cathedral",
+     "Jade Fountain",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Jasper Marina",
+     "Ivory Spire Cathedral",
+     "Jade Fountain",
+     "Beacon Tower",
+     "Ironbridge Crossing",
+     "Union Square Market",
+     "Lunar Pier",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 34,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Jade Fountain",
+     "Ivory Spire Cathedral",
+     "Jasper Marina",
+     "Union Square Market",
+     "Lunar Pier",
+     "Beacon Tower",
+     "Ironbridge Crossing",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Jade Fountain",
+     "Ivory Spire Cathedral",
+     "Jasper Marina",
+     "Union Square Market",
+     "Lunar Pier",
+     "Beacon Tower",
+     "Ironbridge Crossing",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Jade Fountain",
+     "Ivory Spire Cathedral",
+     "Jasper Marina",
+     "Beacon Tower",
+     "Ironbridge Crossing",
+     "Union Square Market",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Jade Fountain",
+     "Beacon Tower",
+     "Ivory Spire Cathedral",
+     "Jasper Marina",
+     "Lunar Pier",
+     "Union Square Market",
+     "Ironbridge Crossing",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 1.21
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 23,
+  "adj": [
+   [
+    0,
+    5,
+    3,
+    7,
+    2,
+    9,
+    5,
+    6,
+    1
+   ],
+   [
+    5,
+    0,
+    5,
+    7,
+    9,
+    10,
+    4,
+    5,
+    6
+   ],
+   [
+    3,
+    5,
+    0,
+    6,
+    7,
+    6,
+    8,
+    4,
+    6
+   ],
+   [
+    7,
+    7,
+    6,
+    0,
+    9,
+    2,
+    7,
+    2,
+    8
+   ],
+   [
+    2,
+    9,
+    7,
+    9,
+    0,
+    10,
+    7,
+    7,
+    5
+   ],
+   [
+    9,
+    10,
+    6,
+    2,
+    10,
+    0,
+    1,
+    2,
+    6
+   ],
+   [
+    5,
+    4,
+    8,
+    7,
+    7,
+    1,
+    0,
+    7,
+    7
+   ],
+   [
+    6,
+    5,
+    4,
+    2,
+    7,
+    2,
+    7,
+    0,
+    2
+   ],
+   [
+    1,
+    6,
+    6,
+    8,
+    5,
+    6,
+    7,
+    2,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Dragon’s Gate",
+   "Gilded Archway",
+   "Evergreen Circle",
+   "Westgate Station",
+   "Riverstone Wharf",
+   "Brass Lantern Tavern",
+   "Amber Plaza",
+   "Lighthouse Point"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Gilded Archway",
+     "Dragon’s Gate",
+     "Brass Lantern Tavern",
+     "Riverstone Wharf",
+     "Evergreen Circle",
+     "Amber Plaza",
+     "Lighthouse Point",
+     "Westgate Station",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Gilded Archway",
+     "Dragon’s Gate",
+     "Brass Lantern Tavern",
+     "Riverstone Wharf",
+     "Evergreen Circle",
+     "Amber Plaza",
+     "Lighthouse Point",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lighthouse Point",
+     "Amber Plaza",
+     "Evergreen Circle",
+     "Riverstone Wharf",
+     "Brass Lantern Tavern",
+     "Dragon’s Gate",
+     "Gilded Archway",
+     "Westgate Station",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lighthouse Point",
+     "Amber Plaza",
+     "Evergreen Circle",
+     "Riverstone Wharf",
+     "Brass Lantern Tavern",
+     "Dragon’s Gate",
+     "Gilded Archway",
+     "Westgate Station",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Gilded Archway",
+     "Dragon’s Gate",
+     "Brass Lantern Tavern",
+     "Riverstone Wharf",
+     "Evergreen Circle",
+     "Amber Plaza",
+     "Lighthouse Point",
+     "Westgate Station",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Lighthouse Point",
+     "Dragon’s Gate",
+     "Brass Lantern Tavern",
+     "Amber Plaza",
+     "Riverstone Wharf",
+     "Evergreen Circle",
+     "Gilded Archway",
+     "Warehouse"
+    ],
+    "ans_distance": 37,
+    "cost_time": 1.21
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 24,
+  "adj": [
+   [
+    0,
+    2,
+    5,
+    2,
+    7,
+    1,
+    8,
+    5,
+    5
+   ],
+   [
+    2,
+    0,
+    6,
+    4,
+    1,
+    1,
+    2,
+    5,
+    1
+   ],
+   [
+    5,
+    6,
+    0,
+    4,
+    9,
+    5,
+    7,
+    1,
+    8
+   ],
+   [
+    2,
+    4,
+    4,
+    0,
+    6,
+    1,
+    10,
+    2,
+    2
+   ],
+   [
+    7,
+    1,
+    9,
+    6,
+    0,
+    2,
+    8,
+    1,
+    4
+   ],
+   [
+    1,
+    1,
+    5,
+    1,
+    2,
+    0,
+    2,
+    1,
+    2
+   ],
+   [
+    8,
+    2,
+    7,
+    10,
+    8,
+    2,
+    0,
+    2,
+    10
+   ],
+   [
+    5,
+    5,
+    1,
+    2,
+    1,
+    1,
+    2,
+    0,
+    3
+   ],
+   [
+    5,
+    1,
+    8,
+    2,
+    4,
+    2,
+    10,
+    3,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Mosaic Plaza",
+   "Pennywhistle Arcade",
+   "King’s Row",
+   "Primrose Boulevard",
+   "Opal Theater",
+   "Silvercrest Observatory",
+   "Ivory Spire Cathedral",
+   "Union Square Market"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Ivory Spire Cathedral",
+     "Primrose Boulevard",
+     "Mosaic Plaza",
+     "Silvercrest Observatory",
+     "Opal Theater",
+     "Union Square Market",
+     "King’s Row",
+     "Warehouse"
+    ],
+    "ans_distance": 18,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Ivory Spire Cathedral",
+     "Primrose Boulevard",
+     "Mosaic Plaza",
+     "Silvercrest Observatory",
+     "Opal Theater",
+     "King’s Row",
+     "Union Square Market",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Opal Theater",
+     "Mosaic Plaza",
+     "Primrose Boulevard",
+     "Ivory Spire Cathedral",
+     "Pennywhistle Arcade",
+     "King’s Row",
+     "Union Square Market",
+     "Silvercrest Observatory",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Opal Theater",
+     "Mosaic Plaza",
+     "Primrose Boulevard",
+     "Ivory Spire Cathedral",
+     "Pennywhistle Arcade",
+     "King’s Row",
+     "Union Square Market",
+     "Silvercrest Observatory",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Ivory Spire Cathedral",
+     "Primrose Boulevard",
+     "Mosaic Plaza",
+     "Silvercrest Observatory",
+     "Opal Theater",
+     "Union Square Market",
+     "King’s Row",
+     "Warehouse"
+    ],
+    "ans_distance": 18,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "King’s Row",
+     "Union Square Market",
+     "Primrose Boulevard",
+     "Ivory Spire Cathedral",
+     "Pennywhistle Arcade",
+     "Mosaic Plaza",
+     "Silvercrest Observatory",
+     "Opal Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 25,
+  "adj": [
+   [
+    0,
+    8,
+    4,
+    9,
+    6,
+    10,
+    1,
+    4,
+    10
+   ],
+   [
+    8,
+    0,
+    8,
+    6,
+    5,
+    10,
+    8,
+    5,
+    7
+   ],
+   [
+    4,
+    8,
+    0,
+    10,
+    7,
+    6,
+    5,
+    4,
+    1
+   ],
+   [
+    9,
+    6,
+    10,
+    0,
+    5,
+    6,
+    2,
+    9,
+    1
+   ],
+   [
+    6,
+    5,
+    7,
+    5,
+    0,
+    3,
+    5,
+    3,
+    8
+   ],
+   [
+    10,
+    10,
+    6,
+    6,
+    3,
+    0,
+    6,
+    7,
+    6
+   ],
+   [
+    1,
+    8,
+    5,
+    2,
+    5,
+    6,
+    0,
+    3,
+    10
+   ],
+   [
+    4,
+    5,
+    4,
+    9,
+    3,
+    7,
+    3,
+    0,
+    4
+   ],
+   [
+    10,
+    7,
+    1,
+    1,
+    8,
+    6,
+    10,
+    4,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Umbra Theater",
+   "Sapphire Arena",
+   "Moonlit Promenade",
+   "Union Square Market",
+   "Oakshade Library",
+   "Mosaic Plaza",
+   "Brass Lantern Tavern",
+   "Jade Fountain"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Mosaic Plaza",
+     "Moonlit Promenade",
+     "Jade Fountain",
+     "Sapphire Arena",
+     "Oakshade Library",
+     "Union Square Market",
+     "Umbra Theater",
+     "Brass Lantern Tavern",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Mosaic Plaza",
+     "Brass Lantern Tavern",
+     "Union Square Market",
+     "Oakshade Library",
+     "Umbra Theater",
+     "Sapphire Arena",
+     "Jade Fountain",
+     "Moonlit Promenade",
+     "Warehouse"
+    ],
+    "ans_distance": 39,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Mosaic Plaza",
+     "Moonlit Promenade",
+     "Jade Fountain",
+     "Sapphire Arena",
+     "Brass Lantern Tavern",
+     "Union Square Market",
+     "Oakshade Library",
+     "Umbra Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 33,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Mosaic Plaza",
+     "Moonlit Promenade",
+     "Jade Fountain",
+     "Sapphire Arena",
+     "Brass Lantern Tavern",
+     "Union Square Market",
+     "Oakshade Library",
+     "Umbra Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 33,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Union Square Market",
+     "Oakshade Library",
+     "Sapphire Arena",
+     "Jade Fountain",
+     "Moonlit Promenade",
+     "Umbra Theater",
+     "Brass Lantern Tavern",
+     "Mosaic Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 32,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Mosaic Plaza",
+     "Moonlit Promenade",
+     "Jade Fountain",
+     "Union Square Market",
+     "Oakshade Library",
+     "Sapphire Arena",
+     "Umbra Theater",
+     "Brass Lantern Tavern",
+     "Warehouse"
+    ],
+    "ans_distance": 38,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 26,
+  "adj": [
+   [
+    0,
+    5,
+    6,
+    1,
+    7,
+    5,
+    9,
+    4,
+    8
+   ],
+   [
+    5,
+    0,
+    10,
+    4,
+    3,
+    2,
+    5,
+    8,
+    2
+   ],
+   [
+    6,
+    10,
+    0,
+    1,
+    5,
+    1,
+    2,
+    9,
+    6
+   ],
+   [
+    1,
+    4,
+    1,
+    0,
+    3,
+    4,
+    3,
+    1,
+    10
+   ],
+   [
+    7,
+    3,
+    5,
+    3,
+    0,
+    9,
+    9,
+    1,
+    3
+   ],
+   [
+    5,
+    2,
+    1,
+    4,
+    9,
+    0,
+    5,
+    5,
+    3
+   ],
+   [
+    9,
+    5,
+    2,
+    3,
+    9,
+    5,
+    0,
+    3,
+    7
+   ],
+   [
+    4,
+    8,
+    9,
+    1,
+    1,
+    5,
+    3,
+    0,
+    2
+   ],
+   [
+    8,
+    2,
+    6,
+    10,
+    3,
+    3,
+    7,
+    2,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Umbra Theater",
+   "Pennywhistle Arcade",
+   "Amber Plaza",
+   "Shadowbridge Arcade",
+   "Ironbridge Crossing",
+   "Knight’s Market",
+   "Ivory Spire Cathedral",
+   "Evergreen Circle"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Knight’s Market",
+     "Pennywhistle Arcade",
+     "Ironbridge Crossing",
+     "Umbra Theater",
+     "Evergreen Circle",
+     "Shadowbridge Arcade",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Ivory Spire Cathedral",
+     "Shadowbridge Arcade",
+     "Evergreen Circle",
+     "Umbra Theater",
+     "Ironbridge Crossing",
+     "Pennywhistle Arcade",
+     "Knight’s Market",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Pennywhistle Arcade",
+     "Ironbridge Crossing",
+     "Umbra Theater",
+     "Evergreen Circle",
+     "Ivory Spire Cathedral",
+     "Shadowbridge Arcade",
+     "Knight’s Market",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Pennywhistle Arcade",
+     "Ironbridge Crossing",
+     "Umbra Theater",
+     "Evergreen Circle",
+     "Ivory Spire Cathedral",
+     "Shadowbridge Arcade",
+     "Knight’s Market",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Shadowbridge Arcade",
+     "Evergreen Circle",
+     "Umbra Theater",
+     "Ironbridge Crossing",
+     "Pennywhistle Arcade",
+     "Knight’s Market",
+     "Amber Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Knight’s Market",
+     "Pennywhistle Arcade",
+     "Ironbridge Crossing",
+     "Umbra Theater",
+     "Evergreen Circle",
+     "Shadowbridge Arcade",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 27,
+  "adj": [
+   [
+    0,
+    7,
+    3,
+    5,
+    7,
+    9,
+    5,
+    2,
+    10
+   ],
+   [
+    7,
+    0,
+    5,
+    10,
+    4,
+    6,
+    4,
+    10,
+    4
+   ],
+   [
+    3,
+    5,
+    0,
+    4,
+    2,
+    6,
+    5,
+    1,
+    9
+   ],
+   [
+    5,
+    10,
+    4,
+    0,
+    9,
+    10,
+    6,
+    6,
+    8
+   ],
+   [
+    7,
+    4,
+    2,
+    9,
+    0,
+    5,
+    4,
+    10,
+    2
+   ],
+   [
+    9,
+    6,
+    6,
+    10,
+    5,
+    0,
+    9,
+    9,
+    8
+   ],
+   [
+    5,
+    4,
+    5,
+    6,
+    4,
+    9,
+    0,
+    7,
+    5
+   ],
+   [
+    2,
+    10,
+    1,
+    6,
+    10,
+    9,
+    7,
+    0,
+    9
+   ],
+   [
+    10,
+    4,
+    9,
+    8,
+    2,
+    8,
+    5,
+    9,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Brass Lantern Tavern",
+   "King’s Row",
+   "Haven Docks",
+   "Maplewood Conservatory",
+   "Pennywhistle Arcade",
+   "Copper Clock Square",
+   "Shadowbridge Arcade",
+   "Sapphire Arena"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Copper Clock Square",
+     "Brass Lantern Tavern",
+     "Sapphire Arena",
+     "Maplewood Conservatory",
+     "Pennywhistle Arcade",
+     "King’s Row",
+     "Shadowbridge Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "King’s Row",
+     "Pennywhistle Arcade",
+     "Maplewood Conservatory",
+     "Sapphire Arena",
+     "Copper Clock Square",
+     "Brass Lantern Tavern",
+     "Shadowbridge Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 43,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Shadowbridge Arcade",
+     "King’s Row",
+     "Maplewood Conservatory",
+     "Sapphire Arena",
+     "Brass Lantern Tavern",
+     "Copper Clock Square",
+     "Haven Docks",
+     "Pennywhistle Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 40,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Shadowbridge Arcade",
+     "King’s Row",
+     "Maplewood Conservatory",
+     "Sapphire Arena",
+     "Brass Lantern Tavern",
+     "Copper Clock Square",
+     "Haven Docks",
+     "Pennywhistle Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 40,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Copper Clock Square",
+     "Brass Lantern Tavern",
+     "Sapphire Arena",
+     "Maplewood Conservatory",
+     "Pennywhistle Arcade",
+     "King’s Row",
+     "Shadowbridge Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Shadowbridge Arcade",
+     "King’s Row",
+     "Haven Docks",
+     "Copper Clock Square",
+     "Maplewood Conservatory",
+     "Sapphire Arena",
+     "Brass Lantern Tavern",
+     "Pennywhistle Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 38,
+    "cost_time": 1.21
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 28,
+  "adj": [
+   [
+    0,
+    2,
+    9,
+    4,
+    2,
+    1,
+    6,
+    2,
+    3
+   ],
+   [
+    2,
+    0,
+    7,
+    2,
+    8,
+    8,
+    2,
+    8,
+    3
+   ],
+   [
+    9,
+    7,
+    0,
+    4,
+    1,
+    1,
+    7,
+    3,
+    2
+   ],
+   [
+    4,
+    2,
+    4,
+    0,
+    2,
+    2,
+    8,
+    8,
+    8
+   ],
+   [
+    2,
+    8,
+    1,
+    2,
+    0,
+    1,
+    3,
+    7,
+    4
+   ],
+   [
+    1,
+    8,
+    1,
+    2,
+    1,
+    0,
+    10,
+    7,
+    4
+   ],
+   [
+    6,
+    2,
+    7,
+    8,
+    3,
+    10,
+    0,
+    9,
+    2
+   ],
+   [
+    2,
+    8,
+    3,
+    8,
+    7,
+    7,
+    9,
+    0,
+    9
+   ],
+   [
+    3,
+    3,
+    2,
+    8,
+    4,
+    4,
+    2,
+    9,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Dragon’s Gate",
+   "Rosewood Hall",
+   "Pennywhistle Arcade",
+   "Velvet Corner",
+   "Temple Square",
+   "Knight’s Market",
+   "Zenith Arena",
+   "Flint Forge Quarter"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Velvet Corner",
+     "Pennywhistle Arcade",
+     "Dragon’s Gate",
+     "Knight’s Market",
+     "Flint Forge Quarter",
+     "Rosewood Hall",
+     "Zenith Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Dragon’s Gate",
+     "Pennywhistle Arcade",
+     "Knight’s Market",
+     "Flint Forge Quarter",
+     "Rosewood Hall",
+     "Velvet Corner",
+     "Temple Square",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Rosewood Hall",
+     "Velvet Corner",
+     "Pennywhistle Arcade",
+     "Dragon’s Gate",
+     "Knight’s Market",
+     "Flint Forge Quarter",
+     "Zenith Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Rosewood Hall",
+     "Velvet Corner",
+     "Pennywhistle Arcade",
+     "Dragon’s Gate",
+     "Knight’s Market",
+     "Flint Forge Quarter",
+     "Zenith Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Rosewood Hall",
+     "Velvet Corner",
+     "Pennywhistle Arcade",
+     "Dragon’s Gate",
+     "Knight’s Market",
+     "Flint Forge Quarter",
+     "Temple Square",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Rosewood Hall",
+     "Velvet Corner",
+     "Temple Square",
+     "Pennywhistle Arcade",
+     "Dragon’s Gate",
+     "Knight’s Market",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 18,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 29,
+  "adj": [
+   [
+    0,
+    3,
+    8,
+    4,
+    8,
+    6,
+    6,
+    7,
+    1
+   ],
+   [
+    3,
+    0,
+    3,
+    5,
+    5,
+    3,
+    10,
+    1,
+    6
+   ],
+   [
+    8,
+    3,
+    0,
+    9,
+    7,
+    9,
+    3,
+    9,
+    8
+   ],
+   [
+    4,
+    5,
+    9,
+    0,
+    1,
+    5,
+    8,
+    6,
+    5
+   ],
+   [
+    8,
+    5,
+    7,
+    1,
+    0,
+    8,
+    3,
+    9,
+    5
+   ],
+   [
+    6,
+    3,
+    9,
+    5,
+    8,
+    0,
+    7,
+    9,
+    6
+   ],
+   [
+    6,
+    10,
+    3,
+    8,
+    3,
+    7,
+    0,
+    9,
+    3
+   ],
+   [
+    7,
+    1,
+    9,
+    6,
+    9,
+    9,
+    9,
+    0,
+    4
+   ],
+   [
+    1,
+    6,
+    8,
+    5,
+    5,
+    6,
+    3,
+    4,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Riverstone Wharf",
+   "Westgate Station",
+   "Twilight Harbor",
+   "Jade Fountain",
+   "Temple Square",
+   "Mosaic Plaza",
+   "Haven Docks",
+   "Rosewood Hall"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Twilight Harbor",
+     "Jade Fountain",
+     "Mosaic Plaza",
+     "Westgate Station",
+     "Riverstone Wharf",
+     "Haven Docks",
+     "Rosewood Hall",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Riverstone Wharf",
+     "Temple Square",
+     "Twilight Harbor",
+     "Jade Fountain",
+     "Mosaic Plaza",
+     "Westgate Station",
+     "Haven Docks",
+     "Rosewood Hall",
+     "Warehouse"
+    ],
+    "ans_distance": 32,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Rosewood Hall",
+     "Mosaic Plaza",
+     "Westgate Station",
+     "Riverstone Wharf",
+     "Haven Docks",
+     "Twilight Harbor",
+     "Jade Fountain",
+     "Temple Square",
+     "Warehouse"
+    ],
+    "ans_distance": 32,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Rosewood Hall",
+     "Mosaic Plaza",
+     "Westgate Station",
+     "Riverstone Wharf",
+     "Haven Docks",
+     "Twilight Harbor",
+     "Jade Fountain",
+     "Temple Square",
+     "Warehouse"
+    ],
+    "ans_distance": 32,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Riverstone Wharf",
+     "Temple Square",
+     "Twilight Harbor",
+     "Jade Fountain",
+     "Westgate Station",
+     "Mosaic Plaza",
+     "Rosewood Hall",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Rosewood Hall",
+     "Temple Square",
+     "Riverstone Wharf",
+     "Haven Docks",
+     "Twilight Harbor",
+     "Jade Fountain",
+     "Westgate Station",
+     "Mosaic Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 34,
+    "cost_time": 1.23
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 30,
+  "adj": [
+   [
+    0,
+    3,
+    7,
+    1,
+    10,
+    3,
+    9,
+    3,
+    8
+   ],
+   [
+    3,
+    0,
+    3,
+    10,
+    9,
+    1,
+    7,
+    7,
+    1
+   ],
+   [
+    7,
+    3,
+    0,
+    10,
+    10,
+    1,
+    8,
+    6,
+    1
+   ],
+   [
+    1,
+    10,
+    10,
+    0,
+    5,
+    1,
+    10,
+    10,
+    6
+   ],
+   [
+    10,
+    9,
+    10,
+    5,
+    0,
+    7,
+    4,
+    7,
+    4
+   ],
+   [
+    3,
+    1,
+    1,
+    1,
+    7,
+    0,
+    2,
+    6,
+    1
+   ],
+   [
+    9,
+    7,
+    8,
+    10,
+    4,
+    2,
+    0,
+    2,
+    1
+   ],
+   [
+    3,
+    7,
+    6,
+    10,
+    7,
+    6,
+    2,
+    0,
+    7
+   ],
+   [
+    8,
+    1,
+    1,
+    6,
+    4,
+    1,
+    1,
+    7,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Quarry Point",
+   "Union Square Market",
+   "Haven Docks",
+   "Rosewood Hall",
+   "Skyline Gardens",
+   "Beacon Tower",
+   "Yarrow Plaza",
+   "Copper Clock Square"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Skyline Gardens",
+     "Quarry Point",
+     "Union Square Market",
+     "Copper Clock Square",
+     "Rosewood Hall",
+     "Beacon Tower",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Yarrow Plaza",
+     "Beacon Tower",
+     "Rosewood Hall",
+     "Copper Clock Square",
+     "Quarry Point",
+     "Skyline Gardens",
+     "Union Square Market",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Skyline Gardens",
+     "Quarry Point",
+     "Copper Clock Square",
+     "Union Square Market",
+     "Yarrow Plaza",
+     "Beacon Tower",
+     "Rosewood Hall",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Skyline Gardens",
+     "Quarry Point",
+     "Copper Clock Square",
+     "Union Square Market",
+     "Yarrow Plaza",
+     "Beacon Tower",
+     "Rosewood Hall",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Skyline Gardens",
+     "Union Square Market",
+     "Quarry Point",
+     "Copper Clock Square",
+     "Rosewood Hall",
+     "Beacon Tower",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Rosewood Hall",
+     "Yarrow Plaza",
+     "Beacon Tower",
+     "Copper Clock Square",
+     "Union Square Market",
+     "Skyline Gardens",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 31,
+  "adj": [
+   [
+    0,
+    7,
+    8,
+    4,
+    1,
+    1,
+    6,
+    1,
+    1
+   ],
+   [
+    7,
+    0,
+    3,
+    9,
+    1,
+    6,
+    10,
+    7,
+    9
+   ],
+   [
+    8,
+    3,
+    0,
+    6,
+    3,
+    7,
+    7,
+    4,
+    4
+   ],
+   [
+    4,
+    9,
+    6,
+    0,
+    6,
+    9,
+    1,
+    5,
+    6
+   ],
+   [
+    1,
+    1,
+    3,
+    6,
+    0,
+    2,
+    5,
+    10,
+    4
+   ],
+   [
+    1,
+    6,
+    7,
+    9,
+    2,
+    0,
+    5,
+    6,
+    4
+   ],
+   [
+    6,
+    10,
+    7,
+    1,
+    5,
+    5,
+    0,
+    4,
+    7
+   ],
+   [
+    1,
+    7,
+    4,
+    5,
+    10,
+    6,
+    4,
+    0,
+    10
+   ],
+   [
+    1,
+    9,
+    4,
+    6,
+    4,
+    4,
+    7,
+    10,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Granite Plaza",
+   "Haven Docks",
+   "Umbra Theater",
+   "Flint Forge Quarter",
+   "Northwind Tower",
+   "Skyline Gardens",
+   "Sapphire Arena",
+   "Velvet Corner"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Northwind Tower",
+     "Flint Forge Quarter",
+     "Granite Plaza",
+     "Haven Docks",
+     "Sapphire Arena",
+     "Skyline Gardens",
+     "Umbra Theater",
+     "Velvet Corner",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Umbra Theater",
+     "Skyline Gardens",
+     "Sapphire Arena",
+     "Northwind Tower",
+     "Velvet Corner",
+     "Haven Docks",
+     "Granite Plaza",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Granite Plaza",
+     "Haven Docks",
+     "Sapphire Arena",
+     "Skyline Gardens",
+     "Umbra Theater",
+     "Velvet Corner",
+     "Northwind Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Granite Plaza",
+     "Haven Docks",
+     "Sapphire Arena",
+     "Skyline Gardens",
+     "Umbra Theater",
+     "Velvet Corner",
+     "Northwind Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Northwind Tower",
+     "Flint Forge Quarter",
+     "Granite Plaza",
+     "Haven Docks",
+     "Velvet Corner",
+     "Umbra Theater",
+     "Skyline Gardens",
+     "Sapphire Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Sapphire Arena",
+     "Umbra Theater",
+     "Skyline Gardens",
+     "Northwind Tower",
+     "Flint Forge Quarter",
+     "Granite Plaza",
+     "Haven Docks",
+     "Velvet Corner",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 1.22
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 32,
+  "adj": [
+   [
+    0,
+    10,
+    4,
+    3,
+    9,
+    6,
+    5,
+    5,
+    3
+   ],
+   [
+    10,
+    0,
+    7,
+    7,
+    9,
+    6,
+    10,
+    10,
+    8
+   ],
+   [
+    4,
+    7,
+    0,
+    9,
+    8,
+    8,
+    3,
+    1,
+    6
+   ],
+   [
+    3,
+    7,
+    9,
+    0,
+    7,
+    2,
+    10,
+    6,
+    9
+   ],
+   [
+    9,
+    9,
+    8,
+    7,
+    0,
+    8,
+    7,
+    1,
+    6
+   ],
+   [
+    6,
+    6,
+    8,
+    2,
+    8,
+    0,
+    6,
+    10,
+    8
+   ],
+   [
+    5,
+    10,
+    3,
+    10,
+    7,
+    6,
+    0,
+    7,
+    8
+   ],
+   [
+    5,
+    10,
+    1,
+    6,
+    1,
+    10,
+    7,
+    0,
+    10
+   ],
+   [
+    3,
+    8,
+    6,
+    9,
+    6,
+    8,
+    8,
+    10,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Lunar Pier",
+   "Lighthouse Point",
+   "Ivory Spire Cathedral",
+   "Beacon Tower",
+   "Union Square Market",
+   "Flint Forge Quarter",
+   "Gilded Archway",
+   "Temple Square"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Union Square Market",
+     "Lunar Pier",
+     "Flint Forge Quarter",
+     "Lighthouse Point",
+     "Gilded Archway",
+     "Beacon Tower",
+     "Temple Square",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Lighthouse Point",
+     "Flint Forge Quarter",
+     "Gilded Archway",
+     "Beacon Tower",
+     "Lunar Pier",
+     "Union Square Market",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 40,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Union Square Market",
+     "Lunar Pier",
+     "Lighthouse Point",
+     "Gilded Archway",
+     "Beacon Tower",
+     "Temple Square",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 39,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Union Square Market",
+     "Lunar Pier",
+     "Lighthouse Point",
+     "Gilded Archway",
+     "Beacon Tower",
+     "Temple Square",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 39,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Lighthouse Point",
+     "Gilded Archway",
+     "Beacon Tower",
+     "Temple Square",
+     "Lunar Pier",
+     "Union Square Market",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Flint Forge Quarter",
+     "Lighthouse Point",
+     "Lunar Pier",
+     "Beacon Tower",
+     "Gilded Archway",
+     "Ivory Spire Cathedral",
+     "Union Square Market",
+     "Warehouse"
+    ],
+    "ans_distance": 45,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 33,
+  "adj": [
+   [
+    0,
+    3,
+    2,
+    5,
+    5,
+    9,
+    4,
+    3,
+    8
+   ],
+   [
+    3,
+    0,
+    4,
+    7,
+    2,
+    9,
+    9,
+    10,
+    4
+   ],
+   [
+    2,
+    4,
+    0,
+    4,
+    8,
+    2,
+    4,
+    5,
+    4
+   ],
+   [
+    5,
+    7,
+    4,
+    0,
+    8,
+    6,
+    10,
+    4,
+    3
+   ],
+   [
+    5,
+    2,
+    8,
+    8,
+    0,
+    2,
+    1,
+    1,
+    5
+   ],
+   [
+    9,
+    9,
+    2,
+    6,
+    2,
+    0,
+    6,
+    9,
+    2
+   ],
+   [
+    4,
+    9,
+    4,
+    10,
+    1,
+    6,
+    0,
+    1,
+    2
+   ],
+   [
+    3,
+    10,
+    5,
+    4,
+    1,
+    9,
+    1,
+    0,
+    1
+   ],
+   [
+    8,
+    4,
+    4,
+    3,
+    5,
+    2,
+    2,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Twilight Harbor",
+   "Haven Docks",
+   "Primrose Boulevard",
+   "Umbra Theater",
+   "Ironbridge Crossing",
+   "Shadowbridge Arcade",
+   "Moonlit Promenade",
+   "Flint Forge Quarter"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Umbra Theater",
+     "Shadowbridge Arcade",
+     "Moonlit Promenade",
+     "Primrose Boulevard",
+     "Flint Forge Quarter",
+     "Ironbridge Crossing",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Shadowbridge Arcade",
+     "Umbra Theater",
+     "Moonlit Promenade",
+     "Flint Forge Quarter",
+     "Primrose Boulevard",
+     "Twilight Harbor",
+     "Ironbridge Crossing",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Ironbridge Crossing",
+     "Umbra Theater",
+     "Shadowbridge Arcade",
+     "Moonlit Promenade",
+     "Flint Forge Quarter",
+     "Primrose Boulevard",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Ironbridge Crossing",
+     "Umbra Theater",
+     "Shadowbridge Arcade",
+     "Moonlit Promenade",
+     "Flint Forge Quarter",
+     "Primrose Boulevard",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Ironbridge Crossing",
+     "Flint Forge Quarter",
+     "Twilight Harbor",
+     "Umbra Theater",
+     "Shadowbridge Arcade",
+     "Moonlit Promenade",
+     "Primrose Boulevard",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Umbra Theater",
+     "Shadowbridge Arcade",
+     "Haven Docks",
+     "Ironbridge Crossing",
+     "Flint Forge Quarter",
+     "Primrose Boulevard",
+     "Moonlit Promenade",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 1.22
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 34,
+  "adj": [
+   [
+    0,
+    10,
+    1,
+    4,
+    2,
+    2,
+    9,
+    9,
+    6
+   ],
+   [
+    10,
+    0,
+    6,
+    1,
+    9,
+    4,
+    2,
+    9,
+    10
+   ],
+   [
+    1,
+    6,
+    0,
+    7,
+    9,
+    2,
+    2,
+    9,
+    5
+   ],
+   [
+    4,
+    1,
+    7,
+    0,
+    6,
+    7,
+    6,
+    3,
+    3
+   ],
+   [
+    2,
+    9,
+    9,
+    6,
+    0,
+    7,
+    7,
+    5,
+    8
+   ],
+   [
+    2,
+    4,
+    2,
+    7,
+    7,
+    0,
+    2,
+    9,
+    10
+   ],
+   [
+    9,
+    2,
+    2,
+    6,
+    7,
+    2,
+    0,
+    9,
+    2
+   ],
+   [
+    9,
+    9,
+    9,
+    3,
+    5,
+    9,
+    9,
+    0,
+    4
+   ],
+   [
+    6,
+    10,
+    5,
+    3,
+    8,
+    10,
+    2,
+    4,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Moonlit Promenade",
+   "Brass Lantern Tavern",
+   "Oakshade Library",
+   "Horizon Mall",
+   "Ivory Spire Cathedral",
+   "Granite Plaza",
+   "Mosaic Plaza",
+   "Echo Station"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Brass Lantern Tavern",
+     "Ivory Spire Cathedral",
+     "Granite Plaza",
+     "Moonlit Promenade",
+     "Oakshade Library",
+     "Echo Station",
+     "Mosaic Plaza",
+     "Horizon Mall",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Horizon Mall",
+     "Ivory Spire Cathedral",
+     "Granite Plaza",
+     "Echo Station",
+     "Mosaic Plaza",
+     "Oakshade Library",
+     "Moonlit Promenade",
+     "Brass Lantern Tavern",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Brass Lantern Tavern",
+     "Ivory Spire Cathedral",
+     "Granite Plaza",
+     "Moonlit Promenade",
+     "Oakshade Library",
+     "Mosaic Plaza",
+     "Echo Station",
+     "Horizon Mall",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Brass Lantern Tavern",
+     "Ivory Spire Cathedral",
+     "Granite Plaza",
+     "Moonlit Promenade",
+     "Oakshade Library",
+     "Mosaic Plaza",
+     "Echo Station",
+     "Horizon Mall",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Horizon Mall",
+     "Ivory Spire Cathedral",
+     "Brass Lantern Tavern",
+     "Granite Plaza",
+     "Moonlit Promenade",
+     "Oakshade Library",
+     "Mosaic Plaza",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Horizon Mall",
+     "Mosaic Plaza",
+     "Echo Station",
+     "Oakshade Library",
+     "Moonlit Promenade",
+     "Granite Plaza",
+     "Ivory Spire Cathedral",
+     "Brass Lantern Tavern",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 1.21
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 35,
+  "adj": [
+   [
+    0,
+    7,
+    9,
+    1,
+    5,
+    10,
+    3,
+    7,
+    10
+   ],
+   [
+    7,
+    0,
+    9,
+    10,
+    10,
+    4,
+    5,
+    8,
+    3
+   ],
+   [
+    9,
+    9,
+    0,
+    3,
+    4,
+    10,
+    2,
+    3,
+    2
+   ],
+   [
+    1,
+    10,
+    3,
+    0,
+    1,
+    4,
+    6,
+    5,
+    8
+   ],
+   [
+    5,
+    10,
+    4,
+    1,
+    0,
+    7,
+    6,
+    1,
+    4
+   ],
+   [
+    10,
+    4,
+    10,
+    4,
+    7,
+    0,
+    8,
+    6,
+    8
+   ],
+   [
+    3,
+    5,
+    2,
+    6,
+    6,
+    8,
+    0,
+    7,
+    4
+   ],
+   [
+    7,
+    8,
+    3,
+    5,
+    1,
+    6,
+    7,
+    0,
+    2
+   ],
+   [
+    10,
+    3,
+    2,
+    8,
+    4,
+    8,
+    4,
+    2,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Primrose Boulevard",
+   "Moonlit Promenade",
+   "Knight’s Market",
+   "Dragon’s Gate",
+   "Beacon Tower",
+   "Gilded Archway",
+   "Riverstone Wharf",
+   "Yarrow Plaza"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Knight’s Market",
+     "Dragon’s Gate",
+     "Riverstone Wharf",
+     "Beacon Tower",
+     "Primrose Boulevard",
+     "Yarrow Plaza",
+     "Moonlit Promenade",
+     "Gilded Archway",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Gilded Archway",
+     "Moonlit Promenade",
+     "Yarrow Plaza",
+     "Beacon Tower",
+     "Primrose Boulevard",
+     "Riverstone Wharf",
+     "Dragon’s Gate",
+     "Knight’s Market",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Knight’s Market",
+     "Dragon’s Gate",
+     "Riverstone Wharf",
+     "Yarrow Plaza",
+     "Moonlit Promenade",
+     "Gilded Archway",
+     "Primrose Boulevard",
+     "Beacon Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Knight’s Market",
+     "Dragon’s Gate",
+     "Riverstone Wharf",
+     "Yarrow Plaza",
+     "Moonlit Promenade",
+     "Gilded Archway",
+     "Primrose Boulevard",
+     "Beacon Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Knight’s Market",
+     "Dragon’s Gate",
+     "Riverstone Wharf",
+     "Beacon Tower",
+     "Primrose Boulevard",
+     "Yarrow Plaza",
+     "Moonlit Promenade",
+     "Gilded Archway",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Knight’s Market",
+     "Dragon’s Gate",
+     "Moonlit Promenade",
+     "Riverstone Wharf",
+     "Beacon Tower",
+     "Primrose Boulevard",
+     "Yarrow Plaza",
+     "Gilded Archway",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 1.22
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 36,
+  "adj": [
+   [
+    0,
+    9,
+    2,
+    7,
+    3,
+    5,
+    3,
+    10,
+    6
+   ],
+   [
+    9,
+    0,
+    10,
+    4,
+    4,
+    7,
+    3,
+    9,
+    9
+   ],
+   [
+    2,
+    10,
+    0,
+    1,
+    7,
+    10,
+    2,
+    8,
+    8
+   ],
+   [
+    7,
+    4,
+    1,
+    0,
+    9,
+    8,
+    3,
+    9,
+    2
+   ],
+   [
+    3,
+    4,
+    7,
+    9,
+    0,
+    10,
+    5,
+    1,
+    7
+   ],
+   [
+    5,
+    7,
+    10,
+    8,
+    10,
+    0,
+    1,
+    2,
+    1
+   ],
+   [
+    3,
+    3,
+    2,
+    3,
+    5,
+    1,
+    0,
+    9,
+    9
+   ],
+   [
+    10,
+    9,
+    8,
+    9,
+    1,
+    2,
+    9,
+    0,
+    7
+   ],
+   [
+    6,
+    9,
+    8,
+    2,
+    7,
+    1,
+    9,
+    7,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Lighthouse Point",
+   "Duskwood Park",
+   "Ironbridge Crossing",
+   "Temple Square",
+   "Silvercrest Observatory",
+   "Beacon Tower",
+   "Flare Alley",
+   "Gilded Archway"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Duskwood Park",
+     "Ironbridge Crossing",
+     "Gilded Archway",
+     "Silvercrest Observatory",
+     "Flare Alley",
+     "Temple Square",
+     "Lighthouse Point",
+     "Beacon Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Flare Alley",
+     "Silvercrest Observatory",
+     "Gilded Archway",
+     "Beacon Tower",
+     "Lighthouse Point",
+     "Duskwood Park",
+     "Ironbridge Crossing",
+     "Warehouse"
+    ],
+    "ans_distance": 37,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Duskwood Park",
+     "Ironbridge Crossing",
+     "Gilded Archway",
+     "Silvercrest Observatory",
+     "Beacon Tower",
+     "Lighthouse Point",
+     "Temple Square",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Duskwood Park",
+     "Ironbridge Crossing",
+     "Gilded Archway",
+     "Silvercrest Observatory",
+     "Beacon Tower",
+     "Lighthouse Point",
+     "Temple Square",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Lighthouse Point",
+     "Temple Square",
+     "Flare Alley",
+     "Silvercrest Observatory",
+     "Gilded Archway",
+     "Ironbridge Crossing",
+     "Duskwood Park",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Duskwood Park",
+     "Beacon Tower",
+     "Lighthouse Point",
+     "Ironbridge Crossing",
+     "Gilded Archway",
+     "Silvercrest Observatory",
+     "Flare Alley",
+     "Temple Square",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 37,
+  "adj": [
+   [
+    0,
+    6,
+    1,
+    8,
+    2,
+    5,
+    7,
+    5,
+    9
+   ],
+   [
+    6,
+    0,
+    9,
+    8,
+    7,
+    3,
+    1,
+    2,
+    10
+   ],
+   [
+    1,
+    9,
+    0,
+    10,
+    9,
+    8,
+    4,
+    3,
+    3
+   ],
+   [
+    8,
+    8,
+    10,
+    0,
+    4,
+    2,
+    3,
+    10,
+    6
+   ],
+   [
+    2,
+    7,
+    9,
+    4,
+    0,
+    4,
+    4,
+    8,
+    8
+   ],
+   [
+    5,
+    3,
+    8,
+    2,
+    4,
+    0,
+    5,
+    10,
+    3
+   ],
+   [
+    7,
+    1,
+    4,
+    3,
+    4,
+    5,
+    0,
+    8,
+    3
+   ],
+   [
+    5,
+    2,
+    3,
+    10,
+    8,
+    10,
+    8,
+    0,
+    3
+   ],
+   [
+    9,
+    10,
+    3,
+    6,
+    8,
+    3,
+    3,
+    3,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Shadowbridge Arcade",
+   "King’s Row",
+   "Nimbus Plaza",
+   "Riverstone Wharf",
+   "Lunar Pier",
+   "Beacon Tower",
+   "Ironbridge Crossing",
+   "Yarrow Plaza"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "King’s Row",
+     "Ironbridge Crossing",
+     "Shadowbridge Arcade",
+     "Beacon Tower",
+     "Yarrow Plaza",
+     "Lunar Pier",
+     "Nimbus Plaza",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Riverstone Wharf",
+     "Nimbus Plaza",
+     "Lunar Pier",
+     "Shadowbridge Arcade",
+     "Beacon Tower",
+     "Ironbridge Crossing",
+     "King’s Row",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "King’s Row",
+     "Ironbridge Crossing",
+     "Shadowbridge Arcade",
+     "Beacon Tower",
+     "Nimbus Plaza",
+     "Lunar Pier",
+     "Yarrow Plaza",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "King’s Row",
+     "Ironbridge Crossing",
+     "Shadowbridge Arcade",
+     "Beacon Tower",
+     "Nimbus Plaza",
+     "Lunar Pier",
+     "Yarrow Plaza",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Riverstone Wharf",
+     "Nimbus Plaza",
+     "Lunar Pier",
+     "Yarrow Plaza",
+     "Beacon Tower",
+     "Shadowbridge Arcade",
+     "Ironbridge Crossing",
+     "King’s Row",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "King’s Row",
+     "Ironbridge Crossing",
+     "Shadowbridge Arcade",
+     "Beacon Tower",
+     "Yarrow Plaza",
+     "Lunar Pier",
+     "Nimbus Plaza",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 38,
+  "adj": [
+   [
+    0,
+    5,
+    2,
+    2,
+    3,
+    10,
+    2,
+    7,
+    5
+   ],
+   [
+    5,
+    0,
+    2,
+    5,
+    10,
+    1,
+    8,
+    2,
+    6
+   ],
+   [
+    2,
+    2,
+    0,
+    5,
+    9,
+    6,
+    9,
+    5,
+    4
+   ],
+   [
+    2,
+    5,
+    5,
+    0,
+    1,
+    2,
+    6,
+    8,
+    4
+   ],
+   [
+    3,
+    10,
+    9,
+    1,
+    0,
+    1,
+    10,
+    4,
+    7
+   ],
+   [
+    10,
+    1,
+    6,
+    2,
+    1,
+    0,
+    1,
+    4,
+    10
+   ],
+   [
+    2,
+    8,
+    9,
+    6,
+    10,
+    1,
+    0,
+    6,
+    1
+   ],
+   [
+    7,
+    2,
+    5,
+    8,
+    4,
+    4,
+    6,
+    0,
+    7
+   ],
+   [
+    5,
+    6,
+    4,
+    4,
+    7,
+    10,
+    1,
+    7,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Gilded Archway",
+   "Mosaic Plaza",
+   "Azure Gardens",
+   "Moonlit Promenade",
+   "Umbra Theater",
+   "Ironbridge Crossing",
+   "Yarrow Plaza",
+   "Duskwood Park"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Mosaic Plaza",
+     "Duskwood Park",
+     "Ironbridge Crossing",
+     "Umbra Theater",
+     "Gilded Archway",
+     "Yarrow Plaza",
+     "Moonlit Promenade",
+     "Azure Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 18,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Azure Gardens",
+     "Moonlit Promenade",
+     "Umbra Theater",
+     "Yarrow Plaza",
+     "Gilded Archway",
+     "Ironbridge Crossing",
+     "Duskwood Park",
+     "Mosaic Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Mosaic Plaza",
+     "Gilded Archway",
+     "Umbra Theater",
+     "Moonlit Promenade",
+     "Azure Gardens",
+     "Duskwood Park",
+     "Ironbridge Crossing",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Mosaic Plaza",
+     "Gilded Archway",
+     "Umbra Theater",
+     "Moonlit Promenade",
+     "Azure Gardens",
+     "Duskwood Park",
+     "Ironbridge Crossing",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Azure Gardens",
+     "Umbra Theater",
+     "Ironbridge Crossing",
+     "Duskwood Park",
+     "Mosaic Plaza",
+     "Gilded Archway",
+     "Yarrow Plaza",
+     "Moonlit Promenade",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ironbridge Crossing",
+     "Duskwood Park",
+     "Mosaic Plaza",
+     "Gilded Archway",
+     "Yarrow Plaza",
+     "Umbra Theater",
+     "Moonlit Promenade",
+     "Azure Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 1.21
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 39,
+  "adj": [
+   [
+    0,
+    9,
+    8,
+    5,
+    5,
+    2,
+    5,
+    6,
+    6
+   ],
+   [
+    9,
+    0,
+    10,
+    6,
+    6,
+    4,
+    6,
+    5,
+    2
+   ],
+   [
+    8,
+    10,
+    0,
+    6,
+    9,
+    8,
+    1,
+    2,
+    4
+   ],
+   [
+    5,
+    6,
+    6,
+    0,
+    5,
+    6,
+    9,
+    8,
+    4
+   ],
+   [
+    5,
+    6,
+    9,
+    5,
+    0,
+    5,
+    7,
+    9,
+    10
+   ],
+   [
+    2,
+    4,
+    8,
+    6,
+    5,
+    0,
+    4,
+    5,
+    8
+   ],
+   [
+    5,
+    6,
+    1,
+    9,
+    7,
+    4,
+    0,
+    4,
+    8
+   ],
+   [
+    6,
+    5,
+    2,
+    8,
+    9,
+    5,
+    4,
+    0,
+    6
+   ],
+   [
+    6,
+    2,
+    4,
+    4,
+    10,
+    8,
+    8,
+    6,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Primrose Boulevard",
+   "Knight’s Market",
+   "Northwind Tower",
+   "Riverstone Wharf",
+   "Umbra Theater",
+   "Flare Alley",
+   "Evergreen Circle",
+   "Westgate Station"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Riverstone Wharf",
+     "Northwind Tower",
+     "Westgate Station",
+     "Primrose Boulevard",
+     "Evergreen Circle",
+     "Knight’s Market",
+     "Flare Alley",
+     "Umbra Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Riverstone Wharf",
+     "Northwind Tower",
+     "Westgate Station",
+     "Evergreen Circle",
+     "Knight’s Market",
+     "Flare Alley",
+     "Primrose Boulevard",
+     "Umbra Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Umbra Theater",
+     "Primrose Boulevard",
+     "Westgate Station",
+     "Knight’s Market",
+     "Flare Alley",
+     "Evergreen Circle",
+     "Northwind Tower",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Umbra Theater",
+     "Primrose Boulevard",
+     "Westgate Station",
+     "Knight’s Market",
+     "Flare Alley",
+     "Evergreen Circle",
+     "Northwind Tower",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Evergreen Circle",
+     "Knight’s Market",
+     "Flare Alley",
+     "Umbra Theater",
+     "Riverstone Wharf",
+     "Primrose Boulevard",
+     "Westgate Station",
+     "Northwind Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Northwind Tower",
+     "Westgate Station",
+     "Evergreen Circle",
+     "Knight’s Market",
+     "Flare Alley",
+     "Umbra Theater",
+     "Primrose Boulevard",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 37,
+    "cost_time": 1.22
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 40,
+  "adj": [
+   [
+    0,
+    1,
+    4,
+    8,
+    10,
+    2,
+    4,
+    6,
+    5
+   ],
+   [
+    1,
+    0,
+    1,
+    3,
+    5,
+    1,
+    1,
+    6,
+    7
+   ],
+   [
+    4,
+    1,
+    0,
+    2,
+    10,
+    3,
+    10,
+    2,
+    7
+   ],
+   [
+    8,
+    3,
+    2,
+    0,
+    4,
+    10,
+    10,
+    6,
+    6
+   ],
+   [
+    10,
+    5,
+    10,
+    4,
+    0,
+    2,
+    4,
+    8,
+    8
+   ],
+   [
+    2,
+    1,
+    3,
+    10,
+    2,
+    0,
+    9,
+    3,
+    9
+   ],
+   [
+    4,
+    1,
+    10,
+    10,
+    4,
+    9,
+    0,
+    10,
+    2
+   ],
+   [
+    6,
+    6,
+    2,
+    6,
+    8,
+    3,
+    10,
+    0,
+    1
+   ],
+   [
+    5,
+    7,
+    7,
+    6,
+    8,
+    9,
+    2,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Primrose Boulevard",
+   "Cobalt Market",
+   "Dragon’s Gate",
+   "Umbra Theater",
+   "Oakshade Library",
+   "Lighthouse Point",
+   "Quarry Point",
+   "Echo Station"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Lighthouse Point",
+     "Echo Station",
+     "Quarry Point",
+     "Cobalt Market",
+     "Dragon’s Gate",
+     "Umbra Theater",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Quarry Point",
+     "Echo Station",
+     "Lighthouse Point",
+     "Primrose Boulevard",
+     "Oakshade Library",
+     "Umbra Theater",
+     "Dragon’s Gate",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Cobalt Market",
+     "Dragon’s Gate",
+     "Umbra Theater",
+     "Oakshade Library",
+     "Quarry Point",
+     "Echo Station",
+     "Lighthouse Point",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Cobalt Market",
+     "Dragon’s Gate",
+     "Umbra Theater",
+     "Oakshade Library",
+     "Quarry Point",
+     "Echo Station",
+     "Lighthouse Point",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Dragon’s Gate",
+     "Umbra Theater",
+     "Lighthouse Point",
+     "Echo Station",
+     "Quarry Point",
+     "Cobalt Market",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Oakshade Library",
+     "Umbra Theater",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Quarry Point",
+     "Echo Station",
+     "Lighthouse Point",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 41,
+  "adj": [
+   [
+    0,
+    9,
+    9,
+    5,
+    10,
+    8,
+    2,
+    1,
+    1
+   ],
+   [
+    9,
+    0,
+    2,
+    8,
+    1,
+    7,
+    4,
+    3,
+    7
+   ],
+   [
+    9,
+    2,
+    0,
+    9,
+    6,
+    3,
+    4,
+    4,
+    7
+   ],
+   [
+    5,
+    8,
+    9,
+    0,
+    1,
+    7,
+    8,
+    2,
+    5
+   ],
+   [
+    10,
+    1,
+    6,
+    1,
+    0,
+    7,
+    9,
+    5,
+    3
+   ],
+   [
+    8,
+    7,
+    3,
+    7,
+    7,
+    0,
+    3,
+    4,
+    1
+   ],
+   [
+    2,
+    4,
+    4,
+    8,
+    9,
+    3,
+    0,
+    10,
+    7
+   ],
+   [
+    1,
+    3,
+    4,
+    2,
+    5,
+    4,
+    10,
+    0,
+    6
+   ],
+   [
+    1,
+    7,
+    7,
+    5,
+    3,
+    1,
+    7,
+    6,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Knight’s Market",
+   "Mosaic Plaza",
+   "Flint Forge Quarter",
+   "Rosewood Hall",
+   "Lunar Pier",
+   "Haven Docks",
+   "Primrose Boulevard",
+   "Yarrow Plaza"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Flint Forge Quarter",
+     "Rosewood Hall",
+     "Knight’s Market",
+     "Mosaic Plaza",
+     "Haven Docks",
+     "Lunar Pier",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Yarrow Plaza",
+     "Lunar Pier",
+     "Mosaic Plaza",
+     "Knight’s Market",
+     "Rosewood Hall",
+     "Flint Forge Quarter",
+     "Primrose Boulevard",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Flint Forge Quarter",
+     "Rosewood Hall",
+     "Knight’s Market",
+     "Mosaic Plaza",
+     "Lunar Pier",
+     "Yarrow Plaza",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Flint Forge Quarter",
+     "Rosewood Hall",
+     "Knight’s Market",
+     "Mosaic Plaza",
+     "Lunar Pier",
+     "Yarrow Plaza",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Yarrow Plaza",
+     "Lunar Pier",
+     "Haven Docks",
+     "Mosaic Plaza",
+     "Knight’s Market",
+     "Rosewood Hall",
+     "Flint Forge Quarter",
+     "Primrose Boulevard",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Mosaic Plaza",
+     "Knight’s Market",
+     "Rosewood Hall",
+     "Flint Forge Quarter",
+     "Primrose Boulevard",
+     "Lunar Pier",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 18,
+    "cost_time": 1.21
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 42,
+  "adj": [
+   [
+    0,
+    10,
+    4,
+    1,
+    4,
+    2,
+    4,
+    5,
+    2
+   ],
+   [
+    10,
+    0,
+    8,
+    1,
+    9,
+    2,
+    10,
+    1,
+    7
+   ],
+   [
+    4,
+    8,
+    0,
+    7,
+    4,
+    9,
+    7,
+    3,
+    8
+   ],
+   [
+    1,
+    1,
+    7,
+    0,
+    4,
+    2,
+    3,
+    5,
+    7
+   ],
+   [
+    4,
+    9,
+    4,
+    4,
+    0,
+    4,
+    5,
+    4,
+    10
+   ],
+   [
+    2,
+    2,
+    9,
+    2,
+    4,
+    0,
+    9,
+    9,
+    3
+   ],
+   [
+    4,
+    10,
+    7,
+    3,
+    5,
+    9,
+    0,
+    1,
+    9
+   ],
+   [
+    5,
+    1,
+    3,
+    5,
+    4,
+    9,
+    1,
+    0,
+    3
+   ],
+   [
+    2,
+    7,
+    8,
+    7,
+    10,
+    3,
+    9,
+    3,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Quarry Point",
+   "Mosaic Plaza",
+   "Moonlit Promenade",
+   "Amber Plaza",
+   "Skyline Gardens",
+   "Cobalt Market",
+   "Dragon’s Gate",
+   "Maplewood Conservatory"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Mosaic Plaza",
+     "Amber Plaza",
+     "Cobalt Market",
+     "Dragon’s Gate",
+     "Quarry Point",
+     "Moonlit Promenade",
+     "Skyline Gardens",
+     "Maplewood Conservatory",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Maplewood Conservatory",
+     "Skyline Gardens",
+     "Amber Plaza",
+     "Mosaic Plaza",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Quarry Point",
+     "Moonlit Promenade",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Moonlit Promenade",
+     "Quarry Point",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Amber Plaza",
+     "Mosaic Plaza",
+     "Maplewood Conservatory",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Moonlit Promenade",
+     "Quarry Point",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Amber Plaza",
+     "Mosaic Plaza",
+     "Maplewood Conservatory",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Mosaic Plaza",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Moonlit Promenade",
+     "Quarry Point",
+     "Skyline Gardens",
+     "Maplewood Conservatory",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Maplewood Conservatory",
+     "Skyline Gardens",
+     "Quarry Point",
+     "Moonlit Promenade",
+     "Dragon’s Gate",
+     "Cobalt Market",
+     "Amber Plaza",
+     "Mosaic Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 43,
+  "adj": [
+   [
+    0,
+    5,
+    9,
+    7,
+    7,
+    1,
+    3,
+    6,
+    9
+   ],
+   [
+    5,
+    0,
+    1,
+    1,
+    10,
+    5,
+    1,
+    8,
+    3
+   ],
+   [
+    9,
+    1,
+    0,
+    5,
+    2,
+    7,
+    2,
+    2,
+    7
+   ],
+   [
+    7,
+    1,
+    5,
+    0,
+    6,
+    5,
+    1,
+    6,
+    6
+   ],
+   [
+    7,
+    10,
+    2,
+    6,
+    0,
+    7,
+    6,
+    9,
+    6
+   ],
+   [
+    1,
+    5,
+    7,
+    5,
+    7,
+    0,
+    8,
+    9,
+    1
+   ],
+   [
+    3,
+    1,
+    2,
+    1,
+    6,
+    8,
+    0,
+    2,
+    5
+   ],
+   [
+    6,
+    8,
+    2,
+    6,
+    9,
+    9,
+    2,
+    0,
+    7
+   ],
+   [
+    9,
+    3,
+    7,
+    6,
+    6,
+    1,
+    5,
+    7,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Primrose Boulevard",
+   "Mosaic Plaza",
+   "Duskwood Park",
+   "Haven Docks",
+   "Riverstone Wharf",
+   "Evergreen Circle",
+   "Knight’s Market",
+   "Azure Gardens"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Mosaic Plaza",
+     "Knight’s Market",
+     "Evergreen Circle",
+     "Duskwood Park",
+     "Primrose Boulevard",
+     "Azure Gardens",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Evergreen Circle",
+     "Primrose Boulevard",
+     "Duskwood Park",
+     "Mosaic Plaza",
+     "Knight’s Market",
+     "Haven Docks",
+     "Azure Gardens",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 29,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Riverstone Wharf",
+     "Azure Gardens",
+     "Primrose Boulevard",
+     "Mosaic Plaza",
+     "Haven Docks",
+     "Duskwood Park",
+     "Evergreen Circle",
+     "Knight’s Market",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Riverstone Wharf",
+     "Azure Gardens",
+     "Primrose Boulevard",
+     "Mosaic Plaza",
+     "Haven Docks",
+     "Duskwood Park",
+     "Evergreen Circle",
+     "Knight’s Market",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Riverstone Wharf",
+     "Azure Gardens",
+     "Haven Docks",
+     "Mosaic Plaza",
+     "Primrose Boulevard",
+     "Duskwood Park",
+     "Evergreen Circle",
+     "Knight’s Market",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Mosaic Plaza",
+     "Knight’s Market",
+     "Evergreen Circle",
+     "Duskwood Park",
+     "Primrose Boulevard",
+     "Azure Gardens",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 1.21
+   }
+  },
+  "response": "{\n    \"objective\": \"Determine the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 44,
+  "adj": [
+   [
+    0,
+    8,
+    9,
+    8,
+    7,
+    5,
+    1,
+    4,
+    1
+   ],
+   [
+    8,
+    0,
+    9,
+    4,
+    5,
+    7,
+    9,
+    9,
+    10
+   ],
+   [
+    9,
+    9,
+    0,
+    5,
+    8,
+    9,
+    2,
+    7,
+    7
+   ],
+   [
+    8,
+    4,
+    5,
+    0,
+    4,
+    4,
+    2,
+    7,
+    5
+   ],
+   [
+    7,
+    5,
+    8,
+    4,
+    0,
+    8,
+    9,
+    6,
+    4
+   ],
+   [
+    5,
+    7,
+    9,
+    4,
+    8,
+    0,
+    9,
+    2,
+    10
+   ],
+   [
+    1,
+    9,
+    2,
+    2,
+    9,
+    9,
+    0,
+    6,
+    6
+   ],
+   [
+    4,
+    9,
+    7,
+    7,
+    6,
+    2,
+    6,
+    0,
+    6
+   ],
+   [
+    1,
+    10,
+    7,
+    5,
+    4,
+    10,
+    6,
+    6,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Silvercrest Observatory",
+   "Lunar Pier",
+   "Opal Theater",
+   "Copper Clock Square",
+   "Oakshade Library",
+   "Willowshade Pavilion",
+   "King’s Row",
+   "Gilded Archway"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Willowshade Pavilion",
+     "Lunar Pier",
+     "King’s Row",
+     "Oakshade Library",
+     "Opal Theater",
+     "Silvercrest Observatory",
+     "Copper Clock Square",
+     "Gilded Archway",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Gilded Archway",
+     "King’s Row",
+     "Oakshade Library",
+     "Opal Theater",
+     "Copper Clock Square",
+     "Silvercrest Observatory",
+     "Willowshade Pavilion",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 42,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Willowshade Pavilion",
+     "Lunar Pier",
+     "Opal Theater",
+     "Silvercrest Observatory",
+     "Copper Clock Square",
+     "Gilded Archway",
+     "King’s Row",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 34,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Willowshade Pavilion",
+     "Lunar Pier",
+     "Opal Theater",
+     "Silvercrest Observatory",
+     "Copper Clock Square",
+     "Gilded Archway",
+     "King’s Row",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 34,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Willowshade Pavilion",
+     "Lunar Pier",
+     "King’s Row",
+     "Oakshade Library",
+     "Opal Theater",
+     "Silvercrest Observatory",
+     "Copper Clock Square",
+     "Gilded Archway",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Willowshade Pavilion",
+     "Lunar Pier",
+     "Copper Clock Square",
+     "Gilded Archway",
+     "King’s Row",
+     "Oakshade Library",
+     "Opal Theater",
+     "Silvercrest Observatory",
+     "Warehouse"
+    ],
+    "ans_distance": 39,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 45,
+  "adj": [
+   [
+    0,
+    8,
+    4,
+    3,
+    2,
+    7,
+    6,
+    3,
+    9
+   ],
+   [
+    8,
+    0,
+    1,
+    2,
+    6,
+    2,
+    6,
+    10,
+    8
+   ],
+   [
+    4,
+    1,
+    0,
+    2,
+    5,
+    1,
+    9,
+    9,
+    1
+   ],
+   [
+    3,
+    2,
+    2,
+    0,
+    9,
+    2,
+    5,
+    4,
+    4
+   ],
+   [
+    2,
+    6,
+    5,
+    9,
+    0,
+    5,
+    7,
+    7,
+    6
+   ],
+   [
+    7,
+    2,
+    1,
+    2,
+    5,
+    0,
+    2,
+    1,
+    9
+   ],
+   [
+    6,
+    6,
+    9,
+    5,
+    7,
+    2,
+    0,
+    9,
+    9
+   ],
+   [
+    3,
+    10,
+    9,
+    4,
+    7,
+    1,
+    9,
+    0,
+    5
+   ],
+   [
+    9,
+    8,
+    1,
+    4,
+    6,
+    9,
+    9,
+    5,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Cobalt Market",
+   "Quartz District",
+   "Horizon Mall",
+   "Primrose Boulevard",
+   "Duskwood Park",
+   "Beacon Tower",
+   "Riverstone Wharf",
+   "Westgate Station"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Westgate Station",
+     "Quartz District",
+     "Cobalt Market",
+     "Horizon Mall",
+     "Beacon Tower",
+     "Duskwood Park",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Horizon Mall",
+     "Cobalt Market",
+     "Quartz District",
+     "Westgate Station",
+     "Duskwood Park",
+     "Riverstone Wharf",
+     "Beacon Tower",
+     "Primrose Boulevard",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Quartz District",
+     "Cobalt Market",
+     "Horizon Mall",
+     "Duskwood Park",
+     "Riverstone Wharf",
+     "Westgate Station",
+     "Beacon Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 33,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Quartz District",
+     "Cobalt Market",
+     "Horizon Mall",
+     "Duskwood Park",
+     "Riverstone Wharf",
+     "Westgate Station",
+     "Beacon Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 33,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Westgate Station",
+     "Quartz District",
+     "Cobalt Market",
+     "Beacon Tower",
+     "Duskwood Park",
+     "Riverstone Wharf",
+     "Horizon Mall",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Duskwood Park",
+     "Riverstone Wharf",
+     "Horizon Mall",
+     "Cobalt Market",
+     "Quartz District",
+     "Westgate Station",
+     "Primrose Boulevard",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 46,
+  "adj": [
+   [
+    0,
+    9,
+    9,
+    7,
+    6,
+    5,
+    2,
+    8,
+    9
+   ],
+   [
+    9,
+    0,
+    10,
+    2,
+    6,
+    2,
+    10,
+    7,
+    5
+   ],
+   [
+    9,
+    10,
+    0,
+    9,
+    4,
+    8,
+    5,
+    5,
+    1
+   ],
+   [
+    7,
+    2,
+    9,
+    0,
+    3,
+    5,
+    1,
+    2,
+    8
+   ],
+   [
+    6,
+    6,
+    4,
+    3,
+    0,
+    3,
+    10,
+    3,
+    7
+   ],
+   [
+    5,
+    2,
+    8,
+    5,
+    3,
+    0,
+    3,
+    7,
+    1
+   ],
+   [
+    2,
+    10,
+    5,
+    1,
+    10,
+    3,
+    0,
+    9,
+    1
+   ],
+   [
+    8,
+    7,
+    5,
+    2,
+    3,
+    7,
+    9,
+    0,
+    2
+   ],
+   [
+    9,
+    5,
+    1,
+    8,
+    7,
+    1,
+    1,
+    2,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Sapphire Arena",
+   "Silvercrest Observatory",
+   "Granite Plaza",
+   "Dragon’s Gate",
+   "Flare Alley",
+   "Velvet Corner",
+   "Quarry Point",
+   "Jade Fountain"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Sapphire Arena",
+     "Granite Plaza",
+     "Quarry Point",
+     "Dragon’s Gate",
+     "Silvercrest Observatory",
+     "Jade Fountain",
+     "Velvet Corner",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Velvet Corner",
+     "Jade Fountain",
+     "Silvercrest Observatory",
+     "Flare Alley",
+     "Sapphire Arena",
+     "Granite Plaza",
+     "Dragon’s Gate",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 30,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Velvet Corner",
+     "Granite Plaza",
+     "Sapphire Arena",
+     "Flare Alley",
+     "Jade Fountain",
+     "Silvercrest Observatory",
+     "Dragon’s Gate",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Velvet Corner",
+     "Granite Plaza",
+     "Sapphire Arena",
+     "Flare Alley",
+     "Jade Fountain",
+     "Silvercrest Observatory",
+     "Dragon’s Gate",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Dragon’s Gate",
+     "Quarry Point",
+     "Silvercrest Observatory",
+     "Jade Fountain",
+     "Flare Alley",
+     "Sapphire Arena",
+     "Granite Plaza",
+     "Velvet Corner",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Velvet Corner",
+     "Silvercrest Observatory",
+     "Quarry Point",
+     "Jade Fountain",
+     "Flare Alley",
+     "Sapphire Arena",
+     "Granite Plaza",
+     "Dragon’s Gate",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 1.24
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 47,
+  "adj": [
+   [
+    0,
+    9,
+    6,
+    3,
+    9,
+    9,
+    6,
+    4,
+    2
+   ],
+   [
+    9,
+    0,
+    10,
+    1,
+    7,
+    7,
+    9,
+    10,
+    8
+   ],
+   [
+    6,
+    10,
+    0,
+    3,
+    6,
+    4,
+    9,
+    1,
+    2
+   ],
+   [
+    3,
+    1,
+    3,
+    0,
+    10,
+    3,
+    10,
+    10,
+    3
+   ],
+   [
+    9,
+    7,
+    6,
+    10,
+    0,
+    2,
+    3,
+    2,
+    4
+   ],
+   [
+    9,
+    7,
+    4,
+    3,
+    2,
+    0,
+    9,
+    6,
+    9
+   ],
+   [
+    6,
+    9,
+    9,
+    10,
+    3,
+    9,
+    0,
+    10,
+    8
+   ],
+   [
+    4,
+    10,
+    1,
+    10,
+    2,
+    6,
+    10,
+    0,
+    1
+   ],
+   [
+    2,
+    8,
+    2,
+    3,
+    4,
+    9,
+    8,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Lighthouse Point",
+   "Azure Gardens",
+   "Echo Station",
+   "King’s Row",
+   "Copper Clock Square",
+   "Opal Theater",
+   "Flint Forge Quarter",
+   "Evergreen Circle"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Lighthouse Point",
+     "Opal Theater",
+     "King’s Row",
+     "Copper Clock Square",
+     "Azure Gardens",
+     "Flint Forge Quarter",
+     "Evergreen Circle",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Lighthouse Point",
+     "Copper Clock Square",
+     "King’s Row",
+     "Opal Theater",
+     "Flint Forge Quarter",
+     "Azure Gardens",
+     "Evergreen Circle",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Evergreen Circle",
+     "Flint Forge Quarter",
+     "Azure Gardens",
+     "Echo Station",
+     "Lighthouse Point",
+     "King’s Row",
+     "Copper Clock Square",
+     "Opal Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 32,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Evergreen Circle",
+     "Flint Forge Quarter",
+     "Azure Gardens",
+     "Echo Station",
+     "Lighthouse Point",
+     "King’s Row",
+     "Copper Clock Square",
+     "Opal Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 32,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Evergreen Circle",
+     "Azure Gardens",
+     "Flint Forge Quarter",
+     "King’s Row",
+     "Copper Clock Square",
+     "Echo Station",
+     "Lighthouse Point",
+     "Opal Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Evergreen Circle",
+     "Flint Forge Quarter",
+     "Azure Gardens",
+     "Echo Station",
+     "Lighthouse Point",
+     "Opal Theater",
+     "King’s Row",
+     "Copper Clock Square",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 1.21
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 48,
+  "adj": [
+   [
+    0,
+    10,
+    3,
+    10,
+    3,
+    5,
+    9,
+    7,
+    4
+   ],
+   [
+    10,
+    0,
+    3,
+    4,
+    4,
+    10,
+    5,
+    5,
+    8
+   ],
+   [
+    3,
+    3,
+    0,
+    2,
+    2,
+    10,
+    2,
+    2,
+    8
+   ],
+   [
+    10,
+    4,
+    2,
+    0,
+    5,
+    9,
+    10,
+    5,
+    1
+   ],
+   [
+    3,
+    4,
+    2,
+    5,
+    0,
+    1,
+    3,
+    9,
+    7
+   ],
+   [
+    5,
+    10,
+    10,
+    9,
+    1,
+    0,
+    6,
+    10,
+    10
+   ],
+   [
+    9,
+    5,
+    2,
+    10,
+    3,
+    6,
+    0,
+    10,
+    6
+   ],
+   [
+    7,
+    5,
+    2,
+    5,
+    9,
+    10,
+    10,
+    0,
+    4
+   ],
+   [
+    4,
+    8,
+    8,
+    1,
+    7,
+    10,
+    6,
+    4,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Flint Forge Quarter",
+   "Sapphire Arena",
+   "Horizon Mall",
+   "Azure Gardens",
+   "Maplewood Conservatory",
+   "Ivory Spire Cathedral",
+   "Jade Fountain",
+   "Dragon’s Gate"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Maplewood Conservatory",
+     "Azure Gardens",
+     "Ivory Spire Cathedral",
+     "Sapphire Arena",
+     "Jade Fountain",
+     "Flint Forge Quarter",
+     "Horizon Mall",
+     "Dragon’s Gate",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Maplewood Conservatory",
+     "Azure Gardens",
+     "Sapphire Arena",
+     "Jade Fountain",
+     "Dragon’s Gate",
+     "Horizon Mall",
+     "Ivory Spire Cathedral",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 40,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Sapphire Arena",
+     "Horizon Mall",
+     "Dragon’s Gate",
+     "Jade Fountain",
+     "Flint Forge Quarter",
+     "Azure Gardens",
+     "Maplewood Conservatory",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Sapphire Arena",
+     "Horizon Mall",
+     "Dragon’s Gate",
+     "Jade Fountain",
+     "Flint Forge Quarter",
+     "Azure Gardens",
+     "Maplewood Conservatory",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Maplewood Conservatory",
+     "Azure Gardens",
+     "Ivory Spire Cathedral",
+     "Flint Forge Quarter",
+     "Horizon Mall",
+     "Dragon’s Gate",
+     "Jade Fountain",
+     "Sapphire Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 28,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Dragon’s Gate",
+     "Horizon Mall",
+     "Flint Forge Quarter",
+     "Jade Fountain",
+     "Sapphire Arena",
+     "Ivory Spire Cathedral",
+     "Azure Gardens",
+     "Maplewood Conservatory",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 1.22
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the optimal delivery route that minimizes the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The delivery driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled.\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 49,
+  "adj": [
+   [
+    0,
+    9,
+    9,
+    10,
+    9,
+    8,
+    8,
+    4,
+    4
+   ],
+   [
+    9,
+    0,
+    2,
+    7,
+    5,
+    10,
+    9,
+    5,
+    1
+   ],
+   [
+    9,
+    2,
+    0,
+    9,
+    6,
+    6,
+    4,
+    9,
+    10
+   ],
+   [
+    10,
+    7,
+    9,
+    0,
+    9,
+    1,
+    5,
+    9,
+    10
+   ],
+   [
+    9,
+    5,
+    6,
+    9,
+    0,
+    1,
+    3,
+    4,
+    4
+   ],
+   [
+    8,
+    10,
+    6,
+    1,
+    1,
+    0,
+    1,
+    2,
+    4
+   ],
+   [
+    8,
+    9,
+    4,
+    5,
+    3,
+    1,
+    0,
+    4,
+    8
+   ],
+   [
+    4,
+    5,
+    9,
+    9,
+    4,
+    2,
+    4,
+    0,
+    4
+   ],
+   [
+    4,
+    1,
+    10,
+    10,
+    4,
+    4,
+    8,
+    4,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Riverstone Wharf",
+   "Haven Docks",
+   "Dragon’s Gate",
+   "Evergreen Circle",
+   "Opal Theater",
+   "Westgate Station",
+   "Beacon Tower",
+   "Twilight Harbor"
+  ],
+  "real_result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Evergreen Circle",
+     "Opal Theater",
+     "Dragon’s Gate",
+     "Westgate Station",
+     "Haven Docks",
+     "Riverstone Wharf",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 26,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Riverstone Wharf",
+     "Haven Docks",
+     "Evergreen Circle",
+     "Opal Theater",
+     "Westgate Station",
+     "Dragon’s Gate",
+     "Beacon Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 33,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Opal Theater",
+     "Dragon’s Gate",
+     "Westgate Station",
+     "Evergreen Circle",
+     "Twilight Harbor",
+     "Riverstone Wharf",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Opal Theater",
+     "Dragon’s Gate",
+     "Westgate Station",
+     "Evergreen Circle",
+     "Twilight Harbor",
+     "Riverstone Wharf",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Dragon’s Gate",
+     "Opal Theater",
+     "Westgate Station",
+     "Haven Docks",
+     "Riverstone Wharf",
+     "Twilight Harbor",
+     "Evergreen Circle",
+     "Beacon Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Dragon’s Gate",
+     "Opal Theater",
+     "Westgate Station",
+     "Evergreen Circle",
+     "Beacon Tower",
+     "Twilight Harbor",
+     "Riverstone Wharf",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 35,
+    "cost_time": 1.2
+   }
+  },
+  "response": "{\n    \"objective\": \"Find the most efficient route for the delivery driver to minimize the total distance traveled while visiting each delivery point exactly once and returning to the warehouse.\",\n    \"constraints\": \"The driver must start and end at the warehouse and visit each of the 8 distinct delivery points exactly once.\",\n    \"optimization\": \"Minimize the total distance traveled during the delivery route.\"\n}"
+ }
+]

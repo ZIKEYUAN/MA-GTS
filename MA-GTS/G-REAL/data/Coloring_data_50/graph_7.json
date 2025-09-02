@@ -1,0 +1,5952 @@
+[
+ {
+  "graph_index": 0,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Flare Alley",
+   "Haven Docks",
+   "Quarry Point",
+   "Yarrow Plaza",
+   "Nimbus Plaza",
+   "Lighthouse Point",
+   "Union Square Market"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Flare Alley, Haven Docks, Quarry Point, Yarrow Plaza, Nimbus Plaza, Lighthouse Point and Union Square Market. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Flare Alley has overlapping signal areas with Yarrow Plaza, Nimbus Plaza, Lighthouse Point. \nThe Haven Docks has overlapping signal areas with Quarry Point, Nimbus Plaza, Union Square Market. \nThe Quarry Point has overlapping signal areas with Yarrow Plaza, Union Square Market. \nThe Lighthouse Point has overlapping signal areas with Union Square Market. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Haven Docks": 1,
+     "Quarry Point": 2,
+     "Yarrow Plaza": 3,
+     "Nimbus Plaza": 2,
+     "Lighthouse Point": 2,
+     "Union Square Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Haven Docks": 1,
+     "Quarry Point": 2,
+     "Yarrow Plaza": 3,
+     "Nimbus Plaza": 2,
+     "Lighthouse Point": 2,
+     "Union Square Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Haven Docks": 1,
+     "Quarry Point": 2,
+     "Yarrow Plaza": 3,
+     "Nimbus Plaza": 2,
+     "Lighthouse Point": 2,
+     "Union Square Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 1,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Zenith Arena",
+   "Opal Theater",
+   "Beacon Tower",
+   "Copper Clock Square",
+   "Primrose Boulevard",
+   "Moonlit Promenade",
+   "Gilded Archway"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Zenith Arena, Opal Theater, Beacon Tower, Copper Clock Square, Primrose Boulevard, Moonlit Promenade and Gilded Archway. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Zenith Arena has overlapping signal areas with Primrose Boulevard, Moonlit Promenade, Gilded Archway. \nThe Opal Theater has overlapping signal areas with Primrose Boulevard. \nThe Beacon Tower has overlapping signal areas with Primrose Boulevard, Moonlit Promenade, Gilded Archway. \nThe Copper Clock Square has overlapping signal areas with Primrose Boulevard, Moonlit Promenade. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Zenith Arena": 1,
+     "Opal Theater": 1,
+     "Beacon Tower": 1,
+     "Copper Clock Square": 1,
+     "Primrose Boulevard": 2,
+     "Moonlit Promenade": 2,
+     "Gilded Archway": 2
+    },
+    "min_colors": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Zenith Arena": 1,
+     "Opal Theater": 1,
+     "Beacon Tower": 1,
+     "Copper Clock Square": 1,
+     "Primrose Boulevard": 2,
+     "Moonlit Promenade": 2,
+     "Gilded Archway": 2
+    },
+    "min_colors": 2,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Zenith Arena": 2,
+     "Opal Theater": 2,
+     "Beacon Tower": 2,
+     "Copper Clock Square": 2,
+     "Primrose Boulevard": 1,
+     "Moonlit Promenade": 1,
+     "Gilded Archway": 1
+    },
+    "min_colors": 2,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 2,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lunar Pier",
+   "Duskwood Park",
+   "Dragon’s Gate",
+   "Temple Square",
+   "Haven Docks",
+   "Evergreen Circle",
+   "Shadowbridge Arcade"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Lunar Pier, Duskwood Park, Dragon’s Gate, Temple Square, Haven Docks, Evergreen Circle and Shadowbridge Arcade. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Lunar Pier has overlapping signal areas with Dragon’s Gate, Evergreen Circle. \nThe Duskwood Park has overlapping signal areas with Temple Square, Evergreen Circle. \nThe Dragon’s Gate has overlapping signal areas with Temple Square, Haven Docks, Evergreen Circle. \nThe Temple Square has overlapping signal areas with Shadowbridge Arcade. \nThe Haven Docks has overlapping signal areas with Evergreen Circle. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lunar Pier": 1,
+     "Duskwood Park": 1,
+     "Dragon’s Gate": 2,
+     "Temple Square": 3,
+     "Haven Docks": 1,
+     "Evergreen Circle": 3,
+     "Shadowbridge Arcade": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lunar Pier": 1,
+     "Duskwood Park": 1,
+     "Dragon’s Gate": 2,
+     "Temple Square": 3,
+     "Haven Docks": 1,
+     "Evergreen Circle": 3,
+     "Shadowbridge Arcade": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lunar Pier": 3,
+     "Duskwood Park": 1,
+     "Dragon’s Gate": 1,
+     "Temple Square": 2,
+     "Haven Docks": 3,
+     "Evergreen Circle": 2,
+     "Shadowbridge Arcade": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 3,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Moonlit Promenade",
+   "Maplewood Conservatory",
+   "Sapphire Arena",
+   "Willowshade Pavilion",
+   "Union Square Market",
+   "Umbra Theater",
+   "Dragon’s Gate"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Moonlit Promenade, Maplewood Conservatory, Sapphire Arena, Willowshade Pavilion, Union Square Market, Umbra Theater and Dragon’s Gate. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Moonlit Promenade has overlapping signal areas with Sapphire Arena, Union Square Market. \nThe Maplewood Conservatory has overlapping signal areas with Sapphire Arena, Willowshade Pavilion, Dragon’s Gate. \nThe Sapphire Arena has overlapping signal areas with Willowshade Pavilion, Umbra Theater, Dragon’s Gate. \nThe Umbra Theater has overlapping signal areas with Dragon’s Gate. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Maplewood Conservatory": 1,
+     "Sapphire Arena": 2,
+     "Willowshade Pavilion": 3,
+     "Union Square Market": 2,
+     "Umbra Theater": 1,
+     "Dragon’s Gate": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Maplewood Conservatory": 1,
+     "Sapphire Arena": 2,
+     "Willowshade Pavilion": 3,
+     "Union Square Market": 2,
+     "Umbra Theater": 1,
+     "Dragon’s Gate": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 2,
+     "Maplewood Conservatory": 2,
+     "Sapphire Arena": 1,
+     "Willowshade Pavilion": 3,
+     "Union Square Market": 1,
+     "Umbra Theater": 2,
+     "Dragon’s Gate": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 4,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Union Square Market",
+   "Pennywhistle Arcade",
+   "Jade Fountain",
+   "Velvet Corner",
+   "Shadowbridge Arcade",
+   "Haven Docks",
+   "Umbra Theater"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Union Square Market, Pennywhistle Arcade, Jade Fountain, Velvet Corner, Shadowbridge Arcade, Haven Docks and Umbra Theater. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Union Square Market has overlapping signal areas with Pennywhistle Arcade, Jade Fountain, Velvet Corner, Shadowbridge Arcade, Haven Docks, Umbra Theater. \nThe Pennywhistle Arcade has overlapping signal areas with Shadowbridge Arcade, Umbra Theater. \nThe Haven Docks has overlapping signal areas with Umbra Theater. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Union Square Market": 1,
+     "Pennywhistle Arcade": 2,
+     "Jade Fountain": 2,
+     "Velvet Corner": 2,
+     "Shadowbridge Arcade": 3,
+     "Haven Docks": 2,
+     "Umbra Theater": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Union Square Market": 1,
+     "Pennywhistle Arcade": 2,
+     "Jade Fountain": 2,
+     "Velvet Corner": 2,
+     "Shadowbridge Arcade": 3,
+     "Haven Docks": 2,
+     "Umbra Theater": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Union Square Market": 1,
+     "Pennywhistle Arcade": 2,
+     "Jade Fountain": 2,
+     "Velvet Corner": 2,
+     "Shadowbridge Arcade": 3,
+     "Haven Docks": 2,
+     "Umbra Theater": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 5,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Brass Lantern Tavern",
+   "Twilight Harbor",
+   "Temple Square",
+   "Oakshade Library",
+   "Azure Gardens",
+   "Ivory Spire Cathedral",
+   "Granite Plaza"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Brass Lantern Tavern, Twilight Harbor, Temple Square, Oakshade Library, Azure Gardens, Ivory Spire Cathedral and Granite Plaza. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Brass Lantern Tavern has overlapping signal areas with Twilight Harbor, Temple Square, Granite Plaza. \nThe Twilight Harbor has overlapping signal areas with Oakshade Library, Azure Gardens, Ivory Spire Cathedral. \nThe Temple Square has overlapping signal areas with Oakshade Library, Granite Plaza. \nThe Oakshade Library has overlapping signal areas with Azure Gardens. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Brass Lantern Tavern": 1,
+     "Twilight Harbor": 2,
+     "Temple Square": 2,
+     "Oakshade Library": 1,
+     "Azure Gardens": 3,
+     "Ivory Spire Cathedral": 1,
+     "Granite Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Brass Lantern Tavern": 1,
+     "Twilight Harbor": 2,
+     "Temple Square": 2,
+     "Oakshade Library": 1,
+     "Azure Gardens": 3,
+     "Ivory Spire Cathedral": 1,
+     "Granite Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Brass Lantern Tavern": 2,
+     "Twilight Harbor": 1,
+     "Temple Square": 1,
+     "Oakshade Library": 2,
+     "Azure Gardens": 3,
+     "Ivory Spire Cathedral": 2,
+     "Granite Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 6,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Opal Theater",
+   "Zenith Arena",
+   "Flint Forge Quarter",
+   "Brass Lantern Tavern",
+   "Rosewood Hall",
+   "Cobalt Market",
+   "Sapphire Arena"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Opal Theater, Zenith Arena, Flint Forge Quarter, Brass Lantern Tavern, Rosewood Hall, Cobalt Market and Sapphire Arena. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Opal Theater has overlapping signal areas with Zenith Arena, Flint Forge Quarter, Brass Lantern Tavern. \nThe Zenith Arena has overlapping signal areas with Sapphire Arena. \nThe Flint Forge Quarter has overlapping signal areas with Cobalt Market, Sapphire Arena. \nThe Brass Lantern Tavern has overlapping signal areas with Sapphire Arena. \nThe Rosewood Hall has overlapping signal areas with Cobalt Market, Sapphire Arena. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Opal Theater": 1,
+     "Zenith Arena": 2,
+     "Flint Forge Quarter": 2,
+     "Brass Lantern Tavern": 2,
+     "Rosewood Hall": 2,
+     "Cobalt Market": 1,
+     "Sapphire Arena": 1
+    },
+    "min_colors": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Opal Theater": 1,
+     "Zenith Arena": 2,
+     "Flint Forge Quarter": 2,
+     "Brass Lantern Tavern": 2,
+     "Rosewood Hall": 1,
+     "Cobalt Market": 3,
+     "Sapphire Arena": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Opal Theater": 1,
+     "Zenith Arena": 2,
+     "Flint Forge Quarter": 2,
+     "Brass Lantern Tavern": 2,
+     "Rosewood Hall": 2,
+     "Cobalt Market": 1,
+     "Sapphire Arena": 1
+    },
+    "min_colors": 2,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 7,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Moonlit Promenade",
+   "Flare Alley",
+   "Gilded Archway",
+   "Knight’s Market",
+   "Lunar Pier",
+   "Oakshade Library",
+   "Pennywhistle Arcade"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Moonlit Promenade, Flare Alley, Gilded Archway, Knight’s Market, Lunar Pier, Oakshade Library and Pennywhistle Arcade. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Moonlit Promenade has overlapping signal areas with Flare Alley, Knight’s Market, Lunar Pier, Pennywhistle Arcade. \nThe Flare Alley has overlapping signal areas with Knight’s Market, Pennywhistle Arcade. \nThe Gilded Archway has overlapping signal areas with Lunar Pier. \nThe Knight’s Market has overlapping signal areas with Oakshade Library, Pennywhistle Arcade. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Flare Alley": 2,
+     "Gilded Archway": 1,
+     "Knight’s Market": 3,
+     "Lunar Pier": 2,
+     "Oakshade Library": 1,
+     "Pennywhistle Arcade": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Flare Alley": 2,
+     "Gilded Archway": 1,
+     "Knight’s Market": 3,
+     "Lunar Pier": 2,
+     "Oakshade Library": 1,
+     "Pennywhistle Arcade": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Flare Alley": 3,
+     "Gilded Archway": 1,
+     "Knight’s Market": 2,
+     "Lunar Pier": 2,
+     "Oakshade Library": 1,
+     "Pennywhistle Arcade": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 8,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Cobalt Market",
+   "Flint Forge Quarter",
+   "Quarry Point",
+   "Evergreen Circle",
+   "Westgate Station",
+   "Willowshade Pavilion",
+   "Lunar Pier"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Cobalt Market, Flint Forge Quarter, Quarry Point, Evergreen Circle, Westgate Station, Willowshade Pavilion and Lunar Pier. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Cobalt Market has overlapping signal areas with Lunar Pier. \nThe Flint Forge Quarter has overlapping signal areas with Quarry Point, Westgate Station, Lunar Pier. \nThe Quarry Point has overlapping signal areas with Evergreen Circle, Westgate Station, Lunar Pier. \nThe Evergreen Circle has overlapping signal areas with Willowshade Pavilion. \nThe Westgate Station has overlapping signal areas with Lunar Pier. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Cobalt Market": 1,
+     "Flint Forge Quarter": 1,
+     "Quarry Point": 2,
+     "Evergreen Circle": 1,
+     "Westgate Station": 3,
+     "Willowshade Pavilion": 2,
+     "Lunar Pier": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Cobalt Market": 1,
+     "Flint Forge Quarter": 1,
+     "Quarry Point": 2,
+     "Evergreen Circle": 1,
+     "Westgate Station": 3,
+     "Willowshade Pavilion": 2,
+     "Lunar Pier": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Cobalt Market": 1,
+     "Flint Forge Quarter": 3,
+     "Quarry Point": 1,
+     "Evergreen Circle": 2,
+     "Westgate Station": 4,
+     "Willowshade Pavilion": 1,
+     "Lunar Pier": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 9,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Jasper Marina",
+   "Copper Clock Square",
+   "Echo Station",
+   "Shadowbridge Arcade",
+   "Beacon Tower",
+   "Horizon Mall",
+   "Sapphire Arena"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Jasper Marina, Copper Clock Square, Echo Station, Shadowbridge Arcade, Beacon Tower, Horizon Mall and Sapphire Arena. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Jasper Marina has overlapping signal areas with Copper Clock Square, Echo Station, Shadowbridge Arcade, Sapphire Arena. \nThe Copper Clock Square has overlapping signal areas with Horizon Mall. \nThe Echo Station has overlapping signal areas with Shadowbridge Arcade, Horizon Mall. \nThe Beacon Tower has overlapping signal areas with Horizon Mall. \nThe Horizon Mall has overlapping signal areas with Sapphire Arena. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Jasper Marina": 1,
+     "Copper Clock Square": 2,
+     "Echo Station": 2,
+     "Shadowbridge Arcade": 3,
+     "Beacon Tower": 1,
+     "Horizon Mall": 3,
+     "Sapphire Arena": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Jasper Marina": 1,
+     "Copper Clock Square": 2,
+     "Echo Station": 2,
+     "Shadowbridge Arcade": 3,
+     "Beacon Tower": 1,
+     "Horizon Mall": 3,
+     "Sapphire Arena": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Jasper Marina": 1,
+     "Copper Clock Square": 2,
+     "Echo Station": 2,
+     "Shadowbridge Arcade": 3,
+     "Beacon Tower": 2,
+     "Horizon Mall": 1,
+     "Sapphire Arena": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 10,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Westgate Station",
+   "Ivory Spire Cathedral",
+   "Dragon’s Gate",
+   "Skyline Gardens",
+   "Umbra Theater",
+   "Duskwood Park",
+   "Oakshade Library"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Westgate Station, Ivory Spire Cathedral, Dragon’s Gate, Skyline Gardens, Umbra Theater, Duskwood Park and Oakshade Library. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Westgate Station has overlapping signal areas with Skyline Gardens, Duskwood Park, Oakshade Library. \nThe Ivory Spire Cathedral has overlapping signal areas with Dragon’s Gate, Duskwood Park, Oakshade Library. \nThe Dragon’s Gate has overlapping signal areas with Skyline Gardens, Umbra Theater. \nThe Skyline Gardens has overlapping signal areas with Umbra Theater. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Ivory Spire Cathedral": 1,
+     "Dragon’s Gate": 2,
+     "Skyline Gardens": 3,
+     "Umbra Theater": 1,
+     "Duskwood Park": 2,
+     "Oakshade Library": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Ivory Spire Cathedral": 1,
+     "Dragon’s Gate": 2,
+     "Skyline Gardens": 3,
+     "Umbra Theater": 1,
+     "Duskwood Park": 2,
+     "Oakshade Library": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Ivory Spire Cathedral": 1,
+     "Dragon’s Gate": 2,
+     "Skyline Gardens": 3,
+     "Umbra Theater": 1,
+     "Duskwood Park": 2,
+     "Oakshade Library": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 11,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Jade Fountain",
+   "Azure Gardens",
+   "Ironbridge Crossing",
+   "Umbra Theater",
+   "Jasper Marina",
+   "Lighthouse Point",
+   "Oakshade Library"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Jade Fountain, Azure Gardens, Ironbridge Crossing, Umbra Theater, Jasper Marina, Lighthouse Point and Oakshade Library. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Jade Fountain has overlapping signal areas with Oakshade Library. \nThe Azure Gardens has overlapping signal areas with Jasper Marina, Lighthouse Point. \nThe Ironbridge Crossing has overlapping signal areas with Umbra Theater, Lighthouse Point, Oakshade Library. \nThe Umbra Theater has overlapping signal areas with Lighthouse Point, Oakshade Library. \nThe Jasper Marina has overlapping signal areas with Oakshade Library. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Azure Gardens": 1,
+     "Ironbridge Crossing": 1,
+     "Umbra Theater": 2,
+     "Jasper Marina": 2,
+     "Lighthouse Point": 3,
+     "Oakshade Library": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Azure Gardens": 1,
+     "Ironbridge Crossing": 1,
+     "Umbra Theater": 2,
+     "Jasper Marina": 2,
+     "Lighthouse Point": 3,
+     "Oakshade Library": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Jade Fountain": 2,
+     "Azure Gardens": 2,
+     "Ironbridge Crossing": 2,
+     "Umbra Theater": 3,
+     "Jasper Marina": 3,
+     "Lighthouse Point": 1,
+     "Oakshade Library": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 12,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quartz District",
+   "Mosaic Plaza",
+   "Sapphire Arena",
+   "Willowshade Pavilion",
+   "Rosewood Hall",
+   "Granite Plaza",
+   "Jasper Marina"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Quartz District, Mosaic Plaza, Sapphire Arena, Willowshade Pavilion, Rosewood Hall, Granite Plaza and Jasper Marina. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Quartz District has overlapping signal areas with Mosaic Plaza, Willowshade Pavilion, Granite Plaza. \nThe Mosaic Plaza has overlapping signal areas with Willowshade Pavilion, Rosewood Hall, Jasper Marina. \nThe Sapphire Arena has overlapping signal areas with Rosewood Hall. \nThe Willowshade Pavilion has overlapping signal areas with Granite Plaza, Jasper Marina. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Mosaic Plaza": 2,
+     "Sapphire Arena": 1,
+     "Willowshade Pavilion": 3,
+     "Rosewood Hall": 3,
+     "Granite Plaza": 2,
+     "Jasper Marina": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Mosaic Plaza": 2,
+     "Sapphire Arena": 1,
+     "Willowshade Pavilion": 3,
+     "Rosewood Hall": 3,
+     "Granite Plaza": 2,
+     "Jasper Marina": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quartz District": 3,
+     "Mosaic Plaza": 1,
+     "Sapphire Arena": 1,
+     "Willowshade Pavilion": 2,
+     "Rosewood Hall": 2,
+     "Granite Plaza": 1,
+     "Jasper Marina": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 13,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Moonlit Promenade",
+   "Jasper Marina",
+   "Brass Lantern Tavern",
+   "Pennywhistle Arcade",
+   "Temple Square",
+   "Quartz District",
+   "Twilight Harbor"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Moonlit Promenade, Jasper Marina, Brass Lantern Tavern, Pennywhistle Arcade, Temple Square, Quartz District and Twilight Harbor. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Moonlit Promenade has overlapping signal areas with Quartz District, Twilight Harbor. \nThe Jasper Marina has overlapping signal areas with Quartz District. \nThe Brass Lantern Tavern has overlapping signal areas with Temple Square, Quartz District, Twilight Harbor. \nThe Pennywhistle Arcade has overlapping signal areas with Temple Square, Quartz District. \nThe Quartz District has overlapping signal areas with Twilight Harbor. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Jasper Marina": 1,
+     "Brass Lantern Tavern": 1,
+     "Pennywhistle Arcade": 1,
+     "Temple Square": 2,
+     "Quartz District": 2,
+     "Twilight Harbor": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Jasper Marina": 1,
+     "Brass Lantern Tavern": 1,
+     "Pennywhistle Arcade": 1,
+     "Temple Square": 2,
+     "Quartz District": 2,
+     "Twilight Harbor": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 2,
+     "Jasper Marina": 2,
+     "Brass Lantern Tavern": 2,
+     "Pennywhistle Arcade": 2,
+     "Temple Square": 1,
+     "Quartz District": 1,
+     "Twilight Harbor": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 14,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Velvet Corner",
+   "Westgate Station",
+   "Horizon Mall",
+   "Temple Square",
+   "Echo Station",
+   "Oakshade Library",
+   "Lighthouse Point"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Velvet Corner, Westgate Station, Horizon Mall, Temple Square, Echo Station, Oakshade Library and Lighthouse Point. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Velvet Corner has overlapping signal areas with Temple Square, Echo Station, Lighthouse Point. \nThe Westgate Station has overlapping signal areas with Temple Square. \nThe Horizon Mall has overlapping signal areas with Temple Square, Echo Station, Lighthouse Point. \nThe Temple Square has overlapping signal areas with Echo Station, Oakshade Library. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Westgate Station": 1,
+     "Horizon Mall": 1,
+     "Temple Square": 2,
+     "Echo Station": 3,
+     "Oakshade Library": 1,
+     "Lighthouse Point": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Westgate Station": 1,
+     "Horizon Mall": 1,
+     "Temple Square": 2,
+     "Echo Station": 3,
+     "Oakshade Library": 1,
+     "Lighthouse Point": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Velvet Corner": 2,
+     "Westgate Station": 2,
+     "Horizon Mall": 2,
+     "Temple Square": 1,
+     "Echo Station": 3,
+     "Oakshade Library": 2,
+     "Lighthouse Point": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 15,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Horizon Mall",
+   "Jasper Marina",
+   "Riverstone Wharf",
+   "Union Square Market",
+   "Skyline Gardens",
+   "Rosewood Hall",
+   "Quarry Point"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Horizon Mall, Jasper Marina, Riverstone Wharf, Union Square Market, Skyline Gardens, Rosewood Hall and Quarry Point. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Horizon Mall has overlapping signal areas with Quarry Point. \nThe Jasper Marina has overlapping signal areas with Quarry Point. \nThe Riverstone Wharf has overlapping signal areas with Union Square Market, Skyline Gardens, Rosewood Hall, Quarry Point. \nThe Union Square Market has overlapping signal areas with Quarry Point. \nThe Skyline Gardens has overlapping signal areas with Quarry Point. \nThe Rosewood Hall has overlapping signal areas with Quarry Point. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Horizon Mall": 1,
+     "Jasper Marina": 1,
+     "Riverstone Wharf": 1,
+     "Union Square Market": 2,
+     "Skyline Gardens": 2,
+     "Rosewood Hall": 2,
+     "Quarry Point": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Horizon Mall": 1,
+     "Jasper Marina": 1,
+     "Riverstone Wharf": 1,
+     "Union Square Market": 2,
+     "Skyline Gardens": 2,
+     "Rosewood Hall": 2,
+     "Quarry Point": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Horizon Mall": 2,
+     "Jasper Marina": 2,
+     "Riverstone Wharf": 2,
+     "Union Square Market": 3,
+     "Skyline Gardens": 3,
+     "Rosewood Hall": 3,
+     "Quarry Point": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 16,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Jade Fountain",
+   "Flare Alley",
+   "Ivory Spire Cathedral",
+   "Flint Forge Quarter",
+   "Pennywhistle Arcade",
+   "King’s Row",
+   "Knight’s Market"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Jade Fountain, Flare Alley, Ivory Spire Cathedral, Flint Forge Quarter, Pennywhistle Arcade, King’s Row and Knight’s Market. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Jade Fountain has overlapping signal areas with Ivory Spire Cathedral, Knight’s Market. \nThe Flare Alley has overlapping signal areas with Flint Forge Quarter, Pennywhistle Arcade, King’s Row, Knight’s Market. \nThe Ivory Spire Cathedral has overlapping signal areas with King’s Row. \nThe Flint Forge Quarter has overlapping signal areas with King’s Row. \nThe King’s Row has overlapping signal areas with Knight’s Market. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Flare Alley": 1,
+     "Ivory Spire Cathedral": 2,
+     "Flint Forge Quarter": 2,
+     "Pennywhistle Arcade": 2,
+     "King’s Row": 3,
+     "Knight’s Market": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Flare Alley": 1,
+     "Ivory Spire Cathedral": 2,
+     "Flint Forge Quarter": 2,
+     "Pennywhistle Arcade": 2,
+     "King’s Row": 3,
+     "Knight’s Market": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Flare Alley": 1,
+     "Ivory Spire Cathedral": 3,
+     "Flint Forge Quarter": 3,
+     "Pennywhistle Arcade": 2,
+     "King’s Row": 2,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 17,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Jade Fountain",
+   "Granite Plaza",
+   "Azure Gardens",
+   "Velvet Corner",
+   "Pennywhistle Arcade",
+   "Northwind Tower"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Primrose Boulevard, Jade Fountain, Granite Plaza, Azure Gardens, Velvet Corner, Pennywhistle Arcade and Northwind Tower. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Primrose Boulevard has overlapping signal areas with Jade Fountain, Granite Plaza, Azure Gardens, Northwind Tower. \nThe Jade Fountain has overlapping signal areas with Northwind Tower. \nThe Granite Plaza has overlapping signal areas with Velvet Corner, Pennywhistle Arcade, Northwind Tower. \nThe Azure Gardens has overlapping signal areas with Pennywhistle Arcade. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Jade Fountain": 2,
+     "Granite Plaza": 2,
+     "Azure Gardens": 2,
+     "Velvet Corner": 1,
+     "Pennywhistle Arcade": 1,
+     "Northwind Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Jade Fountain": 2,
+     "Granite Plaza": 2,
+     "Azure Gardens": 2,
+     "Velvet Corner": 1,
+     "Pennywhistle Arcade": 1,
+     "Northwind Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Jade Fountain": 2,
+     "Granite Plaza": 2,
+     "Azure Gardens": 2,
+     "Velvet Corner": 1,
+     "Pennywhistle Arcade": 1,
+     "Northwind Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 18,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Gilded Archway",
+   "Pennywhistle Arcade",
+   "Velvet Corner",
+   "Horizon Mall",
+   "Knight’s Market",
+   "Yarrow Plaza",
+   "Brass Lantern Tavern"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Gilded Archway, Pennywhistle Arcade, Velvet Corner, Horizon Mall, Knight’s Market, Yarrow Plaza and Brass Lantern Tavern. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Gilded Archway has overlapping signal areas with Pennywhistle Arcade, Horizon Mall, Knight’s Market, Yarrow Plaza. \nThe Pennywhistle Arcade has overlapping signal areas with Brass Lantern Tavern. \nThe Velvet Corner has overlapping signal areas with Knight’s Market. \nThe Horizon Mall has overlapping signal areas with Knight’s Market. \nThe Knight’s Market has overlapping signal areas with Brass Lantern Tavern. \nThe Yarrow Plaza has overlapping signal areas with Brass Lantern Tavern. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Gilded Archway": 1,
+     "Pennywhistle Arcade": 2,
+     "Velvet Corner": 1,
+     "Horizon Mall": 2,
+     "Knight’s Market": 3,
+     "Yarrow Plaza": 2,
+     "Brass Lantern Tavern": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Gilded Archway": 1,
+     "Pennywhistle Arcade": 2,
+     "Velvet Corner": 1,
+     "Horizon Mall": 2,
+     "Knight’s Market": 3,
+     "Yarrow Plaza": 2,
+     "Brass Lantern Tavern": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Gilded Archway": 1,
+     "Pennywhistle Arcade": 2,
+     "Velvet Corner": 1,
+     "Horizon Mall": 3,
+     "Knight’s Market": 2,
+     "Yarrow Plaza": 2,
+     "Brass Lantern Tavern": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 19,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Jasper Marina",
+   "Union Square Market",
+   "Cobalt Market",
+   "Granite Plaza",
+   "Oakshade Library",
+   "Pennywhistle Arcade",
+   "Dragon’s Gate"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Jasper Marina, Union Square Market, Cobalt Market, Granite Plaza, Oakshade Library, Pennywhistle Arcade and Dragon’s Gate. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Jasper Marina has overlapping signal areas with Cobalt Market, Pennywhistle Arcade. \nThe Union Square Market has overlapping signal areas with Cobalt Market, Granite Plaza, Oakshade Library. \nThe Granite Plaza has overlapping signal areas with Oakshade Library, Pennywhistle Arcade, Dragon’s Gate. \nThe Pennywhistle Arcade has overlapping signal areas with Dragon’s Gate. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Jasper Marina": 1,
+     "Union Square Market": 1,
+     "Cobalt Market": 2,
+     "Granite Plaza": 2,
+     "Oakshade Library": 3,
+     "Pennywhistle Arcade": 3,
+     "Dragon’s Gate": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Jasper Marina": 1,
+     "Union Square Market": 1,
+     "Cobalt Market": 2,
+     "Granite Plaza": 2,
+     "Oakshade Library": 3,
+     "Pennywhistle Arcade": 3,
+     "Dragon’s Gate": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Jasper Marina": 1,
+     "Union Square Market": 2,
+     "Cobalt Market": 3,
+     "Granite Plaza": 1,
+     "Oakshade Library": 3,
+     "Pennywhistle Arcade": 2,
+     "Dragon’s Gate": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 20,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Skyline Gardens",
+   "Zenith Arena",
+   "Pennywhistle Arcade",
+   "Oakshade Library",
+   "Riverstone Wharf",
+   "Shadowbridge Arcade",
+   "Maplewood Conservatory"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Skyline Gardens, Zenith Arena, Pennywhistle Arcade, Oakshade Library, Riverstone Wharf, Shadowbridge Arcade and Maplewood Conservatory. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Skyline Gardens has overlapping signal areas with Oakshade Library, Shadowbridge Arcade, Maplewood Conservatory. \nThe Zenith Arena has overlapping signal areas with Pennywhistle Arcade, Shadowbridge Arcade. \nThe Pennywhistle Arcade has overlapping signal areas with Maplewood Conservatory. \nThe Oakshade Library has overlapping signal areas with Maplewood Conservatory. \nThe Riverstone Wharf has overlapping signal areas with Shadowbridge Arcade, Maplewood Conservatory. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Skyline Gardens": 1,
+     "Zenith Arena": 1,
+     "Pennywhistle Arcade": 2,
+     "Oakshade Library": 2,
+     "Riverstone Wharf": 1,
+     "Shadowbridge Arcade": 2,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Skyline Gardens": 1,
+     "Zenith Arena": 1,
+     "Pennywhistle Arcade": 2,
+     "Oakshade Library": 2,
+     "Riverstone Wharf": 1,
+     "Shadowbridge Arcade": 2,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Skyline Gardens": 2,
+     "Zenith Arena": 2,
+     "Pennywhistle Arcade": 3,
+     "Oakshade Library": 3,
+     "Riverstone Wharf": 2,
+     "Shadowbridge Arcade": 1,
+     "Maplewood Conservatory": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 21,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quarry Point",
+   "Moonlit Promenade",
+   "Echo Station",
+   "Lighthouse Point",
+   "Primrose Boulevard",
+   "Mosaic Plaza",
+   "Copper Clock Square"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Quarry Point, Moonlit Promenade, Echo Station, Lighthouse Point, Primrose Boulevard, Mosaic Plaza and Copper Clock Square. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Quarry Point has overlapping signal areas with Moonlit Promenade, Lighthouse Point, Mosaic Plaza, Copper Clock Square. \nThe Moonlit Promenade has overlapping signal areas with Lighthouse Point. \nThe Echo Station has overlapping signal areas with Mosaic Plaza. \nThe Lighthouse Point has overlapping signal areas with Primrose Boulevard, Copper Clock Square. \nThe Primrose Boulevard has overlapping signal areas with Mosaic Plaza. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quarry Point": 1,
+     "Moonlit Promenade": 2,
+     "Echo Station": 1,
+     "Lighthouse Point": 3,
+     "Primrose Boulevard": 1,
+     "Mosaic Plaza": 2,
+     "Copper Clock Square": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quarry Point": 1,
+     "Moonlit Promenade": 2,
+     "Echo Station": 1,
+     "Lighthouse Point": 3,
+     "Primrose Boulevard": 1,
+     "Mosaic Plaza": 2,
+     "Copper Clock Square": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quarry Point": 1,
+     "Moonlit Promenade": 3,
+     "Echo Station": 1,
+     "Lighthouse Point": 2,
+     "Primrose Boulevard": 1,
+     "Mosaic Plaza": 2,
+     "Copper Clock Square": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 22,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Zenith Arena",
+   "Brass Lantern Tavern",
+   "Pennywhistle Arcade",
+   "Skyline Gardens",
+   "Union Square Market",
+   "Azure Gardens",
+   "Ivory Spire Cathedral"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Zenith Arena, Brass Lantern Tavern, Pennywhistle Arcade, Skyline Gardens, Union Square Market, Azure Gardens and Ivory Spire Cathedral. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Zenith Arena has overlapping signal areas with Brass Lantern Tavern, Skyline Gardens, Azure Gardens. \nThe Brass Lantern Tavern has overlapping signal areas with Pennywhistle Arcade. \nThe Pennywhistle Arcade has overlapping signal areas with Union Square Market, Azure Gardens. \nThe Skyline Gardens has overlapping signal areas with Azure Gardens, Ivory Spire Cathedral. \nThe Azure Gardens has overlapping signal areas with Ivory Spire Cathedral. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Zenith Arena": 1,
+     "Brass Lantern Tavern": 2,
+     "Pennywhistle Arcade": 1,
+     "Skyline Gardens": 2,
+     "Union Square Market": 2,
+     "Azure Gardens": 3,
+     "Ivory Spire Cathedral": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Zenith Arena": 1,
+     "Brass Lantern Tavern": 2,
+     "Pennywhistle Arcade": 1,
+     "Skyline Gardens": 2,
+     "Union Square Market": 2,
+     "Azure Gardens": 3,
+     "Ivory Spire Cathedral": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Zenith Arena": 2,
+     "Brass Lantern Tavern": 1,
+     "Pennywhistle Arcade": 2,
+     "Skyline Gardens": 3,
+     "Union Square Market": 1,
+     "Azure Gardens": 1,
+     "Ivory Spire Cathedral": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 23,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Maplewood Conservatory",
+   "Northwind Tower",
+   "Temple Square",
+   "Copper Clock Square",
+   "Union Square Market",
+   "Silvercrest Observatory",
+   "Flint Forge Quarter"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Maplewood Conservatory, Northwind Tower, Temple Square, Copper Clock Square, Union Square Market, Silvercrest Observatory and Flint Forge Quarter. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Maplewood Conservatory has overlapping signal areas with Northwind Tower, Temple Square, Flint Forge Quarter. \nThe Northwind Tower has overlapping signal areas with Copper Clock Square, Flint Forge Quarter. \nThe Temple Square has overlapping signal areas with Silvercrest Observatory, Flint Forge Quarter. \nThe Copper Clock Square has overlapping signal areas with Silvercrest Observatory. \nThe Silvercrest Observatory has overlapping signal areas with Flint Forge Quarter. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Maplewood Conservatory": 1,
+     "Northwind Tower": 2,
+     "Temple Square": 2,
+     "Copper Clock Square": 3,
+     "Union Square Market": 1,
+     "Silvercrest Observatory": 1,
+     "Flint Forge Quarter": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Maplewood Conservatory": 1,
+     "Northwind Tower": 2,
+     "Temple Square": 2,
+     "Copper Clock Square": 1,
+     "Union Square Market": 1,
+     "Silvercrest Observatory": 3,
+     "Flint Forge Quarter": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Maplewood Conservatory": 2,
+     "Northwind Tower": 3,
+     "Temple Square": 3,
+     "Copper Clock Square": 1,
+     "Union Square Market": 1,
+     "Silvercrest Observatory": 2,
+     "Flint Forge Quarter": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 24,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lighthouse Point",
+   "Jade Fountain",
+   "Dragon’s Gate",
+   "Twilight Harbor",
+   "Beacon Tower",
+   "Temple Square",
+   "Riverstone Wharf"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Lighthouse Point, Jade Fountain, Dragon’s Gate, Twilight Harbor, Beacon Tower, Temple Square and Riverstone Wharf. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Lighthouse Point has overlapping signal areas with Twilight Harbor, Temple Square, Riverstone Wharf. \nThe Jade Fountain has overlapping signal areas with Temple Square, Riverstone Wharf. \nThe Dragon’s Gate has overlapping signal areas with Riverstone Wharf. \nThe Twilight Harbor has overlapping signal areas with Beacon Tower. \nThe Beacon Tower has overlapping signal areas with Temple Square, Riverstone Wharf. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Jade Fountain": 1,
+     "Dragon’s Gate": 1,
+     "Twilight Harbor": 2,
+     "Beacon Tower": 1,
+     "Temple Square": 2,
+     "Riverstone Wharf": 2
+    },
+    "min_colors": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Jade Fountain": 1,
+     "Dragon’s Gate": 1,
+     "Twilight Harbor": 2,
+     "Beacon Tower": 1,
+     "Temple Square": 2,
+     "Riverstone Wharf": 2
+    },
+    "min_colors": 2,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lighthouse Point": 2,
+     "Jade Fountain": 2,
+     "Dragon’s Gate": 2,
+     "Twilight Harbor": 1,
+     "Beacon Tower": 2,
+     "Temple Square": 1,
+     "Riverstone Wharf": 1
+    },
+    "min_colors": 2,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 25,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Ironbridge Crossing",
+   "Beacon Tower",
+   "Rosewood Hall",
+   "Union Square Market",
+   "Lunar Pier",
+   "Ivory Spire Cathedral",
+   "Zenith Arena"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Ironbridge Crossing, Beacon Tower, Rosewood Hall, Union Square Market, Lunar Pier, Ivory Spire Cathedral and Zenith Arena. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Ironbridge Crossing has overlapping signal areas with Beacon Tower, Lunar Pier, Ivory Spire Cathedral. \nThe Beacon Tower has overlapping signal areas with Union Square Market, Zenith Arena. \nThe Rosewood Hall has overlapping signal areas with Ivory Spire Cathedral, Zenith Arena. \nThe Union Square Market has overlapping signal areas with Lunar Pier, Zenith Arena. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Ironbridge Crossing": 1,
+     "Beacon Tower": 2,
+     "Rosewood Hall": 1,
+     "Union Square Market": 1,
+     "Lunar Pier": 2,
+     "Ivory Spire Cathedral": 2,
+     "Zenith Arena": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Ironbridge Crossing": 1,
+     "Beacon Tower": 2,
+     "Rosewood Hall": 1,
+     "Union Square Market": 1,
+     "Lunar Pier": 2,
+     "Ivory Spire Cathedral": 2,
+     "Zenith Arena": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Ironbridge Crossing": 1,
+     "Beacon Tower": 2,
+     "Rosewood Hall": 1,
+     "Union Square Market": 1,
+     "Lunar Pier": 2,
+     "Ivory Spire Cathedral": 2,
+     "Zenith Arena": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 26,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Union Square Market",
+   "Lunar Pier",
+   "Horizon Mall",
+   "Flare Alley",
+   "Opal Theater",
+   "Primrose Boulevard",
+   "Knight’s Market"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Union Square Market, Lunar Pier, Horizon Mall, Flare Alley, Opal Theater, Primrose Boulevard and Knight’s Market. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Union Square Market has overlapping signal areas with Lunar Pier, Primrose Boulevard. \nThe Lunar Pier has overlapping signal areas with Flare Alley, Knight’s Market. \nThe Horizon Mall has overlapping signal areas with Opal Theater, Knight’s Market. \nThe Flare Alley has overlapping signal areas with Opal Theater, Primrose Boulevard. \nThe Opal Theater has overlapping signal areas with Primrose Boulevard. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Union Square Market": 1,
+     "Lunar Pier": 2,
+     "Horizon Mall": 1,
+     "Flare Alley": 1,
+     "Opal Theater": 2,
+     "Primrose Boulevard": 3,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Union Square Market": 1,
+     "Lunar Pier": 2,
+     "Horizon Mall": 1,
+     "Flare Alley": 1,
+     "Opal Theater": 2,
+     "Primrose Boulevard": 3,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Union Square Market": 2,
+     "Lunar Pier": 1,
+     "Horizon Mall": 2,
+     "Flare Alley": 2,
+     "Opal Theater": 1,
+     "Primrose Boulevard": 3,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 27,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Sapphire Arena",
+   "Westgate Station",
+   "Maplewood Conservatory",
+   "Union Square Market",
+   "Nimbus Plaza",
+   "Amber Plaza",
+   "Quartz District"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Sapphire Arena, Westgate Station, Maplewood Conservatory, Union Square Market, Nimbus Plaza, Amber Plaza and Quartz District. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Sapphire Arena has overlapping signal areas with Westgate Station, Maplewood Conservatory, Amber Plaza. \nThe Westgate Station has overlapping signal areas with Maplewood Conservatory, Quartz District. \nThe Maplewood Conservatory has overlapping signal areas with Union Square Market, Amber Plaza. \nThe Union Square Market has overlapping signal areas with Amber Plaza. \nThe Nimbus Plaza has overlapping signal areas with Quartz District. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Sapphire Arena": 1,
+     "Westgate Station": 2,
+     "Maplewood Conservatory": 3,
+     "Union Square Market": 1,
+     "Nimbus Plaza": 1,
+     "Amber Plaza": 2,
+     "Quartz District": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Sapphire Arena": 1,
+     "Westgate Station": 2,
+     "Maplewood Conservatory": 3,
+     "Union Square Market": 1,
+     "Nimbus Plaza": 1,
+     "Amber Plaza": 2,
+     "Quartz District": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Sapphire Arena": 2,
+     "Westgate Station": 3,
+     "Maplewood Conservatory": 1,
+     "Union Square Market": 2,
+     "Nimbus Plaza": 2,
+     "Amber Plaza": 3,
+     "Quartz District": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 28,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Azure Gardens",
+   "Evergreen Circle",
+   "Quartz District",
+   "Westgate Station",
+   "Oakshade Library",
+   "Haven Docks",
+   "Lighthouse Point"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Azure Gardens, Evergreen Circle, Quartz District, Westgate Station, Oakshade Library, Haven Docks and Lighthouse Point. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Azure Gardens has overlapping signal areas with Evergreen Circle, Quartz District, Westgate Station, Oakshade Library, Haven Docks. \nThe Evergreen Circle has overlapping signal areas with Quartz District, Westgate Station. \nThe Westgate Station has overlapping signal areas with Lighthouse Point. \nThe Haven Docks has overlapping signal areas with Lighthouse Point. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Azure Gardens": 1,
+     "Evergreen Circle": 2,
+     "Quartz District": 3,
+     "Westgate Station": 3,
+     "Oakshade Library": 2,
+     "Haven Docks": 2,
+     "Lighthouse Point": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Azure Gardens": 1,
+     "Evergreen Circle": 2,
+     "Quartz District": 3,
+     "Westgate Station": 3,
+     "Oakshade Library": 2,
+     "Haven Docks": 2,
+     "Lighthouse Point": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Azure Gardens": 1,
+     "Evergreen Circle": 2,
+     "Quartz District": 3,
+     "Westgate Station": 3,
+     "Oakshade Library": 2,
+     "Haven Docks": 2,
+     "Lighthouse Point": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 29,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Zenith Arena",
+   "Quartz District",
+   "Umbra Theater",
+   "Northwind Tower",
+   "Knight’s Market",
+   "Echo Station",
+   "Union Square Market"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Zenith Arena, Quartz District, Umbra Theater, Northwind Tower, Knight’s Market, Echo Station and Union Square Market. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Zenith Arena has overlapping signal areas with Knight’s Market, Echo Station. \nThe Quartz District has overlapping signal areas with Umbra Theater, Echo Station. \nThe Umbra Theater has overlapping signal areas with Knight’s Market, Union Square Market. \nThe Northwind Tower has overlapping signal areas with Knight’s Market, Union Square Market. \nThe Knight’s Market has overlapping signal areas with Union Square Market. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Zenith Arena": 1,
+     "Quartz District": 1,
+     "Umbra Theater": 2,
+     "Northwind Tower": 2,
+     "Knight’s Market": 3,
+     "Echo Station": 2,
+     "Union Square Market": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Zenith Arena": 1,
+     "Quartz District": 1,
+     "Umbra Theater": 2,
+     "Northwind Tower": 1,
+     "Knight’s Market": 3,
+     "Echo Station": 2,
+     "Union Square Market": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Zenith Arena": 2,
+     "Quartz District": 1,
+     "Umbra Theater": 2,
+     "Northwind Tower": 2,
+     "Knight’s Market": 1,
+     "Echo Station": 3,
+     "Union Square Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 30,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Willowshade Pavilion",
+   "Rosewood Hall",
+   "Lunar Pier",
+   "Echo Station",
+   "Umbra Theater",
+   "Duskwood Park",
+   "Primrose Boulevard"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Willowshade Pavilion, Rosewood Hall, Lunar Pier, Echo Station, Umbra Theater, Duskwood Park and Primrose Boulevard. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Willowshade Pavilion has overlapping signal areas with Lunar Pier, Echo Station, Umbra Theater, Duskwood Park. \nThe Rosewood Hall has overlapping signal areas with Lunar Pier, Duskwood Park, Primrose Boulevard. \nThe Lunar Pier has overlapping signal areas with Umbra Theater. \nThe Echo Station has overlapping signal areas with Umbra Theater. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 1,
+     "Rosewood Hall": 1,
+     "Lunar Pier": 2,
+     "Echo Station": 2,
+     "Umbra Theater": 3,
+     "Duskwood Park": 2,
+     "Primrose Boulevard": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 1,
+     "Rosewood Hall": 1,
+     "Lunar Pier": 2,
+     "Echo Station": 2,
+     "Umbra Theater": 3,
+     "Duskwood Park": 2,
+     "Primrose Boulevard": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 1,
+     "Rosewood Hall": 1,
+     "Lunar Pier": 2,
+     "Echo Station": 2,
+     "Umbra Theater": 3,
+     "Duskwood Park": 2,
+     "Primrose Boulevard": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 31,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Nimbus Plaza",
+   "Union Square Market",
+   "Mosaic Plaza",
+   "Moonlit Promenade",
+   "Jade Fountain",
+   "Temple Square",
+   "Ivory Spire Cathedral"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Nimbus Plaza, Union Square Market, Mosaic Plaza, Moonlit Promenade, Jade Fountain, Temple Square and Ivory Spire Cathedral. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Nimbus Plaza has overlapping signal areas with Moonlit Promenade, Jade Fountain, Temple Square. \nThe Union Square Market has overlapping signal areas with Mosaic Plaza, Moonlit Promenade. \nThe Mosaic Plaza has overlapping signal areas with Temple Square. \nThe Moonlit Promenade has overlapping signal areas with Ivory Spire Cathedral. \nThe Jade Fountain has overlapping signal areas with Temple Square. \nThe Temple Square has overlapping signal areas with Ivory Spire Cathedral. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Union Square Market": 1,
+     "Mosaic Plaza": 2,
+     "Moonlit Promenade": 2,
+     "Jade Fountain": 2,
+     "Temple Square": 3,
+     "Ivory Spire Cathedral": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Union Square Market": 1,
+     "Mosaic Plaza": 2,
+     "Moonlit Promenade": 2,
+     "Jade Fountain": 2,
+     "Temple Square": 3,
+     "Ivory Spire Cathedral": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 2,
+     "Union Square Market": 2,
+     "Mosaic Plaza": 3,
+     "Moonlit Promenade": 1,
+     "Jade Fountain": 3,
+     "Temple Square": 1,
+     "Ivory Spire Cathedral": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 32,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Granite Plaza",
+   "Zenith Arena",
+   "Maplewood Conservatory",
+   "Jade Fountain",
+   "Lighthouse Point",
+   "Cobalt Market",
+   "Rosewood Hall"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Granite Plaza, Zenith Arena, Maplewood Conservatory, Jade Fountain, Lighthouse Point, Cobalt Market and Rosewood Hall. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Granite Plaza has overlapping signal areas with Jade Fountain. \nThe Zenith Arena has overlapping signal areas with Maplewood Conservatory, Jade Fountain, Cobalt Market, Rosewood Hall. \nThe Maplewood Conservatory has overlapping signal areas with Lighthouse Point. \nThe Jade Fountain has overlapping signal areas with Lighthouse Point, Rosewood Hall. \nThe Cobalt Market has overlapping signal areas with Rosewood Hall. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Zenith Arena": 1,
+     "Maplewood Conservatory": 2,
+     "Jade Fountain": 2,
+     "Lighthouse Point": 1,
+     "Cobalt Market": 2,
+     "Rosewood Hall": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Zenith Arena": 1,
+     "Maplewood Conservatory": 2,
+     "Jade Fountain": 2,
+     "Lighthouse Point": 1,
+     "Cobalt Market": 2,
+     "Rosewood Hall": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Zenith Arena": 1,
+     "Maplewood Conservatory": 2,
+     "Jade Fountain": 2,
+     "Lighthouse Point": 1,
+     "Cobalt Market": 2,
+     "Rosewood Hall": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 33,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quartz District",
+   "Granite Plaza",
+   "Sapphire Arena",
+   "Brass Lantern Tavern",
+   "Ivory Spire Cathedral",
+   "Beacon Tower",
+   "Yarrow Plaza"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Quartz District, Granite Plaza, Sapphire Arena, Brass Lantern Tavern, Ivory Spire Cathedral, Beacon Tower and Yarrow Plaza. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Quartz District has overlapping signal areas with Sapphire Arena, Ivory Spire Cathedral, Beacon Tower. \nThe Granite Plaza has overlapping signal areas with Sapphire Arena. \nThe Sapphire Arena has overlapping signal areas with Ivory Spire Cathedral. \nThe Brass Lantern Tavern has overlapping signal areas with Ivory Spire Cathedral, Yarrow Plaza. \nThe Ivory Spire Cathedral has overlapping signal areas with Beacon Tower, Yarrow Plaza. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Granite Plaza": 1,
+     "Sapphire Arena": 2,
+     "Brass Lantern Tavern": 1,
+     "Ivory Spire Cathedral": 3,
+     "Beacon Tower": 2,
+     "Yarrow Plaza": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Granite Plaza": 1,
+     "Sapphire Arena": 2,
+     "Brass Lantern Tavern": 1,
+     "Ivory Spire Cathedral": 3,
+     "Beacon Tower": 2,
+     "Yarrow Plaza": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quartz District": 2,
+     "Granite Plaza": 1,
+     "Sapphire Arena": 3,
+     "Brass Lantern Tavern": 2,
+     "Ivory Spire Cathedral": 1,
+     "Beacon Tower": 3,
+     "Yarrow Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 34,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Evergreen Circle",
+   "Flint Forge Quarter",
+   "Umbra Theater",
+   "Ironbridge Crossing",
+   "Gilded Archway",
+   "Flare Alley",
+   "Amber Plaza"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Evergreen Circle, Flint Forge Quarter, Umbra Theater, Ironbridge Crossing, Gilded Archway, Flare Alley and Amber Plaza. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Evergreen Circle has overlapping signal areas with Flint Forge Quarter, Umbra Theater, Flare Alley, Amber Plaza. \nThe Flint Forge Quarter has overlapping signal areas with Ironbridge Crossing, Flare Alley. \nThe Umbra Theater has overlapping signal areas with Ironbridge Crossing. \nThe Ironbridge Crossing has overlapping signal areas with Flare Alley. \nThe Gilded Archway has overlapping signal areas with Amber Plaza. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Flint Forge Quarter": 2,
+     "Umbra Theater": 2,
+     "Ironbridge Crossing": 1,
+     "Gilded Archway": 1,
+     "Flare Alley": 3,
+     "Amber Plaza": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Flint Forge Quarter": 2,
+     "Umbra Theater": 2,
+     "Ironbridge Crossing": 1,
+     "Gilded Archway": 1,
+     "Flare Alley": 3,
+     "Amber Plaza": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Flint Forge Quarter": 2,
+     "Umbra Theater": 2,
+     "Ironbridge Crossing": 1,
+     "Gilded Archway": 1,
+     "Flare Alley": 3,
+     "Amber Plaza": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 35,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Yarrow Plaza",
+   "Skyline Gardens",
+   "Evergreen Circle",
+   "Opal Theater",
+   "King’s Row",
+   "Jasper Marina",
+   "Flare Alley"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Yarrow Plaza, Skyline Gardens, Evergreen Circle, Opal Theater, King’s Row, Jasper Marina and Flare Alley. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Yarrow Plaza has overlapping signal areas with Skyline Gardens, Opal Theater, King’s Row, Flare Alley. \nThe Skyline Gardens has overlapping signal areas with Evergreen Circle, Flare Alley. \nThe Evergreen Circle has overlapping signal areas with Opal Theater. \nThe Opal Theater has overlapping signal areas with King’s Row. \nThe King’s Row has overlapping signal areas with Jasper Marina. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Skyline Gardens": 2,
+     "Evergreen Circle": 1,
+     "Opal Theater": 2,
+     "King’s Row": 3,
+     "Jasper Marina": 1,
+     "Flare Alley": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Skyline Gardens": 2,
+     "Evergreen Circle": 1,
+     "Opal Theater": 2,
+     "King’s Row": 3,
+     "Jasper Marina": 1,
+     "Flare Alley": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Skyline Gardens": 2,
+     "Evergreen Circle": 1,
+     "Opal Theater": 2,
+     "King’s Row": 3,
+     "Jasper Marina": 1,
+     "Flare Alley": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 36,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Pennywhistle Arcade",
+   "Gilded Archway",
+   "Dragon’s Gate",
+   "Northwind Tower",
+   "Flint Forge Quarter",
+   "Evergreen Circle"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Primrose Boulevard, Pennywhistle Arcade, Gilded Archway, Dragon’s Gate, Northwind Tower, Flint Forge Quarter and Evergreen Circle. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Primrose Boulevard has overlapping signal areas with Pennywhistle Arcade, Northwind Tower, Flint Forge Quarter, Evergreen Circle. \nThe Gilded Archway has overlapping signal areas with Evergreen Circle. \nThe Dragon’s Gate has overlapping signal areas with Northwind Tower, Flint Forge Quarter. \nThe Northwind Tower has overlapping signal areas with Evergreen Circle. \nThe Flint Forge Quarter has overlapping signal areas with Evergreen Circle. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Pennywhistle Arcade": 2,
+     "Gilded Archway": 1,
+     "Dragon’s Gate": 1,
+     "Northwind Tower": 2,
+     "Flint Forge Quarter": 2,
+     "Evergreen Circle": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Pennywhistle Arcade": 2,
+     "Gilded Archway": 1,
+     "Dragon’s Gate": 1,
+     "Northwind Tower": 2,
+     "Flint Forge Quarter": 2,
+     "Evergreen Circle": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Pennywhistle Arcade": 2,
+     "Gilded Archway": 1,
+     "Dragon’s Gate": 1,
+     "Northwind Tower": 3,
+     "Flint Forge Quarter": 3,
+     "Evergreen Circle": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 37,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Copper Clock Square",
+   "Mosaic Plaza",
+   "Flint Forge Quarter",
+   "Gilded Archway",
+   "Yarrow Plaza",
+   "Rosewood Hall",
+   "Haven Docks"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Copper Clock Square, Mosaic Plaza, Flint Forge Quarter, Gilded Archway, Yarrow Plaza, Rosewood Hall and Haven Docks. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Copper Clock Square has overlapping signal areas with Mosaic Plaza, Gilded Archway, Rosewood Hall, Haven Docks. \nThe Mosaic Plaza has overlapping signal areas with Flint Forge Quarter, Rosewood Hall. \nThe Flint Forge Quarter has overlapping signal areas with Gilded Archway. \nThe Gilded Archway has overlapping signal areas with Yarrow Plaza, Rosewood Hall. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Copper Clock Square": 1,
+     "Mosaic Plaza": 2,
+     "Flint Forge Quarter": 1,
+     "Gilded Archway": 2,
+     "Yarrow Plaza": 1,
+     "Rosewood Hall": 3,
+     "Haven Docks": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Copper Clock Square": 1,
+     "Mosaic Plaza": 2,
+     "Flint Forge Quarter": 1,
+     "Gilded Archway": 2,
+     "Yarrow Plaza": 1,
+     "Rosewood Hall": 3,
+     "Haven Docks": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Copper Clock Square": 1,
+     "Mosaic Plaza": 2,
+     "Flint Forge Quarter": 1,
+     "Gilded Archway": 2,
+     "Yarrow Plaza": 1,
+     "Rosewood Hall": 3,
+     "Haven Docks": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 38,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Pennywhistle Arcade",
+   "Temple Square",
+   "Knight’s Market",
+   "Beacon Tower",
+   "Rosewood Hall",
+   "Willowshade Pavilion",
+   "Twilight Harbor"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Pennywhistle Arcade, Temple Square, Knight’s Market, Beacon Tower, Rosewood Hall, Willowshade Pavilion and Twilight Harbor. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Pennywhistle Arcade has overlapping signal areas with Temple Square, Beacon Tower, Rosewood Hall. \nThe Temple Square has overlapping signal areas with Rosewood Hall, Twilight Harbor. \nThe Knight’s Market has overlapping signal areas with Rosewood Hall. \nThe Beacon Tower has overlapping signal areas with Willowshade Pavilion. \nThe Rosewood Hall has overlapping signal areas with Willowshade Pavilion, Twilight Harbor. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Temple Square": 2,
+     "Knight’s Market": 1,
+     "Beacon Tower": 2,
+     "Rosewood Hall": 3,
+     "Willowshade Pavilion": 1,
+     "Twilight Harbor": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Temple Square": 2,
+     "Knight’s Market": 1,
+     "Beacon Tower": 2,
+     "Rosewood Hall": 3,
+     "Willowshade Pavilion": 1,
+     "Twilight Harbor": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 2,
+     "Temple Square": 3,
+     "Knight’s Market": 2,
+     "Beacon Tower": 1,
+     "Rosewood Hall": 1,
+     "Willowshade Pavilion": 2,
+     "Twilight Harbor": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 39,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Shadowbridge Arcade",
+   "Yarrow Plaza",
+   "Union Square Market",
+   "Echo Station",
+   "Cobalt Market",
+   "Azure Gardens",
+   "Jade Fountain"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Shadowbridge Arcade, Yarrow Plaza, Union Square Market, Echo Station, Cobalt Market, Azure Gardens and Jade Fountain. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Shadowbridge Arcade has overlapping signal areas with Yarrow Plaza, Echo Station, Cobalt Market, Jade Fountain. \nThe Yarrow Plaza has overlapping signal areas with Union Square Market, Echo Station, Jade Fountain. \nThe Union Square Market has overlapping signal areas with Azure Gardens. \nThe Cobalt Market has overlapping signal areas with Jade Fountain. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Yarrow Plaza": 2,
+     "Union Square Market": 1,
+     "Echo Station": 3,
+     "Cobalt Market": 2,
+     "Azure Gardens": 2,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Yarrow Plaza": 2,
+     "Union Square Market": 1,
+     "Echo Station": 3,
+     "Cobalt Market": 2,
+     "Azure Gardens": 2,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Yarrow Plaza": 2,
+     "Union Square Market": 1,
+     "Echo Station": 3,
+     "Cobalt Market": 2,
+     "Azure Gardens": 2,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 40,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Flare Alley",
+   "Granite Plaza",
+   "Mosaic Plaza",
+   "Ivory Spire Cathedral",
+   "Cobalt Market",
+   "Zenith Arena",
+   "Moonlit Promenade"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Flare Alley, Granite Plaza, Mosaic Plaza, Ivory Spire Cathedral, Cobalt Market, Zenith Arena and Moonlit Promenade. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Flare Alley has overlapping signal areas with Mosaic Plaza, Moonlit Promenade. \nThe Granite Plaza has overlapping signal areas with Mosaic Plaza, Ivory Spire Cathedral, Zenith Arena. \nThe Ivory Spire Cathedral has overlapping signal areas with Cobalt Market. \nThe Cobalt Market has overlapping signal areas with Zenith Arena, Moonlit Promenade. \nThe Zenith Arena has overlapping signal areas with Moonlit Promenade. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Granite Plaza": 1,
+     "Mosaic Plaza": 2,
+     "Ivory Spire Cathedral": 2,
+     "Cobalt Market": 1,
+     "Zenith Arena": 2,
+     "Moonlit Promenade": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Granite Plaza": 1,
+     "Mosaic Plaza": 2,
+     "Ivory Spire Cathedral": 2,
+     "Cobalt Market": 1,
+     "Zenith Arena": 2,
+     "Moonlit Promenade": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Granite Plaza": 1,
+     "Mosaic Plaza": 2,
+     "Ivory Spire Cathedral": 2,
+     "Cobalt Market": 1,
+     "Zenith Arena": 2,
+     "Moonlit Promenade": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 41,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Flare Alley",
+   "Ironbridge Crossing",
+   "Skyline Gardens",
+   "Moonlit Promenade",
+   "Rosewood Hall",
+   "Pennywhistle Arcade",
+   "Yarrow Plaza"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Flare Alley, Ironbridge Crossing, Skyline Gardens, Moonlit Promenade, Rosewood Hall, Pennywhistle Arcade and Yarrow Plaza. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Flare Alley has overlapping signal areas with Moonlit Promenade, Rosewood Hall, Pennywhistle Arcade. \nThe Ironbridge Crossing has overlapping signal areas with Moonlit Promenade, Rosewood Hall, Pennywhistle Arcade, Yarrow Plaza. \nThe Skyline Gardens has overlapping signal areas with Moonlit Promenade, Pennywhistle Arcade. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Ironbridge Crossing": 1,
+     "Skyline Gardens": 1,
+     "Moonlit Promenade": 2,
+     "Rosewood Hall": 2,
+     "Pennywhistle Arcade": 2,
+     "Yarrow Plaza": 2
+    },
+    "min_colors": 2,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Ironbridge Crossing": 1,
+     "Skyline Gardens": 1,
+     "Moonlit Promenade": 2,
+     "Rosewood Hall": 2,
+     "Pennywhistle Arcade": 2,
+     "Yarrow Plaza": 2
+    },
+    "min_colors": 2,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Ironbridge Crossing": 1,
+     "Skyline Gardens": 1,
+     "Moonlit Promenade": 2,
+     "Rosewood Hall": 2,
+     "Pennywhistle Arcade": 2,
+     "Yarrow Plaza": 2
+    },
+    "min_colors": 2,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 42,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Silvercrest Observatory",
+   "Gilded Archway",
+   "Duskwood Park",
+   "Flint Forge Quarter",
+   "Dragon’s Gate",
+   "Riverstone Wharf",
+   "Zenith Arena"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Silvercrest Observatory, Gilded Archway, Duskwood Park, Flint Forge Quarter, Dragon’s Gate, Riverstone Wharf and Zenith Arena. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Silvercrest Observatory has overlapping signal areas with Duskwood Park, Flint Forge Quarter, Riverstone Wharf. \nThe Gilded Archway has overlapping signal areas with Duskwood Park, Flint Forge Quarter, Riverstone Wharf. \nThe Duskwood Park has overlapping signal areas with Zenith Arena. \nThe Dragon’s Gate has overlapping signal areas with Riverstone Wharf, Zenith Arena. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Silvercrest Observatory": 1,
+     "Gilded Archway": 1,
+     "Duskwood Park": 2,
+     "Flint Forge Quarter": 2,
+     "Dragon’s Gate": 1,
+     "Riverstone Wharf": 2,
+     "Zenith Arena": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Silvercrest Observatory": 1,
+     "Gilded Archway": 1,
+     "Duskwood Park": 2,
+     "Flint Forge Quarter": 2,
+     "Dragon’s Gate": 1,
+     "Riverstone Wharf": 2,
+     "Zenith Arena": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Silvercrest Observatory": 1,
+     "Gilded Archway": 1,
+     "Duskwood Park": 2,
+     "Flint Forge Quarter": 2,
+     "Dragon’s Gate": 1,
+     "Riverstone Wharf": 2,
+     "Zenith Arena": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 43,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Willowshade Pavilion",
+   "Ironbridge Crossing",
+   "Duskwood Park",
+   "Oakshade Library",
+   "Skyline Gardens",
+   "Gilded Archway",
+   "Shadowbridge Arcade"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Willowshade Pavilion, Ironbridge Crossing, Duskwood Park, Oakshade Library, Skyline Gardens, Gilded Archway and Shadowbridge Arcade. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Willowshade Pavilion has overlapping signal areas with Ironbridge Crossing, Gilded Archway. \nThe Ironbridge Crossing has overlapping signal areas with Duskwood Park, Oakshade Library, Skyline Gardens, Shadowbridge Arcade. \nThe Duskwood Park has overlapping signal areas with Skyline Gardens, Shadowbridge Arcade. \nThe Oakshade Library has overlapping signal areas with Shadowbridge Arcade. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 1,
+     "Ironbridge Crossing": 2,
+     "Duskwood Park": 1,
+     "Oakshade Library": 1,
+     "Skyline Gardens": 3,
+     "Gilded Archway": 2,
+     "Shadowbridge Arcade": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 1,
+     "Ironbridge Crossing": 2,
+     "Duskwood Park": 1,
+     "Oakshade Library": 1,
+     "Skyline Gardens": 3,
+     "Gilded Archway": 2,
+     "Shadowbridge Arcade": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 2,
+     "Ironbridge Crossing": 1,
+     "Duskwood Park": 2,
+     "Oakshade Library": 2,
+     "Skyline Gardens": 3,
+     "Gilded Archway": 1,
+     "Shadowbridge Arcade": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 44,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Oakshade Library",
+   "Brass Lantern Tavern",
+   "Twilight Harbor",
+   "Mosaic Plaza",
+   "Northwind Tower",
+   "Quartz District",
+   "Skyline Gardens"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Oakshade Library, Brass Lantern Tavern, Twilight Harbor, Mosaic Plaza, Northwind Tower, Quartz District and Skyline Gardens. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Oakshade Library has overlapping signal areas with Brass Lantern Tavern, Mosaic Plaza, Northwind Tower. \nThe Brass Lantern Tavern has overlapping signal areas with Mosaic Plaza, Northwind Tower, Quartz District. \nThe Twilight Harbor has overlapping signal areas with Quartz District. \nThe Mosaic Plaza has overlapping signal areas with Quartz District. \nThe Quartz District has overlapping signal areas with Skyline Gardens. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Oakshade Library": 1,
+     "Brass Lantern Tavern": 2,
+     "Twilight Harbor": 2,
+     "Mosaic Plaza": 3,
+     "Northwind Tower": 3,
+     "Quartz District": 1,
+     "Skyline Gardens": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Oakshade Library": 1,
+     "Brass Lantern Tavern": 2,
+     "Twilight Harbor": 1,
+     "Mosaic Plaza": 3,
+     "Northwind Tower": 3,
+     "Quartz District": 4,
+     "Skyline Gardens": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Oakshade Library": 2,
+     "Brass Lantern Tavern": 1,
+     "Twilight Harbor": 1,
+     "Mosaic Plaza": 3,
+     "Northwind Tower": 3,
+     "Quartz District": 2,
+     "Skyline Gardens": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 45,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Maplewood Conservatory",
+   "Twilight Harbor",
+   "Flare Alley",
+   "Lunar Pier",
+   "Dragon’s Gate",
+   "Riverstone Wharf",
+   "Knight’s Market"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Maplewood Conservatory, Twilight Harbor, Flare Alley, Lunar Pier, Dragon’s Gate, Riverstone Wharf and Knight’s Market. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Maplewood Conservatory has overlapping signal areas with Dragon’s Gate. \nThe Twilight Harbor has overlapping signal areas with Flare Alley, Knight’s Market. \nThe Flare Alley has overlapping signal areas with Dragon’s Gate, Riverstone Wharf, Knight’s Market. \nThe Lunar Pier has overlapping signal areas with Riverstone Wharf, Knight’s Market. \nThe Riverstone Wharf has overlapping signal areas with Knight’s Market. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Maplewood Conservatory": 1,
+     "Twilight Harbor": 1,
+     "Flare Alley": 2,
+     "Lunar Pier": 2,
+     "Dragon’s Gate": 3,
+     "Riverstone Wharf": 1,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Maplewood Conservatory": 1,
+     "Twilight Harbor": 1,
+     "Flare Alley": 2,
+     "Lunar Pier": 1,
+     "Dragon’s Gate": 3,
+     "Riverstone Wharf": 3,
+     "Knight’s Market": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Maplewood Conservatory": 1,
+     "Twilight Harbor": 3,
+     "Flare Alley": 1,
+     "Lunar Pier": 1,
+     "Dragon’s Gate": 2,
+     "Riverstone Wharf": 3,
+     "Knight’s Market": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 46,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Azure Gardens",
+   "Ironbridge Crossing",
+   "Brass Lantern Tavern",
+   "Zenith Arena",
+   "Duskwood Park",
+   "Lunar Pier",
+   "Quartz District"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Azure Gardens, Ironbridge Crossing, Brass Lantern Tavern, Zenith Arena, Duskwood Park, Lunar Pier and Quartz District. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Azure Gardens has overlapping signal areas with Ironbridge Crossing, Lunar Pier, Quartz District. \nThe Ironbridge Crossing has overlapping signal areas with Brass Lantern Tavern, Quartz District. \nThe Brass Lantern Tavern has overlapping signal areas with Duskwood Park, Quartz District. \nThe Zenith Arena has overlapping signal areas with Duskwood Park. \nThe Duskwood Park has overlapping signal areas with Lunar Pier. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Azure Gardens": 1,
+     "Ironbridge Crossing": 2,
+     "Brass Lantern Tavern": 1,
+     "Zenith Arena": 1,
+     "Duskwood Park": 2,
+     "Lunar Pier": 3,
+     "Quartz District": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Azure Gardens": 1,
+     "Ironbridge Crossing": 2,
+     "Brass Lantern Tavern": 1,
+     "Zenith Arena": 1,
+     "Duskwood Park": 2,
+     "Lunar Pier": 3,
+     "Quartz District": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Azure Gardens": 1,
+     "Ironbridge Crossing": 2,
+     "Brass Lantern Tavern": 1,
+     "Zenith Arena": 1,
+     "Duskwood Park": 2,
+     "Lunar Pier": 3,
+     "Quartz District": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 47,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quartz District",
+   "Lunar Pier",
+   "Temple Square",
+   "Zenith Arena",
+   "Westgate Station",
+   "Yarrow Plaza",
+   "Flint Forge Quarter"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Quartz District, Lunar Pier, Temple Square, Zenith Arena, Westgate Station, Yarrow Plaza and Flint Forge Quarter. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Quartz District has overlapping signal areas with Lunar Pier, Temple Square, Zenith Arena, Westgate Station. \nThe Lunar Pier has overlapping signal areas with Temple Square, Yarrow Plaza. \nThe Temple Square has overlapping signal areas with Zenith Arena, Flint Forge Quarter. \nThe Yarrow Plaza has overlapping signal areas with Flint Forge Quarter. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Lunar Pier": 2,
+     "Temple Square": 3,
+     "Zenith Arena": 2,
+     "Westgate Station": 2,
+     "Yarrow Plaza": 1,
+     "Flint Forge Quarter": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Lunar Pier": 2,
+     "Temple Square": 3,
+     "Zenith Arena": 2,
+     "Westgate Station": 2,
+     "Yarrow Plaza": 1,
+     "Flint Forge Quarter": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Lunar Pier": 3,
+     "Temple Square": 2,
+     "Zenith Arena": 3,
+     "Westgate Station": 2,
+     "Yarrow Plaza": 1,
+     "Flint Forge Quarter": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 48,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quartz District",
+   "Northwind Tower",
+   "Velvet Corner",
+   "Azure Gardens",
+   "Duskwood Park",
+   "Union Square Market",
+   "Maplewood Conservatory"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Quartz District, Northwind Tower, Velvet Corner, Azure Gardens, Duskwood Park, Union Square Market and Maplewood Conservatory. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Quartz District has overlapping signal areas with Velvet Corner, Azure Gardens. \nThe Northwind Tower has overlapping signal areas with Velvet Corner, Azure Gardens. \nThe Velvet Corner has overlapping signal areas with Duskwood Park. \nThe Azure Gardens has overlapping signal areas with Union Square Market, Maplewood Conservatory. \nThe Duskwood Park has overlapping signal areas with Union Square Market, Maplewood Conservatory. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Northwind Tower": 1,
+     "Velvet Corner": 2,
+     "Azure Gardens": 2,
+     "Duskwood Park": 1,
+     "Union Square Market": 3,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Northwind Tower": 1,
+     "Velvet Corner": 2,
+     "Azure Gardens": 2,
+     "Duskwood Park": 1,
+     "Union Square Market": 3,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quartz District": 2,
+     "Northwind Tower": 2,
+     "Velvet Corner": 1,
+     "Azure Gardens": 1,
+     "Duskwood Park": 2,
+     "Union Square Market": 3,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ },
+ {
+  "graph_index": 49,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Beacon Tower",
+   "Willowshade Pavilion",
+   "Umbra Theater",
+   "Flint Forge Quarter",
+   "Primrose Boulevard",
+   "Horizon Mall",
+   "Lunar Pier"
+  ],
+  "Q": "I am designing a public Wi-Fi network for my city, with the goal of providing free high-speed internet access across various public areas. The network will cover 7 major locations in the city: Beacon Tower, Willowshade Pavilion, Umbra Theater, Flint Forge Quarter, Primrose Boulevard, Horizon Mall and Lunar Pier. \nEach of these locations will have a Wi-Fi base station, but the stations are located at varying distances from one another, and some may have overlapping coverage areas. The main issue I face is how to allocate frequencies to these base stations in a way that minimizes interference. I know that if two adjacent stations use the same frequency, their signals will interfere with each other, which will affect the network’s stability and speed. \nThe interference relationships between the base stations are as follows: \nThe Beacon Tower has overlapping signal areas with Umbra Theater, Primrose Boulevard, Lunar Pier. \nThe Willowshade Pavilion has overlapping signal areas with Flint Forge Quarter, Horizon Mall, Lunar Pier. \nThe Umbra Theater has overlapping signal areas with Flint Forge Quarter. \nThe Primrose Boulevard has overlapping signal areas with Horizon Mall, Lunar Pier. \nI need to assign frequencies to the stations in such a way that no two adjacent stations use the same frequency, ensuring minimal interference. The ideal solution is to minimize the number of frequencies needed, as this would lower both the infrastructure costs and the ongoing maintenance expenses.\nCan you help me come up with a solution for frequency allocation to ensure stable and reliable network performance across all locations?\n",
+  "result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Beacon Tower": 1,
+     "Willowshade Pavilion": 1,
+     "Umbra Theater": 2,
+     "Flint Forge Quarter": 3,
+     "Primrose Boulevard": 2,
+     "Horizon Mall": 3,
+     "Lunar Pier": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Beacon Tower": 1,
+     "Willowshade Pavilion": 1,
+     "Umbra Theater": 2,
+     "Flint Forge Quarter": 3,
+     "Primrose Boulevard": 2,
+     "Horizon Mall": 3,
+     "Lunar Pier": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Beacon Tower": 1,
+     "Willowshade Pavilion": 1,
+     "Umbra Theater": 2,
+     "Flint Forge Quarter": 3,
+     "Primrose Boulevard": 2,
+     "Horizon Mall": 3,
+     "Lunar Pier": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  }
+ }
+]

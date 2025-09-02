@@ -1,0 +1,7789 @@
+[
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 0,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Starfire",
+   "Server Nightshade",
+   "Server Oceanview",
+   "Server Darkhorse",
+   "Server Glacierpeak",
+   "Server Ironclad",
+   "Server Nightfall",
+   "Server Lighthouse",
+   "Server Emberfall"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Oceanview",
+     "Server Darkhorse",
+     "Server Nightfall",
+     "Server Emberfall"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Darkhorse",
+     "Server Glacierpeak",
+     "Server Ironclad",
+     "Server Emberfall"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Nightshade",
+     "Server Oceanview",
+     "Server Darkhorse",
+     "Server Glacierpeak",
+     "Server Ironclad",
+     "Server Nightfall",
+     "Server Lighthouse",
+     "Server Emberfall"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that need monitoring for security purposes. The computers are interconnected through bidirectional communication links, and the objective is to ensure that all links are monitored by deploying monitoring devices on a minimum number of computers.\",\n    \"entities\": [\n        \"Server Starfire\",\n        \"Server Nightshade\",\n        \"Server Oceanview\",\n        \"Server Darkhorse\",\n        \"Server Glacierpeak\",\n        \"Server Ironclad\",\n        \"Server Nightfall\",\n        \"Server Lighthouse\",\n        \"Server Emberfall\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to oversee and secure network communications.\",\n        \"communication links\": \"Connections between computers that allow information to flow bidirectionally, meaning data can be sent and received across the link.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions, allowing for two-way communication.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 1,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Mirage",
+   "Server Lighthouse",
+   "Server Ghostwind",
+   "Server Brightstar",
+   "Server Windswept",
+   "Server Nightfall",
+   "Server Starfire",
+   "Server Bluebird",
+   "Server Ironbark"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Lighthouse",
+     "Server Ghostwind",
+     "Server Windswept",
+     "Server Starfire"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Lighthouse",
+     "Server Ghostwind",
+     "Server Windswept",
+     "Server Starfire"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Lighthouse",
+     "Server Ghostwind",
+     "Server Brightstar",
+     "Server Windswept",
+     "Server Nightfall",
+     "Server Starfire",
+     "Server Ironbark"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively.\",\n    \"entities\": [\n        \"Server Mirage\",\n        \"Server Lighthouse\",\n        \"Server Ghostwind\",\n        \"Server Brightstar\",\n        \"Server Windswept\",\n        \"Server Nightfall\",\n        \"Server Starfire\",\n        \"Server Bluebird\",\n        \"Server Ironbark\",\n        \"monitoring devices\",\n        \"firewalls\",\n        \"intrusion detection systems\",\n        \"communication links\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"The bidirectional connections between the computers that allow information to flow in both directions.\",\n        \"monitoring devices\": \"Tools such as firewalls or intrusion detection systems that are installed on computers to monitor and secure network traffic.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 2,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Firefly",
+   "Server Skyhawk",
+   "Server Frostmoon",
+   "Server Blackwood",
+   "Server Ghostwind",
+   "Server Darkhorse",
+   "Server Twilight",
+   "Server Thunderstrike",
+   "Server Nightshade"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Frostmoon",
+     "Server Ghostwind",
+     "Server Thunderstrike",
+     "Server Nightshade"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Frostmoon",
+     "Server Ghostwind",
+     "Server Thunderstrike",
+     "Server Nightshade"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Skyhawk",
+     "Server Frostmoon",
+     "Server Blackwood",
+     "Server Ghostwind",
+     "Server Darkhorse",
+     "Server Twilight",
+     "Server Thunderstrike",
+     "Server Nightshade"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that need monitoring devices installed to ensure all communication links are secured and monitored. The computers are interconnected through bidirectional communication links, allowing information to flow in both directions. The objective is to determine the minimum number of computers that need monitoring devices to cover all communication links.\",\n    \"entities\": [\n        \"Server Firefly\",\n        \"Server Skyhawk\",\n        \"Server Frostmoon\",\n        \"Server Blackwood\",\n        \"Server Ghostwind\",\n        \"Server Darkhorse\",\n        \"Server Twilight\",\n        \"Server Thunderstrike\",\n        \"Server Nightshade\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which in this case are bidirectional.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 3,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Bluebird",
+   "Server Thunderstrike",
+   "Server Silverhawk",
+   "Server Falconeye",
+   "Server Emberlight",
+   "Server Glacier",
+   "Server Starfire",
+   "Server Frostbite",
+   "Server Emberfall"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Falconeye",
+     "Server Glacier",
+     "Server Frostbite"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Falconeye",
+     "Server Glacier",
+     "Server Frostbite"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Bluebird",
+     "Server Thunderstrike",
+     "Server Silverhawk",
+     "Server Falconeye",
+     "Server Emberlight",
+     "Server Glacier",
+     "Server Frostbite",
+     "Server Emberfall"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Bluebird\",\n        \"Server Thunderstrike\",\n        \"Server Silverhawk\",\n        \"Server Falconeye\",\n        \"Server Emberlight\",\n        \"Server Glacier\",\n        \"Server Starfire\",\n        \"Server Frostbite\",\n        \"Server Emberfall\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"The bidirectional connections between the computers that allow information to flow between them.\",\n        \"bidirectional\": \"A type of connection that allows data to be transmitted in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 4,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberlight",
+   "Server Falconeye",
+   "Server Mirage",
+   "Server Emberfall",
+   "Server Vortex",
+   "Server Nightfall",
+   "Server Bluebird",
+   "Server Starfire",
+   "Server Glacierpeak"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Falconeye",
+     "Server Mirage",
+     "Server Emberfall",
+     "Server Vortex",
+     "Server Starfire"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Falconeye",
+     "Server Mirage",
+     "Server Emberfall",
+     "Server Vortex",
+     "Server Starfire"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Falconeye",
+     "Server Mirage",
+     "Server Emberfall",
+     "Server Vortex",
+     "Server Nightfall",
+     "Server Starfire",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Emberlight\",\n        \"Server Falconeye\",\n        \"Server Mirage\",\n        \"Server Emberfall\",\n        \"Server Vortex\",\n        \"Server Nightfall\",\n        \"Server Bluebird\",\n        \"Server Starfire\",\n        \"Server Glacierpeak\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"Connections between computers that allow for the transfer of information.\",\n        \"bidirectional\": \"A characteristic of a connection where information can flow in both directions.\",\n        \"monitoring devices\": \"Tools such as firewalls or intrusion detection systems that are installed on computers to oversee and secure network communications.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 5,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Bluebird",
+   "Server Moonlight",
+   "Server Falconeye",
+   "Server Oceanview",
+   "Server Emberfall",
+   "Server Nightfall",
+   "Server Sunflower",
+   "Server Eaglecrest",
+   "Server Seabreeze"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Bluebird",
+     "Server Moonlight",
+     "Server Falconeye",
+     "Server Emberfall",
+     "Server Sunflower",
+     "Server Seabreeze"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Bluebird",
+     "Server Falconeye",
+     "Server Emberfall",
+     "Server Nightfall",
+     "Server Sunflower",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Bluebird",
+     "Server Moonlight",
+     "Server Falconeye",
+     "Server Oceanview",
+     "Server Emberfall",
+     "Server Nightfall",
+     "Server Sunflower",
+     "Server Eaglecrest",
+     "Server Seabreeze"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a company with 9 computers that are interconnected through various communication links. The goal is to enhance network security by deploying monitoring devices on some of these computers to ensure that all communication links are monitored effectively.\",\n    \"entities\": [\n        \"Server Bluebird\",\n        \"Server Moonlight\",\n        \"Server Falconeye\",\n        \"Server Oceanview\",\n        \"Server Emberfall\",\n        \"Server Nightfall\",\n        \"Server Sunflower\",\n        \"Server Eaglecrest\",\n        \"Server Seabreeze\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Bidirectional connections between computers that allow information to flow in both directions.\",\n        \"bidirectional\": \"A type of connection where data can be transmitted in both directions between two entities.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 6,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stormcloud",
+   "Server Sunflower",
+   "Server Silverhawk",
+   "Server Seabreeze",
+   "Server Stealthwind",
+   "Server Starfire",
+   "Server Firestorm",
+   "Server Glacierpeak",
+   "Server Windswept"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Sunflower",
+     "Server Silverhawk",
+     "Server Seabreeze",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Sunflower",
+     "Server Silverhawk",
+     "Server Seabreeze",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Sunflower",
+     "Server Silverhawk",
+     "Server Seabreeze",
+     "Server Stealthwind",
+     "Server Starfire",
+     "Server Glacierpeak",
+     "Server Windswept"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by deploying monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Stormcloud\",\n        \"Server Sunflower\",\n        \"Server Silverhawk\",\n        \"Server Seabreeze\",\n        \"Server Stealthwind\",\n        \"Server Starfire\",\n        \"Server Firestorm\",\n        \"Server Glacierpeak\",\n        \"Server Windswept\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which in this case are bidirectional.\",\n        \"bidirectional\": \"A type of connection that allows data to flow in both directions between two entities.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 7,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Seabreeze",
+   "Server Silverstone",
+   "Server Stormbreaker",
+   "Server Silverstream",
+   "Server Brightstar",
+   "Server Shadowbrook",
+   "Server Ravenstone",
+   "Server Ironbark",
+   "Server Silverhawk"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Silverstone",
+     "Server Stormbreaker",
+     "Server Silverstream",
+     "Server Brightstar",
+     "Server Silverhawk"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverstone",
+     "Server Stormbreaker",
+     "Server Brightstar",
+     "Server Shadowbrook",
+     "Server Ravenstone",
+     "Server Ironbark"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Silverstone",
+     "Server Stormbreaker",
+     "Server Silverstream",
+     "Server Brightstar",
+     "Server Shadowbrook",
+     "Server Ravenstone",
+     "Server Silverhawk"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through several communication links. The goal is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Seabreeze\",\n        \"Server Silverstone\",\n        \"Server Stormbreaker\",\n        \"Server Silverstream\",\n        \"Server Brightstar\",\n        \"Server Shadowbrook\",\n        \"Server Ravenstone\",\n        \"Server Ironbark\",\n        \"Server Silverhawk\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which in this case are bidirectional.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across the link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 8,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ironclad",
+   "Server Thunderbolt",
+   "Server Mirage",
+   "Server Skyhawk",
+   "Server Willowbrook",
+   "Server Twilight",
+   "Server Darkhorse",
+   "Server Glacier",
+   "Server Ghostwind"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Mirage",
+     "Server Twilight",
+     "Server Glacier",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Willowbrook",
+     "Server Twilight",
+     "Server Darkhorse",
+     "Server Glacier"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Thunderbolt",
+     "Server Mirage",
+     "Server Skyhawk",
+     "Server Willowbrook",
+     "Server Twilight",
+     "Server Darkhorse",
+     "Server Glacier",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The goal is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Ironclad\",\n        \"Server Thunderbolt\",\n        \"Server Mirage\",\n        \"Server Skyhawk\",\n        \"Server Willowbrook\",\n        \"Server Twilight\",\n        \"Server Darkhorse\",\n        \"Server Glacier\",\n        \"Server Ghostwind\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"The bidirectional connections between the computers that allow information to flow between them.\",\n        \"bidirectional\": \"A type of connection that allows data to be transmitted in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 9,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverstream",
+   "Server Stormbreaker",
+   "Server Skyhawk",
+   "Server Starfire",
+   "Server Falconeye",
+   "Server Ravenstone",
+   "Server Thunderstrike",
+   "Server Crimsoncloud",
+   "Server Amberwave"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Starfire",
+     "Server Falconeye",
+     "Server Ravenstone",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Starfire",
+     "Server Falconeye",
+     "Server Ravenstone",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Stormbreaker",
+     "Server Skyhawk",
+     "Server Starfire",
+     "Server Falconeye",
+     "Server Ravenstone",
+     "Server Thunderstrike",
+     "Server Crimsoncloud",
+     "Server Amberwave"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers within a company, which are interconnected through several communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Silverstream\",\n        \"Server Stormbreaker\",\n        \"Server Skyhawk\",\n        \"Server Starfire\",\n        \"Server Falconeye\",\n        \"Server Ravenstone\",\n        \"Server Thunderstrike\",\n        \"Server Crimsoncloud\",\n        \"Server Amberwave\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor and secure network communications.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which in this case are bidirectional.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 10,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Lighthouse",
+   "Server Skyhawk",
+   "Server Amberwave",
+   "Server Firefly",
+   "Server Oceanview",
+   "Server Windswept",
+   "Server Emberlight",
+   "Server Thunderbolt",
+   "Server Stormcloud"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Skyhawk",
+     "Server Windswept",
+     "Server Thunderbolt",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Skyhawk",
+     "Server Amberwave",
+     "Server Firefly",
+     "Server Oceanview",
+     "Server Windswept"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Skyhawk",
+     "Server Amberwave",
+     "Server Firefly",
+     "Server Oceanview",
+     "Server Windswept",
+     "Server Emberlight"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The goal is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Lighthouse\",\n        \"Server Skyhawk\",\n        \"Server Amberwave\",\n        \"Server Firefly\",\n        \"Server Oceanview\",\n        \"Server Windswept\",\n        \"Server Emberlight\",\n        \"Server Thunderbolt\",\n        \"Server Stormcloud\",\n        \"monitoring devices\",\n        \"firewalls\",\n        \"intrusion detection systems\",\n        \"communication links\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which are bidirectional in this context, meaning data can flow in both directions across any link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 11,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Bluebird",
+   "Server Tempest",
+   "Server Lighthouse",
+   "Server Vortex",
+   "Server Ironbark",
+   "Server Redwood",
+   "Server Solarflare",
+   "Server Thunderbolt",
+   "Server Goldleaf"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Bluebird",
+     "Server Vortex",
+     "Server Redwood",
+     "Server Thunderbolt",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Bluebird",
+     "Server Vortex",
+     "Server Redwood",
+     "Server Thunderbolt",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Bluebird",
+     "Server Tempest",
+     "Server Lighthouse",
+     "Server Vortex",
+     "Server Ironbark",
+     "Server Redwood",
+     "Server Solarflare",
+     "Server Thunderbolt",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Bluebird\",\n        \"Server Tempest\",\n        \"Server Lighthouse\",\n        \"Server Vortex\",\n        \"Server Ironbark\",\n        \"Server Redwood\",\n        \"Server Solarflare\",\n        \"Server Thunderbolt\",\n        \"Server Goldleaf\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which in this case are bidirectional.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 12,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Firefly",
+   "Server Darkhorse",
+   "Server Bluewave",
+   "Server Shadowbrook",
+   "Server Stormbreaker",
+   "Server Starfire",
+   "Server Glacierpeak",
+   "Server Sandstorm",
+   "Server Brightstar"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Darkhorse",
+     "Server Bluewave",
+     "Server Shadowbrook",
+     "Server Starfire"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Darkhorse",
+     "Server Bluewave",
+     "Server Shadowbrook",
+     "Server Starfire"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Darkhorse",
+     "Server Bluewave",
+     "Server Shadowbrook",
+     "Server Stormbreaker",
+     "Server Starfire",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The goal is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Firefly\",\n        \"Server Darkhorse\",\n        \"Server Bluewave\",\n        \"Server Shadowbrook\",\n        \"Server Stormbreaker\",\n        \"Server Starfire\",\n        \"Server Glacierpeak\",\n        \"Server Sandstorm\",\n        \"Server Brightstar\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which are bidirectional in this context, meaning data can flow in both directions.\",\n        \"bidirectional\": \"A type of connection that allows data to be transmitted in both directions between two points.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 13,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stormbreaker",
+   "Server Emberlight",
+   "Server Stealthwind",
+   "Server Glacierpeak",
+   "Server Willowbrook",
+   "Server Firefly",
+   "Server Tempest",
+   "Server Bluewave",
+   "Server Windmill"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stormbreaker",
+     "Server Emberlight",
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Firefly",
+     "Server Windmill"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stormbreaker",
+     "Server Emberlight",
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Firefly",
+     "Server Windmill"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stormbreaker",
+     "Server Emberlight",
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Willowbrook",
+     "Server Firefly",
+     "Server Tempest",
+     "Server Bluewave",
+     "Server Windmill"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Stormbreaker\",\n        \"Server Emberlight\",\n        \"Server Stealthwind\",\n        \"Server Glacierpeak\",\n        \"Server Willowbrook\",\n        \"Server Firefly\",\n        \"Server Tempest\",\n        \"Server Bluewave\",\n        \"Server Windmill\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which in this case are bidirectional.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 14,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberlight",
+   "Server Firefly",
+   "Server Silverstream",
+   "Server Brightstar",
+   "Server Glacierpeak",
+   "Server Mirage",
+   "Server Redwood",
+   "Server Lighthouse",
+   "Server Darkhorse"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Silverstream",
+     "Server Brightstar",
+     "Server Mirage",
+     "Server Redwood"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Silverstream",
+     "Server Brightstar",
+     "Server Mirage",
+     "Server Redwood"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Firefly",
+     "Server Silverstream",
+     "Server Brightstar",
+     "Server Glacierpeak",
+     "Server Mirage",
+     "Server Redwood",
+     "Server Lighthouse"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers allow for bidirectional communication, meaning that data can flow in both directions across any link.\",\n    \"entities\": [\n        \"Server Emberlight\",\n        \"Server Firefly\",\n        \"Server Silverstream\",\n        \"Server Brightstar\",\n        \"Server Glacierpeak\",\n        \"Server Mirage\",\n        \"Server Redwood\",\n        \"Server Lighthouse\",\n        \"Server Darkhorse\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor and secure network communications.\",\n        \"communication links\": \"Connections between computers that allow for the transfer of information, which are bidirectional in this context, meaning data can flow in both directions.\",\n        \"bidirectional\": \"A term indicating that communication can occur in both directions across a link between two entities.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 15,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverhawk",
+   "Server Nightshade",
+   "Server Willowbrook",
+   "Server Sunflower",
+   "Server Glacier",
+   "Server Falconeye",
+   "Server Mirage",
+   "Server Ravenstone",
+   "Server Firestorm"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Silverhawk",
+     "Server Nightshade",
+     "Server Sunflower",
+     "Server Glacier",
+     "Server Firestorm"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverhawk",
+     "Server Nightshade",
+     "Server Glacier",
+     "Server Falconeye",
+     "Server Mirage"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverhawk",
+     "Server Nightshade",
+     "Server Willowbrook",
+     "Server Sunflower",
+     "Server Glacier",
+     "Server Falconeye",
+     "Server Mirage",
+     "Server Firestorm"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by deploying monitoring devices on some of these computers to ensure that all communication links are monitored. The connections are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Silverhawk\",\n        \"Server Nightshade\",\n        \"Server Willowbrook\",\n        \"Server Sunflower\",\n        \"Server Glacier\",\n        \"Server Falconeye\",\n        \"Server Mirage\",\n        \"Server Ravenstone\",\n        \"Server Firestorm\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"The bidirectional connections between computers that allow for the exchange of information.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 16,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ravenstone",
+   "Server Glacier",
+   "Server Silverhawk",
+   "Server Lighthouse",
+   "Server Firestorm",
+   "Server Brightstar",
+   "Server Windswept",
+   "Server Stormbreaker",
+   "Server Bluebird"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Glacier",
+     "Server Lighthouse",
+     "Server Firestorm",
+     "Server Stormbreaker"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Glacier",
+     "Server Lighthouse",
+     "Server Firestorm",
+     "Server Stormbreaker"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Glacier",
+     "Server Silverhawk",
+     "Server Lighthouse",
+     "Server Firestorm",
+     "Server Brightstar",
+     "Server Windswept",
+     "Server Stormbreaker",
+     "Server Bluebird"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Ravenstone\",\n        \"Server Glacier\",\n        \"Server Silverhawk\",\n        \"Server Lighthouse\",\n        \"Server Firestorm\",\n        \"Server Brightstar\",\n        \"Server Windswept\",\n        \"Server Stormbreaker\",\n        \"Server Bluebird\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which in this case are bidirectional, meaning data can flow in both directions.\",\n        \"bidirectional\": \"A type of connection where information can travel in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 17,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Frostbite",
+   "Server Willowbrook",
+   "Server Ironclad",
+   "Server Redwood",
+   "Server Goldleaf",
+   "Server Twilight",
+   "Server Emberfall",
+   "Server Thunderbolt",
+   "Server Starfire"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Frostbite",
+     "Server Ironclad",
+     "Server Redwood",
+     "Server Twilight",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Frostbite",
+     "Server Ironclad",
+     "Server Redwood",
+     "Server Twilight",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Frostbite",
+     "Server Willowbrook",
+     "Server Ironclad",
+     "Server Redwood",
+     "Server Goldleaf",
+     "Server Twilight",
+     "Server Emberfall",
+     "Server Thunderbolt",
+     "Server Starfire"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by deploying monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Frostbite\",\n        \"Server Willowbrook\",\n        \"Server Ironclad\",\n        \"Server Redwood\",\n        \"Server Goldleaf\",\n        \"Server Twilight\",\n        \"Server Emberfall\",\n        \"Server Thunderbolt\",\n        \"Server Starfire\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"The connections between computers that allow for the exchange of information.\",\n        \"bidirectional\": \"A type of connection that allows information to flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 18,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Firefly",
+   "Server Thunderbolt",
+   "Server Tempest",
+   "Server Stormbreaker",
+   "Server Stealthwind",
+   "Server Ironclad",
+   "Server Vortex",
+   "Server Frostbite",
+   "Server Skyhawk"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Thunderbolt",
+     "Server Tempest",
+     "Server Vortex",
+     "Server Frostbite"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Thunderbolt",
+     "Server Tempest",
+     "Server Vortex",
+     "Server Frostbite"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Thunderbolt",
+     "Server Tempest",
+     "Server Stormbreaker",
+     "Server Stealthwind",
+     "Server Ironclad",
+     "Server Vortex",
+     "Server Frostbite",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Firefly\",\n        \"Server Thunderbolt\",\n        \"Server Tempest\",\n        \"Server Stormbreaker\",\n        \"Server Stealthwind\",\n        \"Server Ironclad\",\n        \"Server Vortex\",\n        \"Server Frostbite\",\n        \"Server Skyhawk\",\n        \"monitoring devices\",\n        \"firewalls\",\n        \"intrusion detection systems\",\n        \"communication links\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to oversee and secure network communications.\",\n        \"communication links\": \"The connections between computers that allow for the exchange of information, which in this case are bidirectional, meaning data can flow in both directions.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 19,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Brightstar",
+   "Server Nightfall",
+   "Server Blackwood",
+   "Server Sunflower",
+   "Server Glacier",
+   "Server Sandstorm",
+   "Server Ironclad",
+   "Server Goldleaf"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Brightstar",
+     "Server Nightfall",
+     "Server Sunflower",
+     "Server Glacier"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Brightstar",
+     "Server Nightfall",
+     "Server Sunflower",
+     "Server Glacier"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Brightstar",
+     "Server Nightfall",
+     "Server Blackwood",
+     "Server Sunflower",
+     "Server Glacier",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that need to be monitored for security purposes. The computers are interconnected through various communication links, and the goal is to ensure that all links are monitored by deploying monitoring devices on a minimum number of computers.\",\n    \"entities\": [\n        \"Server Windmill\",\n        \"Server Brightstar\",\n        \"Server Nightfall\",\n        \"Server Blackwood\",\n        \"Server Sunflower\",\n        \"Server Glacier\",\n        \"Server Sandstorm\",\n        \"Server Ironclad\",\n        \"Server Goldleaf\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"Connections between computers that allow information to flow in both directions.\",\n        \"monitoring devices\": \"Security tools such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\",\n        \"network security\": \"Measures taken to protect a computer network from unauthorized access or attacks.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 20,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Sandstorm",
+   "Server Moonlight",
+   "Server Frostmoon",
+   "Server Darkhorse",
+   "Server Firefly",
+   "Server Stormbreaker",
+   "Server Goldleaf",
+   "Server Thunderstrike",
+   "Server Bluebird"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Darkhorse",
+     "Server Firefly",
+     "Server Stormbreaker",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Darkhorse",
+     "Server Firefly",
+     "Server Stormbreaker",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Sandstorm",
+     "Server Moonlight",
+     "Server Frostmoon",
+     "Server Darkhorse",
+     "Server Firefly",
+     "Server Stormbreaker",
+     "Server Goldleaf",
+     "Server Thunderstrike",
+     "Server Bluebird"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The goal is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The communication links are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Sandstorm\",\n        \"Server Moonlight\",\n        \"Server Frostmoon\",\n        \"Server Darkhorse\",\n        \"Server Firefly\",\n        \"Server Stormbreaker\",\n        \"Server Goldleaf\",\n        \"Server Thunderstrike\",\n        \"Server Bluebird\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which in this case are bidirectional.\",\n        \"bidirectional\": \"A type of connection that allows information to flow in both directions across the link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 21,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stealthwind",
+   "Server Sandstorm",
+   "Server Frostmoon",
+   "Server Ghostwind",
+   "Server Solarflare",
+   "Server Emberfall",
+   "Server Crimsoncloud",
+   "Server Eaglecrest",
+   "Server Goldleaf"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Ghostwind",
+     "Server Solarflare",
+     "Server Emberfall",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Ghostwind",
+     "Server Solarflare",
+     "Server Emberfall",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Sandstorm",
+     "Server Frostmoon",
+     "Server Ghostwind",
+     "Server Solarflare",
+     "Server Emberfall",
+     "Server Crimsoncloud",
+     "Server Eaglecrest",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Stealthwind\",\n        \"Server Sandstorm\",\n        \"Server Frostmoon\",\n        \"Server Ghostwind\",\n        \"Server Solarflare\",\n        \"Server Emberfall\",\n        \"Server Crimsoncloud\",\n        \"Server Eaglecrest\",\n        \"Server Goldleaf\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which are bidirectional in this context.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 22,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Firestorm",
+   "Server Tempest",
+   "Server Bluebird",
+   "Server Blackwood",
+   "Server Twilight",
+   "Server Glacierpeak",
+   "Server Solarflare",
+   "Server Willowbrook",
+   "Server Nightshade"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Tempest",
+     "Server Blackwood",
+     "Server Twilight",
+     "Server Solarflare",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Tempest",
+     "Server Blackwood",
+     "Server Twilight",
+     "Server Solarflare",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Firestorm",
+     "Server Tempest",
+     "Server Bluebird",
+     "Server Blackwood",
+     "Server Twilight",
+     "Server Glacierpeak",
+     "Server Solarflare",
+     "Server Willowbrook",
+     "Server Nightshade"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Firestorm\",\n        \"Server Tempest\",\n        \"Server Bluebird\",\n        \"Server Blackwood\",\n        \"Server Twilight\",\n        \"Server Glacierpeak\",\n        \"Server Solarflare\",\n        \"Server Willowbrook\",\n        \"Server Nightshade\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 23,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Bluewave",
+   "Server Stealthwind",
+   "Server Lighthouse",
+   "Server Nightfall",
+   "Server Glacier",
+   "Server Oceanview",
+   "Server Emberfall",
+   "Server Stormcloud",
+   "Server Ironbark"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Glacier",
+     "Server Oceanview",
+     "Server Emberfall",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Glacier",
+     "Server Oceanview",
+     "Server Emberfall",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Bluewave",
+     "Server Stealthwind",
+     "Server Lighthouse",
+     "Server Nightfall",
+     "Server Glacier",
+     "Server Oceanview",
+     "Server Stormcloud",
+     "Server Ironbark"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Bluewave\",\n        \"Server Stealthwind\",\n        \"Server Lighthouse\",\n        \"Server Nightfall\",\n        \"Server Glacier\",\n        \"Server Oceanview\",\n        \"Server Emberfall\",\n        \"Server Stormcloud\",\n        \"Server Ironbark\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are used to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the transfer of information, which are bidirectional in this context.\",\n        \"bidirectional\": \"A type of connection that allows information to flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 24,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ghostwind",
+   "Server Silverstone",
+   "Server Thunderstrike",
+   "Server Ironclad",
+   "Server Stealthwind",
+   "Server Frostmoon",
+   "Server Falconeye",
+   "Server Firefly",
+   "Server Tempest"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ghostwind",
+     "Server Silverstone",
+     "Server Falconeye",
+     "Server Firefly",
+     "Server Tempest"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ghostwind",
+     "Server Silverstone",
+     "Server Thunderstrike",
+     "Server Ironclad",
+     "Server Frostmoon",
+     "Server Firefly"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ghostwind",
+     "Server Silverstone",
+     "Server Thunderstrike",
+     "Server Ironclad",
+     "Server Stealthwind",
+     "Server Frostmoon",
+     "Server Falconeye",
+     "Server Firefly"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The aim is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively.\",\n    \"entities\": [\n        \"Server Ghostwind\",\n        \"Server Silverstone\",\n        \"Server Thunderstrike\",\n        \"Server Ironclad\",\n        \"Server Stealthwind\",\n        \"Server Frostmoon\",\n        \"Server Falconeye\",\n        \"Server Firefly\",\n        \"Server Tempest\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"The connections between the computers that allow information to flow between them, which are bidirectional in this context.\",\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"bidirectional\": \"A characteristic of the communication links indicating that information can flow in both directions across any link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 25,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverstream",
+   "Server Crimsoncloud",
+   "Server Thunderbolt",
+   "Server Frostmoon",
+   "Server Sandstorm",
+   "Server Redwood",
+   "Server Nightfall",
+   "Server Skyhawk",
+   "Server Windswept"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Crimsoncloud",
+     "Server Thunderbolt",
+     "Server Frostmoon",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Crimsoncloud",
+     "Server Thunderbolt",
+     "Server Frostmoon",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Crimsoncloud",
+     "Server Thunderbolt",
+     "Server Frostmoon",
+     "Server Sandstorm",
+     "Server Redwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively.\",\n    \"entities\": [\n        \"Server Silverstream\",\n        \"Server Crimsoncloud\",\n        \"Server Thunderbolt\",\n        \"Server Frostmoon\",\n        \"Server Sandstorm\",\n        \"Server Redwood\",\n        \"Server Nightfall\",\n        \"Server Skyhawk\",\n        \"Server Windswept\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"Connections between computers that allow information to flow in both directions.\",\n        \"monitoring devices\": \"Security tools such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\",\n        \"network security\": \"Measures taken to protect a computer network from unauthorized access or attacks.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 26,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverstone",
+   "Server Stormcloud",
+   "Server Bluewave",
+   "Server Frostbite",
+   "Server Emberfall",
+   "Server Moonlight",
+   "Server Shadowbrook",
+   "Server Brightstar",
+   "Server Darkhorse"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Silverstone",
+     "Server Stormcloud",
+     "Server Bluewave",
+     "Server Frostbite",
+     "Server Emberfall",
+     "Server Moonlight"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverstone",
+     "Server Stormcloud",
+     "Server Bluewave",
+     "Server Frostbite",
+     "Server Emberfall",
+     "Server Moonlight"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverstone",
+     "Server Stormcloud",
+     "Server Bluewave",
+     "Server Frostbite",
+     "Server Emberfall",
+     "Server Moonlight",
+     "Server Shadowbrook",
+     "Server Brightstar"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The goal is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively.\",\n    \"entities\": [\n        \"Server Silverstone\",\n        \"Server Stormcloud\",\n        \"Server Bluewave\",\n        \"Server Frostbite\",\n        \"Server Emberfall\",\n        \"Server Moonlight\",\n        \"Server Shadowbrook\",\n        \"Server Brightstar\",\n        \"Server Darkhorse\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"Connections between computers that allow information to flow in both directions.\",\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\",\n        \"network security\": \"Measures taken to protect a computer network from unauthorized access or attacks.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 27,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Brightstar",
+   "Server Windswept",
+   "Server Frostbite",
+   "Server Glacier",
+   "Server Goldleaf",
+   "Server Lighthouse",
+   "Server Ravenstone",
+   "Server Ironclad",
+   "Server Vortex"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Windswept",
+     "Server Goldleaf",
+     "Server Lighthouse",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Windswept",
+     "Server Goldleaf",
+     "Server Lighthouse",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Windswept",
+     "Server Frostbite",
+     "Server Glacier",
+     "Server Goldleaf",
+     "Server Lighthouse",
+     "Server Ravenstone",
+     "Server Ironclad"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by deploying monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Brightstar\",\n        \"Server Windswept\",\n        \"Server Frostbite\",\n        \"Server Glacier\",\n        \"Server Goldleaf\",\n        \"Server Lighthouse\",\n        \"Server Ravenstone\",\n        \"Server Ironclad\",\n        \"Server Vortex\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor and secure network communications.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which in this case are bidirectional.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 28,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Bluewave",
+   "Server Solarflare",
+   "Server Blackwood",
+   "Server Windswept",
+   "Server Thunderbolt",
+   "Server Stormbreaker",
+   "Server Mirage",
+   "Server Crimsoncloud",
+   "Server Glacier"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Blackwood",
+     "Server Windswept",
+     "Server Stormbreaker",
+     "Server Glacier"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Windswept",
+     "Server Thunderbolt",
+     "Server Stormbreaker",
+     "Server Glacier"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Bluewave",
+     "Server Solarflare",
+     "Server Blackwood",
+     "Server Windswept",
+     "Server Thunderbolt",
+     "Server Stormbreaker",
+     "Server Mirage",
+     "Server Crimsoncloud",
+     "Server Glacier"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The goal is to enhance network security by deploying monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Bluewave\",\n        \"Server Solarflare\",\n        \"Server Blackwood\",\n        \"Server Windswept\",\n        \"Server Thunderbolt\",\n        \"Server Stormbreaker\",\n        \"Server Mirage\",\n        \"Server Crimsoncloud\",\n        \"Server Glacier\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow data to be transmitted back and forth.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 29,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Darkhorse",
+   "Server Ravenstone",
+   "Server Frostbite",
+   "Server Shadowbrook",
+   "Server Ghostwind",
+   "Server Oceanview",
+   "Server Eaglecrest",
+   "Server Windmill",
+   "Server Solarflare"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Ravenstone",
+     "Server Frostbite",
+     "Server Shadowbrook",
+     "Server Ghostwind",
+     "Server Oceanview"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Ravenstone",
+     "Server Frostbite",
+     "Server Shadowbrook",
+     "Server Ghostwind",
+     "Server Oceanview"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Ravenstone",
+     "Server Frostbite",
+     "Server Shadowbrook",
+     "Server Ghostwind",
+     "Server Oceanview",
+     "Server Windmill"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by deploying monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Darkhorse\",\n        \"Server Ravenstone\",\n        \"Server Frostbite\",\n        \"Server Shadowbrook\",\n        \"Server Ghostwind\",\n        \"Server Oceanview\",\n        \"Server Eaglecrest\",\n        \"Server Windmill\",\n        \"Server Solarflare\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"The bidirectional connections between computers that allow information to flow between them.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 30,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Brightstar",
+   "Server Emberlight",
+   "Server Redwood",
+   "Server Glacierpeak",
+   "Server Silverhawk",
+   "Server Twilight",
+   "Server Ravenstone",
+   "Server Skyhawk",
+   "Server Bluewave"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Emberlight",
+     "Server Redwood",
+     "Server Glacierpeak",
+     "Server Silverhawk",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Emberlight",
+     "Server Redwood",
+     "Server Glacierpeak",
+     "Server Silverhawk",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Emberlight",
+     "Server Redwood",
+     "Server Glacierpeak",
+     "Server Silverhawk",
+     "Server Twilight",
+     "Server Skyhawk",
+     "Server Bluewave"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers within a company that need to be monitored for security purposes. The computers are interconnected through several communication links, and the goal is to ensure that all links are monitored by deploying monitoring devices on some of the computers. The connections are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Brightstar\",\n        \"Server Emberlight\",\n        \"Server Redwood\",\n        \"Server Glacierpeak\",\n        \"Server Silverhawk\",\n        \"Server Twilight\",\n        \"Server Ravenstone\",\n        \"Server Skyhawk\",\n        \"Server Bluewave\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"Connections between computers that allow for data transfer, which in this case are bidirectional.\",\n        \"monitoring devices\": \"Security tools such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 31,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windswept",
+   "Server Glacier",
+   "Server Firefly",
+   "Server Darkhorse",
+   "Server Silverstream",
+   "Server Bluewave",
+   "Server Nightshade",
+   "Server Firestorm",
+   "Server Mirage"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Firefly",
+     "Server Darkhorse",
+     "Server Bluewave",
+     "Server Firestorm"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Firefly",
+     "Server Darkhorse",
+     "Server Bluewave",
+     "Server Firestorm"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windswept",
+     "Server Glacier",
+     "Server Firefly",
+     "Server Darkhorse",
+     "Server Silverstream",
+     "Server Bluewave",
+     "Server Nightshade",
+     "Server Firestorm"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively.\",\n    \"entities\": [\n        \"Server Windswept\",\n        \"Server Glacier\",\n        \"Server Firefly\",\n        \"Server Darkhorse\",\n        \"Server Silverstream\",\n        \"Server Bluewave\",\n        \"Server Nightshade\",\n        \"Server Firestorm\",\n        \"Server Mirage\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are used to monitor network traffic and ensure security.\",\n        \"communication links\": \"The bidirectional connections between the computers that allow information to flow in both directions.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 32,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Skyhawk",
+   "Server Eaglecrest",
+   "Server Stormbreaker",
+   "Server Darkhorse",
+   "Server Silverstone",
+   "Server Crimsoncloud",
+   "Server Frostbite",
+   "Server Mirage",
+   "Server Ravenstone"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Eaglecrest",
+     "Server Stormbreaker",
+     "Server Frostbite",
+     "Server Mirage"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Eaglecrest",
+     "Server Stormbreaker",
+     "Server Frostbite",
+     "Server Mirage"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Eaglecrest",
+     "Server Stormbreaker",
+     "Server Darkhorse",
+     "Server Silverstone",
+     "Server Crimsoncloud",
+     "Server Frostbite",
+     "Server Mirage",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Skyhawk\",\n        \"Server Eaglecrest\",\n        \"Server Stormbreaker\",\n        \"Server Darkhorse\",\n        \"Server Silverstone\",\n        \"Server Crimsoncloud\",\n        \"Server Frostbite\",\n        \"Server Mirage\",\n        \"Server Ravenstone\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which in this case are bidirectional.\",\n        \"bidirectional\": \"A type of connection that allows data to flow in both directions between two entities.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 33,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Glacier",
+   "Server Frostmoon",
+   "Server Willowbrook",
+   "Server Silverhawk",
+   "Server Ravenstone",
+   "Server Darkhorse",
+   "Server Skyhawk",
+   "Server Mirage",
+   "Server Windswept"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Frostmoon",
+     "Server Willowbrook",
+     "Server Silverhawk",
+     "Server Ravenstone",
+     "Server Windswept"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Frostmoon",
+     "Server Willowbrook",
+     "Server Silverhawk",
+     "Server Ravenstone",
+     "Server Windswept"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Frostmoon",
+     "Server Willowbrook",
+     "Server Silverhawk",
+     "Server Ravenstone",
+     "Server Darkhorse",
+     "Server Skyhawk",
+     "Server Mirage",
+     "Server Windswept"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively. The connections between the computers allow bidirectional communication, meaning data can flow in both directions across any link.\",\n    \"entities\": [\n        \"Server Glacier\",\n        \"Server Frostmoon\",\n        \"Server Willowbrook\",\n        \"Server Silverhawk\",\n        \"Server Ravenstone\",\n        \"Server Darkhorse\",\n        \"Server Skyhawk\",\n        \"Server Mirage\",\n        \"Server Windswept\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow data to be transmitted back and forth.\",\n        \"bidirectional\": \"Referring to a communication link that allows information to flow in both directions.\",\n        \"network security\": \"The measures taken to protect a computer network from unauthorized access or attacks.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 34,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Skyhawk",
+   "Server Tempest",
+   "Server Crimsoncloud",
+   "Server Lighthouse",
+   "Server Shadowbrook",
+   "Server Amberwave",
+   "Server Sandstorm",
+   "Server Firefly",
+   "Server Falconeye"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Tempest",
+     "Server Lighthouse",
+     "Server Shadowbrook",
+     "Server Sandstorm",
+     "Server Falconeye"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Crimsoncloud",
+     "Server Shadowbrook",
+     "Server Amberwave",
+     "Server Sandstorm",
+     "Server Firefly"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Tempest",
+     "Server Crimsoncloud",
+     "Server Lighthouse",
+     "Server Shadowbrook",
+     "Server Amberwave",
+     "Server Sandstorm",
+     "Server Firefly",
+     "Server Falconeye"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Skyhawk\",\n        \"Server Tempest\",\n        \"Server Crimsoncloud\",\n        \"Server Lighthouse\",\n        \"Server Shadowbrook\",\n        \"Server Amberwave\",\n        \"Server Sandstorm\",\n        \"Server Firefly\",\n        \"Server Falconeye\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are used to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the transfer of information, which in this case are bidirectional.\",\n        \"bidirectional\": \"A type of connection that allows data to flow in both directions between two entities.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 35,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Ravenstone",
+   "Server Bluewave",
+   "Server Mirage",
+   "Server Ironclad",
+   "Server Thunderbolt",
+   "Server Brightstar",
+   "Server Skyhawk",
+   "Server Starfire"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Mirage",
+     "Server Ironclad",
+     "Server Thunderbolt",
+     "Server Brightstar"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Mirage",
+     "Server Ironclad",
+     "Server Thunderbolt",
+     "Server Brightstar"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Ravenstone",
+     "Server Bluewave",
+     "Server Mirage",
+     "Server Ironclad",
+     "Server Thunderbolt",
+     "Server Brightstar",
+     "Server Skyhawk",
+     "Server Starfire"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers within a company that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively.\",\n    \"entities\": [\n        \"Server Windmill\",\n        \"Server Ravenstone\",\n        \"Server Bluewave\",\n        \"Server Mirage\",\n        \"Server Ironclad\",\n        \"Server Thunderbolt\",\n        \"Server Brightstar\",\n        \"Server Skyhawk\",\n        \"Server Starfire\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"Connections between computers that allow information to flow in both directions.\",\n        \"monitoring devices\": \"Security tools such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\",\n        \"network security\": \"Measures taken to protect a computer network from unauthorized access or attacks.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 36,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Seabreeze",
+   "Server Tempest",
+   "Server Falconeye",
+   "Server Ironclad",
+   "Server Frostbite",
+   "Server Stealthwind",
+   "Server Skyhawk",
+   "Server Ironbark",
+   "Server Redwood"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Tempest",
+     "Server Falconeye",
+     "Server Frostbite",
+     "Server Redwood"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Tempest",
+     "Server Falconeye",
+     "Server Frostbite",
+     "Server Redwood"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Tempest",
+     "Server Falconeye",
+     "Server Ironclad",
+     "Server Frostbite",
+     "Server Stealthwind",
+     "Server Skyhawk",
+     "Server Ironbark",
+     "Server Redwood"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The goal is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Seabreeze\",\n        \"Server Tempest\",\n        \"Server Falconeye\",\n        \"Server Ironclad\",\n        \"Server Frostbite\",\n        \"Server Stealthwind\",\n        \"Server Skyhawk\",\n        \"Server Ironbark\",\n        \"Server Redwood\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the transfer of information, which are bidirectional in this context, meaning data can flow in both directions.\",\n        \"bidirectional\": \"A type of connection where information can be transmitted in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 37,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Thunderbolt",
+   "Server Sunflower",
+   "Server Stormbreaker",
+   "Server Sandstorm",
+   "Server Ghostwind",
+   "Server Thunderstrike",
+   "Server Redwood",
+   "Server Silverstream",
+   "Server Oceanview"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Sandstorm",
+     "Server Thunderstrike",
+     "Server Silverstream",
+     "Server Oceanview"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Sandstorm",
+     "Server Thunderstrike",
+     "Server Silverstream",
+     "Server Oceanview"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Sunflower",
+     "Server Stormbreaker",
+     "Server Sandstorm",
+     "Server Ghostwind",
+     "Server Thunderstrike",
+     "Server Redwood",
+     "Server Silverstream",
+     "Server Oceanview"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively.\",\n    \"entities\": [\n        \"Server Thunderbolt\",\n        \"Server Sunflower\",\n        \"Server Stormbreaker\",\n        \"Server Sandstorm\",\n        \"Server Ghostwind\",\n        \"Server Thunderstrike\",\n        \"Server Redwood\",\n        \"Server Silverstream\",\n        \"Server Oceanview\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"The connections between the computers that allow information to flow in both directions.\",\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"bidirectional\": \"A characteristic of the communication links indicating that information can flow in both directions across any link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 38,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Brightstar",
+   "Server Twilight",
+   "Server Seabreeze",
+   "Server Bluebird",
+   "Server Glacier",
+   "Server Starfire",
+   "Server Falconeye",
+   "Server Willowbrook"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Brightstar",
+     "Server Twilight",
+     "Server Seabreeze",
+     "Server Glacier"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Brightstar",
+     "Server Twilight",
+     "Server Seabreeze",
+     "Server Glacier"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Brightstar",
+     "Server Twilight",
+     "Server Seabreeze",
+     "Server Glacier",
+     "Server Falconeye"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on selected computers to ensure that all communication links are monitored effectively.\",\n    \"entities\": [\n        \"Server Windmill\",\n        \"Server Brightstar\",\n        \"Server Twilight\",\n        \"Server Seabreeze\",\n        \"Server Bluebird\",\n        \"Server Glacier\",\n        \"Server Starfire\",\n        \"Server Falconeye\",\n        \"Server Willowbrook\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"The bidirectional connections between the computers that allow information to flow in both directions.\",\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 39,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberlight",
+   "Server Eaglecrest",
+   "Server Twilight",
+   "Server Blackwood",
+   "Server Sunflower",
+   "Server Nightfall",
+   "Server Glacierpeak",
+   "Server Glacier",
+   "Server Thunderstrike"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Blackwood",
+     "Server Nightfall",
+     "Server Glacier",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Twilight",
+     "Server Blackwood",
+     "Server Glacierpeak",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Eaglecrest",
+     "Server Twilight",
+     "Server Blackwood",
+     "Server Sunflower",
+     "Server Nightfall",
+     "Server Glacierpeak",
+     "Server Glacier",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that need to be monitored for security purposes. The computers are interconnected through various communication links, and the goal is to ensure that all links are monitored by deploying monitoring devices on a minimum number of computers.\",\n    \"entities\": [\n        \"Server Emberlight\",\n        \"Server Eaglecrest\",\n        \"Server Twilight\",\n        \"Server Blackwood\",\n        \"Server Sunflower\",\n        \"Server Nightfall\",\n        \"Server Glacierpeak\",\n        \"Server Glacier\",\n        \"Server Thunderstrike\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"Connections between computers that allow information to flow in both directions.\",\n        \"monitoring devices\": \"Security tools such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 40,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Redwood",
+   "Server Solarflare",
+   "Server Willowbrook",
+   "Server Windswept",
+   "Server Ravenstone",
+   "Server Shadowbrook",
+   "Server Thunderbolt",
+   "Server Glacierpeak",
+   "Server Brightstar"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Willowbrook",
+     "Server Windswept",
+     "Server Thunderbolt",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Willowbrook",
+     "Server Windswept",
+     "Server Ravenstone",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Solarflare",
+     "Server Willowbrook",
+     "Server Windswept",
+     "Server Ravenstone",
+     "Server Shadowbrook",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing for two-way communication.\",\n    \"entities\": [\n        \"Server Redwood\",\n        \"Server Solarflare\",\n        \"Server Willowbrook\",\n        \"Server Windswept\",\n        \"Server Ravenstone\",\n        \"Server Shadowbrook\",\n        \"Server Thunderbolt\",\n        \"Server Glacierpeak\",\n        \"Server Brightstar\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to oversee and protect network communications.\",\n        \"communication links\": \"The connections between computers that allow for data transfer, which are bidirectional in this context, meaning information can flow in both directions.\",\n        \"bidirectional\": \"A type of connection that allows data to be sent and received in both directions.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 41,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Vortex",
+   "Server Stealthwind",
+   "Server Redwood",
+   "Server Ironclad",
+   "Server Mirage",
+   "Server Shadowbrook",
+   "Server Willowbrook",
+   "Server Oceanview",
+   "Server Silverstream"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Ironclad",
+     "Server Shadowbrook",
+     "Server Willowbrook",
+     "Server Oceanview"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Mirage",
+     "Server Shadowbrook",
+     "Server Willowbrook",
+     "Server Silverstream"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Stealthwind",
+     "Server Redwood",
+     "Server Ironclad",
+     "Server Mirage",
+     "Server Shadowbrook",
+     "Server Willowbrook",
+     "Server Oceanview",
+     "Server Silverstream"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by deploying monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Vortex\",\n        \"Server Stealthwind\",\n        \"Server Redwood\",\n        \"Server Ironclad\",\n        \"Server Mirage\",\n        \"Server Shadowbrook\",\n        \"Server Willowbrook\",\n        \"Server Oceanview\",\n        \"Server Silverstream\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which are bidirectional in this context.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 42,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Moonlight",
+   "Server Amberwave",
+   "Server Sandstorm",
+   "Server Solarflare",
+   "Server Stormcloud",
+   "Server Goldleaf",
+   "Server Windswept",
+   "Server Silverhawk",
+   "Server Frostmoon"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Amberwave",
+     "Server Sandstorm",
+     "Server Goldleaf",
+     "Server Windswept",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Amberwave",
+     "Server Sandstorm",
+     "Server Solarflare",
+     "Server Stormcloud",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Amberwave",
+     "Server Sandstorm",
+     "Server Solarflare",
+     "Server Stormcloud",
+     "Server Goldleaf",
+     "Server Windswept",
+     "Server Silverhawk"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that require monitoring devices to ensure network security. The computers are interconnected through several bidirectional communication links, which allow information to flow in both directions. The objective is to deploy monitoring devices on a selection of these computers to cover all communication links.\",\n    \"entities\": [\n        \"Server Moonlight\",\n        \"Server Amberwave\",\n        \"Server Sandstorm\",\n        \"Server Solarflare\",\n        \"Server Stormcloud\",\n        \"Server Goldleaf\",\n        \"Server Windswept\",\n        \"Server Silverhawk\",\n        \"Server Frostmoon\",\n        \"monitoring devices\",\n        \"firewalls\",\n        \"intrusion detection systems\",\n        \"communication links\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Tools such as firewalls or intrusion detection systems used to oversee and secure network communications.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which in this case are bidirectional, meaning data can flow in both directions.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 43,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Glacier",
+   "Server Ironclad",
+   "Server Firestorm",
+   "Server Brightstar",
+   "Server Windswept",
+   "Server Solarflare",
+   "Server Stormbreaker",
+   "Server Sunflower",
+   "Server Twilight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Ironclad",
+     "Server Brightstar",
+     "Server Solarflare",
+     "Server Stormbreaker"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Ironclad",
+     "Server Brightstar",
+     "Server Solarflare",
+     "Server Stormbreaker"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Ironclad",
+     "Server Firestorm",
+     "Server Brightstar",
+     "Server Solarflare",
+     "Server Stormbreaker",
+     "Server Sunflower",
+     "Server Twilight"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively.\",\n    \"entities\": [\n        \"Server Glacier\",\n        \"Server Ironclad\",\n        \"Server Firestorm\",\n        \"Server Brightstar\",\n        \"Server Windswept\",\n        \"Server Solarflare\",\n        \"Server Stormbreaker\",\n        \"Server Sunflower\",\n        \"Server Twilight\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"The connections between computers that allow information to flow between them, which are bidirectional in this context.\",\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor and secure network traffic.\",\n        \"bidirectional\": \"Indicating that information can flow in both directions across any link between the computers.\",\n        \"network security\": \"The measures taken to protect a computer network from unauthorized access or attacks.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 44,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Nightshade",
+   "Server Eaglecrest",
+   "Server Thunderstrike",
+   "Server Starfire",
+   "Server Firestorm",
+   "Server Ironbark",
+   "Server Ravenstone",
+   "Server Goldleaf",
+   "Server Windswept"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Thunderstrike",
+     "Server Firestorm",
+     "Server Ironbark",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Eaglecrest",
+     "Server Thunderstrike",
+     "Server Firestorm",
+     "Server Ironbark",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Eaglecrest",
+     "Server Thunderstrike",
+     "Server Starfire",
+     "Server Firestorm",
+     "Server Ironbark",
+     "Server Ravenstone",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively.\",\n    \"entities\": [\n        \"Server Nightshade\",\n        \"Server Eaglecrest\",\n        \"Server Thunderstrike\",\n        \"Server Starfire\",\n        \"Server Firestorm\",\n        \"Server Ironbark\",\n        \"Server Ravenstone\",\n        \"Server Goldleaf\",\n        \"Server Windswept\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"Connections between computers that allow information to flow in both directions.\",\n        \"monitoring devices\": \"Security tools such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 45,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Blackwood",
+   "Server Bluebird",
+   "Server Darkhorse",
+   "Server Glacier",
+   "Server Twilight",
+   "Server Frostmoon",
+   "Server Redwood",
+   "Server Eaglecrest",
+   "Server Oceanview"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Bluebird",
+     "Server Twilight",
+     "Server Oceanview"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Bluebird",
+     "Server Twilight",
+     "Server Oceanview"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Bluebird",
+     "Server Darkhorse",
+     "Server Glacier",
+     "Server Twilight",
+     "Server Frostmoon",
+     "Server Redwood",
+     "Server Oceanview"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Blackwood\",\n        \"Server Bluebird\",\n        \"Server Darkhorse\",\n        \"Server Glacier\",\n        \"Server Twilight\",\n        \"Server Frostmoon\",\n        \"Server Redwood\",\n        \"Server Eaglecrest\",\n        \"Server Oceanview\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems used to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which in this case are bidirectional.\",\n        \"bidirectional\": \"A type of connection that allows data to flow in both directions between two points.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 46,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverhawk",
+   "Server Firestorm",
+   "Server Thunderstrike",
+   "Server Silverstone",
+   "Server Goldleaf",
+   "Server Darkhorse",
+   "Server Twilight",
+   "Server Starfire",
+   "Server Ironbark"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firestorm",
+     "Server Thunderstrike",
+     "Server Goldleaf",
+     "Server Starfire",
+     "Server Ironbark"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firestorm",
+     "Server Thunderstrike",
+     "Server Goldleaf",
+     "Server Starfire",
+     "Server Ironbark"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverhawk",
+     "Server Firestorm",
+     "Server Thunderstrike",
+     "Server Silverstone",
+     "Server Goldleaf",
+     "Server Darkhorse",
+     "Server Twilight",
+     "Server Starfire",
+     "Server Ironbark"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The goal is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Silverhawk\",\n        \"Server Firestorm\",\n        \"Server Thunderstrike\",\n        \"Server Silverstone\",\n        \"Server Goldleaf\",\n        \"Server Darkhorse\",\n        \"Server Twilight\",\n        \"Server Starfire\",\n        \"Server Ironbark\"\n    ],\n    \"definitions\": {\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic and ensure security.\",\n        \"communication links\": \"Connections between computers that allow for the exchange of information, which in this case are bidirectional.\",\n        \"bidirectional\": \"A type of connection that allows information to flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 47,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stealthwind",
+   "Server Sunflower",
+   "Server Nightshade",
+   "Server Eaglecrest",
+   "Server Ghostwind",
+   "Server Windswept",
+   "Server Firestorm",
+   "Server Ironclad",
+   "Server Skyhawk"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Nightshade",
+     "Server Eaglecrest",
+     "Server Firestorm",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Nightshade",
+     "Server Eaglecrest",
+     "Server Firestorm",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Sunflower",
+     "Server Nightshade",
+     "Server Eaglecrest",
+     "Server Ghostwind",
+     "Server Windswept",
+     "Server Firestorm",
+     "Server Ironclad",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on some of these computers to ensure that all communication links are monitored effectively.\",\n    \"entities\": [\n        \"Server Stealthwind\",\n        \"Server Sunflower\",\n        \"Server Nightshade\",\n        \"Server Eaglecrest\",\n        \"Server Ghostwind\",\n        \"Server Windswept\",\n        \"Server Firestorm\",\n        \"Server Ironclad\",\n        \"Server Skyhawk\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"Connections between computers that allow for bidirectional information flow.\",\n        \"monitoring devices\": \"Security tools such as firewalls or intrusion detection systems that are installed on computers to monitor network traffic.\",\n        \"bidirectional\": \"A characteristic of communication links that allows information to flow in both directions across any link.\",\n        \"network security\": \"Measures taken to protect a computer network from unauthorized access or attacks.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 48,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Thunderstrike",
+   "Server Blackwood",
+   "Server Amberwave",
+   "Server Redwood",
+   "Server Starfire",
+   "Server Bluebird",
+   "Server Silverstream",
+   "Server Ravenstone",
+   "Server Twilight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Blackwood",
+     "Server Amberwave",
+     "Server Starfire",
+     "Server Silverstream",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Amberwave",
+     "Server Redwood",
+     "Server Starfire",
+     "Server Silverstream",
+     "Server Twilight"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Blackwood",
+     "Server Amberwave",
+     "Server Redwood",
+     "Server Starfire",
+     "Server Bluebird",
+     "Server Silverstream",
+     "Server Ravenstone",
+     "Server Twilight"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that are interconnected through various communication links. The objective is to enhance network security by installing monitoring devices on certain computers to ensure that all communication links are monitored. The connections between the computers are bidirectional, allowing information to flow in both directions.\",\n    \"entities\": [\n        \"Server Thunderstrike\",\n        \"Server Blackwood\",\n        \"Server Amberwave\",\n        \"Server Redwood\",\n        \"Server Starfire\",\n        \"Server Bluebird\",\n        \"Server Silverstream\",\n        \"Server Ravenstone\",\n        \"Server Twilight\"\n    ],\n    \"definitions\": {\n        \"communication links\": \"The connections between the computers that allow for data transfer, which are bidirectional in this context.\",\n        \"monitoring devices\": \"Devices such as firewalls or intrusion detection systems that are installed on computers to monitor and secure network traffic.\",\n        \"bidirectional\": \"A type of connection where information can flow in both directions across a link.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 49,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Twilight",
+   "Server Brightstar",
+   "Server Silverstone",
+   "Server Silverhawk",
+   "Server Willowbrook",
+   "Server Tempest",
+   "Server Ironbark",
+   "Server Falconeye",
+   "Server Moonlight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Brightstar",
+     "Server Willowbrook",
+     "Server Tempest",
+     "Server Falconeye"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Brightstar",
+     "Server Willowbrook",
+     "Server Tempest",
+     "Server Falconeye"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Brightstar",
+     "Server Silverstone",
+     "Server Silverhawk",
+     "Server Willowbrook",
+     "Server Tempest",
+     "Server Ironbark",
+     "Server Falconeye",
+     "Server Moonlight"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves a network of 9 computers that need monitoring for security purposes. The computers are interconnected through bidirectional communication links, and the objective is to ensure that all links are monitored by deploying monitoring devices on a minimum number of computers.\",\n    \"entities\": [\n        \"Server Twilight\",\n        \"Server Brightstar\",\n        \"Server Silverstone\",\n        \"Server Silverhawk\",\n        \"Server Willowbrook\",\n        \"Server Tempest\",\n        \"Server Ironbark\",\n        \"Server Falconeye\",\n        \"Server Moonlight\",\n        \"monitoring devices\",\n        \"firewalls\",\n        \"intrusion detection systems\",\n        \"communication links\"\n    ],\n    \"definitions\": {\n        \"computers\": \"Devices that are part of the network and can communicate with each other.\",\n        \"monitoring devices\": \"Tools such as firewalls or intrusion detection systems used to oversee and secure network communications.\",\n        \"communication links\": \"Connections between computers that allow information to flow, which are bidirectional in this context, meaning data can travel in both directions.\"\n    }\n}"
+ }
+]

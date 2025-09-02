@@ -1,0 +1,9017 @@
+[
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 0,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ironclad",
+   "Server Goldleaf",
+   "Server Mirage",
+   "Server Tempest",
+   "Server Shadowbrook",
+   "Server Silverhawk",
+   "Server Oceanview",
+   "Server Windswept",
+   "Server Eaglecrest",
+   "Server Ironbark"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Mirage",
+     "Server Tempest",
+     "Server Shadowbrook",
+     "Server Windswept",
+     "Server Ironbark"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Goldleaf",
+     "Server Mirage",
+     "Server Tempest",
+     "Server Shadowbrook",
+     "Server Oceanview",
+     "Server Windswept"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Goldleaf",
+     "Server Mirage",
+     "Server Tempest",
+     "Server Shadowbrook",
+     "Server Silverhawk",
+     "Server Oceanview",
+     "Server Windswept",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(6, 1), (8, 1)],\n    1: [(2, 1), (3, 1), (7, 1), (9, 1)],\n    2: [(4, 1), (5, 1), (7, 1)],\n    3: [(4, 1), (5, 1), (6, 1), (8, 1)],\n    4: [(6, 1), (8, 1), (9, 1)],\n    5: [(7, 1)],\n    6: [(7, 1), (9, 1)],\n    7: [(8, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Ironclad\": 0,\n    \"Server Goldleaf\": 1,\n    \"Server Mirage\": 2,\n    \"Server Tempest\": 3,\n    \"Server Shadowbrook\": 4,\n    \"Server Silverhawk\": 5,\n    \"Server Oceanview\": 6,\n    \"Server Windswept\": 7,\n    \"Server Eaglecrest\": 8,\n    \"Server Ironbark\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 1,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Moonlight",
+   "Server Stormbreaker",
+   "Server Stormcloud",
+   "Server Thunderstrike",
+   "Server Blackwood",
+   "Server Glacier",
+   "Server Ironbark",
+   "Server Silverstone",
+   "Server Crimsoncloud",
+   "Server Frostbite"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Stormbreaker",
+     "Server Stormcloud",
+     "Server Crimsoncloud",
+     "Server Frostbite"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Stormbreaker",
+     "Server Stormcloud",
+     "Server Crimsoncloud",
+     "Server Frostbite"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Stormbreaker",
+     "Server Stormcloud",
+     "Server Thunderstrike",
+     "Server Blackwood",
+     "Server Ironbark",
+     "Server Silverstone",
+     "Server Crimsoncloud",
+     "Server Frostbite"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the standard graph representation format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(2, 1), (3, 1), (4, 1), (5, 1), (6, 1), (9, 1)],\n    1: [(4, 1), (5, 1), (6, 1)],\n    2: [(4, 1), (5, 1), (7, 1), (8, 1), (9, 1)],\n    3: [(8, 1), (9, 1)],\n    4: [(8, 1)],\n    5: [],\n    6: [(9, 1)],\n    7: [(8, 1), (9, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Moonlight\": 0,\n    \"Server Stormbreaker\": 1,\n    \"Server Stormcloud\": 2,\n    \"Server Thunderstrike\": 3,\n    \"Server Blackwood\": 4,\n    \"Server Glacier\": 5,\n    \"Server Ironbark\": 6,\n    \"Server Silverstone\": 7,\n    \"Server Crimsoncloud\": 8,\n    \"Server Frostbite\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 2,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Frostmoon",
+   "Server Vortex",
+   "Server Starfire",
+   "Server Ironbark",
+   "Server Ironclad",
+   "Server Willowbrook",
+   "Server Tempest",
+   "Server Shadowbrook",
+   "Server Falconeye",
+   "Server Frostbite"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Vortex",
+     "Server Ironclad",
+     "Server Willowbrook",
+     "Server Tempest",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Vortex",
+     "Server Ironclad",
+     "Server Willowbrook",
+     "Server Tempest",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Vortex",
+     "Server Starfire",
+     "Server Ironbark",
+     "Server Ironclad",
+     "Server Willowbrook",
+     "Server Tempest",
+     "Server Shadowbrook",
+     "Server Falconeye"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (3, 1), (8, 1)],\n    1: [(2, 1), (3, 1), (4, 1), (6, 1), (8, 1)],\n    2: [(4, 1), (6, 1)],\n    3: [(4, 1), (6, 1)],\n    4: [(5, 1), (8, 1)],\n    5: [(6, 1), (9, 1)],\n    6: [(7, 1), (8, 1)],\n    7: [(8, 1), (9, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Frostmoon\": 0,\n    \"Server Vortex\": 1,\n    \"Server Starfire\": 2,\n    \"Server Ironbark\": 3,\n    \"Server Ironclad\": 4,\n    \"Server Willowbrook\": 5,\n    \"Server Tempest\": 6,\n    \"Server Shadowbrook\": 7,\n    \"Server Falconeye\": 8,\n    \"Server Frostbite\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 3,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Seabreeze",
+   "Server Ghostwind",
+   "Server Ironbark",
+   "Server Shadowbrook",
+   "Server Frostbite",
+   "Server Moonlight",
+   "Server Emberlight",
+   "Server Windswept",
+   "Server Nightshade",
+   "Server Eaglecrest"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Ghostwind",
+     "Server Ironbark",
+     "Server Shadowbrook",
+     "Server Frostbite",
+     "Server Nightshade"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Ghostwind",
+     "Server Ironbark",
+     "Server Shadowbrook",
+     "Server Frostbite",
+     "Server Nightshade"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Ghostwind",
+     "Server Ironbark",
+     "Server Shadowbrook",
+     "Server Frostbite",
+     "Server Moonlight",
+     "Server Emberlight",
+     "Server Windswept",
+     "Server Nightshade",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (2, 1), (4, 1), (5, 1), (6, 1), (8, 1)],\n    1: [(2, 1), (3, 1), (4, 1), (5, 1), (7, 1), (8, 1)],\n    2: [(6, 1), (7, 1)],\n    3: [(4, 1), (5, 1)],\n    4: [(9, 1)],\n    5: [(8, 1)],\n    6: [],\n    7: [(8, 1)],\n    8: [(9, 1)],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Seabreeze\": 0,\n    \"Server Ghostwind\": 1,\n    \"Server Ironbark\": 2,\n    \"Server Shadowbrook\": 3,\n    \"Server Frostbite\": 4,\n    \"Server Moonlight\": 5,\n    \"Server Emberlight\": 6,\n    \"Server Windswept\": 7,\n    \"Server Nightshade\": 8,\n    \"Server Eaglecrest\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 4,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Crimsoncloud",
+   "Server Stormbreaker",
+   "Server Windswept",
+   "Server Ravenstone",
+   "Server Nightfall",
+   "Server Blackwood",
+   "Server Willowbrook",
+   "Server Silverstone",
+   "Server Sunflower",
+   "Server Goldleaf"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Crimsoncloud",
+     "Server Blackwood",
+     "Server Willowbrook",
+     "Server Silverstone",
+     "Server Sunflower",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Nightfall",
+     "Server Blackwood",
+     "Server Willowbrook",
+     "Server Silverstone",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Crimsoncloud",
+     "Server Stormbreaker",
+     "Server Windswept",
+     "Server Ravenstone",
+     "Server Nightfall",
+     "Server Blackwood",
+     "Server Willowbrook",
+     "Server Silverstone",
+     "Server Sunflower"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(3, 1), (5, 1), (9, 1)],\n    1: [(7, 1), (9, 1)],\n    2: [(5, 1), (7, 1), (9, 1)],\n    3: [(5, 1), (6, 1), (7, 1), (8, 1), (9, 1)],\n    4: [(6, 1), (7, 1), (8, 1)],\n    5: [(6, 1), (7, 1)],\n    6: [(8, 1)],\n    7: [(8, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Crimsoncloud\": 0,\n    \"Server Stormbreaker\": 1,\n    \"Server Windswept\": 2,\n    \"Server Ravenstone\": 3,\n    \"Server Nightfall\": 4,\n    \"Server Blackwood\": 5,\n    \"Server Willowbrook\": 6,\n    \"Server Silverstone\": 7,\n    \"Server Sunflower\": 8,\n    \"Server Goldleaf\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 5,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Sunflower",
+   "Server Thunderbolt",
+   "Server Sandstorm",
+   "Server Stealthwind",
+   "Server Glacierpeak",
+   "Server Lighthouse",
+   "Server Amberwave",
+   "Server Mirage",
+   "Server Frostbite",
+   "Server Windswept"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Stealthwind",
+     "Server Lighthouse",
+     "Server Amberwave",
+     "Server Mirage",
+     "Server Windswept"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Lighthouse",
+     "Server Amberwave",
+     "Server Mirage",
+     "Server Windswept"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Thunderbolt",
+     "Server Sandstorm",
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Lighthouse",
+     "Server Amberwave",
+     "Server Mirage",
+     "Server Frostbite",
+     "Server Windswept"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the requested format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(3, 1), (5, 1), (6, 1), (7, 1)],\n    1: [(3, 1), (4, 1), (5, 1), (7, 1)],\n    2: [(5, 1), (7, 1), (9, 1)],\n    3: [(4, 1), (9, 1)],\n    4: [(6, 1), (9, 1)],\n    5: [(8, 1)],\n    6: [(7, 1), (8, 1)],\n    7: [(8, 1)],\n    8: [(9, 1)],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Sunflower\": 0,\n    \"Server Thunderbolt\": 1,\n    \"Server Sandstorm\": 2,\n    \"Server Stealthwind\": 3,\n    \"Server Glacierpeak\": 4,\n    \"Server Lighthouse\": 5,\n    \"Server Amberwave\": 6,\n    \"Server Mirage\": 7,\n    \"Server Frostbite\": 8,\n    \"Server Windswept\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 6,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Blackwood",
+   "Server Glacier",
+   "Server Frostbite",
+   "Server Emberlight",
+   "Server Willowbrook",
+   "Server Firefly",
+   "Server Crimsoncloud",
+   "Server Glacierpeak",
+   "Server Starfire",
+   "Server Amberwave"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Glacier",
+     "Server Willowbrook",
+     "Server Firefly",
+     "Server Crimsoncloud",
+     "Server Starfire"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Frostbite",
+     "Server Willowbrook",
+     "Server Firefly",
+     "Server Crimsoncloud",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Glacier",
+     "Server Frostbite",
+     "Server Emberlight",
+     "Server Willowbrook",
+     "Server Firefly",
+     "Server Crimsoncloud",
+     "Server Glacierpeak",
+     "Server Starfire",
+     "Server Amberwave"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the requested format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(2, 1), (6, 1)],\n    1: [(2, 1), (4, 1), (5, 1), (6, 1), (7, 1), (8, 1)],\n    2: [(6, 1), (8, 1)],\n    3: [(4, 1), (5, 1), (6, 1)],\n    4: [(9, 1)],\n    5: [(7, 1), (9, 1)],\n    6: [(7, 1), (8, 1), (9, 1)],\n    7: [(8, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Blackwood\": 0,\n    \"Server Glacier\": 1,\n    \"Server Frostbite\": 2,\n    \"Server Emberlight\": 3,\n    \"Server Willowbrook\": 4,\n    \"Server Firefly\": 5,\n    \"Server Crimsoncloud\": 6,\n    \"Server Glacierpeak\": 7,\n    \"Server Starfire\": 8,\n    \"Server Amberwave\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 7,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Solarflare",
+   "Server Stormbreaker",
+   "Server Seabreeze",
+   "Server Silverstone",
+   "Server Frostmoon",
+   "Server Ravenstone",
+   "Server Redwood",
+   "Server Vortex",
+   "Server Crimsoncloud",
+   "Server Twilight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Stormbreaker",
+     "Server Silverstone",
+     "Server Vortex",
+     "Server Crimsoncloud",
+     "Server Twilight"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Stormbreaker",
+     "Server Seabreeze",
+     "Server Silverstone",
+     "Server Frostmoon",
+     "Server Ravenstone",
+     "Server Vortex"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Stormbreaker",
+     "Server Seabreeze",
+     "Server Silverstone",
+     "Server Frostmoon",
+     "Server Ravenstone",
+     "Server Redwood",
+     "Server Vortex",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the specified format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1)],\n    1: [(6, 1), (7, 1)],\n    2: [(7, 1), (9, 1)],\n    3: [(5, 1), (6, 1), (7, 1)],\n    4: [(7, 1), (8, 1), (9, 1)],\n    5: [(7, 1), (8, 1)],\n    6: [(7, 1)],\n    7: [(8, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Solarflare\": 0,\n    \"Server Stormbreaker\": 1,\n    \"Server Seabreeze\": 2,\n    \"Server Silverstone\": 3,\n    \"Server Frostmoon\": 4,\n    \"Server Ravenstone\": 5,\n    \"Server Redwood\": 6,\n    \"Server Vortex\": 7,\n    \"Server Crimsoncloud\": 8,\n    \"Server Twilight\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 8,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Redwood",
+   "Server Glacierpeak",
+   "Server Oceanview",
+   "Server Willowbrook",
+   "Server Nightshade",
+   "Server Solarflare",
+   "Server Windswept",
+   "Server Mirage",
+   "Server Falconeye",
+   "Server Sandstorm"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Glacierpeak",
+     "Server Oceanview",
+     "Server Willowbrook",
+     "Server Mirage",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Glacierpeak",
+     "Server Oceanview",
+     "Server Willowbrook",
+     "Server Mirage",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Glacierpeak",
+     "Server Oceanview",
+     "Server Willowbrook",
+     "Server Nightshade",
+     "Server Solarflare",
+     "Server Windswept",
+     "Server Mirage",
+     "Server Falconeye",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the specified format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(2, 1), (3, 1), (4, 1), (7, 1), (8, 1), (9, 1)],\n    1: [(4, 1), (6, 1)],\n    2: [(4, 1), (5, 1), (6, 1), (9, 1)],\n    3: [(5, 1), (6, 1), (7, 1)],\n    4: [(7, 1), (9, 1)],\n    5: [(9, 1)],\n    6: [(7, 1)],\n    7: [(8, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Redwood\": 0,\n    \"Server Glacierpeak\": 1,\n    \"Server Oceanview\": 2,\n    \"Server Willowbrook\": 3,\n    \"Server Nightshade\": 4,\n    \"Server Solarflare\": 5,\n    \"Server Windswept\": 6,\n    \"Server Mirage\": 7,\n    \"Server Falconeye\": 8,\n    \"Server Sandstorm\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 9,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Firefly",
+   "Server Starfire",
+   "Server Moonlight",
+   "Server Seabreeze",
+   "Server Silverhawk",
+   "Server Blackwood",
+   "Server Solarflare",
+   "Server Thunderstrike",
+   "Server Frostmoon",
+   "Server Crimsoncloud"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Moonlight",
+     "Server Seabreeze",
+     "Server Silverhawk",
+     "Server Blackwood",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Moonlight",
+     "Server Seabreeze",
+     "Server Blackwood",
+     "Server Solarflare",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Starfire",
+     "Server Moonlight",
+     "Server Seabreeze",
+     "Server Silverhawk",
+     "Server Blackwood",
+     "Server Solarflare",
+     "Server Thunderstrike",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (3, 1), (4, 1), (5, 1), (6, 1)],\n    1: [(0, 1)],\n    2: [(3, 1), (4, 1), (8, 1)],\n    3: [(0, 1), (2, 1), (4, 1), (5, 1), (8, 1), (9, 1)],\n    4: [(0, 1), (2, 1), (3, 1), (5, 1)],\n    5: [(0, 1), (3, 1), (4, 1), (6, 1), (7, 1), (8, 1), (9, 1)],\n    6: [(0, 1), (5, 1), (7, 1)],\n    7: [(5, 1), (6, 1), (9, 1)],\n    8: [(2, 1), (3, 1), (5, 1)],\n    9: [(3, 1), (5, 1), (7, 1)]\n  },\n  \"node_mapping\": {\n    \"Server Firefly\": 0,\n    \"Server Starfire\": 1,\n    \"Server Moonlight\": 2,\n    \"Server Seabreeze\": 3,\n    \"Server Silverhawk\": 4,\n    \"Server Blackwood\": 5,\n    \"Server Solarflare\": 6,\n    \"Server Thunderstrike\": 7,\n    \"Server Frostmoon\": 8,\n    \"Server Crimsoncloud\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 10,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Falconeye",
+   "Server Windmill",
+   "Server Stormbreaker",
+   "Server Windswept",
+   "Server Bluebird",
+   "Server Skyhawk",
+   "Server Oceanview",
+   "Server Stealthwind",
+   "Server Amberwave",
+   "Server Emberfall"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Windmill",
+     "Server Stormbreaker",
+     "Server Skyhawk",
+     "Server Oceanview",
+     "Server Amberwave"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Windmill",
+     "Server Stormbreaker",
+     "Server Skyhawk",
+     "Server Oceanview",
+     "Server Amberwave"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Windmill",
+     "Server Stormbreaker",
+     "Server Windswept",
+     "Server Bluebird",
+     "Server Skyhawk",
+     "Server Oceanview",
+     "Server Stealthwind",
+     "Server Amberwave"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(2, 1), (4, 1), (5, 1), (6, 1), (7, 1)],\n    1: [(2, 1), (4, 1), (7, 1), (8, 1), (9, 1)],\n    2: [(3, 1), (5, 1), (9, 1)],\n    3: [(5, 1)],\n    4: [(5, 1), (8, 1)],\n    5: [(7, 1)],\n    6: [(8, 1), (9, 1)],\n    7: [(8, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Falconeye\": 0,\n    \"Server Windmill\": 1,\n    \"Server Stormbreaker\": 2,\n    \"Server Windswept\": 3,\n    \"Server Bluebird\": 4,\n    \"Server Skyhawk\": 5,\n    \"Server Oceanview\": 6,\n    \"Server Stealthwind\": 7,\n    \"Server Amberwave\": 8,\n    \"Server Emberfall\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 11,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ghostwind",
+   "Server Stormcloud",
+   "Server Amberwave",
+   "Server Darkhorse",
+   "Server Tempest",
+   "Server Emberlight",
+   "Server Bluebird",
+   "Server Nightshade",
+   "Server Silverstream",
+   "Server Ravenstone"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ghostwind",
+     "Server Stormcloud",
+     "Server Amberwave",
+     "Server Bluebird",
+     "Server Silverstream",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Amberwave",
+     "Server Darkhorse",
+     "Server Tempest",
+     "Server Emberlight",
+     "Server Bluebird",
+     "Server Silverstream"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ghostwind",
+     "Server Stormcloud",
+     "Server Amberwave",
+     "Server Darkhorse",
+     "Server Tempest",
+     "Server Emberlight",
+     "Server Bluebird",
+     "Server Nightshade",
+     "Server Silverstream",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(5, 1), (8, 1)],\n    1: [(4, 1), (5, 1), (6, 1), (8, 1)],\n    2: [(3, 1), (4, 1), (7, 1), (8, 1), (9, 1)],\n    3: [(6, 1), (8, 1), (9, 1)],\n    4: [(6, 1), (9, 1)],\n    5: [(9, 1)],\n    6: [(7, 1)],\n    7: [(8, 1)],\n    8: [(9, 1)],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Ghostwind\": 0,\n    \"Server Stormcloud\": 1,\n    \"Server Amberwave\": 2,\n    \"Server Darkhorse\": 3,\n    \"Server Tempest\": 4,\n    \"Server Emberlight\": 5,\n    \"Server Bluebird\": 6,\n    \"Server Nightshade\": 7,\n    \"Server Silverstream\": 8,\n    \"Server Ravenstone\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 12,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Silverstream",
+   "Server Darkhorse",
+   "Server Redwood",
+   "Server Ironbark",
+   "Server Amberwave",
+   "Server Crimsoncloud",
+   "Server Twilight",
+   "Server Nightshade",
+   "Server Glacierpeak"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Silverstream",
+     "Server Redwood",
+     "Server Ironbark",
+     "Server Amberwave",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Silverstream",
+     "Server Redwood",
+     "Server Ironbark",
+     "Server Amberwave",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Silverstream",
+     "Server Darkhorse",
+     "Server Redwood",
+     "Server Ironbark",
+     "Server Amberwave",
+     "Server Crimsoncloud",
+     "Server Twilight",
+     "Server Nightshade",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(2, 1), (3, 1), (5, 1), (7, 1), (8, 1), (9, 1)],\n    1: [(2, 1), (3, 1), (6, 1), (8, 1), (9, 1)],\n    2: [(0, 1), (1, 1), (5, 1)],\n    3: [(0, 1), (1, 1), (5, 1), (6, 1), (8, 1)],\n    4: [(8, 1), (9, 1)],\n    5: [(0, 1), (2, 1), (3, 1), (7, 1)],\n    6: [(1, 1), (3, 1), (9, 1)],\n    7: [(0, 1), (5, 1), (9, 1)],\n    8: [(0, 1), (1, 1), (3, 1), (4, 1), (5, 1)],\n    9: [(0, 1), (1, 1), (4, 1), (5, 1), (6, 1), (7, 1)]\n  },\n  \"node_mapping\": {\n    \"Server Windmill\": 0,\n    \"Server Silverstream\": 1,\n    \"Server Darkhorse\": 2,\n    \"Server Redwood\": 3,\n    \"Server Ironbark\": 4,\n    \"Server Amberwave\": 5,\n    \"Server Crimsoncloud\": 6,\n    \"Server Twilight\": 7,\n    \"Server Nightshade\": 8,\n    \"Server Glacierpeak\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 13,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ironclad",
+   "Server Redwood",
+   "Server Windmill",
+   "Server Vortex",
+   "Server Nightfall",
+   "Server Falconeye",
+   "Server Stormcloud",
+   "Server Sandstorm",
+   "Server Stormbreaker",
+   "Server Oceanview"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Redwood",
+     "Server Windmill",
+     "Server Nightfall",
+     "Server Stormcloud",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Redwood",
+     "Server Windmill",
+     "Server Nightfall",
+     "Server Stormcloud",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Redwood",
+     "Server Windmill",
+     "Server Vortex",
+     "Server Nightfall",
+     "Server Falconeye",
+     "Server Stormcloud",
+     "Server Sandstorm",
+     "Server Stormbreaker"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (3, 1), (6, 1), (8, 1), (9, 1)],\n    1: [(2, 1), (5, 1), (9, 1)],\n    2: [(4, 1), (5, 1), (6, 1)],\n    3: [(6, 1), (7, 1)],\n    4: [(5, 1), (6, 1), (7, 1), (8, 1)],\n    5: [(6, 1)],\n    6: [],\n    7: [(8, 1), (9, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Ironclad\": 0,\n    \"Server Redwood\": 1,\n    \"Server Windmill\": 2,\n    \"Server Vortex\": 3,\n    \"Server Nightfall\": 4,\n    \"Server Falconeye\": 5,\n    \"Server Stormcloud\": 6,\n    \"Server Sandstorm\": 7,\n    \"Server Stormbreaker\": 8,\n    \"Server Oceanview\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 14,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Blackwood",
+   "Server Skyhawk",
+   "Server Frostbite",
+   "Server Vortex",
+   "Server Nightfall",
+   "Server Thunderstrike",
+   "Server Ghostwind",
+   "Server Amberwave",
+   "Server Firefly",
+   "Server Moonlight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Frostbite",
+     "Server Nightfall",
+     "Server Thunderstrike",
+     "Server Ghostwind",
+     "Server Firefly"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Frostbite",
+     "Server Nightfall",
+     "Server Thunderstrike",
+     "Server Ghostwind",
+     "Server Firefly"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Skyhawk",
+     "Server Frostbite",
+     "Server Vortex",
+     "Server Nightfall",
+     "Server Thunderstrike",
+     "Server Ghostwind",
+     "Server Amberwave",
+     "Server Firefly",
+     "Server Moonlight"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (2, 1), (3, 1), (4, 1)],\n    1: [(0, 1), (4, 1), (5, 1)],\n    2: [(0, 1), (3, 1), (5, 1), (7, 1), (8, 1), (9, 1)],\n    3: [(0, 1), (2, 1), (4, 1), (5, 1)],\n    4: [(0, 1), (1, 1), (3, 1), (5, 1), (6, 1), (7, 1)],\n    5: [(1, 1), (2, 1), (3, 1), (4, 1), (6, 1), (7, 1)],\n    6: [(4, 1), (5, 1), (7, 1), (8, 1)],\n    7: [(2, 1), (4, 1), (5, 1), (6, 1)],\n    8: [(2, 1), (6, 1), (9, 1)],\n    9: [(2, 1), (8, 1)]\n  },\n  \"node_mapping\": {\n    \"Server Blackwood\": 0,\n    \"Server Skyhawk\": 1,\n    \"Server Frostbite\": 2,\n    \"Server Vortex\": 3,\n    \"Server Nightfall\": 4,\n    \"Server Thunderstrike\": 5,\n    \"Server Ghostwind\": 6,\n    \"Server Amberwave\": 7,\n    \"Server Firefly\": 8,\n    \"Server Moonlight\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 15,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Willowbrook",
+   "Server Glacier",
+   "Server Nightfall",
+   "Server Thunderbolt",
+   "Server Sandstorm",
+   "Server Crimsoncloud",
+   "Server Frostbite",
+   "Server Eaglecrest",
+   "Server Emberfall",
+   "Server Thunderstrike"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Glacier",
+     "Server Nightfall",
+     "Server Thunderbolt",
+     "Server Frostbite",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Nightfall",
+     "Server Thunderbolt",
+     "Server Sandstorm",
+     "Server Crimsoncloud",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Glacier",
+     "Server Nightfall",
+     "Server Thunderbolt",
+     "Server Sandstorm",
+     "Server Crimsoncloud",
+     "Server Frostbite",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(4, 1), (5, 1)],\n    1: [(2, 1), (4, 1), (8, 1), (9, 1)],\n    2: [(3, 1), (4, 1), (5, 1), (6, 1), (7, 1)],\n    3: [(4, 1), (6, 1), (8, 1), (9, 1)],\n    4: [(6, 1), (9, 1)],\n    5: [(6, 1), (9, 1)],\n    6: [(9, 1)],\n    7: [],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Willowbrook\": 0,\n    \"Server Glacier\": 1,\n    \"Server Nightfall\": 2,\n    \"Server Thunderbolt\": 3,\n    \"Server Sandstorm\": 4,\n    \"Server Crimsoncloud\": 5,\n    \"Server Frostbite\": 6,\n    \"Server Eaglecrest\": 7,\n    \"Server Emberfall\": 8,\n    \"Server Thunderstrike\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 16,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Oceanview",
+   "Server Stealthwind",
+   "Server Emberfall",
+   "Server Tempest",
+   "Server Windmill",
+   "Server Ravenstone",
+   "Server Silverhawk",
+   "Server Nightfall",
+   "Server Lighthouse",
+   "Server Thunderbolt"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Tempest",
+     "Server Windmill",
+     "Server Nightfall",
+     "Server Lighthouse",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Tempest",
+     "Server Windmill",
+     "Server Nightfall",
+     "Server Lighthouse",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Stealthwind",
+     "Server Emberfall",
+     "Server Tempest",
+     "Server Windmill",
+     "Server Ravenstone",
+     "Server Silverhawk",
+     "Server Nightfall",
+     "Server Lighthouse",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(7, 1), (8, 1)],\n    1: [(3, 1), (4, 1), (6, 1), (8, 1), (9, 1)],\n    2: [(3, 1), (7, 1), (9, 1)],\n    3: [(4, 1), (5, 1), (7, 1)],\n    4: [(5, 1), (6, 1), (9, 1)],\n    5: [(8, 1), (9, 1)],\n    6: [(9, 1)],\n    7: [(8, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Oceanview\": 0,\n    \"Server Stealthwind\": 1,\n    \"Server Emberfall\": 2,\n    \"Server Tempest\": 3,\n    \"Server Windmill\": 4,\n    \"Server Ravenstone\": 5,\n    \"Server Silverhawk\": 6,\n    \"Server Nightfall\": 7,\n    \"Server Lighthouse\": 8,\n    \"Server Thunderbolt\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 17,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Twilight",
+   "Server Glacier",
+   "Server Moonlight",
+   "Server Windswept",
+   "Server Starfire",
+   "Server Oceanview",
+   "Server Redwood",
+   "Server Crimsoncloud",
+   "Server Nightshade",
+   "Server Falconeye"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Glacier",
+     "Server Moonlight",
+     "Server Windswept",
+     "Server Starfire",
+     "Server Oceanview"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Glacier",
+     "Server Moonlight",
+     "Server Windswept",
+     "Server Starfire",
+     "Server Oceanview"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Glacier",
+     "Server Moonlight",
+     "Server Windswept",
+     "Server Starfire",
+     "Server Oceanview",
+     "Server Redwood"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (2, 1), (4, 1), (5, 1), (6, 1), (7, 1)],\n    1: [(0, 1), (2, 1), (5, 1), (7, 1), (8, 1), (9, 1)],\n    2: [(0, 1), (1, 1), (3, 1), (9, 1)],\n    3: [(2, 1), (4, 1), (5, 1), (9, 1)],\n    4: [(0, 1), (1, 1), (3, 1), (5, 1), (7, 1), (9, 1)],\n    5: [(0, 1), (1, 1), (3, 1), (4, 1), (6, 1)],\n    6: [(5, 1)],\n    7: [(0, 1), (1, 1), (4, 1)],\n    8: [(1, 1)],\n    9: [(1, 1), (2, 1), (3, 1), (4, 1)]\n  },\n  \"node_mapping\": {\n    \"Server Twilight\": 0,\n    \"Server Glacier\": 1,\n    \"Server Moonlight\": 2,\n    \"Server Windswept\": 3,\n    \"Server Starfire\": 4,\n    \"Server Oceanview\": 5,\n    \"Server Redwood\": 6,\n    \"Server Crimsoncloud\": 7,\n    \"Server Nightshade\": 8,\n    \"Server Falconeye\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 18,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Vortex",
+   "Server Shadowbrook",
+   "Server Darkhorse",
+   "Server Windswept",
+   "Server Frostmoon",
+   "Server Skyhawk",
+   "Server Mirage",
+   "Server Seabreeze",
+   "Server Silverstream",
+   "Server Stealthwind"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Shadowbrook",
+     "Server Darkhorse",
+     "Server Frostmoon",
+     "Server Seabreeze",
+     "Server Silverstream"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Shadowbrook",
+     "Server Darkhorse",
+     "Server Windswept",
+     "Server Frostmoon",
+     "Server Mirage",
+     "Server Seabreeze"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Shadowbrook",
+     "Server Darkhorse",
+     "Server Windswept",
+     "Server Frostmoon",
+     "Server Skyhawk",
+     "Server Mirage",
+     "Server Seabreeze",
+     "Server Silverstream"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the specified format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(2, 1), (3, 1), (4, 1), (6, 1), (9, 1)],\n    1: [(4, 1), (8, 1), (9, 1)],\n    2: [(6, 1), (7, 1), (9, 1)],\n    3: [(4, 1), (7, 1), (8, 1)],\n    4: [(7, 1), (9, 1)],\n    5: [(7, 1)],\n    6: [(8, 1)],\n    7: [(8, 1), (9, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Vortex\": 0,\n    \"Server Shadowbrook\": 1,\n    \"Server Darkhorse\": 2,\n    \"Server Windswept\": 3,\n    \"Server Frostmoon\": 4,\n    \"Server Skyhawk\": 5,\n    \"Server Mirage\": 6,\n    \"Server Seabreeze\": 7,\n    \"Server Silverstream\": 8,\n    \"Server Stealthwind\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 19,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stormbreaker",
+   "Server Eaglecrest",
+   "Server Glacier",
+   "Server Glacierpeak",
+   "Server Emberlight",
+   "Server Thunderstrike",
+   "Server Falconeye",
+   "Server Skyhawk",
+   "Server Seabreeze",
+   "Server Moonlight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Glacier",
+     "Server Glacierpeak",
+     "Server Emberlight",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Glacier",
+     "Server Glacierpeak",
+     "Server Emberlight",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stormbreaker",
+     "Server Eaglecrest",
+     "Server Glacier",
+     "Server Glacierpeak",
+     "Server Emberlight",
+     "Server Thunderstrike",
+     "Server Falconeye",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the specified format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(2, 1), (4, 1), (7, 1)],\n    1: [(2, 1), (4, 1), (5, 1), (7, 1), (9, 1)],\n    2: [(3, 1), (5, 1), (6, 1), (7, 1), (8, 1)],\n    3: [(4, 1), (5, 1), (7, 1), (8, 1)],\n    4: [(6, 1), (7, 1)],\n    5: [(7, 1)],\n    6: [],\n    7: [],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Stormbreaker\": 0,\n    \"Server Eaglecrest\": 1,\n    \"Server Glacier\": 2,\n    \"Server Glacierpeak\": 3,\n    \"Server Emberlight\": 4,\n    \"Server Thunderstrike\": 5,\n    \"Server Falconeye\": 6,\n    \"Server Skyhawk\": 7,\n    \"Server Seabreeze\": 8,\n    \"Server Moonlight\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 20,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Brightstar",
+   "Server Goldleaf",
+   "Server Redwood",
+   "Server Sunflower",
+   "Server Oceanview",
+   "Server Mirage",
+   "Server Lighthouse",
+   "Server Firestorm",
+   "Server Windswept",
+   "Server Ghostwind"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Redwood",
+     "Server Sunflower",
+     "Server Oceanview",
+     "Server Firestorm",
+     "Server Windswept"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Redwood",
+     "Server Sunflower",
+     "Server Oceanview",
+     "Server Firestorm",
+     "Server Windswept"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Goldleaf",
+     "Server Redwood",
+     "Server Sunflower",
+     "Server Oceanview",
+     "Server Mirage",
+     "Server Lighthouse",
+     "Server Firestorm",
+     "Server Windswept",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (2, 1), (8, 1)],\n    1: [(0, 1), (5, 1), (6, 1)],\n    2: [(0, 1), (3, 1), (5, 1), (6, 1), (7, 1), (8, 1)],\n    3: [(2, 1), (4, 1), (6, 1), (7, 1), (8, 1)],\n    4: [(3, 1), (6, 1), (8, 1), (9, 1)],\n    5: [(1, 1), (2, 1)],\n    6: [(1, 1), (2, 1), (3, 1), (4, 1)],\n    7: [(2, 1), (3, 1), (9, 1)],\n    8: [(0, 1), (1, 1), (2, 1), (3, 1), (4, 1)],\n    9: [(4, 1), (7, 1)]\n  },\n  \"node_mapping\": {\n    \"Server Brightstar\": 0,\n    \"Server Goldleaf\": 1,\n    \"Server Redwood\": 2,\n    \"Server Sunflower\": 3,\n    \"Server Oceanview\": 4,\n    \"Server Mirage\": 5,\n    \"Server Lighthouse\": 6,\n    \"Server Firestorm\": 7,\n    \"Server Windswept\": 8,\n    \"Server Ghostwind\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 21,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Shadowbrook",
+   "Server Seabreeze",
+   "Server Blackwood",
+   "Server Amberwave",
+   "Server Thunderbolt",
+   "Server Stormcloud",
+   "Server Thunderstrike",
+   "Server Firefly",
+   "Server Vortex"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Shadowbrook",
+     "Server Blackwood",
+     "Server Amberwave",
+     "Server Thunderbolt",
+     "Server Firefly"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Seabreeze",
+     "Server Blackwood",
+     "Server Stormcloud",
+     "Server Thunderstrike",
+     "Server Vortex"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Shadowbrook",
+     "Server Seabreeze",
+     "Server Blackwood",
+     "Server Amberwave",
+     "Server Thunderbolt",
+     "Server Stormcloud",
+     "Server Thunderstrike",
+     "Server Firefly",
+     "Server Vortex"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the standard graph representation format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (2, 1), (3, 1), (5, 1), (6, 1), (9, 1)],\n    1: [(6, 1)],\n    2: [(4, 1)],\n    3: [(5, 1), (6, 1), (7, 1), (9, 1)],\n    4: [(6, 1), (7, 1)],\n    5: [(6, 1), (7, 1), (9, 1)],\n    6: [(8, 1)],\n    7: [(8, 1)],\n    8: [(9, 1)],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Windmill\": 0,\n    \"Server Shadowbrook\": 1,\n    \"Server Seabreeze\": 2,\n    \"Server Blackwood\": 3,\n    \"Server Amberwave\": 4,\n    \"Server Thunderbolt\": 5,\n    \"Server Stormcloud\": 6,\n    \"Server Thunderstrike\": 7,\n    \"Server Firefly\": 8,\n    \"Server Vortex\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 22,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Thunderstrike",
+   "Server Emberfall",
+   "Server Emberlight",
+   "Server Ravenstone",
+   "Server Sunflower",
+   "Server Bluebird",
+   "Server Skyhawk",
+   "Server Darkhorse",
+   "Server Tempest",
+   "Server Vortex"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Emberfall",
+     "Server Ravenstone",
+     "Server Sunflower",
+     "Server Bluebird",
+     "Server Darkhorse"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Emberfall",
+     "Server Emberlight",
+     "Server Ravenstone",
+     "Server Sunflower",
+     "Server Bluebird",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Emberfall",
+     "Server Emberlight",
+     "Server Ravenstone",
+     "Server Sunflower",
+     "Server Bluebird",
+     "Server Skyhawk",
+     "Server Darkhorse",
+     "Server Tempest"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(2, 1), (3, 1), (5, 1), (6, 1), (9, 1)],\n    1: [(2, 1), (5, 1), (6, 1), (7, 1), (8, 1)],\n    2: [(3, 1), (5, 1), (7, 1)],\n    3: [(5, 1), (9, 1)],\n    4: [(6, 1), (7, 1), (9, 1)],\n    5: [(8, 1)],\n    6: [(7, 1)],\n    7: [],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Thunderstrike\": 0,\n    \"Server Emberfall\": 1,\n    \"Server Emberlight\": 2,\n    \"Server Ravenstone\": 3,\n    \"Server Sunflower\": 4,\n    \"Server Bluebird\": 5,\n    \"Server Skyhawk\": 6,\n    \"Server Darkhorse\": 7,\n    \"Server Tempest\": 8,\n    \"Server Vortex\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 23,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Starfire",
+   "Server Glacierpeak",
+   "Server Silverstream",
+   "Server Darkhorse",
+   "Server Blackwood",
+   "Server Sunflower",
+   "Server Mirage",
+   "Server Frostmoon",
+   "Server Stealthwind",
+   "Server Lighthouse"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Glacierpeak",
+     "Server Darkhorse",
+     "Server Sunflower",
+     "Server Stealthwind",
+     "Server Lighthouse"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Glacierpeak",
+     "Server Darkhorse",
+     "Server Sunflower",
+     "Server Stealthwind",
+     "Server Lighthouse"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Glacierpeak",
+     "Server Silverstream",
+     "Server Darkhorse",
+     "Server Blackwood",
+     "Server Sunflower",
+     "Server Mirage",
+     "Server Frostmoon",
+     "Server Stealthwind",
+     "Server Lighthouse"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(4, 1), (7, 1), (8, 1)],\n    1: [(3, 1), (4, 1), (5, 1), (6, 1), (7, 1), (8, 1)],\n    2: [(5, 1), (8, 1)],\n    3: [(4, 1), (9, 1)],\n    4: [(9, 1)],\n    5: [(7, 1), (8, 1), (9, 1)],\n    6: [(8, 1), (9, 1)],\n    7: [],\n    8: [(9, 1)],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Starfire\": 0,\n    \"Server Glacierpeak\": 1,\n    \"Server Silverstream\": 2,\n    \"Server Darkhorse\": 3,\n    \"Server Blackwood\": 4,\n    \"Server Sunflower\": 5,\n    \"Server Mirage\": 6,\n    \"Server Frostmoon\": 7,\n    \"Server Stealthwind\": 8,\n    \"Server Lighthouse\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 24,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Shadowbrook",
+   "Server Ravenstone",
+   "Server Brightstar",
+   "Server Ironbark",
+   "Server Moonlight",
+   "Server Nightshade",
+   "Server Silverstream",
+   "Server Firefly",
+   "Server Bluebird",
+   "Server Willowbrook"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Ironbark",
+     "Server Nightshade",
+     "Server Silverstream",
+     "Server Firefly",
+     "Server Bluebird"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Ironbark",
+     "Server Nightshade",
+     "Server Silverstream",
+     "Server Firefly",
+     "Server Bluebird"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Shadowbrook",
+     "Server Ravenstone",
+     "Server Brightstar",
+     "Server Ironbark",
+     "Server Moonlight",
+     "Server Nightshade",
+     "Server Silverstream",
+     "Server Firefly",
+     "Server Bluebird",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the standard graph representation format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(5, 1), (7, 1)],\n    1: [(2, 1), (3, 1), (5, 1), (6, 1)],\n    2: [(3, 1), (7, 1)],\n    3: [(6, 1), (9, 1)],\n    4: [(5, 1), (6, 1), (8, 1)],\n    5: [(9, 1)],\n    6: [(7, 1), (8, 1), (9, 1)],\n    7: [(8, 1), (9, 1)],\n    8: [(9, 1)],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Shadowbrook\": 0,\n    \"Server Ravenstone\": 1,\n    \"Server Brightstar\": 2,\n    \"Server Ironbark\": 3,\n    \"Server Moonlight\": 4,\n    \"Server Nightshade\": 5,\n    \"Server Silverstream\": 6,\n    \"Server Firefly\": 7,\n    \"Server Bluebird\": 8,\n    \"Server Willowbrook\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 25,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Blackwood",
+   "Server Redwood",
+   "Server Falconeye",
+   "Server Twilight",
+   "Server Vortex",
+   "Server Thunderstrike",
+   "Server Stormbreaker",
+   "Server Nightfall",
+   "Server Windswept"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Blackwood",
+     "Server Falconeye",
+     "Server Twilight",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Blackwood",
+     "Server Falconeye",
+     "Server Twilight",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Blackwood",
+     "Server Redwood",
+     "Server Falconeye",
+     "Server Twilight",
+     "Server Vortex",
+     "Server Thunderstrike",
+     "Server Nightfall"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the standard graph representation format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (2, 1), (5, 1), (7, 1), (8, 1), (9, 1)],\n    1: [(3, 1), (5, 1), (6, 1), (8, 1)],\n    2: [(6, 1)],\n    3: [(4, 1), (6, 1), (7, 1), (9, 1)],\n    4: [(6, 1), (7, 1), (9, 1)],\n    5: [(6, 1)],\n    6: [(8, 1)],\n    7: [],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Windmill\": 0,\n    \"Server Blackwood\": 1,\n    \"Server Redwood\": 2,\n    \"Server Falconeye\": 3,\n    \"Server Twilight\": 4,\n    \"Server Vortex\": 5,\n    \"Server Thunderstrike\": 6,\n    \"Server Stormbreaker\": 7,\n    \"Server Nightfall\": 8,\n    \"Server Windswept\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 26,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Nightfall",
+   "Server Starfire",
+   "Server Moonlight",
+   "Server Firefly",
+   "Server Solarflare",
+   "Server Ravenstone",
+   "Server Amberwave",
+   "Server Vortex",
+   "Server Redwood",
+   "Server Bluebird"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Starfire",
+     "Server Moonlight",
+     "Server Ravenstone",
+     "Server Amberwave",
+     "Server Redwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Starfire",
+     "Server Moonlight",
+     "Server Ravenstone",
+     "Server Amberwave",
+     "Server Redwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Starfire",
+     "Server Moonlight",
+     "Server Firefly",
+     "Server Solarflare",
+     "Server Ravenstone",
+     "Server Amberwave",
+     "Server Vortex",
+     "Server Redwood",
+     "Server Bluebird"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data represented as an adjacency list:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (2, 1), (7, 1), (9, 1)],\n    1: [(2, 1), (3, 1), (5, 1), (6, 1)],\n    2: [(8, 1), (9, 1)],\n    3: [(5, 1), (6, 1), (8, 1)],\n    4: [(6, 1), (8, 1)],\n    5: [(9, 1)],\n    6: [(7, 1), (8, 1), (9, 1)],\n    7: [(8, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Nightfall\": 0,\n    \"Server Starfire\": 1,\n    \"Server Moonlight\": 2,\n    \"Server Firefly\": 3,\n    \"Server Solarflare\": 4,\n    \"Server Ravenstone\": 5,\n    \"Server Amberwave\": 6,\n    \"Server Vortex\": 7,\n    \"Server Redwood\": 8,\n    \"Server Bluebird\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 27,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stormcloud",
+   "Server Vortex",
+   "Server Darkhorse",
+   "Server Lighthouse",
+   "Server Stealthwind",
+   "Server Shadowbrook",
+   "Server Seabreeze",
+   "Server Ironbark",
+   "Server Sunflower",
+   "Server Mirage"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Vortex",
+     "Server Darkhorse",
+     "Server Lighthouse",
+     "Server Stealthwind",
+     "Server Seabreeze",
+     "Server Mirage"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Darkhorse",
+     "Server Lighthouse",
+     "Server Stealthwind",
+     "Server Shadowbrook",
+     "Server Seabreeze",
+     "Server Sunflower"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Vortex",
+     "Server Darkhorse",
+     "Server Lighthouse",
+     "Server Stealthwind",
+     "Server Shadowbrook",
+     "Server Seabreeze",
+     "Server Ironbark",
+     "Server Sunflower",
+     "Server Mirage"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(4, 1), (5, 1), (6, 1)],\n    1: [(3, 1), (4, 1), (5, 1), (7, 1)],\n    2: [(6, 1), (8, 1), (9, 1)],\n    3: [(7, 1), (8, 1)],\n    4: [(5, 1), (6, 1), (7, 1), (8, 1)],\n    5: [(9, 1)],\n    6: [(7, 1), (8, 1)],\n    7: [],\n    8: [(9, 1)],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Stormcloud\": 0,\n    \"Server Vortex\": 1,\n    \"Server Darkhorse\": 2,\n    \"Server Lighthouse\": 3,\n    \"Server Stealthwind\": 4,\n    \"Server Shadowbrook\": 5,\n    \"Server Seabreeze\": 6,\n    \"Server Ironbark\": 7,\n    \"Server Sunflower\": 8,\n    \"Server Mirage\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 28,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Oceanview",
+   "Server Sandstorm",
+   "Server Nightshade",
+   "Server Vortex",
+   "Server Windswept",
+   "Server Brightstar",
+   "Server Goldleaf",
+   "Server Moonlight",
+   "Server Falconeye",
+   "Server Bluewave"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Sandstorm",
+     "Server Vortex",
+     "Server Windswept",
+     "Server Moonlight",
+     "Server Bluewave"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Sandstorm",
+     "Server Vortex",
+     "Server Windswept",
+     "Server Moonlight",
+     "Server Bluewave"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Sandstorm",
+     "Server Nightshade",
+     "Server Vortex",
+     "Server Windswept",
+     "Server Brightstar",
+     "Server Moonlight",
+     "Server Falconeye",
+     "Server Bluewave"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(3, 1), (4, 1), (9, 1)],\n    1: [(2, 1), (3, 1), (7, 1), (8, 1), (9, 1)],\n    2: [(3, 1)],\n    3: [(4, 1), (5, 1), (7, 1), (9, 1)],\n    4: [(5, 1), (6, 1), (9, 1)],\n    5: [(7, 1), (9, 1)],\n    6: [],\n    7: [(8, 1)],\n    8: [(9, 1)],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Oceanview\": 0,\n    \"Server Sandstorm\": 1,\n    \"Server Nightshade\": 2,\n    \"Server Vortex\": 3,\n    \"Server Windswept\": 4,\n    \"Server Brightstar\": 5,\n    \"Server Goldleaf\": 6,\n    \"Server Moonlight\": 7,\n    \"Server Falconeye\": 8,\n    \"Server Bluewave\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 29,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Falconeye",
+   "Server Thunderbolt",
+   "Server Blackwood",
+   "Server Ironbark",
+   "Server Nightfall",
+   "Server Moonlight",
+   "Server Twilight",
+   "Server Darkhorse",
+   "Server Redwood",
+   "Server Bluewave"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Thunderbolt",
+     "Server Blackwood",
+     "Server Ironbark",
+     "Server Moonlight",
+     "Server Redwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Thunderbolt",
+     "Server Blackwood",
+     "Server Ironbark",
+     "Server Moonlight",
+     "Server Redwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Thunderbolt",
+     "Server Blackwood",
+     "Server Ironbark",
+     "Server Nightfall",
+     "Server Moonlight",
+     "Server Twilight",
+     "Server Redwood",
+     "Server Bluewave"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the standard graph representation format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (5, 1), (6, 1), (7, 1)],\n    1: [(3, 1), (4, 1), (9, 1)],\n    2: [(3, 1), (4, 1), (5, 1), (7, 1)],\n    3: [(4, 1), (5, 1), (8, 1)],\n    4: [(5, 1), (8, 1)],\n    5: [(8, 1), (9, 1)],\n    6: [(8, 1)],\n    7: [],\n    8: [(9, 1)],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Falconeye\": 0,\n    \"Server Thunderbolt\": 1,\n    \"Server Blackwood\": 2,\n    \"Server Ironbark\": 3,\n    \"Server Nightfall\": 4,\n    \"Server Moonlight\": 5,\n    \"Server Twilight\": 6,\n    \"Server Darkhorse\": 7,\n    \"Server Redwood\": 8,\n    \"Server Bluewave\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 30,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windswept",
+   "Server Shadowbrook",
+   "Server Bluewave",
+   "Server Frostbite",
+   "Server Blackwood",
+   "Server Thunderstrike",
+   "Server Silverhawk",
+   "Server Tempest",
+   "Server Ironclad",
+   "Server Brightstar"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windswept",
+     "Server Shadowbrook",
+     "Server Bluewave",
+     "Server Frostbite",
+     "Server Blackwood",
+     "Server Ironclad"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windswept",
+     "Server Shadowbrook",
+     "Server Bluewave",
+     "Server Frostbite",
+     "Server Blackwood",
+     "Server Ironclad"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windswept",
+     "Server Shadowbrook",
+     "Server Bluewave",
+     "Server Frostbite",
+     "Server Blackwood",
+     "Server Thunderstrike",
+     "Server Ironclad",
+     "Server Brightstar"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(2, 1), (3, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1)],\n    1: [(4, 1), (7, 1)],\n    2: [(3, 1), (4, 1), (5, 1), (7, 1), (9, 1)],\n    3: [(5, 1), (8, 1)],\n    4: [(5, 1), (6, 1), (7, 1)],\n    5: [],\n    6: [],\n    7: [],\n    8: [(9, 1)],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Windswept\": 0,\n    \"Server Shadowbrook\": 1,\n    \"Server Bluewave\": 2,\n    \"Server Frostbite\": 3,\n    \"Server Blackwood\": 4,\n    \"Server Thunderstrike\": 5,\n    \"Server Silverhawk\": 6,\n    \"Server Tempest\": 7,\n    \"Server Ironclad\": 8,\n    \"Server Brightstar\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 31,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Skyhawk",
+   "Server Redwood",
+   "Server Nightfall",
+   "Server Stormcloud",
+   "Server Ironclad",
+   "Server Falconeye",
+   "Server Thunderbolt",
+   "Server Emberlight",
+   "Server Amberwave",
+   "Server Vortex"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Stormcloud",
+     "Server Ironclad",
+     "Server Falconeye",
+     "Server Amberwave",
+     "Server Vortex"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Redwood",
+     "Server Nightfall",
+     "Server Stormcloud",
+     "Server Ironclad",
+     "Server Falconeye",
+     "Server Emberlight"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Redwood",
+     "Server Nightfall",
+     "Server Stormcloud",
+     "Server Ironclad",
+     "Server Falconeye",
+     "Server Thunderbolt",
+     "Server Emberlight",
+     "Server Amberwave"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(3, 1), (5, 1), (9, 1)],\n    1: [(2, 1), (4, 1), (5, 1), (8, 1)],\n    2: [(3, 1), (6, 1), (7, 1), (8, 1)],\n    3: [(6, 1), (8, 1), (9, 1)],\n    4: [(6, 1), (9, 1)],\n    5: [(7, 1), (8, 1)],\n    6: [],\n    7: [(8, 1), (9, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Skyhawk\": 0,\n    \"Server Redwood\": 1,\n    \"Server Nightfall\": 2,\n    \"Server Stormcloud\": 3,\n    \"Server Ironclad\": 4,\n    \"Server Falconeye\": 5,\n    \"Server Thunderbolt\": 6,\n    \"Server Emberlight\": 7,\n    \"Server Amberwave\": 8,\n    \"Server Vortex\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 32,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberfall",
+   "Server Brightstar",
+   "Server Stealthwind",
+   "Server Stormbreaker",
+   "Server Firestorm",
+   "Server Vortex",
+   "Server Stormcloud",
+   "Server Thunderbolt",
+   "Server Ironclad",
+   "Server Crimsoncloud"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Stealthwind",
+     "Server Firestorm",
+     "Server Stormcloud",
+     "Server Ironclad",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Stealthwind",
+     "Server Stormbreaker",
+     "Server Firestorm",
+     "Server Stormcloud",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Brightstar",
+     "Server Stealthwind",
+     "Server Stormbreaker",
+     "Server Firestorm",
+     "Server Vortex",
+     "Server Stormcloud",
+     "Server Thunderbolt",
+     "Server Ironclad",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(2, 1), (6, 1), (7, 1)],\n    1: [(6, 1), (8, 1)],\n    2: [(3, 1), (4, 1), (5, 1), (7, 1), (8, 1)],\n    3: [(9, 1)],\n    4: [(5, 1), (6, 1), (8, 1), (9, 1)],\n    5: [],\n    6: [(7, 1), (8, 1), (9, 1)],\n    7: [(8, 1), (9, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Emberfall\": 0,\n    \"Server Brightstar\": 1,\n    \"Server Stealthwind\": 2,\n    \"Server Stormbreaker\": 3,\n    \"Server Firestorm\": 4,\n    \"Server Vortex\": 5,\n    \"Server Stormcloud\": 6,\n    \"Server Thunderbolt\": 7,\n    \"Server Ironclad\": 8,\n    \"Server Crimsoncloud\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 33,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Darkhorse",
+   "Server Brightstar",
+   "Server Emberlight",
+   "Server Ironbark",
+   "Server Lighthouse",
+   "Server Silverstream",
+   "Server Bluebird",
+   "Server Stormcloud",
+   "Server Nightfall",
+   "Server Ravenstone"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Emberlight",
+     "Server Ironbark",
+     "Server Stormcloud",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Emberlight",
+     "Server Ironbark",
+     "Server Stormcloud",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Brightstar",
+     "Server Emberlight",
+     "Server Ironbark",
+     "Server Lighthouse",
+     "Server Silverstream",
+     "Server Stormcloud",
+     "Server Nightfall",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (3, 1), (4, 1), (5, 1), (7, 1), (8, 1), (9, 1)],\n    1: [(0, 1), (7, 1)],\n    2: [(5, 1), (7, 1), (8, 1), (9, 1)],\n    3: [(0, 1), (4, 1), (5, 1), (8, 1), (9, 1)],\n    4: [(0, 1), (3, 1), (7, 1)],\n    5: [(0, 1), (2, 1), (3, 1), (9, 1)],\n    6: [],\n    7: [(0, 1), (1, 1), (2, 1), (4, 1), (8, 1)],\n    8: [(0, 1), (2, 1), (3, 1), (4, 1), (7, 1), (9, 1)],\n    9: [(0, 1), (2, 1), (3, 1), (5, 1), (8, 1)]\n  },\n  \"node_mapping\": {\n    \"Server Darkhorse\": 0,\n    \"Server Brightstar\": 1,\n    \"Server Emberlight\": 2,\n    \"Server Ironbark\": 3,\n    \"Server Lighthouse\": 4,\n    \"Server Silverstream\": 5,\n    \"Server Bluebird\": 6,\n    \"Server Stormcloud\": 7,\n    \"Server Nightfall\": 8,\n    \"Server Ravenstone\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 34,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stealthwind",
+   "Server Blackwood",
+   "Server Sunflower",
+   "Server Falconeye",
+   "Server Darkhorse",
+   "Server Willowbrook",
+   "Server Tempest",
+   "Server Emberlight",
+   "Server Redwood",
+   "Server Glacierpeak"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Falconeye",
+     "Server Tempest",
+     "Server Redwood",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Falconeye",
+     "Server Tempest",
+     "Server Redwood",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Blackwood",
+     "Server Sunflower",
+     "Server Falconeye",
+     "Server Darkhorse",
+     "Server Willowbrook",
+     "Server Tempest",
+     "Server Emberlight",
+     "Server Redwood",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(3, 1), (6, 1), (8, 1), (9, 1)],\n    1: [(3, 1), (4, 1), (8, 1), (9, 1)],\n    2: [(3, 1), (8, 1)],\n    3: [(7, 1), (8, 1), (9, 1)],\n    4: [(6, 1), (8, 1), (9, 1)],\n    5: [(6, 1)],\n    6: [],\n    7: [(8, 1), (9, 1)],\n    8: [(9, 1)],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Stealthwind\": 0,\n    \"Server Blackwood\": 1,\n    \"Server Sunflower\": 2,\n    \"Server Falconeye\": 3,\n    \"Server Darkhorse\": 4,\n    \"Server Willowbrook\": 5,\n    \"Server Tempest\": 6,\n    \"Server Emberlight\": 7,\n    \"Server Redwood\": 8,\n    \"Server Glacierpeak\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 35,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Shadowbrook",
+   "Server Skyhawk",
+   "Server Stealthwind",
+   "Server Darkhorse",
+   "Server Windswept",
+   "Server Lighthouse",
+   "Server Starfire",
+   "Server Falconeye",
+   "Server Bluebird",
+   "Server Sunflower"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Shadowbrook",
+     "Server Skyhawk",
+     "Server Lighthouse",
+     "Server Starfire",
+     "Server Falconeye",
+     "Server Bluebird"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Shadowbrook",
+     "Server Skyhawk",
+     "Server Darkhorse",
+     "Server Windswept",
+     "Server Lighthouse",
+     "Server Starfire",
+     "Server Falconeye"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Shadowbrook",
+     "Server Skyhawk",
+     "Server Stealthwind",
+     "Server Darkhorse",
+     "Server Windswept",
+     "Server Lighthouse",
+     "Server Starfire",
+     "Server Falconeye",
+     "Server Sunflower"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the requested format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (3, 1), (4, 1), (5, 1), (6, 1), (7, 1)],\n    1: [(2, 1), (3, 1), (7, 1), (8, 1)],\n    2: [(6, 1)],\n    3: [(5, 1), (7, 1), (8, 1)],\n    4: [(7, 1), (8, 1)],\n    5: [(7, 1), (9, 1)],\n    6: [(9, 1)],\n    7: [(9, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Shadowbrook\": 0,\n    \"Server Skyhawk\": 1,\n    \"Server Stealthwind\": 2,\n    \"Server Darkhorse\": 3,\n    \"Server Windswept\": 4,\n    \"Server Lighthouse\": 5,\n    \"Server Starfire\": 6,\n    \"Server Falconeye\": 7,\n    \"Server Bluebird\": 8,\n    \"Server Sunflower\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 36,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Seabreeze",
+   "Server Willowbrook",
+   "Server Lighthouse",
+   "Server Frostmoon",
+   "Server Sandstorm",
+   "Server Ironclad",
+   "Server Windmill",
+   "Server Crimsoncloud",
+   "Server Silverstone",
+   "Server Eaglecrest"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Lighthouse",
+     "Server Frostmoon",
+     "Server Ironclad",
+     "Server Crimsoncloud",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Lighthouse",
+     "Server Frostmoon",
+     "Server Ironclad",
+     "Server Crimsoncloud",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Willowbrook",
+     "Server Lighthouse",
+     "Server Frostmoon",
+     "Server Sandstorm",
+     "Server Ironclad",
+     "Server Windmill",
+     "Server Crimsoncloud",
+     "Server Silverstone",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (2, 1), (5, 1), (7, 1), (8, 1), (9, 1)],\n    1: [(0, 1), (2, 1), (5, 1), (9, 1)],\n    2: [(0, 1), (1, 1), (3, 1), (4, 1), (6, 1), (7, 1)],\n    3: [(2, 1), (4, 1)],\n    4: [(3, 1), (2, 1)],\n    5: [(0, 1), (1, 1), (6, 1), (9, 1)],\n    6: [(2, 1), (5, 1)],\n    7: [(0, 1), (2, 1), (4, 1), (6, 1)],\n    8: [(0, 1), (1, 1)],\n    9: [(0, 1), (1, 1)]\n  },\n  \"node_mapping\": {\n    \"Server Seabreeze\": 0,\n    \"Server Willowbrook\": 1,\n    \"Server Lighthouse\": 2,\n    \"Server Frostmoon\": 3,\n    \"Server Sandstorm\": 4,\n    \"Server Ironclad\": 5,\n    \"Server Windmill\": 6,\n    \"Server Crimsoncloud\": 7,\n    \"Server Silverstone\": 8,\n    \"Server Eaglecrest\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 37,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Glacier",
+   "Server Amberwave",
+   "Server Lighthouse",
+   "Server Redwood",
+   "Server Willowbrook",
+   "Server Starfire",
+   "Server Falconeye",
+   "Server Shadowbrook",
+   "Server Mirage",
+   "Server Oceanview"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Amberwave",
+     "Server Starfire",
+     "Server Shadowbrook",
+     "Server Oceanview"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Amberwave",
+     "Server Lighthouse",
+     "Server Willowbrook",
+     "Server Starfire",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Amberwave",
+     "Server Lighthouse",
+     "Server Willowbrook",
+     "Server Starfire",
+     "Server Falconeye",
+     "Server Shadowbrook",
+     "Server Mirage",
+     "Server Oceanview"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1)],\n    1: [(0, 1), (2, 1), (3, 1), (4, 1), (8, 1), (9, 1)],\n    2: [(0, 1), (1, 1), (5, 1), (7, 1), (9, 1)],\n    3: [(0, 1), (1, 1)],\n    4: [(0, 1), (1, 1), (9, 1)],\n    5: [(0, 1), (1, 1), (2, 1), (7, 1), (8, 1)],\n    6: [(0, 1), (1, 1)],\n    7: [(2, 1), (5, 1), (6, 1), (8, 1), (9, 1)],\n    8: [(1, 1), (5, 1), (7, 1)],\n    9: [(1, 1), (2, 1), (4, 1), (7, 1)]\n  },\n  \"node_mapping\": {\n    \"Server Glacier\": 0,\n    \"Server Amberwave\": 1,\n    \"Server Lighthouse\": 2,\n    \"Server Redwood\": 3,\n    \"Server Willowbrook\": 4,\n    \"Server Starfire\": 5,\n    \"Server Falconeye\": 6,\n    \"Server Shadowbrook\": 7,\n    \"Server Mirage\": 8,\n    \"Server Oceanview\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 38,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Nightshade",
+   "Server Vortex",
+   "Server Silverhawk",
+   "Server Sunflower",
+   "Server Amberwave",
+   "Server Redwood",
+   "Server Crimsoncloud",
+   "Server Goldleaf",
+   "Server Glacierpeak",
+   "Server Brightstar"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Vortex",
+     "Server Silverhawk",
+     "Server Sunflower",
+     "Server Crimsoncloud",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Vortex",
+     "Server Silverhawk",
+     "Server Sunflower",
+     "Server Amberwave",
+     "Server Crimsoncloud",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Vortex",
+     "Server Silverhawk",
+     "Server Sunflower",
+     "Server Amberwave",
+     "Server Redwood",
+     "Server Crimsoncloud",
+     "Server Goldleaf",
+     "Server Glacierpeak",
+     "Server Brightstar"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (4, 1), (8, 1), (9, 1)],\n    1: [(0, 1), (4, 1), (6, 1), (9, 1)],\n    2: [(4, 1), (5, 1), (8, 1), (9, 1)],\n    3: [(4, 1), (5, 1), (8, 1)],\n    4: [(0, 1), (1, 1), (2, 1), (3, 1), (6, 1)],\n    5: [(2, 1), (3, 1), (4, 1)],\n    6: [(1, 1), (2, 1), (4, 1), (7, 1), (8, 1)],\n    7: [(6, 1)],\n    8: [(0, 1), (1, 1), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1), (9, 1)],\n    9: [(0, 1), (1, 1), (2, 1), (3, 1), (8, 1)]\n  },\n  \"node_mapping\": {\n    \"Server Nightshade\": 0,\n    \"Server Vortex\": 1,\n    \"Server Silverhawk\": 2,\n    \"Server Sunflower\": 3,\n    \"Server Amberwave\": 4,\n    \"Server Redwood\": 5,\n    \"Server Crimsoncloud\": 6,\n    \"Server Goldleaf\": 7,\n    \"Server Glacierpeak\": 8,\n    \"Server Brightstar\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 39,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Moonlight",
+   "Server Willowbrook",
+   "Server Redwood",
+   "Server Nightshade",
+   "Server Silverstream",
+   "Server Starfire",
+   "Server Ravenstone",
+   "Server Silverstone",
+   "Server Blackwood",
+   "Server Frostmoon"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Redwood",
+     "Server Silverstream",
+     "Server Starfire",
+     "Server Ravenstone",
+     "Server Blackwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Redwood",
+     "Server Silverstream",
+     "Server Starfire",
+     "Server Ravenstone",
+     "Server Blackwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Willowbrook",
+     "Server Redwood",
+     "Server Nightshade",
+     "Server Silverstream",
+     "Server Starfire",
+     "Server Ravenstone",
+     "Server Silverstone",
+     "Server Blackwood",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the requested format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (5, 1), (8, 1)],\n    1: [(3, 1), (4, 1), (5, 1), (7, 1), (8, 1)],\n    2: [(5, 1), (9, 1)],\n    3: [(5, 1), (6, 1), (8, 1)],\n    4: [(5, 1), (6, 1), (7, 1), (8, 1)],\n    5: [(8, 1)],\n    6: [(7, 1)],\n    7: [],\n    8: [(9, 1)],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Moonlight\": 0,\n    \"Server Willowbrook\": 1,\n    \"Server Redwood\": 2,\n    \"Server Nightshade\": 3,\n    \"Server Silverstream\": 4,\n    \"Server Starfire\": 5,\n    \"Server Ravenstone\": 6,\n    \"Server Silverstone\": 7,\n    \"Server Blackwood\": 8,\n    \"Server Frostmoon\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 40,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Eaglecrest",
+   "Server Nightshade",
+   "Server Windmill",
+   "Server Emberfall",
+   "Server Skyhawk",
+   "Server Ironclad",
+   "Server Lighthouse",
+   "Server Thunderstrike",
+   "Server Sandstorm",
+   "Server Shadowbrook"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Nightshade",
+     "Server Emberfall",
+     "Server Skyhawk",
+     "Server Ironclad",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Nightshade",
+     "Server Emberfall",
+     "Server Skyhawk",
+     "Server Ironclad",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Nightshade",
+     "Server Windmill",
+     "Server Emberfall",
+     "Server Skyhawk",
+     "Server Ironclad",
+     "Server Lighthouse",
+     "Server Thunderstrike",
+     "Server Sandstorm",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (2, 1), (4, 1), (5, 1), (6, 1), (7, 1)],\n    1: [(0, 1), (2, 1), (7, 1), (8, 1), (9, 1)],\n    2: [(0, 1), (1, 1), (4, 1)],\n    3: [(6, 1), (7, 1), (9, 1)],\n    4: [(0, 1), (2, 1), (6, 1), (7, 1)],\n    5: [(0, 1), (6, 1), (8, 1)],\n    6: [(0, 1), (3, 1), (4, 1), (5, 1)],\n    7: [(0, 1), (1, 1), (3, 1), (4, 1), (6, 1), (9, 1)],\n    8: [(1, 1), (5, 1), (9, 1)],\n    9: [(1, 1), (3, 1), (7, 1), (8, 1)]\n  },\n  \"node_mapping\": {\n    \"Server Eaglecrest\": 0,\n    \"Server Nightshade\": 1,\n    \"Server Windmill\": 2,\n    \"Server Emberfall\": 3,\n    \"Server Skyhawk\": 4,\n    \"Server Ironclad\": 5,\n    \"Server Lighthouse\": 6,\n    \"Server Thunderstrike\": 7,\n    \"Server Sandstorm\": 8,\n    \"Server Shadowbrook\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 41,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Shadowbrook",
+   "Server Silverstone",
+   "Server Frostbite",
+   "Server Oceanview",
+   "Server Goldleaf",
+   "Server Starfire",
+   "Server Silverstream",
+   "Server Solarflare",
+   "Server Ironclad",
+   "Server Blackwood"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Shadowbrook",
+     "Server Silverstone",
+     "Server Frostbite",
+     "Server Goldleaf",
+     "Server Silverstream",
+     "Server Blackwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Shadowbrook",
+     "Server Silverstone",
+     "Server Frostbite",
+     "Server Goldleaf",
+     "Server Solarflare",
+     "Server Blackwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Shadowbrook",
+     "Server Silverstone",
+     "Server Frostbite",
+     "Server Goldleaf",
+     "Server Starfire",
+     "Server Silverstream",
+     "Server Solarflare",
+     "Server Ironclad",
+     "Server Blackwood"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (3, 1), (6, 1), (7, 1)],\n    1: [(2, 1), (3, 1), (4, 1), (7, 1)],\n    2: [(4, 1), (5, 1), (6, 1), (7, 1), (8, 1)],\n    3: [],\n    4: [(6, 1), (7, 1), (8, 1)],\n    5: [(9, 1)],\n    6: [(7, 1)],\n    7: [(9, 1)],\n    8: [(9, 1)],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Shadowbrook\": 0,\n    \"Server Silverstone\": 1,\n    \"Server Frostbite\": 2,\n    \"Server Oceanview\": 3,\n    \"Server Goldleaf\": 4,\n    \"Server Starfire\": 5,\n    \"Server Silverstream\": 6,\n    \"Server Solarflare\": 7,\n    \"Server Ironclad\": 8,\n    \"Server Blackwood\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 42,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverstream",
+   "Server Willowbrook",
+   "Server Goldleaf",
+   "Server Firefly",
+   "Server Glacier",
+   "Server Windmill",
+   "Server Crimsoncloud",
+   "Server Ironclad",
+   "Server Emberfall",
+   "Server Lighthouse"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Willowbrook",
+     "Server Glacier",
+     "Server Windmill",
+     "Server Ironclad"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Willowbrook",
+     "Server Glacier",
+     "Server Windmill",
+     "Server Ironclad"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Willowbrook",
+     "Server Goldleaf",
+     "Server Firefly",
+     "Server Glacier",
+     "Server Windmill",
+     "Server Crimsoncloud",
+     "Server Ironclad",
+     "Server Lighthouse"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(3, 1), (4, 1), (5, 1), (7, 1), (9, 1)],\n    1: [(3, 1), (4, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1)],\n    2: [(5, 1)],\n    3: [(5, 1), (7, 1)],\n    4: [(5, 1), (8, 1), (9, 1)],\n    5: [(6, 1)],\n    6: [],\n    7: [(9, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Silverstream\": 0,\n    \"Server Willowbrook\": 1,\n    \"Server Goldleaf\": 2,\n    \"Server Firefly\": 3,\n    \"Server Glacier\": 4,\n    \"Server Windmill\": 5,\n    \"Server Crimsoncloud\": 6,\n    \"Server Ironclad\": 7,\n    \"Server Emberfall\": 8,\n    \"Server Lighthouse\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 43,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stealthwind",
+   "Server Glacierpeak",
+   "Server Silverstone",
+   "Server Oceanview",
+   "Server Seabreeze",
+   "Server Amberwave",
+   "Server Ghostwind",
+   "Server Thunderstrike",
+   "Server Shadowbrook",
+   "Server Starfire"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Silverstone",
+     "Server Oceanview",
+     "Server Amberwave",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Silverstone",
+     "Server Oceanview",
+     "Server Seabreeze",
+     "Server Ghostwind",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Silverstone",
+     "Server Oceanview",
+     "Server Seabreeze",
+     "Server Amberwave",
+     "Server Ghostwind",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the specified format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(4, 1), (5, 1), (6, 1), (8, 1), (9, 1)],\n    1: [(2, 1), (7, 1), (8, 1)],\n    2: [(4, 1), (5, 1), (8, 1), (9, 1)],\n    3: [(4, 1), (5, 1), (7, 1), (8, 1)],\n    4: [(5, 1)],\n    5: [(8, 1)],\n    6: [(8, 1), (9, 1)],\n    7: [],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Stealthwind\": 0,\n    \"Server Glacierpeak\": 1,\n    \"Server Silverstone\": 2,\n    \"Server Oceanview\": 3,\n    \"Server Seabreeze\": 4,\n    \"Server Amberwave\": 5,\n    \"Server Ghostwind\": 6,\n    \"Server Thunderstrike\": 7,\n    \"Server Shadowbrook\": 8,\n    \"Server Starfire\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 44,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Twilight",
+   "Server Lighthouse",
+   "Server Stealthwind",
+   "Server Ironclad",
+   "Server Vortex",
+   "Server Eaglecrest",
+   "Server Sandstorm",
+   "Server Crimsoncloud",
+   "Server Ghostwind"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Stealthwind",
+     "Server Ironclad",
+     "Server Vortex",
+     "Server Crimsoncloud",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Stealthwind",
+     "Server Ironclad",
+     "Server Vortex",
+     "Server Crimsoncloud",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Twilight",
+     "Server Lighthouse",
+     "Server Stealthwind",
+     "Server Ironclad",
+     "Server Vortex",
+     "Server Eaglecrest",
+     "Server Sandstorm",
+     "Server Crimsoncloud",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the specified format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(5, 1), (8, 1)],\n    1: [(2, 1), (5, 1), (9, 1)],\n    2: [(3, 1), (5, 1), (8, 1), (9, 1)],\n    3: [(5, 1), (7, 1), (8, 1), (9, 1)],\n    4: [(5, 1), (6, 1), (7, 1)],\n    5: [(7, 1), (9, 1)],\n    6: [(9, 1)],\n    7: [(8, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Windmill\": 0,\n    \"Server Twilight\": 1,\n    \"Server Lighthouse\": 2,\n    \"Server Stealthwind\": 3,\n    \"Server Ironclad\": 4,\n    \"Server Vortex\": 5,\n    \"Server Eaglecrest\": 6,\n    \"Server Sandstorm\": 7,\n    \"Server Crimsoncloud\": 8,\n    \"Server Ghostwind\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 45,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Seabreeze",
+   "Server Nightfall",
+   "Server Shadowbrook",
+   "Server Crimsoncloud",
+   "Server Ironbark",
+   "Server Blackwood",
+   "Server Glacier",
+   "Server Windmill",
+   "Server Sunflower",
+   "Server Silverhawk"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Nightfall",
+     "Server Shadowbrook",
+     "Server Glacier",
+     "Server Sunflower",
+     "Server Silverhawk"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Nightfall",
+     "Server Crimsoncloud",
+     "Server Ironbark",
+     "Server Blackwood",
+     "Server Glacier",
+     "Server Windmill"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Nightfall",
+     "Server Shadowbrook",
+     "Server Crimsoncloud",
+     "Server Ironbark",
+     "Server Blackwood",
+     "Server Glacier",
+     "Server Windmill",
+     "Server Sunflower"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the specified format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(3, 1), (6, 1), (7, 1), (8, 1), (9, 1)],\n    1: [(2, 1), (6, 1), (7, 1), (8, 1), (9, 1)],\n    2: [(4, 1), (7, 1)],\n    3: [(6, 1), (9, 1)],\n    4: [(8, 1), (9, 1)],\n    5: [(8, 1)],\n    6: [(7, 1), (9, 1)],\n    7: [(8, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Seabreeze\": 0,\n    \"Server Nightfall\": 1,\n    \"Server Shadowbrook\": 2,\n    \"Server Crimsoncloud\": 3,\n    \"Server Ironbark\": 4,\n    \"Server Blackwood\": 5,\n    \"Server Glacier\": 6,\n    \"Server Windmill\": 7,\n    \"Server Sunflower\": 8,\n    \"Server Silverhawk\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 46,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Redwood",
+   "Server Seabreeze",
+   "Server Windswept",
+   "Server Tempest",
+   "Server Vortex",
+   "Server Brightstar",
+   "Server Glacierpeak",
+   "Server Lighthouse",
+   "Server Bluebird",
+   "Server Willowbrook"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Seabreeze",
+     "Server Windswept",
+     "Server Tempest",
+     "Server Glacierpeak",
+     "Server Bluebird"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Seabreeze",
+     "Server Windswept",
+     "Server Tempest",
+     "Server Glacierpeak",
+     "Server Bluebird"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Seabreeze",
+     "Server Windswept",
+     "Server Tempest",
+     "Server Vortex",
+     "Server Glacierpeak",
+     "Server Lighthouse",
+     "Server Bluebird",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (2, 1), (5, 1), (6, 1), (8, 1)],\n    1: [(0, 1), (2, 1), (4, 1), (7, 1), (8, 1), (9, 1)],\n    2: [(0, 1), (1, 1), (6, 1), (7, 1)],\n    3: [(4, 1), (5, 1), (6, 1), (8, 1)],\n    4: [(1, 1), (3, 1), (8, 1)],\n    5: [(0, 1), (3, 1)],\n    6: [(0, 1), (2, 1), (3, 1), (7, 1), (8, 1)],\n    7: [(1, 1), (2, 1), (6, 1)],\n    8: [(0, 1), (1, 1), (3, 1), (4, 1), (6, 1), (9, 1)],\n    9: [(1, 1), (8, 1)]\n  },\n  \"node_mapping\": {\n    \"Server Redwood\": 0,\n    \"Server Seabreeze\": 1,\n    \"Server Windswept\": 2,\n    \"Server Tempest\": 3,\n    \"Server Vortex\": 4,\n    \"Server Brightstar\": 5,\n    \"Server Glacierpeak\": 6,\n    \"Server Lighthouse\": 7,\n    \"Server Bluebird\": 8,\n    \"Server Willowbrook\": 9\n  }\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 47,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Goldleaf",
+   "Server Willowbrook",
+   "Server Stormcloud",
+   "Server Eaglecrest",
+   "Server Oceanview",
+   "Server Nightshade",
+   "Server Bluebird",
+   "Server Starfire",
+   "Server Windswept",
+   "Server Firestorm"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Eaglecrest",
+     "Server Oceanview",
+     "Server Bluebird",
+     "Server Starfire",
+     "Server Firestorm"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Stormcloud",
+     "Server Eaglecrest",
+     "Server Oceanview",
+     "Server Nightshade",
+     "Server Starfire",
+     "Server Firestorm"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Willowbrook",
+     "Server Stormcloud",
+     "Server Eaglecrest",
+     "Server Oceanview",
+     "Server Nightshade",
+     "Server Bluebird",
+     "Server Starfire",
+     "Server Windswept",
+     "Server Firestorm"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (5, 1), (8, 1), (9, 1)],\n    1: [(3, 1), (4, 1), (9, 1)],\n    2: [(6, 1), (7, 1), (9, 1)],\n    3: [(4, 1), (5, 1), (6, 1)],\n    4: [(5, 1), (7, 1), (8, 1)],\n    5: [(6, 1)],\n    6: [(9, 1)],\n    7: [(8, 1), (9, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Goldleaf\": 0,\n    \"Server Willowbrook\": 1,\n    \"Server Stormcloud\": 2,\n    \"Server Eaglecrest\": 3,\n    \"Server Oceanview\": 4,\n    \"Server Nightshade\": 5,\n    \"Server Bluebird\": 6,\n    \"Server Starfire\": 7,\n    \"Server Windswept\": 8,\n    \"Server Firestorm\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 48,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Nightshade",
+   "Server Goldleaf",
+   "Server Sandstorm",
+   "Server Stormbreaker",
+   "Server Amberwave",
+   "Server Firefly",
+   "Server Stealthwind",
+   "Server Tempest",
+   "Server Seabreeze",
+   "Server Emberlight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Goldleaf",
+     "Server Sandstorm",
+     "Server Firefly",
+     "Server Tempest",
+     "Server Emberlight"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Goldleaf",
+     "Server Sandstorm",
+     "Server Stormbreaker",
+     "Server Amberwave",
+     "Server Firefly",
+     "Server Seabreeze"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Goldleaf",
+     "Server Sandstorm",
+     "Server Stormbreaker",
+     "Server Amberwave",
+     "Server Firefly",
+     "Server Stealthwind",
+     "Server Tempest",
+     "Server Seabreeze",
+     "Server Emberlight"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (2, 1), (3, 1), (4, 1), (9, 1)],\n    1: [(0, 1), (3, 1), (4, 1), (6, 1)],\n    2: [(0, 1), (4, 1), (6, 1), (7, 1), (8, 1)],\n    3: [(0, 1), (1, 1), (7, 1)],\n    4: [(0, 1), (1, 1), (2, 1), (5, 1), (7, 1), (9, 1)],\n    5: [(4, 1), (6, 1), (7, 1), (8, 1)],\n    6: [(1, 1), (2, 1), (5, 1)],\n    7: [(2, 1), (3, 1), (4, 1), (5, 1)],\n    8: [(2, 1), (5, 1), (9, 1)],\n    9: [(0, 1), (4, 1), (8, 1)]\n  },\n  \"node_mapping\": {\n    \"Server Nightshade\": 0,\n    \"Server Goldleaf\": 1,\n    \"Server Sandstorm\": 2,\n    \"Server Stormbreaker\": 3,\n    \"Server Amberwave\": 4,\n    \"Server Firefly\": 5,\n    \"Server Stealthwind\": 6,\n    \"Server Tempest\": 7,\n    \"Server Seabreeze\": 8,\n    \"Server Emberlight\": 9\n  }\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 49,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Nightfall",
+   "Server Eaglecrest",
+   "Server Ghostwind",
+   "Server Bluewave",
+   "Server Crimsoncloud",
+   "Server Stormcloud",
+   "Server Nightshade",
+   "Server Thunderstrike",
+   "Server Emberfall",
+   "Server Sunflower"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Ghostwind",
+     "Server Bluewave",
+     "Server Stormcloud",
+     "Server Thunderstrike",
+     "Server Sunflower"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Ghostwind",
+     "Server Bluewave",
+     "Server Stormcloud",
+     "Server Thunderstrike",
+     "Server Sunflower"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Eaglecrest",
+     "Server Ghostwind",
+     "Server Bluewave",
+     "Server Crimsoncloud",
+     "Server Stormcloud",
+     "Server Nightshade",
+     "Server Thunderstrike",
+     "Server Emberfall",
+     "Server Sunflower"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Here is the digital graph structure data in the specified format:\n\n```json\n{\n  \"graph_type\": \"undirected\",\n  \"adjacency_list\": {\n    0: [(1, 1), (3, 1)],\n    1: [(2, 1), (3, 1), (7, 1)],\n    2: [(4, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1)],\n    3: [(4, 1), (6, 1), (8, 1), (9, 1)],\n    4: [(9, 1)],\n    5: [(6, 1), (9, 1)],\n    6: [(9, 1)],\n    7: [(8, 1)],\n    8: [],\n    9: []\n  },\n  \"node_mapping\": {\n    \"Server Nightfall\": 0,\n    \"Server Eaglecrest\": 1,\n    \"Server Ghostwind\": 2,\n    \"Server Bluewave\": 3,\n    \"Server Crimsoncloud\": 4,\n    \"Server Stormcloud\": 5,\n    \"Server Nightshade\": 6,\n    \"Server Thunderstrike\": 7,\n    \"Server Emberfall\": 8,\n    \"Server Sunflower\": 9\n  }\n}\n```"
+ }
+]

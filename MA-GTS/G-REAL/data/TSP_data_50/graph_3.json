@@ -1,0 +1,5202 @@
+[
+ {
+  "graph_index": 0,
+  "adj": [
+   [
+    0,
+    5,
+    5,
+    5
+   ],
+   [
+    5,
+    0,
+    8,
+    4
+   ],
+   [
+    5,
+    8,
+    0,
+    8
+   ],
+   [
+    5,
+    4,
+    8,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Rosewood Hall",
+   "Silvercrest Observatory",
+   "Pennywhistle Arcade"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nRosewood Hall: A grand event hall hosting galas, weddings, and large conferences.\nSilvercrest Observatory: A high-tech observatory where visitors can stargaze and learn about astronomy.\nPennywhistle Arcade: A vintage entertainment district with old-style theaters, arcades, and street performers.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Rosewood Hall is 5 km, Warehouse to Silvercrest Observatory is 5 km, Warehouse to Pennywhistle Arcade is 5 km.\nDistances from Delivery Rosewood Hall to each delivery point: Rosewood Hall to Silvercrest Observatory is 8 km, Rosewood Hall to Pennywhistle Arcade is 4 km.\nDistances from Delivery Silvercrest Observatory to each delivery point: Silvercrest Observatory to Pennywhistle Arcade is 8 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Rosewood Hall",
+     "Pennywhistle Arcade",
+     "Silvercrest Observatory",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Silvercrest Observatory",
+     "Pennywhistle Arcade",
+     "Rosewood Hall",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Rosewood Hall",
+     "Pennywhistle Arcade",
+     "Silvercrest Observatory",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Rosewood Hall",
+     "Pennywhistle Arcade",
+     "Silvercrest Observatory",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Rosewood Hall",
+     "Silvercrest Observatory",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Silvercrest Observatory",
+     "Pennywhistle Arcade",
+     "Rosewood Hall",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 1,
+  "adj": [
+   [
+    0,
+    9,
+    1,
+    3
+   ],
+   [
+    9,
+    0,
+    4,
+    4
+   ],
+   [
+    1,
+    4,
+    0,
+    5
+   ],
+   [
+    3,
+    4,
+    5,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Brass Lantern Tavern",
+   "Knight’s Market",
+   "Cobalt Market"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nBrass Lantern Tavern: A cozy pub famous for its handcrafted beers and warm, rustic interiors.\nKnight’s Market: A medieval-themed marketplace with handcrafted goods and costumed vendors.\nCobalt Market: A vibrant marketplace where merchants sell exotic goods and fresh produce from all over.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Brass Lantern Tavern is 9 km, Warehouse to Knight’s Market is 1 km, Warehouse to Cobalt Market is 3 km.\nDistances from Delivery Brass Lantern Tavern to each delivery point: Brass Lantern Tavern to Knight’s Market is 4 km, Brass Lantern Tavern to Cobalt Market is 4 km.\nDistances from Delivery Knight’s Market to each delivery point: Knight’s Market to Cobalt Market is 5 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Knight’s Market",
+     "Brass Lantern Tavern",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Brass Lantern Tavern",
+     "Knight’s Market",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Knight’s Market",
+     "Brass Lantern Tavern",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Knight’s Market",
+     "Brass Lantern Tavern",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Brass Lantern Tavern",
+     "Knight’s Market",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Knight’s Market",
+     "Brass Lantern Tavern",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 2,
+  "adj": [
+   [
+    0,
+    4,
+    2,
+    4
+   ],
+   [
+    4,
+    0,
+    1,
+    4
+   ],
+   [
+    2,
+    1,
+    0,
+    1
+   ],
+   [
+    4,
+    4,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Haven Docks",
+   "Azure Gardens",
+   "Ivory Spire Cathedral"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nHaven Docks: The city’s bustling port area, filled with cargo ships, seafood stalls, and lively taverns.\nAzure Gardens: An expansive botanical garden featuring rare plants, greenhouses, and water features.\nIvory Spire Cathedral: A towering cathedral with stunning stained-glass windows and a melodic bell tower.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Haven Docks is 4 km, Warehouse to Azure Gardens is 2 km, Warehouse to Ivory Spire Cathedral is 4 km.\nDistances from Delivery Haven Docks to each delivery point: Haven Docks to Azure Gardens is 1 km, Haven Docks to Ivory Spire Cathedral is 4 km.\nDistances from Delivery Azure Gardens to each delivery point: Azure Gardens to Ivory Spire Cathedral is 1 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Azure Gardens",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 10,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Azure Gardens",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 10,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Azure Gardens",
+     "Haven Docks",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 11,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Azure Gardens",
+     "Haven Docks",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 11,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Azure Gardens",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 10,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Azure Gardens",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 10,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 3,
+  "adj": [
+   [
+    0,
+    7,
+    7,
+    3
+   ],
+   [
+    7,
+    0,
+    8,
+    2
+   ],
+   [
+    7,
+    8,
+    0,
+    8
+   ],
+   [
+    3,
+    2,
+    8,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Ivory Spire Cathedral",
+   "Azure Gardens",
+   "Primrose Boulevard"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nIvory Spire Cathedral: A towering cathedral with stunning stained-glass windows and a melodic bell tower.\nAzure Gardens: An expansive botanical garden featuring rare plants, greenhouses, and water features.\nPrimrose Boulevard: A tree-lined street with boutique stores, local bakeries, and street performers.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Ivory Spire Cathedral is 7 km, Warehouse to Azure Gardens is 7 km, Warehouse to Primrose Boulevard is 3 km.\nDistances from Delivery Ivory Spire Cathedral to each delivery point: Ivory Spire Cathedral to Azure Gardens is 8 km, Ivory Spire Cathedral to Primrose Boulevard is 2 km.\nDistances from Delivery Azure Gardens to each delivery point: Azure Gardens to Primrose Boulevard is 8 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Azure Gardens",
+     "Ivory Spire Cathedral",
+     "Primrose Boulevard",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Azure Gardens",
+     "Ivory Spire Cathedral",
+     "Primrose Boulevard",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Ivory Spire Cathedral",
+     "Azure Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Ivory Spire Cathedral",
+     "Azure Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Ivory Spire Cathedral",
+     "Azure Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Ivory Spire Cathedral",
+     "Azure Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 4,
+  "adj": [
+   [
+    0,
+    6,
+    7,
+    5
+   ],
+   [
+    6,
+    0,
+    6,
+    9
+   ],
+   [
+    7,
+    6,
+    0,
+    10
+   ],
+   [
+    5,
+    9,
+    10,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Flint Forge Quarter",
+   "Yarrow Plaza",
+   "Moonlit Promenade"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nFlint Forge Quarter: An old industrial area now revitalized with art studios and trendy cafes.\nYarrow Plaza: A cultural hub with art galleries, street food stalls, and live performances every evening.\nMoonlit Promenade: A romantic walkway along the riverbank, lit by soft lanterns at night.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Flint Forge Quarter is 6 km, Warehouse to Yarrow Plaza is 7 km, Warehouse to Moonlit Promenade is 5 km.\nDistances from Delivery Flint Forge Quarter to each delivery point: Flint Forge Quarter to Yarrow Plaza is 6 km, Flint Forge Quarter to Moonlit Promenade is 9 km.\nDistances from Delivery Yarrow Plaza to each delivery point: Yarrow Plaza to Moonlit Promenade is 10 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Yarrow Plaza",
+     "Moonlit Promenade",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Yarrow Plaza",
+     "Moonlit Promenade",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Moonlit Promenade",
+     "Flint Forge Quarter",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Moonlit Promenade",
+     "Flint Forge Quarter",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Moonlit Promenade",
+     "Yarrow Plaza",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Moonlit Promenade",
+     "Yarrow Plaza",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 27,
+    "cost_time": 1.1
+   }
+  }
+ },
+ {
+  "graph_index": 5,
+  "adj": [
+   [
+    0,
+    3,
+    5,
+    5
+   ],
+   [
+    3,
+    0,
+    5,
+    4
+   ],
+   [
+    5,
+    5,
+    0,
+    3
+   ],
+   [
+    5,
+    4,
+    3,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Westgate Station",
+   "Nimbus Plaza",
+   "Skyline Gardens"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nWestgate Station: A major train terminal, connecting the city to nearby towns and regions.\nNimbus Plaza: A futuristic square surrounded by glass skyscrapers and interactive digital art installations.\nSkyline Gardens: A rooftop garden atop the central mall, offering breathtaking views and quiet retreats.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Westgate Station is 3 km, Warehouse to Nimbus Plaza is 5 km, Warehouse to Skyline Gardens is 5 km.\nDistances from Delivery Westgate Station to each delivery point: Westgate Station to Nimbus Plaza is 5 km, Westgate Station to Skyline Gardens is 4 km.\nDistances from Delivery Nimbus Plaza to each delivery point: Nimbus Plaza to Skyline Gardens is 3 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Skyline Gardens",
+     "Nimbus Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Nimbus Plaza",
+     "Skyline Gardens",
+     "Westgate Station",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Skyline Gardens",
+     "Nimbus Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Skyline Gardens",
+     "Nimbus Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Nimbus Plaza",
+     "Skyline Gardens",
+     "Westgate Station",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Skyline Gardens",
+     "Nimbus Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 6,
+  "adj": [
+   [
+    0,
+    8,
+    1,
+    3
+   ],
+   [
+    8,
+    0,
+    10,
+    8
+   ],
+   [
+    1,
+    10,
+    0,
+    7
+   ],
+   [
+    3,
+    8,
+    7,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Twilight Harbor",
+   "Knight’s Market",
+   "Silvercrest Observatory"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nTwilight Harbor: A picturesque dock area with twinkling lights and waterfront dining.\nKnight’s Market: A medieval-themed marketplace with handcrafted goods and costumed vendors.\nSilvercrest Observatory: A high-tech observatory where visitors can stargaze and learn about astronomy.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Twilight Harbor is 8 km, Warehouse to Knight’s Market is 1 km, Warehouse to Silvercrest Observatory is 3 km.\nDistances from Delivery Twilight Harbor to each delivery point: Twilight Harbor to Knight’s Market is 10 km, Twilight Harbor to Silvercrest Observatory is 8 km.\nDistances from Delivery Knight’s Market to each delivery point: Knight’s Market to Silvercrest Observatory is 7 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Knight’s Market",
+     "Twilight Harbor",
+     "Silvercrest Observatory",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Silvercrest Observatory",
+     "Knight’s Market",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Knight’s Market",
+     "Silvercrest Observatory",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Knight’s Market",
+     "Silvercrest Observatory",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 24,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Silvercrest Observatory",
+     "Twilight Harbor",
+     "Knight’s Market",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Silvercrest Observatory",
+     "Twilight Harbor",
+     "Knight’s Market",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 7,
+  "adj": [
+   [
+    0,
+    5,
+    9,
+    9
+   ],
+   [
+    5,
+    0,
+    3,
+    1
+   ],
+   [
+    9,
+    3,
+    0,
+    4
+   ],
+   [
+    9,
+    1,
+    4,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Flare Alley",
+   "Willowshade Pavilion",
+   "King’s Row"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nFlare Alley: A narrow, colorful street lined with neon-lit bars and underground clubs.\nWillowshade Pavilion: A cultural pavilion hosting open-air art exhibits, food festivals, and community events.\nKing’s Row: A luxurious shopping street lined with high-end stores and designer boutiques.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Flare Alley is 5 km, Warehouse to Willowshade Pavilion is 9 km, Warehouse to King’s Row is 9 km.\nDistances from Delivery Flare Alley to each delivery point: Flare Alley to Willowshade Pavilion is 3 km, Flare Alley to King’s Row is 1 km.\nDistances from Delivery Willowshade Pavilion to each delivery point: Willowshade Pavilion to King’s Row is 4 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "King’s Row",
+     "Willowshade Pavilion",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Willowshade Pavilion",
+     "King’s Row",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "King’s Row",
+     "Willowshade Pavilion",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "King’s Row",
+     "Willowshade Pavilion",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "King’s Row",
+     "Willowshade Pavilion",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Willowshade Pavilion",
+     "King’s Row",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 8,
+  "adj": [
+   [
+    0,
+    2,
+    8,
+    4
+   ],
+   [
+    2,
+    0,
+    2,
+    6
+   ],
+   [
+    8,
+    2,
+    0,
+    4
+   ],
+   [
+    4,
+    6,
+    4,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Westgate Station",
+   "Yarrow Plaza",
+   "Zenith Arena"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nWestgate Station: A major train terminal, connecting the city to nearby towns and regions.\nYarrow Plaza: A cultural hub with art galleries, street food stalls, and live performances every evening.\nZenith Arena: A state-of-the-art stadium for concerts, sports events, and major public gatherings.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Westgate Station is 2 km, Warehouse to Yarrow Plaza is 8 km, Warehouse to Zenith Arena is 4 km.\nDistances from Delivery Westgate Station to each delivery point: Westgate Station to Yarrow Plaza is 2 km, Westgate Station to Zenith Arena is 6 km.\nDistances from Delivery Yarrow Plaza to each delivery point: Yarrow Plaza to Zenith Arena is 4 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Yarrow Plaza",
+     "Zenith Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Yarrow Plaza",
+     "Westgate Station",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Yarrow Plaza",
+     "Zenith Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Yarrow Plaza",
+     "Zenith Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Yarrow Plaza",
+     "Zenith Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Yarrow Plaza",
+     "Westgate Station",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 9,
+  "adj": [
+   [
+    0,
+    10,
+    2,
+    6
+   ],
+   [
+    10,
+    0,
+    7,
+    3
+   ],
+   [
+    2,
+    7,
+    0,
+    1
+   ],
+   [
+    6,
+    3,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Yarrow Plaza",
+   "Twilight Harbor",
+   "Copper Clock Square"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nYarrow Plaza: A cultural hub with art galleries, street food stalls, and live performances every evening.\nTwilight Harbor: A picturesque dock area with twinkling lights and waterfront dining.\nCopper Clock Square: A historic plaza with a towering clock surrounded by antique shops and cafes.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Yarrow Plaza is 10 km, Warehouse to Twilight Harbor is 2 km, Warehouse to Copper Clock Square is 6 km.\nDistances from Delivery Yarrow Plaza to each delivery point: Yarrow Plaza to Twilight Harbor is 7 km, Yarrow Plaza to Copper Clock Square is 3 km.\nDistances from Delivery Twilight Harbor to each delivery point: Twilight Harbor to Copper Clock Square is 1 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Yarrow Plaza",
+     "Copper Clock Square",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Yarrow Plaza",
+     "Copper Clock Square",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Copper Clock Square",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Copper Clock Square",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Copper Clock Square",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Copper Clock Square",
+     "Yarrow Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 10,
+  "adj": [
+   [
+    0,
+    3,
+    5,
+    8
+   ],
+   [
+    3,
+    0,
+    9,
+    5
+   ],
+   [
+    5,
+    9,
+    0,
+    9
+   ],
+   [
+    8,
+    5,
+    9,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Flare Alley",
+   "Oakshade Library",
+   "Opal Theater"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nFlare Alley: A narrow, colorful street lined with neon-lit bars and underground clubs.\nOakshade Library: The city’s largest library, featuring towering bookshelves and cozy reading nooks.\nOpal Theater: An avant-garde cinema showing independent films and hosting film festivals.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Flare Alley is 3 km, Warehouse to Oakshade Library is 5 km, Warehouse to Opal Theater is 8 km.\nDistances from Delivery Flare Alley to each delivery point: Flare Alley to Oakshade Library is 9 km, Flare Alley to Opal Theater is 5 km.\nDistances from Delivery Oakshade Library to each delivery point: Oakshade Library to Opal Theater is 9 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Opal Theater",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Opal Theater",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Opal Theater",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Opal Theater",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Opal Theater",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Opal Theater",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 11,
+  "adj": [
+   [
+    0,
+    10,
+    5,
+    1
+   ],
+   [
+    10,
+    0,
+    5,
+    8
+   ],
+   [
+    5,
+    5,
+    0,
+    3
+   ],
+   [
+    1,
+    8,
+    3,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Echo Station",
+   "Northwind Tower",
+   "Quarry Point"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nEcho Station: The city’s largest transportation hub, always alive with the sound of trains and announcements.\nNorthwind Tower: A modern skyscraper with a rotating observation deck and sky-high dining.\nQuarry Point: An old quarry turned into a unique rock-climbing park and open-air amphitheater.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Echo Station is 10 km, Warehouse to Northwind Tower is 5 km, Warehouse to Quarry Point is 1 km.\nDistances from Delivery Echo Station to each delivery point: Echo Station to Northwind Tower is 5 km, Echo Station to Quarry Point is 8 km.\nDistances from Delivery Northwind Tower to each delivery point: Northwind Tower to Quarry Point is 3 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Northwind Tower",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Northwind Tower",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Northwind Tower",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Northwind Tower",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Northwind Tower",
+     "Echo Station",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Northwind Tower",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 12,
+  "adj": [
+   [
+    0,
+    5,
+    8,
+    2
+   ],
+   [
+    5,
+    0,
+    4,
+    4
+   ],
+   [
+    8,
+    4,
+    0,
+    2
+   ],
+   [
+    2,
+    4,
+    2,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Sapphire Arena",
+   "Amber Plaza",
+   "Quarry Point"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nSapphire Arena: A massive sports and concert venue surrounded by restaurants and fan zones.\nAmber Plaza: A bustling central square surrounded by cafes, boutiques, and street performers.\nQuarry Point: An old quarry turned into a unique rock-climbing park and open-air amphitheater.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Sapphire Arena is 5 km, Warehouse to Amber Plaza is 8 km, Warehouse to Quarry Point is 2 km.\nDistances from Delivery Sapphire Arena to each delivery point: Sapphire Arena to Amber Plaza is 4 km, Sapphire Arena to Quarry Point is 4 km.\nDistances from Delivery Amber Plaza to each delivery point: Amber Plaza to Quarry Point is 2 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Sapphire Arena",
+     "Amber Plaza",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 13,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Sapphire Arena",
+     "Amber Plaza",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 13,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Amber Plaza",
+     "Sapphire Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 13,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Amber Plaza",
+     "Sapphire Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 13,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Sapphire Arena",
+     "Amber Plaza",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 13,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Sapphire Arena",
+     "Amber Plaza",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 13,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 13,
+  "adj": [
+   [
+    0,
+    1,
+    10,
+    3
+   ],
+   [
+    1,
+    0,
+    3,
+    3
+   ],
+   [
+    10,
+    3,
+    0,
+    3
+   ],
+   [
+    3,
+    3,
+    3,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Lunar Pier",
+   "Granite Plaza",
+   "Twilight Harbor"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nLunar Pier: A picturesque wooden pier with food stalls, fishing spots, and a small amusement park.\nGranite Plaza: A corporate plaza with water fountains and benches, popular among office workers during lunch.\nTwilight Harbor: A picturesque dock area with twinkling lights and waterfront dining.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Lunar Pier is 1 km, Warehouse to Granite Plaza is 10 km, Warehouse to Twilight Harbor is 3 km.\nDistances from Delivery Lunar Pier to each delivery point: Lunar Pier to Granite Plaza is 3 km, Lunar Pier to Twilight Harbor is 3 km.\nDistances from Delivery Granite Plaza to each delivery point: Granite Plaza to Twilight Harbor is 3 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Granite Plaza",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 10,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Granite Plaza",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 10,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Granite Plaza",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 10,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Granite Plaza",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 10,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Granite Plaza",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 10,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Granite Plaza",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 10,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 14,
+  "adj": [
+   [
+    0,
+    8,
+    6,
+    2
+   ],
+   [
+    8,
+    0,
+    6,
+    7
+   ],
+   [
+    6,
+    6,
+    0,
+    7
+   ],
+   [
+    2,
+    7,
+    7,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Lighthouse Point",
+   "Flare Alley",
+   "Oakshade Library"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nLighthouse Point: A scenic overlook by the bay with a historic lighthouse and picnic spots.\nFlare Alley: A narrow, colorful street lined with neon-lit bars and underground clubs.\nOakshade Library: The city’s largest library, featuring towering bookshelves and cozy reading nooks.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Lighthouse Point is 8 km, Warehouse to Flare Alley is 6 km, Warehouse to Oakshade Library is 2 km.\nDistances from Delivery Lighthouse Point to each delivery point: Lighthouse Point to Flare Alley is 6 km, Lighthouse Point to Oakshade Library is 7 km.\nDistances from Delivery Flare Alley to each delivery point: Flare Alley to Oakshade Library is 7 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Lighthouse Point",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Lighthouse Point",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Lighthouse Point",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Lighthouse Point",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Lighthouse Point",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Lighthouse Point",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 15,
+  "adj": [
+   [
+    0,
+    4,
+    4,
+    10
+   ],
+   [
+    4,
+    0,
+    5,
+    1
+   ],
+   [
+    4,
+    5,
+    0,
+    4
+   ],
+   [
+    10,
+    1,
+    4,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Echo Station",
+   "Brass Lantern Tavern",
+   "Union Square Market"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nEcho Station: The city’s largest transportation hub, always alive with the sound of trains and announcements.\nBrass Lantern Tavern: A cozy pub famous for its handcrafted beers and warm, rustic interiors.\nUnion Square Market: A farmers’ market offering fresh produce, handmade crafts, and live music.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Echo Station is 4 km, Warehouse to Brass Lantern Tavern is 4 km, Warehouse to Union Square Market is 10 km.\nDistances from Delivery Echo Station to each delivery point: Echo Station to Brass Lantern Tavern is 5 km, Echo Station to Union Square Market is 1 km.\nDistances from Delivery Brass Lantern Tavern to each delivery point: Brass Lantern Tavern to Union Square Market is 4 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Union Square Market",
+     "Brass Lantern Tavern",
+     "Warehouse"
+    ],
+    "ans_distance": 13,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Brass Lantern Tavern",
+     "Union Square Market",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 13,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Union Square Market",
+     "Brass Lantern Tavern",
+     "Warehouse"
+    ],
+    "ans_distance": 13,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Union Square Market",
+     "Brass Lantern Tavern",
+     "Warehouse"
+    ],
+    "ans_distance": 13,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Brass Lantern Tavern",
+     "Union Square Market",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 13,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Union Square Market",
+     "Brass Lantern Tavern",
+     "Warehouse"
+    ],
+    "ans_distance": 13,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 16,
+  "adj": [
+   [
+    0,
+    6,
+    5,
+    2
+   ],
+   [
+    6,
+    0,
+    4,
+    1
+   ],
+   [
+    5,
+    4,
+    0,
+    5
+   ],
+   [
+    2,
+    1,
+    5,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Ironbridge Crossing",
+   "Rosewood Hall",
+   "Horizon Mall"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nIronbridge Crossing: A massive steel bridge connecting the industrial zone with the city center.\nRosewood Hall: A grand event hall hosting galas, weddings, and large conferences.\nHorizon Mall: A massive indoor shopping center with everything from luxury brands to casual dining.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Ironbridge Crossing is 6 km, Warehouse to Rosewood Hall is 5 km, Warehouse to Horizon Mall is 2 km.\nDistances from Delivery Ironbridge Crossing to each delivery point: Ironbridge Crossing to Rosewood Hall is 4 km, Ironbridge Crossing to Horizon Mall is 1 km.\nDistances from Delivery Rosewood Hall to each delivery point: Rosewood Hall to Horizon Mall is 5 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Rosewood Hall",
+     "Ironbridge Crossing",
+     "Horizon Mall",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Rosewood Hall",
+     "Ironbridge Crossing",
+     "Horizon Mall",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Horizon Mall",
+     "Ironbridge Crossing",
+     "Rosewood Hall",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Horizon Mall",
+     "Ironbridge Crossing",
+     "Rosewood Hall",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Rosewood Hall",
+     "Ironbridge Crossing",
+     "Horizon Mall",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Horizon Mall",
+     "Ironbridge Crossing",
+     "Rosewood Hall",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 17,
+  "adj": [
+   [
+    0,
+    8,
+    10,
+    10
+   ],
+   [
+    8,
+    0,
+    1,
+    5
+   ],
+   [
+    10,
+    1,
+    0,
+    1
+   ],
+   [
+    10,
+    5,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Quartz District",
+   "Flint Forge Quarter",
+   "Gilded Archway"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nQuartz District: A modern financial center with sleek skyscrapers and luxury dining establishments.\nFlint Forge Quarter: An old industrial area now revitalized with art studios and trendy cafes.\nGilded Archway: A historic landmark leading to the city’s oldest district, adorned with intricate carvings.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Quartz District is 8 km, Warehouse to Flint Forge Quarter is 10 km, Warehouse to Gilded Archway is 10 km.\nDistances from Delivery Quartz District to each delivery point: Quartz District to Flint Forge Quarter is 1 km, Quartz District to Gilded Archway is 5 km.\nDistances from Delivery Flint Forge Quarter to each delivery point: Flint Forge Quarter to Gilded Archway is 1 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Flint Forge Quarter",
+     "Gilded Archway",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Gilded Archway",
+     "Flint Forge Quarter",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Flint Forge Quarter",
+     "Gilded Archway",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Flint Forge Quarter",
+     "Gilded Archway",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Gilded Archway",
+     "Flint Forge Quarter",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Flint Forge Quarter",
+     "Gilded Archway",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 18,
+  "adj": [
+   [
+    0,
+    9,
+    7,
+    5
+   ],
+   [
+    9,
+    0,
+    4,
+    1
+   ],
+   [
+    7,
+    4,
+    0,
+    3
+   ],
+   [
+    5,
+    1,
+    3,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Skyline Gardens",
+   "Cobalt Market",
+   "Flare Alley"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nSkyline Gardens: A rooftop garden atop the central mall, offering breathtaking views and quiet retreats.\nCobalt Market: A vibrant marketplace where merchants sell exotic goods and fresh produce from all over.\nFlare Alley: A narrow, colorful street lined with neon-lit bars and underground clubs.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Skyline Gardens is 9 km, Warehouse to Cobalt Market is 7 km, Warehouse to Flare Alley is 5 km.\nDistances from Delivery Skyline Gardens to each delivery point: Skyline Gardens to Cobalt Market is 4 km, Skyline Gardens to Flare Alley is 1 km.\nDistances from Delivery Cobalt Market to each delivery point: Cobalt Market to Flare Alley is 3 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Skyline Gardens",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Flare Alley",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Skyline Gardens",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Skyline Gardens",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Skyline Gardens",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Skyline Gardens",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 19,
+  "adj": [
+   [
+    0,
+    6,
+    5,
+    1
+   ],
+   [
+    6,
+    0,
+    10,
+    4
+   ],
+   [
+    5,
+    10,
+    0,
+    6
+   ],
+   [
+    1,
+    4,
+    6,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Willowshade Pavilion",
+   "Pennywhistle Arcade",
+   "Flint Forge Quarter"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nWillowshade Pavilion: A cultural pavilion hosting open-air art exhibits, food festivals, and community events.\nPennywhistle Arcade: A vintage entertainment district with old-style theaters, arcades, and street performers.\nFlint Forge Quarter: An old industrial area now revitalized with art studios and trendy cafes.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Willowshade Pavilion is 6 km, Warehouse to Pennywhistle Arcade is 5 km, Warehouse to Flint Forge Quarter is 1 km.\nDistances from Delivery Willowshade Pavilion to each delivery point: Willowshade Pavilion to Pennywhistle Arcade is 10 km, Willowshade Pavilion to Flint Forge Quarter is 4 km.\nDistances from Delivery Pennywhistle Arcade to each delivery point: Pennywhistle Arcade to Flint Forge Quarter is 6 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Willowshade Pavilion",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Willowshade Pavilion",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Willowshade Pavilion",
+     "Pennywhistle Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Willowshade Pavilion",
+     "Pennywhistle Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Willowshade Pavilion",
+     "Pennywhistle Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Willowshade Pavilion",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 20,
+  "adj": [
+   [
+    0,
+    10,
+    2,
+    7
+   ],
+   [
+    10,
+    0,
+    4,
+    10
+   ],
+   [
+    2,
+    4,
+    0,
+    7
+   ],
+   [
+    7,
+    10,
+    7,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Flare Alley",
+   "Twilight Harbor",
+   "Pennywhistle Arcade"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nFlare Alley: A narrow, colorful street lined with neon-lit bars and underground clubs.\nTwilight Harbor: A picturesque dock area with twinkling lights and waterfront dining.\nPennywhistle Arcade: A vintage entertainment district with old-style theaters, arcades, and street performers.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Flare Alley is 10 km, Warehouse to Twilight Harbor is 2 km, Warehouse to Pennywhistle Arcade is 7 km.\nDistances from Delivery Flare Alley to each delivery point: Flare Alley to Twilight Harbor is 4 km, Flare Alley to Pennywhistle Arcade is 10 km.\nDistances from Delivery Twilight Harbor to each delivery point: Twilight Harbor to Pennywhistle Arcade is 7 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Flare Alley",
+     "Pennywhistle Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Flare Alley",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Flare Alley",
+     "Pennywhistle Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Twilight Harbor",
+     "Flare Alley",
+     "Pennywhistle Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Flare Alley",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Flare Alley",
+     "Twilight Harbor",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 21,
+  "adj": [
+   [
+    0,
+    2,
+    6,
+    9
+   ],
+   [
+    2,
+    0,
+    2,
+    5
+   ],
+   [
+    6,
+    2,
+    0,
+    6
+   ],
+   [
+    9,
+    5,
+    6,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Temple Square",
+   "Silvercrest Observatory",
+   "Northwind Tower"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nTemple Square: A historic site featuring a grand temple surrounded by artisan shops and open courtyards.\nSilvercrest Observatory: A high-tech observatory where visitors can stargaze and learn about astronomy.\nNorthwind Tower: A modern skyscraper with a rotating observation deck and sky-high dining.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Temple Square is 2 km, Warehouse to Silvercrest Observatory is 6 km, Warehouse to Northwind Tower is 9 km.\nDistances from Delivery Temple Square to each delivery point: Temple Square to Silvercrest Observatory is 2 km, Temple Square to Northwind Tower is 5 km.\nDistances from Delivery Silvercrest Observatory to each delivery point: Silvercrest Observatory to Northwind Tower is 6 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Silvercrest Observatory",
+     "Northwind Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Northwind Tower",
+     "Silvercrest Observatory",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Silvercrest Observatory",
+     "Northwind Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Silvercrest Observatory",
+     "Northwind Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Silvercrest Observatory",
+     "Northwind Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Silvercrest Observatory",
+     "Northwind Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 22,
+  "adj": [
+   [
+    0,
+    2,
+    2,
+    6
+   ],
+   [
+    2,
+    0,
+    1,
+    6
+   ],
+   [
+    2,
+    1,
+    0,
+    10
+   ],
+   [
+    6,
+    6,
+    10,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Echo Station",
+   "Jade Fountain",
+   "Lunar Pier"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nEcho Station: The city’s largest transportation hub, always alive with the sound of trains and announcements.\nJade Fountain: A tranquil plaza centered around a beautiful fountain made of green stone.\nLunar Pier: A picturesque wooden pier with food stalls, fishing spots, and a small amusement park.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Echo Station is 2 km, Warehouse to Jade Fountain is 2 km, Warehouse to Lunar Pier is 6 km.\nDistances from Delivery Echo Station to each delivery point: Echo Station to Jade Fountain is 1 km, Echo Station to Lunar Pier is 6 km.\nDistances from Delivery Jade Fountain to each delivery point: Jade Fountain to Lunar Pier is 10 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Jade Fountain",
+     "Echo Station",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Jade Fountain",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Jade Fountain",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Jade Fountain",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Jade Fountain",
+     "Echo Station",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Jade Fountain",
+     "Echo Station",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 23,
+  "adj": [
+   [
+    0,
+    8,
+    2,
+    4
+   ],
+   [
+    8,
+    0,
+    1,
+    8
+   ],
+   [
+    2,
+    1,
+    0,
+    6
+   ],
+   [
+    4,
+    8,
+    6,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Lunar Pier",
+   "King’s Row",
+   "Oakshade Library"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nLunar Pier: A picturesque wooden pier with food stalls, fishing spots, and a small amusement park.\nKing’s Row: A luxurious shopping street lined with high-end stores and designer boutiques.\nOakshade Library: The city’s largest library, featuring towering bookshelves and cozy reading nooks.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Lunar Pier is 8 km, Warehouse to King’s Row is 2 km, Warehouse to Oakshade Library is 4 km.\nDistances from Delivery Lunar Pier to each delivery point: Lunar Pier to King’s Row is 1 km, Lunar Pier to Oakshade Library is 8 km.\nDistances from Delivery King’s Row to each delivery point: King’s Row to Oakshade Library is 6 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "King’s Row",
+     "Lunar Pier",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Lunar Pier",
+     "King’s Row",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "King’s Row",
+     "Lunar Pier",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "King’s Row",
+     "Lunar Pier",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "King’s Row",
+     "Lunar Pier",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Lunar Pier",
+     "King’s Row",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 24,
+  "adj": [
+   [
+    0,
+    2,
+    10,
+    9
+   ],
+   [
+    2,
+    0,
+    2,
+    5
+   ],
+   [
+    10,
+    2,
+    0,
+    3
+   ],
+   [
+    9,
+    5,
+    3,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Zenith Arena",
+   "Rosewood Hall",
+   "Maplewood Conservatory"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nZenith Arena: A state-of-the-art stadium for concerts, sports events, and major public gatherings.\nRosewood Hall: A grand event hall hosting galas, weddings, and large conferences.\nMaplewood Conservatory: A sprawling indoor botanical garden with exotic plants and tranquil waterfalls.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Zenith Arena is 2 km, Warehouse to Rosewood Hall is 10 km, Warehouse to Maplewood Conservatory is 9 km.\nDistances from Delivery Zenith Arena to each delivery point: Zenith Arena to Rosewood Hall is 2 km, Zenith Arena to Maplewood Conservatory is 5 km.\nDistances from Delivery Rosewood Hall to each delivery point: Rosewood Hall to Maplewood Conservatory is 3 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Rosewood Hall",
+     "Maplewood Conservatory",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Maplewood Conservatory",
+     "Rosewood Hall",
+     "Zenith Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Rosewood Hall",
+     "Maplewood Conservatory",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Rosewood Hall",
+     "Maplewood Conservatory",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Maplewood Conservatory",
+     "Rosewood Hall",
+     "Zenith Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Rosewood Hall",
+     "Maplewood Conservatory",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 1.1
+   }
+  }
+ },
+ {
+  "graph_index": 25,
+  "adj": [
+   [
+    0,
+    6,
+    3,
+    6
+   ],
+   [
+    6,
+    0,
+    2,
+    4
+   ],
+   [
+    3,
+    2,
+    0,
+    6
+   ],
+   [
+    6,
+    4,
+    6,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Union Square Market",
+   "Beacon Tower",
+   "Skyline Gardens"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nUnion Square Market: A farmers’ market offering fresh produce, handmade crafts, and live music.\nBeacon Tower: The tallest building in the city, offering panoramic views and a rotating rooftop restaurant.\nSkyline Gardens: A rooftop garden atop the central mall, offering breathtaking views and quiet retreats.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Union Square Market is 6 km, Warehouse to Beacon Tower is 3 km, Warehouse to Skyline Gardens is 6 km.\nDistances from Delivery Union Square Market to each delivery point: Union Square Market to Beacon Tower is 2 km, Union Square Market to Skyline Gardens is 4 km.\nDistances from Delivery Beacon Tower to each delivery point: Beacon Tower to Skyline Gardens is 6 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Union Square Market",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Skyline Gardens",
+     "Union Square Market",
+     "Beacon Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Union Square Market",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Union Square Market",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Union Square Market",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Union Square Market",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 26,
+  "adj": [
+   [
+    0,
+    9,
+    8,
+    2
+   ],
+   [
+    9,
+    0,
+    6,
+    1
+   ],
+   [
+    8,
+    6,
+    0,
+    4
+   ],
+   [
+    2,
+    1,
+    4,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Westgate Station",
+   "Azure Gardens",
+   "Pennywhistle Arcade"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nWestgate Station: A major train terminal, connecting the city to nearby towns and regions.\nAzure Gardens: An expansive botanical garden featuring rare plants, greenhouses, and water features.\nPennywhistle Arcade: A vintage entertainment district with old-style theaters, arcades, and street performers.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Westgate Station is 9 km, Warehouse to Azure Gardens is 8 km, Warehouse to Pennywhistle Arcade is 2 km.\nDistances from Delivery Westgate Station to each delivery point: Westgate Station to Azure Gardens is 6 km, Westgate Station to Pennywhistle Arcade is 1 km.\nDistances from Delivery Azure Gardens to each delivery point: Azure Gardens to Pennywhistle Arcade is 4 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Azure Gardens",
+     "Westgate Station",
+     "Pennywhistle Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Azure Gardens",
+     "Westgate Station",
+     "Warehouse"
+    ],
+    "ans_distance": 21,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Westgate Station",
+     "Azure Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Westgate Station",
+     "Azure Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Westgate Station",
+     "Azure Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Azure Gardens",
+     "Westgate Station",
+     "Pennywhistle Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 27,
+  "adj": [
+   [
+    0,
+    4,
+    5,
+    4
+   ],
+   [
+    4,
+    0,
+    3,
+    10
+   ],
+   [
+    5,
+    3,
+    0,
+    4
+   ],
+   [
+    4,
+    10,
+    4,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Quartz District",
+   "Flint Forge Quarter",
+   "Echo Station"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nQuartz District: A modern financial center with sleek skyscrapers and luxury dining establishments.\nFlint Forge Quarter: An old industrial area now revitalized with art studios and trendy cafes.\nEcho Station: The city’s largest transportation hub, always alive with the sound of trains and announcements.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Quartz District is 4 km, Warehouse to Flint Forge Quarter is 5 km, Warehouse to Echo Station is 4 km.\nDistances from Delivery Quartz District to each delivery point: Quartz District to Flint Forge Quarter is 3 km, Quartz District to Echo Station is 10 km.\nDistances from Delivery Flint Forge Quarter to each delivery point: Flint Forge Quarter to Echo Station is 4 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Flint Forge Quarter",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Flint Forge Quarter",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Flint Forge Quarter",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Flint Forge Quarter",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Flint Forge Quarter",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Flint Forge Quarter",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 28,
+  "adj": [
+   [
+    0,
+    2,
+    6,
+    7
+   ],
+   [
+    2,
+    0,
+    8,
+    9
+   ],
+   [
+    6,
+    8,
+    0,
+    8
+   ],
+   [
+    7,
+    9,
+    8,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Quartz District",
+   "Echo Station",
+   "Horizon Mall"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nQuartz District: A modern financial center with sleek skyscrapers and luxury dining establishments.\nEcho Station: The city’s largest transportation hub, always alive with the sound of trains and announcements.\nHorizon Mall: A massive indoor shopping center with everything from luxury brands to casual dining.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Quartz District is 2 km, Warehouse to Echo Station is 6 km, Warehouse to Horizon Mall is 7 km.\nDistances from Delivery Quartz District to each delivery point: Quartz District to Echo Station is 8 km, Quartz District to Horizon Mall is 9 km.\nDistances from Delivery Echo Station to each delivery point: Echo Station to Horizon Mall is 8 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Echo Station",
+     "Horizon Mall",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Horizon Mall",
+     "Echo Station",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Echo Station",
+     "Horizon Mall",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Echo Station",
+     "Horizon Mall",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Echo Station",
+     "Horizon Mall",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Echo Station",
+     "Horizon Mall",
+     "Warehouse"
+    ],
+    "ans_distance": 25,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 29,
+  "adj": [
+   [
+    0,
+    8,
+    7,
+    6
+   ],
+   [
+    8,
+    0,
+    5,
+    2
+   ],
+   [
+    7,
+    5,
+    0,
+    5
+   ],
+   [
+    6,
+    2,
+    5,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Shadowbridge Arcade",
+   "Duskwood Park",
+   "Jade Fountain"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nShadowbridge Arcade: A covered walkway filled with specialty stores, cafes, and hidden speakeasies.\nDuskwood Park: A sprawling urban park filled with dense trees, walking trails, and a serene lake.\nJade Fountain: A tranquil plaza centered around a beautiful fountain made of green stone.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Shadowbridge Arcade is 8 km, Warehouse to Duskwood Park is 7 km, Warehouse to Jade Fountain is 6 km.\nDistances from Delivery Shadowbridge Arcade to each delivery point: Shadowbridge Arcade to Duskwood Park is 5 km, Shadowbridge Arcade to Jade Fountain is 2 km.\nDistances from Delivery Duskwood Park to each delivery point: Duskwood Park to Jade Fountain is 5 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Duskwood Park",
+     "Shadowbridge Arcade",
+     "Jade Fountain",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Duskwood Park",
+     "Shadowbridge Arcade",
+     "Jade Fountain",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Jade Fountain",
+     "Shadowbridge Arcade",
+     "Duskwood Park",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Jade Fountain",
+     "Shadowbridge Arcade",
+     "Duskwood Park",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Jade Fountain",
+     "Shadowbridge Arcade",
+     "Duskwood Park",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Duskwood Park",
+     "Shadowbridge Arcade",
+     "Jade Fountain",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 30,
+  "adj": [
+   [
+    0,
+    9,
+    1,
+    3
+   ],
+   [
+    9,
+    0,
+    3,
+    9
+   ],
+   [
+    1,
+    3,
+    0,
+    5
+   ],
+   [
+    3,
+    9,
+    5,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Gilded Archway",
+   "Amber Plaza",
+   "Union Square Market"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nGilded Archway: A historic landmark leading to the city’s oldest district, adorned with intricate carvings.\nAmber Plaza: A bustling central square surrounded by cafes, boutiques, and street performers.\nUnion Square Market: A farmers’ market offering fresh produce, handmade crafts, and live music.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Gilded Archway is 9 km, Warehouse to Amber Plaza is 1 km, Warehouse to Union Square Market is 3 km.\nDistances from Delivery Gilded Archway to each delivery point: Gilded Archway to Amber Plaza is 3 km, Gilded Archway to Union Square Market is 9 km.\nDistances from Delivery Amber Plaza to each delivery point: Amber Plaza to Union Square Market is 5 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Gilded Archway",
+     "Union Square Market",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Union Square Market",
+     "Gilded Archway",
+     "Amber Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Gilded Archway",
+     "Union Square Market",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Gilded Archway",
+     "Union Square Market",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Amber Plaza",
+     "Gilded Archway",
+     "Union Square Market",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Union Square Market",
+     "Gilded Archway",
+     "Amber Plaza",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 31,
+  "adj": [
+   [
+    0,
+    3,
+    4,
+    10
+   ],
+   [
+    3,
+    0,
+    9,
+    2
+   ],
+   [
+    4,
+    9,
+    0,
+    2
+   ],
+   [
+    10,
+    2,
+    2,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Ivory Spire Cathedral",
+   "Skyline Gardens",
+   "Flint Forge Quarter"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nIvory Spire Cathedral: A towering cathedral with stunning stained-glass windows and a melodic bell tower.\nSkyline Gardens: A rooftop garden atop the central mall, offering breathtaking views and quiet retreats.\nFlint Forge Quarter: An old industrial area now revitalized with art studios and trendy cafes.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Ivory Spire Cathedral is 3 km, Warehouse to Skyline Gardens is 4 km, Warehouse to Flint Forge Quarter is 10 km.\nDistances from Delivery Ivory Spire Cathedral to each delivery point: Ivory Spire Cathedral to Skyline Gardens is 9 km, Ivory Spire Cathedral to Flint Forge Quarter is 2 km.\nDistances from Delivery Skyline Gardens to each delivery point: Skyline Gardens to Flint Forge Quarter is 2 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Flint Forge Quarter",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 11,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Skyline Gardens",
+     "Flint Forge Quarter",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 11,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Flint Forge Quarter",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 11,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Flint Forge Quarter",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 11,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Flint Forge Quarter",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 11,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Flint Forge Quarter",
+     "Skyline Gardens",
+     "Warehouse"
+    ],
+    "ans_distance": 11,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 32,
+  "adj": [
+   [
+    0,
+    3,
+    10,
+    8
+   ],
+   [
+    3,
+    0,
+    9,
+    2
+   ],
+   [
+    10,
+    9,
+    0,
+    7
+   ],
+   [
+    8,
+    2,
+    7,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Quarry Point",
+   "Cobalt Market",
+   "Echo Station"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nQuarry Point: An old quarry turned into a unique rock-climbing park and open-air amphitheater.\nCobalt Market: A vibrant marketplace where merchants sell exotic goods and fresh produce from all over.\nEcho Station: The city’s largest transportation hub, always alive with the sound of trains and announcements.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Quarry Point is 3 km, Warehouse to Cobalt Market is 10 km, Warehouse to Echo Station is 8 km.\nDistances from Delivery Quarry Point to each delivery point: Quarry Point to Cobalt Market is 9 km, Quarry Point to Echo Station is 2 km.\nDistances from Delivery Cobalt Market to each delivery point: Cobalt Market to Echo Station is 7 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Echo Station",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Echo Station",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Echo Station",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Echo Station",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Echo Station",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Echo Station",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 33,
+  "adj": [
+   [
+    0,
+    2,
+    8,
+    6
+   ],
+   [
+    2,
+    0,
+    2,
+    9
+   ],
+   [
+    8,
+    2,
+    0,
+    5
+   ],
+   [
+    6,
+    9,
+    5,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Haven Docks",
+   "Riverstone Wharf",
+   "Lighthouse Point"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nHaven Docks: The city’s bustling port area, filled with cargo ships, seafood stalls, and lively taverns.\nRiverstone Wharf: A bustling area along the river, known for its floating markets and seafood restaurants.\nLighthouse Point: A scenic overlook by the bay with a historic lighthouse and picnic spots.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Haven Docks is 2 km, Warehouse to Riverstone Wharf is 8 km, Warehouse to Lighthouse Point is 6 km.\nDistances from Delivery Haven Docks to each delivery point: Haven Docks to Riverstone Wharf is 2 km, Haven Docks to Lighthouse Point is 9 km.\nDistances from Delivery Riverstone Wharf to each delivery point: Riverstone Wharf to Lighthouse Point is 5 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Riverstone Wharf",
+     "Lighthouse Point",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lighthouse Point",
+     "Riverstone Wharf",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Riverstone Wharf",
+     "Lighthouse Point",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Riverstone Wharf",
+     "Lighthouse Point",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Riverstone Wharf",
+     "Lighthouse Point",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Riverstone Wharf",
+     "Lighthouse Point",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 1.1
+   }
+  }
+ },
+ {
+  "graph_index": 34,
+  "adj": [
+   [
+    0,
+    9,
+    6,
+    3
+   ],
+   [
+    9,
+    0,
+    2,
+    5
+   ],
+   [
+    6,
+    2,
+    0,
+    5
+   ],
+   [
+    3,
+    5,
+    5,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Azure Gardens",
+   "Ivory Spire Cathedral",
+   "Lunar Pier"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nAzure Gardens: An expansive botanical garden featuring rare plants, greenhouses, and water features.\nIvory Spire Cathedral: A towering cathedral with stunning stained-glass windows and a melodic bell tower.\nLunar Pier: A picturesque wooden pier with food stalls, fishing spots, and a small amusement park.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Azure Gardens is 9 km, Warehouse to Ivory Spire Cathedral is 6 km, Warehouse to Lunar Pier is 3 km.\nDistances from Delivery Azure Gardens to each delivery point: Azure Gardens to Ivory Spire Cathedral is 2 km, Azure Gardens to Lunar Pier is 5 km.\nDistances from Delivery Ivory Spire Cathedral to each delivery point: Ivory Spire Cathedral to Lunar Pier is 5 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Azure Gardens",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Azure Gardens",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Azure Gardens",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Azure Gardens",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Azure Gardens",
+     "Lunar Pier",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Azure Gardens",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 35,
+  "adj": [
+   [
+    0,
+    5,
+    2,
+    8
+   ],
+   [
+    5,
+    0,
+    8,
+    4
+   ],
+   [
+    2,
+    8,
+    0,
+    9
+   ],
+   [
+    8,
+    4,
+    9,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Jasper Marina",
+   "Ironbridge Crossing",
+   "Temple Square"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nJasper Marina: A sleek marina hosting luxury yachts, seafood dining, and weekend sailing lessons.\nIronbridge Crossing: A massive steel bridge connecting the industrial zone with the city center.\nTemple Square: A historic site featuring a grand temple surrounded by artisan shops and open courtyards.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Jasper Marina is 5 km, Warehouse to Ironbridge Crossing is 2 km, Warehouse to Temple Square is 8 km.\nDistances from Delivery Jasper Marina to each delivery point: Jasper Marina to Ironbridge Crossing is 8 km, Jasper Marina to Temple Square is 4 km.\nDistances from Delivery Ironbridge Crossing to each delivery point: Ironbridge Crossing to Temple Square is 9 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Jasper Marina",
+     "Temple Square",
+     "Ironbridge Crossing",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Jasper Marina",
+     "Temple Square",
+     "Ironbridge Crossing",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ironbridge Crossing",
+     "Jasper Marina",
+     "Temple Square",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ironbridge Crossing",
+     "Jasper Marina",
+     "Temple Square",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ironbridge Crossing",
+     "Temple Square",
+     "Jasper Marina",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ironbridge Crossing",
+     "Temple Square",
+     "Jasper Marina",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 36,
+  "adj": [
+   [
+    0,
+    4,
+    3,
+    6
+   ],
+   [
+    4,
+    0,
+    6,
+    4
+   ],
+   [
+    3,
+    6,
+    0,
+    1
+   ],
+   [
+    6,
+    4,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Ivory Spire Cathedral",
+   "Cobalt Market",
+   "Oakshade Library"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nIvory Spire Cathedral: A towering cathedral with stunning stained-glass windows and a melodic bell tower.\nCobalt Market: A vibrant marketplace where merchants sell exotic goods and fresh produce from all over.\nOakshade Library: The city’s largest library, featuring towering bookshelves and cozy reading nooks.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Ivory Spire Cathedral is 4 km, Warehouse to Cobalt Market is 3 km, Warehouse to Oakshade Library is 6 km.\nDistances from Delivery Ivory Spire Cathedral to each delivery point: Ivory Spire Cathedral to Cobalt Market is 6 km, Ivory Spire Cathedral to Oakshade Library is 4 km.\nDistances from Delivery Cobalt Market to each delivery point: Cobalt Market to Oakshade Library is 1 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Oakshade Library",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Oakshade Library",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Oakshade Library",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Oakshade Library",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Cobalt Market",
+     "Oakshade Library",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Oakshade Library",
+     "Cobalt Market",
+     "Warehouse"
+    ],
+    "ans_distance": 12,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 37,
+  "adj": [
+   [
+    0,
+    1,
+    9,
+    2
+   ],
+   [
+    1,
+    0,
+    4,
+    10
+   ],
+   [
+    9,
+    4,
+    0,
+    2
+   ],
+   [
+    2,
+    10,
+    2,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Temple Square",
+   "Skyline Gardens",
+   "Flare Alley"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nTemple Square: A historic site featuring a grand temple surrounded by artisan shops and open courtyards.\nSkyline Gardens: A rooftop garden atop the central mall, offering breathtaking views and quiet retreats.\nFlare Alley: A narrow, colorful street lined with neon-lit bars and underground clubs.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Temple Square is 1 km, Warehouse to Skyline Gardens is 9 km, Warehouse to Flare Alley is 2 km.\nDistances from Delivery Temple Square to each delivery point: Temple Square to Skyline Gardens is 4 km, Temple Square to Flare Alley is 10 km.\nDistances from Delivery Skyline Gardens to each delivery point: Skyline Gardens to Flare Alley is 2 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Skyline Gardens",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 9,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Skyline Gardens",
+     "Temple Square",
+     "Warehouse"
+    ],
+    "ans_distance": 9,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Skyline Gardens",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 9,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Skyline Gardens",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 9,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Skyline Gardens",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 9,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Skyline Gardens",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 9,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 38,
+  "adj": [
+   [
+    0,
+    7,
+    10,
+    6
+   ],
+   [
+    7,
+    0,
+    1,
+    3
+   ],
+   [
+    10,
+    1,
+    0,
+    1
+   ],
+   [
+    6,
+    3,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Velvet Corner",
+   "Azure Gardens",
+   "Evergreen Circle"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nVelvet Corner: A hidden alley filled with cozy cafes, second-hand bookstores, and intimate music venues.\nAzure Gardens: An expansive botanical garden featuring rare plants, greenhouses, and water features.\nEvergreen Circle: A quiet residential park with a children’s playground and small community events.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Velvet Corner is 7 km, Warehouse to Azure Gardens is 10 km, Warehouse to Evergreen Circle is 6 km.\nDistances from Delivery Velvet Corner to each delivery point: Velvet Corner to Azure Gardens is 1 km, Velvet Corner to Evergreen Circle is 3 km.\nDistances from Delivery Azure Gardens to each delivery point: Azure Gardens to Evergreen Circle is 1 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Velvet Corner",
+     "Azure Gardens",
+     "Evergreen Circle",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Velvet Corner",
+     "Azure Gardens",
+     "Evergreen Circle",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Evergreen Circle",
+     "Azure Gardens",
+     "Velvet Corner",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Evergreen Circle",
+     "Azure Gardens",
+     "Velvet Corner",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Evergreen Circle",
+     "Azure Gardens",
+     "Velvet Corner",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Velvet Corner",
+     "Azure Gardens",
+     "Evergreen Circle",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 1.07
+   }
+  }
+ },
+ {
+  "graph_index": 39,
+  "adj": [
+   [
+    0,
+    6,
+    3,
+    10
+   ],
+   [
+    6,
+    0,
+    10,
+    2
+   ],
+   [
+    3,
+    10,
+    0,
+    9
+   ],
+   [
+    10,
+    2,
+    9,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Primrose Boulevard",
+   "Zenith Arena",
+   "Ivory Spire Cathedral"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nPrimrose Boulevard: A tree-lined street with boutique stores, local bakeries, and street performers.\nZenith Arena: A state-of-the-art stadium for concerts, sports events, and major public gatherings.\nIvory Spire Cathedral: A towering cathedral with stunning stained-glass windows and a melodic bell tower.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Primrose Boulevard is 6 km, Warehouse to Zenith Arena is 3 km, Warehouse to Ivory Spire Cathedral is 10 km.\nDistances from Delivery Primrose Boulevard to each delivery point: Primrose Boulevard to Zenith Arena is 10 km, Primrose Boulevard to Ivory Spire Cathedral is 2 km.\nDistances from Delivery Zenith Arena to each delivery point: Zenith Arena to Ivory Spire Cathedral is 9 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Ivory Spire Cathedral",
+     "Zenith Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Ivory Spire Cathedral",
+     "Zenith Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Ivory Spire Cathedral",
+     "Primrose Boulevard",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Ivory Spire Cathedral",
+     "Primrose Boulevard",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Primrose Boulevard",
+     "Ivory Spire Cathedral",
+     "Zenith Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Zenith Arena",
+     "Ivory Spire Cathedral",
+     "Primrose Boulevard",
+     "Warehouse"
+    ],
+    "ans_distance": 20,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 40,
+  "adj": [
+   [
+    0,
+    7,
+    7,
+    1
+   ],
+   [
+    7,
+    0,
+    10,
+    1
+   ],
+   [
+    7,
+    10,
+    0,
+    10
+   ],
+   [
+    1,
+    1,
+    10,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Ivory Spire Cathedral",
+   "Sapphire Arena",
+   "Flare Alley"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nIvory Spire Cathedral: A towering cathedral with stunning stained-glass windows and a melodic bell tower.\nSapphire Arena: A massive sports and concert venue surrounded by restaurants and fan zones.\nFlare Alley: A narrow, colorful street lined with neon-lit bars and underground clubs.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Ivory Spire Cathedral is 7 km, Warehouse to Sapphire Arena is 7 km, Warehouse to Flare Alley is 1 km.\nDistances from Delivery Ivory Spire Cathedral to each delivery point: Ivory Spire Cathedral to Sapphire Arena is 10 km, Ivory Spire Cathedral to Flare Alley is 1 km.\nDistances from Delivery Sapphire Arena to each delivery point: Sapphire Arena to Flare Alley is 10 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Sapphire Arena",
+     "Ivory Spire Cathedral",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Sapphire Arena",
+     "Ivory Spire Cathedral",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Ivory Spire Cathedral",
+     "Sapphire Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Ivory Spire Cathedral",
+     "Sapphire Arena",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Sapphire Arena",
+     "Ivory Spire Cathedral",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Sapphire Arena",
+     "Ivory Spire Cathedral",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 41,
+  "adj": [
+   [
+    0,
+    10,
+    3,
+    4
+   ],
+   [
+    10,
+    0,
+    4,
+    5
+   ],
+   [
+    3,
+    4,
+    0,
+    4
+   ],
+   [
+    4,
+    5,
+    4,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Jasper Marina",
+   "Ivory Spire Cathedral",
+   "Willowshade Pavilion"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nJasper Marina: A sleek marina hosting luxury yachts, seafood dining, and weekend sailing lessons.\nIvory Spire Cathedral: A towering cathedral with stunning stained-glass windows and a melodic bell tower.\nWillowshade Pavilion: A cultural pavilion hosting open-air art exhibits, food festivals, and community events.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Jasper Marina is 10 km, Warehouse to Ivory Spire Cathedral is 3 km, Warehouse to Willowshade Pavilion is 4 km.\nDistances from Delivery Jasper Marina to each delivery point: Jasper Marina to Ivory Spire Cathedral is 4 km, Jasper Marina to Willowshade Pavilion is 5 km.\nDistances from Delivery Ivory Spire Cathedral to each delivery point: Ivory Spire Cathedral to Willowshade Pavilion is 4 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Jasper Marina",
+     "Willowshade Pavilion",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Willowshade Pavilion",
+     "Jasper Marina",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Jasper Marina",
+     "Willowshade Pavilion",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Jasper Marina",
+     "Willowshade Pavilion",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Ivory Spire Cathedral",
+     "Jasper Marina",
+     "Willowshade Pavilion",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Willowshade Pavilion",
+     "Jasper Marina",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 16,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 42,
+  "adj": [
+   [
+    0,
+    6,
+    5,
+    1
+   ],
+   [
+    6,
+    0,
+    6,
+    7
+   ],
+   [
+    5,
+    6,
+    0,
+    10
+   ],
+   [
+    1,
+    7,
+    10,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Lighthouse Point",
+   "Oakshade Library",
+   "Beacon Tower"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nLighthouse Point: A scenic overlook by the bay with a historic lighthouse and picnic spots.\nOakshade Library: The city’s largest library, featuring towering bookshelves and cozy reading nooks.\nBeacon Tower: The tallest building in the city, offering panoramic views and a rotating rooftop restaurant.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Lighthouse Point is 6 km, Warehouse to Oakshade Library is 5 km, Warehouse to Beacon Tower is 1 km.\nDistances from Delivery Lighthouse Point to each delivery point: Lighthouse Point to Oakshade Library is 6 km, Lighthouse Point to Beacon Tower is 7 km.\nDistances from Delivery Oakshade Library to each delivery point: Oakshade Library to Beacon Tower is 10 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Lighthouse Point",
+     "Beacon Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lighthouse Point",
+     "Oakshade Library",
+     "Beacon Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 23,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Lighthouse Point",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Lighthouse Point",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Oakshade Library",
+     "Lighthouse Point",
+     "Beacon Tower",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Beacon Tower",
+     "Lighthouse Point",
+     "Oakshade Library",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 43,
+  "adj": [
+   [
+    0,
+    1,
+    8,
+    6
+   ],
+   [
+    1,
+    0,
+    1,
+    6
+   ],
+   [
+    8,
+    1,
+    0,
+    6
+   ],
+   [
+    6,
+    6,
+    6,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Flint Forge Quarter",
+   "Jade Fountain",
+   "Temple Square"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nFlint Forge Quarter: An old industrial area now revitalized with art studios and trendy cafes.\nJade Fountain: A tranquil plaza centered around a beautiful fountain made of green stone.\nTemple Square: A historic site featuring a grand temple surrounded by artisan shops and open courtyards.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Flint Forge Quarter is 1 km, Warehouse to Jade Fountain is 8 km, Warehouse to Temple Square is 6 km.\nDistances from Delivery Flint Forge Quarter to each delivery point: Flint Forge Quarter to Jade Fountain is 1 km, Flint Forge Quarter to Temple Square is 6 km.\nDistances from Delivery Jade Fountain to each delivery point: Jade Fountain to Temple Square is 6 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Jade Fountain",
+     "Temple Square",
+     "Warehouse"
+    ],
+    "ans_distance": 14,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Jade Fountain",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 14,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Jade Fountain",
+     "Temple Square",
+     "Warehouse"
+    ],
+    "ans_distance": 14,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Jade Fountain",
+     "Temple Square",
+     "Warehouse"
+    ],
+    "ans_distance": 14,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flint Forge Quarter",
+     "Jade Fountain",
+     "Temple Square",
+     "Warehouse"
+    ],
+    "ans_distance": 14,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Temple Square",
+     "Jade Fountain",
+     "Flint Forge Quarter",
+     "Warehouse"
+    ],
+    "ans_distance": 14,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 44,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    6,
+    1
+   ],
+   [
+    1,
+    6,
+    0,
+    7
+   ],
+   [
+    1,
+    1,
+    7,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Quarry Point",
+   "King’s Row",
+   "Ivory Spire Cathedral"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nQuarry Point: An old quarry turned into a unique rock-climbing park and open-air amphitheater.\nKing’s Row: A luxurious shopping street lined with high-end stores and designer boutiques.\nIvory Spire Cathedral: A towering cathedral with stunning stained-glass windows and a melodic bell tower.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Quarry Point is 1 km, Warehouse to King’s Row is 1 km, Warehouse to Ivory Spire Cathedral is 1 km.\nDistances from Delivery Quarry Point to each delivery point: Quarry Point to King’s Row is 6 km, Quarry Point to Ivory Spire Cathedral is 1 km.\nDistances from Delivery King’s Row to each delivery point: King’s Row to Ivory Spire Cathedral is 7 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "King’s Row",
+     "Quarry Point",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 9,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "King’s Row",
+     "Ivory Spire Cathedral",
+     "Quarry Point",
+     "Warehouse"
+    ],
+    "ans_distance": 10,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Ivory Spire Cathedral",
+     "King’s Row",
+     "Warehouse"
+    ],
+    "ans_distance": 10,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quarry Point",
+     "Ivory Spire Cathedral",
+     "King’s Row",
+     "Warehouse"
+    ],
+    "ans_distance": 10,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "King’s Row",
+     "Quarry Point",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 9,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "King’s Row",
+     "Quarry Point",
+     "Ivory Spire Cathedral",
+     "Warehouse"
+    ],
+    "ans_distance": 9,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 45,
+  "adj": [
+   [
+    0,
+    7,
+    2,
+    10
+   ],
+   [
+    7,
+    0,
+    9,
+    2
+   ],
+   [
+    2,
+    9,
+    0,
+    4
+   ],
+   [
+    10,
+    2,
+    4,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Maplewood Conservatory",
+   "Westgate Station",
+   "Haven Docks"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nMaplewood Conservatory: A sprawling indoor botanical garden with exotic plants and tranquil waterfalls.\nWestgate Station: A major train terminal, connecting the city to nearby towns and regions.\nHaven Docks: The city’s bustling port area, filled with cargo ships, seafood stalls, and lively taverns.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Maplewood Conservatory is 7 km, Warehouse to Westgate Station is 2 km, Warehouse to Haven Docks is 10 km.\nDistances from Delivery Maplewood Conservatory to each delivery point: Maplewood Conservatory to Westgate Station is 9 km, Maplewood Conservatory to Haven Docks is 2 km.\nDistances from Delivery Westgate Station to each delivery point: Westgate Station to Haven Docks is 4 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Maplewood Conservatory",
+     "Haven Docks",
+     "Westgate Station",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Maplewood Conservatory",
+     "Haven Docks",
+     "Westgate Station",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Haven Docks",
+     "Maplewood Conservatory",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Haven Docks",
+     "Maplewood Conservatory",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Haven Docks",
+     "Maplewood Conservatory",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Westgate Station",
+     "Haven Docks",
+     "Maplewood Conservatory",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 1.09
+   }
+  }
+ },
+ {
+  "graph_index": 46,
+  "adj": [
+   [
+    0,
+    5,
+    1,
+    4
+   ],
+   [
+    5,
+    0,
+    6,
+    6
+   ],
+   [
+    1,
+    6,
+    0,
+    6
+   ],
+   [
+    4,
+    6,
+    6,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Flare Alley",
+   "Quartz District",
+   "Union Square Market"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nFlare Alley: A narrow, colorful street lined with neon-lit bars and underground clubs.\nQuartz District: A modern financial center with sleek skyscrapers and luxury dining establishments.\nUnion Square Market: A farmers’ market offering fresh produce, handmade crafts, and live music.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Flare Alley is 5 km, Warehouse to Quartz District is 1 km, Warehouse to Union Square Market is 4 km.\nDistances from Delivery Flare Alley to each delivery point: Flare Alley to Quartz District is 6 km, Flare Alley to Union Square Market is 6 km.\nDistances from Delivery Quartz District to each delivery point: Quartz District to Union Square Market is 6 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Flare Alley",
+     "Union Square Market",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Union Square Market",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 18,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Flare Alley",
+     "Union Square Market",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Quartz District",
+     "Flare Alley",
+     "Union Square Market",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Union Square Market",
+     "Flare Alley",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Union Square Market",
+     "Flare Alley",
+     "Quartz District",
+     "Warehouse"
+    ],
+    "ans_distance": 17,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 47,
+  "adj": [
+   [
+    0,
+    9,
+    1,
+    3
+   ],
+   [
+    9,
+    0,
+    4,
+    7
+   ],
+   [
+    1,
+    4,
+    0,
+    2
+   ],
+   [
+    3,
+    7,
+    2,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Brass Lantern Tavern",
+   "Echo Station",
+   "Pennywhistle Arcade"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nBrass Lantern Tavern: A cozy pub famous for its handcrafted beers and warm, rustic interiors.\nEcho Station: The city’s largest transportation hub, always alive with the sound of trains and announcements.\nPennywhistle Arcade: A vintage entertainment district with old-style theaters, arcades, and street performers.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Brass Lantern Tavern is 9 km, Warehouse to Echo Station is 1 km, Warehouse to Pennywhistle Arcade is 3 km.\nDistances from Delivery Brass Lantern Tavern to each delivery point: Brass Lantern Tavern to Echo Station is 4 km, Brass Lantern Tavern to Pennywhistle Arcade is 7 km.\nDistances from Delivery Echo Station to each delivery point: Echo Station to Pennywhistle Arcade is 2 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Brass Lantern Tavern",
+     "Pennywhistle Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Echo Station",
+     "Brass Lantern Tavern",
+     "Warehouse"
+    ],
+    "ans_distance": 18,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Pennywhistle Arcade",
+     "Brass Lantern Tavern",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Pennywhistle Arcade",
+     "Brass Lantern Tavern",
+     "Warehouse"
+    ],
+    "ans_distance": 19,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Echo Station",
+     "Brass Lantern Tavern",
+     "Pennywhistle Arcade",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Pennywhistle Arcade",
+     "Brass Lantern Tavern",
+     "Echo Station",
+     "Warehouse"
+    ],
+    "ans_distance": 15,
+    "cost_time": 1.08
+   }
+  }
+ },
+ {
+  "graph_index": 48,
+  "adj": [
+   [
+    0,
+    9,
+    3,
+    4
+   ],
+   [
+    9,
+    0,
+    5,
+    10
+   ],
+   [
+    3,
+    5,
+    0,
+    7
+   ],
+   [
+    4,
+    10,
+    7,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Pennywhistle Arcade",
+   "Flare Alley",
+   "Haven Docks"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nPennywhistle Arcade: A vintage entertainment district with old-style theaters, arcades, and street performers.\nFlare Alley: A narrow, colorful street lined with neon-lit bars and underground clubs.\nHaven Docks: The city’s bustling port area, filled with cargo ships, seafood stalls, and lively taverns.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Pennywhistle Arcade is 9 km, Warehouse to Flare Alley is 3 km, Warehouse to Haven Docks is 4 km.\nDistances from Delivery Pennywhistle Arcade to each delivery point: Pennywhistle Arcade to Flare Alley is 5 km, Pennywhistle Arcade to Haven Docks is 10 km.\nDistances from Delivery Flare Alley to each delivery point: Flare Alley to Haven Docks is 7 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Pennywhistle Arcade",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Haven Docks",
+     "Pennywhistle Arcade",
+     "Flare Alley",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Pennywhistle Arcade",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Pennywhistle Arcade",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Pennywhistle Arcade",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Flare Alley",
+     "Pennywhistle Arcade",
+     "Haven Docks",
+     "Warehouse"
+    ],
+    "ans_distance": 22,
+    "cost_time": 1.07
+   }
+  }
+ },
+ {
+  "graph_index": 49,
+  "adj": [
+   [
+    0,
+    9,
+    4,
+    10
+   ],
+   [
+    9,
+    0,
+    7,
+    10
+   ],
+   [
+    4,
+    7,
+    0,
+    9
+   ],
+   [
+    10,
+    10,
+    9,
+    0
+   ]
+  ],
+  "name_list": [
+   "Warehouse",
+   "Opal Theater",
+   "Lunar Pier",
+   "Riverstone Wharf"
+  ],
+  "Q": "Our company handles deliveries across a busy urban area, and today we have 3 distinct delivery points to cover. The delivery driver will start from our central warehouse and needs to drop off packages at each location before returning to the warehouse. Since these delivery points are scattered throughout different parts of the city, we’re looking to find the most efficient route to minimize the total distance traveled. This will help us save on fuel, reduce delivery times, and improve our overall efficiency.\nThe warehouse, is located near the city center. Each location represents a different type of business or residential area with unique delivery requirements:\nOpal Theater: An avant-garde cinema showing independent films and hosting film festivals.\nLunar Pier: A picturesque wooden pier with food stalls, fishing spots, and a small amusement park.\nRiverstone Wharf: A bustling area along the river, known for its floating markets and seafood restaurants.\n\nEach pair of points has a different travel distance between them, based on city traffic patterns and street layouts. Here is the distance table showing the approximate distance (in kilometers) between each pair of locations:\nDistances from Warehouse to each delivery point: Warehouse to Opal Theater is 9 km, Warehouse to Lunar Pier is 4 km, Warehouse to Riverstone Wharf is 10 km.\nDistances from Delivery Opal Theater to each delivery point: Opal Theater to Lunar Pier is 7 km, Opal Theater to Riverstone Wharf is 10 km.\nDistances from Delivery Lunar Pier to each delivery point: Lunar Pier to Riverstone Wharf is 9 km.\n\nBased on this distance table, we need to determine the optimal delivery route that allows the driver to start from the warehouse, visit each delivery point exactly once, and return to warehouse with the shortest possible total distance.",
+  "result": {
+   "dynamic_programming": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Opal Theater",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 0.0
+   },
+   "christofides_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Riverstone Wharf",
+     "Opal Theater",
+     "Warehouse"
+    ],
+    "ans_distance": 32,
+    "cost_time": 0.0
+   },
+   "greedy_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Opal Theater",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 0.0
+   },
+   "nearest_neighbor_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Opal Theater",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 0.0
+   },
+   "simulated_annealing": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Opal Theater",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 0.02
+   },
+   "genetic_algorithm": {
+    "ans_path_text": [
+     "Warehouse",
+     "Lunar Pier",
+     "Opal Theater",
+     "Riverstone Wharf",
+     "Warehouse"
+    ],
+    "ans_distance": 31,
+    "cost_time": 1.08
+   }
+  }
+ }
+]

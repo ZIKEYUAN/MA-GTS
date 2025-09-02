@@ -1,0 +1,7052 @@
+[
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 0,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Twilight Harbor",
+   "Ironbridge Crossing",
+   "Zenith Arena",
+   "Maplewood Conservatory",
+   "Flint Forge Quarter",
+   "Skyline Gardens",
+   "Lunar Pier",
+   "Lighthouse Point"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Ironbridge Crossing": 1,
+     "Zenith Arena": 2,
+     "Maplewood Conservatory": 2,
+     "Flint Forge Quarter": 3,
+     "Skyline Gardens": 1,
+     "Lunar Pier": 1,
+     "Lighthouse Point": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Ironbridge Crossing": 1,
+     "Zenith Arena": 2,
+     "Maplewood Conservatory": 2,
+     "Flint Forge Quarter": 3,
+     "Skyline Gardens": 1,
+     "Lunar Pier": 1,
+     "Lighthouse Point": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Twilight Harbor": 3,
+     "Ironbridge Crossing": 3,
+     "Zenith Arena": 1,
+     "Maplewood Conservatory": 1,
+     "Flint Forge Quarter": 2,
+     "Skyline Gardens": 2,
+     "Lunar Pier": 1,
+     "Lighthouse Point": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Twilight Harbor\",\n        \"Ironbridge Crossing\",\n        \"Zenith Arena\",\n        \"Maplewood Conservatory\",\n        \"Flint Forge Quarter\",\n        \"Skyline Gardens\",\n        \"Lunar Pier\",\n        \"Lighthouse Point\"\n    ],\n    \"edges\": [\n        (\"Twilight Harbor\", \"Zenith Arena\"),\n        (\"Twilight Harbor\", \"Maplewood Conservatory\"),\n        (\"Twilight Harbor\", \"Flint Forge Quarter\"),\n        (\"Ironbridge Crossing\", \"Zenith Arena\"),\n        (\"Ironbridge Crossing\", \"Flint Forge Quarter\"),\n        (\"Ironbridge Crossing\", \"Lighthouse Point\"),\n        (\"Zenith Arena\", \"Flint Forge Quarter\"),\n        (\"Zenith Arena\", \"Skyline Gardens\"),\n        (\"Zenith Arena\", \"Lighthouse Point\"),\n        (\"Maplewood Conservatory\", \"Flint Forge Quarter\"),\n        (\"Maplewood Conservatory\", \"Skyline Gardens\"),\n        (\"Maplewood Conservatory\", \"Lighthouse Point\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 1,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Northwind Tower",
+   "Shadowbridge Arcade",
+   "Cobalt Market",
+   "Dragon’s Gate",
+   "Union Square Market",
+   "Twilight Harbor",
+   "Rosewood Hall",
+   "Willowshade Pavilion"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Northwind Tower": 1,
+     "Shadowbridge Arcade": 1,
+     "Cobalt Market": 2,
+     "Dragon’s Gate": 1,
+     "Union Square Market": 3,
+     "Twilight Harbor": 3,
+     "Rosewood Hall": 1,
+     "Willowshade Pavilion": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Northwind Tower": 1,
+     "Shadowbridge Arcade": 1,
+     "Cobalt Market": 2,
+     "Dragon’s Gate": 1,
+     "Union Square Market": 3,
+     "Twilight Harbor": 3,
+     "Rosewood Hall": 1,
+     "Willowshade Pavilion": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Northwind Tower": 3,
+     "Shadowbridge Arcade": 2,
+     "Cobalt Market": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 3,
+     "Twilight Harbor": 2,
+     "Rosewood Hall": 2,
+     "Willowshade Pavilion": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Northwind Tower\",\n        \"Shadowbridge Arcade\",\n        \"Cobalt Market\",\n        \"Dragon’s Gate\",\n        \"Union Square Market\",\n        \"Twilight Harbor\",\n        \"Rosewood Hall\",\n        \"Willowshade Pavilion\"\n    ],\n    \"edges\": [\n        (\"Northwind Tower\", \"Cobalt Market\"),\n        (\"Northwind Tower\", \"Twilight Harbor\"),\n        (\"Shadowbridge Arcade\", \"Cobalt Market\"),\n        (\"Shadowbridge Arcade\", \"Union Square Market\"),\n        (\"Cobalt Market\", \"Dragon’s Gate\"),\n        (\"Cobalt Market\", \"Union Square Market\"),\n        (\"Cobalt Market\", \"Twilight Harbor\"),\n        (\"Cobalt Market\", \"Rosewood Hall\"),\n        (\"Dragon’s Gate\", \"Union Square Market\"),\n        (\"Dragon’s Gate\", \"Willowshade Pavilion\"),\n        (\"Twilight Harbor\", \"Willowshade Pavilion\"),\n        (\"Rosewood Hall\", \"Willowshade Pavilion\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 2,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Nimbus Plaza",
+   "Echo Station",
+   "Haven Docks",
+   "Yarrow Plaza",
+   "Pennywhistle Arcade",
+   "Beacon Tower",
+   "Silvercrest Observatory",
+   "Mosaic Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Echo Station": 2,
+     "Haven Docks": 2,
+     "Yarrow Plaza": 3,
+     "Pennywhistle Arcade": 1,
+     "Beacon Tower": 1,
+     "Silvercrest Observatory": 3,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Echo Station": 1,
+     "Haven Docks": 2,
+     "Yarrow Plaza": 1,
+     "Pennywhistle Arcade": 3,
+     "Beacon Tower": 3,
+     "Silvercrest Observatory": 4,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 2,
+     "Echo Station": 1,
+     "Haven Docks": 1,
+     "Yarrow Plaza": 3,
+     "Pennywhistle Arcade": 2,
+     "Beacon Tower": 2,
+     "Silvercrest Observatory": 3,
+     "Mosaic Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Nimbus Plaza\",\n        \"Echo Station\",\n        \"Haven Docks\",\n        \"Yarrow Plaza\",\n        \"Pennywhistle Arcade\",\n        \"Beacon Tower\",\n        \"Silvercrest Observatory\",\n        \"Mosaic Plaza\"\n    ],\n    \"edges\": [\n        (\"Nimbus Plaza\", \"Haven Docks\"),\n        (\"Nimbus Plaza\", \"Silvercrest Observatory\"),\n        (\"Nimbus Plaza\", \"Mosaic Plaza\"),\n        (\"Echo Station\", \"Beacon Tower\"),\n        (\"Haven Docks\", \"Yarrow Plaza\"),\n        (\"Haven Docks\", \"Pennywhistle Arcade\"),\n        (\"Haven Docks\", \"Beacon Tower\"),\n        (\"Haven Docks\", \"Silvercrest Observatory\"),\n        (\"Yarrow Plaza\", \"Pennywhistle Arcade\"),\n        (\"Yarrow Plaza\", \"Beacon Tower\"),\n        (\"Beacon Tower\", \"Silvercrest Observatory\"),\n        (\"Silvercrest Observatory\", \"Mosaic Plaza\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 3,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Gilded Archway",
+   "Ironbridge Crossing",
+   "Cobalt Market",
+   "Quarry Point",
+   "Copper Clock Square",
+   "Silvercrest Observatory",
+   "Mosaic Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Gilded Archway": 1,
+     "Ironbridge Crossing": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 3,
+     "Copper Clock Square": 2,
+     "Silvercrest Observatory": 3,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Gilded Archway": 1,
+     "Ironbridge Crossing": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 3,
+     "Copper Clock Square": 2,
+     "Silvercrest Observatory": 3,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 2,
+     "Gilded Archway": 2,
+     "Ironbridge Crossing": 3,
+     "Cobalt Market": 1,
+     "Quarry Point": 3,
+     "Copper Clock Square": 1,
+     "Silvercrest Observatory": 2,
+     "Mosaic Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Primrose Boulevard\",\n        \"Gilded Archway\",\n        \"Ironbridge Crossing\",\n        \"Cobalt Market\",\n        \"Quarry Point\",\n        \"Copper Clock Square\",\n        \"Silvercrest Observatory\",\n        \"Mosaic Plaza\"\n    ],\n    \"edges\": [\n        (\"Primrose Boulevard\", \"Quarry Point\"),\n        (\"Primrose Boulevard\", \"Copper Clock Square\"),\n        (\"Primrose Boulevard\", \"Mosaic Plaza\"),\n        (\"Gilded Archway\", \"Cobalt Market\"),\n        (\"Gilded Archway\", \"Mosaic Plaza\"),\n        (\"Ironbridge Crossing\", \"Cobalt Market\"),\n        (\"Ironbridge Crossing\", \"Silvercrest Observatory\"),\n        (\"Cobalt Market\", \"Quarry Point\"),\n        (\"Cobalt Market\", \"Silvercrest Observatory\"),\n        (\"Quarry Point\", \"Mosaic Plaza\"),\n        (\"Copper Clock Square\", \"Silvercrest Observatory\"),\n        (\"Silvercrest Observatory\", \"Mosaic Plaza\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 4,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Echo Station",
+   "Westgate Station",
+   "Pennywhistle Arcade",
+   "Willowshade Pavilion",
+   "Primrose Boulevard",
+   "Union Square Market",
+   "Maplewood Conservatory",
+   "Brass Lantern Tavern"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Echo Station": 1,
+     "Westgate Station": 1,
+     "Pennywhistle Arcade": 2,
+     "Willowshade Pavilion": 3,
+     "Primrose Boulevard": 2,
+     "Union Square Market": 4,
+     "Maplewood Conservatory": 1,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Echo Station": 1,
+     "Westgate Station": 1,
+     "Pennywhistle Arcade": 2,
+     "Willowshade Pavilion": 3,
+     "Primrose Boulevard": 2,
+     "Union Square Market": 4,
+     "Maplewood Conservatory": 1,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Echo Station": 2,
+     "Westgate Station": 2,
+     "Pennywhistle Arcade": 3,
+     "Willowshade Pavilion": 1,
+     "Primrose Boulevard": 3,
+     "Union Square Market": 4,
+     "Maplewood Conservatory": 2,
+     "Brass Lantern Tavern": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Echo Station\",\n        \"Westgate Station\",\n        \"Pennywhistle Arcade\",\n        \"Willowshade Pavilion\",\n        \"Primrose Boulevard\",\n        \"Union Square Market\",\n        \"Maplewood Conservatory\",\n        \"Brass Lantern Tavern\"\n    ],\n    \"edges\": [\n        (\"Echo Station\", \"Pennywhistle Arcade\"),\n        (\"Echo Station\", \"Willowshade Pavilion\"),\n        (\"Echo Station\", \"Primrose Boulevard\"),\n        (\"Echo Station\", \"Union Square Market\"),\n        (\"Westgate Station\", \"Willowshade Pavilion\"),\n        (\"Westgate Station\", \"Brass Lantern Tavern\"),\n        (\"Pennywhistle Arcade\", \"Willowshade Pavilion\"),\n        (\"Pennywhistle Arcade\", \"Union Square Market\"),\n        (\"Pennywhistle Arcade\", \"Brass Lantern Tavern\"),\n        (\"Willowshade Pavilion\", \"Primrose Boulevard\"),\n        (\"Willowshade Pavilion\", \"Union Square Market\"),\n        (\"Willowshade Pavilion\", \"Maplewood Conservatory\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 5,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lighthouse Point",
+   "Copper Clock Square",
+   "Opal Theater",
+   "Quartz District",
+   "Pennywhistle Arcade",
+   "Dragon’s Gate",
+   "Haven Docks",
+   "Echo Station"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Copper Clock Square": 1,
+     "Opal Theater": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Dragon’s Gate": 3,
+     "Haven Docks": 2,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Copper Clock Square": 1,
+     "Opal Theater": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Dragon’s Gate": 3,
+     "Haven Docks": 2,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lighthouse Point": 3,
+     "Copper Clock Square": 2,
+     "Opal Theater": 1,
+     "Quartz District": 3,
+     "Pennywhistle Arcade": 2,
+     "Dragon’s Gate": 3,
+     "Haven Docks": 1,
+     "Echo Station": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Lighthouse Point\",\n        \"Copper Clock Square\",\n        \"Opal Theater\",\n        \"Quartz District\",\n        \"Pennywhistle Arcade\",\n        \"Dragon’s Gate\",\n        \"Haven Docks\",\n        \"Echo Station\"\n    ],\n    \"edges\": [\n        (\"Lighthouse Point\", \"Opal Theater\"),\n        (\"Lighthouse Point\", \"Pennywhistle Arcade\"),\n        (\"Lighthouse Point\", \"Echo Station\"),\n        (\"Copper Clock Square\", \"Opal Theater\"),\n        (\"Copper Clock Square\", \"Dragon’s Gate\"),\n        (\"Copper Clock Square\", \"Echo Station\"),\n        (\"Opal Theater\", \"Pennywhistle Arcade\"),\n        (\"Opal Theater\", \"Dragon’s Gate\"),\n        (\"Quartz District\", \"Pennywhistle Arcade\"),\n        (\"Quartz District\", \"Haven Docks\"),\n        (\"Pennywhistle Arcade\", \"Haven Docks\"),\n        (\"Haven Docks\", \"Echo Station\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 6,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Moonlit Promenade",
+   "Haven Docks",
+   "Twilight Harbor",
+   "Dragon’s Gate",
+   "Union Square Market",
+   "Pennywhistle Arcade",
+   "Echo Station",
+   "Velvet Corner"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Haven Docks": 2,
+     "Twilight Harbor": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 3,
+     "Pennywhistle Arcade": 1,
+     "Echo Station": 1,
+     "Velvet Corner": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Haven Docks": 2,
+     "Twilight Harbor": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 3,
+     "Pennywhistle Arcade": 1,
+     "Echo Station": 1,
+     "Velvet Corner": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 2,
+     "Haven Docks": 1,
+     "Twilight Harbor": 3,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 3,
+     "Pennywhistle Arcade": 3,
+     "Echo Station": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Moonlit Promenade\",\n        \"Haven Docks\",\n        \"Twilight Harbor\",\n        \"Dragon’s Gate\",\n        \"Union Square Market\",\n        \"Pennywhistle Arcade\",\n        \"Echo Station\",\n        \"Velvet Corner\"\n    ],\n    \"edges\": [\n        (\"Moonlit Promenade\", \"Haven Docks\"),\n        (\"Moonlit Promenade\", \"Union Square Market\"),\n        (\"Moonlit Promenade\", \"Velvet Corner\"),\n        (\"Haven Docks\", \"Union Square Market\"),\n        (\"Haven Docks\", \"Pennywhistle Arcade\"),\n        (\"Twilight Harbor\", \"Dragon’s Gate\"),\n        (\"Twilight Harbor\", \"Velvet Corner\"),\n        (\"Dragon’s Gate\", \"Pennywhistle Arcade\"),\n        (\"Dragon’s Gate\", \"Echo Station\"),\n        (\"Dragon’s Gate\", \"Velvet Corner\"),\n        (\"Pennywhistle Arcade\", \"Velvet Corner\"),\n        (\"Echo Station\", \"Velvet Corner\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 7,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Shadowbridge Arcade",
+   "Lunar Pier",
+   "Silvercrest Observatory",
+   "Knight’s Market",
+   "Quarry Point",
+   "Union Square Market",
+   "Sapphire Arena",
+   "Temple Square"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Lunar Pier": 2,
+     "Silvercrest Observatory": 1,
+     "Knight’s Market": 1,
+     "Quarry Point": 3,
+     "Union Square Market": 3,
+     "Sapphire Arena": 1,
+     "Temple Square": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Lunar Pier": 2,
+     "Silvercrest Observatory": 1,
+     "Knight’s Market": 1,
+     "Quarry Point": 3,
+     "Union Square Market": 3,
+     "Sapphire Arena": 1,
+     "Temple Square": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 3,
+     "Lunar Pier": 1,
+     "Silvercrest Observatory": 3,
+     "Knight’s Market": 3,
+     "Quarry Point": 2,
+     "Union Square Market": 2,
+     "Sapphire Arena": 1,
+     "Temple Square": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Shadowbridge Arcade\",\n        \"Lunar Pier\",\n        \"Silvercrest Observatory\",\n        \"Knight’s Market\",\n        \"Quarry Point\",\n        \"Union Square Market\",\n        \"Sapphire Arena\",\n        \"Temple Square\"\n    ],\n    \"edges\": [\n        (\"Shadowbridge Arcade\", \"Lunar Pier\"),\n        (\"Shadowbridge Arcade\", \"Quarry Point\"),\n        (\"Shadowbridge Arcade\", \"Temple Square\"),\n        (\"Lunar Pier\", \"Silvercrest Observatory\"),\n        (\"Lunar Pier\", \"Knight’s Market\"),\n        (\"Lunar Pier\", \"Quarry Point\"),\n        (\"Lunar Pier\", \"Union Square Market\"),\n        (\"Lunar Pier\", \"Temple Square\"),\n        (\"Silvercrest Observatory\", \"Quarry Point\"),\n        (\"Knight’s Market\", \"Quarry Point\"),\n        (\"Knight’s Market\", \"Union Square Market\"),\n        (\"Union Square Market\", \"Sapphire Arena\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 8,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Temple Square",
+   "Knight’s Market",
+   "Riverstone Wharf",
+   "Opal Theater",
+   "Rosewood Hall",
+   "Ironbridge Crossing",
+   "Evergreen Circle",
+   "Echo Station"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Temple Square": 1,
+     "Knight’s Market": 2,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Rosewood Hall": 1,
+     "Ironbridge Crossing": 2,
+     "Evergreen Circle": 3,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Temple Square": 1,
+     "Knight’s Market": 2,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Rosewood Hall": 1,
+     "Ironbridge Crossing": 2,
+     "Evergreen Circle": 3,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Temple Square": 1,
+     "Knight’s Market": 2,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Rosewood Hall": 1,
+     "Ironbridge Crossing": 2,
+     "Evergreen Circle": 3,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Temple Square\",\n        \"Knight’s Market\",\n        \"Riverstone Wharf\",\n        \"Opal Theater\",\n        \"Rosewood Hall\",\n        \"Ironbridge Crossing\",\n        \"Evergreen Circle\",\n        \"Echo Station\"\n    ],\n    \"edges\": [\n        (\"Temple Square\", \"Knight’s Market\"),\n        (\"Temple Square\", \"Ironbridge Crossing\"),\n        (\"Temple Square\", \"Evergreen Circle\"),\n        (\"Knight’s Market\", \"Riverstone Wharf\"),\n        (\"Riverstone Wharf\", \"Opal Theater\"),\n        (\"Riverstone Wharf\", \"Ironbridge Crossing\"),\n        (\"Riverstone Wharf\", \"Evergreen Circle\"),\n        (\"Riverstone Wharf\", \"Echo Station\"),\n        (\"Opal Theater\", \"Rosewood Hall\"),\n        (\"Opal Theater\", \"Evergreen Circle\"),\n        (\"Opal Theater\", \"Echo Station\"),\n        (\"Ironbridge Crossing\", \"Evergreen Circle\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 9,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Flint Forge Quarter",
+   "Lighthouse Point",
+   "Umbra Theater",
+   "Evergreen Circle",
+   "Echo Station",
+   "Nimbus Plaza",
+   "Shadowbridge Arcade",
+   "Rosewood Hall"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Flint Forge Quarter": 1,
+     "Lighthouse Point": 2,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 1,
+     "Echo Station": 1,
+     "Nimbus Plaza": 3,
+     "Shadowbridge Arcade": 3,
+     "Rosewood Hall": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Flint Forge Quarter": 1,
+     "Lighthouse Point": 2,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 1,
+     "Echo Station": 1,
+     "Nimbus Plaza": 3,
+     "Shadowbridge Arcade": 3,
+     "Rosewood Hall": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Flint Forge Quarter": 1,
+     "Lighthouse Point": 2,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 1,
+     "Echo Station": 1,
+     "Nimbus Plaza": 3,
+     "Shadowbridge Arcade": 3,
+     "Rosewood Hall": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Flint Forge Quarter\",\n        \"Lighthouse Point\",\n        \"Umbra Theater\",\n        \"Evergreen Circle\",\n        \"Echo Station\",\n        \"Nimbus Plaza\",\n        \"Shadowbridge Arcade\",\n        \"Rosewood Hall\"\n    ],\n    \"edges\": [\n        (\"Flint Forge Quarter\", \"Lighthouse Point\"),\n        (\"Flint Forge Quarter\", \"Umbra Theater\"),\n        (\"Flint Forge Quarter\", \"Nimbus Plaza\"),\n        (\"Flint Forge Quarter\", \"Shadowbridge Arcade\"),\n        (\"Flint Forge Quarter\", \"Rosewood Hall\"),\n        (\"Lighthouse Point\", \"Evergreen Circle\"),\n        (\"Lighthouse Point\", \"Echo Station\"),\n        (\"Lighthouse Point\", \"Shadowbridge Arcade\"),\n        (\"Umbra Theater\", \"Echo Station\"),\n        (\"Umbra Theater\", \"Nimbus Plaza\"),\n        (\"Evergreen Circle\", \"Rosewood Hall\"),\n        (\"Echo Station\", \"Shadowbridge Arcade\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 10,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Riverstone Wharf",
+   "Westgate Station",
+   "Skyline Gardens",
+   "Echo Station",
+   "Granite Plaza",
+   "Zenith Arena",
+   "Haven Docks",
+   "Beacon Tower"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 1,
+     "Westgate Station": 2,
+     "Skyline Gardens": 1,
+     "Echo Station": 1,
+     "Granite Plaza": 3,
+     "Zenith Arena": 1,
+     "Haven Docks": 2,
+     "Beacon Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 1,
+     "Westgate Station": 2,
+     "Skyline Gardens": 1,
+     "Echo Station": 1,
+     "Granite Plaza": 3,
+     "Zenith Arena": 1,
+     "Haven Docks": 2,
+     "Beacon Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 2,
+     "Westgate Station": 1,
+     "Skyline Gardens": 3,
+     "Echo Station": 2,
+     "Granite Plaza": 2,
+     "Zenith Arena": 3,
+     "Haven Docks": 1,
+     "Beacon Tower": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Riverstone Wharf\",\n        \"Westgate Station\",\n        \"Skyline Gardens\",\n        \"Echo Station\",\n        \"Granite Plaza\",\n        \"Zenith Arena\",\n        \"Haven Docks\",\n        \"Beacon Tower\"\n    ],\n    \"edges\": [\n        (\"Riverstone Wharf\", \"Westgate Station\"),\n        (\"Westgate Station\", \"Skyline Gardens\"),\n        (\"Westgate Station\", \"Echo Station\"),\n        (\"Westgate Station\", \"Granite Plaza\"),\n        (\"Westgate Station\", \"Beacon Tower\"),\n        (\"Skyline Gardens\", \"Granite Plaza\"),\n        (\"Skyline Gardens\", \"Beacon Tower\"),\n        (\"Echo Station\", \"Haven Docks\"),\n        (\"Echo Station\", \"Beacon Tower\"),\n        (\"Granite Plaza\", \"Zenith Arena\"),\n        (\"Granite Plaza\", \"Haven Docks\"),\n        (\"Zenith Arena\", \"Haven Docks\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 11,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Flare Alley",
+   "Moonlit Promenade",
+   "Cobalt Market",
+   "Quarry Point",
+   "Copper Clock Square",
+   "Evergreen Circle",
+   "Pennywhistle Arcade",
+   "Velvet Corner"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Moonlit Promenade": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 2,
+     "Copper Clock Square": 3,
+     "Evergreen Circle": 3,
+     "Pennywhistle Arcade": 1,
+     "Velvet Corner": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Moonlit Promenade": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 2,
+     "Copper Clock Square": 3,
+     "Evergreen Circle": 3,
+     "Pennywhistle Arcade": 1,
+     "Velvet Corner": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Flare Alley": 3,
+     "Moonlit Promenade": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 2,
+     "Copper Clock Square": 3,
+     "Evergreen Circle": 3,
+     "Pennywhistle Arcade": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Flare Alley\",\n        \"Moonlit Promenade\",\n        \"Cobalt Market\",\n        \"Quarry Point\",\n        \"Copper Clock Square\",\n        \"Evergreen Circle\",\n        \"Pennywhistle Arcade\",\n        \"Velvet Corner\"\n    ],\n    \"edges\": [\n        (\"Flare Alley\", \"Quarry Point\"),\n        (\"Flare Alley\", \"Velvet Corner\"),\n        (\"Moonlit Promenade\", \"Cobalt Market\"),\n        (\"Moonlit Promenade\", \"Quarry Point\"),\n        (\"Moonlit Promenade\", \"Copper Clock Square\"),\n        (\"Moonlit Promenade\", \"Evergreen Circle\"),\n        (\"Cobalt Market\", \"Copper Clock Square\"),\n        (\"Cobalt Market\", \"Pennywhistle Arcade\"),\n        (\"Quarry Point\", \"Evergreen Circle\"),\n        (\"Copper Clock Square\", \"Velvet Corner\"),\n        (\"Evergreen Circle\", \"Velvet Corner\"),\n        (\"Pennywhistle Arcade\", \"Velvet Corner\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 12,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Velvet Corner",
+   "Brass Lantern Tavern",
+   "Riverstone Wharf",
+   "Opal Theater",
+   "Evergreen Circle",
+   "Temple Square",
+   "Granite Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Brass Lantern Tavern": 1,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Evergreen Circle": 1,
+     "Temple Square": 3,
+     "Granite Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 1,
+     "Brass Lantern Tavern": 2,
+     "Riverstone Wharf": 2,
+     "Opal Theater": 3,
+     "Evergreen Circle": 1,
+     "Temple Square": 2,
+     "Granite Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 3,
+     "Velvet Corner": 2,
+     "Brass Lantern Tavern": 3,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Evergreen Circle": 2,
+     "Temple Square": 1,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Primrose Boulevard\",\n        \"Velvet Corner\",\n        \"Brass Lantern Tavern\",\n        \"Riverstone Wharf\",\n        \"Opal Theater\",\n        \"Evergreen Circle\",\n        \"Temple Square\",\n        \"Granite Plaza\"\n    ],\n    \"edges\": [\n        (\"Primrose Boulevard\", \"Opal Theater\"),\n        (\"Primrose Boulevard\", \"Temple Square\"),\n        (\"Primrose Boulevard\", \"Granite Plaza\"),\n        (\"Velvet Corner\", \"Brass Lantern Tavern\"),\n        (\"Velvet Corner\", \"Riverstone Wharf\"),\n        (\"Velvet Corner\", \"Granite Plaza\"),\n        (\"Brass Lantern Tavern\", \"Opal Theater\"),\n        (\"Brass Lantern Tavern\", \"Granite Plaza\"),\n        (\"Opal Theater\", \"Temple Square\"),\n        (\"Opal Theater\", \"Granite Plaza\"),\n        (\"Evergreen Circle\", \"Temple Square\"),\n        (\"Evergreen Circle\", \"Granite Plaza\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 13,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Shadowbridge Arcade",
+   "Jade Fountain",
+   "Quarry Point",
+   "Westgate Station",
+   "Copper Clock Square",
+   "Lighthouse Point",
+   "Temple Square",
+   "Brass Lantern Tavern"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Jade Fountain": 1,
+     "Quarry Point": 2,
+     "Westgate Station": 2,
+     "Copper Clock Square": 3,
+     "Lighthouse Point": 1,
+     "Temple Square": 3,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Jade Fountain": 1,
+     "Quarry Point": 2,
+     "Westgate Station": 2,
+     "Copper Clock Square": 3,
+     "Lighthouse Point": 1,
+     "Temple Square": 3,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 2,
+     "Jade Fountain": 1,
+     "Quarry Point": 1,
+     "Westgate Station": 2,
+     "Copper Clock Square": 3,
+     "Lighthouse Point": 3,
+     "Temple Square": 2,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Shadowbridge Arcade\",\n        \"Jade Fountain\",\n        \"Quarry Point\",\n        \"Westgate Station\",\n        \"Copper Clock Square\",\n        \"Lighthouse Point\",\n        \"Temple Square\",\n        \"Brass Lantern Tavern\"\n    ],\n    \"edges\": [\n        (\"Shadowbridge Arcade\", \"Quarry Point\"),\n        (\"Shadowbridge Arcade\", \"Brass Lantern Tavern\"),\n        (\"Jade Fountain\", \"Westgate Station\"),\n        (\"Jade Fountain\", \"Copper Clock Square\"),\n        (\"Jade Fountain\", \"Temple Square\"),\n        (\"Jade Fountain\", \"Brass Lantern Tavern\"),\n        (\"Quarry Point\", \"Lighthouse Point\"),\n        (\"Quarry Point\", \"Temple Square\"),\n        (\"Quarry Point\", \"Brass Lantern Tavern\"),\n        (\"Westgate Station\", \"Copper Clock Square\"),\n        (\"Westgate Station\", \"Lighthouse Point\"),\n        (\"Westgate Station\", \"Brass Lantern Tavern\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 14,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Nimbus Plaza",
+   "Velvet Corner",
+   "Duskwood Park",
+   "Union Square Market",
+   "Sapphire Arena",
+   "Rosewood Hall",
+   "Yarrow Plaza",
+   "Jade Fountain"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Velvet Corner": 2,
+     "Duskwood Park": 2,
+     "Union Square Market": 1,
+     "Sapphire Arena": 1,
+     "Rosewood Hall": 2,
+     "Yarrow Plaza": 3,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Velvet Corner": 1,
+     "Duskwood Park": 2,
+     "Union Square Market": 1,
+     "Sapphire Arena": 3,
+     "Rosewood Hall": 2,
+     "Yarrow Plaza": 3,
+     "Jade Fountain": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 2,
+     "Velvet Corner": 1,
+     "Duskwood Park": 1,
+     "Union Square Market": 2,
+     "Sapphire Arena": 2,
+     "Rosewood Hall": 1,
+     "Yarrow Plaza": 3,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Nimbus Plaza\",\n        \"Velvet Corner\",\n        \"Duskwood Park\",\n        \"Union Square Market\",\n        \"Sapphire Arena\",\n        \"Rosewood Hall\",\n        \"Yarrow Plaza\",\n        \"Jade Fountain\"\n    ],\n    \"edges\": [\n        (\"Nimbus Plaza\", \"Duskwood Park\"),\n        (\"Nimbus Plaza\", \"Rosewood Hall\"),\n        (\"Nimbus Plaza\", \"Yarrow Plaza\"),\n        (\"Nimbus Plaza\", \"Jade Fountain\"),\n        (\"Velvet Corner\", \"Sapphire Arena\"),\n        (\"Velvet Corner\", \"Yarrow Plaza\"),\n        (\"Duskwood Park\", \"Union Square Market\"),\n        (\"Duskwood Park\", \"Sapphire Arena\"),\n        (\"Duskwood Park\", \"Yarrow Plaza\"),\n        (\"Duskwood Park\", \"Jade Fountain\"),\n        (\"Sapphire Arena\", \"Rosewood Hall\"),\n        (\"Sapphire Arena\", \"Jade Fountain\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 15,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quartz District",
+   "Union Square Market",
+   "Lunar Pier",
+   "Primrose Boulevard",
+   "Velvet Corner",
+   "Haven Docks",
+   "Riverstone Wharf",
+   "Cobalt Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Union Square Market": 2,
+     "Lunar Pier": 2,
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Haven Docks": 2,
+     "Riverstone Wharf": 3,
+     "Cobalt Market": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Union Square Market": 1,
+     "Lunar Pier": 2,
+     "Primrose Boulevard": 3,
+     "Velvet Corner": 1,
+     "Haven Docks": 1,
+     "Riverstone Wharf": 4,
+     "Cobalt Market": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Union Square Market": 2,
+     "Lunar Pier": 2,
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Haven Docks": 2,
+     "Riverstone Wharf": 3,
+     "Cobalt Market": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Quartz District\",\n        \"Union Square Market\",\n        \"Lunar Pier\",\n        \"Primrose Boulevard\",\n        \"Velvet Corner\",\n        \"Haven Docks\",\n        \"Riverstone Wharf\",\n        \"Cobalt Market\"\n    ],\n    \"edges\": [\n        (\"Quartz District\", \"Lunar Pier\"),\n        (\"Quartz District\", \"Riverstone Wharf\"),\n        (\"Union Square Market\", \"Primrose Boulevard\"),\n        (\"Union Square Market\", \"Cobalt Market\"),\n        (\"Lunar Pier\", \"Primrose Boulevard\"),\n        (\"Lunar Pier\", \"Riverstone Wharf\"),\n        (\"Lunar Pier\", \"Cobalt Market\"),\n        (\"Primrose Boulevard\", \"Velvet Corner\"),\n        (\"Primrose Boulevard\", \"Haven Docks\"),\n        (\"Primrose Boulevard\", \"Riverstone Wharf\"),\n        (\"Velvet Corner\", \"Cobalt Market\"),\n        (\"Haven Docks\", \"Cobalt Market\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 16,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Westgate Station",
+   "Duskwood Park",
+   "Echo Station",
+   "Northwind Tower",
+   "Sapphire Arena",
+   "Ivory Spire Cathedral",
+   "Azure Gardens",
+   "Willowshade Pavilion"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Duskwood Park": 1,
+     "Echo Station": 2,
+     "Northwind Tower": 3,
+     "Sapphire Arena": 2,
+     "Ivory Spire Cathedral": 2,
+     "Azure Gardens": 3,
+     "Willowshade Pavilion": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Duskwood Park": 1,
+     "Echo Station": 2,
+     "Northwind Tower": 3,
+     "Sapphire Arena": 2,
+     "Ivory Spire Cathedral": 2,
+     "Azure Gardens": 3,
+     "Willowshade Pavilion": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Duskwood Park": 2,
+     "Echo Station": 2,
+     "Northwind Tower": 1,
+     "Sapphire Arena": 2,
+     "Ivory Spire Cathedral": 3,
+     "Azure Gardens": 3,
+     "Willowshade Pavilion": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Westgate Station\",\n        \"Duskwood Park\",\n        \"Echo Station\",\n        \"Northwind Tower\",\n        \"Sapphire Arena\",\n        \"Ivory Spire Cathedral\",\n        \"Azure Gardens\",\n        \"Willowshade Pavilion\"\n    ],\n    \"edges\": [\n        (\"Westgate Station\", \"Echo Station\"),\n        (\"Westgate Station\", \"Sapphire Arena\"),\n        (\"Westgate Station\", \"Ivory Spire Cathedral\"),\n        (\"Westgate Station\", \"Azure Gardens\"),\n        (\"Duskwood Park\", \"Northwind Tower\"),\n        (\"Duskwood Park\", \"Ivory Spire Cathedral\"),\n        (\"Duskwood Park\", \"Azure Gardens\"),\n        (\"Echo Station\", \"Northwind Tower\"),\n        (\"Echo Station\", \"Azure Gardens\"),\n        (\"Northwind Tower\", \"Sapphire Arena\"),\n        (\"Northwind Tower\", \"Willowshade Pavilion\"),\n        (\"Sapphire Arena\", \"Willowshade Pavilion\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 17,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Knight’s Market",
+   "Brass Lantern Tavern",
+   "Sapphire Arena",
+   "Flint Forge Quarter",
+   "Ironbridge Crossing",
+   "Amber Plaza",
+   "Mosaic Plaza",
+   "Northwind Tower"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Brass Lantern Tavern": 2,
+     "Sapphire Arena": 3,
+     "Flint Forge Quarter": 1,
+     "Ironbridge Crossing": 2,
+     "Amber Plaza": 3,
+     "Mosaic Plaza": 2,
+     "Northwind Tower": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Brass Lantern Tavern": 2,
+     "Sapphire Arena": 3,
+     "Flint Forge Quarter": 1,
+     "Ironbridge Crossing": 2,
+     "Amber Plaza": 1,
+     "Mosaic Plaza": 1,
+     "Northwind Tower": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Brass Lantern Tavern": 2,
+     "Sapphire Arena": 3,
+     "Flint Forge Quarter": 1,
+     "Ironbridge Crossing": 2,
+     "Amber Plaza": 3,
+     "Mosaic Plaza": 2,
+     "Northwind Tower": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Knight's Market\",\n        \"Brass Lantern Tavern\",\n        \"Sapphire Arena\",\n        \"Flint Forge Quarter\",\n        \"Ironbridge Crossing\",\n        \"Amber Plaza\",\n        \"Mosaic Plaza\",\n        \"Northwind Tower\"\n    ],\n    \"edges\": [\n        (\"Knight's Market\", \"Brass Lantern Tavern\"),\n        (\"Knight's Market\", \"Sapphire Arena\"),\n        (\"Brass Lantern Tavern\", \"Sapphire Arena\"),\n        (\"Brass Lantern Tavern\", \"Flint Forge Quarter\"),\n        (\"Brass Lantern Tavern\", \"Northwind Tower\"),\n        (\"Sapphire Arena\", \"Mosaic Plaza\"),\n        (\"Sapphire Arena\", \"Northwind Tower\"),\n        (\"Flint Forge Quarter\", \"Ironbridge Crossing\"),\n        (\"Ironbridge Crossing\", \"Amber Plaza\"),\n        (\"Ironbridge Crossing\", \"Northwind Tower\"),\n        (\"Amber Plaza\", \"Northwind Tower\"),\n        (\"Mosaic Plaza\", \"Northwind Tower\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 18,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Knight’s Market",
+   "Mosaic Plaza",
+   "Umbra Theater",
+   "Evergreen Circle",
+   "Beacon Tower",
+   "Duskwood Park",
+   "Echo Station",
+   "Cobalt Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Mosaic Plaza": 1,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 2,
+     "Beacon Tower": 3,
+     "Duskwood Park": 2,
+     "Echo Station": 1,
+     "Cobalt Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Mosaic Plaza": 1,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 2,
+     "Beacon Tower": 3,
+     "Duskwood Park": 2,
+     "Echo Station": 1,
+     "Cobalt Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Mosaic Plaza": 1,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 2,
+     "Beacon Tower": 3,
+     "Duskwood Park": 2,
+     "Echo Station": 3,
+     "Cobalt Market": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Knight's Market\",\n        \"Mosaic Plaza\",\n        \"Umbra Theater\",\n        \"Evergreen Circle\",\n        \"Beacon Tower\",\n        \"Duskwood Park\",\n        \"Echo Station\",\n        \"Cobalt Market\"\n    ],\n    \"edges\": [\n        (\"Knight's Market\", \"Umbra Theater\"),\n        (\"Knight's Market\", \"Evergreen Circle\"),\n        (\"Knight's Market\", \"Beacon Tower\"),\n        (\"Knight's Market\", \"Duskwood Park\"),\n        (\"Mosaic Plaza\", \"Evergreen Circle\"),\n        (\"Mosaic Plaza\", \"Duskwood Park\"),\n        (\"Umbra Theater\", \"Echo Station\"),\n        (\"Evergreen Circle\", \"Beacon Tower\"),\n        (\"Evergreen Circle\", \"Cobalt Market\"),\n        (\"Beacon Tower\", \"Duskwood Park\"),\n        (\"Duskwood Park\", \"Cobalt Market\"),\n        (\"Echo Station\", \"Cobalt Market\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 19,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Granite Plaza",
+   "Opal Theater",
+   "Velvet Corner",
+   "Union Square Market",
+   "Amber Plaza",
+   "Moonlit Promenade",
+   "Nimbus Plaza",
+   "Shadowbridge Arcade"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Opal Theater": 2,
+     "Velvet Corner": 1,
+     "Union Square Market": 3,
+     "Amber Plaza": 2,
+     "Moonlit Promenade": 2,
+     "Nimbus Plaza": 1,
+     "Shadowbridge Arcade": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Opal Theater": 2,
+     "Velvet Corner": 1,
+     "Union Square Market": 2,
+     "Amber Plaza": 3,
+     "Moonlit Promenade": 2,
+     "Nimbus Plaza": 1,
+     "Shadowbridge Arcade": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Opal Theater": 2,
+     "Velvet Corner": 3,
+     "Union Square Market": 2,
+     "Amber Plaza": 4,
+     "Moonlit Promenade": 2,
+     "Nimbus Plaza": 3,
+     "Shadowbridge Arcade": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Granite Plaza\",\n        \"Opal Theater\",\n        \"Velvet Corner\",\n        \"Union Square Market\",\n        \"Amber Plaza\",\n        \"Moonlit Promenade\",\n        \"Nimbus Plaza\",\n        \"Shadowbridge Arcade\"\n    ],\n    \"edges\": [\n        (\"Granite Plaza\", \"Opal Theater\"),\n        (\"Granite Plaza\", \"Union Square Market\"),\n        (\"Granite Plaza\", \"Moonlit Promenade\"),\n        (\"Opal Theater\", \"Velvet Corner\"),\n        (\"Opal Theater\", \"Shadowbridge Arcade\"),\n        (\"Velvet Corner\", \"Amber Plaza\"),\n        (\"Velvet Corner\", \"Shadowbridge Arcade\"),\n        (\"Union Square Market\", \"Amber Plaza\"),\n        (\"Union Square Market\", \"Nimbus Plaza\"),\n        (\"Amber Plaza\", \"Shadowbridge Arcade\"),\n        (\"Moonlit Promenade\", \"Shadowbridge Arcade\"),\n        (\"Nimbus Plaza\", \"Shadowbridge Arcade\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 20,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "King’s Row",
+   "Ivory Spire Cathedral",
+   "Oakshade Library",
+   "Azure Gardens",
+   "Quarry Point",
+   "Duskwood Park",
+   "Dragon’s Gate",
+   "Mosaic Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Ivory Spire Cathedral": 1,
+     "Oakshade Library": 2,
+     "Azure Gardens": 2,
+     "Quarry Point": 1,
+     "Duskwood Park": 3,
+     "Dragon’s Gate": 2,
+     "Mosaic Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Ivory Spire Cathedral": 1,
+     "Oakshade Library": 2,
+     "Azure Gardens": 2,
+     "Quarry Point": 1,
+     "Duskwood Park": 3,
+     "Dragon’s Gate": 2,
+     "Mosaic Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Ivory Spire Cathedral": 1,
+     "Oakshade Library": 3,
+     "Azure Gardens": 2,
+     "Quarry Point": 1,
+     "Duskwood Park": 2,
+     "Dragon’s Gate": 3,
+     "Mosaic Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"King's Row\",\n        \"Ivory Spire Cathedral\",\n        \"Oakshade Library\",\n        \"Azure Gardens\",\n        \"Quarry Point\",\n        \"Duskwood Park\",\n        \"Dragon's Gate\",\n        \"Mosaic Plaza\"\n    ],\n    \"edges\": [\n        (\"King's Row\", \"Oakshade Library\"),\n        (\"King's Row\", \"Duskwood Park\"),\n        (\"Ivory Spire Cathedral\", \"Oakshade Library\"),\n        (\"Ivory Spire Cathedral\", \"Azure Gardens\"),\n        (\"Ivory Spire Cathedral\", \"Duskwood Park\"),\n        (\"Ivory Spire Cathedral\", \"Dragon's Gate\"),\n        (\"Ivory Spire Cathedral\", \"Mosaic Plaza\"),\n        (\"Oakshade Library\", \"Duskwood Park\"),\n        (\"Oakshade Library\", \"Mosaic Plaza\"),\n        (\"Duskwood Park\", \"Dragon's Gate\"),\n        (\"Duskwood Park\", \"Mosaic Plaza\"),\n        (\"Dragon's Gate\", \"Mosaic Plaza\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 21,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lighthouse Point",
+   "Flare Alley",
+   "Riverstone Wharf",
+   "Shadowbridge Arcade",
+   "Opal Theater",
+   "Sapphire Arena",
+   "Pennywhistle Arcade",
+   "Union Square Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Flare Alley": 1,
+     "Riverstone Wharf": 2,
+     "Shadowbridge Arcade": 3,
+     "Opal Theater": 2,
+     "Sapphire Arena": 3,
+     "Pennywhistle Arcade": 2,
+     "Union Square Market": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Flare Alley": 1,
+     "Riverstone Wharf": 2,
+     "Shadowbridge Arcade": 3,
+     "Opal Theater": 2,
+     "Sapphire Arena": 3,
+     "Pennywhistle Arcade": 2,
+     "Union Square Market": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Flare Alley": 1,
+     "Riverstone Wharf": 2,
+     "Shadowbridge Arcade": 3,
+     "Opal Theater": 2,
+     "Sapphire Arena": 3,
+     "Pennywhistle Arcade": 2,
+     "Union Square Market": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Lighthouse Point\",\n        \"Flare Alley\",\n        \"Riverstone Wharf\",\n        \"Shadowbridge Arcade\",\n        \"Opal Theater\",\n        \"Sapphire Arena\",\n        \"Pennywhistle Arcade\",\n        \"Union Square Market\"\n    ],\n    \"edges\": [\n        (\"Lighthouse Point\", \"Riverstone Wharf\"),\n        (\"Lighthouse Point\", \"Pennywhistle Arcade\"),\n        (\"Flare Alley\", \"Riverstone Wharf\"),\n        (\"Flare Alley\", \"Shadowbridge Arcade\"),\n        (\"Flare Alley\", \"Opal Theater\"),\n        (\"Flare Alley\", \"Sapphire Arena\"),\n        (\"Flare Alley\", \"Pennywhistle Arcade\"),\n        (\"Flare Alley\", \"Union Square Market\"),\n        (\"Riverstone Wharf\", \"Shadowbridge Arcade\"),\n        (\"Riverstone Wharf\", \"Sapphire Arena\"),\n        (\"Riverstone Wharf\", \"Union Square Market\"),\n        (\"Sapphire Arena\", \"Union Square Market\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 22,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Jasper Marina",
+   "Flare Alley",
+   "Westgate Station",
+   "Amber Plaza",
+   "Riverstone Wharf",
+   "Mosaic Plaza",
+   "Copper Clock Square"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Jasper Marina": 2,
+     "Flare Alley": 2,
+     "Westgate Station": 3,
+     "Amber Plaza": 3,
+     "Riverstone Wharf": 1,
+     "Mosaic Plaza": 2,
+     "Copper Clock Square": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Jasper Marina": 2,
+     "Flare Alley": 2,
+     "Westgate Station": 3,
+     "Amber Plaza": 1,
+     "Riverstone Wharf": 3,
+     "Mosaic Plaza": 1,
+     "Copper Clock Square": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 2,
+     "Jasper Marina": 1,
+     "Flare Alley": 1,
+     "Westgate Station": 3,
+     "Amber Plaza": 3,
+     "Riverstone Wharf": 2,
+     "Mosaic Plaza": 1,
+     "Copper Clock Square": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Primrose Boulevard\",\n        \"Jasper Marina\",\n        \"Flare Alley\",\n        \"Westgate Station\",\n        \"Amber Plaza\",\n        \"Riverstone Wharf\",\n        \"Mosaic Plaza\",\n        \"Copper Clock Square\"\n    ],\n    \"edges\": [\n        (\"Primrose Boulevard\", \"Jasper Marina\"),\n        (\"Primrose Boulevard\", \"Flare Alley\"),\n        (\"Primrose Boulevard\", \"Westgate Station\"),\n        (\"Jasper Marina\", \"Amber Plaza\"),\n        (\"Jasper Marina\", \"Riverstone Wharf\"),\n        (\"Flare Alley\", \"Westgate Station\"),\n        (\"Flare Alley\", \"Riverstone Wharf\"),\n        (\"Flare Alley\", \"Copper Clock Square\"),\n        (\"Westgate Station\", \"Copper Clock Square\"),\n        (\"Amber Plaza\", \"Riverstone Wharf\"),\n        (\"Amber Plaza\", \"Copper Clock Square\"),\n        (\"Riverstone Wharf\", \"Mosaic Plaza\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 23,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Twilight Harbor",
+   "Cobalt Market",
+   "Flare Alley",
+   "Shadowbridge Arcade",
+   "Oakshade Library",
+   "King’s Row",
+   "Umbra Theater",
+   "Mosaic Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Cobalt Market": 2,
+     "Flare Alley": 2,
+     "Shadowbridge Arcade": 2,
+     "Oakshade Library": 1,
+     "King’s Row": 3,
+     "Umbra Theater": 1,
+     "Mosaic Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Cobalt Market": 1,
+     "Flare Alley": 2,
+     "Shadowbridge Arcade": 2,
+     "Oakshade Library": 1,
+     "King’s Row": 3,
+     "Umbra Theater": 4,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Cobalt Market": 3,
+     "Flare Alley": 2,
+     "Shadowbridge Arcade": 3,
+     "Oakshade Library": 2,
+     "King’s Row": 1,
+     "Umbra Theater": 2,
+     "Mosaic Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Twilight Harbor\",\n        \"Cobalt Market\",\n        \"Flare Alley\",\n        \"Shadowbridge Arcade\",\n        \"Oakshade Library\",\n        \"King's Row\",\n        \"Umbra Theater\",\n        \"Mosaic Plaza\"\n    ],\n    \"edges\": [\n        (\"Twilight Harbor\", \"Flare Alley\"),\n        (\"Twilight Harbor\", \"Shadowbridge Arcade\"),\n        (\"Twilight Harbor\", \"Mosaic Plaza\"),\n        (\"Cobalt Market\", \"King's Row\"),\n        (\"Cobalt Market\", \"Umbra Theater\"),\n        (\"Cobalt Market\", \"Mosaic Plaza\"),\n        (\"Flare Alley\", \"King's Row\"),\n        (\"Shadowbridge Arcade\", \"King's Row\"),\n        (\"Shadowbridge Arcade\", \"Umbra Theater\"),\n        (\"Oakshade Library\", \"King's Row\"),\n        (\"King's Row\", \"Umbra Theater\"),\n        (\"Umbra Theater\", \"Mosaic Plaza\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 24,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Twilight Harbor",
+   "Northwind Tower",
+   "Sapphire Arena",
+   "Westgate Station",
+   "Beacon Tower",
+   "Haven Docks",
+   "Lunar Pier",
+   "Knight’s Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Northwind Tower": 1,
+     "Sapphire Arena": 2,
+     "Westgate Station": 2,
+     "Beacon Tower": 1,
+     "Haven Docks": 3,
+     "Lunar Pier": 3,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Northwind Tower": 1,
+     "Sapphire Arena": 2,
+     "Westgate Station": 2,
+     "Beacon Tower": 1,
+     "Haven Docks": 3,
+     "Lunar Pier": 3,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Twilight Harbor": 2,
+     "Northwind Tower": 1,
+     "Sapphire Arena": 1,
+     "Westgate Station": 1,
+     "Beacon Tower": 2,
+     "Haven Docks": 3,
+     "Lunar Pier": 2,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Twilight Harbor\",\n        \"Northwind Tower\",\n        \"Sapphire Arena\",\n        \"Westgate Station\",\n        \"Beacon Tower\",\n        \"Haven Docks\",\n        \"Lunar Pier\",\n        \"Knight’s Market\"\n    ],\n    \"edges\": [\n        (\"Twilight Harbor\", \"Sapphire Arena\"),\n        (\"Twilight Harbor\", \"Westgate Station\"),\n        (\"Twilight Harbor\", \"Haven Docks\"),\n        (\"Twilight Harbor\", \"Knight’s Market\"),\n        (\"Northwind Tower\", \"Lunar Pier\"),\n        (\"Sapphire Arena\", \"Lunar Pier\"),\n        (\"Sapphire Arena\", \"Knight’s Market\"),\n        (\"Westgate Station\", \"Beacon Tower\"),\n        (\"Westgate Station\", \"Haven Docks\"),\n        (\"Westgate Station\", \"Lunar Pier\"),\n        (\"Westgate Station\", \"Knight’s Market\"),\n        (\"Beacon Tower\", \"Knight’s Market\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 25,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Shadowbridge Arcade",
+   "Westgate Station",
+   "Cobalt Market",
+   "Nimbus Plaza",
+   "Granite Plaza",
+   "Willowshade Pavilion",
+   "Sapphire Arena",
+   "Opal Theater"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Westgate Station": 2,
+     "Cobalt Market": 1,
+     "Nimbus Plaza": 3,
+     "Granite Plaza": 1,
+     "Willowshade Pavilion": 4,
+     "Sapphire Arena": 3,
+     "Opal Theater": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Westgate Station": 2,
+     "Cobalt Market": 1,
+     "Nimbus Plaza": 3,
+     "Granite Plaza": 1,
+     "Willowshade Pavilion": 4,
+     "Sapphire Arena": 1,
+     "Opal Theater": 5
+    },
+    "min_colors": 5,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 2,
+     "Westgate Station": 1,
+     "Cobalt Market": 1,
+     "Nimbus Plaza": 2,
+     "Granite Plaza": 2,
+     "Willowshade Pavilion": 3,
+     "Sapphire Arena": 2,
+     "Opal Theater": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Shadowbridge Arcade\",\n        \"Westgate Station\",\n        \"Cobalt Market\",\n        \"Nimbus Plaza\",\n        \"Granite Plaza\",\n        \"Willowshade Pavilion\",\n        \"Sapphire Arena\",\n        \"Opal Theater\"\n    ],\n    \"edges\": [\n        (\"Shadowbridge Arcade\", \"Westgate Station\"),\n        (\"Westgate Station\", \"Nimbus Plaza\"),\n        (\"Westgate Station\", \"Granite Plaza\"),\n        (\"Westgate Station\", \"Willowshade Pavilion\"),\n        (\"Westgate Station\", \"Sapphire Arena\"),\n        (\"Westgate Station\", \"Opal Theater\"),\n        (\"Cobalt Market\", \"Nimbus Plaza\"),\n        (\"Nimbus Plaza\", \"Willowshade Pavilion\"),\n        (\"Nimbus Plaza\", \"Opal Theater\"),\n        (\"Granite Plaza\", \"Willowshade Pavilion\"),\n        (\"Willowshade Pavilion\", \"Opal Theater\"),\n        (\"Sapphire Arena\", \"Opal Theater\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 26,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Haven Docks",
+   "Quartz District",
+   "Evergreen Circle",
+   "Azure Gardens",
+   "Moonlit Promenade",
+   "Lunar Pier",
+   "Pennywhistle Arcade",
+   "Primrose Boulevard"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Haven Docks": 1,
+     "Quartz District": 2,
+     "Evergreen Circle": 2,
+     "Azure Gardens": 3,
+     "Moonlit Promenade": 2,
+     "Lunar Pier": 1,
+     "Pennywhistle Arcade": 3,
+     "Primrose Boulevard": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Haven Docks": 1,
+     "Quartz District": 2,
+     "Evergreen Circle": 1,
+     "Azure Gardens": 2,
+     "Moonlit Promenade": 3,
+     "Lunar Pier": 1,
+     "Pennywhistle Arcade": 3,
+     "Primrose Boulevard": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Haven Docks": 2,
+     "Quartz District": 3,
+     "Evergreen Circle": 3,
+     "Azure Gardens": 1,
+     "Moonlit Promenade": 3,
+     "Lunar Pier": 2,
+     "Pennywhistle Arcade": 1,
+     "Primrose Boulevard": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Haven Docks\",\n        \"Quartz District\",\n        \"Evergreen Circle\",\n        \"Azure Gardens\",\n        \"Moonlit Promenade\",\n        \"Lunar Pier\",\n        \"Pennywhistle Arcade\",\n        \"Primrose Boulevard\"\n    ],\n    \"edges\": [\n        (\"Haven Docks\", \"Quartz District\"),\n        (\"Haven Docks\", \"Moonlit Promenade\"),\n        (\"Haven Docks\", \"Pennywhistle Arcade\"),\n        (\"Quartz District\", \"Pennywhistle Arcade\"),\n        (\"Evergreen Circle\", \"Azure Gardens\"),\n        (\"Evergreen Circle\", \"Pennywhistle Arcade\"),\n        (\"Evergreen Circle\", \"Primrose Boulevard\"),\n        (\"Azure Gardens\", \"Moonlit Promenade\"),\n        (\"Azure Gardens\", \"Lunar Pier\"),\n        (\"Azure Gardens\", \"Primrose Boulevard\"),\n        (\"Moonlit Promenade\", \"Primrose Boulevard\"),\n        (\"Pennywhistle Arcade\", \"Primrose Boulevard\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 27,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Pennywhistle Arcade",
+   "Amber Plaza",
+   "Velvet Corner",
+   "Ironbridge Crossing",
+   "Quarry Point",
+   "Evergreen Circle",
+   "Jasper Marina",
+   "Union Square Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Amber Plaza": 2,
+     "Velvet Corner": 3,
+     "Ironbridge Crossing": 1,
+     "Quarry Point": 1,
+     "Evergreen Circle": 2,
+     "Jasper Marina": 3,
+     "Union Square Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Amber Plaza": 2,
+     "Velvet Corner": 3,
+     "Ironbridge Crossing": 1,
+     "Quarry Point": 1,
+     "Evergreen Circle": 2,
+     "Jasper Marina": 3,
+     "Union Square Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Amber Plaza": 3,
+     "Velvet Corner": 2,
+     "Ironbridge Crossing": 1,
+     "Quarry Point": 1,
+     "Evergreen Circle": 2,
+     "Jasper Marina": 2,
+     "Union Square Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Pennywhistle Arcade\",\n        \"Amber Plaza\",\n        \"Velvet Corner\",\n        \"Ironbridge Crossing\",\n        \"Quarry Point\",\n        \"Evergreen Circle\",\n        \"Jasper Marina\",\n        \"Union Square Market\"\n    ],\n    \"edges\": [\n        (\"Pennywhistle Arcade\", \"Amber Plaza\"),\n        (\"Pennywhistle Arcade\", \"Velvet Corner\"),\n        (\"Pennywhistle Arcade\", \"Evergreen Circle\"),\n        (\"Pennywhistle Arcade\", \"Jasper Marina\"),\n        (\"Amber Plaza\", \"Velvet Corner\"),\n        (\"Amber Plaza\", \"Jasper Marina\"),\n        (\"Velvet Corner\", \"Ironbridge Crossing\"),\n        (\"Velvet Corner\", \"Quarry Point\"),\n        (\"Ironbridge Crossing\", \"Evergreen Circle\"),\n        (\"Ironbridge Crossing\", \"Union Square Market\"),\n        (\"Quarry Point\", \"Union Square Market\"),\n        (\"Evergreen Circle\", \"Union Square Market\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 28,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Jade Fountain",
+   "Flare Alley",
+   "Cobalt Market",
+   "Union Square Market",
+   "Gilded Archway",
+   "Quartz District",
+   "Pennywhistle Arcade",
+   "Ivory Spire Cathedral"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Flare Alley": 2,
+     "Cobalt Market": 2,
+     "Union Square Market": 1,
+     "Gilded Archway": 1,
+     "Quartz District": 3,
+     "Pennywhistle Arcade": 3,
+     "Ivory Spire Cathedral": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Flare Alley": 2,
+     "Cobalt Market": 1,
+     "Union Square Market": 3,
+     "Gilded Archway": 1,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 4,
+     "Ivory Spire Cathedral": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Jade Fountain": 2,
+     "Flare Alley": 1,
+     "Cobalt Market": 1,
+     "Union Square Market": 2,
+     "Gilded Archway": 2,
+     "Quartz District": 3,
+     "Pennywhistle Arcade": 3,
+     "Ivory Spire Cathedral": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Jade Fountain\",\n        \"Flare Alley\",\n        \"Cobalt Market\",\n        \"Union Square Market\",\n        \"Gilded Archway\",\n        \"Quartz District\",\n        \"Pennywhistle Arcade\",\n        \"Ivory Spire Cathedral\"\n    ],\n    \"edges\": [\n        (\"Jade Fountain\", \"Flare Alley\"),\n        (\"Jade Fountain\", \"Pennywhistle Arcade\"),\n        (\"Flare Alley\", \"Union Square Market\"),\n        (\"Flare Alley\", \"Gilded Archway\"),\n        (\"Flare Alley\", \"Quartz District\"),\n        (\"Flare Alley\", \"Pennywhistle Arcade\"),\n        (\"Flare Alley\", \"Ivory Spire Cathedral\"),\n        (\"Cobalt Market\", \"Union Square Market\"),\n        (\"Cobalt Market\", \"Ivory Spire Cathedral\"),\n        (\"Union Square Market\", \"Quartz District\"),\n        (\"Union Square Market\", \"Pennywhistle Arcade\"),\n        (\"Union Square Market\", \"Ivory Spire Cathedral\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 29,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Dragon’s Gate",
+   "Maplewood Conservatory",
+   "Flare Alley",
+   "Knight’s Market",
+   "Amber Plaza",
+   "Beacon Tower",
+   "Pennywhistle Arcade",
+   "Granite Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Flare Alley": 1,
+     "Knight’s Market": 3,
+     "Amber Plaza": 1,
+     "Beacon Tower": 2,
+     "Pennywhistle Arcade": 3,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Flare Alley": 1,
+     "Knight’s Market": 3,
+     "Amber Plaza": 1,
+     "Beacon Tower": 2,
+     "Pennywhistle Arcade": 3,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Flare Alley": 1,
+     "Knight’s Market": 3,
+     "Amber Plaza": 1,
+     "Beacon Tower": 2,
+     "Pennywhistle Arcade": 3,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Dragon's Gate\",\n        \"Maplewood Conservatory\",\n        \"Flare Alley\",\n        \"Knight's Market\",\n        \"Amber Plaza\",\n        \"Beacon Tower\",\n        \"Pennywhistle Arcade\",\n        \"Granite Plaza\"\n    ],\n    \"edges\": [\n        (\"Dragon's Gate\", \"Maplewood Conservatory\"),\n        (\"Dragon's Gate\", \"Knight's Market\"),\n        (\"Dragon's Gate\", \"Beacon Tower\"),\n        (\"Dragon's Gate\", \"Pennywhistle Arcade\"),\n        (\"Maplewood Conservatory\", \"Flare Alley\"),\n        (\"Maplewood Conservatory\", \"Knight's Market\"),\n        (\"Maplewood Conservatory\", \"Pennywhistle Arcade\"),\n        (\"Flare Alley\", \"Beacon Tower\"),\n        (\"Knight's Market\", \"Amber Plaza\"),\n        (\"Amber Plaza\", \"Beacon Tower\"),\n        (\"Amber Plaza\", \"Pennywhistle Arcade\"),\n        (\"Pennywhistle Arcade\", \"Granite Plaza\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 30,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Velvet Corner",
+   "Sapphire Arena",
+   "Skyline Gardens",
+   "Moonlit Promenade",
+   "Lighthouse Point",
+   "Rosewood Hall",
+   "Pennywhistle Arcade",
+   "Silvercrest Observatory"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Sapphire Arena": 1,
+     "Skyline Gardens": 2,
+     "Moonlit Promenade": 3,
+     "Lighthouse Point": 3,
+     "Rosewood Hall": 1,
+     "Pennywhistle Arcade": 3,
+     "Silvercrest Observatory": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Sapphire Arena": 1,
+     "Skyline Gardens": 2,
+     "Moonlit Promenade": 3,
+     "Lighthouse Point": 3,
+     "Rosewood Hall": 1,
+     "Pennywhistle Arcade": 3,
+     "Silvercrest Observatory": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Sapphire Arena": 3,
+     "Skyline Gardens": 1,
+     "Moonlit Promenade": 2,
+     "Lighthouse Point": 2,
+     "Rosewood Hall": 3,
+     "Pennywhistle Arcade": 2,
+     "Silvercrest Observatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Velvet Corner\",\n        \"Sapphire Arena\",\n        \"Skyline Gardens\",\n        \"Moonlit Promenade\",\n        \"Lighthouse Point\",\n        \"Rosewood Hall\",\n        \"Pennywhistle Arcade\",\n        \"Silvercrest Observatory\"\n    ],\n    \"edges\": [\n        (\"Velvet Corner\", \"Lighthouse Point\"),\n        (\"Velvet Corner\", \"Pennywhistle Arcade\"),\n        (\"Velvet Corner\", \"Silvercrest Observatory\"),\n        (\"Sapphire Arena\", \"Skyline Gardens\"),\n        (\"Sapphire Arena\", \"Moonlit Promenade\"),\n        (\"Sapphire Arena\", \"Lighthouse Point\"),\n        (\"Skyline Gardens\", \"Moonlit Promenade\"),\n        (\"Skyline Gardens\", \"Lighthouse Point\"),\n        (\"Skyline Gardens\", \"Rosewood Hall\"),\n        (\"Skyline Gardens\", \"Pennywhistle Arcade\"),\n        (\"Moonlit Promenade\", \"Rosewood Hall\"),\n        (\"Moonlit Promenade\", \"Silvercrest Observatory\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 31,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Zenith Arena",
+   "Pennywhistle Arcade",
+   "Haven Docks",
+   "Amber Plaza",
+   "Lunar Pier",
+   "Quartz District",
+   "Oakshade Library",
+   "Willowshade Pavilion"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Zenith Arena": 1,
+     "Pennywhistle Arcade": 2,
+     "Haven Docks": 1,
+     "Amber Plaza": 2,
+     "Lunar Pier": 1,
+     "Quartz District": 1,
+     "Oakshade Library": 3,
+     "Willowshade Pavilion": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Zenith Arena": 1,
+     "Pennywhistle Arcade": 2,
+     "Haven Docks": 1,
+     "Amber Plaza": 1,
+     "Lunar Pier": 1,
+     "Quartz District": 3,
+     "Oakshade Library": 3,
+     "Willowshade Pavilion": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Zenith Arena": 3,
+     "Pennywhistle Arcade": 2,
+     "Haven Docks": 3,
+     "Amber Plaza": 2,
+     "Lunar Pier": 2,
+     "Quartz District": 1,
+     "Oakshade Library": 1,
+     "Willowshade Pavilion": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Zenith Arena\",\n        \"Pennywhistle Arcade\",\n        \"Haven Docks\",\n        \"Amber Plaza\",\n        \"Lunar Pier\",\n        \"Quartz District\",\n        \"Oakshade Library\",\n        \"Willowshade Pavilion\"\n    ],\n    \"edges\": [\n        (\"Zenith Arena\", \"Pennywhistle Arcade\"),\n        (\"Zenith Arena\", \"Oakshade Library\"),\n        (\"Pennywhistle Arcade\", \"Haven Docks\"),\n        (\"Pennywhistle Arcade\", \"Quartz District\"),\n        (\"Pennywhistle Arcade\", \"Oakshade Library\"),\n        (\"Pennywhistle Arcade\", \"Willowshade Pavilion\"),\n        (\"Haven Docks\", \"Oakshade Library\"),\n        (\"Amber Plaza\", \"Quartz District\"),\n        (\"Amber Plaza\", \"Oakshade Library\"),\n        (\"Amber Plaza\", \"Willowshade Pavilion\"),\n        (\"Lunar Pier\", \"Oakshade Library\"),\n        (\"Oakshade Library\", \"Willowshade Pavilion\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 32,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Silvercrest Observatory",
+   "Rosewood Hall",
+   "Zenith Arena",
+   "Lunar Pier",
+   "Nimbus Plaza",
+   "Maplewood Conservatory",
+   "Echo Station",
+   "Pennywhistle Arcade"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Silvercrest Observatory": 1,
+     "Rosewood Hall": 2,
+     "Zenith Arena": 1,
+     "Lunar Pier": 3,
+     "Nimbus Plaza": 1,
+     "Maplewood Conservatory": 2,
+     "Echo Station": 3,
+     "Pennywhistle Arcade": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Silvercrest Observatory": 1,
+     "Rosewood Hall": 2,
+     "Zenith Arena": 1,
+     "Lunar Pier": 3,
+     "Nimbus Plaza": 1,
+     "Maplewood Conservatory": 2,
+     "Echo Station": 3,
+     "Pennywhistle Arcade": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Silvercrest Observatory": 2,
+     "Rosewood Hall": 1,
+     "Zenith Arena": 2,
+     "Lunar Pier": 3,
+     "Nimbus Plaza": 2,
+     "Maplewood Conservatory": 1,
+     "Echo Station": 3,
+     "Pennywhistle Arcade": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Silvercrest Observatory\",\n        \"Rosewood Hall\",\n        \"Zenith Arena\",\n        \"Lunar Pier\",\n        \"Nimbus Plaza\",\n        \"Maplewood Conservatory\",\n        \"Echo Station\",\n        \"Pennywhistle Arcade\"\n    ],\n    \"edges\": [\n        (\"Silvercrest Observatory\", \"Rosewood Hall\"),\n        (\"Silvercrest Observatory\", \"Lunar Pier\"),\n        (\"Rosewood Hall\", \"Zenith Arena\"),\n        (\"Rosewood Hall\", \"Lunar Pier\"),\n        (\"Rosewood Hall\", \"Nimbus Plaza\"),\n        (\"Zenith Arena\", \"Maplewood Conservatory\"),\n        (\"Zenith Arena\", \"Echo Station\"),\n        (\"Zenith Arena\", \"Pennywhistle Arcade\"),\n        (\"Nimbus Plaza\", \"Maplewood Conservatory\"),\n        (\"Nimbus Plaza\", \"Pennywhistle Arcade\"),\n        (\"Maplewood Conservatory\", \"Echo Station\"),\n        (\"Echo Station\", \"Pennywhistle Arcade\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 33,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Duskwood Park",
+   "Dragon’s Gate",
+   "Maplewood Conservatory",
+   "Northwind Tower",
+   "Umbra Theater",
+   "Flare Alley",
+   "King’s Row",
+   "Evergreen Circle"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Northwind Tower": 2,
+     "Umbra Theater": 1,
+     "Flare Alley": 3,
+     "King’s Row": 3,
+     "Evergreen Circle": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Northwind Tower": 2,
+     "Umbra Theater": 1,
+     "Flare Alley": 3,
+     "King’s Row": 3,
+     "Evergreen Circle": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Duskwood Park": 2,
+     "Dragon’s Gate": 2,
+     "Maplewood Conservatory": 1,
+     "Northwind Tower": 1,
+     "Umbra Theater": 3,
+     "Flare Alley": 3,
+     "King’s Row": 2,
+     "Evergreen Circle": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can extract the graph structure for the public Wi-Fi network as follows:\n\n1. **Nodes**: The nodes represent the Wi-Fi base stations located at the major public areas. Here are the nodes:\n   - Duskwood Park\n   - Dragon’s Gate\n   - Maplewood Conservatory\n   - Northwind Tower\n   - Umbra Theater\n   - Flare Alley\n   - King’s Row\n   - Evergreen Circle\n\n   Since there are 8 distinct locations, we list them individually without grouping.\n\n2. **Edges**: The edges represent the overlapping signal areas between the base stations, which can cause interference. The edges are as follows:\n   - (\"Duskwood Park\", \"Maplewood Conservatory\")\n   - (\"Duskwood Park\", \"Northwind Tower\")\n   - (\"Duskwood Park\", \"Flare Alley\")\n   - (\"Duskwood Park\", \"Evergreen Circle\")\n   - (\"Dragon’s Gate\", \"Evergreen Circle\")\n   - (\"Maplewood Conservatory\", \"King’s Row\")\n   - (\"Northwind Tower\", \"Flare Alley\")\n   - (\"Northwind Tower\", \"King’s Row\")\n   - (\"Umbra Theater\", \"King’s Row\")\n   - (\"Umbra Theater\", \"Evergreen Circle\")\n   - (\"Flare Alley\", \"Evergreen Circle\")\n   - (\"King’s Row\", \"Evergreen Circle\")\n\n   These edges are listed as tuples representing the connections between the nodes.\n\n3. **Graph Type**: The graph is undirected because the overlapping signal areas imply a mutual relationship between the base stations, and it is unweighted since no specific weights or distances are provided for the edges.\n\nHere is the complete graph structure information in the specified format:\n\n```json\n{\n    \"nodes\": [\n        \"Duskwood Park\",\n        \"Dragon’s Gate\",\n        \"Maplewood Conservatory\",\n        \"Northwind Tower\",\n        \"Umbra Theater\",\n        \"Flare Alley\",\n        \"King’s Row\",\n        \"Evergreen Circle\"\n    ],\n    \"edges\": [\n        (\"Duskwood Park\", \"Maplewood Conservatory\"),\n        (\"Duskwood Park\", \"Northwind Tower\"),\n        (\"Duskwood Park\", \"Flare Alley\"),\n        (\"Duskwood Park\", \"Evergreen Circle\"),\n        (\"Dragon’s Gate\", \"Evergreen Circle\"),\n        (\"Maplewood Conservatory\", \"King’s Row\"),\n        (\"Northwind Tower\", \"Flare Alley\"),\n        (\"Northwind Tower\", \"King’s Row\"),\n        (\"Umbra Theater\", \"King’s Row\"),\n        (\"Umbra Theater\", \"Evergreen Circle\"),\n        (\"Flare Alley\", \"Evergreen Circle\"),\n        (\"King’s Row\", \"Evergreen Circle\")\n    ],\n    \"graph_type\": \"undirected\"\n}\n``` \n\nThis structure provides a clear representation of the Wi-Fi network's layout and the relationships between the base stations, which can be used to devise a frequency allocation strategy that minimizes interference."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 34,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lighthouse Point",
+   "Ironbridge Crossing",
+   "Echo Station",
+   "Oakshade Library",
+   "Umbra Theater",
+   "Westgate Station",
+   "Jade Fountain",
+   "Jasper Marina"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Ironbridge Crossing": 1,
+     "Echo Station": 2,
+     "Oakshade Library": 1,
+     "Umbra Theater": 2,
+     "Westgate Station": 3,
+     "Jade Fountain": 1,
+     "Jasper Marina": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Ironbridge Crossing": 1,
+     "Echo Station": 2,
+     "Oakshade Library": 1,
+     "Umbra Theater": 2,
+     "Westgate Station": 3,
+     "Jade Fountain": 1,
+     "Jasper Marina": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lighthouse Point": 2,
+     "Ironbridge Crossing": 3,
+     "Echo Station": 1,
+     "Oakshade Library": 2,
+     "Umbra Theater": 1,
+     "Westgate Station": 2,
+     "Jade Fountain": 3,
+     "Jasper Marina": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Lighthouse Point\",\n        \"Ironbridge Crossing\",\n        \"Echo Station\",\n        \"Oakshade Library\",\n        \"Umbra Theater\",\n        \"Westgate Station\",\n        \"Jade Fountain\",\n        \"Jasper Marina\"\n    ],\n    \"edges\": [\n        (\"Lighthouse Point\", \"Echo Station\"),\n        (\"Ironbridge Crossing\", \"Echo Station\"),\n        (\"Ironbridge Crossing\", \"Umbra Theater\"),\n        (\"Ironbridge Crossing\", \"Westgate Station\"),\n        (\"Echo Station\", \"Oakshade Library\"),\n        (\"Echo Station\", \"Westgate Station\"),\n        (\"Echo Station\", \"Jade Fountain\"),\n        (\"Oakshade Library\", \"Umbra Theater\"),\n        (\"Umbra Theater\", \"Westgate Station\"),\n        (\"Umbra Theater\", \"Jasper Marina\"),\n        (\"Westgate Station\", \"Jade Fountain\"),\n        (\"Jade Fountain\", \"Jasper Marina\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 35,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quartz District",
+   "Yarrow Plaza",
+   "Mosaic Plaza",
+   "Temple Square",
+   "Evergreen Circle",
+   "Pennywhistle Arcade",
+   "Sapphire Arena",
+   "Maplewood Conservatory"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Yarrow Plaza": 2,
+     "Mosaic Plaza": 2,
+     "Temple Square": 3,
+     "Evergreen Circle": 2,
+     "Pennywhistle Arcade": 1,
+     "Sapphire Arena": 2,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Yarrow Plaza": 2,
+     "Mosaic Plaza": 2,
+     "Temple Square": 3,
+     "Evergreen Circle": 2,
+     "Pennywhistle Arcade": 1,
+     "Sapphire Arena": 2,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Yarrow Plaza": 2,
+     "Mosaic Plaza": 2,
+     "Temple Square": 3,
+     "Evergreen Circle": 2,
+     "Pennywhistle Arcade": 1,
+     "Sapphire Arena": 2,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Quartz District\",\n        \"Yarrow Plaza\",\n        \"Mosaic Plaza\",\n        \"Temple Square\",\n        \"Evergreen Circle\",\n        \"Pennywhistle Arcade\",\n        \"Sapphire Arena\",\n        \"Maplewood Conservatory\"\n    ],\n    \"edges\": [\n        (\"Quartz District\", \"Yarrow Plaza\"),\n        (\"Quartz District\", \"Mosaic Plaza\"),\n        (\"Quartz District\", \"Temple Square\"),\n        (\"Quartz District\", \"Evergreen Circle\"),\n        (\"Quartz District\", \"Maplewood Conservatory\"),\n        (\"Yarrow Plaza\", \"Pennywhistle Arcade\"),\n        (\"Yarrow Plaza\", \"Maplewood Conservatory\"),\n        (\"Mosaic Plaza\", \"Temple Square\"),\n        (\"Mosaic Plaza\", \"Pennywhistle Arcade\"),\n        (\"Temple Square\", \"Sapphire Arena\"),\n        (\"Evergreen Circle\", \"Pennywhistle Arcade\"),\n        (\"Pennywhistle Arcade\", \"Sapphire Arena\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 36,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "King’s Row",
+   "Sapphire Arena",
+   "Gilded Archway",
+   "Quartz District",
+   "Pennywhistle Arcade",
+   "Haven Docks",
+   "Flint Forge Quarter",
+   "Velvet Corner"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Sapphire Arena": 2,
+     "Gilded Archway": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Haven Docks": 3,
+     "Flint Forge Quarter": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Sapphire Arena": 2,
+     "Gilded Archway": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Haven Docks": 3,
+     "Flint Forge Quarter": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Sapphire Arena": 2,
+     "Gilded Archway": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Haven Docks": 3,
+     "Flint Forge Quarter": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"King's Row\",\n        \"Sapphire Arena\",\n        \"Gilded Archway\",\n        \"Quartz District\",\n        \"Pennywhistle Arcade\",\n        \"Haven Docks\",\n        \"Flint Forge Quarter\",\n        \"Velvet Corner\"\n    ],\n    \"edges\": [\n        (\"King's Row\", \"Sapphire Arena\"),\n        (\"King's Row\", \"Gilded Archway\"),\n        (\"King's Row\", \"Pennywhistle Arcade\"),\n        (\"King's Row\", \"Flint Forge Quarter\"),\n        (\"Sapphire Arena\", \"Quartz District\"),\n        (\"Sapphire Arena\", \"Pennywhistle Arcade\"),\n        (\"Sapphire Arena\", \"Flint Forge Quarter\"),\n        (\"Gilded Archway\", \"Pennywhistle Arcade\"),\n        (\"Gilded Archway\", \"Haven Docks\"),\n        (\"Gilded Archway\", \"Flint Forge Quarter\"),\n        (\"Quartz District\", \"Pennywhistle Arcade\"),\n        (\"Quartz District\", \"Haven Docks\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 37,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Jade Fountain",
+   "Brass Lantern Tavern",
+   "Lunar Pier",
+   "Sapphire Arena",
+   "Mosaic Plaza",
+   "Pennywhistle Arcade",
+   "Dragon’s Gate",
+   "Granite Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Brass Lantern Tavern": 2,
+     "Lunar Pier": 1,
+     "Sapphire Arena": 3,
+     "Mosaic Plaza": 1,
+     "Pennywhistle Arcade": 2,
+     "Dragon’s Gate": 2,
+     "Granite Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Brass Lantern Tavern": 2,
+     "Lunar Pier": 1,
+     "Sapphire Arena": 3,
+     "Mosaic Plaza": 1,
+     "Pennywhistle Arcade": 2,
+     "Dragon’s Gate": 2,
+     "Granite Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Jade Fountain": 3,
+     "Brass Lantern Tavern": 1,
+     "Lunar Pier": 2,
+     "Sapphire Arena": 2,
+     "Mosaic Plaza": 2,
+     "Pennywhistle Arcade": 1,
+     "Dragon’s Gate": 3,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Jade Fountain\",\n        \"Brass Lantern Tavern\",\n        \"Lunar Pier\",\n        \"Sapphire Arena\",\n        \"Mosaic Plaza\",\n        \"Pennywhistle Arcade\",\n        \"Dragon’s Gate\",\n        \"Granite Plaza\"\n    ],\n    \"edges\": [\n        (\"Jade Fountain\", \"Brass Lantern Tavern\"),\n        (\"Jade Fountain\", \"Sapphire Arena\"),\n        (\"Brass Lantern Tavern\", \"Lunar Pier\"),\n        (\"Brass Lantern Tavern\", \"Sapphire Arena\"),\n        (\"Brass Lantern Tavern\", \"Mosaic Plaza\"),\n        (\"Lunar Pier\", \"Pennywhistle Arcade\"),\n        (\"Lunar Pier\", \"Granite Plaza\"),\n        (\"Sapphire Arena\", \"Pennywhistle Arcade\"),\n        (\"Mosaic Plaza\", \"Pennywhistle Arcade\"),\n        (\"Mosaic Plaza\", \"Dragon’s Gate\"),\n        (\"Mosaic Plaza\", \"Granite Plaza\"),\n        (\"Dragon’s Gate\", \"Granite Plaza\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 38,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Velvet Corner",
+   "Umbra Theater",
+   "Granite Plaza",
+   "Evergreen Circle",
+   "Azure Gardens",
+   "Yarrow Plaza",
+   "Dragon’s Gate"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Umbra Theater": 1,
+     "Granite Plaza": 3,
+     "Evergreen Circle": 2,
+     "Azure Gardens": 2,
+     "Yarrow Plaza": 1,
+     "Dragon’s Gate": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Umbra Theater": 1,
+     "Granite Plaza": 3,
+     "Evergreen Circle": 2,
+     "Azure Gardens": 2,
+     "Yarrow Plaza": 1,
+     "Dragon’s Gate": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Umbra Theater": 1,
+     "Granite Plaza": 3,
+     "Evergreen Circle": 2,
+     "Azure Gardens": 2,
+     "Yarrow Plaza": 1,
+     "Dragon’s Gate": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Primrose Boulevard\",\n        \"Velvet Corner\",\n        \"Umbra Theater\",\n        \"Granite Plaza\",\n        \"Evergreen Circle\",\n        \"Azure Gardens\",\n        \"Yarrow Plaza\",\n        \"Dragon’s Gate\"\n    ],\n    \"edges\": [\n        (\"Primrose Boulevard\", \"Velvet Corner\"),\n        (\"Primrose Boulevard\", \"Granite Plaza\"),\n        (\"Primrose Boulevard\", \"Evergreen Circle\"),\n        (\"Primrose Boulevard\", \"Azure Gardens\"),\n        (\"Velvet Corner\", \"Granite Plaza\"),\n        (\"Velvet Corner\", \"Yarrow Plaza\"),\n        (\"Velvet Corner\", \"Dragon’s Gate\"),\n        (\"Umbra Theater\", \"Granite Plaza\"),\n        (\"Umbra Theater\", \"Evergreen Circle\"),\n        (\"Evergreen Circle\", \"Yarrow Plaza\"),\n        (\"Evergreen Circle\", \"Dragon’s Gate\"),\n        (\"Azure Gardens\", \"Dragon’s Gate\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 39,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Willowshade Pavilion",
+   "Skyline Gardens",
+   "Horizon Mall",
+   "Opal Theater",
+   "Lighthouse Point",
+   "Ironbridge Crossing",
+   "Zenith Arena",
+   "Maplewood Conservatory"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 1,
+     "Skyline Gardens": 2,
+     "Horizon Mall": 2,
+     "Opal Theater": 1,
+     "Lighthouse Point": 2,
+     "Ironbridge Crossing": 3,
+     "Zenith Arena": 3,
+     "Maplewood Conservatory": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 1,
+     "Skyline Gardens": 1,
+     "Horizon Mall": 1,
+     "Opal Theater": 2,
+     "Lighthouse Point": 3,
+     "Ironbridge Crossing": 4,
+     "Zenith Arena": 1,
+     "Maplewood Conservatory": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 3,
+     "Skyline Gardens": 1,
+     "Horizon Mall": 1,
+     "Opal Theater": 3,
+     "Lighthouse Point": 1,
+     "Ironbridge Crossing": 2,
+     "Zenith Arena": 2,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Willowshade Pavilion\",\n        \"Skyline Gardens\",\n        \"Horizon Mall\",\n        \"Opal Theater\",\n        \"Lighthouse Point\",\n        \"Ironbridge Crossing\",\n        \"Zenith Arena\",\n        \"Maplewood Conservatory\"\n    ],\n    \"edges\": [\n        (\"Willowshade Pavilion\", \"Lighthouse Point\"),\n        (\"Willowshade Pavilion\", \"Ironbridge Crossing\"),\n        (\"Skyline Gardens\", \"Opal Theater\"),\n        (\"Skyline Gardens\", \"Ironbridge Crossing\"),\n        (\"Horizon Mall\", \"Opal Theater\"),\n        (\"Opal Theater\", \"Lighthouse Point\"),\n        (\"Opal Theater\", \"Ironbridge Crossing\"),\n        (\"Lighthouse Point\", \"Ironbridge Crossing\"),\n        (\"Lighthouse Point\", \"Zenith Arena\"),\n        (\"Lighthouse Point\", \"Maplewood Conservatory\"),\n        (\"Ironbridge Crossing\", \"Maplewood Conservatory\"),\n        (\"Zenith Arena\", \"Maplewood Conservatory\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 40,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Velvet Corner",
+   "Rosewood Hall",
+   "Flint Forge Quarter",
+   "Evergreen Circle",
+   "Oakshade Library",
+   "Gilded Archway",
+   "Union Square Market",
+   "Knight’s Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Rosewood Hall": 2,
+     "Flint Forge Quarter": 2,
+     "Evergreen Circle": 2,
+     "Oakshade Library": 3,
+     "Gilded Archway": 3,
+     "Union Square Market": 1,
+     "Knight’s Market": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Rosewood Hall": 1,
+     "Flint Forge Quarter": 1,
+     "Evergreen Circle": 2,
+     "Oakshade Library": 3,
+     "Gilded Archway": 2,
+     "Union Square Market": 4,
+     "Knight’s Market": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Velvet Corner": 3,
+     "Rosewood Hall": 1,
+     "Flint Forge Quarter": 1,
+     "Evergreen Circle": 1,
+     "Oakshade Library": 2,
+     "Gilded Archway": 2,
+     "Union Square Market": 3,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Velvet Corner\",\n        \"Rosewood Hall\",\n        \"Flint Forge Quarter\",\n        \"Evergreen Circle\",\n        \"Oakshade Library\",\n        \"Gilded Archway\",\n        \"Union Square Market\",\n        \"Knight’s Market\"\n    ],\n    \"edges\": [\n        (\"Velvet Corner\", \"Evergreen Circle\"),\n        (\"Velvet Corner\", \"Oakshade Library\"),\n        (\"Rosewood Hall\", \"Gilded Archway\"),\n        (\"Rosewood Hall\", \"Union Square Market\"),\n        (\"Rosewood Hall\", \"Knight’s Market\"),\n        (\"Flint Forge Quarter\", \"Union Square Market\"),\n        (\"Evergreen Circle\", \"Oakshade Library\"),\n        (\"Evergreen Circle\", \"Union Square Market\"),\n        (\"Evergreen Circle\", \"Knight’s Market\"),\n        (\"Oakshade Library\", \"Union Square Market\"),\n        (\"Oakshade Library\", \"Knight’s Market\"),\n        (\"Gilded Archway\", \"Knight’s Market\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 41,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Duskwood Park",
+   "Opal Theater",
+   "Pennywhistle Arcade",
+   "Copper Clock Square",
+   "Ironbridge Crossing",
+   "Oakshade Library",
+   "Velvet Corner",
+   "Jade Fountain"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Opal Theater": 2,
+     "Pennywhistle Arcade": 1,
+     "Copper Clock Square": 2,
+     "Ironbridge Crossing": 2,
+     "Oakshade Library": 3,
+     "Velvet Corner": 1,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Opal Theater": 2,
+     "Pennywhistle Arcade": 1,
+     "Copper Clock Square": 2,
+     "Ironbridge Crossing": 2,
+     "Oakshade Library": 3,
+     "Velvet Corner": 1,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Opal Theater": 2,
+     "Pennywhistle Arcade": 1,
+     "Copper Clock Square": 2,
+     "Ironbridge Crossing": 2,
+     "Oakshade Library": 3,
+     "Velvet Corner": 1,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Duskwood Park\",\n        \"Opal Theater\",\n        \"Pennywhistle Arcade\",\n        \"Copper Clock Square\",\n        \"Ironbridge Crossing\",\n        \"Oakshade Library\",\n        \"Velvet Corner\",\n        \"Jade Fountain\"\n    ],\n    \"edges\": [\n        (\"Duskwood Park\", \"Opal Theater\"),\n        (\"Duskwood Park\", \"Oakshade Library\"),\n        (\"Duskwood Park\", \"Jade Fountain\"),\n        (\"Opal Theater\", \"Pennywhistle Arcade\"),\n        (\"Opal Theater\", \"Velvet Corner\"),\n        (\"Pennywhistle Arcade\", \"Copper Clock Square\"),\n        (\"Pennywhistle Arcade\", \"Ironbridge Crossing\"),\n        (\"Pennywhistle Arcade\", \"Oakshade Library\"),\n        (\"Pennywhistle Arcade\", \"Jade Fountain\"),\n        (\"Copper Clock Square\", \"Oakshade Library\"),\n        (\"Copper Clock Square\", \"Velvet Corner\"),\n        (\"Copper Clock Square\", \"Jade Fountain\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 42,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Yarrow Plaza",
+   "Skyline Gardens",
+   "Jasper Marina",
+   "Haven Docks",
+   "Azure Gardens",
+   "Silvercrest Observatory",
+   "Rosewood Hall",
+   "Lunar Pier"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Skyline Gardens": 1,
+     "Jasper Marina": 2,
+     "Haven Docks": 2,
+     "Azure Gardens": 2,
+     "Silvercrest Observatory": 3,
+     "Rosewood Hall": 3,
+     "Lunar Pier": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Skyline Gardens": 1,
+     "Jasper Marina": 2,
+     "Haven Docks": 2,
+     "Azure Gardens": 2,
+     "Silvercrest Observatory": 3,
+     "Rosewood Hall": 3,
+     "Lunar Pier": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Skyline Gardens": 1,
+     "Jasper Marina": 2,
+     "Haven Docks": 2,
+     "Azure Gardens": 2,
+     "Silvercrest Observatory": 3,
+     "Rosewood Hall": 3,
+     "Lunar Pier": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Yarrow Plaza\",\n        \"Skyline Gardens\",\n        \"Jasper Marina\",\n        \"Haven Docks\",\n        \"Azure Gardens\",\n        \"Silvercrest Observatory\",\n        \"Rosewood Hall\",\n        \"Lunar Pier\"\n    ],\n    \"edges\": [\n        (\"Yarrow Plaza\", \"Haven Docks\"),\n        (\"Yarrow Plaza\", \"Azure Gardens\"),\n        (\"Skyline Gardens\", \"Jasper Marina\"),\n        (\"Skyline Gardens\", \"Haven Docks\"),\n        (\"Skyline Gardens\", \"Silvercrest Observatory\"),\n        (\"Skyline Gardens\", \"Rosewood Hall\"),\n        (\"Jasper Marina\", \"Silvercrest Observatory\"),\n        (\"Jasper Marina\", \"Rosewood Hall\"),\n        (\"Haven Docks\", \"Silvercrest Observatory\"),\n        (\"Haven Docks\", \"Rosewood Hall\"),\n        (\"Azure Gardens\", \"Rosewood Hall\"),\n        (\"Silvercrest Observatory\", \"Lunar Pier\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 43,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "King’s Row",
+   "Oakshade Library",
+   "Velvet Corner",
+   "Moonlit Promenade",
+   "Rosewood Hall",
+   "Union Square Market",
+   "Primrose Boulevard",
+   "Beacon Tower"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Oakshade Library": 1,
+     "Velvet Corner": 1,
+     "Moonlit Promenade": 2,
+     "Rosewood Hall": 3,
+     "Union Square Market": 2,
+     "Primrose Boulevard": 1,
+     "Beacon Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Oakshade Library": 1,
+     "Velvet Corner": 1,
+     "Moonlit Promenade": 2,
+     "Rosewood Hall": 2,
+     "Union Square Market": 3,
+     "Primrose Boulevard": 1,
+     "Beacon Tower": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "King’s Row": 2,
+     "Oakshade Library": 2,
+     "Velvet Corner": 2,
+     "Moonlit Promenade": 1,
+     "Rosewood Hall": 3,
+     "Union Square Market": 1,
+     "Primrose Boulevard": 2,
+     "Beacon Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"King's Row\",\n        \"Oakshade Library\",\n        \"Velvet Corner\",\n        \"Moonlit Promenade\",\n        \"Rosewood Hall\",\n        \"Union Square Market\",\n        \"Primrose Boulevard\",\n        \"Beacon Tower\"\n    ],\n    \"edges\": [\n        (\"King's Row\", \"Union Square Market\"),\n        (\"King's Row\", \"Beacon Tower\"),\n        (\"Oakshade Library\", \"Moonlit Promenade\"),\n        (\"Velvet Corner\", \"Moonlit Promenade\"),\n        (\"Velvet Corner\", \"Rosewood Hall\"),\n        (\"Velvet Corner\", \"Union Square Market\"),\n        (\"Velvet Corner\", \"Beacon Tower\"),\n        (\"Moonlit Promenade\", \"Beacon Tower\"),\n        (\"Rosewood Hall\", \"Union Square Market\"),\n        (\"Rosewood Hall\", \"Primrose Boulevard\"),\n        (\"Union Square Market\", \"Primrose Boulevard\"),\n        (\"Union Square Market\", \"Beacon Tower\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 44,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Evergreen Circle",
+   "Azure Gardens",
+   "Yarrow Plaza",
+   "Jasper Marina",
+   "King’s Row",
+   "Shadowbridge Arcade",
+   "Umbra Theater",
+   "Flare Alley"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Azure Gardens": 1,
+     "Yarrow Plaza": 2,
+     "Jasper Marina": 1,
+     "King’s Row": 2,
+     "Shadowbridge Arcade": 1,
+     "Umbra Theater": 2,
+     "Flare Alley": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Azure Gardens": 1,
+     "Yarrow Plaza": 2,
+     "Jasper Marina": 1,
+     "King’s Row": 2,
+     "Shadowbridge Arcade": 1,
+     "Umbra Theater": 2,
+     "Flare Alley": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Evergreen Circle": 2,
+     "Azure Gardens": 2,
+     "Yarrow Plaza": 1,
+     "Jasper Marina": 2,
+     "King’s Row": 1,
+     "Shadowbridge Arcade": 2,
+     "Umbra Theater": 1,
+     "Flare Alley": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Evergreen Circle\",\n        \"Azure Gardens\",\n        \"Yarrow Plaza\",\n        \"Jasper Marina\",\n        \"King's Row\",\n        \"Shadowbridge Arcade\",\n        \"Umbra Theater\",\n        \"Flare Alley\"\n    ],\n    \"edges\": [\n        (\"Evergreen Circle\", \"Yarrow Plaza\"),\n        (\"Evergreen Circle\", \"King's Row\"),\n        (\"Evergreen Circle\", \"Flare Alley\"),\n        (\"Azure Gardens\", \"Yarrow Plaza\"),\n        (\"Azure Gardens\", \"King's Row\"),\n        (\"Azure Gardens\", \"Umbra Theater\"),\n        (\"Yarrow Plaza\", \"Jasper Marina\"),\n        (\"Yarrow Plaza\", \"Flare Alley\"),\n        (\"Jasper Marina\", \"King's Row\"),\n        (\"Jasper Marina\", \"Umbra Theater\"),\n        (\"Jasper Marina\", \"Flare Alley\"),\n        (\"Shadowbridge Arcade\", \"Umbra Theater\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 45,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Yarrow Plaza",
+   "Oakshade Library",
+   "Riverstone Wharf",
+   "Knight’s Market",
+   "Quarry Point",
+   "Northwind Tower",
+   "Twilight Harbor",
+   "Rosewood Hall"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Oakshade Library": 2,
+     "Riverstone Wharf": 1,
+     "Knight’s Market": 2,
+     "Quarry Point": 1,
+     "Northwind Tower": 2,
+     "Twilight Harbor": 3,
+     "Rosewood Hall": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Oakshade Library": 2,
+     "Riverstone Wharf": 1,
+     "Knight’s Market": 2,
+     "Quarry Point": 1,
+     "Northwind Tower": 2,
+     "Twilight Harbor": 3,
+     "Rosewood Hall": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 2,
+     "Oakshade Library": 1,
+     "Riverstone Wharf": 2,
+     "Knight’s Market": 1,
+     "Quarry Point": 3,
+     "Northwind Tower": 1,
+     "Twilight Harbor": 2,
+     "Rosewood Hall": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Yarrow Plaza\",\n        \"Oakshade Library\",\n        \"Riverstone Wharf\",\n        \"Knight’s Market\",\n        \"Quarry Point\",\n        \"Northwind Tower\",\n        \"Twilight Harbor\",\n        \"Rosewood Hall\"\n    ],\n    \"edges\": [\n        (\"Yarrow Plaza\", \"Oakshade Library\"),\n        (\"Yarrow Plaza\", \"Knight’s Market\"),\n        (\"Yarrow Plaza\", \"Northwind Tower\"),\n        (\"Oakshade Library\", \"Riverstone Wharf\"),\n        (\"Oakshade Library\", \"Quarry Point\"),\n        (\"Oakshade Library\", \"Twilight Harbor\"),\n        (\"Oakshade Library\", \"Rosewood Hall\"),\n        (\"Riverstone Wharf\", \"Knight’s Market\"),\n        (\"Knight’s Market\", \"Rosewood Hall\"),\n        (\"Quarry Point\", \"Twilight Harbor\"),\n        (\"Quarry Point\", \"Rosewood Hall\"),\n        (\"Northwind Tower\", \"Rosewood Hall\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 46,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quarry Point",
+   "Ivory Spire Cathedral",
+   "Jade Fountain",
+   "Horizon Mall",
+   "Temple Square",
+   "Flare Alley",
+   "Union Square Market",
+   "Azure Gardens"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quarry Point": 1,
+     "Ivory Spire Cathedral": 1,
+     "Jade Fountain": 2,
+     "Horizon Mall": 3,
+     "Temple Square": 2,
+     "Flare Alley": 2,
+     "Union Square Market": 4,
+     "Azure Gardens": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quarry Point": 1,
+     "Ivory Spire Cathedral": 1,
+     "Jade Fountain": 2,
+     "Horizon Mall": 3,
+     "Temple Square": 2,
+     "Flare Alley": 2,
+     "Union Square Market": 4,
+     "Azure Gardens": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quarry Point": 2,
+     "Ivory Spire Cathedral": 1,
+     "Jade Fountain": 2,
+     "Horizon Mall": 1,
+     "Temple Square": 4,
+     "Flare Alley": 3,
+     "Union Square Market": 3,
+     "Azure Gardens": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Quarry Point\",\n        \"Ivory Spire Cathedral\",\n        \"Jade Fountain\",\n        \"Horizon Mall\",\n        \"Temple Square\",\n        \"Flare Alley\",\n        \"Union Square Market\",\n        \"Azure Gardens\"\n    ],\n    \"edges\": [\n        (\"Quarry Point\", \"Horizon Mall\"),\n        (\"Quarry Point\", \"Temple Square\"),\n        (\"Quarry Point\", \"Flare Alley\"),\n        (\"Quarry Point\", \"Union Square Market\"),\n        (\"Ivory Spire Cathedral\", \"Jade Fountain\"),\n        (\"Ivory Spire Cathedral\", \"Azure Gardens\"),\n        (\"Jade Fountain\", \"Horizon Mall\"),\n        (\"Jade Fountain\", \"Union Square Market\"),\n        (\"Horizon Mall\", \"Temple Square\"),\n        (\"Horizon Mall\", \"Flare Alley\"),\n        (\"Horizon Mall\", \"Union Square Market\"),\n        (\"Temple Square\", \"Union Square Market\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 47,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lighthouse Point",
+   "Yarrow Plaza",
+   "Westgate Station",
+   "Maplewood Conservatory",
+   "Oakshade Library",
+   "Pennywhistle Arcade",
+   "Rosewood Hall",
+   "Skyline Gardens"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Yarrow Plaza": 2,
+     "Westgate Station": 3,
+     "Maplewood Conservatory": 1,
+     "Oakshade Library": 3,
+     "Pennywhistle Arcade": 4,
+     "Rosewood Hall": 3,
+     "Skyline Gardens": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Yarrow Plaza": 2,
+     "Westgate Station": 3,
+     "Maplewood Conservatory": 1,
+     "Oakshade Library": 3,
+     "Pennywhistle Arcade": 4,
+     "Rosewood Hall": 3,
+     "Skyline Gardens": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lighthouse Point": 2,
+     "Yarrow Plaza": 1,
+     "Westgate Station": 4,
+     "Maplewood Conservatory": 1,
+     "Oakshade Library": 3,
+     "Pennywhistle Arcade": 3,
+     "Rosewood Hall": 3,
+     "Skyline Gardens": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Lighthouse Point\",\n        \"Yarrow Plaza\",\n        \"Westgate Station\",\n        \"Maplewood Conservatory\",\n        \"Oakshade Library\",\n        \"Pennywhistle Arcade\",\n        \"Rosewood Hall\",\n        \"Skyline Gardens\"\n    ],\n    \"edges\": [\n        (\"Lighthouse Point\", \"Yarrow Plaza\"),\n        (\"Lighthouse Point\", \"Westgate Station\"),\n        (\"Lighthouse Point\", \"Oakshade Library\"),\n        (\"Lighthouse Point\", \"Pennywhistle Arcade\"),\n        (\"Lighthouse Point\", \"Rosewood Hall\"),\n        (\"Yarrow Plaza\", \"Westgate Station\"),\n        (\"Yarrow Plaza\", \"Oakshade Library\"),\n        (\"Yarrow Plaza\", \"Pennywhistle Arcade\"),\n        (\"Yarrow Plaza\", \"Rosewood Hall\"),\n        (\"Yarrow Plaza\", \"Skyline Gardens\"),\n        (\"Westgate Station\", \"Pennywhistle Arcade\"),\n        (\"Pennywhistle Arcade\", \"Skyline Gardens\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 48,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Cobalt Market",
+   "Twilight Harbor",
+   "Quarry Point",
+   "Nimbus Plaza",
+   "Flare Alley",
+   "Brass Lantern Tavern",
+   "Dragon’s Gate",
+   "Yarrow Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Cobalt Market": 1,
+     "Twilight Harbor": 2,
+     "Quarry Point": 3,
+     "Nimbus Plaza": 3,
+     "Flare Alley": 1,
+     "Brass Lantern Tavern": 3,
+     "Dragon’s Gate": 2,
+     "Yarrow Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Cobalt Market": 1,
+     "Twilight Harbor": 2,
+     "Quarry Point": 3,
+     "Nimbus Plaza": 3,
+     "Flare Alley": 1,
+     "Brass Lantern Tavern": 3,
+     "Dragon’s Gate": 2,
+     "Yarrow Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Cobalt Market": 1,
+     "Twilight Harbor": 2,
+     "Quarry Point": 4,
+     "Nimbus Plaza": 3,
+     "Flare Alley": 2,
+     "Brass Lantern Tavern": 3,
+     "Dragon’s Gate": 1,
+     "Yarrow Plaza": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can extract the graph structure of the public Wi-Fi network as follows:\n\n1. **Nodes**: The nodes represent the Wi-Fi base stations located at the major public areas. The nodes are:\n   - Cobalt Market\n   - Twilight Harbor\n   - Quarry Point\n   - Nimbus Plaza\n   - Flare Alley\n   - Brass Lantern Tavern\n   - Dragon’s Gate\n   - Yarrow Plaza\n\n   There are 8 nodes in total, each representing a location with a Wi-Fi base station.\n\n2. **Edges**: The edges represent the interference relationships between the base stations. We can list the edges based on the overlapping signal areas:\n   - Cobalt Market is adjacent to: Twilight Harbor, Quarry Point, Nimbus Plaza, Brass Lantern Tavern, Yarrow Plaza\n   - Twilight Harbor is adjacent to: Quarry Point, Nimbus Plaza, Brass Lantern Tavern, Yarrow Plaza\n   - Quarry Point is adjacent to: Yarrow Plaza\n   - Flare Alley is adjacent to: Dragon’s Gate\n   - Dragon’s Gate is adjacent to: Yarrow Plaza\n\n   The edges can be represented as tuples:\n   - (\"Cobalt Market\", \"Twilight Harbor\")\n   - (\"Cobalt Market\", \"Quarry Point\")\n   - (\"Cobalt Market\", \"Nimbus Plaza\")\n   - (\"Cobalt Market\", \"Brass Lantern Tavern\")\n   - (\"Cobalt Market\", \"Yarrow Plaza\")\n   - (\"Twilight Harbor\", \"Quarry Point\")\n   - (\"Twilight Harbor\", \"Nimbus Plaza\")\n   - (\"Twilight Harbor\", \"Brass Lantern Tavern\")\n   - (\"Twilight Harbor\", \"Yarrow Plaza\")\n   - (\"Quarry Point\", \"Yarrow Plaza\")\n   - (\"Flare Alley\", \"Dragon’s Gate\")\n   - (\"Dragon’s Gate\", \"Yarrow Plaza\")\n\n3. **Graph Type**: The graph is undirected since the interference relationship does not have a direction; it simply indicates that two stations can interfere with each other.\n\nNow, we can compile this information into the required dictionary format:\n\n```python\n{\n    \"nodes\": [\n        \"Cobalt Market\", \n        \"Twilight Harbor\", \n        \"Quarry Point\", \n        \"Nimbus Plaza\", \n        \"Flare Alley\", \n        \"Brass Lantern Tavern\", \n        \"Dragon’s Gate\", \n        \"Yarrow Plaza\"\n    ],\n    \"edges\": [\n        (\"Cobalt Market\", \"Twilight Harbor\"),\n        (\"Cobalt Market\", \"Quarry Point\"),\n        (\"Cobalt Market\", \"Nimbus Plaza\"),\n        (\"Cobalt Market\", \"Brass Lantern Tavern\"),\n        (\"Cobalt Market\", \"Yarrow Plaza\"),\n        (\"Twilight Harbor\", \"Quarry Point\"),\n        (\"Twilight Harbor\", \"Nimbus Plaza\"),\n        (\"Twilight Harbor\", \"Brass Lantern Tavern\"),\n        (\"Twilight Harbor\", \"Yarrow Plaza\"),\n        (\"Quarry Point\", \"Yarrow Plaza\"),\n        (\"Flare Alley\", \"Dragon’s Gate\"),\n        (\"Dragon’s Gate\", \"Yarrow Plaza\")\n    ],\n    \"graph_type\": \"undirected\"\n}\n``` \n\nThis structure captures all the necessary information for frequency allocation to minimize interference among the Wi-Fi base stations."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 49,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Evergreen Circle",
+   "Dragon’s Gate",
+   "Union Square Market",
+   "Primrose Boulevard",
+   "Silvercrest Observatory",
+   "Shadowbridge Arcade",
+   "Moonlit Promenade",
+   "Jasper Marina"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 2,
+     "Primrose Boulevard": 1,
+     "Silvercrest Observatory": 1,
+     "Shadowbridge Arcade": 3,
+     "Moonlit Promenade": 2,
+     "Jasper Marina": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 2,
+     "Primrose Boulevard": 1,
+     "Silvercrest Observatory": 1,
+     "Shadowbridge Arcade": 3,
+     "Moonlit Promenade": 2,
+     "Jasper Marina": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Evergreen Circle": 2,
+     "Dragon’s Gate": 3,
+     "Union Square Market": 3,
+     "Primrose Boulevard": 2,
+     "Silvercrest Observatory": 2,
+     "Shadowbridge Arcade": 1,
+     "Moonlit Promenade": 3,
+     "Jasper Marina": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"nodes\": [\n        \"Evergreen Circle\",\n        \"Dragon’s Gate\",\n        \"Union Square Market\",\n        \"Primrose Boulevard\",\n        \"Silvercrest Observatory\",\n        \"Shadowbridge Arcade\",\n        \"Moonlit Promenade\",\n        \"Jasper Marina\"\n    ],\n    \"edges\": [\n        (\"Evergreen Circle\", \"Dragon’s Gate\"),\n        (\"Evergreen Circle\", \"Union Square Market\"),\n        (\"Evergreen Circle\", \"Jasper Marina\"),\n        (\"Dragon’s Gate\", \"Shadowbridge Arcade\"),\n        (\"Union Square Market\", \"Jasper Marina\"),\n        (\"Primrose Boulevard\", \"Shadowbridge Arcade\"),\n        (\"Primrose Boulevard\", \"Jasper Marina\"),\n        (\"Silvercrest Observatory\", \"Shadowbridge Arcade\"),\n        (\"Silvercrest Observatory\", \"Moonlit Promenade\"),\n        (\"Silvercrest Observatory\", \"Jasper Marina\"),\n        (\"Shadowbridge Arcade\", \"Moonlit Promenade\"),\n        (\"Moonlit Promenade\", \"Jasper Marina\")\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ }
+]

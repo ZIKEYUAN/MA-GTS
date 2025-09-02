@@ -1,0 +1,7052 @@
+[
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 0,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Twilight Harbor",
+   "Ironbridge Crossing",
+   "Zenith Arena",
+   "Maplewood Conservatory",
+   "Flint Forge Quarter",
+   "Skyline Gardens",
+   "Lunar Pier",
+   "Lighthouse Point"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Ironbridge Crossing": 1,
+     "Zenith Arena": 2,
+     "Maplewood Conservatory": 2,
+     "Flint Forge Quarter": 3,
+     "Skyline Gardens": 1,
+     "Lunar Pier": 1,
+     "Lighthouse Point": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Ironbridge Crossing": 1,
+     "Zenith Arena": 2,
+     "Maplewood Conservatory": 2,
+     "Flint Forge Quarter": 3,
+     "Skyline Gardens": 1,
+     "Lunar Pier": 1,
+     "Lighthouse Point": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Twilight Harbor": 3,
+     "Ironbridge Crossing": 3,
+     "Zenith Arena": 1,
+     "Maplewood Conservatory": 1,
+     "Flint Forge Quarter": 2,
+     "Skyline Gardens": 2,
+     "Lunar Pier": 1,
+     "Lighthouse Point": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these base stations to minimize interference, as overlapping coverage areas can lead to signal interference and affect network performance.\",\n    \"entities\": [\n        \"Twilight Harbor\",\n        \"Ironbridge Crossing\",\n        \"Zenith Arena\",\n        \"Maplewood Conservatory\",\n        \"Flint Forge Quarter\",\n        \"Skyline Gardens\",\n        \"Lunar Pier\",\n        \"Lighthouse Point\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands of radio waves used for transmitting signals.\",\n        \"interference\": \"The disruption of signals caused by overlapping frequencies from adjacent stations.\",\n        \"overlapping coverage areas\": \"Regions where the signal from two or more base stations can be received simultaneously, potentially causing interference.\",\n        \"adjacent stations\": \"Base stations that are in close proximity to each other and may affect each other's signals.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 1,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Northwind Tower",
+   "Shadowbridge Arcade",
+   "Cobalt Market",
+   "Dragon’s Gate",
+   "Union Square Market",
+   "Twilight Harbor",
+   "Rosewood Hall",
+   "Willowshade Pavilion"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Northwind Tower": 1,
+     "Shadowbridge Arcade": 1,
+     "Cobalt Market": 2,
+     "Dragon’s Gate": 1,
+     "Union Square Market": 3,
+     "Twilight Harbor": 3,
+     "Rosewood Hall": 1,
+     "Willowshade Pavilion": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Northwind Tower": 1,
+     "Shadowbridge Arcade": 1,
+     "Cobalt Market": 2,
+     "Dragon’s Gate": 1,
+     "Union Square Market": 3,
+     "Twilight Harbor": 3,
+     "Rosewood Hall": 1,
+     "Willowshade Pavilion": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Northwind Tower": 3,
+     "Shadowbridge Arcade": 2,
+     "Cobalt Market": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 3,
+     "Twilight Harbor": 2,
+     "Rosewood Hall": 2,
+     "Willowshade Pavilion": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, given that some stations have overlapping coverage areas.\",\n    \"entities\": [\n        \"Northwind Tower\",\n        \"Shadowbridge Arcade\",\n        \"Cobalt Market\",\n        \"Dragon’s Gate\",\n        \"Union Square Market\",\n        \"Twilight Harbor\",\n        \"Rosewood Hall\",\n        \"Willowshade Pavilion\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used for transmitting signals, which must be allocated to avoid interference.\",\n        \"interference\": \"The disruption of signals between two or more Wi-Fi base stations when they operate on the same frequency, leading to reduced network performance.\",\n        \"overlapping coverage areas\": \"Regions where the signal from two or more base stations can be received simultaneously, potentially causing interference.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 2,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Nimbus Plaza",
+   "Echo Station",
+   "Haven Docks",
+   "Yarrow Plaza",
+   "Pennywhistle Arcade",
+   "Beacon Tower",
+   "Silvercrest Observatory",
+   "Mosaic Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Echo Station": 2,
+     "Haven Docks": 2,
+     "Yarrow Plaza": 3,
+     "Pennywhistle Arcade": 1,
+     "Beacon Tower": 1,
+     "Silvercrest Observatory": 3,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Echo Station": 1,
+     "Haven Docks": 2,
+     "Yarrow Plaza": 1,
+     "Pennywhistle Arcade": 3,
+     "Beacon Tower": 3,
+     "Silvercrest Observatory": 4,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 2,
+     "Echo Station": 1,
+     "Haven Docks": 1,
+     "Yarrow Plaza": 3,
+     "Pennywhistle Arcade": 2,
+     "Beacon Tower": 2,
+     "Silvercrest Observatory": 3,
+     "Mosaic Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city to provide free high-speed internet access across various public areas. The network aims to cover eight major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference and affect network performance.\",\n    \"entities\": [\n        \"Nimbus Plaza\",\n        \"Echo Station\",\n        \"Haven Docks\",\n        \"Yarrow Plaza\",\n        \"Pennywhistle Arcade\",\n        \"Beacon Tower\",\n        \"Silvercrest Observatory\",\n        \"Mosaic Plaza\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"overlapping coverage areas\": \"Regions where the signal from two or more base stations can interfere with each other due to proximity.\",\n        \"interference\": \"The disruption of signal quality caused when two or more signals overlap and use the same frequency.\",\n        \"frequency allocation\": \"The process of assigning specific frequency bands to different base stations to avoid interference.\",\n        \"adjacent stations\": \"Base stations that have overlapping coverage areas and can potentially interfere with each other's signals.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 3,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Gilded Archway",
+   "Ironbridge Crossing",
+   "Cobalt Market",
+   "Quarry Point",
+   "Copper Clock Square",
+   "Silvercrest Observatory",
+   "Mosaic Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Gilded Archway": 1,
+     "Ironbridge Crossing": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 3,
+     "Copper Clock Square": 2,
+     "Silvercrest Observatory": 3,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Gilded Archway": 1,
+     "Ironbridge Crossing": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 3,
+     "Copper Clock Square": 2,
+     "Silvercrest Observatory": 3,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 2,
+     "Gilded Archway": 2,
+     "Ironbridge Crossing": 3,
+     "Cobalt Market": 1,
+     "Quarry Point": 3,
+     "Copper Clock Square": 1,
+     "Silvercrest Observatory": 2,
+     "Mosaic Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover 8 major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these base stations to minimize interference, as overlapping coverage areas can lead to signal interference, affecting network stability and speed.\",\n    \"entities\": [\n        \"Primrose Boulevard\",\n        \"Gilded Archway\",\n        \"Ironbridge Crossing\",\n        \"Cobalt Market\",\n        \"Quarry Point\",\n        \"Copper Clock Square\",\n        \"Silvercrest Observatory\",\n        \"Mosaic Plaza\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"The specific radio waves used by Wi-Fi base stations to transmit data.\",\n        \"interference\": \"The disruption of signals between two or more Wi-Fi base stations that occurs when they operate on the same frequency and are in overlapping coverage areas.\",\n        \"overlapping coverage areas\": \"Regions where the signal from two or more base stations can be received simultaneously, potentially leading to interference.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 4,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Echo Station",
+   "Westgate Station",
+   "Pennywhistle Arcade",
+   "Willowshade Pavilion",
+   "Primrose Boulevard",
+   "Union Square Market",
+   "Maplewood Conservatory",
+   "Brass Lantern Tavern"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Echo Station": 1,
+     "Westgate Station": 1,
+     "Pennywhistle Arcade": 2,
+     "Willowshade Pavilion": 3,
+     "Primrose Boulevard": 2,
+     "Union Square Market": 4,
+     "Maplewood Conservatory": 1,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Echo Station": 1,
+     "Westgate Station": 1,
+     "Pennywhistle Arcade": 2,
+     "Willowshade Pavilion": 3,
+     "Primrose Boulevard": 2,
+     "Union Square Market": 4,
+     "Maplewood Conservatory": 1,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Echo Station": 2,
+     "Westgate Station": 2,
+     "Pennywhistle Arcade": 3,
+     "Willowshade Pavilion": 1,
+     "Primrose Boulevard": 3,
+     "Union Square Market": 4,
+     "Maplewood Conservatory": 2,
+     "Brass Lantern Tavern": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these base stations to minimize interference, as overlapping coverage areas can lead to signal interference, affecting network stability and speed.\",\n    \"entities\": [\n        \"Echo Station\",\n        \"Westgate Station\",\n        \"Pennywhistle Arcade\",\n        \"Willowshade Pavilion\",\n        \"Primrose Boulevard\",\n        \"Union Square Market\",\n        \"Maplewood Conservatory\",\n        \"Brass Lantern Tavern\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"coverage areas\",\n        \"network stability\",\n        \"network speed\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands of radio waves used for transmitting signals.\",\n        \"interference\": \"The disruption of signals caused by overlapping frequencies from adjacent stations.\",\n        \"coverage areas\": \"The geographical regions where the Wi-Fi signals from base stations can be received.\",\n        \"network stability\": \"The reliability of the network in maintaining consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 5,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lighthouse Point",
+   "Copper Clock Square",
+   "Opal Theater",
+   "Quartz District",
+   "Pennywhistle Arcade",
+   "Dragon’s Gate",
+   "Haven Docks",
+   "Echo Station"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Copper Clock Square": 1,
+     "Opal Theater": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Dragon’s Gate": 3,
+     "Haven Docks": 2,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Copper Clock Square": 1,
+     "Opal Theater": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Dragon’s Gate": 3,
+     "Haven Docks": 2,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lighthouse Point": 3,
+     "Copper Clock Square": 2,
+     "Opal Theater": 1,
+     "Quartz District": 3,
+     "Pennywhistle Arcade": 2,
+     "Dragon’s Gate": 3,
+     "Haven Docks": 1,
+     "Echo Station": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference if adjacent stations use the same frequency.\",\n    \"entities\": [\n        \"Lighthouse Point\",\n        \"Copper Clock Square\",\n        \"Opal Theater\",\n        \"Quartz District\",\n        \"Pennywhistle Arcade\",\n        \"Dragon’s Gate\",\n        \"Haven Docks\",\n        \"Echo Station\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\",\n        \"network stability\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Specific ranges of electromagnetic waves used for transmitting signals in wireless communications.\",\n        \"interference\": \"The disruption of signals between two or more devices that can lead to degraded performance.\",\n        \"signal areas\": \"The geographical regions where a Wi-Fi base station can effectively transmit its signal.\",\n        \"network stability\": \"The reliability and consistency of a network's performance over time.\",\n        \"infrastructure costs\": \"The expenses associated with the physical components and systems required to establish and maintain a network.\",\n        \"maintenance expenses\": \"The ongoing costs related to the upkeep and operation of network equipment.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 6,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Moonlit Promenade",
+   "Haven Docks",
+   "Twilight Harbor",
+   "Dragon’s Gate",
+   "Union Square Market",
+   "Pennywhistle Arcade",
+   "Echo Station",
+   "Velvet Corner"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Haven Docks": 2,
+     "Twilight Harbor": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 3,
+     "Pennywhistle Arcade": 1,
+     "Echo Station": 1,
+     "Velvet Corner": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Haven Docks": 2,
+     "Twilight Harbor": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 3,
+     "Pennywhistle Arcade": 1,
+     "Echo Station": 1,
+     "Velvet Corner": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 2,
+     "Haven Docks": 1,
+     "Twilight Harbor": 3,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 3,
+     "Pennywhistle Arcade": 3,
+     "Echo Station": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruption.\",\n    \"entities\": [\n        \"Moonlit Promenade\",\n        \"Haven Docks\",\n        \"Twilight Harbor\",\n        \"Dragon’s Gate\",\n        \"Union Square Market\",\n        \"Pennywhistle Arcade\",\n        \"Echo Station\",\n        \"Velvet Corner\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used for transmitting signals, which must be allocated to avoid interference.\",\n        \"interference\": \"The disruption of signals between two or more base stations that can lead to reduced network performance.\",\n        \"signal areas\": \"The geographical regions where the Wi-Fi signals from base stations can be received.\",\n        \"network stability\": \"The reliability of the network in maintaining consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\",\n        \"infrastructure costs\": \"The expenses associated with setting up and maintaining the network infrastructure.\",\n        \"maintenance expenses\": \"The ongoing costs related to the upkeep and operation of the network.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 7,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Shadowbridge Arcade",
+   "Lunar Pier",
+   "Silvercrest Observatory",
+   "Knight’s Market",
+   "Quarry Point",
+   "Union Square Market",
+   "Sapphire Arena",
+   "Temple Square"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Lunar Pier": 2,
+     "Silvercrest Observatory": 1,
+     "Knight’s Market": 1,
+     "Quarry Point": 3,
+     "Union Square Market": 3,
+     "Sapphire Arena": 1,
+     "Temple Square": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Lunar Pier": 2,
+     "Silvercrest Observatory": 1,
+     "Knight’s Market": 1,
+     "Quarry Point": 3,
+     "Union Square Market": 3,
+     "Sapphire Arena": 1,
+     "Temple Square": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 3,
+     "Lunar Pier": 1,
+     "Silvercrest Observatory": 3,
+     "Knight’s Market": 3,
+     "Quarry Point": 2,
+     "Union Square Market": 2,
+     "Sapphire Arena": 1,
+     "Temple Square": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aimed at providing free high-speed internet access in various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruption.\",\n    \"entities\": [\n        \"Shadowbridge Arcade\",\n        \"Lunar Pier\",\n        \"Silvercrest Observatory\",\n        \"Knight’s Market\",\n        \"Quarry Point\",\n        \"Union Square Market\",\n        \"Sapphire Arena\",\n        \"Temple Square\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\",\n        \"coverage areas\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Specific ranges of electromagnetic waves used for transmitting data wirelessly.\",\n        \"interference\": \"The disruption of signals between two or more devices that can lead to degraded performance.\",\n        \"network stability\": \"The ability of a network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network.\",\n        \"coverage areas\": \"The geographical regions where the Wi-Fi signal is available and can be accessed by users.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 8,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Temple Square",
+   "Knight’s Market",
+   "Riverstone Wharf",
+   "Opal Theater",
+   "Rosewood Hall",
+   "Ironbridge Crossing",
+   "Evergreen Circle",
+   "Echo Station"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Temple Square": 1,
+     "Knight’s Market": 2,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Rosewood Hall": 1,
+     "Ironbridge Crossing": 2,
+     "Evergreen Circle": 3,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Temple Square": 1,
+     "Knight’s Market": 2,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Rosewood Hall": 1,
+     "Ironbridge Crossing": 2,
+     "Evergreen Circle": 3,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Temple Square": 1,
+     "Knight’s Market": 2,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Rosewood Hall": 1,
+     "Ironbridge Crossing": 2,
+     "Evergreen Circle": 3,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these base stations to minimize interference, as overlapping coverage areas can lead to signal interference and affect network performance.\",\n    \"entities\": [\n        \"Temple Square\",\n        \"Knight’s Market\",\n        \"Riverstone Wharf\",\n        \"Opal Theater\",\n        \"Rosewood Hall\",\n        \"Ironbridge Crossing\",\n        \"Evergreen Circle\",\n        \"Echo Station\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"coverage areas\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used by the Wi-Fi base stations to transmit data wirelessly.\",\n        \"interference\": \"The disruption of signals between two or more Wi-Fi base stations that can occur when they operate on the same frequency.\",\n        \"coverage areas\": \"The geographical regions where the Wi-Fi signals from the base stations can be received.\",\n        \"network stability\": \"The reliability of the Wi-Fi network in maintaining a consistent connection without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the Wi-Fi network, affecting user experience.\",\n        \"infrastructure costs\": \"The expenses associated with setting up and maintaining the physical components of the Wi-Fi network.\",\n        \"maintenance expenses\": \"The ongoing costs required to keep the Wi-Fi network operational and efficient.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 9,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Flint Forge Quarter",
+   "Lighthouse Point",
+   "Umbra Theater",
+   "Evergreen Circle",
+   "Echo Station",
+   "Nimbus Plaza",
+   "Shadowbridge Arcade",
+   "Rosewood Hall"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Flint Forge Quarter": 1,
+     "Lighthouse Point": 2,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 1,
+     "Echo Station": 1,
+     "Nimbus Plaza": 3,
+     "Shadowbridge Arcade": 3,
+     "Rosewood Hall": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Flint Forge Quarter": 1,
+     "Lighthouse Point": 2,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 1,
+     "Echo Station": 1,
+     "Nimbus Plaza": 3,
+     "Shadowbridge Arcade": 3,
+     "Rosewood Hall": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Flint Forge Quarter": 1,
+     "Lighthouse Point": 2,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 1,
+     "Echo Station": 1,
+     "Nimbus Plaza": 3,
+     "Shadowbridge Arcade": 3,
+     "Rosewood Hall": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The design includes 8 major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruption.\",\n    \"entities\": [\n        \"Flint Forge Quarter\",\n        \"Lighthouse Point\",\n        \"Umbra Theater\",\n        \"Evergreen Circle\",\n        \"Echo Station\",\n        \"Nimbus Plaza\",\n        \"Shadowbridge Arcade\",\n        \"Rosewood Hall\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area, forming part of a network.\",\n        \"overlapping coverage areas\": \"Regions where the signal from two or more base stations can interfere with each other due to proximity.\",\n        \"interference\": \"The disruption of signal quality caused by overlapping frequencies from adjacent stations.\",\n        \"frequency allocation\": \"The process of assigning specific frequency bands to different base stations to avoid interference.\",\n        \"adjacent stations\": \"Base stations that are in close proximity to each other and may have overlapping coverage.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 10,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Riverstone Wharf",
+   "Westgate Station",
+   "Skyline Gardens",
+   "Echo Station",
+   "Granite Plaza",
+   "Zenith Arena",
+   "Haven Docks",
+   "Beacon Tower"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 1,
+     "Westgate Station": 2,
+     "Skyline Gardens": 1,
+     "Echo Station": 1,
+     "Granite Plaza": 3,
+     "Zenith Arena": 1,
+     "Haven Docks": 2,
+     "Beacon Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 1,
+     "Westgate Station": 2,
+     "Skyline Gardens": 1,
+     "Echo Station": 1,
+     "Granite Plaza": 3,
+     "Zenith Arena": 1,
+     "Haven Docks": 2,
+     "Beacon Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 2,
+     "Westgate Station": 1,
+     "Skyline Gardens": 3,
+     "Echo Station": 2,
+     "Granite Plaza": 2,
+     "Zenith Arena": 3,
+     "Haven Docks": 1,
+     "Beacon Tower": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network in a city to provide free high-speed internet access across various public areas. The network aims to cover eight major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference that affects network performance.\",\n    \"entities\": [\n        \"public Wi-Fi network\",\n        \"high-speed internet access\",\n        \"Riverstone Wharf\",\n        \"Westgate Station\",\n        \"Skyline Gardens\",\n        \"Echo Station\",\n        \"Granite Plaza\",\n        \"Zenith Arena\",\n        \"Haven Docks\",\n        \"Beacon Tower\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\",\n        \"network stability\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"public Wi-Fi network\": A wireless network that provides internet access to the public in designated areas, typically free of charge.\n        \"high-speed internet access\": A broadband internet connection that allows for fast data transmission and reception.\n        \"Wi-Fi base station\": A device that transmits and receives wireless signals to provide internet connectivity to users within its coverage area.\n        \"frequencies\": Specific ranges of electromagnetic spectrum used for transmitting signals; in this context, they refer to the channels assigned to Wi-Fi base stations.\n        \"interference\": The disruption of signals between two or more devices, which can occur when they operate on the same frequency and are in proximity to each other.\n        \"signal areas\": The geographical regions where a Wi-Fi base station can effectively transmit and receive signals.\n        \"network stability\": The reliability and consistency of the network's performance, including speed and connectivity.\n        \"infrastructure costs\": The expenses associated with the physical components and systems required to establish and maintain the network.\n        \"maintenance expenses\": The costs incurred for the upkeep and management of the network over time.\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 11,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Flare Alley",
+   "Moonlit Promenade",
+   "Cobalt Market",
+   "Quarry Point",
+   "Copper Clock Square",
+   "Evergreen Circle",
+   "Pennywhistle Arcade",
+   "Velvet Corner"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Moonlit Promenade": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 2,
+     "Copper Clock Square": 3,
+     "Evergreen Circle": 3,
+     "Pennywhistle Arcade": 1,
+     "Velvet Corner": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Moonlit Promenade": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 2,
+     "Copper Clock Square": 3,
+     "Evergreen Circle": 3,
+     "Pennywhistle Arcade": 1,
+     "Velvet Corner": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Flare Alley": 3,
+     "Moonlit Promenade": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 2,
+     "Copper Clock Square": 3,
+     "Evergreen Circle": 3,
+     "Pennywhistle Arcade": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations in a way that minimizes interference, as overlapping coverage areas can lead to signal interference and affect network performance.\",\n    \"entities\": [\n        \"Flare Alley\",\n        \"Moonlit Promenade\",\n        \"Cobalt Market\",\n        \"Quarry Point\",\n        \"Copper Clock Square\",\n        \"Evergreen Circle\",\n        \"Pennywhistle Arcade\",\n        \"Velvet Corner\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"coverage areas\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used for transmitting signals in wireless communication.\",\n        \"interference\": \"The disruption of signals caused by overlapping frequencies from adjacent stations.\",\n        \"coverage areas\": \"The geographical regions where the Wi-Fi signal is available.\",\n        \"network stability\": \"The reliability and consistency of the network performance.\",\n        \"network speed\": \"The rate at which data is transmitted over the network.\",\n        \"infrastructure costs\": \"The expenses associated with building and maintaining the network infrastructure.\",\n        \"maintenance expenses\": \"The ongoing costs required to keep the network operational.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 12,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Velvet Corner",
+   "Brass Lantern Tavern",
+   "Riverstone Wharf",
+   "Opal Theater",
+   "Evergreen Circle",
+   "Temple Square",
+   "Granite Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Brass Lantern Tavern": 1,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Evergreen Circle": 1,
+     "Temple Square": 3,
+     "Granite Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 1,
+     "Brass Lantern Tavern": 2,
+     "Riverstone Wharf": 2,
+     "Opal Theater": 3,
+     "Evergreen Circle": 1,
+     "Temple Square": 2,
+     "Granite Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 3,
+     "Velvet Corner": 2,
+     "Brass Lantern Tavern": 3,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Evergreen Circle": 2,
+     "Temple Square": 1,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference caused by overlapping coverage areas.\",\n    \"entities\": [\n        \"Primrose Boulevard\",\n        \"Velvet Corner\",\n        \"Brass Lantern Tavern\",\n        \"Riverstone Wharf\",\n        \"Opal Theater\",\n        \"Evergreen Circle\",\n        \"Temple Square\",\n        \"Granite Plaza\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands of radio waves used for transmitting signals.\",\n        \"interference\": \"The disruption of signals between two or more devices that can lead to degraded performance.\",\n        \"network stability\": \"The ability of a network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 13,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Shadowbridge Arcade",
+   "Jade Fountain",
+   "Quarry Point",
+   "Westgate Station",
+   "Copper Clock Square",
+   "Lighthouse Point",
+   "Temple Square",
+   "Brass Lantern Tavern"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Jade Fountain": 1,
+     "Quarry Point": 2,
+     "Westgate Station": 2,
+     "Copper Clock Square": 3,
+     "Lighthouse Point": 1,
+     "Temple Square": 3,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Jade Fountain": 1,
+     "Quarry Point": 2,
+     "Westgate Station": 2,
+     "Copper Clock Square": 3,
+     "Lighthouse Point": 1,
+     "Temple Square": 3,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 2,
+     "Jade Fountain": 1,
+     "Quarry Point": 1,
+     "Westgate Station": 2,
+     "Copper Clock Square": 3,
+     "Lighthouse Point": 3,
+     "Temple Square": 2,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference, affecting network performance.\",\n    \"entities\": [\n        \"Shadowbridge Arcade\",\n        \"Jade Fountain\",\n        \"Quarry Point\",\n        \"Westgate Station\",\n        \"Copper Clock Square\",\n        \"Lighthouse Point\",\n        \"Temple Square\",\n        \"Brass Lantern Tavern\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used for transmitting signals, which must be allocated to avoid interference.\",\n        \"interference\": \"The disruption of signals between two or more Wi-Fi base stations that occurs when they operate on the same frequency.\",\n        \"network stability\": \"The ability of the network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 14,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Nimbus Plaza",
+   "Velvet Corner",
+   "Duskwood Park",
+   "Union Square Market",
+   "Sapphire Arena",
+   "Rosewood Hall",
+   "Yarrow Plaza",
+   "Jade Fountain"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Velvet Corner": 2,
+     "Duskwood Park": 2,
+     "Union Square Market": 1,
+     "Sapphire Arena": 1,
+     "Rosewood Hall": 2,
+     "Yarrow Plaza": 3,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Velvet Corner": 1,
+     "Duskwood Park": 2,
+     "Union Square Market": 1,
+     "Sapphire Arena": 3,
+     "Rosewood Hall": 2,
+     "Yarrow Plaza": 3,
+     "Jade Fountain": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 2,
+     "Velvet Corner": 1,
+     "Duskwood Park": 1,
+     "Union Square Market": 2,
+     "Sapphire Arena": 2,
+     "Rosewood Hall": 1,
+     "Yarrow Plaza": 3,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruption.\",\n    \"entities\": [\n        \"Nimbus Plaza\",\n        \"Velvet Corner\",\n        \"Duskwood Park\",\n        \"Union Square Market\",\n        \"Sapphire Arena\",\n        \"Rosewood Hall\",\n        \"Yarrow Plaza\",\n        \"Jade Fountain\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"coverage areas\"\n    ],\n    \"definitions\": {\n        \"public Wi-Fi network\": \"A network that provides free internet access to the public in designated areas.\",\n        \"Wi-Fi base station\": \"A device that transmits and receives wireless signals to provide internet access.\",\n        \"frequencies\": \"Specific ranges of electromagnetic waves used for transmitting signals in wireless communication.\",\n        \"interference\": \"The disruption of signals caused by overlapping frequencies from adjacent stations.\",\n        \"coverage area\": \"The geographical area where a Wi-Fi signal can be received.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 15,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quartz District",
+   "Union Square Market",
+   "Lunar Pier",
+   "Primrose Boulevard",
+   "Velvet Corner",
+   "Haven Docks",
+   "Riverstone Wharf",
+   "Cobalt Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Union Square Market": 2,
+     "Lunar Pier": 2,
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Haven Docks": 2,
+     "Riverstone Wharf": 3,
+     "Cobalt Market": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Union Square Market": 1,
+     "Lunar Pier": 2,
+     "Primrose Boulevard": 3,
+     "Velvet Corner": 1,
+     "Haven Docks": 1,
+     "Riverstone Wharf": 4,
+     "Cobalt Market": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Union Square Market": 2,
+     "Lunar Pier": 2,
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Haven Docks": 2,
+     "Riverstone Wharf": 3,
+     "Cobalt Market": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference due to overlapping coverage areas.\",\n    \"entities\": [\n        \"Quartz District\",\n        \"Union Square Market\",\n        \"Lunar Pier\",\n        \"Primrose Boulevard\",\n        \"Velvet Corner\",\n        \"Haven Docks\",\n        \"Riverstone Wharf\",\n        \"Cobalt Market\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different radio waves used by Wi-Fi base stations to transmit data.\",\n        \"interference\": \"The disruption of signals between two or more base stations that can occur when they operate on the same frequency.\",\n        \"network stability\": \"The ability of the network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 16,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Westgate Station",
+   "Duskwood Park",
+   "Echo Station",
+   "Northwind Tower",
+   "Sapphire Arena",
+   "Ivory Spire Cathedral",
+   "Azure Gardens",
+   "Willowshade Pavilion"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Duskwood Park": 1,
+     "Echo Station": 2,
+     "Northwind Tower": 3,
+     "Sapphire Arena": 2,
+     "Ivory Spire Cathedral": 2,
+     "Azure Gardens": 3,
+     "Willowshade Pavilion": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Duskwood Park": 1,
+     "Echo Station": 2,
+     "Northwind Tower": 3,
+     "Sapphire Arena": 2,
+     "Ivory Spire Cathedral": 2,
+     "Azure Gardens": 3,
+     "Willowshade Pavilion": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Duskwood Park": 2,
+     "Echo Station": 2,
+     "Northwind Tower": 1,
+     "Sapphire Arena": 2,
+     "Ivory Spire Cathedral": 3,
+     "Azure Gardens": 3,
+     "Willowshade Pavilion": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these base stations to minimize interference, as overlapping coverage areas can lead to signal interference if adjacent stations use the same frequency.\",\n    \"entities\": [\n        \"Westgate Station\",\n        \"Duskwood Park\",\n        \"Echo Station\",\n        \"Northwind Tower\",\n        \"Sapphire Arena\",\n        \"Ivory Spire Cathedral\",\n        \"Azure Gardens\",\n        \"Willowshade Pavilion\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\",\n        \"coverage areas\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"The specific radio waves used by Wi-Fi base stations to transmit data.\",\n        \"interference\": \"The disruption of signals between Wi-Fi base stations that occurs when they operate on the same frequency and are in proximity to each other.\",\n        \"network stability\": \"The reliability and consistency of the network's performance over time.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\",\n        \"coverage areas\": \"The geographical regions where a Wi-Fi base station can provide a signal.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 17,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Knight’s Market",
+   "Brass Lantern Tavern",
+   "Sapphire Arena",
+   "Flint Forge Quarter",
+   "Ironbridge Crossing",
+   "Amber Plaza",
+   "Mosaic Plaza",
+   "Northwind Tower"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Brass Lantern Tavern": 2,
+     "Sapphire Arena": 3,
+     "Flint Forge Quarter": 1,
+     "Ironbridge Crossing": 2,
+     "Amber Plaza": 3,
+     "Mosaic Plaza": 2,
+     "Northwind Tower": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Brass Lantern Tavern": 2,
+     "Sapphire Arena": 3,
+     "Flint Forge Quarter": 1,
+     "Ironbridge Crossing": 2,
+     "Amber Plaza": 1,
+     "Mosaic Plaza": 1,
+     "Northwind Tower": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Brass Lantern Tavern": 2,
+     "Sapphire Arena": 3,
+     "Flint Forge Quarter": 1,
+     "Ironbridge Crossing": 2,
+     "Amber Plaza": 3,
+     "Mosaic Plaza": 2,
+     "Northwind Tower": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruption.\",\n    \"entities\": [\n        \"Knight’s Market\",\n        \"Brass Lantern Tavern\",\n        \"Sapphire Arena\",\n        \"Flint Forge Quarter\",\n        \"Ironbridge Crossing\",\n        \"Amber Plaza\",\n        \"Mosaic Plaza\",\n        \"Northwind Tower\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"coverage areas\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used by Wi-Fi base stations to transmit data wirelessly.\",\n        \"interference\": \"The disruption of signals between two or more Wi-Fi base stations that can occur when they operate on the same frequency.\",\n        \"coverage areas\": \"The geographical regions where the Wi-Fi signals from the base stations can be received.\",\n        \"network stability\": \"The reliability of the network in maintaining consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\",\n        \"infrastructure costs\": \"The expenses associated with setting up and maintaining the physical components of the network.\",\n        \"maintenance expenses\": \"The ongoing costs required to keep the network operational and efficient.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 18,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Knight’s Market",
+   "Mosaic Plaza",
+   "Umbra Theater",
+   "Evergreen Circle",
+   "Beacon Tower",
+   "Duskwood Park",
+   "Echo Station",
+   "Cobalt Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Mosaic Plaza": 1,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 2,
+     "Beacon Tower": 3,
+     "Duskwood Park": 2,
+     "Echo Station": 1,
+     "Cobalt Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Mosaic Plaza": 1,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 2,
+     "Beacon Tower": 3,
+     "Duskwood Park": 2,
+     "Echo Station": 1,
+     "Cobalt Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Mosaic Plaza": 1,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 2,
+     "Beacon Tower": 3,
+     "Duskwood Park": 2,
+     "Echo Station": 3,
+     "Cobalt Market": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, which can affect network stability and speed.\",\n    \"entities\": [\n        \"Knight’s Market\",\n        \"Mosaic Plaza\",\n        \"Umbra Theater\",\n        \"Evergreen Circle\",\n        \"Beacon Tower\",\n        \"Duskwood Park\",\n        \"Echo Station\",\n        \"Cobalt Market\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\",\n        \"network stability\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used for transmitting signals in wireless communication.\",\n        \"interference\": \"The disruption of signals between two or more devices that can lead to degraded performance.\",\n        \"signal areas\": \"The geographical regions where the Wi-Fi signals from the base stations can be received.\",\n        \"network stability\": \"The reliability and consistent performance of the network over time.\",\n        \"infrastructure costs\": \"The expenses associated with setting up and maintaining the physical components of the network.\",\n        \"maintenance expenses\": \"The ongoing costs required to keep the network operational and efficient.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 19,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Granite Plaza",
+   "Opal Theater",
+   "Velvet Corner",
+   "Union Square Market",
+   "Amber Plaza",
+   "Moonlit Promenade",
+   "Nimbus Plaza",
+   "Shadowbridge Arcade"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Opal Theater": 2,
+     "Velvet Corner": 1,
+     "Union Square Market": 3,
+     "Amber Plaza": 2,
+     "Moonlit Promenade": 2,
+     "Nimbus Plaza": 1,
+     "Shadowbridge Arcade": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Opal Theater": 2,
+     "Velvet Corner": 1,
+     "Union Square Market": 2,
+     "Amber Plaza": 3,
+     "Moonlit Promenade": 2,
+     "Nimbus Plaza": 1,
+     "Shadowbridge Arcade": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Opal Theater": 2,
+     "Velvet Corner": 3,
+     "Union Square Market": 2,
+     "Amber Plaza": 4,
+     "Moonlit Promenade": 2,
+     "Nimbus Plaza": 3,
+     "Shadowbridge Arcade": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, ensuring stable and reliable network performance.\",\n    \"entities\": [\n        \"Granite Plaza\",\n        \"Opal Theater\",\n        \"Velvet Corner\",\n        \"Union Square Market\",\n        \"Amber Plaza\",\n        \"Moonlit Promenade\",\n        \"Nimbus Plaza\",\n        \"Shadowbridge Arcade\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"coverage areas\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used by Wi-Fi base stations to transmit data wirelessly.\",\n        \"interference\": \"The disruption of signals between two or more Wi-Fi base stations that can occur when they operate on the same frequency.\",\n        \"coverage areas\": \"The geographical areas where the Wi-Fi signal from a base station can be received.\",\n        \"network stability\": \"The reliability of the network in maintaining consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\",\n        \"infrastructure costs\": \"The expenses associated with the physical setup and maintenance of the Wi-Fi network.\",\n        \"maintenance expenses\": \"The ongoing costs required to keep the Wi-Fi network operational and efficient.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 20,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "King’s Row",
+   "Ivory Spire Cathedral",
+   "Oakshade Library",
+   "Azure Gardens",
+   "Quarry Point",
+   "Duskwood Park",
+   "Dragon’s Gate",
+   "Mosaic Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Ivory Spire Cathedral": 1,
+     "Oakshade Library": 2,
+     "Azure Gardens": 2,
+     "Quarry Point": 1,
+     "Duskwood Park": 3,
+     "Dragon’s Gate": 2,
+     "Mosaic Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Ivory Spire Cathedral": 1,
+     "Oakshade Library": 2,
+     "Azure Gardens": 2,
+     "Quarry Point": 1,
+     "Duskwood Park": 3,
+     "Dragon’s Gate": 2,
+     "Mosaic Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Ivory Spire Cathedral": 1,
+     "Oakshade Library": 3,
+     "Azure Gardens": 2,
+     "Quarry Point": 1,
+     "Duskwood Park": 2,
+     "Dragon’s Gate": 3,
+     "Mosaic Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference caused by overlapping signal areas.\",\n    \"entities\": [\n        \"public Wi-Fi network\",\n        \"high-speed internet access\",\n        \"King’s Row\",\n        \"Ivory Spire Cathedral\",\n        \"Oakshade Library\",\n        \"Azure Gardens\",\n        \"Quarry Point\",\n        \"Duskwood Park\",\n        \"Dragon’s Gate\",\n        \"Mosaic Plaza\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\",\n        \"network stability\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"public Wi-Fi network\": A wireless network that provides internet access to the general public in designated areas.\n        \"high-speed internet access\": A broadband internet connection that offers fast data transmission rates.\n        \"Wi-Fi base station\": A device that transmits and receives wireless signals to provide internet connectivity.\n        \"frequencies\": Specific ranges of electromagnetic waves used for transmitting data wirelessly.\n        \"interference\": The disruption of signals between two or more devices that can degrade the quality of the connection.\n        \"signal areas\": The geographical regions where the Wi-Fi signals from base stations can be received.\n        \"network stability\": The reliability and consistency of the internet connection provided by the network.\n        \"infrastructure costs\": The expenses associated with the physical components required to establish and maintain the network.\n        \"maintenance expenses\": The ongoing costs related to the upkeep and operation of the network infrastructure.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 21,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lighthouse Point",
+   "Flare Alley",
+   "Riverstone Wharf",
+   "Shadowbridge Arcade",
+   "Opal Theater",
+   "Sapphire Arena",
+   "Pennywhistle Arcade",
+   "Union Square Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Flare Alley": 1,
+     "Riverstone Wharf": 2,
+     "Shadowbridge Arcade": 3,
+     "Opal Theater": 2,
+     "Sapphire Arena": 3,
+     "Pennywhistle Arcade": 2,
+     "Union Square Market": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Flare Alley": 1,
+     "Riverstone Wharf": 2,
+     "Shadowbridge Arcade": 3,
+     "Opal Theater": 2,
+     "Sapphire Arena": 3,
+     "Pennywhistle Arcade": 2,
+     "Union Square Market": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Flare Alley": 1,
+     "Riverstone Wharf": 2,
+     "Shadowbridge Arcade": 3,
+     "Opal Theater": 2,
+     "Sapphire Arena": 3,
+     "Pennywhistle Arcade": 2,
+     "Union Square Market": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference affecting network stability and speed.\",\n    \"entities\": [\n        \"Lighthouse Point\",\n        \"Flare Alley\",\n        \"Riverstone Wharf\",\n        \"Shadowbridge Arcade\",\n        \"Opal Theater\",\n        \"Sapphire Arena\",\n        \"Pennywhistle Arcade\",\n        \"Union Square Market\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Specific ranges of electromagnetic waves used for transmitting signals in wireless communication.\",\n        \"interference\": \"The disruption of signals caused by overlapping coverage areas of adjacent stations using the same frequency.\",\n        \"network stability\": \"The ability of the network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 22,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Jasper Marina",
+   "Flare Alley",
+   "Westgate Station",
+   "Amber Plaza",
+   "Riverstone Wharf",
+   "Mosaic Plaza",
+   "Copper Clock Square"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Jasper Marina": 2,
+     "Flare Alley": 2,
+     "Westgate Station": 3,
+     "Amber Plaza": 3,
+     "Riverstone Wharf": 1,
+     "Mosaic Plaza": 2,
+     "Copper Clock Square": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Jasper Marina": 2,
+     "Flare Alley": 2,
+     "Westgate Station": 3,
+     "Amber Plaza": 1,
+     "Riverstone Wharf": 3,
+     "Mosaic Plaza": 1,
+     "Copper Clock Square": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 2,
+     "Jasper Marina": 1,
+     "Flare Alley": 1,
+     "Westgate Station": 3,
+     "Amber Plaza": 3,
+     "Riverstone Wharf": 2,
+     "Mosaic Plaza": 1,
+     "Copper Clock Square": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruption.\",\n    \"entities\": [\n        \"Primrose Boulevard\",\n        \"Jasper Marina\",\n        \"Flare Alley\",\n        \"Westgate Station\",\n        \"Amber Plaza\",\n        \"Riverstone Wharf\",\n        \"Mosaic Plaza\",\n        \"Copper Clock Square\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used by Wi-Fi base stations to transmit signals.\",\n        \"interference\": \"The disruption of signals between two or more base stations that can degrade network performance.\",\n        \"network stability\": \"The ability of the network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 23,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Twilight Harbor",
+   "Cobalt Market",
+   "Flare Alley",
+   "Shadowbridge Arcade",
+   "Oakshade Library",
+   "King’s Row",
+   "Umbra Theater",
+   "Mosaic Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Cobalt Market": 2,
+     "Flare Alley": 2,
+     "Shadowbridge Arcade": 2,
+     "Oakshade Library": 1,
+     "King’s Row": 3,
+     "Umbra Theater": 1,
+     "Mosaic Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Cobalt Market": 1,
+     "Flare Alley": 2,
+     "Shadowbridge Arcade": 2,
+     "Oakshade Library": 1,
+     "King’s Row": 3,
+     "Umbra Theater": 4,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Cobalt Market": 3,
+     "Flare Alley": 2,
+     "Shadowbridge Arcade": 3,
+     "Oakshade Library": 2,
+     "King’s Row": 1,
+     "Umbra Theater": 2,
+     "Mosaic Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruption.\",\n    \"entities\": [\n        \"Twilight Harbor\",\n        \"Cobalt Market\",\n        \"Flare Alley\",\n        \"Shadowbridge Arcade\",\n        \"Oakshade Library\",\n        \"King’s Row\",\n        \"Umbra Theater\",\n        \"Mosaic Plaza\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\",\n        \"coverage areas\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Specific ranges of electromagnetic waves used for transmitting signals in wireless communication.\",\n        \"interference\": \"The disruption of signals caused by overlapping frequencies from adjacent stations.\",\n        \"network stability\": \"The ability of a network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network.\",\n        \"coverage areas\": \"The geographical regions where the Wi-Fi signal is available.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 24,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Twilight Harbor",
+   "Northwind Tower",
+   "Sapphire Arena",
+   "Westgate Station",
+   "Beacon Tower",
+   "Haven Docks",
+   "Lunar Pier",
+   "Knight’s Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Northwind Tower": 1,
+     "Sapphire Arena": 2,
+     "Westgate Station": 2,
+     "Beacon Tower": 1,
+     "Haven Docks": 3,
+     "Lunar Pier": 3,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Northwind Tower": 1,
+     "Sapphire Arena": 2,
+     "Westgate Station": 2,
+     "Beacon Tower": 1,
+     "Haven Docks": 3,
+     "Lunar Pier": 3,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Twilight Harbor": 2,
+     "Northwind Tower": 1,
+     "Sapphire Arena": 1,
+     "Westgate Station": 1,
+     "Beacon Tower": 2,
+     "Haven Docks": 3,
+     "Lunar Pier": 2,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, which can affect network stability and speed.\",\n    \"entities\": [\n        \"Twilight Harbor\",\n        \"Northwind Tower\",\n        \"Sapphire Arena\",\n        \"Westgate Station\",\n        \"Beacon Tower\",\n        \"Haven Docks\",\n        \"Lunar Pier\",\n        \"Knight’s Market\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"coverage areas\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands of radio waves used for transmitting signals between the base stations.\",\n        \"interference\": \"The disruption of signals from one base station by signals from another, particularly when they operate on the same frequency.\",\n        \"overlapping coverage areas\": \"Regions where the signal from one base station can be received by another, leading to potential interference.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 25,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Shadowbridge Arcade",
+   "Westgate Station",
+   "Cobalt Market",
+   "Nimbus Plaza",
+   "Granite Plaza",
+   "Willowshade Pavilion",
+   "Sapphire Arena",
+   "Opal Theater"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Westgate Station": 2,
+     "Cobalt Market": 1,
+     "Nimbus Plaza": 3,
+     "Granite Plaza": 1,
+     "Willowshade Pavilion": 4,
+     "Sapphire Arena": 3,
+     "Opal Theater": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Westgate Station": 2,
+     "Cobalt Market": 1,
+     "Nimbus Plaza": 3,
+     "Granite Plaza": 1,
+     "Willowshade Pavilion": 4,
+     "Sapphire Arena": 1,
+     "Opal Theater": 5
+    },
+    "min_colors": 5,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 2,
+     "Westgate Station": 1,
+     "Cobalt Market": 1,
+     "Nimbus Plaza": 2,
+     "Granite Plaza": 2,
+     "Willowshade Pavilion": 3,
+     "Sapphire Arena": 2,
+     "Opal Theater": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference, affecting network stability and speed.\",\n    \"entities\": [\n        \"Shadowbridge Arcade\",\n        \"Westgate Station\",\n        \"Cobalt Market\",\n        \"Nimbus Plaza\",\n        \"Granite Plaza\",\n        \"Willowshade Pavilion\",\n        \"Sapphire Arena\",\n        \"Opal Theater\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Specific ranges of electromagnetic waves used for transmitting signals in wireless communication.\",\n        \"interference\": \"The disruption of signals from one source by signals from another, which can degrade the quality of communication.\",\n        \"overlapping coverage areas\": \"Regions where the signal from two or more base stations can be received simultaneously, potentially causing interference.\",\n        \"adjacent stations\": \"Base stations that are in close proximity to each other and may have overlapping coverage areas.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 26,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Haven Docks",
+   "Quartz District",
+   "Evergreen Circle",
+   "Azure Gardens",
+   "Moonlit Promenade",
+   "Lunar Pier",
+   "Pennywhistle Arcade",
+   "Primrose Boulevard"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Haven Docks": 1,
+     "Quartz District": 2,
+     "Evergreen Circle": 2,
+     "Azure Gardens": 3,
+     "Moonlit Promenade": 2,
+     "Lunar Pier": 1,
+     "Pennywhistle Arcade": 3,
+     "Primrose Boulevard": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Haven Docks": 1,
+     "Quartz District": 2,
+     "Evergreen Circle": 1,
+     "Azure Gardens": 2,
+     "Moonlit Promenade": 3,
+     "Lunar Pier": 1,
+     "Pennywhistle Arcade": 3,
+     "Primrose Boulevard": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Haven Docks": 2,
+     "Quartz District": 3,
+     "Evergreen Circle": 3,
+     "Azure Gardens": 1,
+     "Moonlit Promenade": 3,
+     "Lunar Pier": 2,
+     "Pennywhistle Arcade": 1,
+     "Primrose Boulevard": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference if adjacent stations use the same frequency.\",\n    \"entities\": [\n        \"Haven Docks\",\n        \"Quartz District\",\n        \"Evergreen Circle\",\n        \"Azure Gardens\",\n        \"Moonlit Promenade\",\n        \"Lunar Pier\",\n        \"Pennywhistle Arcade\",\n        \"Primrose Boulevard\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area, forming part of a larger network.\",\n        \"frequencies\": \"Specific ranges of electromagnetic waves used for transmitting data wirelessly; in this context, they are assigned to base stations to avoid interference.\",\n        \"interference\": \"The disruption of signals between two or more base stations that occurs when they operate on the same frequency and are in proximity to each other.\",\n        \"overlapping coverage areas\": \"Regions where the signal from two or more base stations can be received simultaneously, potentially leading to interference if not managed properly.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 27,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Pennywhistle Arcade",
+   "Amber Plaza",
+   "Velvet Corner",
+   "Ironbridge Crossing",
+   "Quarry Point",
+   "Evergreen Circle",
+   "Jasper Marina",
+   "Union Square Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Amber Plaza": 2,
+     "Velvet Corner": 3,
+     "Ironbridge Crossing": 1,
+     "Quarry Point": 1,
+     "Evergreen Circle": 2,
+     "Jasper Marina": 3,
+     "Union Square Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Amber Plaza": 2,
+     "Velvet Corner": 3,
+     "Ironbridge Crossing": 1,
+     "Quarry Point": 1,
+     "Evergreen Circle": 2,
+     "Jasper Marina": 3,
+     "Union Square Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Amber Plaza": 3,
+     "Velvet Corner": 2,
+     "Ironbridge Crossing": 1,
+     "Quarry Point": 1,
+     "Evergreen Circle": 2,
+     "Jasper Marina": 2,
+     "Union Square Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference which affects network stability and speed.\",\n    \"entities\": [\n        \"Pennywhistle Arcade\",\n        \"Amber Plaza\",\n        \"Velvet Corner\",\n        \"Ironbridge Crossing\",\n        \"Quarry Point\",\n        \"Evergreen Circle\",\n        \"Jasper Marina\",\n        \"Union Square Market\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"coverage areas\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands of radio waves used for transmitting signals.\",\n        \"interference\": \"The disruption of signals caused by overlapping coverage areas of adjacent stations using the same frequency.\",\n        \"coverage areas\": \"The geographical areas where the Wi-Fi signal is available.\",\n        \"network stability\": \"The reliability of the network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network.\",\n        \"infrastructure costs\": \"The expenses associated with setting up and maintaining the network infrastructure.\",\n        \"maintenance expenses\": \"The ongoing costs required to keep the network operational.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 28,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Jade Fountain",
+   "Flare Alley",
+   "Cobalt Market",
+   "Union Square Market",
+   "Gilded Archway",
+   "Quartz District",
+   "Pennywhistle Arcade",
+   "Ivory Spire Cathedral"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Flare Alley": 2,
+     "Cobalt Market": 2,
+     "Union Square Market": 1,
+     "Gilded Archway": 1,
+     "Quartz District": 3,
+     "Pennywhistle Arcade": 3,
+     "Ivory Spire Cathedral": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Flare Alley": 2,
+     "Cobalt Market": 1,
+     "Union Square Market": 3,
+     "Gilded Archway": 1,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 4,
+     "Ivory Spire Cathedral": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Jade Fountain": 2,
+     "Flare Alley": 1,
+     "Cobalt Market": 1,
+     "Union Square Market": 2,
+     "Gilded Archway": 2,
+     "Quartz District": 3,
+     "Pennywhistle Arcade": 3,
+     "Ivory Spire Cathedral": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference if adjacent stations use the same frequency.\",\n    \"entities\": [\n        \"public Wi-Fi network\",\n        \"high-speed internet access\",\n        \"Jade Fountain\",\n        \"Flare Alley\",\n        \"Cobalt Market\",\n        \"Union Square Market\",\n        \"Gilded Archway\",\n        \"Quartz District\",\n        \"Pennywhistle Arcade\",\n        \"Ivory Spire Cathedral\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"public Wi-Fi network\": A wireless network that provides internet access to the general public in designated areas.\n        \"high-speed internet access\": A fast and reliable connection to the internet, allowing for efficient data transmission.\n        \"Wi-Fi base station\": A device that transmits and receives wireless signals to provide internet access to users in its coverage area.\n        \"frequencies\": Specific ranges of electromagnetic waves used for transmitting signals in wireless communication.\n        \"interference\": The disruption of signals between two or more devices that can degrade the quality of communication.\n        \"signal areas\": The geographical regions where a Wi-Fi base station can effectively transmit its signal.\n        \"network stability\": The ability of a network to maintain consistent performance without interruptions or failures.\n        \"network speed\": The rate at which data is transmitted over the network, affecting user experience.\n        \"infrastructure costs\": The expenses associated with building and maintaining the physical components of the network.\n        \"maintenance expenses\": The ongoing costs required to keep the network operational and efficient.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 29,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Dragon’s Gate",
+   "Maplewood Conservatory",
+   "Flare Alley",
+   "Knight’s Market",
+   "Amber Plaza",
+   "Beacon Tower",
+   "Pennywhistle Arcade",
+   "Granite Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Flare Alley": 1,
+     "Knight’s Market": 3,
+     "Amber Plaza": 1,
+     "Beacon Tower": 2,
+     "Pennywhistle Arcade": 3,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Flare Alley": 1,
+     "Knight’s Market": 3,
+     "Amber Plaza": 1,
+     "Beacon Tower": 2,
+     "Pennywhistle Arcade": 3,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Flare Alley": 1,
+     "Knight’s Market": 3,
+     "Amber Plaza": 1,
+     "Beacon Tower": 2,
+     "Pennywhistle Arcade": 3,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruption.\",\n    \"entities\": [\n        \"Dragon’s Gate\",\n        \"Maplewood Conservatory\",\n        \"Flare Alley\",\n        \"Knight’s Market\",\n        \"Amber Plaza\",\n        \"Beacon Tower\",\n        \"Pennywhistle Arcade\",\n        \"Granite Plaza\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\",\n        \"coverage areas\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands of radio waves used for transmitting signals.\",\n        \"interference\": \"The disruption of signals between two or more devices that can lead to degraded performance.\",\n        \"network stability\": \"The ability of a network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network.\",\n        \"coverage areas\": \"The geographical regions where a Wi-Fi signal can be received.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 30,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Velvet Corner",
+   "Sapphire Arena",
+   "Skyline Gardens",
+   "Moonlit Promenade",
+   "Lighthouse Point",
+   "Rosewood Hall",
+   "Pennywhistle Arcade",
+   "Silvercrest Observatory"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Sapphire Arena": 1,
+     "Skyline Gardens": 2,
+     "Moonlit Promenade": 3,
+     "Lighthouse Point": 3,
+     "Rosewood Hall": 1,
+     "Pennywhistle Arcade": 3,
+     "Silvercrest Observatory": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Sapphire Arena": 1,
+     "Skyline Gardens": 2,
+     "Moonlit Promenade": 3,
+     "Lighthouse Point": 3,
+     "Rosewood Hall": 1,
+     "Pennywhistle Arcade": 3,
+     "Silvercrest Observatory": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Sapphire Arena": 3,
+     "Skyline Gardens": 1,
+     "Moonlit Promenade": 2,
+     "Lighthouse Point": 2,
+     "Rosewood Hall": 3,
+     "Pennywhistle Arcade": 2,
+     "Silvercrest Observatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruption.\",\n    \"entities\": [\n        \"Velvet Corner\",\n        \"Sapphire Arena\",\n        \"Skyline Gardens\",\n        \"Moonlit Promenade\",\n        \"Lighthouse Point\",\n        \"Rosewood Hall\",\n        \"Pennywhistle Arcade\",\n        \"Silvercrest Observatory\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\",\n        \"coverage areas\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used by Wi-Fi base stations to transmit data wirelessly.\",\n        \"interference\": \"The disruption of signals between two or more devices that can lead to reduced performance or connectivity issues.\",\n        \"network stability\": \"The ability of a network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\",\n        \"coverage areas\": \"The geographical regions where the Wi-Fi signal is available and can be accessed by users.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 31,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Zenith Arena",
+   "Pennywhistle Arcade",
+   "Haven Docks",
+   "Amber Plaza",
+   "Lunar Pier",
+   "Quartz District",
+   "Oakshade Library",
+   "Willowshade Pavilion"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Zenith Arena": 1,
+     "Pennywhistle Arcade": 2,
+     "Haven Docks": 1,
+     "Amber Plaza": 2,
+     "Lunar Pier": 1,
+     "Quartz District": 1,
+     "Oakshade Library": 3,
+     "Willowshade Pavilion": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Zenith Arena": 1,
+     "Pennywhistle Arcade": 2,
+     "Haven Docks": 1,
+     "Amber Plaza": 1,
+     "Lunar Pier": 1,
+     "Quartz District": 3,
+     "Oakshade Library": 3,
+     "Willowshade Pavilion": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Zenith Arena": 3,
+     "Pennywhistle Arcade": 2,
+     "Haven Docks": 3,
+     "Amber Plaza": 2,
+     "Lunar Pier": 2,
+     "Quartz District": 1,
+     "Oakshade Library": 1,
+     "Willowshade Pavilion": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, which can affect network stability and speed.\",\n    \"entities\": [\n        \"Zenith Arena\",\n        \"Pennywhistle Arcade\",\n        \"Haven Docks\",\n        \"Amber Plaza\",\n        \"Lunar Pier\",\n        \"Quartz District\",\n        \"Oakshade Library\",\n        \"Willowshade Pavilion\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"coverage areas\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used by Wi-Fi base stations to transmit data wirelessly.\",\n        \"interference\": \"The disruption of signals between two or more Wi-Fi base stations when they operate on the same frequency.\",\n        \"coverage areas\": \"The geographical regions where the Wi-Fi signal from a base station can be received.\",\n        \"network stability\": \"The reliability of the network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\",\n        \"infrastructure costs\": \"The expenses associated with setting up and maintaining the physical components of the network.\",\n        \"maintenance expenses\": \"The ongoing costs required to keep the network operational and efficient.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 32,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Silvercrest Observatory",
+   "Rosewood Hall",
+   "Zenith Arena",
+   "Lunar Pier",
+   "Nimbus Plaza",
+   "Maplewood Conservatory",
+   "Echo Station",
+   "Pennywhistle Arcade"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Silvercrest Observatory": 1,
+     "Rosewood Hall": 2,
+     "Zenith Arena": 1,
+     "Lunar Pier": 3,
+     "Nimbus Plaza": 1,
+     "Maplewood Conservatory": 2,
+     "Echo Station": 3,
+     "Pennywhistle Arcade": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Silvercrest Observatory": 1,
+     "Rosewood Hall": 2,
+     "Zenith Arena": 1,
+     "Lunar Pier": 3,
+     "Nimbus Plaza": 1,
+     "Maplewood Conservatory": 2,
+     "Echo Station": 3,
+     "Pennywhistle Arcade": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Silvercrest Observatory": 2,
+     "Rosewood Hall": 1,
+     "Zenith Arena": 2,
+     "Lunar Pier": 3,
+     "Nimbus Plaza": 2,
+     "Maplewood Conservatory": 1,
+     "Echo Station": 3,
+     "Pennywhistle Arcade": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping signal areas can cause issues with network stability and speed.\",\n    \"entities\": [\n        \"Silvercrest Observatory\",\n        \"Rosewood Hall\",\n        \"Zenith Arena\",\n        \"Lunar Pier\",\n        \"Nimbus Plaza\",\n        \"Maplewood Conservatory\",\n        \"Echo Station\",\n        \"Pennywhistle Arcade\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used for transmitting signals, which need to be assigned to base stations to avoid interference.\",\n        \"interference\": \"The disruption of signals between two or more base stations when they operate on the same frequency and are in overlapping coverage areas.\",\n        \"network stability\": \"The ability of the network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, which can be affected by interference.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 33,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Duskwood Park",
+   "Dragon’s Gate",
+   "Maplewood Conservatory",
+   "Northwind Tower",
+   "Umbra Theater",
+   "Flare Alley",
+   "King’s Row",
+   "Evergreen Circle"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Northwind Tower": 2,
+     "Umbra Theater": 1,
+     "Flare Alley": 3,
+     "King’s Row": 3,
+     "Evergreen Circle": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Northwind Tower": 2,
+     "Umbra Theater": 1,
+     "Flare Alley": 3,
+     "King’s Row": 3,
+     "Evergreen Circle": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Duskwood Park": 2,
+     "Dragon’s Gate": 2,
+     "Maplewood Conservatory": 1,
+     "Northwind Tower": 1,
+     "Umbra Theater": 3,
+     "Flare Alley": 3,
+     "King’s Row": 2,
+     "Evergreen Circle": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference caused by overlapping coverage areas.\",\n    \"entities\": [\n        \"Duskwood Park\",\n        \"Dragon’s Gate\",\n        \"Maplewood Conservatory\",\n        \"Northwind Tower\",\n        \"Umbra Theater\",\n        \"Flare Alley\",\n        \"King’s Row\",\n        \"Evergreen Circle\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used by Wi-Fi base stations to transmit data wirelessly.\",\n        \"interference\": \"The disruption of signals between two or more Wi-Fi base stations when they operate on the same frequency and are in close proximity.\",\n        \"network stability\": \"The reliability and consistency of the network's performance over time.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 34,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lighthouse Point",
+   "Ironbridge Crossing",
+   "Echo Station",
+   "Oakshade Library",
+   "Umbra Theater",
+   "Westgate Station",
+   "Jade Fountain",
+   "Jasper Marina"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Ironbridge Crossing": 1,
+     "Echo Station": 2,
+     "Oakshade Library": 1,
+     "Umbra Theater": 2,
+     "Westgate Station": 3,
+     "Jade Fountain": 1,
+     "Jasper Marina": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Ironbridge Crossing": 1,
+     "Echo Station": 2,
+     "Oakshade Library": 1,
+     "Umbra Theater": 2,
+     "Westgate Station": 3,
+     "Jade Fountain": 1,
+     "Jasper Marina": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lighthouse Point": 2,
+     "Ironbridge Crossing": 3,
+     "Echo Station": 1,
+     "Oakshade Library": 2,
+     "Umbra Theater": 1,
+     "Westgate Station": 2,
+     "Jade Fountain": 3,
+     "Jasper Marina": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference, affecting network stability and speed.\",\n    \"entities\": [\n        \"public Wi-Fi network\",\n        \"high-speed internet access\",\n        \"Lighthouse Point\",\n        \"Ironbridge Crossing\",\n        \"Echo Station\",\n        \"Oakshade Library\",\n        \"Umbra Theater\",\n        \"Westgate Station\",\n        \"Jade Fountain\",\n        \"Jasper Marina\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"coverage areas\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"public Wi-Fi network\": A wireless network that provides internet access to the public, typically in public spaces.\n        \"high-speed internet access\": A fast and efficient means of connecting to the internet, allowing for quick data transmission.\n        \"Wi-Fi base station\": A device that provides wireless internet access to a specific area, serving as a point of connection for users.\n        \"frequencies\": Specific ranges of electromagnetic waves used for transmitting signals in wireless communication.\n        \"interference\": The disruption of signals between two or more devices that can degrade the quality of communication.\n        \"coverage areas\": The geographical regions where a Wi-Fi base station can provide a reliable internet signal.\n        \"network stability\": The ability of a network to maintain consistent performance without interruptions or failures.\n        \"network speed\": The rate at which data is transmitted over the network, affecting how quickly users can access information.\n        \"infrastructure costs\": The expenses associated with the physical components and systems needed to support the network.\n        \"maintenance expenses\": The ongoing costs related to the upkeep and management of the network infrastructure.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 35,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quartz District",
+   "Yarrow Plaza",
+   "Mosaic Plaza",
+   "Temple Square",
+   "Evergreen Circle",
+   "Pennywhistle Arcade",
+   "Sapphire Arena",
+   "Maplewood Conservatory"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Yarrow Plaza": 2,
+     "Mosaic Plaza": 2,
+     "Temple Square": 3,
+     "Evergreen Circle": 2,
+     "Pennywhistle Arcade": 1,
+     "Sapphire Arena": 2,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Yarrow Plaza": 2,
+     "Mosaic Plaza": 2,
+     "Temple Square": 3,
+     "Evergreen Circle": 2,
+     "Pennywhistle Arcade": 1,
+     "Sapphire Arena": 2,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Yarrow Plaza": 2,
+     "Mosaic Plaza": 2,
+     "Temple Square": 3,
+     "Evergreen Circle": 2,
+     "Pennywhistle Arcade": 1,
+     "Sapphire Arena": 2,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference if adjacent stations use the same frequency.\",\n    \"entities\": [\n        \"public Wi-Fi network\",\n        \"high-speed internet access\",\n        \"Quartz District\",\n        \"Yarrow Plaza\",\n        \"Mosaic Plaza\",\n        \"Temple Square\",\n        \"Evergreen Circle\",\n        \"Pennywhistle Arcade\",\n        \"Sapphire Arena\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\",\n        \"coverage areas\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"public Wi-Fi network\": A wireless network that provides internet access to the general public in designated areas.\n        \"high-speed internet access\": A broadband internet connection that allows for fast data transmission.\n        \"Wi-Fi base station\": A device that transmits and receives wireless signals to provide internet connectivity.\n        \"frequencies\": Specific ranges of electromagnetic waves used for transmitting data wirelessly.\n        \"interference\": Disruption of signal quality caused by overlapping frequencies from adjacent stations.\n        \"network stability\": The ability of the network to maintain consistent performance without interruptions.\n        \"network speed\": The rate at which data is transmitted over the network.\n        \"coverage areas\": The geographical regions where the Wi-Fi signal is available.\n        \"infrastructure costs\": Expenses related to the physical components required to establish the network.\n        \"maintenance expenses\": Ongoing costs associated with the upkeep and operation of the network.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 36,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "King’s Row",
+   "Sapphire Arena",
+   "Gilded Archway",
+   "Quartz District",
+   "Pennywhistle Arcade",
+   "Haven Docks",
+   "Flint Forge Quarter",
+   "Velvet Corner"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Sapphire Arena": 2,
+     "Gilded Archway": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Haven Docks": 3,
+     "Flint Forge Quarter": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Sapphire Arena": 2,
+     "Gilded Archway": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Haven Docks": 3,
+     "Flint Forge Quarter": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Sapphire Arena": 2,
+     "Gilded Archway": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Haven Docks": 3,
+     "Flint Forge Quarter": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruption.\",\n    \"entities\": [\n        \"public Wi-Fi network\",\n        \"high-speed internet access\",\n        \"King’s Row\",\n        \"Sapphire Arena\",\n        \"Gilded Archway\",\n        \"Quartz District\",\n        \"Pennywhistle Arcade\",\n        \"Haven Docks\",\n        \"Flint Forge Quarter\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"public Wi-Fi network\": A wireless network that provides internet access to the general public in designated areas.\n        \"high-speed internet access\": A fast internet connection that allows for quick data transfer and efficient online activities.\n        \"Wi-Fi base station\": A device that transmits and receives wireless signals to provide internet connectivity to users in its coverage area.\n        \"frequencies\": Specific ranges of electromagnetic waves used for transmitting signals in wireless communication.\n        \"interference\": The disruption of signals caused by overlapping frequencies from adjacent stations, leading to reduced network performance.\n        \"network stability\": The reliability of the network in maintaining consistent connectivity without interruptions.\n        \"network speed\": The rate at which data is transmitted over the network, affecting user experience.\n        \"infrastructure costs\": The expenses associated with setting up and maintaining the physical components of the network.\n        \"maintenance expenses\": The ongoing costs required to keep the network operational and efficient.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 37,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Jade Fountain",
+   "Brass Lantern Tavern",
+   "Lunar Pier",
+   "Sapphire Arena",
+   "Mosaic Plaza",
+   "Pennywhistle Arcade",
+   "Dragon’s Gate",
+   "Granite Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Brass Lantern Tavern": 2,
+     "Lunar Pier": 1,
+     "Sapphire Arena": 3,
+     "Mosaic Plaza": 1,
+     "Pennywhistle Arcade": 2,
+     "Dragon’s Gate": 2,
+     "Granite Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Brass Lantern Tavern": 2,
+     "Lunar Pier": 1,
+     "Sapphire Arena": 3,
+     "Mosaic Plaza": 1,
+     "Pennywhistle Arcade": 2,
+     "Dragon’s Gate": 2,
+     "Granite Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Jade Fountain": 3,
+     "Brass Lantern Tavern": 1,
+     "Lunar Pier": 2,
+     "Sapphire Arena": 2,
+     "Mosaic Plaza": 2,
+     "Pennywhistle Arcade": 1,
+     "Dragon’s Gate": 3,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference, affecting network stability and speed.\",\n    \"entities\": [\n        \"Jade Fountain\",\n        \"Brass Lantern Tavern\",\n        \"Lunar Pier\",\n        \"Sapphire Arena\",\n        \"Mosaic Plaza\",\n        \"Pennywhistle Arcade\",\n        \"Dragon’s Gate\",\n        \"Granite Plaza\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"overlapping coverage areas\": \"Regions where the signal from two or more base stations can interfere with each other due to proximity.\",\n        \"interference\": \"The disruption of a signal caused by overlapping frequencies from adjacent stations.\",\n        \"frequency allocation\": \"The process of assigning specific frequencies to different base stations to avoid interference.\",\n        \"adjacent stations\": \"Base stations that have overlapping coverage areas and can potentially interfere with each other.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 38,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Velvet Corner",
+   "Umbra Theater",
+   "Granite Plaza",
+   "Evergreen Circle",
+   "Azure Gardens",
+   "Yarrow Plaza",
+   "Dragon’s Gate"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Umbra Theater": 1,
+     "Granite Plaza": 3,
+     "Evergreen Circle": 2,
+     "Azure Gardens": 2,
+     "Yarrow Plaza": 1,
+     "Dragon’s Gate": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Umbra Theater": 1,
+     "Granite Plaza": 3,
+     "Evergreen Circle": 2,
+     "Azure Gardens": 2,
+     "Yarrow Plaza": 1,
+     "Dragon’s Gate": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Umbra Theater": 1,
+     "Granite Plaza": 3,
+     "Evergreen Circle": 2,
+     "Azure Gardens": 2,
+     "Yarrow Plaza": 1,
+     "Dragon’s Gate": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover 8 major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference, affecting network stability and speed.\",\n    \"entities\": [\n        \"Primrose Boulevard\",\n        \"Velvet Corner\",\n        \"Umbra Theater\",\n        \"Granite Plaza\",\n        \"Evergreen Circle\",\n        \"Azure Gardens\",\n        \"Yarrow Plaza\",\n        \"Dragon’s Gate\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Specific ranges of electromagnetic waves used for transmitting signals.\",\n        \"interference\": \"The disruption of signals from one source by signals from another, which can lead to degraded performance.\",\n        \"network stability\": \"The ability of a network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 39,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Willowshade Pavilion",
+   "Skyline Gardens",
+   "Horizon Mall",
+   "Opal Theater",
+   "Lighthouse Point",
+   "Ironbridge Crossing",
+   "Zenith Arena",
+   "Maplewood Conservatory"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 1,
+     "Skyline Gardens": 2,
+     "Horizon Mall": 2,
+     "Opal Theater": 1,
+     "Lighthouse Point": 2,
+     "Ironbridge Crossing": 3,
+     "Zenith Arena": 3,
+     "Maplewood Conservatory": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 1,
+     "Skyline Gardens": 1,
+     "Horizon Mall": 1,
+     "Opal Theater": 2,
+     "Lighthouse Point": 3,
+     "Ironbridge Crossing": 4,
+     "Zenith Arena": 1,
+     "Maplewood Conservatory": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 3,
+     "Skyline Gardens": 1,
+     "Horizon Mall": 1,
+     "Opal Theater": 3,
+     "Lighthouse Point": 1,
+     "Ironbridge Crossing": 2,
+     "Zenith Arena": 2,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city to provide free high-speed internet access across various public areas. The network aims to cover eight major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, which can affect network stability and speed.\",\n    \"entities\": [\n        \"Willowshade Pavilion\",\n        \"Skyline Gardens\",\n        \"Horizon Mall\",\n        \"Opal Theater\",\n        \"Lighthouse Point\",\n        \"Ironbridge Crossing\",\n        \"Zenith Arena\",\n        \"Maplewood Conservatory\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"coverage areas\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Specific ranges of electromagnetic waves used for transmitting signals in wireless communication.\",\n        \"interference\": \"The disruption of signals between two or more devices that can lead to degraded performance.\",\n        \"coverage areas\": \"The geographical regions where a Wi-Fi base station can provide a reliable internet signal.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 40,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Velvet Corner",
+   "Rosewood Hall",
+   "Flint Forge Quarter",
+   "Evergreen Circle",
+   "Oakshade Library",
+   "Gilded Archway",
+   "Union Square Market",
+   "Knight’s Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Rosewood Hall": 2,
+     "Flint Forge Quarter": 2,
+     "Evergreen Circle": 2,
+     "Oakshade Library": 3,
+     "Gilded Archway": 3,
+     "Union Square Market": 1,
+     "Knight’s Market": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Rosewood Hall": 1,
+     "Flint Forge Quarter": 1,
+     "Evergreen Circle": 2,
+     "Oakshade Library": 3,
+     "Gilded Archway": 2,
+     "Union Square Market": 4,
+     "Knight’s Market": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Velvet Corner": 3,
+     "Rosewood Hall": 1,
+     "Flint Forge Quarter": 1,
+     "Evergreen Circle": 1,
+     "Oakshade Library": 2,
+     "Gilded Archway": 2,
+     "Union Square Market": 3,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference due to overlapping coverage areas.\",\n    \"entities\": [\n        \"Velvet Corner\",\n        \"Rosewood Hall\",\n        \"Flint Forge Quarter\",\n        \"Evergreen Circle\",\n        \"Oakshade Library\",\n        \"Gilded Archway\",\n        \"Union Square Market\",\n        \"Knight’s Market\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used by Wi-Fi base stations to transmit signals.\",\n        \"interference\": \"The disruption of signals between two or more base stations when they operate on the same frequency.\",\n        \"signal areas\": \"The geographical regions where the Wi-Fi signals from base stations can be received.\",\n        \"network stability\": \"The reliability of the network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network.\",\n        \"infrastructure costs\": \"The expenses associated with setting up and maintaining the network infrastructure.\",\n        \"maintenance expenses\": \"The ongoing costs required to keep the network operational.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 41,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Duskwood Park",
+   "Opal Theater",
+   "Pennywhistle Arcade",
+   "Copper Clock Square",
+   "Ironbridge Crossing",
+   "Oakshade Library",
+   "Velvet Corner",
+   "Jade Fountain"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Opal Theater": 2,
+     "Pennywhistle Arcade": 1,
+     "Copper Clock Square": 2,
+     "Ironbridge Crossing": 2,
+     "Oakshade Library": 3,
+     "Velvet Corner": 1,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Opal Theater": 2,
+     "Pennywhistle Arcade": 1,
+     "Copper Clock Square": 2,
+     "Ironbridge Crossing": 2,
+     "Oakshade Library": 3,
+     "Velvet Corner": 1,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Opal Theater": 2,
+     "Pennywhistle Arcade": 1,
+     "Copper Clock Square": 2,
+     "Ironbridge Crossing": 2,
+     "Oakshade Library": 3,
+     "Velvet Corner": 1,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruption.\",\n    \"entities\": [\n        \"Duskwood Park\",\n        \"Opal Theater\",\n        \"Pennywhistle Arcade\",\n        \"Copper Clock Square\",\n        \"Ironbridge Crossing\",\n        \"Oakshade Library\",\n        \"Velvet Corner\",\n        \"Jade Fountain\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or ranges of radio waves used for transmitting signals.\",\n        \"interference\": \"The disruption of signals between two or more devices that can lead to degraded performance.\",\n        \"network stability\": \"The ability of a network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 42,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Yarrow Plaza",
+   "Skyline Gardens",
+   "Jasper Marina",
+   "Haven Docks",
+   "Azure Gardens",
+   "Silvercrest Observatory",
+   "Rosewood Hall",
+   "Lunar Pier"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Skyline Gardens": 1,
+     "Jasper Marina": 2,
+     "Haven Docks": 2,
+     "Azure Gardens": 2,
+     "Silvercrest Observatory": 3,
+     "Rosewood Hall": 3,
+     "Lunar Pier": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Skyline Gardens": 1,
+     "Jasper Marina": 2,
+     "Haven Docks": 2,
+     "Azure Gardens": 2,
+     "Silvercrest Observatory": 3,
+     "Rosewood Hall": 3,
+     "Lunar Pier": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Skyline Gardens": 1,
+     "Jasper Marina": 2,
+     "Haven Docks": 2,
+     "Azure Gardens": 2,
+     "Silvercrest Observatory": 3,
+     "Rosewood Hall": 3,
+     "Lunar Pier": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruption.\",\n    \"entities\": [\n        \"Yarrow Plaza\",\n        \"Skyline Gardens\",\n        \"Jasper Marina\",\n        \"Haven Docks\",\n        \"Azure Gardens\",\n        \"Silvercrest Observatory\",\n        \"Rosewood Hall\",\n        \"Lunar Pier\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"coverage areas\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used by Wi-Fi base stations to transmit data.\",\n        \"interference\": \"The disruption of signals between two or more base stations that can occur when they operate on the same frequency.\",\n        \"coverage areas\": \"The geographical regions where the Wi-Fi signals from the base stations can be received.\",\n        \"network stability\": \"The reliability of the network in maintaining a consistent connection without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\",\n        \"infrastructure costs\": \"The expenses associated with setting up and maintaining the physical components of the network.\",\n        \"maintenance expenses\": \"The ongoing costs required to keep the network operational and efficient.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 43,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "King’s Row",
+   "Oakshade Library",
+   "Velvet Corner",
+   "Moonlit Promenade",
+   "Rosewood Hall",
+   "Union Square Market",
+   "Primrose Boulevard",
+   "Beacon Tower"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Oakshade Library": 1,
+     "Velvet Corner": 1,
+     "Moonlit Promenade": 2,
+     "Rosewood Hall": 3,
+     "Union Square Market": 2,
+     "Primrose Boulevard": 1,
+     "Beacon Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Oakshade Library": 1,
+     "Velvet Corner": 1,
+     "Moonlit Promenade": 2,
+     "Rosewood Hall": 2,
+     "Union Square Market": 3,
+     "Primrose Boulevard": 1,
+     "Beacon Tower": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "King’s Row": 2,
+     "Oakshade Library": 2,
+     "Velvet Corner": 2,
+     "Moonlit Promenade": 1,
+     "Rosewood Hall": 3,
+     "Union Square Market": 1,
+     "Primrose Boulevard": 2,
+     "Beacon Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover 8 major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruptions.\",\n    \"entities\": [\n        \"King’s Row\",\n        \"Oakshade Library\",\n        \"Velvet Corner\",\n        \"Moonlit Promenade\",\n        \"Rosewood Hall\",\n        \"Union Square Market\",\n        \"Primrose Boulevard\",\n        \"Beacon Tower\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands of radio waves used for transmitting signals.\",\n        \"interference\": \"The disruption of signals when two or more sources operate on the same frequency, leading to degraded performance.\",\n        \"overlapping coverage areas\": \"Regions where the signal from two or more base stations can be received simultaneously, potentially causing interference.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 44,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Evergreen Circle",
+   "Azure Gardens",
+   "Yarrow Plaza",
+   "Jasper Marina",
+   "King’s Row",
+   "Shadowbridge Arcade",
+   "Umbra Theater",
+   "Flare Alley"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Azure Gardens": 1,
+     "Yarrow Plaza": 2,
+     "Jasper Marina": 1,
+     "King’s Row": 2,
+     "Shadowbridge Arcade": 1,
+     "Umbra Theater": 2,
+     "Flare Alley": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Azure Gardens": 1,
+     "Yarrow Plaza": 2,
+     "Jasper Marina": 1,
+     "King’s Row": 2,
+     "Shadowbridge Arcade": 1,
+     "Umbra Theater": 2,
+     "Flare Alley": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Evergreen Circle": 2,
+     "Azure Gardens": 2,
+     "Yarrow Plaza": 1,
+     "Jasper Marina": 2,
+     "King’s Row": 1,
+     "Shadowbridge Arcade": 2,
+     "Umbra Theater": 1,
+     "Flare Alley": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference, affecting network stability and speed.\",\n    \"entities\": [\n        \"Evergreen Circle\",\n        \"Azure Gardens\",\n        \"Yarrow Plaza\",\n        \"Jasper Marina\",\n        \"King’s Row\",\n        \"Shadowbridge Arcade\",\n        \"Umbra Theater\",\n        \"Flare Alley\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"coverage areas\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used by Wi-Fi base stations to transmit signals.\",\n        \"interference\": \"The disruption of signals caused when two or more base stations use the same frequency in overlapping coverage areas.\",\n        \"coverage areas\": \"The geographical regions where a base station can provide Wi-Fi service.\",\n        \"network stability\": \"The reliability of the network in maintaining consistent service without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network.\",\n        \"infrastructure costs\": \"The expenses associated with setting up and maintaining the network infrastructure.\",\n        \"maintenance expenses\": \"The ongoing costs required to keep the network operational and efficient.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 45,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Yarrow Plaza",
+   "Oakshade Library",
+   "Riverstone Wharf",
+   "Knight’s Market",
+   "Quarry Point",
+   "Northwind Tower",
+   "Twilight Harbor",
+   "Rosewood Hall"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Oakshade Library": 2,
+     "Riverstone Wharf": 1,
+     "Knight’s Market": 2,
+     "Quarry Point": 1,
+     "Northwind Tower": 2,
+     "Twilight Harbor": 3,
+     "Rosewood Hall": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Oakshade Library": 2,
+     "Riverstone Wharf": 1,
+     "Knight’s Market": 2,
+     "Quarry Point": 1,
+     "Northwind Tower": 2,
+     "Twilight Harbor": 3,
+     "Rosewood Hall": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 2,
+     "Oakshade Library": 1,
+     "Riverstone Wharf": 2,
+     "Knight’s Market": 1,
+     "Quarry Point": 3,
+     "Northwind Tower": 1,
+     "Twilight Harbor": 2,
+     "Rosewood Hall": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruption.\",\n    \"entities\": [\n        \"Yarrow Plaza\",\n        \"Oakshade Library\",\n        \"Riverstone Wharf\",\n        \"Knight’s Market\",\n        \"Quarry Point\",\n        \"Northwind Tower\",\n        \"Twilight Harbor\",\n        \"Rosewood Hall\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands of radio waves used for transmitting signals between devices.\",\n        \"interference\": \"The disruption of signals caused by overlapping frequencies from adjacent stations.\",\n        \"signal areas\": \"The geographical regions where a Wi-Fi base station can provide internet coverage.\",\n        \"network stability\": \"The reliability and consistency of the internet connection provided by the network.\",\n        \"network speed\": \"The rate at which data is transmitted over the network.\",\n        \"infrastructure costs\": \"The expenses associated with setting up and maintaining the physical components of the network.\",\n        \"maintenance expenses\": \"The ongoing costs related to the upkeep and operation of the network.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 46,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quarry Point",
+   "Ivory Spire Cathedral",
+   "Jade Fountain",
+   "Horizon Mall",
+   "Temple Square",
+   "Flare Alley",
+   "Union Square Market",
+   "Azure Gardens"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quarry Point": 1,
+     "Ivory Spire Cathedral": 1,
+     "Jade Fountain": 2,
+     "Horizon Mall": 3,
+     "Temple Square": 2,
+     "Flare Alley": 2,
+     "Union Square Market": 4,
+     "Azure Gardens": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quarry Point": 1,
+     "Ivory Spire Cathedral": 1,
+     "Jade Fountain": 2,
+     "Horizon Mall": 3,
+     "Temple Square": 2,
+     "Flare Alley": 2,
+     "Union Square Market": 4,
+     "Azure Gardens": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quarry Point": 2,
+     "Ivory Spire Cathedral": 1,
+     "Jade Fountain": 2,
+     "Horizon Mall": 1,
+     "Temple Square": 4,
+     "Flare Alley": 3,
+     "Union Square Market": 3,
+     "Azure Gardens": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, which is crucial for maintaining network stability and speed.\",\n    \"entities\": [\n        \"Quarry Point\",\n        \"Ivory Spire Cathedral\",\n        \"Jade Fountain\",\n        \"Horizon Mall\",\n        \"Temple Square\",\n        \"Flare Alley\",\n        \"Union Square Market\",\n        \"Azure Gardens\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"coverage areas\",\n        \"network stability\",\n        \"network speed\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used for transmitting signals, which can overlap and cause interference if not managed properly.\",\n        \"interference\": \"The disruption of signals between two or more base stations that can lead to reduced network performance.\",\n        \"coverage areas\": \"The geographical regions where the Wi-Fi signals from the base stations can be received.\",\n        \"network stability\": \"The reliability of the network in maintaining consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 47,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lighthouse Point",
+   "Yarrow Plaza",
+   "Westgate Station",
+   "Maplewood Conservatory",
+   "Oakshade Library",
+   "Pennywhistle Arcade",
+   "Rosewood Hall",
+   "Skyline Gardens"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Yarrow Plaza": 2,
+     "Westgate Station": 3,
+     "Maplewood Conservatory": 1,
+     "Oakshade Library": 3,
+     "Pennywhistle Arcade": 4,
+     "Rosewood Hall": 3,
+     "Skyline Gardens": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Yarrow Plaza": 2,
+     "Westgate Station": 3,
+     "Maplewood Conservatory": 1,
+     "Oakshade Library": 3,
+     "Pennywhistle Arcade": 4,
+     "Rosewood Hall": 3,
+     "Skyline Gardens": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lighthouse Point": 2,
+     "Yarrow Plaza": 1,
+     "Westgate Station": 4,
+     "Maplewood Conservatory": 1,
+     "Oakshade Library": 3,
+     "Pennywhistle Arcade": 3,
+     "Rosewood Hall": 3,
+     "Skyline Gardens": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will cover eight major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference, affecting network stability and speed.\",\n    \"entities\": [\n        \"Lighthouse Point\",\n        \"Yarrow Plaza\",\n        \"Westgate Station\",\n        \"Maplewood Conservatory\",\n        \"Oakshade Library\",\n        \"Pennywhistle Arcade\",\n        \"Rosewood Hall\",\n        \"Skyline Gardens\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands of radio waves used for transmitting signals.\",\n        \"interference\": \"The disruption of signals between two or more devices that can lead to degraded performance.\",\n        \"network stability\": \"The ability of a network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 48,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Cobalt Market",
+   "Twilight Harbor",
+   "Quarry Point",
+   "Nimbus Plaza",
+   "Flare Alley",
+   "Brass Lantern Tavern",
+   "Dragon’s Gate",
+   "Yarrow Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Cobalt Market": 1,
+     "Twilight Harbor": 2,
+     "Quarry Point": 3,
+     "Nimbus Plaza": 3,
+     "Flare Alley": 1,
+     "Brass Lantern Tavern": 3,
+     "Dragon’s Gate": 2,
+     "Yarrow Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Cobalt Market": 1,
+     "Twilight Harbor": 2,
+     "Quarry Point": 3,
+     "Nimbus Plaza": 3,
+     "Flare Alley": 1,
+     "Brass Lantern Tavern": 3,
+     "Dragon’s Gate": 2,
+     "Yarrow Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Cobalt Market": 1,
+     "Twilight Harbor": 2,
+     "Quarry Point": 4,
+     "Nimbus Plaza": 3,
+     "Flare Alley": 2,
+     "Brass Lantern Tavern": 3,
+     "Dragon’s Gate": 1,
+     "Yarrow Plaza": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access in various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge lies in allocating frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal disruption.\",\n    \"entities\": [\n        \"Cobalt Market\",\n        \"Twilight Harbor\",\n        \"Quarry Point\",\n        \"Nimbus Plaza\",\n        \"Flare Alley\",\n        \"Brass Lantern Tavern\",\n        \"Dragon’s Gate\",\n        \"Yarrow Plaza\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"signal areas\",\n        \"network stability\",\n        \"network speed\",\n        \"infrastructure costs\",\n        \"maintenance expenses\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used by Wi-Fi base stations to transmit data wirelessly.\",\n        \"interference\": \"The disruption of signals between two or more Wi-Fi base stations when they operate on the same frequency.\",\n        \"overlapping coverage areas\": \"Regions where the signal from two or more base stations can be received simultaneously, potentially causing interference.\",\n        \"network stability\": \"The ability of the network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, affecting user experience.\",\n        \"infrastructure costs\": \"The expenses associated with setting up and maintaining the physical components of the network.\",\n        \"maintenance expenses\": \"The ongoing costs required to keep the network operational and efficient.\"\n    }\n}"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 49,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Evergreen Circle",
+   "Dragon’s Gate",
+   "Union Square Market",
+   "Primrose Boulevard",
+   "Silvercrest Observatory",
+   "Shadowbridge Arcade",
+   "Moonlit Promenade",
+   "Jasper Marina"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 2,
+     "Primrose Boulevard": 1,
+     "Silvercrest Observatory": 1,
+     "Shadowbridge Arcade": 3,
+     "Moonlit Promenade": 2,
+     "Jasper Marina": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 2,
+     "Primrose Boulevard": 1,
+     "Silvercrest Observatory": 1,
+     "Shadowbridge Arcade": 3,
+     "Moonlit Promenade": 2,
+     "Jasper Marina": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Evergreen Circle": 2,
+     "Dragon’s Gate": 3,
+     "Union Square Market": 3,
+     "Primrose Boulevard": 2,
+     "Silvercrest Observatory": 2,
+     "Shadowbridge Arcade": 1,
+     "Moonlit Promenade": 3,
+     "Jasper Marina": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"context\": \"The problem involves designing a public Wi-Fi network for a city, aiming to provide free high-speed internet access across various public areas. The network will consist of 8 major locations, each equipped with a Wi-Fi base station. The challenge is to allocate frequencies to these stations to minimize interference, as overlapping coverage areas can lead to signal interference and affect network performance.\",\n    \"entities\": [\n        \"Evergreen Circle\",\n        \"Dragon’s Gate\",\n        \"Union Square Market\",\n        \"Primrose Boulevard\",\n        \"Silvercrest Observatory\",\n        \"Shadowbridge Arcade\",\n        \"Moonlit Promenade\",\n        \"Jasper Marina\",\n        \"Wi-Fi base station\",\n        \"frequencies\",\n        \"interference\",\n        \"network stability\",\n        \"network speed\"\n    ],\n    \"definitions\": {\n        \"Wi-Fi base station\": \"A device that provides wireless internet access to a specific area.\",\n        \"frequencies\": \"Different channels or bands used for transmitting signals, which must be allocated to avoid interference.\",\n        \"interference\": \"The disruption of signals between two or more Wi-Fi base stations that can occur if they operate on the same frequency.\",\n        \"network stability\": \"The ability of the network to maintain consistent performance without interruptions.\",\n        \"network speed\": \"The rate at which data is transmitted over the network, which can be affected by interference.\"\n    }\n}"
+ }
+]

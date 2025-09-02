@@ -1,0 +1,9452 @@
+[
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 0,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Duskwood Park",
+   "King’s Row",
+   "Mosaic Plaza",
+   "Amber Plaza",
+   "Haven Docks",
+   "Skyline Gardens",
+   "Quarry Point",
+   "Brass Lantern Tavern",
+   "Shadowbridge Arcade",
+   "Temple Square"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "King’s Row": 1,
+     "Mosaic Plaza": 2,
+     "Amber Plaza": 2,
+     "Haven Docks": 2,
+     "Skyline Gardens": 2,
+     "Quarry Point": 3,
+     "Brass Lantern Tavern": 3,
+     "Shadowbridge Arcade": 4,
+     "Temple Square": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "King’s Row": 1,
+     "Mosaic Plaza": 2,
+     "Amber Plaza": 2,
+     "Haven Docks": 2,
+     "Skyline Gardens": 2,
+     "Quarry Point": 3,
+     "Brass Lantern Tavern": 3,
+     "Shadowbridge Arcade": 4,
+     "Temple Square": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "King’s Row": 1,
+     "Mosaic Plaza": 2,
+     "Amber Plaza": 3,
+     "Haven Docks": 2,
+     "Skyline Gardens": 2,
+     "Quarry Point": 3,
+     "Brass Lantern Tavern": 4,
+     "Shadowbridge Arcade": 2,
+     "Temple Square": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the Wi-Fi base stations and their overlapping coverage areas.\"\n    },\n    \"complexity\": \"O(2^n)\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it can find the optimal solution for coloring the graph, ensuring that no two adjacent Wi-Fi base stations use the same frequency. Given that there are 10 base stations, this algorithm is suitable as it can efficiently explore all possible frequency assignments while minimizing the number of frequencies used.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 1,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Westgate Station",
+   "Amber Plaza",
+   "Lunar Pier",
+   "Jasper Marina",
+   "Nimbus Plaza",
+   "Opal Theater",
+   "Primrose Boulevard",
+   "Gilded Archway",
+   "Quarry Point",
+   "Umbra Theater"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Amber Plaza": 1,
+     "Lunar Pier": 1,
+     "Jasper Marina": 2,
+     "Nimbus Plaza": 1,
+     "Opal Theater": 2,
+     "Primrose Boulevard": 1,
+     "Gilded Archway": 3,
+     "Quarry Point": 2,
+     "Umbra Theater": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Amber Plaza": 1,
+     "Lunar Pier": 1,
+     "Jasper Marina": 2,
+     "Nimbus Plaza": 1,
+     "Opal Theater": 2,
+     "Primrose Boulevard": 1,
+     "Gilded Archway": 3,
+     "Quarry Point": 2,
+     "Umbra Theater": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Amber Plaza": 1,
+     "Lunar Pier": 3,
+     "Jasper Marina": 4,
+     "Nimbus Plaza": 3,
+     "Opal Theater": 2,
+     "Primrose Boulevard": 3,
+     "Gilded Archway": 1,
+     "Quarry Point": 2,
+     "Umbra Theater": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations.\",\n        \"num_colors\": \"The number of frequencies available for allocation.\"\n    },\n    \"complexity\": \"O(2^n) - The algorithm explores all possible combinations of color assignments, making it suitable for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it systematically explores all possible frequency assignments to the Wi-Fi base stations while ensuring that no two adjacent stations (which can interfere with each other) are assigned the same frequency. Given that there are only 10 base stations, this algorithm can efficiently find the optimal solution.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 2,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Moonlit Promenade",
+   "Cobalt Market",
+   "Horizon Mall",
+   "Gilded Archway",
+   "Jade Fountain",
+   "Rosewood Hall",
+   "Jasper Marina",
+   "Union Square Market",
+   "King’s Row",
+   "Opal Theater"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Cobalt Market": 1,
+     "Horizon Mall": 2,
+     "Gilded Archway": 1,
+     "Jade Fountain": 3,
+     "Rosewood Hall": 4,
+     "Jasper Marina": 3,
+     "Union Square Market": 2,
+     "King’s Row": 3,
+     "Opal Theater": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Cobalt Market": 1,
+     "Horizon Mall": 2,
+     "Gilded Archway": 1,
+     "Jade Fountain": 3,
+     "Rosewood Hall": 4,
+     "Jasper Marina": 3,
+     "Union Square Market": 2,
+     "King’s Row": 3,
+     "Opal Theater": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 4,
+     "Cobalt Market": 3,
+     "Horizon Mall": 1,
+     "Gilded Archway": 1,
+     "Jade Fountain": 3,
+     "Rosewood Hall": 2,
+     "Jasper Marina": 3,
+     "Union Square Market": 2,
+     "King’s Row": 3,
+     "Opal Theater": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the coverage areas of the Wi-Fi base stations.\",\n        \"num_colors\": \"The number of frequencies to be assigned.\"\n    },\n    \"complexity\": \"O(2^n)\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it can find the optimal solution for coloring the graph, ensuring that no two adjacent Wi-Fi base stations use the same frequency. Given that there are 10 base stations, this falls within the suitable range for optimal solutions.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 3,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Copper Clock Square",
+   "Westgate Station",
+   "Quartz District",
+   "Pennywhistle Arcade",
+   "Lunar Pier",
+   "Nimbus Plaza",
+   "Maplewood Conservatory",
+   "Yarrow Plaza",
+   "Ivory Spire Cathedral",
+   "Horizon Mall"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Copper Clock Square": 1,
+     "Westgate Station": 1,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 2,
+     "Lunar Pier": 3,
+     "Nimbus Plaza": 1,
+     "Maplewood Conservatory": 2,
+     "Yarrow Plaza": 4,
+     "Ivory Spire Cathedral": 1,
+     "Horizon Mall": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Copper Clock Square": 1,
+     "Westgate Station": 1,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 2,
+     "Lunar Pier": 3,
+     "Nimbus Plaza": 1,
+     "Maplewood Conservatory": 2,
+     "Yarrow Plaza": 4,
+     "Ivory Spire Cathedral": 1,
+     "Horizon Mall": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Copper Clock Square": 4,
+     "Westgate Station": 3,
+     "Quartz District": 3,
+     "Pennywhistle Arcade": 2,
+     "Lunar Pier": 1,
+     "Nimbus Plaza": 2,
+     "Maplewood Conservatory": 2,
+     "Yarrow Plaza": 3,
+     "Ivory Spire Cathedral": 3,
+     "Horizon Mall": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and select the most suitable algorithm for the problem of allocating frequencies to Wi-Fi base stations.\n\n### Analysis:\n1. **Graph Scale**: The problem involves 10 major locations (nodes) where each location represents a Wi-Fi base station. This is a small graph with fewer than 18 nodes.\n2. **Graph Characteristics**: The problem is about minimizing interference, which can be modeled as a graph coloring problem. Each base station (node) must be assigned a frequency (color) such that no two adjacent nodes (base stations with overlapping coverage) share the same frequency.\n\n### Selected Algorithm:\nGiven that the graph has fewer than 18 nodes, we will choose an optimal solution algorithm suitable for graph coloring.\n\n### Output Dictionary:\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations based on their coverage areas.\"\n    },\n    \"complexity\": \"O(2^n), where n is the number of nodes. This algorithm uses depth-first search and backtracking to find the minimal coloring number.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem as it can efficiently explore all possible color assignments to find the optimal solution for minimizing the number of frequencies needed, ensuring that adjacent stations do not use the same frequency.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 4,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Nimbus Plaza",
+   "Opal Theater",
+   "Gilded Archway",
+   "Echo Station",
+   "Evergreen Circle",
+   "Mosaic Plaza",
+   "Union Square Market",
+   "Quarry Point",
+   "Duskwood Park",
+   "Flare Alley"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Opal Theater": 2,
+     "Gilded Archway": 2,
+     "Echo Station": 1,
+     "Evergreen Circle": 3,
+     "Mosaic Plaza": 1,
+     "Union Square Market": 1,
+     "Quarry Point": 3,
+     "Duskwood Park": 4,
+     "Flare Alley": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Opal Theater": 2,
+     "Gilded Archway": 2,
+     "Echo Station": 1,
+     "Evergreen Circle": 3,
+     "Mosaic Plaza": 1,
+     "Union Square Market": 1,
+     "Quarry Point": 3,
+     "Duskwood Park": 4,
+     "Flare Alley": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 3,
+     "Opal Theater": 2,
+     "Gilded Archway": 1,
+     "Echo Station": 3,
+     "Evergreen Circle": 2,
+     "Mosaic Plaza": 2,
+     "Union Square Market": 3,
+     "Quarry Point": 2,
+     "Duskwood Park": 4,
+     "Flare Alley": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the coverage areas of the Wi-Fi base stations.\",\n        \"frequencies\": \"The set of frequencies available for assignment.\"\n    },\n    \"complexity\": \"O(2^n) - The time complexity is exponential, making it suitable for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it can efficiently explore all possible frequency assignments for the Wi-Fi base stations while ensuring that no two adjacent stations share the same frequency. Given that there are 10 stations, which is less than 20 nodes, this optimal solution approach is feasible.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 5,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Mosaic Plaza",
+   "Jade Fountain",
+   "Knight’s Market",
+   "Umbra Theater",
+   "Evergreen Circle",
+   "Azure Gardens",
+   "Duskwood Park",
+   "Quarry Point",
+   "Beacon Tower",
+   "Zenith Arena"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Mosaic Plaza": 1,
+     "Jade Fountain": 1,
+     "Knight’s Market": 2,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 3,
+     "Azure Gardens": 3,
+     "Duskwood Park": 2,
+     "Quarry Point": 4,
+     "Beacon Tower": 4,
+     "Zenith Arena": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Mosaic Plaza": 1,
+     "Jade Fountain": 1,
+     "Knight’s Market": 2,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 3,
+     "Azure Gardens": 3,
+     "Duskwood Park": 2,
+     "Quarry Point": 4,
+     "Beacon Tower": 4,
+     "Zenith Arena": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Mosaic Plaza": 1,
+     "Jade Fountain": 1,
+     "Knight’s Market": 2,
+     "Umbra Theater": 3,
+     "Evergreen Circle": 3,
+     "Azure Gardens": 3,
+     "Duskwood Park": 2,
+     "Quarry Point": 4,
+     "Beacon Tower": 2,
+     "Zenith Arena": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between the Wi-Fi base stations based on their overlapping coverage areas.\"\n    },\n    \"complexity\": \"O(2^n)\",\n    \"description\": \"The Backtracking algorithm is suitable for this problem as it can find the minimal coloring number for the Wi-Fi base stations, ensuring that no two adjacent stations use the same frequency. Given that there are 10 stations (less than 20 nodes), this optimal solution approach is feasible and will effectively minimize interference.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 6,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Zenith Arena",
+   "Shadowbridge Arcade",
+   "Brass Lantern Tavern",
+   "King’s Row",
+   "Twilight Harbor",
+   "Temple Square",
+   "Mosaic Plaza",
+   "Flint Forge Quarter",
+   "Nimbus Plaza",
+   "Ivory Spire Cathedral"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Zenith Arena": 1,
+     "Shadowbridge Arcade": 2,
+     "Brass Lantern Tavern": 3,
+     "King’s Row": 1,
+     "Twilight Harbor": 2,
+     "Temple Square": 4,
+     "Mosaic Plaza": 1,
+     "Flint Forge Quarter": 2,
+     "Nimbus Plaza": 2,
+     "Ivory Spire Cathedral": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Zenith Arena": 1,
+     "Shadowbridge Arcade": 2,
+     "Brass Lantern Tavern": 3,
+     "King’s Row": 1,
+     "Twilight Harbor": 2,
+     "Temple Square": 1,
+     "Mosaic Plaza": 4,
+     "Flint Forge Quarter": 2,
+     "Nimbus Plaza": 2,
+     "Ivory Spire Cathedral": 5
+    },
+    "min_colors": 5,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Zenith Arena": 2,
+     "Shadowbridge Arcade": 4,
+     "Brass Lantern Tavern": 1,
+     "King’s Row": 3,
+     "Twilight Harbor": 1,
+     "Temple Square": 3,
+     "Mosaic Plaza": 2,
+     "Flint Forge Quarter": 1,
+     "Nimbus Plaza": 2,
+     "Ivory Spire Cathedral": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and choose the most suitable algorithm for the problem of frequency allocation for the public Wi-Fi network.\n\n### Analysis:\n1. **Graph Characteristics**:\n   - The problem involves 10 major locations (nodes) where Wi-Fi base stations are located.\n   - The goal is to assign frequencies (colors) to these stations such that no two adjacent stations (connected nodes) share the same frequency.\n   - This is a classic graph coloring problem.\n\n2. **Graph Size**:\n   - The number of nodes (10) is less than 18, which suggests that an optimal solution is suitable for this problem.\n\n### Algorithm Selection:\nGiven that the problem is a graph coloring problem with fewer than 18 nodes, the optimal algorithm to use is the **Backtracking** algorithm. This algorithm is designed to find the minimal coloring number for small graphs.\n\n### Output Dictionary:\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations.\"\n    },\n    \"complexity\": \"O(2^n)\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem as it systematically explores all possible colorings of the graph and ensures that the minimum number of frequencies is used without violating the adjacency constraints.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 7,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "King’s Row",
+   "Nimbus Plaza",
+   "Union Square Market",
+   "Evergreen Circle",
+   "Umbra Theater",
+   "Echo Station",
+   "Beacon Tower",
+   "Opal Theater",
+   "Jasper Marina",
+   "Quarry Point"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Nimbus Plaza": 2,
+     "Union Square Market": 1,
+     "Evergreen Circle": 1,
+     "Umbra Theater": 2,
+     "Echo Station": 2,
+     "Beacon Tower": 3,
+     "Opal Theater": 3,
+     "Jasper Marina": 4,
+     "Quarry Point": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Nimbus Plaza": 2,
+     "Union Square Market": 1,
+     "Evergreen Circle": 1,
+     "Umbra Theater": 2,
+     "Echo Station": 2,
+     "Beacon Tower": 3,
+     "Opal Theater": 3,
+     "Jasper Marina": 4,
+     "Quarry Point": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Nimbus Plaza": 2,
+     "Union Square Market": 1,
+     "Evergreen Circle": 1,
+     "Umbra Theater": 2,
+     "Echo Station": 3,
+     "Beacon Tower": 4,
+     "Opal Theater": 2,
+     "Jasper Marina": 3,
+     "Quarry Point": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the Wi-Fi base stations and their overlapping coverage areas.\",\n        \"num_colors\": \"The number of frequencies to be assigned.\"\n    },\n    \"complexity\": \"O(2^n) - The time complexity is exponential, making it suitable for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it can efficiently explore all possible frequency assignments to ensure that no two adjacent Wi-Fi base stations use the same frequency. Given that there are 10 base stations, which is less than 20 nodes, this optimal solution approach is feasible.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 8,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Opal Theater",
+   "Granite Plaza",
+   "Twilight Harbor",
+   "Echo Station",
+   "Lighthouse Point",
+   "Temple Square",
+   "Flint Forge Quarter",
+   "Flare Alley",
+   "Jasper Marina",
+   "Oakshade Library"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Opal Theater": 1,
+     "Granite Plaza": 2,
+     "Twilight Harbor": 3,
+     "Echo Station": 1,
+     "Lighthouse Point": 2,
+     "Temple Square": 4,
+     "Flint Forge Quarter": 3,
+     "Flare Alley": 2,
+     "Jasper Marina": 4,
+     "Oakshade Library": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Opal Theater": 1,
+     "Granite Plaza": 2,
+     "Twilight Harbor": 3,
+     "Echo Station": 1,
+     "Lighthouse Point": 2,
+     "Temple Square": 4,
+     "Flint Forge Quarter": 3,
+     "Flare Alley": 2,
+     "Jasper Marina": 4,
+     "Oakshade Library": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Opal Theater": 1,
+     "Granite Plaza": 2,
+     "Twilight Harbor": 3,
+     "Echo Station": 1,
+     "Lighthouse Point": 3,
+     "Temple Square": 4,
+     "Flint Forge Quarter": 3,
+     "Flare Alley": 2,
+     "Jasper Marina": 2,
+     "Oakshade Library": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the Wi-Fi base stations and their overlapping coverage areas.\",\n        \"num_colors\": \"The number of frequencies to be assigned.\"\n    },\n    \"complexity\": \"O(2^n) - The time complexity is exponential, making it suitable for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it systematically explores all possible frequency assignments to ensure that no two adjacent Wi-Fi base stations use the same frequency. Given that there are 10 stations, this falls within the suitable range for optimal solutions.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 9,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Gilded Archway",
+   "Dragon’s Gate",
+   "Amber Plaza",
+   "Opal Theater",
+   "Yarrow Plaza",
+   "Beacon Tower",
+   "Mosaic Plaza",
+   "Zenith Arena",
+   "Sapphire Arena",
+   "Granite Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Gilded Archway": 1,
+     "Dragon’s Gate": 1,
+     "Amber Plaza": 2,
+     "Opal Theater": 1,
+     "Yarrow Plaza": 3,
+     "Beacon Tower": 2,
+     "Mosaic Plaza": 4,
+     "Zenith Arena": 4,
+     "Sapphire Arena": 1,
+     "Granite Plaza": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Gilded Archway": 1,
+     "Dragon’s Gate": 1,
+     "Amber Plaza": 2,
+     "Opal Theater": 1,
+     "Yarrow Plaza": 3,
+     "Beacon Tower": 2,
+     "Mosaic Plaza": 4,
+     "Zenith Arena": 4,
+     "Sapphire Arena": 1,
+     "Granite Plaza": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Gilded Archway": 4,
+     "Dragon’s Gate": 3,
+     "Amber Plaza": 3,
+     "Opal Theater": 4,
+     "Yarrow Plaza": 2,
+     "Beacon Tower": 2,
+     "Mosaic Plaza": 1,
+     "Zenith Arena": 1,
+     "Sapphire Arena": 3,
+     "Granite Plaza": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations based on their overlapping signal areas.\"\n    },\n    \"complexity\": \"O(2^n), where n is the number of nodes (base stations). This algorithm is suitable for small graphs due to its exponential time complexity.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it can effectively find the minimal number of frequencies needed to allocate to the Wi-Fi base stations while ensuring that no two adjacent stations use the same frequency. Given that there are 10 base stations, which is less than 18 nodes, this optimal solution approach is appropriate.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 10,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Granite Plaza",
+   "Brass Lantern Tavern",
+   "Skyline Gardens",
+   "Amber Plaza",
+   "Jade Fountain",
+   "Northwind Tower",
+   "Umbra Theater",
+   "Azure Gardens",
+   "Evergreen Circle",
+   "Westgate Station"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Brass Lantern Tavern": 1,
+     "Skyline Gardens": 2,
+     "Amber Plaza": 3,
+     "Jade Fountain": 3,
+     "Northwind Tower": 2,
+     "Umbra Theater": 3,
+     "Azure Gardens": 1,
+     "Evergreen Circle": 3,
+     "Westgate Station": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Brass Lantern Tavern": 1,
+     "Skyline Gardens": 2,
+     "Amber Plaza": 1,
+     "Jade Fountain": 2,
+     "Northwind Tower": 3,
+     "Umbra Theater": 4,
+     "Azure Gardens": 4,
+     "Evergreen Circle": 5,
+     "Westgate Station": 2
+    },
+    "min_colors": 5,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Brass Lantern Tavern": 2,
+     "Skyline Gardens": 2,
+     "Amber Plaza": 3,
+     "Jade Fountain": 3,
+     "Northwind Tower": 1,
+     "Umbra Theater": 3,
+     "Azure Gardens": 2,
+     "Evergreen Circle": 3,
+     "Westgate Station": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the Wi-Fi base stations and their overlapping coverage areas.\"\n    },\n    \"complexity\": \"O(2^n), where n is the number of vertices (base stations). This algorithm is optimal for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it can efficiently find the minimal coloring number for the graph representing the Wi-Fi base stations. Given that there are 10 stations, which is less than 20 nodes, this optimal solution will ensure that frequencies are assigned in a way that minimizes interference effectively.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 11,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Riverstone Wharf",
+   "Flare Alley",
+   "Velvet Corner",
+   "Yarrow Plaza",
+   "Skyline Gardens",
+   "Northwind Tower",
+   "Umbra Theater",
+   "Moonlit Promenade",
+   "Ironbridge Crossing",
+   "Union Square Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 1,
+     "Flare Alley": 1,
+     "Velvet Corner": 2,
+     "Yarrow Plaza": 1,
+     "Skyline Gardens": 3,
+     "Northwind Tower": 2,
+     "Umbra Theater": 3,
+     "Moonlit Promenade": 3,
+     "Ironbridge Crossing": 3,
+     "Union Square Market": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 1,
+     "Flare Alley": 1,
+     "Velvet Corner": 2,
+     "Yarrow Plaza": 1,
+     "Skyline Gardens": 2,
+     "Northwind Tower": 3,
+     "Umbra Theater": 2,
+     "Moonlit Promenade": 4,
+     "Ironbridge Crossing": 4,
+     "Union Square Market": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 1,
+     "Flare Alley": 1,
+     "Velvet Corner": 2,
+     "Yarrow Plaza": 2,
+     "Skyline Gardens": 3,
+     "Northwind Tower": 2,
+     "Umbra Theater": 3,
+     "Moonlit Promenade": 3,
+     "Ironbridge Crossing": 3,
+     "Union Square Market": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and then select the most suitable algorithm for the problem of frequency allocation for Wi-Fi base stations.\n\n1. **Graph Characteristics**:\n   - The graph consists of 10 nodes (representing the 10 major locations with Wi-Fi base stations).\n   - The problem involves minimizing interference, which can be modeled as a graph coloring problem where adjacent nodes (base stations) cannot share the same color (frequency).\n\n2. **Problem Type**:\n   - The problem falls under the category of **Graph Coloring**, where the goal is to assign colors (frequencies) to nodes (base stations) such that no two adjacent nodes share the same color.\n\n3. **Algorithm Selection**:\n   - Given that the graph has **10 nodes**, which is less than 20, we should opt for an optimal solution.\n   - The **Backtracking** algorithm is suitable for this problem as it can find the minimal coloring number effectively for small graphs.\n\n4. **Output Dictionary**:\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between the Wi-Fi base stations.\",\n        \"num_colors\": \"The maximum number of frequencies available for allocation.\"\n    },\n    \"complexity\": \"O(2^n)\",\n    \"description\": \"Backtracking is the best choice for this problem because it systematically explores all possible frequency allocations while ensuring that adjacent base stations do not interfere with each other. Given the small size of the graph (10 nodes), this algorithm can efficiently find the optimal solution.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 12,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Riverstone Wharf",
+   "Quartz District",
+   "Temple Square",
+   "Nimbus Plaza",
+   "Willowshade Pavilion",
+   "Maplewood Conservatory",
+   "Westgate Station",
+   "Knight’s Market",
+   "Northwind Tower",
+   "Union Square Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 1,
+     "Quartz District": 1,
+     "Temple Square": 1,
+     "Nimbus Plaza": 1,
+     "Willowshade Pavilion": 2,
+     "Maplewood Conservatory": 3,
+     "Westgate Station": 4,
+     "Knight’s Market": 2,
+     "Northwind Tower": 3,
+     "Union Square Market": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 1,
+     "Quartz District": 1,
+     "Temple Square": 1,
+     "Nimbus Plaza": 1,
+     "Willowshade Pavilion": 2,
+     "Maplewood Conservatory": 3,
+     "Westgate Station": 4,
+     "Knight’s Market": 2,
+     "Northwind Tower": 3,
+     "Union Square Market": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 2,
+     "Quartz District": 2,
+     "Temple Square": 4,
+     "Nimbus Plaza": 2,
+     "Willowshade Pavilion": 3,
+     "Maplewood Conservatory": 2,
+     "Westgate Station": 1,
+     "Knight’s Market": 1,
+     "Northwind Tower": 1,
+     "Union Square Market": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations based on their overlapping coverage areas.\"\n    },\n    \"complexity\": \"O(2^n) - The time complexity is exponential due to the nature of backtracking, making it suitable for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem as it can efficiently find the minimum number of frequencies needed to assign to the Wi-Fi base stations while ensuring that no two adjacent stations (those with overlapping coverage) use the same frequency. Given that there are only 10 stations, this algorithm will provide an optimal solution.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 13,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Amber Plaza",
+   "Copper Clock Square",
+   "Shadowbridge Arcade",
+   "King’s Row",
+   "Quarry Point",
+   "Rosewood Hall",
+   "Brass Lantern Tavern",
+   "Pennywhistle Arcade",
+   "Ivory Spire Cathedral",
+   "Willowshade Pavilion"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Amber Plaza": 1,
+     "Copper Clock Square": 2,
+     "Shadowbridge Arcade": 3,
+     "King’s Row": 3,
+     "Quarry Point": 3,
+     "Rosewood Hall": 2,
+     "Brass Lantern Tavern": 1,
+     "Pennywhistle Arcade": 1,
+     "Ivory Spire Cathedral": 2,
+     "Willowshade Pavilion": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Amber Plaza": 1,
+     "Copper Clock Square": 2,
+     "Shadowbridge Arcade": 3,
+     "King’s Row": 3,
+     "Quarry Point": 2,
+     "Rosewood Hall": 3,
+     "Brass Lantern Tavern": 1,
+     "Pennywhistle Arcade": 1,
+     "Ivory Spire Cathedral": 4,
+     "Willowshade Pavilion": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Amber Plaza": 1,
+     "Copper Clock Square": 2,
+     "Shadowbridge Arcade": 3,
+     "King’s Row": 3,
+     "Quarry Point": 2,
+     "Rosewood Hall": 3,
+     "Brass Lantern Tavern": 1,
+     "Pennywhistle Arcade": 1,
+     "Ivory Spire Cathedral": 4,
+     "Willowshade Pavilion": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and then choose the most suitable graph algorithm for the problem at hand.\n\n### Analysis of Graph Characteristics:\n1. **Scale**: The graph consists of 10 major locations (nodes), which is a small graph.\n2. **Characteristics**: The problem involves assigning frequencies to Wi-Fi base stations while minimizing interference, which can be modeled as a graph coloring problem where nodes represent base stations and edges represent adjacency (overlapping coverage areas).\n\n### Problem Type:\nThe problem is a **Graph Coloring** problem, where we need to assign colors (frequencies) to nodes (Wi-Fi base stations) such that no two adjacent nodes share the same color.\n\n### Algorithm Selection:\nGiven that the graph has fewer than 20 nodes, we can use an optimal algorithm for graph coloring. The **Backtracking** algorithm is suitable for this problem as it can find the minimal coloring number effectively for small graphs.\n\n### Output Dictionary:\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the coverage areas of the Wi-Fi base stations.\"\n    },\n    \"complexity\": \"O(2^n)\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it systematically explores all possible color assignments to find the minimum number of frequencies needed, ensuring that no two adjacent stations use the same frequency.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 14,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Beacon Tower",
+   "Velvet Corner",
+   "Moonlit Promenade",
+   "Azure Gardens",
+   "Northwind Tower",
+   "Silvercrest Observatory",
+   "Opal Theater",
+   "Union Square Market",
+   "Sapphire Arena",
+   "Willowshade Pavilion"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Beacon Tower": 1,
+     "Velvet Corner": 1,
+     "Moonlit Promenade": 1,
+     "Azure Gardens": 2,
+     "Northwind Tower": 1,
+     "Silvercrest Observatory": 3,
+     "Opal Theater": 3,
+     "Union Square Market": 2,
+     "Sapphire Arena": 4,
+     "Willowshade Pavilion": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Beacon Tower": 1,
+     "Velvet Corner": 1,
+     "Moonlit Promenade": 1,
+     "Azure Gardens": 2,
+     "Northwind Tower": 1,
+     "Silvercrest Observatory": 3,
+     "Opal Theater": 3,
+     "Union Square Market": 2,
+     "Sapphire Arena": 4,
+     "Willowshade Pavilion": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Beacon Tower": 3,
+     "Velvet Corner": 3,
+     "Moonlit Promenade": 3,
+     "Azure Gardens": 1,
+     "Northwind Tower": 1,
+     "Silvercrest Observatory": 2,
+     "Opal Theater": 2,
+     "Union Square Market": 1,
+     "Sapphire Arena": 4,
+     "Willowshade Pavilion": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between the Wi-Fi base stations based on their overlapping coverage areas.\"\n    },\n    \"complexity\": \"O(2^n)\",\n    \"description\": \"The Backtracking algorithm is suitable for this problem as it can find the optimal frequency allocation for the Wi-Fi base stations by ensuring that no two adjacent stations use the same frequency. Given that there are only 10 stations, this algorithm is efficient enough to handle the problem size and will provide the optimal solution.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 15,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Northwind Tower",
+   "Jade Fountain",
+   "Lighthouse Point",
+   "Westgate Station",
+   "Evergreen Circle",
+   "Jasper Marina",
+   "Copper Clock Square",
+   "Temple Square",
+   "Knight’s Market",
+   "Zenith Arena"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Northwind Tower": 1,
+     "Jade Fountain": 2,
+     "Lighthouse Point": 2,
+     "Westgate Station": 3,
+     "Evergreen Circle": 1,
+     "Jasper Marina": 1,
+     "Copper Clock Square": 2,
+     "Temple Square": 2,
+     "Knight’s Market": 1,
+     "Zenith Arena": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Northwind Tower": 1,
+     "Jade Fountain": 2,
+     "Lighthouse Point": 2,
+     "Westgate Station": 3,
+     "Evergreen Circle": 1,
+     "Jasper Marina": 1,
+     "Copper Clock Square": 2,
+     "Temple Square": 2,
+     "Knight’s Market": 1,
+     "Zenith Arena": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Northwind Tower": 2,
+     "Jade Fountain": 4,
+     "Lighthouse Point": 1,
+     "Westgate Station": 3,
+     "Evergreen Circle": 1,
+     "Jasper Marina": 2,
+     "Copper Clock Square": 4,
+     "Temple Square": 4,
+     "Knight’s Market": 2,
+     "Zenith Arena": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics and choose the most suitable graph algorithm for the problem of frequency allocation to minimize interference among Wi-Fi base stations.\n\n1. **Graph Characteristics**:\n   - The problem involves 10 major locations (nodes) where Wi-Fi base stations are installed.\n   - The goal is to assign frequencies (colors) to these stations such that no two adjacent stations (connected nodes) share the same frequency.\n   - This is a graph coloring problem, where the nodes represent the Wi-Fi base stations and edges represent adjacency (overlapping coverage areas).\n\n2. **Graph Size**:\n   - The number of nodes is 10, which is less than 18. Therefore, we can use an optimal solution algorithm for graph coloring.\n\n3. **Selected Algorithm**:\n   - The most suitable algorithm for this problem is the **Backtracking** algorithm, which is optimal for small graphs.\n\n4. **Parameters**:\n   - The parameters required for the Backtracking algorithm include:\n     - `adjacency_list`: An undirected graph represented as an adjacency matrix or adjacency list that indicates which stations are adjacent (overlapping coverage).\n  \n5. **Complexity**:\n   - The time complexity of the Backtracking algorithm is **O(2^n)**, where n is the number of nodes. This is feasible for n = 10.\n\n6. **Description**:\n   - The Backtracking algorithm is the best choice for this problem because it systematically explores all possible frequency assignments and ensures that the minimum number of frequencies is used while adhering to the constraints of adjacency. Given the small size of the graph (10 nodes), this algorithm can efficiently find the optimal solution.\n\nHere is the output in the requested format:\n\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph represented as an adjacency matrix or adjacency list.\"\n    },\n    \"complexity\": \"O(2^n), where n is the number of nodes.\",\n    \"description\": \"The Backtracking algorithm is optimal for small graphs and will efficiently find the minimum number of frequencies needed to assign to the Wi-Fi base stations while ensuring that adjacent stations do not use the same frequency.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 16,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Pennywhistle Arcade",
+   "Moonlit Promenade",
+   "Horizon Mall",
+   "Opal Theater",
+   "Twilight Harbor",
+   "Temple Square",
+   "Haven Docks",
+   "Mosaic Plaza",
+   "Gilded Archway",
+   "Duskwood Park"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Moonlit Promenade": 1,
+     "Horizon Mall": 2,
+     "Opal Theater": 1,
+     "Twilight Harbor": 3,
+     "Temple Square": 2,
+     "Haven Docks": 1,
+     "Mosaic Plaza": 3,
+     "Gilded Archway": 2,
+     "Duskwood Park": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Moonlit Promenade": 1,
+     "Horizon Mall": 2,
+     "Opal Theater": 1,
+     "Twilight Harbor": 3,
+     "Temple Square": 2,
+     "Haven Docks": 1,
+     "Mosaic Plaza": 3,
+     "Gilded Archway": 2,
+     "Duskwood Park": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 2,
+     "Moonlit Promenade": 2,
+     "Horizon Mall": 1,
+     "Opal Theater": 2,
+     "Twilight Harbor": 3,
+     "Temple Square": 1,
+     "Haven Docks": 2,
+     "Mosaic Plaza": 3,
+     "Gilded Archway": 1,
+     "Duskwood Park": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and select the most suitable algorithm for the problem of frequency allocation to minimize interference among Wi-Fi base stations.\n\n1. **Graph Characteristics**:\n   - The graph consists of 10 nodes (representing the 10 major locations with Wi-Fi base stations).\n   - The problem involves assigning frequencies to adjacent nodes (stations) such that no two adjacent nodes share the same frequency.\n   - Given that there are only 10 nodes, this is a small graph.\n\n2. **Problem Type**:\n   - The problem is a graph coloring problem, where the goal is to minimize the number of colors (frequencies) used to color the graph (assign frequencies to the stations) such that no two adjacent nodes share the same color.\n\n3. **Algorithm Selection**:\n   - For a graph coloring problem with fewer than 20 nodes, the optimal solution is preferred. The \"Backtracking\" algorithm is suitable for this problem as it can find the minimal coloring number effectively for small graphs.\n\nHere is the output in the specified format:\n\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the coverage areas of the Wi-Fi base stations.\"\n    },\n    \"complexity\": \"O(2^n)\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it systematically explores all possible colorings of the graph and can efficiently find the minimal number of frequencies needed to avoid interference among adjacent Wi-Fi base stations.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 17,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Cobalt Market",
+   "Quarry Point",
+   "Westgate Station",
+   "Northwind Tower",
+   "Azure Gardens",
+   "Haven Docks",
+   "Beacon Tower",
+   "Nimbus Plaza",
+   "Jasper Marina"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 1,
+     "Westgate Station": 1,
+     "Northwind Tower": 2,
+     "Azure Gardens": 3,
+     "Haven Docks": 1,
+     "Beacon Tower": 4,
+     "Nimbus Plaza": 2,
+     "Jasper Marina": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 1,
+     "Westgate Station": 1,
+     "Northwind Tower": 2,
+     "Azure Gardens": 3,
+     "Haven Docks": 1,
+     "Beacon Tower": 4,
+     "Nimbus Plaza": 2,
+     "Jasper Marina": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 2,
+     "Cobalt Market": 1,
+     "Quarry Point": 3,
+     "Westgate Station": 3,
+     "Northwind Tower": 1,
+     "Azure Gardens": 4,
+     "Haven Docks": 3,
+     "Beacon Tower": 2,
+     "Nimbus Plaza": 1,
+     "Jasper Marina": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and then choose the most suitable algorithm to solve the problem of frequency allocation for the Wi-Fi base stations.\n\n1. **Graph Characteristics**:\n   - The problem involves 10 major locations (nodes) where Wi-Fi base stations are to be installed.\n   - The goal is to minimize interference by ensuring that adjacent stations (nodes) do not use the same frequency (color).\n   - Since there are 10 nodes, this is considered a small graph.\n\n2. **Problem Type**:\n   - The problem is a graph coloring problem, where we need to assign colors (frequencies) to nodes (Wi-Fi base stations) such that no two adjacent nodes share the same color.\n\n3. **Algorithm Selection**:\n   - For graph coloring problems with fewer than 20 nodes, the optimal solution is preferred. \n   - The **Backtracking** algorithm is suitable for this problem as it uses depth-first search and backtracking to find the minimal coloring number.\n\n4. **Output Dictionary**:\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations.\"\n    },\n    \"complexity\": \"O(2^n), where n is the number of vertices. This algorithm is optimal for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it systematically explores all possible colorings and ensures that the minimum number of frequencies is used while adhering to the constraints of adjacent base stations not sharing the same frequency.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 18,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Velvet Corner",
+   "Gilded Archway",
+   "Flare Alley",
+   "Temple Square",
+   "Brass Lantern Tavern",
+   "Westgate Station",
+   "Northwind Tower",
+   "Evergreen Circle",
+   "Oakshade Library",
+   "Azure Gardens"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Gilded Archway": 2,
+     "Flare Alley": 2,
+     "Temple Square": 3,
+     "Brass Lantern Tavern": 3,
+     "Westgate Station": 1,
+     "Northwind Tower": 1,
+     "Evergreen Circle": 4,
+     "Oakshade Library": 2,
+     "Azure Gardens": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Gilded Archway": 2,
+     "Flare Alley": 2,
+     "Temple Square": 3,
+     "Brass Lantern Tavern": 3,
+     "Westgate Station": 1,
+     "Northwind Tower": 1,
+     "Evergreen Circle": 4,
+     "Oakshade Library": 2,
+     "Azure Gardens": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Gilded Archway": 2,
+     "Flare Alley": 2,
+     "Temple Square": 3,
+     "Brass Lantern Tavern": 3,
+     "Westgate Station": 1,
+     "Northwind Tower": 1,
+     "Evergreen Circle": 4,
+     "Oakshade Library": 2,
+     "Azure Gardens": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the Wi-Fi base stations and their overlapping coverage areas.\"\n    },\n    \"complexity\": \"O(2^n) - The time complexity is exponential, making it suitable for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it can efficiently find the minimum number of frequencies needed to assign to the Wi-Fi base stations while ensuring that no two adjacent stations (with overlapping coverage) use the same frequency. Given that there are only 10 stations, this algorithm can explore all possible assignments to find the optimal solution.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 19,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Copper Clock Square",
+   "Beacon Tower",
+   "Willowshade Pavilion",
+   "Granite Plaza",
+   "Shadowbridge Arcade",
+   "Azure Gardens",
+   "Sapphire Arena",
+   "King’s Row",
+   "Haven Docks",
+   "Flint Forge Quarter"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Copper Clock Square": 1,
+     "Beacon Tower": 2,
+     "Willowshade Pavilion": 3,
+     "Granite Plaza": 2,
+     "Shadowbridge Arcade": 1,
+     "Azure Gardens": 3,
+     "Sapphire Arena": 1,
+     "King’s Row": 1,
+     "Haven Docks": 4,
+     "Flint Forge Quarter": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Copper Clock Square": 1,
+     "Beacon Tower": 2,
+     "Willowshade Pavilion": 3,
+     "Granite Plaza": 2,
+     "Shadowbridge Arcade": 1,
+     "Azure Gardens": 3,
+     "Sapphire Arena": 1,
+     "King’s Row": 1,
+     "Haven Docks": 4,
+     "Flint Forge Quarter": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Copper Clock Square": 4,
+     "Beacon Tower": 3,
+     "Willowshade Pavilion": 2,
+     "Granite Plaza": 1,
+     "Shadowbridge Arcade": 2,
+     "Azure Gardens": 3,
+     "Sapphire Arena": 2,
+     "King’s Row": 1,
+     "Haven Docks": 3,
+     "Flint Forge Quarter": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations.\",\n        \"num_colors\": \"The number of frequencies to be assigned.\"\n    },\n    \"complexity\": \"O(2^n) - The time complexity is exponential, making it suitable for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem as it can efficiently find the minimal coloring number for the graph representing the Wi-Fi base stations. Given that there are only 10 nodes (base stations), this optimal solution will effectively minimize interference by ensuring that no two adjacent stations use the same frequency.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 20,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Azure Gardens",
+   "Silvercrest Observatory",
+   "Rosewood Hall",
+   "Flint Forge Quarter",
+   "Primrose Boulevard",
+   "Maplewood Conservatory",
+   "Ironbridge Crossing",
+   "Pennywhistle Arcade",
+   "King’s Row",
+   "Gilded Archway"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Azure Gardens": 1,
+     "Silvercrest Observatory": 2,
+     "Rosewood Hall": 2,
+     "Flint Forge Quarter": 3,
+     "Primrose Boulevard": 1,
+     "Maplewood Conservatory": 1,
+     "Ironbridge Crossing": 2,
+     "Pennywhistle Arcade": 2,
+     "King’s Row": 1,
+     "Gilded Archway": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Azure Gardens": 1,
+     "Silvercrest Observatory": 2,
+     "Rosewood Hall": 2,
+     "Flint Forge Quarter": 3,
+     "Primrose Boulevard": 1,
+     "Maplewood Conservatory": 1,
+     "Ironbridge Crossing": 2,
+     "Pennywhistle Arcade": 2,
+     "King’s Row": 1,
+     "Gilded Archway": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Azure Gardens": 2,
+     "Silvercrest Observatory": 3,
+     "Rosewood Hall": 3,
+     "Flint Forge Quarter": 1,
+     "Primrose Boulevard": 2,
+     "Maplewood Conservatory": 2,
+     "Ironbridge Crossing": 3,
+     "Pennywhistle Arcade": 1,
+     "King’s Row": 2,
+     "Gilded Archway": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and choose the most suitable graph algorithm for the problem of frequency allocation for the Wi-Fi base stations.\n\n1. **Graph Characteristics**:\n   - The problem involves 10 major locations (nodes) where Wi-Fi base stations are installed.\n   - The goal is to assign frequencies (colors) to these stations (nodes) such that no two adjacent stations (connected nodes) use the same frequency.\n   - This is a classic graph coloring problem.\n\n2. **Graph Size**:\n   - The graph has 10 nodes, which is considered a small graph.\n\n3. **Problem Type**:\n   - The problem is a graph coloring problem, specifically minimizing the number of colors (frequencies) used.\n\n4. **Suitable Algorithm**:\n   - For small graphs (less than 20 nodes), the optimal solution is preferred. The Backtracking algorithm is suitable for this problem as it can find the minimal coloring number.\n\n5. **Algorithm Parameters**:\n   - The input required for the Backtracking algorithm includes the adjacency list representing the graph of base stations.\n\n6. **Complexity**:\n   - The time complexity of the Backtracking algorithm is O(2^n), where n is the number of vertices (nodes).\n\n7. **Description**:\n   - The Backtracking algorithm is the best choice for this problem because it systematically explores all possible colorings of the graph and ensures that the minimum number of frequencies is used without causing interference between adjacent Wi-Fi base stations.\n\nHere is the output in the specified format:\n\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations.\"\n    },\n    \"complexity\": \"O(2^n), where n is the number of vertices.\",\n    \"description\": \"The Backtracking algorithm is optimal for small graphs and will effectively find the minimum number of frequencies needed to avoid interference between adjacent Wi-Fi base stations.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 21,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Sapphire Arena",
+   "Rosewood Hall",
+   "Granite Plaza",
+   "Silvercrest Observatory",
+   "Jasper Marina",
+   "Shadowbridge Arcade",
+   "Moonlit Promenade",
+   "Copper Clock Square",
+   "Umbra Theater",
+   "Knight’s Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Sapphire Arena": 1,
+     "Rosewood Hall": 2,
+     "Granite Plaza": 2,
+     "Silvercrest Observatory": 3,
+     "Jasper Marina": 2,
+     "Shadowbridge Arcade": 1,
+     "Moonlit Promenade": 2,
+     "Copper Clock Square": 3,
+     "Umbra Theater": 4,
+     "Knight’s Market": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Sapphire Arena": 1,
+     "Rosewood Hall": 2,
+     "Granite Plaza": 2,
+     "Silvercrest Observatory": 3,
+     "Jasper Marina": 2,
+     "Shadowbridge Arcade": 1,
+     "Moonlit Promenade": 2,
+     "Copper Clock Square": 3,
+     "Umbra Theater": 4,
+     "Knight’s Market": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Sapphire Arena": 1,
+     "Rosewood Hall": 2,
+     "Granite Plaza": 2,
+     "Silvercrest Observatory": 3,
+     "Jasper Marina": 2,
+     "Shadowbridge Arcade": 1,
+     "Moonlit Promenade": 2,
+     "Copper Clock Square": 3,
+     "Umbra Theater": 4,
+     "Knight’s Market": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Greedy Coloring Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations.\",\n        \"frequencies\": \"The range of frequencies available for allocation.\"\n    },\n    \"complexity\": \"O(n^2) - The algorithm runs in polynomial time, making it efficient for the given problem size.\",\n    \"description\": \"The Greedy Coloring Algorithm is suitable for this problem as it efficiently allocates frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations use the same frequency. Given that there are 10 stations, this algorithm will provide a quick and reasonable solution to minimize interference.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 22,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lighthouse Point",
+   "Rosewood Hall",
+   "Primrose Boulevard",
+   "Cobalt Market",
+   "Haven Docks",
+   "Riverstone Wharf",
+   "Flint Forge Quarter",
+   "Horizon Mall",
+   "Echo Station",
+   "Jade Fountain"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Rosewood Hall": 2,
+     "Primrose Boulevard": 3,
+     "Cobalt Market": 2,
+     "Haven Docks": 1,
+     "Riverstone Wharf": 2,
+     "Flint Forge Quarter": 3,
+     "Horizon Mall": 1,
+     "Echo Station": 4,
+     "Jade Fountain": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Rosewood Hall": 2,
+     "Primrose Boulevard": 3,
+     "Cobalt Market": 2,
+     "Haven Docks": 1,
+     "Riverstone Wharf": 2,
+     "Flint Forge Quarter": 3,
+     "Horizon Mall": 1,
+     "Echo Station": 4,
+     "Jade Fountain": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lighthouse Point": 3,
+     "Rosewood Hall": 2,
+     "Primrose Boulevard": 1,
+     "Cobalt Market": 2,
+     "Haven Docks": 2,
+     "Riverstone Wharf": 3,
+     "Flint Forge Quarter": 3,
+     "Horizon Mall": 3,
+     "Echo Station": 1,
+     "Jade Fountain": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Greedy Coloring Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between the 10 Wi-Fi base stations based on their overlapping coverage areas.\",\n        \"number_of_stations\": 10\n    },\n    \"complexity\": \"O(n^2) - The algorithm runs in quadratic time, which is efficient for the given number of nodes.\",\n    \"description\": \"The Greedy Coloring Algorithm is suitable for this problem as it efficiently assigns frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations share the same frequency. Given that there are only 10 stations, this algorithm will provide a good approximation quickly, minimizing the number of frequencies needed.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 23,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Ivory Spire Cathedral",
+   "Beacon Tower",
+   "Primrose Boulevard",
+   "Moonlit Promenade",
+   "Knight’s Market",
+   "Westgate Station",
+   "Mosaic Plaza",
+   "Willowshade Pavilion",
+   "Zenith Arena",
+   "Brass Lantern Tavern"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Ivory Spire Cathedral": 1,
+     "Beacon Tower": 2,
+     "Primrose Boulevard": 2,
+     "Moonlit Promenade": 3,
+     "Knight’s Market": 3,
+     "Westgate Station": 3,
+     "Mosaic Plaza": 1,
+     "Willowshade Pavilion": 2,
+     "Zenith Arena": 1,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Ivory Spire Cathedral": 1,
+     "Beacon Tower": 2,
+     "Primrose Boulevard": 1,
+     "Moonlit Promenade": 2,
+     "Knight’s Market": 3,
+     "Westgate Station": 3,
+     "Mosaic Plaza": 1,
+     "Willowshade Pavilion": 4,
+     "Zenith Arena": 4,
+     "Brass Lantern Tavern": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Ivory Spire Cathedral": 1,
+     "Beacon Tower": 2,
+     "Primrose Boulevard": 2,
+     "Moonlit Promenade": 2,
+     "Knight’s Market": 3,
+     "Westgate Station": 3,
+     "Mosaic Plaza": 1,
+     "Willowshade Pavilion": 4,
+     "Zenith Arena": 1,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and choose the most suitable graph algorithm for the problem of allocating frequencies to Wi-Fi base stations while minimizing interference.\n\n1. **Graph Characteristics**:\n   - The problem involves 10 major locations (Wi-Fi base stations), which can be represented as nodes in a graph.\n   - The edges represent the adjacency between these nodes, indicating that two base stations cannot use the same frequency if they are adjacent (overlapping coverage areas).\n   - Since there are 10 nodes, this is a small graph.\n\n2. **Problem Type**:\n   - The problem is a graph coloring problem where the goal is to assign colors (frequencies) to nodes (base stations) such that no two adjacent nodes share the same color.\n\n3. **Algorithm Selection**:\n   - Given that the graph has fewer than 20 nodes, we can use an optimal algorithm for graph coloring.\n   - The **Backtracking** algorithm is suitable for this problem as it can efficiently find the minimal coloring number for small graphs.\n\nHere is the output dictionary based on the analysis:\n\n```python\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph represented as an adjacency matrix or adjacency list.\"\n    },\n    \"complexity\": \"O(2^n), where n is the number of vertices. This algorithm is optimal for small graphs but can be computationally intensive as the number of nodes increases.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it systematically explores all possible colorings of the graph, ensuring that the minimum number of frequencies is used while adhering to the constraint that no two adjacent stations can use the same frequency.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 24,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Skyline Gardens",
+   "Primrose Boulevard",
+   "Dragon’s Gate",
+   "Flint Forge Quarter",
+   "Duskwood Park",
+   "Silvercrest Observatory",
+   "Umbra Theater",
+   "Maplewood Conservatory",
+   "Opal Theater",
+   "Willowshade Pavilion"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Skyline Gardens": 1,
+     "Primrose Boulevard": 2,
+     "Dragon’s Gate": 1,
+     "Flint Forge Quarter": 1,
+     "Duskwood Park": 1,
+     "Silvercrest Observatory": 2,
+     "Umbra Theater": 3,
+     "Maplewood Conservatory": 3,
+     "Opal Theater": 2,
+     "Willowshade Pavilion": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Skyline Gardens": 1,
+     "Primrose Boulevard": 1,
+     "Dragon’s Gate": 1,
+     "Flint Forge Quarter": 1,
+     "Duskwood Park": 2,
+     "Silvercrest Observatory": 3,
+     "Umbra Theater": 3,
+     "Maplewood Conservatory": 2,
+     "Opal Theater": 3,
+     "Willowshade Pavilion": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Skyline Gardens": 4,
+     "Primrose Boulevard": 2,
+     "Dragon’s Gate": 1,
+     "Flint Forge Quarter": 3,
+     "Duskwood Park": 1,
+     "Silvercrest Observatory": 2,
+     "Umbra Theater": 3,
+     "Maplewood Conservatory": 1,
+     "Opal Theater": 2,
+     "Willowshade Pavilion": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Greedy Coloring Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the coverage areas of the Wi-Fi base stations.\",\n        \"number_of_nodes\": 10\n    },\n    \"complexity\": \"O(n^2)\",\n    \"description\": \"The Greedy Coloring Algorithm is suitable for this problem as it efficiently assigns frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations use the same frequency. Given that the graph has 10 nodes, this algorithm provides a good balance between performance and simplicity, allowing for quick frequency allocation while minimizing interference.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 25,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Riverstone Wharf",
+   "Jasper Marina",
+   "Gilded Archway",
+   "Willowshade Pavilion",
+   "Evergreen Circle",
+   "Westgate Station",
+   "Ivory Spire Cathedral",
+   "Pennywhistle Arcade",
+   "Shadowbridge Arcade",
+   "Umbra Theater"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 1,
+     "Jasper Marina": 1,
+     "Gilded Archway": 2,
+     "Willowshade Pavilion": 3,
+     "Evergreen Circle": 2,
+     "Westgate Station": 2,
+     "Ivory Spire Cathedral": 1,
+     "Pennywhistle Arcade": 2,
+     "Shadowbridge Arcade": 3,
+     "Umbra Theater": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 1,
+     "Jasper Marina": 1,
+     "Gilded Archway": 2,
+     "Willowshade Pavilion": 3,
+     "Evergreen Circle": 2,
+     "Westgate Station": 2,
+     "Ivory Spire Cathedral": 1,
+     "Pennywhistle Arcade": 2,
+     "Shadowbridge Arcade": 3,
+     "Umbra Theater": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 1,
+     "Jasper Marina": 1,
+     "Gilded Archway": 3,
+     "Willowshade Pavilion": 2,
+     "Evergreen Circle": 2,
+     "Westgate Station": 3,
+     "Ivory Spire Cathedral": 1,
+     "Pennywhistle Arcade": 3,
+     "Shadowbridge Arcade": 4,
+     "Umbra Theater": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and choose the most suitable graph algorithm for the problem of frequency allocation to minimize interference among Wi-Fi base stations.\n\n### Analysis:\n1. **Graph Scale**: The problem involves 10 major locations (nodes), which means the graph has 10 nodes. This is a relatively small graph.\n2. **Graph Characteristics**: The problem involves assigning frequencies to nodes (Wi-Fi base stations) such that adjacent nodes (stations with overlapping coverage) do not share the same frequency. This is a classic graph coloring problem.\n\n### Problem Type:\n- The problem is a **Graph Coloring** problem, where the objective is to minimize the number of colors (frequencies) used to color the graph such that no two adjacent nodes share the same color.\n\n### Algorithm Selection:\nGiven that the graph has less than 20 nodes, we can use an optimal algorithm for graph coloring. The **Backtracking** algorithm is suitable for this scenario as it can find the minimal coloring number effectively for small graphs.\n\n### Output Dictionary:\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connectivity between the Wi-Fi base stations.\",\n        \"number_of_colors\": \"The maximum number of frequencies available for allocation.\"\n    },\n    \"complexity\": \"O(2^n), where n is the number of vertices. This is feasible for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it systematically explores all possible color assignments and ensures that the minimum number of frequencies is used while satisfying the constraints of adjacent stations.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 26,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Opal Theater",
+   "Primrose Boulevard",
+   "Haven Docks",
+   "Lighthouse Point",
+   "King’s Row",
+   "Gilded Archway",
+   "Duskwood Park",
+   "Moonlit Promenade",
+   "Maplewood Conservatory",
+   "Flare Alley"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Opal Theater": 1,
+     "Primrose Boulevard": 2,
+     "Haven Docks": 2,
+     "Lighthouse Point": 2,
+     "King’s Row": 3,
+     "Gilded Archway": 2,
+     "Duskwood Park": 1,
+     "Moonlit Promenade": 4,
+     "Maplewood Conservatory": 3,
+     "Flare Alley": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Opal Theater": 1,
+     "Primrose Boulevard": 2,
+     "Haven Docks": 2,
+     "Lighthouse Point": 2,
+     "King’s Row": 3,
+     "Gilded Archway": 2,
+     "Duskwood Park": 1,
+     "Moonlit Promenade": 4,
+     "Maplewood Conservatory": 3,
+     "Flare Alley": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Opal Theater": 1,
+     "Primrose Boulevard": 3,
+     "Haven Docks": 4,
+     "Lighthouse Point": 3,
+     "King’s Row": 3,
+     "Gilded Archway": 3,
+     "Duskwood Park": 1,
+     "Moonlit Promenade": 2,
+     "Maplewood Conservatory": 2,
+     "Flare Alley": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations based on their overlapping coverage areas.\"\n    },\n    \"complexity\": \"O(2^n)\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem as it can find the optimal solution for coloring the graph representing the Wi-Fi base stations. Given that there are 10 stations, which is less than 20 nodes, this algorithm can effectively explore all possible frequency assignments to minimize interference.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 27,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "King’s Row",
+   "Gilded Archway",
+   "Sapphire Arena",
+   "Lunar Pier",
+   "Flare Alley",
+   "Mosaic Plaza",
+   "Knight’s Market",
+   "Moonlit Promenade",
+   "Westgate Station",
+   "Zenith Arena"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Gilded Archway": 2,
+     "Sapphire Arena": 2,
+     "Lunar Pier": 3,
+     "Flare Alley": 1,
+     "Mosaic Plaza": 4,
+     "Knight’s Market": 2,
+     "Moonlit Promenade": 3,
+     "Westgate Station": 2,
+     "Zenith Arena": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Gilded Archway": 2,
+     "Sapphire Arena": 2,
+     "Lunar Pier": 3,
+     "Flare Alley": 1,
+     "Mosaic Plaza": 4,
+     "Knight’s Market": 2,
+     "Moonlit Promenade": 3,
+     "Westgate Station": 2,
+     "Zenith Arena": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Gilded Archway": 3,
+     "Sapphire Arena": 2,
+     "Lunar Pier": 3,
+     "Flare Alley": 1,
+     "Mosaic Plaza": 2,
+     "Knight’s Market": 2,
+     "Moonlit Promenade": 4,
+     "Westgate Station": 4,
+     "Zenith Arena": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Greedy Coloring Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations, where edges indicate adjacent stations that cannot share the same frequency.\"\n    },\n    \"complexity\": \"O(n^2) (where n is the number of nodes), which is efficient for the given graph size.\",\n    \"description\": \"The Greedy Coloring Algorithm is suitable for this problem as it quickly allocates frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations use the same frequency. Given that there are 10 stations, this algorithm provides a good balance between speed and simplicity, making it an effective choice for minimizing interference in the public Wi-Fi network.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 28,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Northwind Tower",
+   "Nimbus Plaza",
+   "Cobalt Market",
+   "Flare Alley",
+   "King’s Row",
+   "Oakshade Library",
+   "Willowshade Pavilion",
+   "Moonlit Promenade",
+   "Horizon Mall",
+   "Azure Gardens"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Northwind Tower": 1,
+     "Nimbus Plaza": 2,
+     "Cobalt Market": 3,
+     "Flare Alley": 3,
+     "King’s Row": 2,
+     "Oakshade Library": 3,
+     "Willowshade Pavilion": 2,
+     "Moonlit Promenade": 1,
+     "Horizon Mall": 1,
+     "Azure Gardens": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Northwind Tower": 1,
+     "Nimbus Plaza": 2,
+     "Cobalt Market": 3,
+     "Flare Alley": 3,
+     "King’s Row": 2,
+     "Oakshade Library": 1,
+     "Willowshade Pavilion": 2,
+     "Moonlit Promenade": 2,
+     "Horizon Mall": 4,
+     "Azure Gardens": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Northwind Tower": 1,
+     "Nimbus Plaza": 2,
+     "Cobalt Market": 3,
+     "Flare Alley": 3,
+     "King’s Row": 2,
+     "Oakshade Library": 1,
+     "Willowshade Pavilion": 2,
+     "Moonlit Promenade": 2,
+     "Horizon Mall": 4,
+     "Azure Gardens": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Greedy Coloring Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the Wi-Fi base stations and their overlapping coverage areas.\",\n        \"frequencies\": \"The number of different frequencies available for allocation.\"\n    },\n    \"complexity\": \"O(n^2) (where n is the number of nodes), which is efficient for the given size of the graph.\",\n    \"description\": \"The Greedy Coloring Algorithm is suitable for this problem as it quickly assigns frequencies to the Wi-Fi base stations while ensuring that adjacent stations do not interfere with each other. Given that there are only 10 stations (less than 18 nodes), this algorithm provides a good balance between efficiency and simplicity, allowing for a rapid allocation of frequencies.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 29,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Flint Forge Quarter",
+   "King’s Row",
+   "Dragon’s Gate",
+   "Union Square Market",
+   "Ivory Spire Cathedral",
+   "Lunar Pier",
+   "Evergreen Circle",
+   "Willowshade Pavilion",
+   "Umbra Theater",
+   "Moonlit Promenade"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Flint Forge Quarter": 1,
+     "King’s Row": 2,
+     "Dragon’s Gate": 1,
+     "Union Square Market": 2,
+     "Ivory Spire Cathedral": 1,
+     "Lunar Pier": 3,
+     "Evergreen Circle": 3,
+     "Willowshade Pavilion": 3,
+     "Umbra Theater": 3,
+     "Moonlit Promenade": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Flint Forge Quarter": 1,
+     "King’s Row": 2,
+     "Dragon’s Gate": 1,
+     "Union Square Market": 2,
+     "Ivory Spire Cathedral": 1,
+     "Lunar Pier": 2,
+     "Evergreen Circle": 3,
+     "Willowshade Pavilion": 3,
+     "Umbra Theater": 3,
+     "Moonlit Promenade": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Flint Forge Quarter": 1,
+     "King’s Row": 2,
+     "Dragon’s Gate": 1,
+     "Union Square Market": 2,
+     "Ivory Spire Cathedral": 1,
+     "Lunar Pier": 3,
+     "Evergreen Circle": 3,
+     "Willowshade Pavilion": 3,
+     "Umbra Theater": 3,
+     "Moonlit Promenade": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Greedy Coloring Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the coverage areas of the Wi-Fi base stations.\",\n        \"start_node\": \"Not applicable for coloring; the algorithm will process all nodes.\"\n    },\n    \"complexity\": \"O(n^2) - The algorithm runs in polynomial time, making it efficient for the given problem size.\",\n    \"description\": \"The Greedy Coloring Algorithm is suitable for this problem as it efficiently assigns frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations (those with overlapping coverage) use the same frequency. Given that there are only 10 nodes (base stations), this algorithm will quickly provide a good approximation for minimizing the number of frequencies needed.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 30,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Northwind Tower",
+   "Knight’s Market",
+   "Jasper Marina",
+   "Ivory Spire Cathedral",
+   "Lunar Pier",
+   "Skyline Gardens",
+   "Zenith Arena",
+   "Sapphire Arena",
+   "Haven Docks",
+   "Velvet Corner"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Northwind Tower": 1,
+     "Knight’s Market": 1,
+     "Jasper Marina": 2,
+     "Ivory Spire Cathedral": 3,
+     "Lunar Pier": 3,
+     "Skyline Gardens": 2,
+     "Zenith Arena": 4,
+     "Sapphire Arena": 2,
+     "Haven Docks": 4,
+     "Velvet Corner": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Northwind Tower": 1,
+     "Knight’s Market": 1,
+     "Jasper Marina": 2,
+     "Ivory Spire Cathedral": 3,
+     "Lunar Pier": 2,
+     "Skyline Gardens": 3,
+     "Zenith Arena": 4,
+     "Sapphire Arena": 4,
+     "Haven Docks": 5,
+     "Velvet Corner": 1
+    },
+    "min_colors": 5,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Northwind Tower": 1,
+     "Knight’s Market": 4,
+     "Jasper Marina": 2,
+     "Ivory Spire Cathedral": 1,
+     "Lunar Pier": 3,
+     "Skyline Gardens": 2,
+     "Zenith Arena": 3,
+     "Sapphire Arena": 2,
+     "Haven Docks": 3,
+     "Velvet Corner": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and choose the most suitable algorithm for the problem of frequency allocation for Wi-Fi base stations.\n\n1. **Graph Characteristics**:\n   - The problem involves 10 major locations (nodes) where Wi-Fi base stations are installed.\n   - The objective is to assign frequencies (colors) to these stations (nodes) such that no two adjacent stations (connected nodes) share the same frequency.\n   - Since there are 10 nodes, this graph is relatively small.\n\n2. **Problem Type**:\n   - The problem is a graph coloring problem, where we need to minimize the number of colors (frequencies) used to color the graph (assign frequencies to the base stations).\n\n3. **Algorithm Selection**:\n   - Given that the graph has fewer than 20 nodes, we can use an optimal algorithm for graph coloring.\n   - The **Backtracking** algorithm is suitable for this problem as it can find the minimal coloring number effectively for small graphs.\n\n4. **Output Dictionary**:\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations.\",\n        \"num_colors\": \"The maximum number of frequencies available for assignment.\"\n    },\n    \"complexity\": \"O(2^n) - The time complexity increases exponentially with the number of nodes, making it suitable for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it systematically explores all possible frequency assignments to ensure that no two adjacent stations use the same frequency, thus guaranteeing an optimal solution.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 31,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Maplewood Conservatory",
+   "Twilight Harbor",
+   "Knight’s Market",
+   "Rosewood Hall",
+   "Riverstone Wharf",
+   "Nimbus Plaza",
+   "Echo Station",
+   "Pennywhistle Arcade",
+   "Gilded Archway",
+   "Quartz District"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Maplewood Conservatory": 1,
+     "Twilight Harbor": 2,
+     "Knight’s Market": 3,
+     "Rosewood Hall": 2,
+     "Riverstone Wharf": 2,
+     "Nimbus Plaza": 1,
+     "Echo Station": 1,
+     "Pennywhistle Arcade": 3,
+     "Gilded Archway": 3,
+     "Quartz District": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Maplewood Conservatory": 1,
+     "Twilight Harbor": 1,
+     "Knight’s Market": 2,
+     "Rosewood Hall": 2,
+     "Riverstone Wharf": 3,
+     "Nimbus Plaza": 3,
+     "Echo Station": 1,
+     "Pennywhistle Arcade": 4,
+     "Gilded Archway": 4,
+     "Quartz District": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Maplewood Conservatory": 2,
+     "Twilight Harbor": 4,
+     "Knight’s Market": 1,
+     "Rosewood Hall": 1,
+     "Riverstone Wharf": 4,
+     "Nimbus Plaza": 2,
+     "Echo Station": 2,
+     "Pennywhistle Arcade": 3,
+     "Gilded Archway": 3,
+     "Quartz District": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and choose the most suitable graph algorithm for the problem at hand.\n\n1. **Graph Characteristics**:\n   - The problem involves 10 major locations (nodes) where Wi-Fi base stations are installed.\n   - The goal is to minimize interference by assigning frequencies (colors) to these stations such that no two adjacent stations (connected nodes) use the same frequency.\n   - This indicates that we are dealing with a graph coloring problem, where the nodes represent the Wi-Fi base stations and edges represent the adjacency (overlapping coverage areas).\n\n2. **Graph Size**:\n   - The number of nodes (10) is less than 20, which suggests that we can use an optimal algorithm for graph coloring.\n\n3. **Problem Type**:\n   - The problem is a graph coloring problem, specifically aiming to minimize the number of colors (frequencies) used.\n\n4. **Suitable Algorithm**:\n   - Given that the graph has fewer than 20 nodes, the **Backtracking** algorithm is suitable for finding the optimal solution for graph coloring.\n\n5. **Parameters**:\n   - The parameters required for the Backtracking algorithm include:\n     - `adjacency_list`: An undirected graph represented as an adjacency matrix or adjacency list that indicates which stations are adjacent (overlapping coverage).\n  \n6. **Time Complexity**:\n   - The time complexity of the Backtracking algorithm is \\(O(2^n)\\), which can become prohibitive for larger graphs but is manageable for graphs with fewer than 20 nodes.\n\n7. **Description**:\n   - The Backtracking algorithm is the best choice for this problem because it systematically explores all possible colorings of the graph, ensuring that the minimum number of frequencies is used while adhering to the constraint that adjacent stations cannot share the same frequency.\n\nHere is the output in the requested format:\n\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph represented as an adjacency matrix or adjacency list.\"\n    },\n    \"complexity\": \"O(2^n) - The time complexity grows exponentially with the number of nodes, but is feasible for graphs with fewer than 20 nodes.\",\n    \"description\": \"The Backtracking algorithm is optimal for this problem as it explores all possible colorings to ensure the minimum number of frequencies is used while satisfying the constraint that adjacent stations cannot use the same frequency.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 32,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Knight’s Market",
+   "Ironbridge Crossing",
+   "Willowshade Pavilion",
+   "Copper Clock Square",
+   "Nimbus Plaza",
+   "Twilight Harbor",
+   "Yarrow Plaza",
+   "Quarry Point",
+   "Amber Plaza",
+   "Riverstone Wharf"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Ironbridge Crossing": 1,
+     "Willowshade Pavilion": 2,
+     "Copper Clock Square": 3,
+     "Nimbus Plaza": 3,
+     "Twilight Harbor": 2,
+     "Yarrow Plaza": 4,
+     "Quarry Point": 4,
+     "Amber Plaza": 2,
+     "Riverstone Wharf": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Ironbridge Crossing": 1,
+     "Willowshade Pavilion": 2,
+     "Copper Clock Square": 3,
+     "Nimbus Plaza": 3,
+     "Twilight Harbor": 2,
+     "Yarrow Plaza": 4,
+     "Quarry Point": 4,
+     "Amber Plaza": 2,
+     "Riverstone Wharf": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Knight’s Market": 3,
+     "Ironbridge Crossing": 4,
+     "Willowshade Pavilion": 1,
+     "Copper Clock Square": 2,
+     "Nimbus Plaza": 2,
+     "Twilight Harbor": 1,
+     "Yarrow Plaza": 3,
+     "Quarry Point": 4,
+     "Amber Plaza": 1,
+     "Riverstone Wharf": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and then choose the most suitable algorithm for the problem of frequency allocation to minimize interference among Wi-Fi base stations.\n\n1. **Graph Characteristics**:\n   - The graph consists of 10 nodes (representing the 10 major locations).\n   - The problem involves assigning frequencies to these nodes such that no two adjacent nodes (base stations with overlapping coverage areas) share the same frequency.\n   - Since there are only 10 nodes, this is a small graph.\n\n2. **Problem Type**:\n   - The problem is a graph coloring problem, where the objective is to minimize the number of colors (frequencies) used to color the graph (assign frequencies to base stations) such that no two adjacent nodes have the same color.\n\n3. **Algorithm Selection**:\n   - For small graphs (less than 20 nodes), an optimal solution is preferred. The Backtracking algorithm is suitable for this problem as it can find the minimal coloring number effectively for small graphs.\n\nHere is the output dictionary based on the analysis:\n\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the overlapping coverage areas of the Wi-Fi base stations.\"\n    },\n    \"complexity\": \"O(2^n), where n is the number of vertices. This is feasible for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it can efficiently explore all possible frequency assignments and find the optimal solution for minimizing interference among the Wi-Fi base stations.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 33,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Knight’s Market",
+   "Copper Clock Square",
+   "Echo Station",
+   "Opal Theater",
+   "Sapphire Arena",
+   "Flint Forge Quarter",
+   "Riverstone Wharf",
+   "King’s Row",
+   "Twilight Harbor",
+   "Moonlit Promenade"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Copper Clock Square": 2,
+     "Echo Station": 1,
+     "Opal Theater": 3,
+     "Sapphire Arena": 2,
+     "Flint Forge Quarter": 4,
+     "Riverstone Wharf": 3,
+     "King’s Row": 1,
+     "Twilight Harbor": 1,
+     "Moonlit Promenade": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Copper Clock Square": 2,
+     "Echo Station": 1,
+     "Opal Theater": 3,
+     "Sapphire Arena": 2,
+     "Flint Forge Quarter": 1,
+     "Riverstone Wharf": 3,
+     "King’s Row": 4,
+     "Twilight Harbor": 1,
+     "Moonlit Promenade": 5
+    },
+    "min_colors": 5,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Knight’s Market": 2,
+     "Copper Clock Square": 1,
+     "Echo Station": 2,
+     "Opal Theater": 3,
+     "Sapphire Arena": 3,
+     "Flint Forge Quarter": 2,
+     "Riverstone Wharf": 3,
+     "King’s Row": 4,
+     "Twilight Harbor": 1,
+     "Moonlit Promenade": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and select the most suitable algorithm for the problem of frequency allocation to minimize interference among Wi-Fi base stations.\n\n1. **Graph Characteristics**:\n   - The problem involves 10 major locations (nodes) where Wi-Fi base stations are installed.\n   - The objective is to assign frequencies (colors) to these stations (nodes) such that no two adjacent stations (connected nodes) use the same frequency.\n   - Given that there are 10 nodes, this graph is relatively small.\n\n2. **Problem Type**:\n   - The problem is a graph coloring problem, where we want to minimize the number of colors (frequencies) used to color the graph (assign frequencies to the base stations).\n\n3. **Algorithm Selection**:\n   - Since the graph has fewer than 20 nodes, we can use an optimal algorithm for graph coloring. The Backtracking algorithm is suitable for this problem as it can find the minimal coloring number effectively for small graphs.\n\nHere is the output in the specified format:\n\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations.\"\n    },\n    \"complexity\": \"O(2^n), where n is the number of vertices (stations). This complexity is manageable for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it systematically explores all possible colorings and ensures that the minimum number of frequencies is used without violating the adjacency constraints.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 34,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Nimbus Plaza",
+   "Rosewood Hall",
+   "Shadowbridge Arcade",
+   "Cobalt Market",
+   "Flint Forge Quarter",
+   "Mosaic Plaza",
+   "Evergreen Circle",
+   "Yarrow Plaza",
+   "Gilded Archway",
+   "Lighthouse Point"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Rosewood Hall": 1,
+     "Shadowbridge Arcade": 2,
+     "Cobalt Market": 2,
+     "Flint Forge Quarter": 3,
+     "Mosaic Plaza": 3,
+     "Evergreen Circle": 1,
+     "Yarrow Plaza": 3,
+     "Gilded Archway": 2,
+     "Lighthouse Point": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Rosewood Hall": 1,
+     "Shadowbridge Arcade": 2,
+     "Cobalt Market": 2,
+     "Flint Forge Quarter": 1,
+     "Mosaic Plaza": 3,
+     "Evergreen Circle": 3,
+     "Yarrow Plaza": 2,
+     "Gilded Archway": 4,
+     "Lighthouse Point": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 2,
+     "Rosewood Hall": 2,
+     "Shadowbridge Arcade": 1,
+     "Cobalt Market": 1,
+     "Flint Forge Quarter": 3,
+     "Mosaic Plaza": 3,
+     "Evergreen Circle": 2,
+     "Yarrow Plaza": 3,
+     "Gilded Archway": 1,
+     "Lighthouse Point": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the Wi-Fi base stations and their overlapping coverage areas.\",\n        \"max_colors\": \"The maximum number of frequencies to be used for the allocation.\"\n    },\n    \"complexity\": \"O(2^n) - The algorithm uses backtracking to explore all possible colorings, which can be computationally expensive for larger graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it can find the optimal solution for coloring the graph representing the Wi-Fi base stations. Given that there are only 10 stations, this algorithm will efficiently explore all combinations to minimize the number of frequencies needed while ensuring that adjacent stations do not interfere with each other.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 35,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quarry Point",
+   "Evergreen Circle",
+   "Moonlit Promenade",
+   "Copper Clock Square",
+   "Lunar Pier",
+   "Haven Docks",
+   "Sapphire Arena",
+   "Ironbridge Crossing",
+   "King’s Row",
+   "Umbra Theater"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quarry Point": 1,
+     "Evergreen Circle": 2,
+     "Moonlit Promenade": 2,
+     "Copper Clock Square": 1,
+     "Lunar Pier": 1,
+     "Haven Docks": 3,
+     "Sapphire Arena": 3,
+     "Ironbridge Crossing": 2,
+     "King’s Row": 3,
+     "Umbra Theater": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quarry Point": 1,
+     "Evergreen Circle": 2,
+     "Moonlit Promenade": 2,
+     "Copper Clock Square": 1,
+     "Lunar Pier": 1,
+     "Haven Docks": 2,
+     "Sapphire Arena": 3,
+     "Ironbridge Crossing": 3,
+     "King’s Row": 4,
+     "Umbra Theater": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quarry Point": 1,
+     "Evergreen Circle": 3,
+     "Moonlit Promenade": 4,
+     "Copper Clock Square": 1,
+     "Lunar Pier": 1,
+     "Haven Docks": 3,
+     "Sapphire Arena": 2,
+     "Ironbridge Crossing": 2,
+     "King’s Row": 3,
+     "Umbra Theater": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations based on their overlapping coverage areas.\"\n    },\n    \"complexity\": \"O(2^n), where n is the number of nodes (Wi-Fi base stations).\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem as it can find the optimal solution for coloring the graph representing the Wi-Fi base stations. Given that there are 10 base stations, which is less than 20 nodes, this algorithm will efficiently explore all possible frequency assignments to ensure that no two adjacent stations (those with overlapping coverage) use the same frequency, thus minimizing interference.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 36,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Amber Plaza",
+   "Jasper Marina",
+   "Quarry Point",
+   "Dragon’s Gate",
+   "Haven Docks",
+   "Northwind Tower",
+   "Gilded Archway",
+   "Velvet Corner",
+   "Temple Square",
+   "Maplewood Conservatory"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Amber Plaza": 1,
+     "Jasper Marina": 2,
+     "Quarry Point": 3,
+     "Dragon’s Gate": 3,
+     "Haven Docks": 3,
+     "Northwind Tower": 1,
+     "Gilded Archway": 1,
+     "Velvet Corner": 3,
+     "Temple Square": 1,
+     "Maplewood Conservatory": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Amber Plaza": 1,
+     "Jasper Marina": 2,
+     "Quarry Point": 2,
+     "Dragon’s Gate": 3,
+     "Haven Docks": 3,
+     "Northwind Tower": 1,
+     "Gilded Archway": 1,
+     "Velvet Corner": 3,
+     "Temple Square": 1,
+     "Maplewood Conservatory": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Amber Plaza": 2,
+     "Jasper Marina": 1,
+     "Quarry Point": 3,
+     "Dragon’s Gate": 3,
+     "Haven Docks": 3,
+     "Northwind Tower": 2,
+     "Gilded Archway": 3,
+     "Velvet Corner": 2,
+     "Temple Square": 4,
+     "Maplewood Conservatory": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Greedy Coloring Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the Wi-Fi base stations and their overlapping coverage areas.\",\n        \"number_of_colors\": \"The maximum number of frequencies available for allocation.\"\n    },\n    \"complexity\": \"O(n^2) - The algorithm runs in quadratic time relative to the number of nodes, making it efficient for the given problem size.\",\n    \"description\": \"The Greedy Coloring Algorithm is suitable for this problem as it allows for quick allocation of frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations (which may interfere with each other) are assigned the same frequency. Given that there are only 10 stations, this algorithm will efficiently minimize the number of frequencies needed.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 37,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Gilded Archway",
+   "Haven Docks",
+   "Maplewood Conservatory",
+   "Westgate Station",
+   "Northwind Tower",
+   "Granite Plaza",
+   "Mosaic Plaza",
+   "Pennywhistle Arcade",
+   "Yarrow Plaza",
+   "Evergreen Circle"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Gilded Archway": 1,
+     "Haven Docks": 1,
+     "Maplewood Conservatory": 1,
+     "Westgate Station": 2,
+     "Northwind Tower": 3,
+     "Granite Plaza": 3,
+     "Mosaic Plaza": 2,
+     "Pennywhistle Arcade": 4,
+     "Yarrow Plaza": 1,
+     "Evergreen Circle": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Gilded Archway": 1,
+     "Haven Docks": 1,
+     "Maplewood Conservatory": 1,
+     "Westgate Station": 2,
+     "Northwind Tower": 3,
+     "Granite Plaza": 3,
+     "Mosaic Plaza": 2,
+     "Pennywhistle Arcade": 4,
+     "Yarrow Plaza": 1,
+     "Evergreen Circle": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Gilded Archway": 3,
+     "Haven Docks": 3,
+     "Maplewood Conservatory": 2,
+     "Westgate Station": 2,
+     "Northwind Tower": 1,
+     "Granite Plaza": 3,
+     "Mosaic Plaza": 1,
+     "Pennywhistle Arcade": 1,
+     "Yarrow Plaza": 2,
+     "Evergreen Circle": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations.\",\n        \"num_colors\": \"The maximum number of frequencies available for assignment.\"\n    },\n    \"complexity\": \"O(2^n) - The time complexity is exponential, making it suitable for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it can find the optimal solution for coloring the graph representing the Wi-Fi base stations. Given that there are 10 base stations (nodes), this algorithm can efficiently explore all possible frequency assignments while ensuring that no two adjacent stations share the same frequency, thus minimizing interference.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 38,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Northwind Tower",
+   "Shadowbridge Arcade",
+   "Skyline Gardens",
+   "Granite Plaza",
+   "Haven Docks",
+   "Velvet Corner",
+   "Pennywhistle Arcade",
+   "Twilight Harbor",
+   "Westgate Station"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Northwind Tower": 2,
+     "Shadowbridge Arcade": 2,
+     "Skyline Gardens": 2,
+     "Granite Plaza": 3,
+     "Haven Docks": 1,
+     "Velvet Corner": 3,
+     "Pennywhistle Arcade": 1,
+     "Twilight Harbor": 4,
+     "Westgate Station": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Northwind Tower": 2,
+     "Shadowbridge Arcade": 2,
+     "Skyline Gardens": 2,
+     "Granite Plaza": 3,
+     "Haven Docks": 1,
+     "Velvet Corner": 3,
+     "Pennywhistle Arcade": 1,
+     "Twilight Harbor": 4,
+     "Westgate Station": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 2,
+     "Northwind Tower": 1,
+     "Shadowbridge Arcade": 1,
+     "Skyline Gardens": 1,
+     "Granite Plaza": 3,
+     "Haven Docks": 1,
+     "Velvet Corner": 2,
+     "Pennywhistle Arcade": 4,
+     "Twilight Harbor": 3,
+     "Westgate Station": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connectivity between the 10 Wi-Fi base stations.\"\n    },\n    \"complexity\": \"O(2^n), where n is the number of nodes. This algorithm is optimal for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it can efficiently explore all possible frequency allocations while ensuring that no two adjacent Wi-Fi base stations use the same frequency. Given that there are only 10 stations, this algorithm can find the optimal solution by systematically checking all combinations of frequency assignments.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 39,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Union Square Market",
+   "Amber Plaza",
+   "Northwind Tower",
+   "Westgate Station",
+   "Quartz District",
+   "King’s Row",
+   "Rosewood Hall",
+   "Zenith Arena",
+   "Jasper Marina",
+   "Lunar Pier"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Union Square Market": 1,
+     "Amber Plaza": 1,
+     "Northwind Tower": 2,
+     "Westgate Station": 3,
+     "Quartz District": 4,
+     "King’s Row": 2,
+     "Rosewood Hall": 3,
+     "Zenith Arena": 1,
+     "Jasper Marina": 4,
+     "Lunar Pier": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Union Square Market": 1,
+     "Amber Plaza": 1,
+     "Northwind Tower": 2,
+     "Westgate Station": 3,
+     "Quartz District": 4,
+     "King’s Row": 2,
+     "Rosewood Hall": 3,
+     "Zenith Arena": 1,
+     "Jasper Marina": 4,
+     "Lunar Pier": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Union Square Market": 2,
+     "Amber Plaza": 2,
+     "Northwind Tower": 3,
+     "Westgate Station": 4,
+     "Quartz District": 1,
+     "King’s Row": 3,
+     "Rosewood Hall": 4,
+     "Zenith Arena": 2,
+     "Jasper Marina": 1,
+     "Lunar Pier": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Greedy Coloring Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations based on their coverage areas.\"\n    },\n    \"complexity\": \"O(n^2)\",\n    \"description\": \"The Greedy Coloring Algorithm is suitable for this problem as it allows for quick allocation of frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations (which may interfere with each other) are assigned the same frequency. Given that the graph has 10 nodes (base stations), this algorithm provides a good balance between efficiency and simplicity, making it a practical choice for minimizing interference in the network.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 40,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Duskwood Park",
+   "Jasper Marina",
+   "Jade Fountain",
+   "Westgate Station",
+   "Riverstone Wharf",
+   "Ivory Spire Cathedral",
+   "Twilight Harbor",
+   "Haven Docks",
+   "Cobalt Market",
+   "Maplewood Conservatory"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Jasper Marina": 1,
+     "Jade Fountain": 2,
+     "Westgate Station": 2,
+     "Riverstone Wharf": 1,
+     "Ivory Spire Cathedral": 3,
+     "Twilight Harbor": 1,
+     "Haven Docks": 4,
+     "Cobalt Market": 3,
+     "Maplewood Conservatory": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Jasper Marina": 1,
+     "Jade Fountain": 2,
+     "Westgate Station": 1,
+     "Riverstone Wharf": 1,
+     "Ivory Spire Cathedral": 3,
+     "Twilight Harbor": 4,
+     "Haven Docks": 2,
+     "Cobalt Market": 2,
+     "Maplewood Conservatory": 5
+    },
+    "min_colors": 5,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Duskwood Park": 2,
+     "Jasper Marina": 3,
+     "Jade Fountain": 1,
+     "Westgate Station": 2,
+     "Riverstone Wharf": 2,
+     "Ivory Spire Cathedral": 2,
+     "Twilight Harbor": 3,
+     "Haven Docks": 1,
+     "Cobalt Market": 1,
+     "Maplewood Conservatory": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the Wi-Fi base stations and their overlapping coverage areas.\",\n        \"num_frequencies\": \"The number of frequencies available for assignment.\"\n    },\n    \"complexity\": \"O(2^n) - The time complexity is exponential due to the nature of backtracking, making it suitable for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem as it can efficiently find the optimal frequency assignment for the Wi-Fi base stations while ensuring that no two adjacent stations use the same frequency. Given that there are 10 stations, this falls within the suitable range for optimal solutions.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 41,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Cobalt Market",
+   "Evergreen Circle",
+   "Copper Clock Square",
+   "Quartz District",
+   "Rosewood Hall",
+   "Mosaic Plaza",
+   "Nimbus Plaza",
+   "Temple Square",
+   "Dragon’s Gate",
+   "Willowshade Pavilion"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Cobalt Market": 1,
+     "Evergreen Circle": 1,
+     "Copper Clock Square": 2,
+     "Quartz District": 3,
+     "Rosewood Hall": 2,
+     "Mosaic Plaza": 4,
+     "Nimbus Plaza": 1,
+     "Temple Square": 3,
+     "Dragon’s Gate": 2,
+     "Willowshade Pavilion": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Cobalt Market": 1,
+     "Evergreen Circle": 1,
+     "Copper Clock Square": 2,
+     "Quartz District": 3,
+     "Rosewood Hall": 2,
+     "Mosaic Plaza": 4,
+     "Nimbus Plaza": 1,
+     "Temple Square": 2,
+     "Dragon’s Gate": 4,
+     "Willowshade Pavilion": 5
+    },
+    "min_colors": 5,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Cobalt Market": 2,
+     "Evergreen Circle": 1,
+     "Copper Clock Square": 3,
+     "Quartz District": 1,
+     "Rosewood Hall": 3,
+     "Mosaic Plaza": 2,
+     "Nimbus Plaza": 4,
+     "Temple Square": 1,
+     "Dragon’s Gate": 2,
+     "Willowshade Pavilion": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and then select the most suitable graph algorithm for the problem of frequency allocation to minimize interference among Wi-Fi base stations.\n\n### Analysis of Graph's Scale and Characteristics:\n- **Number of Nodes**: The problem involves 10 major locations (Wi-Fi base stations), which means we have a graph with 10 nodes.\n- **Graph Type**: The problem can be modeled as a graph coloring problem, where nodes represent Wi-Fi base stations and edges represent the adjacency (overlapping coverage areas) between them.\n- **Graph Size**: Since the number of nodes (10) is less than 18, we can use an optimal solution algorithm.\n\n### Selection of Algorithm:\nGiven that the problem is about coloring the graph (assigning frequencies to minimize interference), we can choose from the algorithms available in the library for graph coloring. The most suitable algorithm for small graphs (less than 20 nodes) is the **Backtracking** algorithm, which finds the minimal coloring number optimally.\n\n### Output Dictionary:\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the adjacency of Wi-Fi base stations.\",\n        \"number_of_colors\": \"The maximum number of frequencies available for allocation.\"\n    },\n    \"complexity\": \"O(2^n)\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it systematically explores all possible colorings of the graph to find the minimum number of frequencies needed, ensuring that no two adjacent stations share the same frequency.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 42,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Skyline Gardens",
+   "Willowshade Pavilion",
+   "Cobalt Market",
+   "King’s Row",
+   "Azure Gardens",
+   "Flare Alley",
+   "Maplewood Conservatory",
+   "Westgate Station",
+   "Union Square Market",
+   "Beacon Tower"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Skyline Gardens": 1,
+     "Willowshade Pavilion": 1,
+     "Cobalt Market": 2,
+     "King’s Row": 1,
+     "Azure Gardens": 3,
+     "Flare Alley": 2,
+     "Maplewood Conservatory": 1,
+     "Westgate Station": 3,
+     "Union Square Market": 2,
+     "Beacon Tower": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Skyline Gardens": 1,
+     "Willowshade Pavilion": 1,
+     "Cobalt Market": 2,
+     "King’s Row": 1,
+     "Azure Gardens": 3,
+     "Flare Alley": 2,
+     "Maplewood Conservatory": 1,
+     "Westgate Station": 3,
+     "Union Square Market": 2,
+     "Beacon Tower": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Skyline Gardens": 3,
+     "Willowshade Pavilion": 3,
+     "Cobalt Market": 2,
+     "King’s Row": 1,
+     "Azure Gardens": 1,
+     "Flare Alley": 2,
+     "Maplewood Conservatory": 3,
+     "Westgate Station": 4,
+     "Union Square Market": 2,
+     "Beacon Tower": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Greedy Coloring Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connectivity of the Wi-Fi base stations.\",\n        \"number_of_frequencies\": \"The maximum number of different frequencies to be allocated.\"\n    },\n    \"complexity\": \"O(n^2) - The algorithm runs in polynomial time, making it efficient for the given problem size.\",\n    \"description\": \"The Greedy Coloring Algorithm is suitable for this problem as it efficiently allocates frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations (which may interfere with each other) are assigned the same frequency. Given that there are only 10 stations, this algorithm provides a quick and effective solution to minimize the number of frequencies needed.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 43,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Temple Square",
+   "Twilight Harbor",
+   "Amber Plaza",
+   "Duskwood Park",
+   "Mosaic Plaza",
+   "Umbra Theater",
+   "Copper Clock Square",
+   "Cobalt Market",
+   "Quartz District",
+   "Lighthouse Point"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Temple Square": 1,
+     "Twilight Harbor": 1,
+     "Amber Plaza": 1,
+     "Duskwood Park": 2,
+     "Mosaic Plaza": 2,
+     "Umbra Theater": 3,
+     "Copper Clock Square": 3,
+     "Cobalt Market": 3,
+     "Quartz District": 3,
+     "Lighthouse Point": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Temple Square": 1,
+     "Twilight Harbor": 1,
+     "Amber Plaza": 1,
+     "Duskwood Park": 2,
+     "Mosaic Plaza": 2,
+     "Umbra Theater": 3,
+     "Copper Clock Square": 3,
+     "Cobalt Market": 3,
+     "Quartz District": 3,
+     "Lighthouse Point": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Temple Square": 4,
+     "Twilight Harbor": 3,
+     "Amber Plaza": 3,
+     "Duskwood Park": 1,
+     "Mosaic Plaza": 1,
+     "Umbra Theater": 3,
+     "Copper Clock Square": 4,
+     "Cobalt Market": 2,
+     "Quartz District": 2,
+     "Lighthouse Point": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Greedy Coloring Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the Wi-Fi base stations and their overlapping coverage areas.\",\n        \"number_of_frequencies\": \"The number of distinct frequencies to be assigned.\"\n    },\n    \"complexity\": \"O(n^2) - The algorithm runs in quadratic time, making it efficient for the given problem size.\",\n    \"description\": \"The Greedy Coloring Algorithm is suitable for this problem as it efficiently assigns frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations (with overlapping coverage) use the same frequency. Given that there are only 10 stations, this algorithm provides a quick and effective solution to minimize interference.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 44,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Gilded Archway",
+   "Yarrow Plaza",
+   "Flare Alley",
+   "Jade Fountain",
+   "Opal Theater",
+   "Flint Forge Quarter",
+   "Mosaic Plaza",
+   "Duskwood Park",
+   "Twilight Harbor",
+   "Temple Square"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Gilded Archway": 1,
+     "Yarrow Plaza": 2,
+     "Flare Alley": 2,
+     "Jade Fountain": 3,
+     "Opal Theater": 3,
+     "Flint Forge Quarter": 3,
+     "Mosaic Plaza": 1,
+     "Duskwood Park": 4,
+     "Twilight Harbor": 1,
+     "Temple Square": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Gilded Archway": 1,
+     "Yarrow Plaza": 2,
+     "Flare Alley": 2,
+     "Jade Fountain": 3,
+     "Opal Theater": 3,
+     "Flint Forge Quarter": 3,
+     "Mosaic Plaza": 1,
+     "Duskwood Park": 4,
+     "Twilight Harbor": 1,
+     "Temple Square": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Gilded Archway": 1,
+     "Yarrow Plaza": 2,
+     "Flare Alley": 2,
+     "Jade Fountain": 3,
+     "Opal Theater": 3,
+     "Flint Forge Quarter": 3,
+     "Mosaic Plaza": 1,
+     "Duskwood Park": 4,
+     "Twilight Harbor": 1,
+     "Temple Square": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Greedy Coloring Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the Wi-Fi base stations and their overlapping coverage areas.\",\n        \"number_of_frequencies\": \"The number of different frequencies available for assignment.\"\n    },\n    \"complexity\": \"O(n^2) - The algorithm runs in quadratic time, making it efficient for the given problem size.\",\n    \"description\": \"The Greedy Coloring Algorithm is suitable for this problem as it efficiently assigns frequencies to the Wi-Fi base stations while ensuring that adjacent stations do not interfere with each other. Given that there are 10 base stations, this algorithm will quickly provide a good approximation for minimizing the number of frequencies needed.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 45,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "King’s Row",
+   "Dragon’s Gate",
+   "Sapphire Arena",
+   "Duskwood Park",
+   "Westgate Station",
+   "Granite Plaza",
+   "Echo Station",
+   "Haven Docks",
+   "Velvet Corner"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "King’s Row": 1,
+     "Dragon’s Gate": 1,
+     "Sapphire Arena": 2,
+     "Duskwood Park": 2,
+     "Westgate Station": 2,
+     "Granite Plaza": 2,
+     "Echo Station": 3,
+     "Haven Docks": 3,
+     "Velvet Corner": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "King’s Row": 1,
+     "Dragon’s Gate": 1,
+     "Sapphire Arena": 2,
+     "Duskwood Park": 2,
+     "Westgate Station": 2,
+     "Granite Plaza": 2,
+     "Echo Station": 3,
+     "Haven Docks": 3,
+     "Velvet Corner": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 4,
+     "King’s Row": 3,
+     "Dragon’s Gate": 3,
+     "Sapphire Arena": 2,
+     "Duskwood Park": 2,
+     "Westgate Station": 1,
+     "Granite Plaza": 2,
+     "Echo Station": 3,
+     "Haven Docks": 1,
+     "Velvet Corner": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and choose the most suitable graph algorithm for the problem of frequency allocation to minimize interference among Wi-Fi base stations.\n\n1. **Graph Characteristics**:\n   - The graph consists of 10 nodes (representing the 10 major locations with Wi-Fi base stations).\n   - The problem involves assigning frequencies to these nodes such that adjacent nodes (stations) do not share the same frequency, which is a classic graph coloring problem.\n\n2. **Problem Type**:\n   - The problem is a graph coloring problem where the objective is to minimize the number of colors (frequencies) used to color the graph (assign frequencies to the stations) while ensuring that no two adjacent nodes share the same color.\n\n3. **Algorithm Selection**:\n   - Given that there are 10 nodes, we are dealing with a small graph (less than 20 nodes). Therefore, an optimal solution is preferred.\n   - The **Backtracking** algorithm is suitable for this problem as it can find the minimal coloring number using depth-first search and backtracking.\n\nHere is the output in the requested format:\n\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between Wi-Fi base stations.\"\n    },\n    \"complexity\": \"O(2^n)\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it systematically explores all possible colorings of the graph to find the minimal number of frequencies needed, ensuring that adjacent stations do not interfere with each other.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 46,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Pennywhistle Arcade",
+   "Copper Clock Square",
+   "Knight’s Market",
+   "Silvercrest Observatory",
+   "Echo Station",
+   "Mosaic Plaza",
+   "Lunar Pier",
+   "Shadowbridge Arcade",
+   "Jasper Marina",
+   "Umbra Theater"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Copper Clock Square": 1,
+     "Knight’s Market": 2,
+     "Silvercrest Observatory": 3,
+     "Echo Station": 2,
+     "Mosaic Plaza": 4,
+     "Lunar Pier": 3,
+     "Shadowbridge Arcade": 2,
+     "Jasper Marina": 2,
+     "Umbra Theater": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Copper Clock Square": 1,
+     "Knight’s Market": 2,
+     "Silvercrest Observatory": 3,
+     "Echo Station": 2,
+     "Mosaic Plaza": 4,
+     "Lunar Pier": 3,
+     "Shadowbridge Arcade": 1,
+     "Jasper Marina": 2,
+     "Umbra Theater": 5
+    },
+    "min_colors": 5,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 2,
+     "Copper Clock Square": 3,
+     "Knight’s Market": 2,
+     "Silvercrest Observatory": 1,
+     "Echo Station": 3,
+     "Mosaic Plaza": 3,
+     "Lunar Pier": 1,
+     "Shadowbridge Arcade": 2,
+     "Jasper Marina": 4,
+     "Umbra Theater": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Greedy Coloring Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between adjacent Wi-Fi base stations.\",\n        \"number_of_stations\": 10\n    },\n    \"complexity\": \"O(n^2) - The time complexity is quadratic, making it efficient for the given problem size.\",\n    \"description\": \"The Greedy Coloring Algorithm is suitable for this problem as it efficiently assigns frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations use the same frequency. Given that there are only 10 stations, this algorithm provides a good balance between speed and simplicity, allowing for quick frequency allocation without the need for exhaustive search.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 47,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Echo Station",
+   "Maplewood Conservatory",
+   "Oakshade Library",
+   "Evergreen Circle",
+   "Opal Theater",
+   "King’s Row",
+   "Horizon Mall",
+   "Westgate Station",
+   "Rosewood Hall",
+   "Shadowbridge Arcade"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Echo Station": 1,
+     "Maplewood Conservatory": 1,
+     "Oakshade Library": 2,
+     "Evergreen Circle": 3,
+     "Opal Theater": 2,
+     "King’s Row": 4,
+     "Horizon Mall": 3,
+     "Westgate Station": 2,
+     "Rosewood Hall": 3,
+     "Shadowbridge Arcade": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Echo Station": 1,
+     "Maplewood Conservatory": 1,
+     "Oakshade Library": 2,
+     "Evergreen Circle": 3,
+     "Opal Theater": 2,
+     "King’s Row": 4,
+     "Horizon Mall": 3,
+     "Westgate Station": 2,
+     "Rosewood Hall": 3,
+     "Shadowbridge Arcade": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Echo Station": 1,
+     "Maplewood Conservatory": 1,
+     "Oakshade Library": 3,
+     "Evergreen Circle": 4,
+     "Opal Theater": 3,
+     "King’s Row": 2,
+     "Horizon Mall": 4,
+     "Westgate Station": 3,
+     "Rosewood Hall": 2,
+     "Shadowbridge Arcade": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the coverage areas of the Wi-Fi base stations.\",\n        \"number_of_colors\": \"The maximum number of frequencies available for assignment.\"\n    },\n    \"complexity\": \"O(2^n) - The time complexity is exponential due to the nature of backtracking, making it suitable for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem as it systematically explores all possible frequency assignments to the Wi-Fi base stations while ensuring that adjacent stations do not share the same frequency. Given that there are only 10 stations, this algorithm can efficiently find the optimal solution by minimizing the number of frequencies needed.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 48,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Nimbus Plaza",
+   "Westgate Station",
+   "Umbra Theater",
+   "Flare Alley",
+   "Riverstone Wharf",
+   "Temple Square",
+   "Willowshade Pavilion",
+   "Lighthouse Point",
+   "Moonlit Promenade",
+   "Jasper Marina"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Westgate Station": 2,
+     "Umbra Theater": 2,
+     "Flare Alley": 3,
+     "Riverstone Wharf": 3,
+     "Temple Square": 1,
+     "Willowshade Pavilion": 2,
+     "Lighthouse Point": 4,
+     "Moonlit Promenade": 1,
+     "Jasper Marina": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Westgate Station": 2,
+     "Umbra Theater": 2,
+     "Flare Alley": 3,
+     "Riverstone Wharf": 3,
+     "Temple Square": 1,
+     "Willowshade Pavilion": 2,
+     "Lighthouse Point": 4,
+     "Moonlit Promenade": 1,
+     "Jasper Marina": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Westgate Station": 3,
+     "Umbra Theater": 2,
+     "Flare Alley": 2,
+     "Riverstone Wharf": 2,
+     "Temple Square": 1,
+     "Willowshade Pavilion": 3,
+     "Lighthouse Point": 4,
+     "Moonlit Promenade": 1,
+     "Jasper Marina": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and then select the most suitable graph algorithm to solve the problem of minimizing interference by assigning frequencies to Wi-Fi base stations.\n\n### Analysis of Graph Characteristics:\n1. **Scale**: The problem involves 10 major locations (nodes), which means the graph is relatively small (less than 18 nodes).\n2. **Characteristics**: The problem can be modeled as a graph coloring problem, where nodes represent Wi-Fi base stations and edges represent the adjacency (overlapping coverage areas) between them.\n\n### Problem Type:\nThe problem is a **Graph Coloring** problem, where the objective is to assign colors (frequencies) to nodes (Wi-Fi base stations) such that no two adjacent nodes share the same color, while minimizing the total number of colors used.\n\n### Algorithm Selection:\nGiven that the graph has less than 18 nodes, an optimal solution is preferred. The most suitable algorithm for this problem is the **Backtracking** algorithm, which is optimal for small graphs.\n\n### Output Dictionary:\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the overlapping coverage areas of the Wi-Fi base stations.\"\n    },\n    \"complexity\": \"O(2^n)\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it systematically explores all possible color assignments to find the minimum number of frequencies needed, ensuring that no two adjacent stations use the same frequency.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 49,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Granite Plaza",
+   "Ironbridge Crossing",
+   "Velvet Corner",
+   "Knight’s Market",
+   "Lighthouse Point",
+   "Haven Docks",
+   "Sapphire Arena",
+   "Echo Station",
+   "Ivory Spire Cathedral",
+   "Brass Lantern Tavern"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Ironbridge Crossing": 2,
+     "Velvet Corner": 2,
+     "Knight’s Market": 1,
+     "Lighthouse Point": 2,
+     "Haven Docks": 3,
+     "Sapphire Arena": 1,
+     "Echo Station": 1,
+     "Ivory Spire Cathedral": 3,
+     "Brass Lantern Tavern": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Ironbridge Crossing": 2,
+     "Velvet Corner": 2,
+     "Knight’s Market": 1,
+     "Lighthouse Point": 2,
+     "Haven Docks": 3,
+     "Sapphire Arena": 1,
+     "Echo Station": 1,
+     "Ivory Spire Cathedral": 3,
+     "Brass Lantern Tavern": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Ironbridge Crossing": 3,
+     "Velvet Corner": 3,
+     "Knight’s Market": 1,
+     "Lighthouse Point": 2,
+     "Haven Docks": 2,
+     "Sapphire Arena": 1,
+     "Echo Station": 1,
+     "Ivory Spire Cathedral": 2,
+     "Brass Lantern Tavern": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and choose the most suitable graph algorithm for the problem of minimizing interference in a Wi-Fi network.\n\n1. **Graph Characteristics**:\n   - The graph consists of **10 nodes** (representing the 10 major locations with Wi-Fi base stations).\n   - The problem involves assigning frequencies to these nodes such that adjacent nodes (stations with overlapping coverage) do not share the same frequency. This is a classic graph coloring problem.\n\n2. **Problem Type**:\n   - The problem is a **Graph Coloring** problem, where the objective is to minimize the number of colors (frequencies) used to color the graph (assign frequencies to the base stations).\n\n3. **Algorithm Selection**:\n   - Given that the graph has **10 nodes**, we can use an optimal solution for graph coloring. The **Backtracking** algorithm is suitable for this size of the graph, as it can efficiently find the minimal coloring number.\n\n4. **Output Dictionary**:\n```json\n{\n    \"problem\": \"Graph Coloring\",\n    \"algorithm\": \"Backtracking\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the coverage areas of the Wi-Fi base stations.\"\n    },\n    \"complexity\": \"O(2^n), where n is the number of vertices. This algorithm is optimal for small graphs.\",\n    \"description\": \"The Backtracking algorithm is the best choice for this problem because it systematically explores all possible colorings and ensures that the minimum number of frequencies is used while adhering to the constraints of adjacent stations not sharing the same frequency.\"\n}\n```"
+ }
+]

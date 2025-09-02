@@ -1,0 +1,7789 @@
+[
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 0,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Starfire",
+   "Server Nightshade",
+   "Server Oceanview",
+   "Server Darkhorse",
+   "Server Glacierpeak",
+   "Server Ironclad",
+   "Server Nightfall",
+   "Server Lighthouse",
+   "Server Emberfall"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Oceanview",
+     "Server Darkhorse",
+     "Server Nightfall",
+     "Server Emberfall"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Darkhorse",
+     "Server Glacierpeak",
+     "Server Ironclad",
+     "Server Emberfall"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Nightshade",
+     "Server Oceanview",
+     "Server Darkhorse",
+     "Server Glacierpeak",
+     "Server Ironclad",
+     "Server Nightfall",
+     "Server Lighthouse",
+     "Server Emberfall"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover problem is about selecting the minimum number of vertices such that all edges in the graph are covered. Given that the graph has 9 nodes, the Vertex Cover Brute Force Algorithm is suitable as it can provide an optimal solution for small graphs, despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 1,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Mirage",
+   "Server Lighthouse",
+   "Server Ghostwind",
+   "Server Brightstar",
+   "Server Windswept",
+   "Server Nightfall",
+   "Server Starfire",
+   "Server Bluebird",
+   "Server Ironbark"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Lighthouse",
+     "Server Ghostwind",
+     "Server Windswept",
+     "Server Starfire"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Lighthouse",
+     "Server Ghostwind",
+     "Server Windswept",
+     "Server Starfire"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Lighthouse",
+     "Server Ghostwind",
+     "Server Brightstar",
+     "Server Windswept",
+     "Server Nightfall",
+     "Server Starfire",
+     "Server Ironbark"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover problem is about selecting the minimum number of vertices (computers) such that every edge (communication link) is covered by at least one vertex. Since the graph has 9 nodes, which is fewer than 20, the brute force algorithm is suitable as it will explore all possible combinations to find the optimal solution.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 2,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Firefly",
+   "Server Skyhawk",
+   "Server Frostmoon",
+   "Server Blackwood",
+   "Server Ghostwind",
+   "Server Darkhorse",
+   "Server Twilight",
+   "Server Thunderstrike",
+   "Server Nightshade"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Frostmoon",
+     "Server Ghostwind",
+     "Server Thunderstrike",
+     "Server Nightshade"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Frostmoon",
+     "Server Ghostwind",
+     "Server Thunderstrike",
+     "Server Nightshade"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Skyhawk",
+     "Server Frostmoon",
+     "Server Blackwood",
+     "Server Ghostwind",
+     "Server Darkhorse",
+     "Server Twilight",
+     "Server Thunderstrike",
+     "Server Nightshade"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover problem is about finding the minimum set of vertices that cover all edges in a graph. Since the graph has 9 nodes, which is fewer than 20, the brute force algorithm is suitable as it can explore all possible subsets of computers to find the optimal solution efficiently.\"\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 3,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Bluebird",
+   "Server Thunderstrike",
+   "Server Silverhawk",
+   "Server Falconeye",
+   "Server Emberlight",
+   "Server Glacier",
+   "Server Starfire",
+   "Server Frostbite",
+   "Server Emberfall"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Falconeye",
+     "Server Glacier",
+     "Server Frostbite"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Falconeye",
+     "Server Glacier",
+     "Server Frostbite"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Bluebird",
+     "Server Thunderstrike",
+     "Server Silverhawk",
+     "Server Falconeye",
+     "Server Emberlight",
+     "Server Glacier",
+     "Server Frostbite",
+     "Server Emberfall"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Greedy Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(n + m), where n is the number of vertices and m is the number of edges.\",\n    \"description\": \"The Vertex Cover Greedy Algorithm is suitable for this problem as it efficiently approximates the minimum number of computers needed to monitor all communication links. Given that the graph has 9 nodes, this algorithm provides a quick solution while ensuring that all edges are covered by at least one monitoring device.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 4,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberlight",
+   "Server Falconeye",
+   "Server Mirage",
+   "Server Emberfall",
+   "Server Vortex",
+   "Server Nightfall",
+   "Server Bluebird",
+   "Server Starfire",
+   "Server Glacierpeak"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Falconeye",
+     "Server Mirage",
+     "Server Emberfall",
+     "Server Vortex",
+     "Server Starfire"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Falconeye",
+     "Server Mirage",
+     "Server Emberfall",
+     "Server Vortex",
+     "Server Starfire"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Falconeye",
+     "Server Mirage",
+     "Server Emberfall",
+     "Server Vortex",
+     "Server Nightfall",
+     "Server Starfire",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided text and problem information, we can analyze the graph's scale and characteristics, and choose the appropriate algorithm for the problem at hand.\n\n1. **Graph Characteristics**:\n   - The graph consists of 9 nodes (computers).\n   - The problem involves monitoring communication links, which can be represented as edges in a graph.\n   - Since there are 9 computers, this graph is relatively small.\n\n2. **Problem Type**:\n   - The problem is a **Vertex Cover** problem, where we need to select a minimum number of vertices (computers) such that all edges (communication links) are covered (monitored).\n\n3. **Algorithm Selection**:\n   - Given that the graph has fewer than 20 nodes, the optimal solution is preferred.\n   - The **VertexCover Brute Force Algorithm** is suitable for this size of the graph.\n\n4. **Output Dictionary**:\n```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph represented as an adjacency matrix.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The VertexCover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by exploring all possible subsets of computers to find the minimum set that covers all communication links.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 5,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Bluebird",
+   "Server Moonlight",
+   "Server Falconeye",
+   "Server Oceanview",
+   "Server Emberfall",
+   "Server Nightfall",
+   "Server Sunflower",
+   "Server Eaglecrest",
+   "Server Seabreeze"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Bluebird",
+     "Server Moonlight",
+     "Server Falconeye",
+     "Server Emberfall",
+     "Server Sunflower",
+     "Server Seabreeze"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Bluebird",
+     "Server Falconeye",
+     "Server Emberfall",
+     "Server Nightfall",
+     "Server Sunflower",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Bluebird",
+     "Server Moonlight",
+     "Server Falconeye",
+     "Server Oceanview",
+     "Server Emberfall",
+     "Server Nightfall",
+     "Server Sunflower",
+     "Server Eaglecrest",
+     "Server Seabreeze"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Greedy Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the computers and their communication links.\"\n    },\n    \"complexity\": \"O(n + m), where n is the number of vertices (computers) and m is the number of edges (communication links).\",\n    \"description\": \"The Vertex Cover Greedy Algorithm is suitable for large graphs, especially since the graph has 9 nodes, which is within the acceptable range for this approximation method. It efficiently selects vertices that cover the edges, ensuring all communication links are monitored while minimizing the number of computers selected.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 6,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stormcloud",
+   "Server Sunflower",
+   "Server Silverhawk",
+   "Server Seabreeze",
+   "Server Stealthwind",
+   "Server Starfire",
+   "Server Firestorm",
+   "Server Glacierpeak",
+   "Server Windswept"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Sunflower",
+     "Server Silverhawk",
+     "Server Seabreeze",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Sunflower",
+     "Server Silverhawk",
+     "Server Seabreeze",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Sunflower",
+     "Server Silverhawk",
+     "Server Seabreeze",
+     "Server Stealthwind",
+     "Server Starfire",
+     "Server Glacierpeak",
+     "Server Windswept"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by checking all possible subsets of computers to find the minimum number that can monitor all communication links. Given that the graph has 9 nodes, it falls within the suitable size for this optimal algorithm.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 7,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Seabreeze",
+   "Server Silverstone",
+   "Server Stormbreaker",
+   "Server Silverstream",
+   "Server Brightstar",
+   "Server Shadowbrook",
+   "Server Ravenstone",
+   "Server Ironbark",
+   "Server Silverhawk"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Silverstone",
+     "Server Stormbreaker",
+     "Server Silverstream",
+     "Server Brightstar",
+     "Server Silverhawk"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverstone",
+     "Server Stormbreaker",
+     "Server Brightstar",
+     "Server Shadowbrook",
+     "Server Ravenstone",
+     "Server Ironbark"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Silverstone",
+     "Server Stormbreaker",
+     "Server Silverstream",
+     "Server Brightstar",
+     "Server Shadowbrook",
+     "Server Ravenstone",
+     "Server Silverhawk"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the connections between the computers.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by exploring all possible subsets of computers to find the minimum set that covers all communication links. Given that the graph has only 9 nodes, this algorithm is suitable despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 8,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ironclad",
+   "Server Thunderbolt",
+   "Server Mirage",
+   "Server Skyhawk",
+   "Server Willowbrook",
+   "Server Twilight",
+   "Server Darkhorse",
+   "Server Glacier",
+   "Server Ghostwind"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Mirage",
+     "Server Twilight",
+     "Server Glacier",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Willowbrook",
+     "Server Twilight",
+     "Server Darkhorse",
+     "Server Glacier"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Thunderbolt",
+     "Server Mirage",
+     "Server Skyhawk",
+     "Server Willowbrook",
+     "Server Twilight",
+     "Server Darkhorse",
+     "Server Glacier",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by exploring all possible subsets of computers to find the minimum set that covers all communication links. Given that the graph has 9 nodes, this algorithm is suitable despite its exponential time complexity, as it can handle small graphs effectively.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 9,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverstream",
+   "Server Stormbreaker",
+   "Server Skyhawk",
+   "Server Starfire",
+   "Server Falconeye",
+   "Server Ravenstone",
+   "Server Thunderstrike",
+   "Server Crimsoncloud",
+   "Server Amberwave"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Starfire",
+     "Server Falconeye",
+     "Server Ravenstone",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Starfire",
+     "Server Falconeye",
+     "Server Ravenstone",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Stormbreaker",
+     "Server Skyhawk",
+     "Server Starfire",
+     "Server Falconeye",
+     "Server Ravenstone",
+     "Server Thunderstrike",
+     "Server Crimsoncloud",
+     "Server Amberwave"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover problem is about selecting the minimum number of vertices (computers) such that every edge (communication link) is incident to at least one selected vertex. Since the graph has 9 nodes, which is less than 20, the brute force algorithm is suitable as it guarantees an optimal solution despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 10,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Lighthouse",
+   "Server Skyhawk",
+   "Server Amberwave",
+   "Server Firefly",
+   "Server Oceanview",
+   "Server Windswept",
+   "Server Emberlight",
+   "Server Thunderbolt",
+   "Server Stormcloud"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Skyhawk",
+     "Server Windswept",
+     "Server Thunderbolt",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Skyhawk",
+     "Server Amberwave",
+     "Server Firefly",
+     "Server Oceanview",
+     "Server Windswept"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Skyhawk",
+     "Server Amberwave",
+     "Server Firefly",
+     "Server Oceanview",
+     "Server Windswept",
+     "Server Emberlight"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics and choose the most suitable algorithm for the problem.\n\n1. **Graph Characteristics**:\n   - The graph consists of **9 nodes** (computers).\n   - The problem involves ensuring that all communication links (edges) are monitored, which suggests a need for a covering solution.\n   - Since there are only **9 nodes**, this qualifies as a small graph.\n\n2. **Problem Type**:\n   - The problem is essentially about deploying monitoring devices on computers to cover all communication links, which aligns with the **Vertex Cover** problem in graph theory.\n\n3. **Algorithm Selection**:\n   - Given that the graph has **fewer than 20 nodes**, the optimal solution is preferred.\n   - The **VertexCover Brute Force Algorithm** is suitable for this size of the graph, as it can enumerate all possible subsets of vertices to find the minimum covering set.\n\n4. **Output Dictionary**:\n```python\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph represented as an adjacency matrix.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The VertexCover Brute Force Algorithm is the best choice for this problem because it can guarantee an optimal solution by exploring all possible combinations of computers to find the minimum number needed to monitor all communication links.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 11,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Bluebird",
+   "Server Tempest",
+   "Server Lighthouse",
+   "Server Vortex",
+   "Server Ironbark",
+   "Server Redwood",
+   "Server Solarflare",
+   "Server Thunderbolt",
+   "Server Goldleaf"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Bluebird",
+     "Server Vortex",
+     "Server Redwood",
+     "Server Thunderbolt",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Bluebird",
+     "Server Vortex",
+     "Server Redwood",
+     "Server Thunderbolt",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Bluebird",
+     "Server Tempest",
+     "Server Lighthouse",
+     "Server Vortex",
+     "Server Ironbark",
+     "Server Redwood",
+     "Server Solarflare",
+     "Server Thunderbolt",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it can guarantee an optimal solution by examining all possible subsets of computers to find the minimum set that covers all communication links. Given that the graph has 9 nodes, it falls within the suitable range for this optimal solution approach.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 12,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Firefly",
+   "Server Darkhorse",
+   "Server Bluewave",
+   "Server Shadowbrook",
+   "Server Stormbreaker",
+   "Server Starfire",
+   "Server Glacierpeak",
+   "Server Sandstorm",
+   "Server Brightstar"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Darkhorse",
+     "Server Bluewave",
+     "Server Shadowbrook",
+     "Server Starfire"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Darkhorse",
+     "Server Bluewave",
+     "Server Shadowbrook",
+     "Server Starfire"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Darkhorse",
+     "Server Bluewave",
+     "Server Shadowbrook",
+     "Server Stormbreaker",
+     "Server Starfire",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the connections between the computers.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it can find the optimal solution by examining all possible subsets of computers to ensure that all communication links are monitored. Given that the graph has 9 nodes, which is fewer than 20, this algorithm is suitable despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 13,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stormbreaker",
+   "Server Emberlight",
+   "Server Stealthwind",
+   "Server Glacierpeak",
+   "Server Willowbrook",
+   "Server Firefly",
+   "Server Tempest",
+   "Server Bluewave",
+   "Server Windmill"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stormbreaker",
+     "Server Emberlight",
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Firefly",
+     "Server Windmill"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stormbreaker",
+     "Server Emberlight",
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Firefly",
+     "Server Windmill"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stormbreaker",
+     "Server Emberlight",
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Willowbrook",
+     "Server Firefly",
+     "Server Tempest",
+     "Server Bluewave",
+     "Server Windmill"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by examining all possible subsets of computers to find the minimum set that covers all communication links. Given that the graph has 9 nodes, which is fewer than 20, this algorithm is suitable despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 14,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberlight",
+   "Server Firefly",
+   "Server Silverstream",
+   "Server Brightstar",
+   "Server Glacierpeak",
+   "Server Mirage",
+   "Server Redwood",
+   "Server Lighthouse",
+   "Server Darkhorse"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Silverstream",
+     "Server Brightstar",
+     "Server Mirage",
+     "Server Redwood"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Silverstream",
+     "Server Brightstar",
+     "Server Mirage",
+     "Server Redwood"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Firefly",
+     "Server Silverstream",
+     "Server Brightstar",
+     "Server Glacierpeak",
+     "Server Mirage",
+     "Server Redwood",
+     "Server Lighthouse"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Greedy Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(n + m), where n is the number of vertices and m is the number of edges.\",\n    \"description\": \"The Vertex Cover Greedy Algorithm is suitable for this problem because it efficiently selects a subset of computers (vertices) to monitor all communication links (edges) in the network. Given that there are 9 computers, this graph is small enough to allow for a greedy approach, which provides a good approximation quickly while minimizing the number of selected computers.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 15,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverhawk",
+   "Server Nightshade",
+   "Server Willowbrook",
+   "Server Sunflower",
+   "Server Glacier",
+   "Server Falconeye",
+   "Server Mirage",
+   "Server Ravenstone",
+   "Server Firestorm"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Silverhawk",
+     "Server Nightshade",
+     "Server Sunflower",
+     "Server Glacier",
+     "Server Firestorm"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverhawk",
+     "Server Nightshade",
+     "Server Glacier",
+     "Server Falconeye",
+     "Server Mirage"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverhawk",
+     "Server Nightshade",
+     "Server Willowbrook",
+     "Server Sunflower",
+     "Server Glacier",
+     "Server Falconeye",
+     "Server Mirage",
+     "Server Firestorm"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by examining all possible subsets of computers to find the minimum number needed to monitor all communication links. Given that there are 9 computers, this algorithm is suitable as it can handle graphs with fewer than 20 nodes effectively despite its exponential time complexity.\"\n}"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 16,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ravenstone",
+   "Server Glacier",
+   "Server Silverhawk",
+   "Server Lighthouse",
+   "Server Firestorm",
+   "Server Brightstar",
+   "Server Windswept",
+   "Server Stormbreaker",
+   "Server Bluebird"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Glacier",
+     "Server Lighthouse",
+     "Server Firestorm",
+     "Server Stormbreaker"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Glacier",
+     "Server Lighthouse",
+     "Server Firestorm",
+     "Server Stormbreaker"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Glacier",
+     "Server Silverhawk",
+     "Server Lighthouse",
+     "Server Firestorm",
+     "Server Brightstar",
+     "Server Windswept",
+     "Server Stormbreaker",
+     "Server Bluebird"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Greedy Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the connections between the 9 computers.\"\n    },\n    \"complexity\": \"O(n + m), where n is the number of vertices and m is the number of edges.\",\n    \"description\": \"The Vertex Cover Greedy Algorithm is suitable for this problem as it efficiently selects vertices (computers) to cover all edges (communication links) in a large graph. Given that there are 9 computers, which is a small graph, this algorithm provides a good approximation quickly while ensuring that all communication links are monitored effectively.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 17,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Frostbite",
+   "Server Willowbrook",
+   "Server Ironclad",
+   "Server Redwood",
+   "Server Goldleaf",
+   "Server Twilight",
+   "Server Emberfall",
+   "Server Thunderbolt",
+   "Server Starfire"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Frostbite",
+     "Server Ironclad",
+     "Server Redwood",
+     "Server Twilight",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Frostbite",
+     "Server Ironclad",
+     "Server Redwood",
+     "Server Twilight",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Frostbite",
+     "Server Willowbrook",
+     "Server Ironclad",
+     "Server Redwood",
+     "Server Goldleaf",
+     "Server Twilight",
+     "Server Emberfall",
+     "Server Thunderbolt",
+     "Server Starfire"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and choose the most suitable graph algorithm for the problem at hand.\n\n1. **Graph Characteristics**:\n   - The graph consists of 9 nodes (computers).\n   - The problem involves ensuring that all communication links (edges) are monitored by deploying monitoring devices on the computers (nodes).\n   - The connections are bidirectional, indicating an undirected graph.\n\n2. **Problem Type**:\n   - The problem is essentially a **Vertex Cover** problem, where we need to cover all edges (communication links) with the minimum number of vertices (computers).\n\n3. **Algorithm Selection**:\n   - Given that the graph has **9 nodes**, it falls under the category of small graphs (fewer than 20 nodes).\n   - The optimal solution for the Vertex Cover problem in small graphs can be achieved using the **VertexCover Brute Force Algorithm**.\n\n4. **Output Dictionary**:\n```python\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph represented as an adjacency matrix.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The VertexCover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by examining all possible subsets of computers to find the minimum set that covers all communication links.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 18,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Firefly",
+   "Server Thunderbolt",
+   "Server Tempest",
+   "Server Stormbreaker",
+   "Server Stealthwind",
+   "Server Ironclad",
+   "Server Vortex",
+   "Server Frostbite",
+   "Server Skyhawk"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Thunderbolt",
+     "Server Tempest",
+     "Server Vortex",
+     "Server Frostbite"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Thunderbolt",
+     "Server Tempest",
+     "Server Vortex",
+     "Server Frostbite"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Thunderbolt",
+     "Server Tempest",
+     "Server Stormbreaker",
+     "Server Stealthwind",
+     "Server Ironclad",
+     "Server Vortex",
+     "Server Frostbite",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by checking all possible subsets of computers to find the minimum set that covers all communication links. Given that there are only 9 computers, this algorithm is feasible despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 19,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Brightstar",
+   "Server Nightfall",
+   "Server Blackwood",
+   "Server Sunflower",
+   "Server Glacier",
+   "Server Sandstorm",
+   "Server Ironclad",
+   "Server Goldleaf"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Brightstar",
+     "Server Nightfall",
+     "Server Sunflower",
+     "Server Glacier"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Brightstar",
+     "Server Nightfall",
+     "Server Sunflower",
+     "Server Glacier"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Brightstar",
+     "Server Nightfall",
+     "Server Blackwood",
+     "Server Sunflower",
+     "Server Glacier",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by exploring all possible subsets of computers to find the minimum set that covers all communication links. Given that there are 9 computers (nodes), this algorithm is suitable as it can handle small graphs efficiently despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 20,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Sandstorm",
+   "Server Moonlight",
+   "Server Frostmoon",
+   "Server Darkhorse",
+   "Server Firefly",
+   "Server Stormbreaker",
+   "Server Goldleaf",
+   "Server Thunderstrike",
+   "Server Bluebird"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Darkhorse",
+     "Server Firefly",
+     "Server Stormbreaker",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Darkhorse",
+     "Server Firefly",
+     "Server Stormbreaker",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Sandstorm",
+     "Server Moonlight",
+     "Server Frostmoon",
+     "Server Darkhorse",
+     "Server Firefly",
+     "Server Stormbreaker",
+     "Server Goldleaf",
+     "Server Thunderstrike",
+     "Server Bluebird"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by examining all possible subsets of computers to find the smallest set that covers all communication links. Given that the graph has 9 nodes, which is less than 20, this algorithm is suitable despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 21,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stealthwind",
+   "Server Sandstorm",
+   "Server Frostmoon",
+   "Server Ghostwind",
+   "Server Solarflare",
+   "Server Emberfall",
+   "Server Crimsoncloud",
+   "Server Eaglecrest",
+   "Server Goldleaf"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Ghostwind",
+     "Server Solarflare",
+     "Server Emberfall",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Ghostwind",
+     "Server Solarflare",
+     "Server Emberfall",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Sandstorm",
+     "Server Frostmoon",
+     "Server Ghostwind",
+     "Server Solarflare",
+     "Server Emberfall",
+     "Server Crimsoncloud",
+     "Server Eaglecrest",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the connections between the computers.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover problem is about selecting the minimum number of vertices (computers) such that all edges (communication links) are covered. Given that the graph has 9 nodes, the brute force algorithm is suitable as it can provide an optimal solution despite its exponential time complexity, making it feasible for small graphs.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 22,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Firestorm",
+   "Server Tempest",
+   "Server Bluebird",
+   "Server Blackwood",
+   "Server Twilight",
+   "Server Glacierpeak",
+   "Server Solarflare",
+   "Server Willowbrook",
+   "Server Nightshade"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Tempest",
+     "Server Blackwood",
+     "Server Twilight",
+     "Server Solarflare",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Tempest",
+     "Server Blackwood",
+     "Server Twilight",
+     "Server Solarflare",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Firestorm",
+     "Server Tempest",
+     "Server Bluebird",
+     "Server Blackwood",
+     "Server Twilight",
+     "Server Glacierpeak",
+     "Server Solarflare",
+     "Server Willowbrook",
+     "Server Nightshade"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the connections between the computers.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it can find the optimal solution by checking all possible subsets of computers to determine the minimum number needed to monitor all communication links. Given that the graph has 9 nodes, which is fewer than 20, this algorithm is suitable despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 23,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Bluewave",
+   "Server Stealthwind",
+   "Server Lighthouse",
+   "Server Nightfall",
+   "Server Glacier",
+   "Server Oceanview",
+   "Server Emberfall",
+   "Server Stormcloud",
+   "Server Ironbark"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Glacier",
+     "Server Oceanview",
+     "Server Emberfall",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Glacier",
+     "Server Oceanview",
+     "Server Emberfall",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Bluewave",
+     "Server Stealthwind",
+     "Server Lighthouse",
+     "Server Nightfall",
+     "Server Glacier",
+     "Server Oceanview",
+     "Server Stormcloud",
+     "Server Ironbark"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the connections between the computers.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by examining all possible subsets of computers to find the minimum set that covers all communication links. Given that the graph has 9 nodes, this algorithm is suitable as it can handle small graphs effectively despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 24,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ghostwind",
+   "Server Silverstone",
+   "Server Thunderstrike",
+   "Server Ironclad",
+   "Server Stealthwind",
+   "Server Frostmoon",
+   "Server Falconeye",
+   "Server Firefly",
+   "Server Tempest"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ghostwind",
+     "Server Silverstone",
+     "Server Falconeye",
+     "Server Firefly",
+     "Server Tempest"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ghostwind",
+     "Server Silverstone",
+     "Server Thunderstrike",
+     "Server Ironclad",
+     "Server Frostmoon",
+     "Server Firefly"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ghostwind",
+     "Server Silverstone",
+     "Server Thunderstrike",
+     "Server Ironclad",
+     "Server Stealthwind",
+     "Server Frostmoon",
+     "Server Falconeye",
+     "Server Firefly"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Greedy Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the computers and their communication links.\"\n    },\n    \"complexity\": \"O(n + m), where n is the number of vertices and m is the number of edges.\",\n    \"description\": \"The Vertex Cover Greedy Algorithm is suitable for this problem as it efficiently selects a subset of computers (vertices) to monitor all communication links (edges) in a large graph. Given that there are 9 computers, this algorithm provides a good approximation quickly, ensuring that all links are covered while minimizing the number of monitoring devices.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 25,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverstream",
+   "Server Crimsoncloud",
+   "Server Thunderbolt",
+   "Server Frostmoon",
+   "Server Sandstorm",
+   "Server Redwood",
+   "Server Nightfall",
+   "Server Skyhawk",
+   "Server Windswept"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Crimsoncloud",
+     "Server Thunderbolt",
+     "Server Frostmoon",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Crimsoncloud",
+     "Server Thunderbolt",
+     "Server Frostmoon",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Crimsoncloud",
+     "Server Thunderbolt",
+     "Server Frostmoon",
+     "Server Sandstorm",
+     "Server Redwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the communication links between the computers.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by examining all possible subsets of computers to find the minimum set that covers all communication links. Given that there are only 9 computers, this algorithm is feasible despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 26,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverstone",
+   "Server Stormcloud",
+   "Server Bluewave",
+   "Server Frostbite",
+   "Server Emberfall",
+   "Server Moonlight",
+   "Server Shadowbrook",
+   "Server Brightstar",
+   "Server Darkhorse"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Silverstone",
+     "Server Stormcloud",
+     "Server Bluewave",
+     "Server Frostbite",
+     "Server Emberfall",
+     "Server Moonlight"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverstone",
+     "Server Stormcloud",
+     "Server Bluewave",
+     "Server Frostbite",
+     "Server Emberfall",
+     "Server Moonlight"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverstone",
+     "Server Stormcloud",
+     "Server Bluewave",
+     "Server Frostbite",
+     "Server Emberfall",
+     "Server Moonlight",
+     "Server Shadowbrook",
+     "Server Brightstar"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by exploring all possible subsets of computers to find the minimum set that covers all communication links. Given that the graph has 9 nodes, it falls within the suitable range for this optimal solution approach.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 27,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Brightstar",
+   "Server Windswept",
+   "Server Frostbite",
+   "Server Glacier",
+   "Server Goldleaf",
+   "Server Lighthouse",
+   "Server Ravenstone",
+   "Server Ironclad",
+   "Server Vortex"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Windswept",
+     "Server Goldleaf",
+     "Server Lighthouse",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Windswept",
+     "Server Goldleaf",
+     "Server Lighthouse",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Windswept",
+     "Server Frostbite",
+     "Server Glacier",
+     "Server Goldleaf",
+     "Server Lighthouse",
+     "Server Ravenstone",
+     "Server Ironclad"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, as well as determine the most suitable algorithm for the problem at hand.\n\n1. **Graph Characteristics**:\n   - The graph consists of 9 nodes (computers).\n   - The problem involves ensuring that all communication links (edges) between these nodes are monitored by deploying monitoring devices.\n   - The graph is likely to be sparse, as it involves a network of computers with various communication links, but the exact number of edges is not specified.\n\n2. **Problem Type**:\n   - The problem is a **Vertex Cover** problem, where the goal is to select the minimum number of vertices (computers) such that all edges (communication links) are covered by at least one selected vertex.\n\n3. **Algorithm Selection**:\n   - Since the graph has **fewer than 20 nodes**, the optimal solution is more suitable. Therefore, we will use the **VertexCover Brute Force Algorithm**.\n\n4. **Output Dictionary**:\n```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph represented as an adjacency matrix.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The VertexCover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by examining all possible subsets of computers to find the minimum set that covers all communication links.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 28,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Bluewave",
+   "Server Solarflare",
+   "Server Blackwood",
+   "Server Windswept",
+   "Server Thunderbolt",
+   "Server Stormbreaker",
+   "Server Mirage",
+   "Server Crimsoncloud",
+   "Server Glacier"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Blackwood",
+     "Server Windswept",
+     "Server Stormbreaker",
+     "Server Glacier"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Windswept",
+     "Server Thunderbolt",
+     "Server Stormbreaker",
+     "Server Glacier"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Bluewave",
+     "Server Solarflare",
+     "Server Blackwood",
+     "Server Windswept",
+     "Server Thunderbolt",
+     "Server Stormbreaker",
+     "Server Mirage",
+     "Server Crimsoncloud",
+     "Server Glacier"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the connections between the 9 computers.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by checking all possible subsets of computers to find the minimum set that covers all communication links. Given that the graph has only 9 nodes, this algorithm is feasible despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 29,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Darkhorse",
+   "Server Ravenstone",
+   "Server Frostbite",
+   "Server Shadowbrook",
+   "Server Ghostwind",
+   "Server Oceanview",
+   "Server Eaglecrest",
+   "Server Windmill",
+   "Server Solarflare"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Ravenstone",
+     "Server Frostbite",
+     "Server Shadowbrook",
+     "Server Ghostwind",
+     "Server Oceanview"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Ravenstone",
+     "Server Frostbite",
+     "Server Shadowbrook",
+     "Server Ghostwind",
+     "Server Oceanview"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Ravenstone",
+     "Server Frostbite",
+     "Server Shadowbrook",
+     "Server Ghostwind",
+     "Server Oceanview",
+     "Server Windmill"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by examining all possible subsets of computers to find the minimum number needed to monitor all communication links. Given that the graph has 9 nodes, this algorithm is suitable despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 30,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Brightstar",
+   "Server Emberlight",
+   "Server Redwood",
+   "Server Glacierpeak",
+   "Server Silverhawk",
+   "Server Twilight",
+   "Server Ravenstone",
+   "Server Skyhawk",
+   "Server Bluewave"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Emberlight",
+     "Server Redwood",
+     "Server Glacierpeak",
+     "Server Silverhawk",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Emberlight",
+     "Server Redwood",
+     "Server Glacierpeak",
+     "Server Silverhawk",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Emberlight",
+     "Server Redwood",
+     "Server Glacierpeak",
+     "Server Silverhawk",
+     "Server Twilight",
+     "Server Skyhawk",
+     "Server Bluewave"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover problem is about selecting the minimum number of vertices such that all edges in the graph are covered. Given that there are 9 computers (nodes), which is fewer than 20, the brute force algorithm is suitable as it will explore all possible subsets of computers to find the optimal solution.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 31,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windswept",
+   "Server Glacier",
+   "Server Firefly",
+   "Server Darkhorse",
+   "Server Silverstream",
+   "Server Bluewave",
+   "Server Nightshade",
+   "Server Firestorm",
+   "Server Mirage"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Firefly",
+     "Server Darkhorse",
+     "Server Bluewave",
+     "Server Firestorm"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Firefly",
+     "Server Darkhorse",
+     "Server Bluewave",
+     "Server Firestorm"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windswept",
+     "Server Glacier",
+     "Server Firefly",
+     "Server Darkhorse",
+     "Server Silverstream",
+     "Server Bluewave",
+     "Server Nightshade",
+     "Server Firestorm"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the connections between the 9 computers.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by examining all possible subsets of computers to find the minimum set that covers all communication links. Given that the graph has fewer than 20 nodes (specifically 9), this algorithm is suitable despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 32,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Skyhawk",
+   "Server Eaglecrest",
+   "Server Stormbreaker",
+   "Server Darkhorse",
+   "Server Silverstone",
+   "Server Crimsoncloud",
+   "Server Frostbite",
+   "Server Mirage",
+   "Server Ravenstone"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Eaglecrest",
+     "Server Stormbreaker",
+     "Server Frostbite",
+     "Server Mirage"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Eaglecrest",
+     "Server Stormbreaker",
+     "Server Frostbite",
+     "Server Mirage"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Eaglecrest",
+     "Server Stormbreaker",
+     "Server Darkhorse",
+     "Server Silverstone",
+     "Server Crimsoncloud",
+     "Server Frostbite",
+     "Server Mirage",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the connections between the computers.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by exploring all possible subsets of computers to find the minimum set that covers all communication links. Given that there are only 9 computers (nodes), this algorithm is feasible despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 33,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Glacier",
+   "Server Frostmoon",
+   "Server Willowbrook",
+   "Server Silverhawk",
+   "Server Ravenstone",
+   "Server Darkhorse",
+   "Server Skyhawk",
+   "Server Mirage",
+   "Server Windswept"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Frostmoon",
+     "Server Willowbrook",
+     "Server Silverhawk",
+     "Server Ravenstone",
+     "Server Windswept"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Frostmoon",
+     "Server Willowbrook",
+     "Server Silverhawk",
+     "Server Ravenstone",
+     "Server Windswept"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Frostmoon",
+     "Server Willowbrook",
+     "Server Silverhawk",
+     "Server Ravenstone",
+     "Server Darkhorse",
+     "Server Skyhawk",
+     "Server Mirage",
+     "Server Windswept"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the connections between the computers.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by exploring all possible subsets of computers to find the minimum set that covers all communication links. Given that the graph has 9 nodes, which is fewer than 20, this algorithm is suitable despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 34,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Skyhawk",
+   "Server Tempest",
+   "Server Crimsoncloud",
+   "Server Lighthouse",
+   "Server Shadowbrook",
+   "Server Amberwave",
+   "Server Sandstorm",
+   "Server Firefly",
+   "Server Falconeye"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Tempest",
+     "Server Lighthouse",
+     "Server Shadowbrook",
+     "Server Sandstorm",
+     "Server Falconeye"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Crimsoncloud",
+     "Server Shadowbrook",
+     "Server Amberwave",
+     "Server Sandstorm",
+     "Server Firefly"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Tempest",
+     "Server Crimsoncloud",
+     "Server Lighthouse",
+     "Server Shadowbrook",
+     "Server Amberwave",
+     "Server Sandstorm",
+     "Server Firefly",
+     "Server Falconeye"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided text and problem information, we can analyze the graph's scale and characteristics, and then choose the most suitable graph algorithm to solve the problem.\n\n1. **Graph Characteristics**:\n   - The graph consists of 9 nodes (computers).\n   - The problem involves ensuring that all communication links (edges) are monitored, which suggests a vertex cover problem where we want to minimize the number of selected nodes (computers) that cover all edges.\n\n2. **Problem Type**:\n   - The problem is a **Vertex Cover** problem, where we need to select a subset of vertices (computers) such that every edge (communication link) is incident to at least one selected vertex.\n\n3. **Algorithm Selection**:\n   - Given that the graph has **9 nodes**, we can use the **VertexCover Brute Force Algorithm**, which is suitable for very small graphs with fewer than 20 nodes. This algorithm guarantees an optimal solution, which is appropriate for our objective of minimizing the number of monitoring devices.\n\n4. **Algorithm Parameters**:\n   - The parameters required for the algorithm include:\n     - **adjacency_matrix**: An undirected graph represented as an adjacency matrix, which describes the connections between the computers.\n\n5. **Complexity**:\n   - The time complexity of the **VertexCover Brute Force Algorithm** is \\(O(2^n \\cdot n^2)\\), where \\(n\\) is the number of vertices. This complexity is manageable for \\(n = 9\\).\n\n6. **Description**:\n   - The brute force approach is the best choice here because it will explore all possible subsets of computers to find the minimum set that covers all communication links, ensuring that we meet the optimization goal.\n\nHere is the output in the requested format:\n\n```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph represented as an adjacency matrix.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The brute force approach is optimal for small graphs like this one (9 nodes), as it will explore all possible subsets of computers to find the minimum set that covers all communication links.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 35,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Ravenstone",
+   "Server Bluewave",
+   "Server Mirage",
+   "Server Ironclad",
+   "Server Thunderbolt",
+   "Server Brightstar",
+   "Server Skyhawk",
+   "Server Starfire"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Mirage",
+     "Server Ironclad",
+     "Server Thunderbolt",
+     "Server Brightstar"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Mirage",
+     "Server Ironclad",
+     "Server Thunderbolt",
+     "Server Brightstar"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Ravenstone",
+     "Server Bluewave",
+     "Server Mirage",
+     "Server Ironclad",
+     "Server Thunderbolt",
+     "Server Brightstar",
+     "Server Skyhawk",
+     "Server Starfire"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, identify the appropriate algorithm, and output the required dictionary.\n\n1. **Graph Characteristics**:\n   - The graph consists of 9 nodes (computers).\n   - The problem involves covering communication links, which suggests a need for a vertex cover solution.\n\n2. **Problem Type**:\n   - The problem is a Vertex Cover problem, where we want to minimize the number of vertices (computers) selected to cover all edges (communication links).\n\n3. **Algorithm Selection**:\n   - Since the graph has fewer than 20 nodes, the optimal solution is preferred. Therefore, we will use the VertexCover Brute Force Algorithm.\n\n4. **Output Dictionary**:\n```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph represented as an adjacency matrix.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The VertexCover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by checking all possible subsets of computers to find the smallest set that covers all communication links.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 36,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Seabreeze",
+   "Server Tempest",
+   "Server Falconeye",
+   "Server Ironclad",
+   "Server Frostbite",
+   "Server Stealthwind",
+   "Server Skyhawk",
+   "Server Ironbark",
+   "Server Redwood"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Tempest",
+     "Server Falconeye",
+     "Server Frostbite",
+     "Server Redwood"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Tempest",
+     "Server Falconeye",
+     "Server Frostbite",
+     "Server Redwood"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Tempest",
+     "Server Falconeye",
+     "Server Ironclad",
+     "Server Frostbite",
+     "Server Stealthwind",
+     "Server Skyhawk",
+     "Server Ironbark",
+     "Server Redwood"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the connections between the 9 computers.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by examining all possible subsets of computers to find the minimum set that covers all communication links. Given that there are only 9 computers, this algorithm is feasible despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 37,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Thunderbolt",
+   "Server Sunflower",
+   "Server Stormbreaker",
+   "Server Sandstorm",
+   "Server Ghostwind",
+   "Server Thunderstrike",
+   "Server Redwood",
+   "Server Silverstream",
+   "Server Oceanview"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Sandstorm",
+     "Server Thunderstrike",
+     "Server Silverstream",
+     "Server Oceanview"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Sandstorm",
+     "Server Thunderstrike",
+     "Server Silverstream",
+     "Server Oceanview"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Sunflower",
+     "Server Stormbreaker",
+     "Server Sandstorm",
+     "Server Ghostwind",
+     "Server Thunderstrike",
+     "Server Redwood",
+     "Server Silverstream",
+     "Server Oceanview"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the communication links between the computers.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by exploring all possible subsets of computers to find the minimum set that covers all communication links. Given that there are only 9 computers (nodes), this algorithm is feasible despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 38,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Brightstar",
+   "Server Twilight",
+   "Server Seabreeze",
+   "Server Bluebird",
+   "Server Glacier",
+   "Server Starfire",
+   "Server Falconeye",
+   "Server Willowbrook"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Brightstar",
+     "Server Twilight",
+     "Server Seabreeze",
+     "Server Glacier"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Brightstar",
+     "Server Twilight",
+     "Server Seabreeze",
+     "Server Glacier"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Brightstar",
+     "Server Twilight",
+     "Server Seabreeze",
+     "Server Glacier",
+     "Server Falconeye"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided text and problem information, we can analyze the graph's scale and characteristics and select the most suitable algorithm for the given problem.\n\n1. **Graph Characteristics**:\n   - The graph consists of 9 nodes (computers).\n   - The problem involves monitoring communication links, which suggests a need to cover edges in the graph.\n   - Since there are 9 nodes, this is considered a small graph.\n\n2. **Problem Type**:\n   - The problem is a **Vertex Cover** problem, where we need to select the minimum number of vertices (computers) such that every edge (communication link) is covered by at least one vertex.\n\n3. **Algorithm Selection**:\n   - For a graph with fewer than 20 nodes, the optimal solution is preferred.\n   - The **VertexCover Brute Force Algorithm** is suitable for this problem as it can provide an optimal solution for small graphs.\n\n4. **Algorithm Parameters**:\n   - The algorithm requires the adjacency matrix of the graph to determine the connections between the computers.\n\n5. **Time Complexity**:\n   - The time complexity of the VertexCover Brute Force Algorithm is \\(O(2^n \\cdot n^2)\\), where \\(n\\) is the number of vertices.\n\n6. **Description**:\n   - The brute force approach is appropriate here because it will systematically explore all possible subsets of computers to find the minimum set that covers all communication links. Given that the graph is small (9 nodes), this method will be computationally feasible.\n\nHere is the output in the specified format:\n\n```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph represented as an adjacency matrix.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The brute force approach is suitable for this small graph (9 nodes) as it will explore all possible subsets of computers to find the minimum set that covers all communication links.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 39,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberlight",
+   "Server Eaglecrest",
+   "Server Twilight",
+   "Server Blackwood",
+   "Server Sunflower",
+   "Server Nightfall",
+   "Server Glacierpeak",
+   "Server Glacier",
+   "Server Thunderstrike"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Blackwood",
+     "Server Nightfall",
+     "Server Glacier",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Twilight",
+     "Server Blackwood",
+     "Server Glacierpeak",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Eaglecrest",
+     "Server Twilight",
+     "Server Blackwood",
+     "Server Sunflower",
+     "Server Nightfall",
+     "Server Glacierpeak",
+     "Server Glacier",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and then choose the most suitable algorithm to solve the problem.\n\n1. **Graph Characteristics**:\n   - The graph consists of **9 nodes** (computers).\n   - The problem involves ensuring that all communication links (edges) are monitored, which aligns with the Vertex Cover problem in graph theory.\n\n2. **Problem Type**:\n   - The objective is to deploy monitoring devices on computers to monitor all communication links, which is a classic **Vertex Cover** problem.\n\n3. **Algorithm Selection**:\n   - Given that the graph has **9 nodes**, we can use the **VertexCover Brute Force Algorithm**, which is optimal for very small graphs with fewer than 20 nodes.\n\n4. **Algorithm Parameters**:\n   - The input required for the algorithm is the **adjacency matrix** of the graph representing the computers and their communication links.\n\n5. **Complexity**:\n   - The time complexity of the VertexCover Brute Force Algorithm is **O(2^n * n^2)**, where n is the number of vertices (in this case, 9).\n\n6. **Description**:\n   - The brute force approach is suitable here because it will enumerate all possible subsets of computers to find the minimum set that covers all communication links. Given the small size of the graph, this method will be computationally feasible.\n\nHere is the output in the requested format:\n\n```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The brute force algorithm is optimal for this small graph size, allowing us to find the minimum number of computers needed to monitor all communication links by checking all possible subsets.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 40,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Redwood",
+   "Server Solarflare",
+   "Server Willowbrook",
+   "Server Windswept",
+   "Server Ravenstone",
+   "Server Shadowbrook",
+   "Server Thunderbolt",
+   "Server Glacierpeak",
+   "Server Brightstar"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Willowbrook",
+     "Server Windswept",
+     "Server Thunderbolt",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Willowbrook",
+     "Server Windswept",
+     "Server Ravenstone",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Solarflare",
+     "Server Willowbrook",
+     "Server Windswept",
+     "Server Ravenstone",
+     "Server Shadowbrook",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, and then select the most suitable algorithm for the problem at hand.\n\n1. **Graph Characteristics**:\n   - The network consists of **9 computers**, which means the graph has **9 nodes**.\n   - The problem involves ensuring that all **communication links** (edges) between these computers are monitored, indicating a focus on coverage.\n\n2. **Problem Type**:\n   - The objective is to select the minimum number of computers (nodes) to monitor all communication links (edges). This is a classic **Vertex Cover** problem in graph theory.\n\n3. **Algorithm Selection**:\n   - Given that the graph has **9 nodes**, we can use the **VertexCover Brute Force Algorithm**, which is optimal for very small graphs (fewer than 20 nodes). This algorithm will enumerate all possible subsets of vertices to find the smallest valid subset that covers all edges.\n\n4. **Complexity**:\n   - The time complexity of the **VertexCover Brute Force Algorithm** is **O(2^n * n^2)**, where n is the number of vertices. This is feasible for n = 9.\n\n5. **Output**:\nHere is the output in the required format:\n\n```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph represented as an adjacency matrix.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The VertexCover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by exploring all possible subsets of computers to find the minimum number needed to monitor all communication links.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 41,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Vortex",
+   "Server Stealthwind",
+   "Server Redwood",
+   "Server Ironclad",
+   "Server Mirage",
+   "Server Shadowbrook",
+   "Server Willowbrook",
+   "Server Oceanview",
+   "Server Silverstream"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Ironclad",
+     "Server Shadowbrook",
+     "Server Willowbrook",
+     "Server Oceanview"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Mirage",
+     "Server Shadowbrook",
+     "Server Willowbrook",
+     "Server Silverstream"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Stealthwind",
+     "Server Redwood",
+     "Server Ironclad",
+     "Server Mirage",
+     "Server Shadowbrook",
+     "Server Willowbrook",
+     "Server Oceanview",
+     "Server Silverstream"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by checking all possible subsets of computers to find the minimum set that covers all communication links. Given that the graph has 9 nodes, which is less than 20, this algorithm is suitable despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 42,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Moonlight",
+   "Server Amberwave",
+   "Server Sandstorm",
+   "Server Solarflare",
+   "Server Stormcloud",
+   "Server Goldleaf",
+   "Server Windswept",
+   "Server Silverhawk",
+   "Server Frostmoon"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Amberwave",
+     "Server Sandstorm",
+     "Server Goldleaf",
+     "Server Windswept",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Amberwave",
+     "Server Sandstorm",
+     "Server Solarflare",
+     "Server Stormcloud",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Amberwave",
+     "Server Sandstorm",
+     "Server Solarflare",
+     "Server Stormcloud",
+     "Server Goldleaf",
+     "Server Windswept",
+     "Server Silverhawk"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by exploring all possible subsets of computers to find the minimum set that covers all communication links. Given that the graph has 9 nodes (computers), this algorithm is suitable as it can handle small graphs efficiently despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 43,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Glacier",
+   "Server Ironclad",
+   "Server Firestorm",
+   "Server Brightstar",
+   "Server Windswept",
+   "Server Solarflare",
+   "Server Stormbreaker",
+   "Server Sunflower",
+   "Server Twilight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Ironclad",
+     "Server Brightstar",
+     "Server Solarflare",
+     "Server Stormbreaker"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Ironclad",
+     "Server Brightstar",
+     "Server Solarflare",
+     "Server Stormbreaker"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Ironclad",
+     "Server Firestorm",
+     "Server Brightstar",
+     "Server Solarflare",
+     "Server Stormbreaker",
+     "Server Sunflower",
+     "Server Twilight"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Greedy Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the computers and their communication links.\"\n    },\n    \"complexity\": \"O(n + m), where n is the number of vertices and m is the number of edges.\",\n    \"description\": \"The Vertex Cover Greedy Algorithm is suitable for this problem as it efficiently selects a subset of computers to monitor all communication links. Given that there are 9 computers, this algorithm provides a good approximation quickly, ensuring that all links are covered while minimizing the number of monitoring devices installed.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 44,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Nightshade",
+   "Server Eaglecrest",
+   "Server Thunderstrike",
+   "Server Starfire",
+   "Server Firestorm",
+   "Server Ironbark",
+   "Server Ravenstone",
+   "Server Goldleaf",
+   "Server Windswept"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Thunderstrike",
+     "Server Firestorm",
+     "Server Ironbark",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Eaglecrest",
+     "Server Thunderstrike",
+     "Server Firestorm",
+     "Server Ironbark",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Eaglecrest",
+     "Server Thunderstrike",
+     "Server Starfire",
+     "Server Firestorm",
+     "Server Ironbark",
+     "Server Ravenstone",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Greedy Algorithm\",\n    \"parameters\": {\n        \"adjacency_list\": \"An undirected graph representing the computers and their communication links.\"\n    },\n    \"complexity\": \"O(n + m), where n is the number of vertices and m is the number of edges.\",\n    \"description\": \"The Vertex Cover Greedy Algorithm is suitable for the problem of selecting the minimum number of computers to monitor all communication links. Given that there are 9 computers (nodes), this algorithm efficiently approximates the solution by iteratively selecting the vertex that covers the most uncovered edges, ensuring that all communication links are monitored while minimizing the number of selected computers.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 45,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Blackwood",
+   "Server Bluebird",
+   "Server Darkhorse",
+   "Server Glacier",
+   "Server Twilight",
+   "Server Frostmoon",
+   "Server Redwood",
+   "Server Eaglecrest",
+   "Server Oceanview"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Bluebird",
+     "Server Twilight",
+     "Server Oceanview"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Bluebird",
+     "Server Twilight",
+     "Server Oceanview"
+    ],
+    "min_vertex": 4,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Bluebird",
+     "Server Darkhorse",
+     "Server Glacier",
+     "Server Twilight",
+     "Server Frostmoon",
+     "Server Redwood",
+     "Server Oceanview"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the network of computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by exploring all possible subsets of computers to find the minimum set that covers all communication links. Given that the graph has 9 nodes, which is fewer than 20, this algorithm is suitable despite its exponential time complexity.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 46,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverhawk",
+   "Server Firestorm",
+   "Server Thunderstrike",
+   "Server Silverstone",
+   "Server Goldleaf",
+   "Server Darkhorse",
+   "Server Twilight",
+   "Server Starfire",
+   "Server Ironbark"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firestorm",
+     "Server Thunderstrike",
+     "Server Goldleaf",
+     "Server Starfire",
+     "Server Ironbark"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firestorm",
+     "Server Thunderstrike",
+     "Server Goldleaf",
+     "Server Starfire",
+     "Server Ironbark"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverhawk",
+     "Server Firestorm",
+     "Server Thunderstrike",
+     "Server Silverstone",
+     "Server Goldleaf",
+     "Server Darkhorse",
+     "Server Twilight",
+     "Server Starfire",
+     "Server Ironbark"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the connections between the computers.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover Brute Force Algorithm is the best choice for this problem because it guarantees an optimal solution by examining all possible subsets of computers to find the minimum set that covers all communication links. Given that the graph has 9 nodes, this algorithm is suitable despite its exponential time complexity, as it can handle small graphs effectively.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 47,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stealthwind",
+   "Server Sunflower",
+   "Server Nightshade",
+   "Server Eaglecrest",
+   "Server Ghostwind",
+   "Server Windswept",
+   "Server Firestorm",
+   "Server Ironclad",
+   "Server Skyhawk"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Nightshade",
+     "Server Eaglecrest",
+     "Server Firestorm",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Nightshade",
+     "Server Eaglecrest",
+     "Server Firestorm",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Sunflower",
+     "Server Nightshade",
+     "Server Eaglecrest",
+     "Server Ghostwind",
+     "Server Windswept",
+     "Server Firestorm",
+     "Server Ironclad",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "Based on the provided information, we can analyze the graph's scale and characteristics, as well as determine the most suitable graph algorithm to solve the problem.\n\n1. **Graph Characteristics**:\n   - The graph consists of 9 nodes (computers).\n   - The problem involves ensuring that all communication links (edges) are monitored by at least one device.\n   - Since there are 9 nodes, this is classified as a small graph.\n\n2. **Problem Type**:\n   - The problem is a **Vertex Cover** problem, where we need to select the minimum number of vertices (computers) such that all edges (communication links) are covered.\n\n3. **Algorithm Selection**:\n   - For graphs with fewer than 20 nodes, the optimal solution is preferred. Therefore, we will use the **VertexCover Brute Force Algorithm**.\n\n4. **Parameters**:\n   - The parameters required for the algorithm include:\n     - `adjacency_matrix`: An undirected graph represented as an adjacency matrix, which describes the connections between the computers.\n\n5. **Complexity**:\n   - The time complexity of the selected algorithm is **O(2^n * n^2)**, where n is the number of vertices. This indicates that the algorithm may take exponential time, but it is suitable for small graphs.\n\n6. **Description**:\n   - The **VertexCover Brute Force Algorithm** is the best choice for this problem because it guarantees an optimal solution by examining all possible subsets of computers to find the smallest set that covers all communication links. Given that the graph has only 9 nodes, this exhaustive approach is feasible.\n\nHere is the output in the requested format:\n\n```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph represented as an adjacency matrix.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The VertexCover Brute Force Algorithm is optimal for small graphs, ensuring that all communication links are monitored by examining all possible subsets of computers.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 48,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Thunderstrike",
+   "Server Blackwood",
+   "Server Amberwave",
+   "Server Redwood",
+   "Server Starfire",
+   "Server Bluebird",
+   "Server Silverstream",
+   "Server Ravenstone",
+   "Server Twilight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Blackwood",
+     "Server Amberwave",
+     "Server Starfire",
+     "Server Silverstream",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Amberwave",
+     "Server Redwood",
+     "Server Starfire",
+     "Server Silverstream",
+     "Server Twilight"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Blackwood",
+     "Server Amberwave",
+     "Server Redwood",
+     "Server Starfire",
+     "Server Bluebird",
+     "Server Silverstream",
+     "Server Ravenstone",
+     "Server Twilight"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the computers and their bidirectional communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover problem is about selecting the minimum number of vertices (computers) such that every edge (communication link) is incident to at least one selected vertex. Given that the graph has 9 nodes, the brute force algorithm is suitable as it can explore all possible subsets efficiently for small graphs, ensuring an optimal solution.\"\n}\n```"
+ },
+ {
+  "file_name": "graph_9.json",
+  "graph_index": 49,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Twilight",
+   "Server Brightstar",
+   "Server Silverstone",
+   "Server Silverhawk",
+   "Server Willowbrook",
+   "Server Tempest",
+   "Server Ironbark",
+   "Server Falconeye",
+   "Server Moonlight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Brightstar",
+     "Server Willowbrook",
+     "Server Tempest",
+     "Server Falconeye"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Brightstar",
+     "Server Willowbrook",
+     "Server Tempest",
+     "Server Falconeye"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Brightstar",
+     "Server Silverstone",
+     "Server Silverhawk",
+     "Server Willowbrook",
+     "Server Tempest",
+     "Server Ironbark",
+     "Server Falconeye",
+     "Server Moonlight"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "```json\n{\n    \"problem\": \"Vertex Cover\",\n    \"algorithm\": \"VertexCover Brute Force Algorithm\",\n    \"parameters\": {\n        \"adjacency_matrix\": \"An undirected graph representing the network of computers and communication links.\"\n    },\n    \"complexity\": \"O(2^n * n^2), where n is the number of vertices.\",\n    \"description\": \"The Vertex Cover problem is about selecting the minimum number of vertices to cover all edges in a graph. Since the graph has 9 nodes, the brute force algorithm is suitable as it can explore all possible subsets of computers to find the optimal solution, ensuring that all communication links are monitored.\"\n}\n```"
+ }
+]

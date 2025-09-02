@@ -1,0 +1,7052 @@
+[
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 0,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Twilight Harbor",
+   "Ironbridge Crossing",
+   "Zenith Arena",
+   "Maplewood Conservatory",
+   "Flint Forge Quarter",
+   "Skyline Gardens",
+   "Lunar Pier",
+   "Lighthouse Point"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Ironbridge Crossing": 1,
+     "Zenith Arena": 2,
+     "Maplewood Conservatory": 2,
+     "Flint Forge Quarter": 3,
+     "Skyline Gardens": 1,
+     "Lunar Pier": 1,
+     "Lighthouse Point": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Ironbridge Crossing": 1,
+     "Zenith Arena": 2,
+     "Maplewood Conservatory": 2,
+     "Flint Forge Quarter": 3,
+     "Skyline Gardens": 1,
+     "Lunar Pier": 1,
+     "Lighthouse Point": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Twilight Harbor": 3,
+     "Ironbridge Crossing": 3,
+     "Zenith Arena": 1,
+     "Maplewood Conservatory": 1,
+     "Flint Forge Quarter": 2,
+     "Skyline Gardens": 2,
+     "Lunar Pier": 1,
+     "Lighthouse Point": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve a graph coloring problem for 8 major locations where Wi-Fi base stations are to be placed. The goal is to allocate frequencies (colors) to these stations while minimizing interference, ensuring that adjacent stations do not share the same frequency. The chosen algorithm for this problem is the **Coloring Backtracking Algorithm**, which is optimal for small graphs like this one.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Parameters**: \n  - `adjacency_list`: The undirected graph representing the connections between the Wi-Fi base stations.\n\n### Tool's Output\nThe output from the Coloring Backtracking Algorithm is:\n- **Minimum Number of Colors Needed**: 3\n- **Color Assignment**: \n  - Node 0 (Twilight Harbor): Color 1\n  - Node 1 (Ironbridge Crossing): Color 1\n  - Node 2 (Zenith Arena): Color 2\n  - Node 3 (Maplewood Conservatory): Color 2\n  - Node 4 (Flint Forge Quarter): Color 3\n  - Node 5 (Skyline Gardens): Color 1\n  - Node 6 (Lunar Pier): Color 1\n  - Node 7 (Lighthouse Point): Color 3\n- **Execution Time**: 0.0 seconds\n\n### Final Answer Analysis\nBased on the output, the minimum number of frequencies (colors) needed to ensure that no two adjacent Wi-Fi base stations share the same frequency is **3**. The specific color assignments for each location are as follows:\n\n- **Twilight Harbor**: Frequency 1\n- **Ironbridge Crossing**: Frequency 1\n- **Zenith Arena**: Frequency 2\n- **Maplewood Conservatory**: Frequency 2\n- **Flint Forge Quarter**: Frequency 3\n- **Skyline Gardens**: Frequency 1\n- **Lunar Pier**: Frequency 1\n- **Lighthouse Point**: Frequency 3\n\nThis solution effectively minimizes interference among the stations while adhering to the constraints of the problem."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 1,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Northwind Tower",
+   "Shadowbridge Arcade",
+   "Cobalt Market",
+   "Dragon’s Gate",
+   "Union Square Market",
+   "Twilight Harbor",
+   "Rosewood Hall",
+   "Willowshade Pavilion"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Northwind Tower": 1,
+     "Shadowbridge Arcade": 1,
+     "Cobalt Market": 2,
+     "Dragon’s Gate": 1,
+     "Union Square Market": 3,
+     "Twilight Harbor": 3,
+     "Rosewood Hall": 1,
+     "Willowshade Pavilion": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Northwind Tower": 1,
+     "Shadowbridge Arcade": 1,
+     "Cobalt Market": 2,
+     "Dragon’s Gate": 1,
+     "Union Square Market": 3,
+     "Twilight Harbor": 3,
+     "Rosewood Hall": 1,
+     "Willowshade Pavilion": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Northwind Tower": 3,
+     "Shadowbridge Arcade": 2,
+     "Cobalt Market": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 3,
+     "Twilight Harbor": 2,
+     "Rosewood Hall": 2,
+     "Willowshade Pavilion": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve a **Graph Coloring** problem for a Wi-Fi network involving 8 major locations (nodes) that represent Wi-Fi base stations. The goal is to assign frequencies (colors) to these stations such that no two adjacent stations (stations with overlapping coverage areas) use the same frequency. The **Coloring Backtracking Algorithm** was chosen as it is optimal for small graphs.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Complexity**: O(2^n), where n is the number of vertices (base stations).\n\n### Tool Output\nThe output from the Coloring Backtracking Algorithm is:\n- **Minimum Number of Colors Used**: 3\n- **Color Assignment**: \n  - Node 0 (Northwind Tower): Color 1\n  - Node 1 (Shadowbridge Arcade): Color 1\n  - Node 2 (Cobalt Market): Color 2\n  - Node 3 (Dragon’s Gate): Color 1\n  - Node 4 (Union Square Market): Color 3\n  - Node 5 (Twilight Harbor): Color 3\n  - Node 6 (Rosewood Hall): Color 1\n  - Node 7 (Willowshade Pavilion): Color 2\n\n### Analysis of the Output\nThe algorithm successfully assigned frequencies (colors) to the Wi-Fi base stations while ensuring that no two adjacent stations share the same frequency. The minimum number of frequencies required to achieve this is **3**.\n\n### Final Answer\nTo minimize interference in the Wi-Fi network, a total of **3 different frequencies** are needed. The color assignments for the base stations are as follows:\n- **Northwind Tower**: Frequency 1\n- **Shadowbridge Arcade**: Frequency 1\n- **Cobalt Market**: Frequency 2\n- **Dragon’s Gate**: Frequency 1\n- **Union Square Market**: Frequency 3\n- **Twilight Harbor**: Frequency 3\n- **Rosewood Hall**: Frequency 1\n- **Willowshade Pavilion**: Frequency 2\n\nThis configuration ensures optimal frequency usage while preventing interference among adjacent stations."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 2,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Nimbus Plaza",
+   "Echo Station",
+   "Haven Docks",
+   "Yarrow Plaza",
+   "Pennywhistle Arcade",
+   "Beacon Tower",
+   "Silvercrest Observatory",
+   "Mosaic Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Echo Station": 2,
+     "Haven Docks": 2,
+     "Yarrow Plaza": 3,
+     "Pennywhistle Arcade": 1,
+     "Beacon Tower": 1,
+     "Silvercrest Observatory": 3,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Echo Station": 1,
+     "Haven Docks": 2,
+     "Yarrow Plaza": 1,
+     "Pennywhistle Arcade": 3,
+     "Beacon Tower": 3,
+     "Silvercrest Observatory": 4,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 2,
+     "Echo Station": 1,
+     "Haven Docks": 1,
+     "Yarrow Plaza": 3,
+     "Pennywhistle Arcade": 2,
+     "Beacon Tower": 2,
+     "Silvercrest Observatory": 3,
+     "Mosaic Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Summary of the Problem and Algorithm Used\nThe problem at hand is a **Graph Coloring** problem, where we need to assign frequencies (colors) to Wi-Fi base stations represented as nodes in an undirected graph. The goal is to ensure that no two adjacent stations use the same frequency. The algorithm chosen for this task is the **Coloring Backtracking Algorithm**, which is optimal for exploring all possible colorings of the graph.\n\n### Tool Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Nimbus Plaza (Node 0): Color 1\n  - Echo Station (Node 1): Color 2\n  - Haven Docks (Node 2): Color 2\n  - Yarrow Plaza (Node 3): Color 3\n  - Pennywhistle Arcade (Node 4): Color 1\n  - Beacon Tower (Node 5): Color 1\n  - Silvercrest Observatory (Node 6): Color 3\n  - Mosaic Plaza (Node 7): Color 2\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm successfully assigned frequencies to the eight Wi-Fi base stations while ensuring that no two adjacent stations share the same frequency. The color assignments are as follows:\n\n- **Nimbus Plaza** (0) - Frequency 1\n- **Echo Station** (1) - Frequency 2\n- **Haven Docks** (2) - Frequency 2\n- **Yarrow Plaza** (3) - Frequency 3\n- **Pennywhistle Arcade** (4) - Frequency 1\n- **Beacon Tower** (5) - Frequency 1\n- **Silvercrest Observatory** (6) - Frequency 3\n- **Mosaic Plaza** (7) - Frequency 2\n\n### Final Answer\nThe optimal solution for assigning frequencies to the Wi-Fi base stations is to use a total of **3 frequencies**. The specific frequency assignments are as follows:\n\n- Nimbus Plaza: Frequency 1\n- Echo Station: Frequency 2\n- Haven Docks: Frequency 2\n- Yarrow Plaza: Frequency 3\n- Pennywhistle Arcade: Frequency 1\n- Beacon Tower: Frequency 1\n- Silvercrest Observatory: Frequency 3\n- Mosaic Plaza: Frequency 2\n\nThis ensures that no two adjacent stations are using the same frequency, fulfilling the requirements of the problem."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 3,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Gilded Archway",
+   "Ironbridge Crossing",
+   "Cobalt Market",
+   "Quarry Point",
+   "Copper Clock Square",
+   "Silvercrest Observatory",
+   "Mosaic Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Gilded Archway": 1,
+     "Ironbridge Crossing": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 3,
+     "Copper Clock Square": 2,
+     "Silvercrest Observatory": 3,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Gilded Archway": 1,
+     "Ironbridge Crossing": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 3,
+     "Copper Clock Square": 2,
+     "Silvercrest Observatory": 3,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 2,
+     "Gilded Archway": 2,
+     "Ironbridge Crossing": 3,
+     "Cobalt Market": 1,
+     "Quarry Point": 3,
+     "Copper Clock Square": 1,
+     "Silvercrest Observatory": 2,
+     "Mosaic Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem involves graph coloring for a set of Wi-Fi base stations represented as an undirected graph. The goal is to assign frequencies (colors) to the base stations such that no two adjacent stations (those with overlapping coverage) share the same frequency. The Coloring Backtracking Algorithm was chosen for its ability to explore all possible colorings and find an optimal solution for minimizing the number of frequencies needed.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Complexity**: O(2^n), suitable for small graphs with fewer than 18 nodes.\n\n### Tool Output\nThe output from the graph coloring backtracking algorithm is:\n- **Number of colors used**: 3\n- **Color assignment**: [1, 1, 1, 2, 3, 2, 3, 2]\n- **Execution time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm determined that a total of **3 different frequencies** (colors) are needed to color the graph. The color assignment indicates which frequency is assigned to each base station as follows:\n- Primrose Boulevard (Node 0): Color 1\n- Gilded Archway (Node 1): Color 1\n- Ironbridge Crossing (Node 2): Color 1\n- Cobalt Market (Node 3): Color 2\n- Quarry Point (Node 4): Color 3\n- Copper Clock Square (Node 5): Color 2\n- Silvercrest Observatory (Node 6): Color 3\n- Mosaic Plaza (Node 7): Color 2\n\n### Final Answer\nTo minimize the number of frequencies needed for the Wi-Fi base stations, a total of **3 frequencies** are required. The specific assignments ensure that no two adjacent stations use the same frequency, thus optimizing the coverage without interference."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 4,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Echo Station",
+   "Westgate Station",
+   "Pennywhistle Arcade",
+   "Willowshade Pavilion",
+   "Primrose Boulevard",
+   "Union Square Market",
+   "Maplewood Conservatory",
+   "Brass Lantern Tavern"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Echo Station": 1,
+     "Westgate Station": 1,
+     "Pennywhistle Arcade": 2,
+     "Willowshade Pavilion": 3,
+     "Primrose Boulevard": 2,
+     "Union Square Market": 4,
+     "Maplewood Conservatory": 1,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Echo Station": 1,
+     "Westgate Station": 1,
+     "Pennywhistle Arcade": 2,
+     "Willowshade Pavilion": 3,
+     "Primrose Boulevard": 2,
+     "Union Square Market": 4,
+     "Maplewood Conservatory": 1,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Echo Station": 2,
+     "Westgate Station": 2,
+     "Pennywhistle Arcade": 3,
+     "Willowshade Pavilion": 1,
+     "Primrose Boulevard": 3,
+     "Union Square Market": 4,
+     "Maplewood Conservatory": 2,
+     "Brass Lantern Tavern": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve the Graph Coloring problem using the Coloring Backtracking Algorithm. The goal is to assign frequencies (colors) to Wi-Fi base stations represented as nodes in an undirected graph, ensuring that no two adjacent stations use the same frequency. The graph consists of 8 stations, and the algorithm is suitable for this small graph size.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Complexity**: O(2^n), which is manageable for small graphs like this one.\n\n### Tool's Output\nThe output from the algorithm is:\n- **Number of Colors Used**: 4\n- **Color Assignment**: [1, 1, 2, 3, 2, 4, 1, 3]\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm determined that a total of **4 colors** (frequencies) are required to color the graph. The color assignment for each station is as follows:\n- Echo Station (0): Color 1\n- Westgate Station (1): Color 1\n- Pennywhistle Arcade (2): Color 2\n- Willowshade Pavilion (3): Color 3\n- Primrose Boulevard (4): Color 2\n- Union Square Market (5): Color 4\n- Maplewood Conservatory (6): Color 1\n- Brass Lantern Tavern (7): Color 3\n\nThis means that the frequencies assigned to the stations ensure that no two adjacent stations share the same frequency.\n\n### Final Answer\nThe minimum number of frequencies needed to assign to the Wi-Fi base stations while ensuring that no two adjacent stations use the same frequency is **4**."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 5,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lighthouse Point",
+   "Copper Clock Square",
+   "Opal Theater",
+   "Quartz District",
+   "Pennywhistle Arcade",
+   "Dragon’s Gate",
+   "Haven Docks",
+   "Echo Station"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Copper Clock Square": 1,
+     "Opal Theater": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Dragon’s Gate": 3,
+     "Haven Docks": 2,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Copper Clock Square": 1,
+     "Opal Theater": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Dragon’s Gate": 3,
+     "Haven Docks": 2,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lighthouse Point": 3,
+     "Copper Clock Square": 2,
+     "Opal Theater": 1,
+     "Quartz District": 3,
+     "Pennywhistle Arcade": 2,
+     "Dragon’s Gate": 3,
+     "Haven Docks": 1,
+     "Echo Station": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to color a graph representing Wi-Fi base stations using the Coloring Backtracking Algorithm. The goal is to assign frequencies (colors) to the stations such that no two adjacent stations share the same frequency. The graph is undirected, and the adjacency list provided represents the connections between the stations.\n\n### Algorithm Used\nThe algorithm employed is the **Coloring Backtracking Algorithm**, which is suitable for small graphs like this one (with eight stations). It explores all possible colorings to ensure an optimal solution is found.\n\n### Tool's Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Lighthouse Point (0): Color 1\n  - Copper Clock Square (1): Color 1\n  - Opal Theater (2): Color 2\n  - Quartz District (3): Color 1\n  - Pennywhistle Arcade (4): Color 3\n  - Dragon’s Gate (5): Color 3\n  - Haven Docks (6): Color 2\n  - Echo Station (7): Color 3\n- **Execution Time**: 0.0 seconds\n\n### Final Answer Analysis\nBased on the output, the algorithm successfully assigned frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations share the same frequency. The total number of frequencies used is **3**, and the specific assignments are as follows:\n\n- **Lighthouse Point** and **Copper Clock Square** share Color 1.\n- **Opal Theater** is assigned Color 2.\n- **Quartz District** is assigned Color 1.\n- **Pennywhistle Arcade** and **Dragon’s Gate** are assigned Color 3.\n- **Haven Docks** is assigned Color 2.\n- **Echo Station** is assigned Color 3.\n\nThis optimal assignment minimizes the number of frequencies needed while adhering to the constraints of the problem. \n\n### Conclusion\nThe final answer is that **3 frequencies** are required to color the graph representing the Wi-Fi base stations, with the specific assignments detailed above."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 6,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Moonlit Promenade",
+   "Haven Docks",
+   "Twilight Harbor",
+   "Dragon’s Gate",
+   "Union Square Market",
+   "Pennywhistle Arcade",
+   "Echo Station",
+   "Velvet Corner"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Haven Docks": 2,
+     "Twilight Harbor": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 3,
+     "Pennywhistle Arcade": 1,
+     "Echo Station": 1,
+     "Velvet Corner": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 1,
+     "Haven Docks": 2,
+     "Twilight Harbor": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 3,
+     "Pennywhistle Arcade": 1,
+     "Echo Station": 1,
+     "Velvet Corner": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Moonlit Promenade": 2,
+     "Haven Docks": 1,
+     "Twilight Harbor": 3,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 3,
+     "Pennywhistle Arcade": 3,
+     "Echo Station": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to color a graph representing Wi-Fi base stations such that no two adjacent stations use the same frequency. The algorithm chosen for this task is the **Coloring Backtracking Algorithm**, which is optimal for exploring all possible colorings of the graph to minimize the number of frequencies used.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Complexity**: O(2^n)\n- **Description**: This algorithm uses backtracking and depth-first search to find the optimal coloring for the graph.\n\n### Tool's Output\nThe output from the Coloring Backtracking Algorithm is:\n- **Number of Colors Used**: 3\n- **Color Assignment**: [1, 2, 1, 2, 3, 1, 1, 3]\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm determined that a total of **3 different frequencies** (colors) are required to color the graph. The specific color assignments for each node (base station) are as follows:\n- **Moonlit Promenade (Node 0)**: Color 1\n- **Haven Docks (Node 1)**: Color 2\n- **Twilight Harbor (Node 2)**: Color 1\n- **Dragon’s Gate (Node 3)**: Color 2\n- **Union Square Market (Node 4)**: Color 3\n- **Pennywhistle Arcade (Node 5)**: Color 1\n- **Echo Station (Node 6)**: Color 1\n- **Velvet Corner (Node 7)**: Color 3\n\n### Final Answer\nTo ensure that no two adjacent Wi-Fi base stations use the same frequency, a total of **3 frequencies** are required. The color assignments for the base stations are as follows:\n- Moonlit Promenade: Frequency 1\n- Haven Docks: Frequency 2\n- Twilight Harbor: Frequency 1\n- Dragon’s Gate: Frequency 2\n- Union Square Market: Frequency 3\n- Pennywhistle Arcade: Frequency 1\n- Echo Station: Frequency 1\n- Velvet Corner: Frequency 3\n\nThis optimal solution effectively minimizes the number of frequencies while adhering to the constraints of the problem."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 7,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Shadowbridge Arcade",
+   "Lunar Pier",
+   "Silvercrest Observatory",
+   "Knight’s Market",
+   "Quarry Point",
+   "Union Square Market",
+   "Sapphire Arena",
+   "Temple Square"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Lunar Pier": 2,
+     "Silvercrest Observatory": 1,
+     "Knight’s Market": 1,
+     "Quarry Point": 3,
+     "Union Square Market": 3,
+     "Sapphire Arena": 1,
+     "Temple Square": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Lunar Pier": 2,
+     "Silvercrest Observatory": 1,
+     "Knight’s Market": 1,
+     "Quarry Point": 3,
+     "Union Square Market": 3,
+     "Sapphire Arena": 1,
+     "Temple Square": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 3,
+     "Lunar Pier": 1,
+     "Silvercrest Observatory": 3,
+     "Knight’s Market": 3,
+     "Quarry Point": 2,
+     "Union Square Market": 2,
+     "Sapphire Arena": 1,
+     "Temple Square": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve a graph coloring problem for a network of 8 Wi-Fi base stations, represented as nodes in an undirected graph. The goal is to assign frequencies (colors) to these nodes such that no two adjacent nodes share the same frequency, thereby minimizing interference.\n\n### Algorithm Used\nThe **Coloring Backtracking Algorithm** was selected for this problem due to the small size of the graph (8 nodes), allowing for an optimal solution. This algorithm systematically explores all possible colorings to ensure the minimal number of frequencies is used.\n\n### Tool Output\nThe output from the graph coloring backtracking algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Shadowbridge Arcade (Node 0): Color 1\n  - Lunar Pier (Node 1): Color 2\n  - Silvercrest Observatory (Node 2): Color 1\n  - Knight’s Market (Node 3): Color 1\n  - Quarry Point (Node 4): Color 3\n  - Union Square Market (Node 5): Color 3\n  - Sapphire Arena (Node 6): Color 1\n  - Temple Square (Node 7): Color 3\n\n### Final Answer Analysis\nThe algorithm successfully assigned frequencies to the Wi-Fi base stations with a total of **3 different frequencies** used. The color assignments ensure that no two adjacent base stations (nodes) share the same frequency, thus minimizing interference effectively.\n\n### Conclusion\nThe optimal frequency assignment for the Wi-Fi base stations is achieved using **3 frequencies**. The specific assignments are as follows:\n- **Frequency 1**: Shadowbridge Arcade, Silvercrest Observatory, Knight’s Market, Sapphire Arena\n- **Frequency 2**: Lunar Pier\n- **Frequency 3**: Quarry Point, Union Square Market, Temple Square\n\nThis solution meets the requirements of the problem and optimally minimizes interference among the base stations."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 8,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Temple Square",
+   "Knight’s Market",
+   "Riverstone Wharf",
+   "Opal Theater",
+   "Rosewood Hall",
+   "Ironbridge Crossing",
+   "Evergreen Circle",
+   "Echo Station"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Temple Square": 1,
+     "Knight’s Market": 2,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Rosewood Hall": 1,
+     "Ironbridge Crossing": 2,
+     "Evergreen Circle": 3,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Temple Square": 1,
+     "Knight’s Market": 2,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Rosewood Hall": 1,
+     "Ironbridge Crossing": 2,
+     "Evergreen Circle": 3,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Temple Square": 1,
+     "Knight’s Market": 2,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Rosewood Hall": 1,
+     "Ironbridge Crossing": 2,
+     "Evergreen Circle": 3,
+     "Echo Station": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to color a graph representing Wi-Fi base stations using the Coloring Backtracking Algorithm. The goal is to assign frequencies (colors) to the base stations such that no two adjacent stations (which can interfere with each other) use the same frequency. The graph is undirected and consists of 8 base stations.\n\n### Algorithm Used\nThe algorithm employed is the **Coloring Backtracking Algorithm**, which explores all possible colorings of the graph to find an optimal solution. Given the small size of the graph (8 nodes), this algorithm is efficient for our needs.\n\n### Tool Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- The number of colors used: **3**\n- The color assignment for each node (base station):\n  - Temple Square (0): Color 1\n  - Knight’s Market (1): Color 2\n  - Riverstone Wharf (2): Color 1\n  - Opal Theater (3): Color 2\n  - Rosewood Hall (4): Color 1\n  - Ironbridge Crossing (5): Color 2\n  - Evergreen Circle (6): Color 3\n  - Echo Station (7): Color 3\n\n### Analysis of the Output\nThe algorithm successfully assigned frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations share the same frequency. The color assignments are as follows:\n- **Temple Square**: Frequency 1\n- **Knight’s Market**: Frequency 2\n- **Riverstone Wharf**: Frequency 1\n- **Opal Theater**: Frequency 2\n- **Rosewood Hall**: Frequency 1\n- **Ironbridge Crossing**: Frequency 2\n- **Evergreen Circle**: Frequency 3\n- **Echo Station**: Frequency 3\n\nThis assignment ensures that adjacent stations do not interfere with each other, as required.\n\n### Final Answer\nThe optimal frequency assignment for the Wi-Fi base stations is achieved using 3 different frequencies, with the specific assignments detailed above."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 9,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Flint Forge Quarter",
+   "Lighthouse Point",
+   "Umbra Theater",
+   "Evergreen Circle",
+   "Echo Station",
+   "Nimbus Plaza",
+   "Shadowbridge Arcade",
+   "Rosewood Hall"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Flint Forge Quarter": 1,
+     "Lighthouse Point": 2,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 1,
+     "Echo Station": 1,
+     "Nimbus Plaza": 3,
+     "Shadowbridge Arcade": 3,
+     "Rosewood Hall": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Flint Forge Quarter": 1,
+     "Lighthouse Point": 2,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 1,
+     "Echo Station": 1,
+     "Nimbus Plaza": 3,
+     "Shadowbridge Arcade": 3,
+     "Rosewood Hall": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Flint Forge Quarter": 1,
+     "Lighthouse Point": 2,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 1,
+     "Echo Station": 1,
+     "Nimbus Plaza": 3,
+     "Shadowbridge Arcade": 3,
+     "Rosewood Hall": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to color a graph representing the coverage areas of Wi-Fi base stations using the Coloring Backtracking Algorithm. The goal is to assign frequencies (colors) to the base stations (nodes) such that no two adjacent stations share the same frequency. The graph consists of 8 nodes, and the algorithm is optimal for this small size.\n\n### Algorithm Used\nThe algorithm employed is the **Coloring Backtracking Algorithm**, which is suitable for finding the optimal solution for graph coloring problems, particularly in small graphs like this one.\n\n### Tool Output\nThe output from the algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Flint Forge Quarter (Node 0): Color 1\n  - Lighthouse Point (Node 1): Color 2\n  - Umbra Theater (Node 2): Color 2\n  - Evergreen Circle (Node 3): Color 1\n  - Echo Station (Node 4): Color 1\n  - Nimbus Plaza (Node 5): Color 3\n  - Shadowbridge Arcade (Node 6): Color 3\n  - Rosewood Hall (Node 7): Color 2\n\n### Analysis of the Output\nThe algorithm successfully assigned colors to the 8 nodes while ensuring that no two adjacent nodes share the same color. The color assignments are as follows:\n- **Color 1**: Flint Forge Quarter, Evergreen Circle, Echo Station\n- **Color 2**: Lighthouse Point, Umbra Theater, Rosewood Hall\n- **Color 3**: Nimbus Plaza, Shadowbridge Arcade\n\nThis means that the minimum number of frequencies required to ensure that adjacent Wi-Fi base stations do not interfere with each other is **3**.\n\n### Final Answer\nThe minimum number of frequencies needed for the Wi-Fi base stations is **3**."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 10,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Riverstone Wharf",
+   "Westgate Station",
+   "Skyline Gardens",
+   "Echo Station",
+   "Granite Plaza",
+   "Zenith Arena",
+   "Haven Docks",
+   "Beacon Tower"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 1,
+     "Westgate Station": 2,
+     "Skyline Gardens": 1,
+     "Echo Station": 1,
+     "Granite Plaza": 3,
+     "Zenith Arena": 1,
+     "Haven Docks": 2,
+     "Beacon Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 1,
+     "Westgate Station": 2,
+     "Skyline Gardens": 1,
+     "Echo Station": 1,
+     "Granite Plaza": 3,
+     "Zenith Arena": 1,
+     "Haven Docks": 2,
+     "Beacon Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Riverstone Wharf": 2,
+     "Westgate Station": 1,
+     "Skyline Gardens": 3,
+     "Echo Station": 2,
+     "Granite Plaza": 2,
+     "Zenith Arena": 3,
+     "Haven Docks": 1,
+     "Beacon Tower": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to determine the minimal number of frequencies needed to allocate to a set of Wi-Fi base stations, ensuring that no two adjacent stations (which may interfere with each other) use the same frequency. This is a classic graph coloring problem, and the chosen algorithm for solving it is the **Coloring Backtracking Algorithm**.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Complexity**: O(2^n), where n is the number of vertices (Wi-Fi base stations).\n- **Description**: This algorithm is optimal for small graphs, such as the one with 8 stations in this case.\n\n### Tool Output\nThe output from the graph coloring backtracking algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: [1, 2, 1, 1, 3, 1, 2, 3]\n  - This indicates the frequency assigned to each of the 8 stations.\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe output indicates that a total of **3 different frequencies** are required to color the graph representing the Wi-Fi base stations. The color assignment shows which frequency is assigned to each station based on their adjacency:\n\n- **Station Assignments**:\n  - Riverstone Wharf (0): Frequency 1\n  - Westgate Station (1): Frequency 2\n  - Skyline Gardens (2): Frequency 1\n  - Echo Station (3): Frequency 1\n  - Granite Plaza (4): Frequency 3\n  - Zenith Arena (5): Frequency 1\n  - Haven Docks (6): Frequency 2\n  - Beacon Tower (7): Frequency 3\n\n### Final Answer\nThe minimal number of frequencies needed to allocate to the Wi-Fi base stations is **3**. The frequencies are assigned in such a way that no two adjacent stations share the same frequency, ensuring optimal coverage without interference."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 11,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Flare Alley",
+   "Moonlit Promenade",
+   "Cobalt Market",
+   "Quarry Point",
+   "Copper Clock Square",
+   "Evergreen Circle",
+   "Pennywhistle Arcade",
+   "Velvet Corner"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Moonlit Promenade": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 2,
+     "Copper Clock Square": 3,
+     "Evergreen Circle": 3,
+     "Pennywhistle Arcade": 1,
+     "Velvet Corner": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Flare Alley": 1,
+     "Moonlit Promenade": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 2,
+     "Copper Clock Square": 3,
+     "Evergreen Circle": 3,
+     "Pennywhistle Arcade": 1,
+     "Velvet Corner": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Flare Alley": 3,
+     "Moonlit Promenade": 1,
+     "Cobalt Market": 2,
+     "Quarry Point": 2,
+     "Copper Clock Square": 3,
+     "Evergreen Circle": 3,
+     "Pennywhistle Arcade": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve a graph coloring problem for 8 Wi-Fi base stations represented as nodes in a graph. The goal is to assign frequencies (colors) to these stations such that no two adjacent stations (those with overlapping coverage areas) share the same frequency. The chosen algorithm for this problem is the **Coloring Backtracking Algorithm**, which is optimal for small graphs like this one.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Complexity**: O(2^n), where n is the number of vertices.\n\n### Tool's Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: [1, 1, 2, 2, 3, 3, 1, 2]\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm successfully assigned frequencies (colors) to the 8 nodes (Wi-Fi base stations) using a total of 3 different frequencies. The color assignment is as follows:\n- **Flare Alley (Node 0)**: Frequency 1\n- **Moonlit Promenade (Node 1)**: Frequency 1\n- **Cobalt Market (Node 2)**: Frequency 2\n- **Quarry Point (Node 3)**: Frequency 2\n- **Copper Clock Square (Node 4)**: Frequency 3\n- **Evergreen Circle (Node 5)**: Frequency 3\n- **Pennywhistle Arcade (Node 6)**: Frequency 1\n- **Velvet Corner (Node 7)**: Frequency 2\n\n### Final Answer\nThe optimal frequency assignment for the Wi-Fi base stations is as follows:\n- **Flare Alley**: Frequency 1\n- **Moonlit Promenade**: Frequency 1\n- **Cobalt Market**: Frequency 2\n- **Quarry Point**: Frequency 2\n- **Copper Clock Square**: Frequency 3\n- **Evergreen Circle**: Frequency 3\n- **Pennywhistle Arcade**: Frequency 1\n- **Velvet Corner**: Frequency 2\n\nThis assignment ensures that no two adjacent stations share the same frequency, effectively minimizing interference."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 12,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Velvet Corner",
+   "Brass Lantern Tavern",
+   "Riverstone Wharf",
+   "Opal Theater",
+   "Evergreen Circle",
+   "Temple Square",
+   "Granite Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Brass Lantern Tavern": 1,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Evergreen Circle": 1,
+     "Temple Square": 3,
+     "Granite Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 1,
+     "Brass Lantern Tavern": 2,
+     "Riverstone Wharf": 2,
+     "Opal Theater": 3,
+     "Evergreen Circle": 1,
+     "Temple Square": 2,
+     "Granite Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 3,
+     "Velvet Corner": 2,
+     "Brass Lantern Tavern": 3,
+     "Riverstone Wharf": 1,
+     "Opal Theater": 2,
+     "Evergreen Circle": 2,
+     "Temple Square": 1,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem involves assigning frequencies (colors) to 8 Wi-Fi base stations (nodes) represented in an undirected graph. The goal is to ensure that no two adjacent stations (nodes with overlapping coverage) use the same frequency (color). The chosen algorithm for solving this graph coloring problem is the **Coloring Backtracking Algorithm**, which systematically explores all possible colorings to find the minimal number of frequencies needed.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Input**: Adjacency list representing the coverage areas of the Wi-Fi base stations.\n\n### Tool's Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Minimum Number of Colors Used**: 3\n- **Color Assignment**: \n  - Primrose Boulevard (Node 0): Color 1\n  - Velvet Corner (Node 1): Color 2\n  - Brass Lantern Tavern (Node 2): Color 1\n  - Riverstone Wharf (Node 3): Color 1\n  - Opal Theater (Node 4): Color 2\n  - Evergreen Circle (Node 5): Color 1\n  - Temple Square (Node 6): Color 3\n  - Granite Plaza (Node 7): Color 3\n\n### Analysis of the Output\nThe algorithm successfully assigned frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations share the same frequency. The minimum number of frequencies required is 3, which is efficient given the graph's structure.\n\n### Final Answer\nTo minimize interference among the Wi-Fi base stations, a total of **3 different frequencies** are needed. The frequencies can be assigned as follows:\n- **Primrose Boulevard**: Frequency 1\n- **Velvet Corner**: Frequency 2\n- **Brass Lantern Tavern**: Frequency 1\n- **Riverstone Wharf**: Frequency 1\n- **Opal Theater**: Frequency 2\n- **Evergreen Circle**: Frequency 1\n- **Temple Square**: Frequency 3\n- **Granite Plaza**: Frequency 3\n\nThis configuration ensures optimal coverage without frequency overlap among adjacent stations."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 13,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Shadowbridge Arcade",
+   "Jade Fountain",
+   "Quarry Point",
+   "Westgate Station",
+   "Copper Clock Square",
+   "Lighthouse Point",
+   "Temple Square",
+   "Brass Lantern Tavern"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Jade Fountain": 1,
+     "Quarry Point": 2,
+     "Westgate Station": 2,
+     "Copper Clock Square": 3,
+     "Lighthouse Point": 1,
+     "Temple Square": 3,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Jade Fountain": 1,
+     "Quarry Point": 2,
+     "Westgate Station": 2,
+     "Copper Clock Square": 3,
+     "Lighthouse Point": 1,
+     "Temple Square": 3,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 2,
+     "Jade Fountain": 1,
+     "Quarry Point": 1,
+     "Westgate Station": 2,
+     "Copper Clock Square": 3,
+     "Lighthouse Point": 3,
+     "Temple Square": 2,
+     "Brass Lantern Tavern": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a **Graph Coloring** problem, where we need to assign frequencies (colors) to Wi-Fi base stations represented as nodes in an undirected graph. The goal is to ensure that no two adjacent stations (nodes) use the same frequency. The algorithm specified for solving this problem is the **Coloring Backtracking Algorithm**, which is optimal for small graphs.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Input**: The adjacency list of the graph representing the connections between the Wi-Fi base stations.\n\n### Tool's Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Shadowbridge Arcade (Node 0): Color 1\n  - Jade Fountain (Node 1): Color 1\n  - Quarry Point (Node 2): Color 2\n  - Westgate Station (Node 3): Color 2\n  - Copper Clock Square (Node 4): Color 3\n  - Lighthouse Point (Node 5): Color 1\n  - Temple Square (Node 6): Color 3\n  - Brass Lantern Tavern (Node 7): Color 3\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm successfully assigned colors to the nodes while ensuring that no two adjacent nodes share the same color. The color assignments are as follows:\n- Nodes 0 and 1 share the same color (Color 1).\n- Nodes 2 and 3 share the same color (Color 2).\n- Nodes 4, 5, 6, and 7 have different colors assigned (Colors 3, 1, and 3 respectively).\n\n### Final Answer\nThe minimum number of frequencies (colors) needed to assign to the Wi-Fi base stations while ensuring that no two adjacent stations use the same frequency is **3**. The color assignments are effectively managed to avoid conflicts among adjacent nodes."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 14,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Nimbus Plaza",
+   "Velvet Corner",
+   "Duskwood Park",
+   "Union Square Market",
+   "Sapphire Arena",
+   "Rosewood Hall",
+   "Yarrow Plaza",
+   "Jade Fountain"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Velvet Corner": 2,
+     "Duskwood Park": 2,
+     "Union Square Market": 1,
+     "Sapphire Arena": 1,
+     "Rosewood Hall": 2,
+     "Yarrow Plaza": 3,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 1,
+     "Velvet Corner": 1,
+     "Duskwood Park": 2,
+     "Union Square Market": 1,
+     "Sapphire Arena": 3,
+     "Rosewood Hall": 2,
+     "Yarrow Plaza": 3,
+     "Jade Fountain": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Nimbus Plaza": 2,
+     "Velvet Corner": 1,
+     "Duskwood Park": 1,
+     "Union Square Market": 2,
+     "Sapphire Arena": 2,
+     "Rosewood Hall": 1,
+     "Yarrow Plaza": 3,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a **Graph Coloring** problem, where we need to assign frequencies (colors) to Wi-Fi base stations represented as nodes in an undirected graph. The goal is to ensure that no two adjacent stations (nodes) use the same frequency, thereby minimizing interference. The algorithm chosen for this task is the **Coloring Backtracking Algorithm**, which is suitable due to the small size of the graph (8 nodes).\n\n### Algorithm Used\nThe **Coloring Backtracking Algorithm** was employed to find the optimal coloring for the given graph. This algorithm is efficient for graphs with fewer than 18 nodes and is designed to provide an optimal solution.\n\n### Tool's Output\nThe output from the algorithm is as follows:\n- **Minimum number of colors used**: 3\n- **Color assignment for each node**: \n  - Nimbus Plaza (Node 0): Color 1\n  - Velvet Corner (Node 1): Color 2\n  - Duskwood Park (Node 2): Color 2\n  - Union Square Market (Node 3): Color 1\n  - Sapphire Arena (Node 4): Color 1\n  - Rosewood Hall (Node 5): Color 2\n  - Yarrow Plaza (Node 6): Color 3\n  - Jade Fountain (Node 7): Color 3\n\n### Final Analysis\nFrom the output, we see that a total of **3 different frequencies** (colors) are required to color the graph without any adjacent nodes sharing the same frequency. The specific assignments ensure that all overlapping coverage areas (represented by edges in the graph) are handled appropriately.\n\n### Final Answer\nThe minimum number of frequencies needed to minimize interference among the Wi-Fi base stations is **3**."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 15,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quartz District",
+   "Union Square Market",
+   "Lunar Pier",
+   "Primrose Boulevard",
+   "Velvet Corner",
+   "Haven Docks",
+   "Riverstone Wharf",
+   "Cobalt Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Union Square Market": 2,
+     "Lunar Pier": 2,
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Haven Docks": 2,
+     "Riverstone Wharf": 3,
+     "Cobalt Market": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Union Square Market": 1,
+     "Lunar Pier": 2,
+     "Primrose Boulevard": 3,
+     "Velvet Corner": 1,
+     "Haven Docks": 1,
+     "Riverstone Wharf": 4,
+     "Cobalt Market": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Union Square Market": 2,
+     "Lunar Pier": 2,
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Haven Docks": 2,
+     "Riverstone Wharf": 3,
+     "Cobalt Market": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve the Graph Coloring problem using the Coloring Backtracking Algorithm. This involves coloring a graph representing Wi-Fi base stations such that no two adjacent stations share the same frequency, minimizing interference. The graph is undirected, and the adjacency list describes the connections between the stations.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Complexity**: O(2^n)\n\n### Tool Output\nThe output from the tool indicates:\n- **Minimum Number of Colors (Frequencies)**: 3\n- **Color Assignment**: \n  - Quartz District (Node 0): Color 1\n  - Union Square Market (Node 1): Color 2\n  - Lunar Pier (Node 2): Color 2\n  - Primrose Boulevard (Node 3): Color 1\n  - Velvet Corner (Node 4): Color 2\n  - Haven Docks (Node 5): Color 2\n  - Riverstone Wharf (Node 6): Color 3\n  - Cobalt Market (Node 7): Color 1\n\n### Analysis of the Output\nThe algorithm successfully determined that a minimum of 3 different frequencies (colors) are needed to color the graph. The color assignments ensure that no two adjacent nodes (Wi-Fi base stations) share the same frequency, thus minimizing potential interference.\n\n### Final Answer\nTo optimally allocate frequencies to the Wi-Fi base stations while ensuring adjacent stations do not interfere with each other, a total of **3 frequencies** are required. The specific frequency assignments for each station are as follows:\n- Quartz District: Frequency 1\n- Union Square Market: Frequency 2\n- Lunar Pier: Frequency 2\n- Primrose Boulevard: Frequency 1\n- Velvet Corner: Frequency 2\n- Haven Docks: Frequency 2\n- Riverstone Wharf: Frequency 3\n- Cobalt Market: Frequency 1"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 16,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Westgate Station",
+   "Duskwood Park",
+   "Echo Station",
+   "Northwind Tower",
+   "Sapphire Arena",
+   "Ivory Spire Cathedral",
+   "Azure Gardens",
+   "Willowshade Pavilion"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Duskwood Park": 1,
+     "Echo Station": 2,
+     "Northwind Tower": 3,
+     "Sapphire Arena": 2,
+     "Ivory Spire Cathedral": 2,
+     "Azure Gardens": 3,
+     "Willowshade Pavilion": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Duskwood Park": 1,
+     "Echo Station": 2,
+     "Northwind Tower": 3,
+     "Sapphire Arena": 2,
+     "Ivory Spire Cathedral": 2,
+     "Azure Gardens": 3,
+     "Willowshade Pavilion": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Westgate Station": 1,
+     "Duskwood Park": 2,
+     "Echo Station": 2,
+     "Northwind Tower": 1,
+     "Sapphire Arena": 2,
+     "Ivory Spire Cathedral": 3,
+     "Azure Gardens": 3,
+     "Willowshade Pavilion": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a Graph Coloring problem, where we need to assign frequencies (colors) to Wi-Fi base stations represented as nodes in an undirected graph. The goal is to ensure that no two adjacent stations (nodes) use the same frequency. The algorithm chosen for this task is the Coloring Backtracking Algorithm, which is suitable for small graphs like this one with only 8 nodes.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Input**: An adjacency list representing the graph of Wi-Fi base stations.\n\n### Tool's Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Westgate Station (Node 0): Color 1\n  - Duskwood Park (Node 1): Color 1\n  - Echo Station (Node 2): Color 2\n  - Northwind Tower (Node 3): Color 3\n  - Sapphire Arena (Node 4): Color 2\n  - Ivory Spire Cathedral (Node 5): Color 2\n  - Azure Gardens (Node 6): Color 3\n  - Willowshade Pavilion (Node 7): Color 1\n\n### Analysis of the Output\nThe algorithm successfully assigned 3 different frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations share the same frequency. The color assignments are as follows:\n- **Color 1**: Westgate Station, Duskwood Park, Willowshade Pavilion\n- **Color 2**: Echo Station, Sapphire Arena, Ivory Spire Cathedral\n- **Color 3**: Northwind Tower, Azure Gardens\n\n### Final Answer\nThe minimum number of frequencies required to ensure that no two adjacent Wi-Fi base stations use the same frequency is **3**. The assigned frequencies are distributed among the stations as detailed above."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 17,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Knight’s Market",
+   "Brass Lantern Tavern",
+   "Sapphire Arena",
+   "Flint Forge Quarter",
+   "Ironbridge Crossing",
+   "Amber Plaza",
+   "Mosaic Plaza",
+   "Northwind Tower"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Brass Lantern Tavern": 2,
+     "Sapphire Arena": 3,
+     "Flint Forge Quarter": 1,
+     "Ironbridge Crossing": 2,
+     "Amber Plaza": 3,
+     "Mosaic Plaza": 2,
+     "Northwind Tower": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Brass Lantern Tavern": 2,
+     "Sapphire Arena": 3,
+     "Flint Forge Quarter": 1,
+     "Ironbridge Crossing": 2,
+     "Amber Plaza": 1,
+     "Mosaic Plaza": 1,
+     "Northwind Tower": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Brass Lantern Tavern": 2,
+     "Sapphire Arena": 3,
+     "Flint Forge Quarter": 1,
+     "Ironbridge Crossing": 2,
+     "Amber Plaza": 3,
+     "Mosaic Plaza": 2,
+     "Northwind Tower": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to color a graph representing Wi-Fi base stations using the Coloring Backtracking Algorithm. The goal is to assign frequencies (colors) to each base station (node) such that no two adjacent stations share the same frequency. The graph is undirected and consists of 8 nodes.\n\n### Algorithm Used\nThe algorithm employed is the **Coloring Backtracking Algorithm**, which explores all possible colorings of the graph to find an optimal solution. Given the complexity of \\(O(2^n)\\), it is suitable for the small number of nodes (8 in this case).\n\n### Tool's Output\nThe output from the algorithm is as follows:\n- **Minimum number of colors used**: 3\n- **Color assignment for each node**: \n  - Knight's Market (0): Color 1\n  - Brass Lantern Tavern (1): Color 2\n  - Sapphire Arena (2): Color 3\n  - Flint Forge Quarter (3): Color 1\n  - Ironbridge Crossing (4): Color 2\n  - Amber Plaza (5): Color 3\n  - Mosaic Plaza (6): Color 2\n  - Northwind Tower (7): Color 1\n\n### Final Answer Analysis\nBased on the output, we can summarize the frequency assignments for the Wi-Fi base stations as follows:\n- **Knight's Market**: Frequency 1\n- **Brass Lantern Tavern**: Frequency 2\n- **Sapphire Arena**: Frequency 3\n- **Flint Forge Quarter**: Frequency 1\n- **Ironbridge Crossing**: Frequency 2\n- **Amber Plaza**: Frequency 3\n- **Mosaic Plaza**: Frequency 2\n- **Northwind Tower**: Frequency 1\n\nThus, the minimum number of frequencies required to ensure that no two adjacent Wi-Fi base stations use the same frequency is **3**."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 18,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Knight’s Market",
+   "Mosaic Plaza",
+   "Umbra Theater",
+   "Evergreen Circle",
+   "Beacon Tower",
+   "Duskwood Park",
+   "Echo Station",
+   "Cobalt Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Mosaic Plaza": 1,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 2,
+     "Beacon Tower": 3,
+     "Duskwood Park": 2,
+     "Echo Station": 1,
+     "Cobalt Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Mosaic Plaza": 1,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 2,
+     "Beacon Tower": 3,
+     "Duskwood Park": 2,
+     "Echo Station": 1,
+     "Cobalt Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Knight’s Market": 1,
+     "Mosaic Plaza": 1,
+     "Umbra Theater": 2,
+     "Evergreen Circle": 2,
+     "Beacon Tower": 3,
+     "Duskwood Park": 2,
+     "Echo Station": 3,
+     "Cobalt Market": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a **Graph Coloring** problem, where we need to allocate frequencies to 8 Wi-Fi base stations (nodes) represented in an undirected graph. The objective is to minimize the number of frequencies used while ensuring that no two adjacent stations share the same frequency. The chosen algorithm for this problem is the **Coloring Backtracking Algorithm**, which is optimal for small graphs like this one.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Parameters**: The adjacency list representing the connections between the Wi-Fi base stations.\n\n### Tool's Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Minimum Number of Colors Used**: 3\n- **Color Assignment**: [1, 1, 2, 2, 3, 2, 1, 3]\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm determined that a minimum of **3 frequencies** (colors) is required to color the graph such that no two adjacent nodes (base stations) share the same frequency. The color assignment indicates how each base station is colored:\n\n- **Knight's Market**: Color 1\n- **Mosaic Plaza**: Color 1\n- **Umbra Theater**: Color 2\n- **Evergreen Circle**: Color 2\n- **Beacon Tower**: Color 3\n- **Duskwood Park**: Color 2\n- **Echo Station**: Color 1\n- **Cobalt Market**: Color 3\n\n### Final Answer\nTo allocate frequencies to the Wi-Fi base stations while ensuring that adjacent stations do not use the same frequency, a total of **3 frequencies** are required. The color assignments for the stations are as follows:\n\n- **Knight's Market**: Frequency 1\n- **Mosaic Plaza**: Frequency 1\n- **Umbra Theater**: Frequency 2\n- **Evergreen Circle**: Frequency 2\n- **Beacon Tower**: Frequency 3\n- **Duskwood Park**: Frequency 2\n- **Echo Station**: Frequency 1\n- **Cobalt Market**: Frequency 3\n\nThis allocation ensures that no two adjacent stations share the same frequency."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 19,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Granite Plaza",
+   "Opal Theater",
+   "Velvet Corner",
+   "Union Square Market",
+   "Amber Plaza",
+   "Moonlit Promenade",
+   "Nimbus Plaza",
+   "Shadowbridge Arcade"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Opal Theater": 2,
+     "Velvet Corner": 1,
+     "Union Square Market": 3,
+     "Amber Plaza": 2,
+     "Moonlit Promenade": 2,
+     "Nimbus Plaza": 1,
+     "Shadowbridge Arcade": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Opal Theater": 2,
+     "Velvet Corner": 1,
+     "Union Square Market": 2,
+     "Amber Plaza": 3,
+     "Moonlit Promenade": 2,
+     "Nimbus Plaza": 1,
+     "Shadowbridge Arcade": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Granite Plaza": 1,
+     "Opal Theater": 2,
+     "Velvet Corner": 3,
+     "Union Square Market": 2,
+     "Amber Plaza": 4,
+     "Moonlit Promenade": 2,
+     "Nimbus Plaza": 3,
+     "Shadowbridge Arcade": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to color a graph representing Wi-Fi base stations in such a way that no two adjacent nodes (base stations) share the same color. This is a classic Graph Coloring problem, and the chosen algorithm for solving it is the **Coloring Backtracking Algorithm**. This algorithm is suitable for small graphs, such as the one with 8 nodes (base stations) in this case, allowing for an exact solution to minimize the number of frequencies needed.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Complexity**: O(2^n)\n- **Description**: This algorithm explores all possible colorings of the graph using backtracking to find the optimal solution.\n\n### Tool Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: [1, 2, 1, 3, 2, 2, 1, 3]\n  - This means:\n    - Granite Plaza (Node 0): Color 1\n    - Opal Theater (Node 1): Color 2\n    - Velvet Corner (Node 2): Color 1\n    - Union Square Market (Node 3): Color 3\n    - Amber Plaza (Node 4): Color 2\n    - Moonlit Promenade (Node 5): Color 2\n    - Nimbus Plaza (Node 6): Color 1\n    - Shadowbridge Arcade (Node 7): Color 3\n\n### Final Answer\nThe optimal frequency assignment for the Wi-Fi base stations requires **3 different frequencies**. The color assignments for each base station are as follows:\n- **Granite Plaza**: Frequency 1\n- **Opal Theater**: Frequency 2\n- **Velvet Corner**: Frequency 1\n- **Union Square Market**: Frequency 3\n- **Amber Plaza**: Frequency 2\n- **Moonlit Promenade**: Frequency 2\n- **Nimbus Plaza**: Frequency 1\n- **Shadowbridge Arcade**: Frequency 3\n\nThis ensures that no two adjacent base stations share the same frequency, effectively minimizing interference."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 20,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "King’s Row",
+   "Ivory Spire Cathedral",
+   "Oakshade Library",
+   "Azure Gardens",
+   "Quarry Point",
+   "Duskwood Park",
+   "Dragon’s Gate",
+   "Mosaic Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Ivory Spire Cathedral": 1,
+     "Oakshade Library": 2,
+     "Azure Gardens": 2,
+     "Quarry Point": 1,
+     "Duskwood Park": 3,
+     "Dragon’s Gate": 2,
+     "Mosaic Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Ivory Spire Cathedral": 1,
+     "Oakshade Library": 2,
+     "Azure Gardens": 2,
+     "Quarry Point": 1,
+     "Duskwood Park": 3,
+     "Dragon’s Gate": 2,
+     "Mosaic Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Ivory Spire Cathedral": 1,
+     "Oakshade Library": 3,
+     "Azure Gardens": 2,
+     "Quarry Point": 1,
+     "Duskwood Park": 2,
+     "Dragon’s Gate": 3,
+     "Mosaic Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a **Graph Coloring** problem, which involves assigning frequencies (or colors) to Wi-Fi base stations represented as nodes in a graph. The goal is to ensure that no two adjacent stations (nodes) use the same frequency. The algorithm chosen for this task is the **Coloring Backtracking Algorithm**, which is suitable for small graphs and can efficiently explore all possible colorings.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Complexity**: O(2^n), which is exponential and suitable for small graphs (in this case, 8 nodes).\n\n### Tool's Output\nThe output from the graph coloring backtracking algorithm is:\n- **Number of Colors Used**: 4\n- **Color Assignment**: [1, 1, 2, 2, 1, 3, 2, 4]\n  - This indicates the color assigned to each node (station) in the order of their IDs.\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe color assignment indicates how frequencies are allocated to each Wi-Fi base station:\n- **Node Mapping**:\n  - King's Row (0) - Color 1\n  - Ivory Spire Cathedral (1) - Color 1\n  - Oakshade Library (2) - Color 2\n  - Azure Gardens (3) - Color 2\n  - Quarry Point (4) - Color 1\n  - Duskwood Park (5) - Color 3\n  - Dragon's Gate (6) - Color 2\n  - Mosaic Plaza (7) - Color 4\n\n### Final Answer\nThe optimal solution for assigning frequencies to the Wi-Fi base stations is achieved using **4 different frequencies**. The specific color assignments ensure that no two adjacent stations share the same frequency, thus minimizing interference and optimizing the network performance."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 21,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lighthouse Point",
+   "Flare Alley",
+   "Riverstone Wharf",
+   "Shadowbridge Arcade",
+   "Opal Theater",
+   "Sapphire Arena",
+   "Pennywhistle Arcade",
+   "Union Square Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Flare Alley": 1,
+     "Riverstone Wharf": 2,
+     "Shadowbridge Arcade": 3,
+     "Opal Theater": 2,
+     "Sapphire Arena": 3,
+     "Pennywhistle Arcade": 2,
+     "Union Square Market": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Flare Alley": 1,
+     "Riverstone Wharf": 2,
+     "Shadowbridge Arcade": 3,
+     "Opal Theater": 2,
+     "Sapphire Arena": 3,
+     "Pennywhistle Arcade": 2,
+     "Union Square Market": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Flare Alley": 1,
+     "Riverstone Wharf": 2,
+     "Shadowbridge Arcade": 3,
+     "Opal Theater": 2,
+     "Sapphire Arena": 3,
+     "Pennywhistle Arcade": 2,
+     "Union Square Market": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to color a graph representing Wi-Fi base stations using the Coloring Backtracking Algorithm. The goal is to assign frequencies (colors) to the base stations such that no two adjacent stations (which may interfere with each other) share the same frequency. The graph is undirected and consists of 8 stations.\n\n### Algorithm Used\nThe algorithm employed is the **Coloring Backtracking Algorithm**, which is optimal for small graphs like this one. It efficiently finds the minimal number of frequencies needed for the assignment.\n\n### Tool Output\nThe output from the algorithm is as follows:\n- **Number of Colors Used**: 4\n- **Color Assignment**: \n  - Lighthouse Point (0): Color 1\n  - Flare Alley (1): Color 1\n  - Riverstone Wharf (2): Color 2\n  - Shadowbridge Arcade (3): Color 3\n  - Opal Theater (4): Color 2\n  - Sapphire Arena (5): Color 3\n  - Pennywhistle Arcade (6): Color 2\n  - Union Square Market (7): Color 4\n\n### Analysis of Output\nThe algorithm determined that a total of **4 different frequencies** are required to color the graph without any two adjacent stations sharing the same frequency. The color assignments ensure that all adjacent nodes (stations) have different colors, thus preventing interference.\n\n### Final Answer\nThe minimal number of frequencies needed to assign to the Wi-Fi base stations is **4**. The specific color assignments for each station are as follows:\n- Lighthouse Point: Frequency 1\n- Flare Alley: Frequency 1\n- Riverstone Wharf: Frequency 2\n- Shadowbridge Arcade: Frequency 3\n- Opal Theater: Frequency 2\n- Sapphire Arena: Frequency 3\n- Pennywhistle Arcade: Frequency 2\n- Union Square Market: Frequency 4"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 22,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Jasper Marina",
+   "Flare Alley",
+   "Westgate Station",
+   "Amber Plaza",
+   "Riverstone Wharf",
+   "Mosaic Plaza",
+   "Copper Clock Square"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Jasper Marina": 2,
+     "Flare Alley": 2,
+     "Westgate Station": 3,
+     "Amber Plaza": 3,
+     "Riverstone Wharf": 1,
+     "Mosaic Plaza": 2,
+     "Copper Clock Square": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Jasper Marina": 2,
+     "Flare Alley": 2,
+     "Westgate Station": 3,
+     "Amber Plaza": 1,
+     "Riverstone Wharf": 3,
+     "Mosaic Plaza": 1,
+     "Copper Clock Square": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 2,
+     "Jasper Marina": 1,
+     "Flare Alley": 1,
+     "Westgate Station": 3,
+     "Amber Plaza": 3,
+     "Riverstone Wharf": 2,
+     "Mosaic Plaza": 1,
+     "Copper Clock Square": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem involves graph coloring for a set of Wi-Fi base stations, ensuring that no two adjacent stations use the same frequency. The algorithm used for this task is the **Coloring Backtracking Algorithm**, which is suitable for small graphs like this one, containing fewer than 18 nodes.\n\n### Algorithm Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Number of colors used**: 3\n- **Color assignment for each base station**: \n  - Primrose Boulevard: Color 1\n  - Jasper Marina: Color 2\n  - Flare Alley: Color 2\n  - Westgate Station: Color 3\n  - Amber Plaza: Color 3\n  - Riverstone Wharf: Color 1\n  - Mosaic Plaza: Color 2\n  - Copper Clock Square: Color 1\n\n### Analysis of the Output\nThe algorithm successfully assigned 3 different colors (frequencies) to the 8 base stations while ensuring that no two adjacent stations share the same color. The color assignments are as follows:\n\n- **Primrose Boulevard** (0) - Color 1\n- **Jasper Marina** (1) - Color 2\n- **Flare Alley** (2) - Color 2\n- **Westgate Station** (3) - Color 3\n- **Amber Plaza** (4) - Color 3\n- **Riverstone Wharf** (5) - Color 1\n- **Mosaic Plaza** (6) - Color 2\n- **Copper Clock Square** (7) - Color 1\n\n### Final Answer\nThe optimal frequency allocation for the 8 Wi-Fi base stations is achieved using 3 different frequencies, with the following assignments:\n- **Color 1**: Primrose Boulevard, Riverstone Wharf, Copper Clock Square\n- **Color 2**: Jasper Marina, Flare Alley, Mosaic Plaza\n- **Color 3**: Westgate Station, Amber Plaza\n\nThis ensures that no two adjacent stations are using the same frequency."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 23,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Twilight Harbor",
+   "Cobalt Market",
+   "Flare Alley",
+   "Shadowbridge Arcade",
+   "Oakshade Library",
+   "King’s Row",
+   "Umbra Theater",
+   "Mosaic Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Cobalt Market": 2,
+     "Flare Alley": 2,
+     "Shadowbridge Arcade": 2,
+     "Oakshade Library": 1,
+     "King’s Row": 3,
+     "Umbra Theater": 1,
+     "Mosaic Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Cobalt Market": 1,
+     "Flare Alley": 2,
+     "Shadowbridge Arcade": 2,
+     "Oakshade Library": 1,
+     "King’s Row": 3,
+     "Umbra Theater": 4,
+     "Mosaic Plaza": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Cobalt Market": 3,
+     "Flare Alley": 2,
+     "Shadowbridge Arcade": 3,
+     "Oakshade Library": 2,
+     "King’s Row": 1,
+     "Umbra Theater": 2,
+     "Mosaic Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a Graph Coloring problem, where we need to allocate frequencies to Wi-Fi base stations represented as nodes in an undirected graph. The goal is to ensure that no two adjacent base stations (nodes) use the same frequency. The algorithm specified for solving this problem is the Coloring Backtracking Algorithm, which is suitable for small graphs like the one we have, consisting of 8 base stations.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Input**: The adjacency list of the graph representing the connections between the Wi-Fi base stations.\n\n### Tool Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: [1, 2, 2, 2, 1, 3, 1, 3]\n  - This means:\n    - Twilight Harbor (0) is assigned color 1\n    - Cobalt Market (1) is assigned color 2\n    - Flare Alley (2) is assigned color 2\n    - Shadowbridge Arcade (3) is assigned color 2\n    - Oakshade Library (4) is assigned color 1\n    - King's Row (5) is assigned color 3\n    - Umbra Theater (6) is assigned color 1\n    - Mosaic Plaza (7) is assigned color 3\n- **Optimality**: The algorithm found a solution with 3 colors.\n\n### Final Answer\nThe minimum number of frequencies needed for allocation to the Wi-Fi base stations is **3**. The color assignments ensure that no two adjacent stations share the same frequency, thus optimizing the frequency allocation effectively."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 24,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Twilight Harbor",
+   "Northwind Tower",
+   "Sapphire Arena",
+   "Westgate Station",
+   "Beacon Tower",
+   "Haven Docks",
+   "Lunar Pier",
+   "Knight’s Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Northwind Tower": 1,
+     "Sapphire Arena": 2,
+     "Westgate Station": 2,
+     "Beacon Tower": 1,
+     "Haven Docks": 3,
+     "Lunar Pier": 3,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Twilight Harbor": 1,
+     "Northwind Tower": 1,
+     "Sapphire Arena": 2,
+     "Westgate Station": 2,
+     "Beacon Tower": 1,
+     "Haven Docks": 3,
+     "Lunar Pier": 3,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Twilight Harbor": 2,
+     "Northwind Tower": 1,
+     "Sapphire Arena": 1,
+     "Westgate Station": 1,
+     "Beacon Tower": 2,
+     "Haven Docks": 3,
+     "Lunar Pier": 2,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Summary of the Problem and Algorithm Used\nThe problem at hand is a **Graph Coloring** problem, which involves assigning colors (or frequencies) to nodes (Wi-Fi base stations) in such a way that no two adjacent nodes share the same color. The algorithm chosen for this task is the **Coloring Backtracking Algorithm**, which is suitable for small graphs and aims to find the minimum number of colors needed to avoid interference among the stations.\n\n### Tool's Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Minimum Number of Colors Used**: 3\n- **Color Assignment**: \n  - Twilight Harbor (0): Color 1\n  - Northwind Tower (1): Color 1\n  - Sapphire Arena (2): Color 2\n  - Westgate Station (3): Color 2\n  - Beacon Tower (4): Color 1\n  - Haven Docks (5): Color 3\n  - Lunar Pier (6): Color 3\n  - Knight’s Market (7): Color 3\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nFrom the output, we can see that a total of **3 colors** (or frequencies) are required to color the graph representing the Wi-Fi base stations without interference. The color assignments indicate that:\n- Twilight Harbor and Northwind Tower share the same color (Color 1).\n- Sapphire Arena and Westgate Station share Color 2.\n- Beacon Tower uses Color 1, while Haven Docks, Lunar Pier, and Knight’s Market use Color 3.\n\n### Final Answer\nThe minimum number of frequencies needed to avoid interference among the Wi-Fi base stations is **3**."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 25,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Shadowbridge Arcade",
+   "Westgate Station",
+   "Cobalt Market",
+   "Nimbus Plaza",
+   "Granite Plaza",
+   "Willowshade Pavilion",
+   "Sapphire Arena",
+   "Opal Theater"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Westgate Station": 2,
+     "Cobalt Market": 1,
+     "Nimbus Plaza": 3,
+     "Granite Plaza": 1,
+     "Willowshade Pavilion": 4,
+     "Sapphire Arena": 3,
+     "Opal Theater": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 1,
+     "Westgate Station": 2,
+     "Cobalt Market": 1,
+     "Nimbus Plaza": 3,
+     "Granite Plaza": 1,
+     "Willowshade Pavilion": 4,
+     "Sapphire Arena": 1,
+     "Opal Theater": 5
+    },
+    "min_colors": 5,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Shadowbridge Arcade": 2,
+     "Westgate Station": 1,
+     "Cobalt Market": 1,
+     "Nimbus Plaza": 2,
+     "Granite Plaza": 2,
+     "Willowshade Pavilion": 3,
+     "Sapphire Arena": 2,
+     "Opal Theater": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve the Graph Coloring problem using the Coloring Backtracking Algorithm. The goal is to assign frequencies (colors) to Wi-Fi base stations represented as nodes in an undirected graph, ensuring that no two adjacent stations share the same frequency. The graph consists of 8 nodes (base stations).\n\n### Algorithm Used\nThe algorithm employed is the **Coloring Backtracking Algorithm**, which efficiently explores all possible colorings to minimize the number of frequencies used.\n\n### Tool's Output\nThe output from the algorithm is as follows:\n- **Number of Colors Used**: 4\n- **Color Assignment**: [1, 2, 1, 3, 1, 4, 3, 1]\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm determined that a total of **4 colors** (frequencies) are required to color the graph. The specific color assignment for each node is:\n- Shadowbridge Arcade (Node 0): Color 1\n- Westgate Station (Node 1): Color 2\n- Cobalt Market (Node 2): Color 1\n- Nimbus Plaza (Node 3): Color 3\n- Granite Plaza (Node 4): Color 1\n- Willowshade Pavilion (Node 5): Color 4\n- Sapphire Arena (Node 6): Color 3\n- Opal Theater (Node 7): Color 1\n\n### Final Answer\nThe optimal frequency assignment for the Wi-Fi base stations is achieved using **4 frequencies**. The specific assignments ensure that no two adjacent stations use the same frequency, thus optimizing the network's performance."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 26,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Haven Docks",
+   "Quartz District",
+   "Evergreen Circle",
+   "Azure Gardens",
+   "Moonlit Promenade",
+   "Lunar Pier",
+   "Pennywhistle Arcade",
+   "Primrose Boulevard"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Haven Docks": 1,
+     "Quartz District": 2,
+     "Evergreen Circle": 2,
+     "Azure Gardens": 3,
+     "Moonlit Promenade": 2,
+     "Lunar Pier": 1,
+     "Pennywhistle Arcade": 3,
+     "Primrose Boulevard": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Haven Docks": 1,
+     "Quartz District": 2,
+     "Evergreen Circle": 1,
+     "Azure Gardens": 2,
+     "Moonlit Promenade": 3,
+     "Lunar Pier": 1,
+     "Pennywhistle Arcade": 3,
+     "Primrose Boulevard": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Haven Docks": 2,
+     "Quartz District": 3,
+     "Evergreen Circle": 3,
+     "Azure Gardens": 1,
+     "Moonlit Promenade": 3,
+     "Lunar Pier": 2,
+     "Pennywhistle Arcade": 1,
+     "Primrose Boulevard": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to solve the Graph Coloring problem using the Coloring Backtracking Algorithm. The goal is to assign frequencies (colors) to Wi-Fi base stations represented as nodes in an undirected graph, ensuring that no two adjacent stations use the same frequency. The graph consists of 8 base stations.\n\n### Algorithm Used\nThe algorithm employed is the **Coloring Backtracking Algorithm**, which is suitable for small graphs like this one. It explores possible assignments of colors to nodes while adhering to the constraints of the problem.\n\n### Tool Output\nThe output from the algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Haven Docks (Node 0): Color 1\n  - Quartz District (Node 1): Color 2\n  - Evergreen Circle (Node 2): Color 2\n  - Azure Gardens (Node 3): Color 3\n  - Moonlit Promenade (Node 4): Color 2\n  - Lunar Pier (Node 5): Color 1\n  - Pennywhistle Arcade (Node 6): Color 3\n  - Primrose Boulevard (Node 7): Color 1\n\n### Analysis of the Output\nThe algorithm successfully assigned colors to the base stations while ensuring that no two adjacent stations share the same frequency. The color assignments are as follows:\n- **Haven Docks**: Color 1\n- **Quartz District**: Color 2\n- **Evergreen Circle**: Color 2\n- **Azure Gardens**: Color 3\n- **Moonlit Promenade**: Color 2\n- **Lunar Pier**: Color 1\n- **Pennywhistle Arcade**: Color 3\n- **Primrose Boulevard**: Color 1\n\nThe total number of colors used is 3, which is efficient given the constraints of the problem.\n\n### Final Answer\nThe minimum number of frequencies (colors) required to assign to the Wi-Fi base stations while ensuring that no two adjacent stations use the same frequency is **3**. The specific color assignments for each base station have been detailed above."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 27,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Pennywhistle Arcade",
+   "Amber Plaza",
+   "Velvet Corner",
+   "Ironbridge Crossing",
+   "Quarry Point",
+   "Evergreen Circle",
+   "Jasper Marina",
+   "Union Square Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Amber Plaza": 2,
+     "Velvet Corner": 3,
+     "Ironbridge Crossing": 1,
+     "Quarry Point": 1,
+     "Evergreen Circle": 2,
+     "Jasper Marina": 3,
+     "Union Square Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Amber Plaza": 2,
+     "Velvet Corner": 3,
+     "Ironbridge Crossing": 1,
+     "Quarry Point": 1,
+     "Evergreen Circle": 2,
+     "Jasper Marina": 3,
+     "Union Square Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Pennywhistle Arcade": 1,
+     "Amber Plaza": 3,
+     "Velvet Corner": 2,
+     "Ironbridge Crossing": 1,
+     "Quarry Point": 1,
+     "Evergreen Circle": 2,
+     "Jasper Marina": 2,
+     "Union Square Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to color a graph representing Wi-Fi base stations using the Coloring Backtracking Algorithm. The goal is to minimize interference by ensuring that no two adjacent stations use the same frequency. The graph is undirected and consists of 8 nodes (Wi-Fi base stations).\n\n### Algorithm Used\nThe algorithm employed is the **Coloring Backtracking Algorithm**, which explores all possible colorings of the graph to find the optimal solution. Given the constraints of the problem, this algorithm is suitable for efficiently determining the minimum number of frequencies needed.\n\n### Tool Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Minimum Number of Colors Used**: 3\n- **Color Assignment**: \n  - Pennywhistle Arcade (0): Color 1\n  - Amber Plaza (1): Color 2\n  - Velvet Corner (2): Color 3\n  - Ironbridge Crossing (3): Color 1\n  - Quarry Point (4): Color 1\n  - Evergreen Circle (5): Color 2\n  - Jasper Marina (6): Color 3\n  - Union Square Market (7): Color 3\n\n### Analysis of Output\nThe algorithm successfully assigned colors to the nodes while ensuring that no two adjacent nodes share the same color. The minimum number of colors (frequencies) required to achieve this is 3. \n\n### Final Answer\nTo minimize interference among the Wi-Fi base stations, a total of **3 frequencies** are needed. The color assignments for the stations are as follows:\n- Pennywhistle Arcade: Frequency 1\n- Amber Plaza: Frequency 2\n- Velvet Corner: Frequency 3\n- Ironbridge Crossing: Frequency 1\n- Quarry Point: Frequency 1\n- Evergreen Circle: Frequency 2\n- Jasper Marina: Frequency 3\n- Union Square Market: Frequency 3\n\nThis ensures optimal coverage without interference among the stations."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 28,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Jade Fountain",
+   "Flare Alley",
+   "Cobalt Market",
+   "Union Square Market",
+   "Gilded Archway",
+   "Quartz District",
+   "Pennywhistle Arcade",
+   "Ivory Spire Cathedral"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Flare Alley": 2,
+     "Cobalt Market": 2,
+     "Union Square Market": 1,
+     "Gilded Archway": 1,
+     "Quartz District": 3,
+     "Pennywhistle Arcade": 3,
+     "Ivory Spire Cathedral": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Flare Alley": 2,
+     "Cobalt Market": 1,
+     "Union Square Market": 3,
+     "Gilded Archway": 1,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 4,
+     "Ivory Spire Cathedral": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Jade Fountain": 2,
+     "Flare Alley": 1,
+     "Cobalt Market": 1,
+     "Union Square Market": 2,
+     "Gilded Archway": 2,
+     "Quartz District": 3,
+     "Pennywhistle Arcade": 3,
+     "Ivory Spire Cathedral": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a **Graph Coloring** problem, where the objective is to assign frequencies (colors) to Wi-Fi base stations represented as nodes in a graph. The goal is to ensure that no two adjacent nodes (base stations with overlapping coverage areas) share the same frequency. Given that there are 8 nodes, we opted for the **Coloring Backtracking Algorithm** to find the optimal solution.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Complexity**: O(2^n), where n is the number of vertices (nodes).\n\n### Tool's Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Minimum Number of Colors Used**: 3\n- **Color Assignment**: \n  - Jade Fountain (Node 0): Color 1\n  - Flare Alley (Node 1): Color 2\n  - Cobalt Market (Node 2): Color 2\n  - Union Square Market (Node 3): Color 1\n  - Gilded Archway (Node 4): Color 1\n  - Quartz District (Node 5): Color 3\n  - Pennywhistle Arcade (Node 6): Color 3\n  - Ivory Spire Cathedral (Node 7): Color 3\n\n### Final Answer Analysis\nThe algorithm determined that a minimum of **3 frequencies** (colors) is required to color the graph such that no two adjacent nodes share the same frequency. The color assignments are as follows:\n\n- **Color 1**: Jade Fountain, Union Square Market, Gilded Archway\n- **Color 2**: Flare Alley, Cobalt Market\n- **Color 3**: Quartz District, Pennywhistle Arcade, Ivory Spire Cathedral\n\nThis solution effectively minimizes interference in the public Wi-Fi network by ensuring that adjacent base stations operate on different frequencies."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 29,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Dragon’s Gate",
+   "Maplewood Conservatory",
+   "Flare Alley",
+   "Knight’s Market",
+   "Amber Plaza",
+   "Beacon Tower",
+   "Pennywhistle Arcade",
+   "Granite Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Flare Alley": 1,
+     "Knight’s Market": 3,
+     "Amber Plaza": 1,
+     "Beacon Tower": 2,
+     "Pennywhistle Arcade": 3,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Flare Alley": 1,
+     "Knight’s Market": 3,
+     "Amber Plaza": 1,
+     "Beacon Tower": 2,
+     "Pennywhistle Arcade": 3,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Flare Alley": 1,
+     "Knight’s Market": 3,
+     "Amber Plaza": 1,
+     "Beacon Tower": 2,
+     "Pennywhistle Arcade": 3,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a **Graph Coloring** problem, where we need to assign frequencies (colors) to 8 Wi-Fi base stations (nodes) such that no two adjacent stations (nodes with overlapping coverage areas) share the same frequency. The chosen algorithm for this problem is the **Coloring Backtracking Algorithm**, which is suitable for small graphs like this one.\n\n### Tool Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Minimum Number of Colors Used**: 3\n- **Color Assignment**: \n  - Dragon's Gate (Node 0): Color 1\n  - Maplewood Conservatory (Node 1): Color 2\n  - Flare Alley (Node 2): Color 1\n  - Knight's Market (Node 3): Color 3\n  - Amber Plaza (Node 4): Color 1\n  - Beacon Tower (Node 5): Color 2\n  - Pennywhistle Arcade (Node 6): Color 3\n  - Granite Plaza (Node 7): Color 1\n\n### Analysis of the Output\nThe algorithm determined that a minimum of **3 colors** is required to color the graph such that no two adjacent nodes share the same color. The specific color assignments ensure that all adjacent nodes have different colors, fulfilling the requirements of the problem.\n\n### Final Answer\nThe optimal frequency assignment for the Wi-Fi base stations is as follows:\n- **Total Frequencies Used**: 3\n- **Assignments**:\n  - Dragon's Gate: Frequency 1\n  - Maplewood Conservatory: Frequency 2\n  - Flare Alley: Frequency 1\n  - Knight's Market: Frequency 3\n  - Amber Plaza: Frequency 1\n  - Beacon Tower: Frequency 2\n  - Pennywhistle Arcade: Frequency 3\n  - Granite Plaza: Frequency 1\n\nThis ensures efficient use of frequencies while preventing interference between adjacent stations."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 30,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Velvet Corner",
+   "Sapphire Arena",
+   "Skyline Gardens",
+   "Moonlit Promenade",
+   "Lighthouse Point",
+   "Rosewood Hall",
+   "Pennywhistle Arcade",
+   "Silvercrest Observatory"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Sapphire Arena": 1,
+     "Skyline Gardens": 2,
+     "Moonlit Promenade": 3,
+     "Lighthouse Point": 3,
+     "Rosewood Hall": 1,
+     "Pennywhistle Arcade": 3,
+     "Silvercrest Observatory": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Sapphire Arena": 1,
+     "Skyline Gardens": 2,
+     "Moonlit Promenade": 3,
+     "Lighthouse Point": 3,
+     "Rosewood Hall": 1,
+     "Pennywhistle Arcade": 3,
+     "Silvercrest Observatory": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Sapphire Arena": 3,
+     "Skyline Gardens": 1,
+     "Moonlit Promenade": 2,
+     "Lighthouse Point": 2,
+     "Rosewood Hall": 3,
+     "Pennywhistle Arcade": 2,
+     "Silvercrest Observatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve a graph coloring problem using the Coloring Backtracking Algorithm. The goal is to assign frequencies (colors) to Wi-Fi base stations represented as nodes in an undirected graph, ensuring that no two adjacent stations use the same frequency. This is crucial for minimizing interference among the stations.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Complexity**: O(2^n), suitable for small graphs (in this case, 8 stations).\n\n### Tool Output\nThe output from the graph coloring tool is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: [1, 1, 2, 3, 3, 1, 3, 2]\n  - This means:\n    - Velvet Corner (Node 0): Color 1\n    - Sapphire Arena (Node 1): Color 1\n    - Skyline Gardens (Node 2): Color 2\n    - Moonlit Promenade (Node 3): Color 3\n    - Lighthouse Point (Node 4): Color 3\n    - Rosewood Hall (Node 5): Color 1\n    - Pennywhistle Arcade (Node 6): Color 3\n    - Silvercrest Observatory (Node 7): Color 2\n\n### Analysis of the Output\nThe algorithm successfully assigned 3 different frequencies to the 8 Wi-Fi base stations while ensuring that no two adjacent stations share the same frequency. The color assignments are as follows:\n\n- **Velvet Corner** and **Sapphire Arena** share the same frequency (1), but they are not adjacent.\n- **Skyline Gardens** is assigned frequency (2).\n- **Moonlit Promenade** and **Lighthouse Point** share frequency (3), but they are not adjacent.\n- **Rosewood Hall** is assigned frequency (1) again, which is valid as it is not adjacent to Velvet Corner or Sapphire Arena.\n- **Pennywhistle Arcade** is assigned frequency (3), which is valid as it is not adjacent to Moonlit Promenade or Lighthouse Point.\n- **Silvercrest Observatory** is assigned frequency (2), which is valid as it is not adjacent to Skyline Gardens.\n\n### Final Answer\nThe optimal frequency assignment for the Wi-Fi base stations is as follows:\n- Velvet Corner: Frequency 1\n- Sapphire Arena: Frequency 1\n- Skyline Gardens: Frequency 2\n- Moonlit Promenade: Frequency 3\n- Lighthouse Point: Frequency 3\n- Rosewood Hall: Frequency 1\n- Pennywhistle Arcade: Frequency 3\n- Silvercrest Observatory: Frequency 2\n\nThis configuration uses a total of **3 frequencies** effectively, minimizing interference among the stations."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 31,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Zenith Arena",
+   "Pennywhistle Arcade",
+   "Haven Docks",
+   "Amber Plaza",
+   "Lunar Pier",
+   "Quartz District",
+   "Oakshade Library",
+   "Willowshade Pavilion"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Zenith Arena": 1,
+     "Pennywhistle Arcade": 2,
+     "Haven Docks": 1,
+     "Amber Plaza": 2,
+     "Lunar Pier": 1,
+     "Quartz District": 1,
+     "Oakshade Library": 3,
+     "Willowshade Pavilion": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Zenith Arena": 1,
+     "Pennywhistle Arcade": 2,
+     "Haven Docks": 1,
+     "Amber Plaza": 1,
+     "Lunar Pier": 1,
+     "Quartz District": 3,
+     "Oakshade Library": 3,
+     "Willowshade Pavilion": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Zenith Arena": 3,
+     "Pennywhistle Arcade": 2,
+     "Haven Docks": 3,
+     "Amber Plaza": 2,
+     "Lunar Pier": 2,
+     "Quartz District": 1,
+     "Oakshade Library": 1,
+     "Willowshade Pavilion": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to color a graph representing Wi-Fi base stations using the Coloring Backtracking Algorithm. The goal is to assign frequencies (colors) to the base stations such that no two adjacent stations (which may interfere with each other) use the same frequency. The graph is undirected and consists of 8 stations.\n\n### Algorithm Used\nThe algorithm employed is the **Coloring Backtracking Algorithm**, which is suitable for small graphs like this one, allowing for an exhaustive search of all possible combinations to minimize the number of frequencies needed.\n\n### Tool's Output\nThe output from the algorithm is as follows:\n- **Number of colors used**: 3\n- **Color assignment**: [1, 2, 1, 2, 1, 1, 3, 1]\n- **Execution time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm determined that a total of **3 colors** (frequencies) are needed to color the graph. The color assignment indicates which frequency is assigned to each base station:\n- Zenith Arena (0): Color 1\n- Pennywhistle Arcade (1): Color 2\n- Haven Docks (2): Color 1\n- Amber Plaza (3): Color 2\n- Lunar Pier (4): Color 1\n- Quartz District (5): Color 1\n- Oakshade Library (6): Color 3\n- Willowshade Pavilion (7): Color 1\n\n### Final Answer\nThe minimum number of frequencies required to assign to the Wi-Fi base stations, ensuring that no two adjacent stations interfere with each other, is **3 frequencies**."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 32,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Silvercrest Observatory",
+   "Rosewood Hall",
+   "Zenith Arena",
+   "Lunar Pier",
+   "Nimbus Plaza",
+   "Maplewood Conservatory",
+   "Echo Station",
+   "Pennywhistle Arcade"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Silvercrest Observatory": 1,
+     "Rosewood Hall": 2,
+     "Zenith Arena": 1,
+     "Lunar Pier": 3,
+     "Nimbus Plaza": 1,
+     "Maplewood Conservatory": 2,
+     "Echo Station": 3,
+     "Pennywhistle Arcade": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Silvercrest Observatory": 1,
+     "Rosewood Hall": 2,
+     "Zenith Arena": 1,
+     "Lunar Pier": 3,
+     "Nimbus Plaza": 1,
+     "Maplewood Conservatory": 2,
+     "Echo Station": 3,
+     "Pennywhistle Arcade": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Silvercrest Observatory": 2,
+     "Rosewood Hall": 1,
+     "Zenith Arena": 2,
+     "Lunar Pier": 3,
+     "Nimbus Plaza": 2,
+     "Maplewood Conservatory": 1,
+     "Echo Station": 3,
+     "Pennywhistle Arcade": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a **Graph Coloring** problem, where we need to assign frequencies (colors) to Wi-Fi base stations represented as nodes in an undirected graph. The goal is to minimize the number of frequencies used while ensuring that no two adjacent stations (nodes) share the same frequency, thus avoiding interference.\n\n### Algorithm Used\nThe algorithm employed for this problem is the **Coloring Backtracking Algorithm**. This algorithm explores all possible color assignments for the nodes and is suitable for small graphs, making it a good fit for this scenario with eight stations.\n\n### Tool Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Silvercrest Observatory (Node 0): Color 1\n  - Rosewood Hall (Node 1): Color 2\n  - Zenith Arena (Node 2): Color 1\n  - Lunar Pier (Node 3): Color 3\n  - Nimbus Plaza (Node 4): Color 1\n  - Maplewood Conservatory (Node 5): Color 2\n  - Echo Station (Node 6): Color 3\n  - Pennywhistle Arcade (Node 7): Color 2\n\n### Analysis of the Output\nThe algorithm successfully assigned frequencies to the eight Wi-Fi base stations while ensuring that no two adjacent stations share the same frequency. The minimum number of frequencies used is **3**, which is optimal given the graph's structure.\n\n### Final Answer\nThe minimum number of frequencies required to avoid interference among the Wi-Fi base stations is **3**. The color assignments are as follows:\n- Silvercrest Observatory: Frequency 1\n- Rosewood Hall: Frequency 2\n- Zenith Arena: Frequency 1\n- Lunar Pier: Frequency 3\n- Nimbus Plaza: Frequency 1\n- Maplewood Conservatory: Frequency 2\n- Echo Station: Frequency 3\n- Pennywhistle Arcade: Frequency 2"
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 33,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Duskwood Park",
+   "Dragon’s Gate",
+   "Maplewood Conservatory",
+   "Northwind Tower",
+   "Umbra Theater",
+   "Flare Alley",
+   "King’s Row",
+   "Evergreen Circle"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Northwind Tower": 2,
+     "Umbra Theater": 1,
+     "Flare Alley": 3,
+     "King’s Row": 3,
+     "Evergreen Circle": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Dragon’s Gate": 1,
+     "Maplewood Conservatory": 2,
+     "Northwind Tower": 2,
+     "Umbra Theater": 1,
+     "Flare Alley": 3,
+     "King’s Row": 3,
+     "Evergreen Circle": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Duskwood Park": 2,
+     "Dragon’s Gate": 2,
+     "Maplewood Conservatory": 1,
+     "Northwind Tower": 1,
+     "Umbra Theater": 3,
+     "Flare Alley": 3,
+     "King’s Row": 2,
+     "Evergreen Circle": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Summary of the Problem and Algorithm Used\nThe problem at hand is related to **Graph Coloring**, specifically assigning frequencies to Wi-Fi base stations while ensuring that no two adjacent stations use the same frequency. The algorithm employed to solve this problem is the **Coloring Backtracking Algorithm**, which is suitable for small graphs due to its exhaustive search nature.\n\n### Tool's Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Duskwood Park (0): Color 1\n  - Dragon’s Gate (1): Color 1\n  - Maplewood Conservatory (2): Color 2\n  - Northwind Tower (3): Color 2\n  - Umbra Theater (4): Color 1\n  - Flare Alley (5): Color 3\n  - King’s Row (6): Color 3\n  - Evergreen Circle (7): Color 2\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm successfully assigned frequencies (colors) to the 8 Wi-Fi base stations while ensuring that no two adjacent stations share the same frequency. The color assignment indicates that:\n- Stations Duskwood Park and Dragon’s Gate share the same frequency (Color 1).\n- Maplewood Conservatory and Northwind Tower share a different frequency (Color 2).\n- Umbra Theater uses Color 1, Flare Alley uses Color 3, King’s Row uses Color 3, and Evergreen Circle uses Color 2.\n\n### Final Answer\nThe optimal frequency assignment for the Wi-Fi base stations is as follows:\n- **Duskwood Park**: Frequency 1\n- **Dragon’s Gate**: Frequency 1\n- **Maplewood Conservatory**: Frequency 2\n- **Northwind Tower**: Frequency 2\n- **Umbra Theater**: Frequency 1\n- **Flare Alley**: Frequency 3\n- **King’s Row**: Frequency 3\n- **Evergreen Circle**: Frequency 2\n\nIn total, **3 different frequencies** are required to ensure that no two adjacent stations interfere with each other."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 34,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lighthouse Point",
+   "Ironbridge Crossing",
+   "Echo Station",
+   "Oakshade Library",
+   "Umbra Theater",
+   "Westgate Station",
+   "Jade Fountain",
+   "Jasper Marina"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Ironbridge Crossing": 1,
+     "Echo Station": 2,
+     "Oakshade Library": 1,
+     "Umbra Theater": 2,
+     "Westgate Station": 3,
+     "Jade Fountain": 1,
+     "Jasper Marina": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Ironbridge Crossing": 1,
+     "Echo Station": 2,
+     "Oakshade Library": 1,
+     "Umbra Theater": 2,
+     "Westgate Station": 3,
+     "Jade Fountain": 1,
+     "Jasper Marina": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lighthouse Point": 2,
+     "Ironbridge Crossing": 3,
+     "Echo Station": 1,
+     "Oakshade Library": 2,
+     "Umbra Theater": 1,
+     "Westgate Station": 2,
+     "Jade Fountain": 3,
+     "Jasper Marina": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve the Graph Coloring problem using the Coloring Backtracking Algorithm. The goal is to assign frequencies to 8 Wi-Fi base stations represented as nodes in an undirected graph, ensuring that no two adjacent stations (with overlapping coverage areas) use the same frequency.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Complexity**: O(2^n), where n is the number of vertices (stations).\n\n### Tool Output\nThe output from the Coloring Backtracking Algorithm is:\n- **Number of Colors Used**: 3\n- **Color Assignment**: [1, 1, 2, 1, 2, 3, 1, 3]\n- **Execution Time**: 0.0 seconds\n\n### Analysis of Output\nThe algorithm determined that a minimum of 3 different frequencies (colors) is required to color the graph. The color assignment for each station is as follows:\n- Lighthouse Point (0): Color 1\n- Ironbridge Crossing (1): Color 1\n- Echo Station (2): Color 2\n- Oakshade Library (3): Color 1\n- Umbra Theater (4): Color 2\n- Westgate Station (5): Color 3\n- Jade Fountain (6): Color 1\n- Jasper Marina (7): Color 3\n\n### Final Answer\nTo optimally assign frequencies to the 8 Wi-Fi base stations while ensuring that no two adjacent stations use the same frequency, a total of **3 frequencies** are required. The specific frequency assignments are detailed above, ensuring compliance with the adjacency constraints of the coverage areas."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 35,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quartz District",
+   "Yarrow Plaza",
+   "Mosaic Plaza",
+   "Temple Square",
+   "Evergreen Circle",
+   "Pennywhistle Arcade",
+   "Sapphire Arena",
+   "Maplewood Conservatory"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Yarrow Plaza": 2,
+     "Mosaic Plaza": 2,
+     "Temple Square": 3,
+     "Evergreen Circle": 2,
+     "Pennywhistle Arcade": 1,
+     "Sapphire Arena": 2,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Yarrow Plaza": 2,
+     "Mosaic Plaza": 2,
+     "Temple Square": 3,
+     "Evergreen Circle": 2,
+     "Pennywhistle Arcade": 1,
+     "Sapphire Arena": 2,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quartz District": 1,
+     "Yarrow Plaza": 2,
+     "Mosaic Plaza": 2,
+     "Temple Square": 3,
+     "Evergreen Circle": 2,
+     "Pennywhistle Arcade": 1,
+     "Sapphire Arena": 2,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve a graph coloring problem where we need to assign frequencies (colors) to Wi-Fi base stations (nodes) in such a way that no two adjacent stations (connected nodes) use the same frequency. The graph consists of 8 nodes representing major locations.\n\n### Algorithm Used\nThe **Coloring Backtracking Algorithm** was selected for this problem due to the small size of the graph (8 nodes), which allows for an optimal solution through exhaustive exploration of possible color assignments.\n\n### Tool's Output\nThe output from the graph coloring algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Quartz District (Node 0): Color 1\n  - Yarrow Plaza (Node 1): Color 2\n  - Mosaic Plaza (Node 2): Color 2\n  - Temple Square (Node 3): Color 3\n  - Evergreen Circle (Node 4): Color 2\n  - Pennywhistle Arcade (Node 5): Color 1\n  - Sapphire Arena (Node 6): Color 2\n  - Maplewood Conservatory (Node 7): Color 3\n\n### Analysis of the Output\nThe algorithm successfully assigned colors to the nodes while ensuring that no two adjacent nodes share the same color. The color assignments are as follows:\n- **Color 1**: Quartz District, Pennywhistle Arcade\n- **Color 2**: Yarrow Plaza, Mosaic Plaza, Evergreen Circle, Sapphire Arena\n- **Color 3**: Temple Square, Maplewood Conservatory\n\nThis means that the Wi-Fi base stations can operate on these frequencies without causing interference with each other.\n\n### Final Answer\nThe optimal frequency assignment for the Wi-Fi base stations is as follows:\n- **Quartz District**: Frequency 1\n- **Yarrow Plaza**: Frequency 2\n- **Mosaic Plaza**: Frequency 2\n- **Temple Square**: Frequency 3\n- **Evergreen Circle**: Frequency 2\n- **Pennywhistle Arcade**: Frequency 1\n- **Sapphire Arena**: Frequency 2\n- **Maplewood Conservatory**: Frequency 3\n\nIn total, **3 different frequencies** are used to minimize interference among the stations."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 36,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "King’s Row",
+   "Sapphire Arena",
+   "Gilded Archway",
+   "Quartz District",
+   "Pennywhistle Arcade",
+   "Haven Docks",
+   "Flint Forge Quarter",
+   "Velvet Corner"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Sapphire Arena": 2,
+     "Gilded Archway": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Haven Docks": 3,
+     "Flint Forge Quarter": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Sapphire Arena": 2,
+     "Gilded Archway": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Haven Docks": 3,
+     "Flint Forge Quarter": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Sapphire Arena": 2,
+     "Gilded Archway": 2,
+     "Quartz District": 1,
+     "Pennywhistle Arcade": 3,
+     "Haven Docks": 3,
+     "Flint Forge Quarter": 3,
+     "Velvet Corner": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve a **Graph Coloring** problem for allocating frequencies to Wi-Fi base stations represented as nodes in a graph. The goal is to assign colors (frequencies) to these nodes such that no two adjacent nodes share the same color, thereby minimizing interference.\n\n### Algorithm Used\nThe **Coloring Backtracking Algorithm** was selected for this problem due to the small size of the graph (8 nodes). This algorithm systematically explores all possible color assignments to find the minimal number of frequencies needed.\n\n### Tool's Output\nThe output from the algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - King's Row (Node 0): Color 1\n  - Sapphire Arena (Node 1): Color 2\n  - Gilded Archway (Node 2): Color 2\n  - Quartz District (Node 3): Color 1\n  - Pennywhistle Arcade (Node 4): Color 3\n  - Haven Docks (Node 5): Color 3\n  - Flint Forge Quarter (Node 6): Color 3\n  - Velvet Corner (Node 7): Color 1\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm successfully assigned frequencies (colors) to the Wi-Fi base stations while ensuring that no two adjacent stations share the same frequency. The color assignments are as follows:\n- **Color 1**: King's Row, Quartz District, Velvet Corner\n- **Color 2**: Sapphire Arena, Gilded Archway\n- **Color 3**: Pennywhistle Arcade, Haven Docks, Flint Forge Quarter\n\n### Final Answer\nThe minimum number of frequencies required to allocate to the Wi-Fi base stations is **3**. The specific frequency assignments are as follows:\n- **King's Row**: Frequency 1\n- **Sapphire Arena**: Frequency 2\n- **Gilded Archway**: Frequency 2\n- **Quartz District**: Frequency 1\n- **Pennywhistle Arcade**: Frequency 3\n- **Haven Docks**: Frequency 3\n- **Flint Forge Quarter**: Frequency 3\n- **Velvet Corner**: Frequency 1\n\nThis ensures that all adjacent stations operate on different frequencies, minimizing interference."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 37,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Jade Fountain",
+   "Brass Lantern Tavern",
+   "Lunar Pier",
+   "Sapphire Arena",
+   "Mosaic Plaza",
+   "Pennywhistle Arcade",
+   "Dragon’s Gate",
+   "Granite Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Brass Lantern Tavern": 2,
+     "Lunar Pier": 1,
+     "Sapphire Arena": 3,
+     "Mosaic Plaza": 1,
+     "Pennywhistle Arcade": 2,
+     "Dragon’s Gate": 2,
+     "Granite Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Jade Fountain": 1,
+     "Brass Lantern Tavern": 2,
+     "Lunar Pier": 1,
+     "Sapphire Arena": 3,
+     "Mosaic Plaza": 1,
+     "Pennywhistle Arcade": 2,
+     "Dragon’s Gate": 2,
+     "Granite Plaza": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Jade Fountain": 3,
+     "Brass Lantern Tavern": 1,
+     "Lunar Pier": 2,
+     "Sapphire Arena": 2,
+     "Mosaic Plaza": 2,
+     "Pennywhistle Arcade": 1,
+     "Dragon’s Gate": 3,
+     "Granite Plaza": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to color a graph representing connections between eight Wi-Fi base stations using the Coloring Backtracking Algorithm. The goal is to assign frequencies (colors) to the base stations such that no two adjacent stations use the same frequency. The graph is undirected, and the adjacency list is provided.\n\n### Algorithm Used\nThe algorithm utilized is the **Coloring Backtracking Algorithm**, which explores all possible colorings of the graph to minimize the number of frequencies used.\n\n### Tool's Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: [1, 2, 1, 3, 1, 2, 2, 3]\n  - This means:\n    - Jade Fountain (0) is assigned color 1\n    - Brass Lantern Tavern (1) is assigned color 2\n    - Lunar Pier (2) is assigned color 1\n    - Sapphire Arena (3) is assigned color 3\n    - Mosaic Plaza (4) is assigned color 1\n    - Pennywhistle Arcade (5) is assigned color 2\n    - Dragon’s Gate (6) is assigned color 2\n    - Granite Plaza (7) is assigned color 3\n\n### Final Answer Analysis\nThe algorithm successfully assigned frequencies to the eight Wi-Fi base stations while ensuring that no two adjacent stations share the same frequency. The minimum number of frequencies used is **3**.\n\n### Conclusion\nThe final answer to the problem is that **3 frequencies** are required to color the graph representing the Wi-Fi base stations, with the specific color assignments detailed above."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 38,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Primrose Boulevard",
+   "Velvet Corner",
+   "Umbra Theater",
+   "Granite Plaza",
+   "Evergreen Circle",
+   "Azure Gardens",
+   "Yarrow Plaza",
+   "Dragon’s Gate"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Umbra Theater": 1,
+     "Granite Plaza": 3,
+     "Evergreen Circle": 2,
+     "Azure Gardens": 2,
+     "Yarrow Plaza": 1,
+     "Dragon’s Gate": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Umbra Theater": 1,
+     "Granite Plaza": 3,
+     "Evergreen Circle": 2,
+     "Azure Gardens": 2,
+     "Yarrow Plaza": 1,
+     "Dragon’s Gate": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Primrose Boulevard": 1,
+     "Velvet Corner": 2,
+     "Umbra Theater": 1,
+     "Granite Plaza": 3,
+     "Evergreen Circle": 2,
+     "Azure Gardens": 2,
+     "Yarrow Plaza": 1,
+     "Dragon’s Gate": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task involves solving a graph coloring problem using the Coloring Backtracking Algorithm. The goal is to assign colors (or frequencies) to Wi-Fi base stations represented as nodes in an undirected graph such that no two adjacent nodes (stations) share the same color. This is crucial to avoid interference between the stations.\n\n### Algorithm Used\nThe algorithm employed is the **Coloring Backtracking Algorithm**, which is suitable for this problem due to its ability to explore all possible colorings and find the optimal solution. Given that the graph has fewer than 18 nodes, this algorithm is efficient for our needs.\n\n### Tool's Output\nThe output from the tool is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Primrose Boulevard: 1\n  - Velvet Corner: 2\n  - Umbra Theater: 1\n  - Granite Plaza: 3\n  - Evergreen Circle: 2\n  - Azure Gardens: 2\n  - Yarrow Plaza: 1\n  - Dragon’s Gate: 1\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm successfully assigned colors to the nodes while ensuring that no two adjacent nodes share the same color. The color assignments are as follows:\n- **Primrose Boulevard** (Node 0) is assigned color 1.\n- **Velvet Corner** (Node 1) is assigned color 2.\n- **Umbra Theater** (Node 2) is assigned color 1.\n- **Granite Plaza** (Node 3) is assigned color 3.\n- **Evergreen Circle** (Node 4) is assigned color 2.\n- **Azure Gardens** (Node 5) is assigned color 2.\n- **Yarrow Plaza** (Node 6) is assigned color 1.\n- **Dragon’s Gate** (Node 7) is assigned color 1.\n\nThe total number of colors used is 3, which indicates that the algorithm efficiently minimized the number of frequencies needed for the Wi-Fi base stations.\n\n### Final Answer\nThe optimal coloring of the Wi-Fi base stations requires **3 different frequencies**. The color assignments are as follows:\n- Primrose Boulevard: Frequency 1\n- Velvet Corner: Frequency 2\n- Umbra Theater: Frequency 1\n- Granite Plaza: Frequency 3\n- Evergreen Circle: Frequency 2\n- Azure Gardens: Frequency 2\n- Yarrow Plaza: Frequency 1\n- Dragon’s Gate: Frequency 1\n\nThis ensures that no two adjacent stations interfere with each other."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 39,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Willowshade Pavilion",
+   "Skyline Gardens",
+   "Horizon Mall",
+   "Opal Theater",
+   "Lighthouse Point",
+   "Ironbridge Crossing",
+   "Zenith Arena",
+   "Maplewood Conservatory"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 1,
+     "Skyline Gardens": 2,
+     "Horizon Mall": 2,
+     "Opal Theater": 1,
+     "Lighthouse Point": 2,
+     "Ironbridge Crossing": 3,
+     "Zenith Arena": 3,
+     "Maplewood Conservatory": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 1,
+     "Skyline Gardens": 1,
+     "Horizon Mall": 1,
+     "Opal Theater": 2,
+     "Lighthouse Point": 3,
+     "Ironbridge Crossing": 4,
+     "Zenith Arena": 1,
+     "Maplewood Conservatory": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Willowshade Pavilion": 3,
+     "Skyline Gardens": 1,
+     "Horizon Mall": 1,
+     "Opal Theater": 3,
+     "Lighthouse Point": 1,
+     "Ironbridge Crossing": 2,
+     "Zenith Arena": 2,
+     "Maplewood Conservatory": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a Graph Coloring problem, specifically using the Coloring Backtracking Algorithm. The goal is to assign frequencies (colors) to eight Wi-Fi base stations (nodes) such that no two adjacent stations share the same frequency. The adjacency list provided represents the connections between these stations.\n\n### Algorithm Used\nThe algorithm employed is the **Coloring Backtracking Algorithm**, which explores all possible colorings of the graph to minimize the number of colors used while ensuring that adjacent nodes do not share the same color.\n\n### Tool Output\nThe output from the tool is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Willowshade Pavilion (Node 0): Color 1\n  - Skyline Gardens (Node 1): Color 2\n  - Horizon Mall (Node 2): Color 2\n  - Opal Theater (Node 3): Color 1\n  - Lighthouse Point (Node 4): Color 2\n  - Ironbridge Crossing (Node 5): Color 3\n  - Zenith Arena (Node 6): Color 3\n  - Maplewood Conservatory (Node 7): Color 1\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nFrom the output, we can see that the algorithm successfully assigned colors to the eight base stations while adhering to the constraints of the problem. The color assignments are as follows:\n\n- **Willowshade Pavilion**: Color 1\n- **Skyline Gardens**: Color 2\n- **Horizon Mall**: Color 2\n- **Opal Theater**: Color 1\n- **Lighthouse Point**: Color 2\n- **Ironbridge Crossing**: Color 3\n- **Zenith Arena**: Color 3\n- **Maplewood Conservatory**: Color 1\n\nThis means that the minimum number of frequencies required to ensure that no two adjacent stations share the same frequency is **3**.\n\n### Final Answer\nThe optimal solution for the graph coloring problem is to use **3 frequencies** for the eight Wi-Fi base stations, with the specific color assignments detailed above."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 40,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Velvet Corner",
+   "Rosewood Hall",
+   "Flint Forge Quarter",
+   "Evergreen Circle",
+   "Oakshade Library",
+   "Gilded Archway",
+   "Union Square Market",
+   "Knight’s Market"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Rosewood Hall": 2,
+     "Flint Forge Quarter": 2,
+     "Evergreen Circle": 2,
+     "Oakshade Library": 3,
+     "Gilded Archway": 3,
+     "Union Square Market": 1,
+     "Knight’s Market": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Velvet Corner": 1,
+     "Rosewood Hall": 1,
+     "Flint Forge Quarter": 1,
+     "Evergreen Circle": 2,
+     "Oakshade Library": 3,
+     "Gilded Archway": 2,
+     "Union Square Market": 4,
+     "Knight’s Market": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Velvet Corner": 3,
+     "Rosewood Hall": 1,
+     "Flint Forge Quarter": 1,
+     "Evergreen Circle": 1,
+     "Oakshade Library": 2,
+     "Gilded Archway": 2,
+     "Union Square Market": 3,
+     "Knight’s Market": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a **Graph Coloring** problem, where the objective is to assign frequencies (colors) to Wi-Fi base stations (nodes) in such a way that no two adjacent stations share the same frequency. The algorithm selected for this problem is the **Coloring Backtracking Algorithm**, which is well-suited for small graphs like this one, consisting of 8 nodes.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Parameters**: \n  - Adjacency List: \n    ```json\n    {\n      \"0\": [[3, 1], [4, 1]],\n      \"1\": [[5, 1], [6, 1], [7, 1]],\n      \"2\": [[6, 1]],\n      \"3\": [[4, 1], [6, 1], [7, 1]],\n      \"4\": [[6, 1], [7, 1]],\n      \"5\": [[7, 1]],\n      \"6\": [],\n      \"7\": []\n    }\n    ```\n\n### Tool's Output\nThe output from the Coloring Backtracking Algorithm is:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Node 0: Color 1\n  - Node 1: Color 2\n  - Node 2: Color 2\n  - Node 3: Color 2\n  - Node 4: Color 3\n  - Node 5: Color 3\n  - Node 6: Color 1\n  - Node 7: Color 1\n\n### Analysis of the Output\nThe algorithm successfully assigned colors to the nodes while ensuring that no two adjacent nodes share the same color. The color assignments are as follows:\n- **Velvet Corner (Node 0)**: Color 1\n- **Rosewood Hall (Node 1)**: Color 2\n- **Flint Forge Quarter (Node 2)**: Color 2\n- **Evergreen Circle (Node 3)**: Color 2\n- **Oakshade Library (Node 4)**: Color 3\n- **Gilded Archway (Node 5)**: Color 3\n- **Union Square Market (Node 6)**: Color 1\n- **Knight’s Market (Node 7)**: Color 1\n\n### Final Answer\nThe optimal frequency assignment for the Wi-Fi base stations, ensuring that adjacent stations do not share the same frequency, uses a total of **3 different frequencies**. The specific assignments are as follows:\n- Velvet Corner: Frequency 1\n- Rosewood Hall: Frequency 2\n- Flint Forge Quarter: Frequency 2\n- Evergreen Circle: Frequency 2\n- Oakshade Library: Frequency 3\n- Gilded Archway: Frequency 3\n- Union Square Market: Frequency 1\n- Knight’s Market: Frequency 1\n\nThis solution effectively minimizes the number of frequencies used while adhering to the constraints of the problem."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 41,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Duskwood Park",
+   "Opal Theater",
+   "Pennywhistle Arcade",
+   "Copper Clock Square",
+   "Ironbridge Crossing",
+   "Oakshade Library",
+   "Velvet Corner",
+   "Jade Fountain"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Opal Theater": 2,
+     "Pennywhistle Arcade": 1,
+     "Copper Clock Square": 2,
+     "Ironbridge Crossing": 2,
+     "Oakshade Library": 3,
+     "Velvet Corner": 1,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Opal Theater": 2,
+     "Pennywhistle Arcade": 1,
+     "Copper Clock Square": 2,
+     "Ironbridge Crossing": 2,
+     "Oakshade Library": 3,
+     "Velvet Corner": 1,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Duskwood Park": 1,
+     "Opal Theater": 2,
+     "Pennywhistle Arcade": 1,
+     "Copper Clock Square": 2,
+     "Ironbridge Crossing": 2,
+     "Oakshade Library": 3,
+     "Velvet Corner": 1,
+     "Jade Fountain": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a **Graph Coloring** problem, where we need to assign frequencies (or colors) to Wi-Fi base stations (nodes) in such a way that no two adjacent stations share the same frequency. The graph is represented as an undirected graph with 8 nodes, which corresponds to various locations.\n\n### Algorithm Used\nThe **Coloring Backtracking Algorithm** was selected for this problem due to the small size of the graph (fewer than 18 nodes). This algorithm systematically explores possible colorings to find the optimal solution.\n\n### Tool Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Duskwood Park (Node 0): Color 1\n  - Opal Theater (Node 1): Color 2\n  - Pennywhistle Arcade (Node 2): Color 1\n  - Copper Clock Square (Node 3): Color 2\n  - Ironbridge Crossing (Node 4): Color 2\n  - Oakshade Library (Node 5): Color 3\n  - Velvet Corner (Node 6): Color 1\n  - Jade Fountain (Node 7): Color 3\n- **Execution Time**: 0.0 seconds\n\n### Final Answer\nThe optimal frequency assignment for the Wi-Fi base stations is achieved using **3 different frequencies**. The specific assignments are as follows:\n- **Duskwood Park**: Frequency 1\n- **Opal Theater**: Frequency 2\n- **Pennywhistle Arcade**: Frequency 1\n- **Copper Clock Square**: Frequency 2\n- **Ironbridge Crossing**: Frequency 2\n- **Oakshade Library**: Frequency 3\n- **Velvet Corner**: Frequency 1\n- **Jade Fountain**: Frequency 3\n\nThis ensures that no two adjacent Wi-Fi base stations interfere with each other by using the same frequency."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 42,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Yarrow Plaza",
+   "Skyline Gardens",
+   "Jasper Marina",
+   "Haven Docks",
+   "Azure Gardens",
+   "Silvercrest Observatory",
+   "Rosewood Hall",
+   "Lunar Pier"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Skyline Gardens": 1,
+     "Jasper Marina": 2,
+     "Haven Docks": 2,
+     "Azure Gardens": 2,
+     "Silvercrest Observatory": 3,
+     "Rosewood Hall": 3,
+     "Lunar Pier": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Skyline Gardens": 1,
+     "Jasper Marina": 2,
+     "Haven Docks": 2,
+     "Azure Gardens": 2,
+     "Silvercrest Observatory": 3,
+     "Rosewood Hall": 3,
+     "Lunar Pier": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Skyline Gardens": 1,
+     "Jasper Marina": 2,
+     "Haven Docks": 2,
+     "Azure Gardens": 2,
+     "Silvercrest Observatory": 3,
+     "Rosewood Hall": 3,
+     "Lunar Pier": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a **Graph Coloring** problem, where we need to assign frequencies (colors) to Wi-Fi base stations (nodes) in such a way that no two adjacent stations (those that have overlapping coverage areas) use the same frequency. The algorithm specified for this task is the **Coloring Backtracking Algorithm**, which is optimal for small graphs like the one we have with 8 stations.\n\n### Algorithm Used\nThe **Coloring Backtracking Algorithm** was employed to find the minimal number of frequencies needed for the given adjacency list of the graph.\n\n### Tool's Output\nThe output from the algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Yarrow Plaza (0): Color 1\n  - Skyline Gardens (1): Color 1\n  - Jasper Marina (2): Color 2\n  - Haven Docks (3): Color 2\n  - Azure Gardens (4): Color 2\n  - Silvercrest Observatory (5): Color 3\n  - Rosewood Hall (6): Color 3\n  - Lunar Pier (7): Color 1\n\n### Analysis of the Output\nThe algorithm successfully determined that a total of **3 different frequencies** (colors) are required to ensure that no two adjacent Wi-Fi base stations share the same frequency. The color assignments indicate which frequency each station will use, ensuring compliance with the adjacency constraints.\n\n### Final Answer\nThe minimal number of frequencies needed to assign to the Wi-Fi base stations is **3**. The color assignments are as follows:\n- Yarrow Plaza: Frequency 1\n- Skyline Gardens: Frequency 1\n- Jasper Marina: Frequency 2\n- Haven Docks: Frequency 2\n- Azure Gardens: Frequency 2\n- Silvercrest Observatory: Frequency 3\n- Rosewood Hall: Frequency 3\n- Lunar Pier: Frequency 1\n\nThis solution effectively minimizes interference between the stations while adhering to the coverage area constraints."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 43,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "King’s Row",
+   "Oakshade Library",
+   "Velvet Corner",
+   "Moonlit Promenade",
+   "Rosewood Hall",
+   "Union Square Market",
+   "Primrose Boulevard",
+   "Beacon Tower"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Oakshade Library": 1,
+     "Velvet Corner": 1,
+     "Moonlit Promenade": 2,
+     "Rosewood Hall": 3,
+     "Union Square Market": 2,
+     "Primrose Boulevard": 1,
+     "Beacon Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "King’s Row": 1,
+     "Oakshade Library": 1,
+     "Velvet Corner": 1,
+     "Moonlit Promenade": 2,
+     "Rosewood Hall": 2,
+     "Union Square Market": 3,
+     "Primrose Boulevard": 1,
+     "Beacon Tower": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "King’s Row": 2,
+     "Oakshade Library": 2,
+     "Velvet Corner": 2,
+     "Moonlit Promenade": 1,
+     "Rosewood Hall": 3,
+     "Union Square Market": 1,
+     "Primrose Boulevard": 2,
+     "Beacon Tower": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Summary of the Problem and Algorithm Used\nThe problem at hand is **Graph Coloring**, specifically using the **Coloring Backtracking Algorithm**. This algorithm is designed to optimally assign frequencies to Wi-Fi base stations, ensuring that no two adjacent stations use the same frequency. Given that there are 8 stations, this algorithm is suitable for achieving the optimal frequency allocation.\n\n### Tool's Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: [1, 1, 1, 2, 3, 2, 1, 3]\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe output indicates that a total of **3 colors** (or frequencies) were used to color the graph. The color assignment for each of the 8 nodes (Wi-Fi base stations) is as follows:\n- King's Row (0): Color 1\n- Oakshade Library (1): Color 1\n- Velvet Corner (2): Color 1\n- Moonlit Promenade (3): Color 2\n- Rosewood Hall (4): Color 3\n- Union Square Market (5): Color 2\n- Primrose Boulevard (6): Color 1\n- Beacon Tower (7): Color 3\n\nThis assignment ensures that no two adjacent nodes (base stations) share the same color, thus fulfilling the requirements of the graph coloring problem.\n\n### Final Answer\nThe optimal frequency allocation for the Wi-Fi base stations is as follows:\n- **King's Row**: Frequency 1\n- **Oakshade Library**: Frequency 1\n- **Velvet Corner**: Frequency 1\n- **Moonlit Promenade**: Frequency 2\n- **Rosewood Hall**: Frequency 3\n- **Union Square Market**: Frequency 2\n- **Primrose Boulevard**: Frequency 1\n- **Beacon Tower**: Frequency 3\n\nIn total, **3 different frequencies** are used to ensure that no two adjacent stations interfere with each other."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 44,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Evergreen Circle",
+   "Azure Gardens",
+   "Yarrow Plaza",
+   "Jasper Marina",
+   "King’s Row",
+   "Shadowbridge Arcade",
+   "Umbra Theater",
+   "Flare Alley"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Azure Gardens": 1,
+     "Yarrow Plaza": 2,
+     "Jasper Marina": 1,
+     "King’s Row": 2,
+     "Shadowbridge Arcade": 1,
+     "Umbra Theater": 2,
+     "Flare Alley": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Azure Gardens": 1,
+     "Yarrow Plaza": 2,
+     "Jasper Marina": 1,
+     "King’s Row": 2,
+     "Shadowbridge Arcade": 1,
+     "Umbra Theater": 2,
+     "Flare Alley": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Evergreen Circle": 2,
+     "Azure Gardens": 2,
+     "Yarrow Plaza": 1,
+     "Jasper Marina": 2,
+     "King’s Row": 1,
+     "Shadowbridge Arcade": 2,
+     "Umbra Theater": 1,
+     "Flare Alley": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve the Graph Coloring problem using the Coloring Backtracking Algorithm. The goal is to assign frequencies to Wi-Fi base stations represented as nodes in an undirected graph, ensuring that no two adjacent stations (with overlapping coverage areas) use the same frequency. The algorithm is suitable for small graphs, and in this case, there are 8 stations.\n\n### Algorithm Used\n- **Algorithm**: Coloring Backtracking Algorithm\n- **Complexity**: O(2^n)\n\n### Tool Output\nThe output from the Coloring Backtracking Algorithm is:\n- **Minimum number of colors (frequencies)**: 3\n- **Color assignment**: [1, 1, 2, 1, 2, 1, 2, 3]\n- **Execution time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm determined that a minimum of 3 frequencies is required to color the graph representing the Wi-Fi base stations. The color assignment indicates which frequency is assigned to each station:\n- Evergreen Circle (0): Frequency 1\n- Azure Gardens (1): Frequency 1\n- Yarrow Plaza (2): Frequency 2\n- Jasper Marina (3): Frequency 1\n- King's Row (4): Frequency 2\n- Shadowbridge Arcade (5): Frequency 1\n- Umbra Theater (6): Frequency 2\n- Flare Alley (7): Frequency 3\n\n### Final Answer\nTo optimally assign frequencies to the Wi-Fi base stations while ensuring that no two adjacent stations use the same frequency, a minimum of **3 frequencies** are needed. The frequency assignments are as follows:\n- Evergreen Circle and Azure Gardens share Frequency 1.\n- Yarrow Plaza and Jasper Marina share Frequency 1.\n- King's Row and Shadowbridge Arcade share Frequency 2.\n- Flare Alley uses Frequency 3. \n\nThis ensures that all coverage areas are appropriately managed without interference."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 45,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Yarrow Plaza",
+   "Oakshade Library",
+   "Riverstone Wharf",
+   "Knight’s Market",
+   "Quarry Point",
+   "Northwind Tower",
+   "Twilight Harbor",
+   "Rosewood Hall"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Oakshade Library": 2,
+     "Riverstone Wharf": 1,
+     "Knight’s Market": 2,
+     "Quarry Point": 1,
+     "Northwind Tower": 2,
+     "Twilight Harbor": 3,
+     "Rosewood Hall": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 1,
+     "Oakshade Library": 2,
+     "Riverstone Wharf": 1,
+     "Knight’s Market": 2,
+     "Quarry Point": 1,
+     "Northwind Tower": 2,
+     "Twilight Harbor": 3,
+     "Rosewood Hall": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Yarrow Plaza": 2,
+     "Oakshade Library": 1,
+     "Riverstone Wharf": 2,
+     "Knight’s Market": 1,
+     "Quarry Point": 3,
+     "Northwind Tower": 1,
+     "Twilight Harbor": 2,
+     "Rosewood Hall": 2
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a **Graph Coloring** problem, where we need to assign frequencies (or colors) to Wi-Fi base stations represented as nodes in an undirected graph. The goal is to ensure that no two adjacent nodes (base stations that may interfere with each other) share the same frequency. The algorithm chosen for this task is the **Coloring Backtracking Algorithm**, which is suitable for exploring all possible colorings to minimize the number of frequencies used.\n\n### Algorithm Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Number of Colors Used**: 3\n- **Color Assignment**: \n  - Yarrow Plaza (Node 0): Color 1\n  - Oakshade Library (Node 1): Color 2\n  - Riverstone Wharf (Node 2): Color 1\n  - Knight’s Market (Node 3): Color 2\n  - Quarry Point (Node 4): Color 1\n  - Northwind Tower (Node 5): Color 2\n  - Twilight Harbor (Node 6): Color 3\n  - Rosewood Hall (Node 7): Color 3\n\n### Analysis of the Output\nThe algorithm successfully assigned colors to the 8 nodes (Wi-Fi base stations) while ensuring that no two adjacent nodes share the same color. The total number of colors used is 3, which indicates that the frequency assignment is efficient and minimizes interference among the stations.\n\n### Final Answer\nThe optimal frequency assignment for the Wi-Fi base stations is as follows:\n- **Yarrow Plaza**: Frequency 1\n- **Oakshade Library**: Frequency 2\n- **Riverstone Wharf**: Frequency 1\n- **Knight’s Market**: Frequency 2\n- **Quarry Point**: Frequency 1\n- **Northwind Tower**: Frequency 2\n- **Twilight Harbor**: Frequency 3\n- **Rosewood Hall**: Frequency 3\n\nIn total, **3 frequencies** are used to ensure that no two adjacent base stations interfere with each other."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 46,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Quarry Point",
+   "Ivory Spire Cathedral",
+   "Jade Fountain",
+   "Horizon Mall",
+   "Temple Square",
+   "Flare Alley",
+   "Union Square Market",
+   "Azure Gardens"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Quarry Point": 1,
+     "Ivory Spire Cathedral": 1,
+     "Jade Fountain": 2,
+     "Horizon Mall": 3,
+     "Temple Square": 2,
+     "Flare Alley": 2,
+     "Union Square Market": 4,
+     "Azure Gardens": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Quarry Point": 1,
+     "Ivory Spire Cathedral": 1,
+     "Jade Fountain": 2,
+     "Horizon Mall": 3,
+     "Temple Square": 2,
+     "Flare Alley": 2,
+     "Union Square Market": 4,
+     "Azure Gardens": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Quarry Point": 2,
+     "Ivory Spire Cathedral": 1,
+     "Jade Fountain": 2,
+     "Horizon Mall": 1,
+     "Temple Square": 4,
+     "Flare Alley": 3,
+     "Union Square Market": 3,
+     "Azure Gardens": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a **Graph Coloring** problem, where we need to assign frequencies to 8 Wi-Fi base stations (represented as nodes in a graph) such that no two adjacent nodes share the same frequency. The goal is to minimize the number of different frequencies used.\n\n### Algorithm Used\nThe **Coloring Backtracking Algorithm** was selected for this problem due to the manageable size of the graph (fewer than 18 nodes). This algorithm systematically explores all possible color assignments to find the minimal coloring number while ensuring that adjacent nodes do not share the same color.\n\n### Tool's Output\nThe output from the graph coloring algorithm is as follows:\n- **Minimum Number of Colors Used**: 4\n- **Color Assignment**: [1, 1, 2, 3, 2, 2, 4, 2]\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm determined that a minimum of **4 different frequencies** (colors) are required to color the graph. The specific color assignments for each node are as follows:\n- Quarry Point (Node 0): Color 1\n- Ivory Spire Cathedral (Node 1): Color 1\n- Jade Fountain (Node 2): Color 2\n- Horizon Mall (Node 3): Color 3\n- Temple Square (Node 4): Color 2\n- Flare Alley (Node 5): Color 2\n- Union Square Market (Node 6): Color 4\n- Azure Gardens (Node 7): Color 2\n\n### Final Answer\nTo minimize interference among the Wi-Fi base stations, a total of **4 different frequencies** should be allocated. The specific frequency assignments are as follows:\n- Quarry Point and Ivory Spire Cathedral: Frequency 1\n- Jade Fountain: Frequency 2\n- Horizon Mall: Frequency 3\n- Temple Square, Flare Alley, Azure Gardens: Frequency 2\n- Union Square Market: Frequency 4\n\nThis allocation ensures that no two adjacent base stations share the same frequency, thereby minimizing interference."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 47,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Lighthouse Point",
+   "Yarrow Plaza",
+   "Westgate Station",
+   "Maplewood Conservatory",
+   "Oakshade Library",
+   "Pennywhistle Arcade",
+   "Rosewood Hall",
+   "Skyline Gardens"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Yarrow Plaza": 2,
+     "Westgate Station": 3,
+     "Maplewood Conservatory": 1,
+     "Oakshade Library": 3,
+     "Pennywhistle Arcade": 4,
+     "Rosewood Hall": 3,
+     "Skyline Gardens": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Lighthouse Point": 1,
+     "Yarrow Plaza": 2,
+     "Westgate Station": 3,
+     "Maplewood Conservatory": 1,
+     "Oakshade Library": 3,
+     "Pennywhistle Arcade": 4,
+     "Rosewood Hall": 3,
+     "Skyline Gardens": 1
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Lighthouse Point": 2,
+     "Yarrow Plaza": 1,
+     "Westgate Station": 4,
+     "Maplewood Conservatory": 1,
+     "Oakshade Library": 3,
+     "Pennywhistle Arcade": 3,
+     "Rosewood Hall": 3,
+     "Skyline Gardens": 2
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve a graph coloring problem, which involves assigning frequencies to adjacent Wi-Fi base stations (represented as nodes in a graph) such that no two adjacent nodes share the same frequency. The objective is to minimize the number of different frequencies used.\n\n### Algorithm Used\nThe **Coloring Backtracking Algorithm** was selected for this problem due to the small size of the graph (8 nodes). This algorithm systematically explores all possible color assignments to find the minimal coloring number.\n\n### Tool's Output\nThe output from the graph coloring algorithm is as follows:\n- **Minimum Number of Colors Used**: 4\n- **Color Assignment**: [1, 2, 3, 1, 3, 4, 3, 1]\n  - This indicates the color assigned to each node (0 through 7).\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm determined that a minimum of **4 different frequencies** (colors) is required to ensure that no two adjacent Wi-Fi base stations share the same frequency. The color assignment indicates which frequency each base station should use.\n\n### Node Mapping\nUsing the provided node mapping:\n- **0**: Lighthouse Point\n- **1**: Yarrow Plaza\n- **2**: Westgate Station\n- **3**: Maplewood Conservatory\n- **4**: Oakshade Library\n- **5**: Pennywhistle Arcade\n- **6**: Rosewood Hall\n- **7**: Skyline Gardens\n\n### Final Answer\nTo minimize interference among the Wi-Fi base stations, a total of **4 frequencies** should be assigned as follows:\n- Lighthouse Point: Frequency 1\n- Yarrow Plaza: Frequency 2\n- Westgate Station: Frequency 3\n- Maplewood Conservatory: Frequency 1\n- Oakshade Library: Frequency 3\n- Pennywhistle Arcade: Frequency 4\n- Rosewood Hall: Frequency 3\n- Skyline Gardens: Frequency 1\n\nThis assignment ensures that no two adjacent stations share the same frequency, effectively minimizing interference."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 48,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Cobalt Market",
+   "Twilight Harbor",
+   "Quarry Point",
+   "Nimbus Plaza",
+   "Flare Alley",
+   "Brass Lantern Tavern",
+   "Dragon’s Gate",
+   "Yarrow Plaza"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Cobalt Market": 1,
+     "Twilight Harbor": 2,
+     "Quarry Point": 3,
+     "Nimbus Plaza": 3,
+     "Flare Alley": 1,
+     "Brass Lantern Tavern": 3,
+     "Dragon’s Gate": 2,
+     "Yarrow Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Cobalt Market": 1,
+     "Twilight Harbor": 2,
+     "Quarry Point": 3,
+     "Nimbus Plaza": 3,
+     "Flare Alley": 1,
+     "Brass Lantern Tavern": 3,
+     "Dragon’s Gate": 2,
+     "Yarrow Plaza": 4
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Cobalt Market": 1,
+     "Twilight Harbor": 2,
+     "Quarry Point": 4,
+     "Nimbus Plaza": 3,
+     "Flare Alley": 2,
+     "Brass Lantern Tavern": 3,
+     "Dragon’s Gate": 1,
+     "Yarrow Plaza": 3
+    },
+    "min_colors": 4,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a **Graph Coloring** problem, where the goal is to assign frequencies (colors) to Wi-Fi base stations (nodes) in such a way that no two adjacent stations interfere with each other. The chosen algorithm for this problem is the **Coloring Backtracking Algorithm**, which systematically explores all possible colorings to find the minimum number of frequencies needed.\n\n### Tool Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Minimum Number of Colors (Frequencies)**: 4\n- **Color Assignment**: \n  - Node 0 (Cobalt Market): Color 1\n  - Node 1 (Twilight Harbor): Color 2\n  - Node 2 (Quarry Point): Color 3\n  - Node 3 (Nimbus Plaza): Color 3\n  - Node 4 (Flare Alley): Color 1\n  - Node 5 (Brass Lantern Tavern): Color 3\n  - Node 6 (Dragon’s Gate): Color 2\n  - Node 7 (Yarrow Plaza): Color 4\n- **Execution Time**: 0.0 seconds\n\n### Analysis of the Output\nThe algorithm determined that a total of **4 different frequencies** are required to ensure that no two adjacent Wi-Fi base stations share the same frequency. The color assignments indicate which frequency each base station should use, ensuring that adjacent stations (as defined in the adjacency list) do not interfere with each other.\n\n### Final Answer\nTo minimize interference among the Wi-Fi base stations, a total of **4 frequencies** are needed. The specific frequency assignments for each base station are as follows:\n- Cobalt Market: Frequency 1\n- Twilight Harbor: Frequency 2\n- Quarry Point: Frequency 3\n- Nimbus Plaza: Frequency 3\n- Flare Alley: Frequency 1\n- Brass Lantern Tavern: Frequency 3\n- Dragon’s Gate: Frequency 2\n- Yarrow Plaza: Frequency 4\n\nThis configuration will effectively minimize interference among the stations."
+ },
+ {
+  "file_name": "graph_8.json",
+  "graph_index": 49,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Evergreen Circle",
+   "Dragon’s Gate",
+   "Union Square Market",
+   "Primrose Boulevard",
+   "Silvercrest Observatory",
+   "Shadowbridge Arcade",
+   "Moonlit Promenade",
+   "Jasper Marina"
+  ],
+  "real_result": {
+   "backtracking": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 2,
+     "Primrose Boulevard": 1,
+     "Silvercrest Observatory": 1,
+     "Shadowbridge Arcade": 3,
+     "Moonlit Promenade": 2,
+     "Jasper Marina": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "color_assignment_text": {
+     "Evergreen Circle": 1,
+     "Dragon’s Gate": 2,
+     "Union Square Market": 2,
+     "Primrose Boulevard": 1,
+     "Silvercrest Observatory": 1,
+     "Shadowbridge Arcade": 3,
+     "Moonlit Promenade": 2,
+     "Jasper Marina": 3
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   },
+   "dsatur": {
+    "color_assignment_text": {
+     "Evergreen Circle": 2,
+     "Dragon’s Gate": 3,
+     "Union Square Market": 3,
+     "Primrose Boulevard": 2,
+     "Silvercrest Observatory": 2,
+     "Shadowbridge Arcade": 1,
+     "Moonlit Promenade": 3,
+     "Jasper Marina": 1
+    },
+    "min_colors": 3,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve a **Graph Coloring** problem for a graph representing Wi-Fi base stations. The goal is to assign frequencies (colors) to these stations such that no two adjacent stations share the same frequency, minimizing the total number of frequencies used.\n\n### Algorithm Used\nThe **Coloring Backtracking Algorithm** was selected for this problem due to the small size of the graph (8 nodes). This algorithm systematically explores all possible colorings to find the minimal number of frequencies needed.\n\n### Tool Output\nThe output from the Coloring Backtracking Algorithm is as follows:\n- **Minimum Number of Colors Used**: 3\n- **Color Assignment**: \n  - Evergreen Circle: 1\n  - Dragon’s Gate: 2\n  - Union Square Market: 2\n  - Primrose Boulevard: 1\n  - Silvercrest Observatory: 1\n  - Shadowbridge Arcade: 3\n  - Moonlit Promenade: 2\n  - Jasper Marina: 3\n\n### Analysis of the Output\nThe algorithm determined that a minimum of **3 frequencies** is required to color the graph without any adjacent nodes sharing the same frequency. The specific color assignments for each location (node) are as follows:\n\n- **Evergreen Circle** (Node 0): Frequency 1\n- **Dragon’s Gate** (Node 1): Frequency 2\n- **Union Square Market** (Node 2): Frequency 2\n- **Primrose Boulevard** (Node 3): Frequency 1\n- **Silvercrest Observatory** (Node 4): Frequency 1\n- **Shadowbridge Arcade** (Node 5): Frequency 3\n- **Moonlit Promenade** (Node 6): Frequency 2\n- **Jasper Marina** (Node 7): Frequency 3\n\n### Final Answer\nTo minimize interference among the Wi-Fi base stations, a total of **3 different frequencies** are required. The specific frequency assignments for the stations are as follows:\n\n- Evergreen Circle: Frequency 1\n- Dragon’s Gate: Frequency 2\n- Union Square Market: Frequency 2\n- Primrose Boulevard: Frequency 1\n- Silvercrest Observatory: Frequency 1\n- Shadowbridge Arcade: Frequency 3\n- Moonlit Promenade: Frequency 2\n- Jasper Marina: Frequency 3"
+ }
+]

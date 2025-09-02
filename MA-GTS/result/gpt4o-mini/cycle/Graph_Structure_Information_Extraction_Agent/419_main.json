@@ -1,0 +1,12 @@
+[
+ {
+  "file_name": "main.json",
+  "graph_index": 1070,
+  "adj": null,
+  "graph_difficulty": "hard",
+  "name_list": null,
+  "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge.\nThe nodes are numbered from 0 to 31, and the edges are: (11,13) (18,30) (14,10) (11,30) (0,11) (23,28) (7,30) (25,5) (31,28) (12,19) (16,10) (8,7) (0,3) (24,8) (22,15) (17,16) (29,5) (6,12) (31,5) (15,0) (31,27) (1,23) (31,4) (20,26) (1,0) (9,18) (9,3) (20,22) (22,19) (2,27) (6,21) (2,10) (1,19) (2,0)\nQ: Is there a cycle in this graph?\nA:",
+  "real_result": "Yes, there is a cycle in this graph.",
+  "response": "{\n    \"nodes\": [i for i in range(32)],  # Nodes are numbered from 0 to 31\n    \"edges\": [\n        (11, 13),\n        (18, 30),\n        (14, 10),\n        (11, 30),\n        (0, 11),\n        (23, 28),\n        (7, 30),\n        (25, 5),\n        (31, 28),\n        (12, 19),\n        (16, 10),\n        (8, 7),\n        (0, 3),\n        (24, 8),\n        (22, 15),\n        (17, 16),\n        (29, 5),\n        (6, 12),\n        (31, 5),\n        (15, 0),\n        (31, 27),\n        (1, 23),\n        (31, 4),\n        (20, 26),\n        (1, 0),\n        (9, 18),\n        (9, 3),\n        (20, 22),\n        (22, 19),\n        (2, 27),\n        (6, 21),\n        (2, 10),\n        (1, 19),\n        (2, 0)\n    ],\n    \"graph_type\": \"undirected\"\n}"
+ }
+]

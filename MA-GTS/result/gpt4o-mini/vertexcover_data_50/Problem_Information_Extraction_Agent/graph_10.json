@@ -1,0 +1,9017 @@
+[
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 0,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ironclad",
+   "Server Goldleaf",
+   "Server Mirage",
+   "Server Tempest",
+   "Server Shadowbrook",
+   "Server Silverhawk",
+   "Server Oceanview",
+   "Server Windswept",
+   "Server Eaglecrest",
+   "Server Ironbark"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Mirage",
+     "Server Tempest",
+     "Server Shadowbrook",
+     "Server Windswept",
+     "Server Ironbark"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Goldleaf",
+     "Server Mirage",
+     "Server Tempest",
+     "Server Shadowbrook",
+     "Server Oceanview",
+     "Server Windswept"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Goldleaf",
+     "Server Mirage",
+     "Server Tempest",
+     "Server Shadowbrook",
+     "Server Silverhawk",
+     "Server Oceanview",
+     "Server Windswept",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Select the minimum number of computers to deploy monitoring devices such that every communication link is monitored by at least one device.\",\n    \"constraints\": \"All communication links must be monitored; the connections between computers are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for monitoring device installation.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 1,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Moonlight",
+   "Server Stormbreaker",
+   "Server Stormcloud",
+   "Server Thunderstrike",
+   "Server Blackwood",
+   "Server Glacier",
+   "Server Ironbark",
+   "Server Silverstone",
+   "Server Crimsoncloud",
+   "Server Frostbite"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Stormbreaker",
+     "Server Stormcloud",
+     "Server Crimsoncloud",
+     "Server Frostbite"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Stormbreaker",
+     "Server Stormcloud",
+     "Server Crimsoncloud",
+     "Server Frostbite"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Stormbreaker",
+     "Server Stormcloud",
+     "Server Thunderstrike",
+     "Server Blackwood",
+     "Server Ironbark",
+     "Server Silverstone",
+     "Server Crimsoncloud",
+     "Server Frostbite"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"All communication links must be covered by at least one monitoring device; the connections are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 2,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Frostmoon",
+   "Server Vortex",
+   "Server Starfire",
+   "Server Ironbark",
+   "Server Ironclad",
+   "Server Willowbrook",
+   "Server Tempest",
+   "Server Shadowbrook",
+   "Server Falconeye",
+   "Server Frostbite"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Vortex",
+     "Server Ironclad",
+     "Server Willowbrook",
+     "Server Tempest",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Vortex",
+     "Server Ironclad",
+     "Server Willowbrook",
+     "Server Tempest",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Vortex",
+     "Server Starfire",
+     "Server Ironbark",
+     "Server Ironclad",
+     "Server Willowbrook",
+     "Server Tempest",
+     "Server Shadowbrook",
+     "Server Falconeye"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"All communication links must be covered by at least one monitoring device; devices can only be installed on the specified computers.\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 3,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Seabreeze",
+   "Server Ghostwind",
+   "Server Ironbark",
+   "Server Shadowbrook",
+   "Server Frostbite",
+   "Server Moonlight",
+   "Server Emberlight",
+   "Server Windswept",
+   "Server Nightshade",
+   "Server Eaglecrest"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Ghostwind",
+     "Server Ironbark",
+     "Server Shadowbrook",
+     "Server Frostbite",
+     "Server Nightshade"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Ghostwind",
+     "Server Ironbark",
+     "Server Shadowbrook",
+     "Server Frostbite",
+     "Server Nightshade"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Ghostwind",
+     "Server Ironbark",
+     "Server Shadowbrook",
+     "Server Frostbite",
+     "Server Moonlight",
+     "Server Emberlight",
+     "Server Windswept",
+     "Server Nightshade",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored.\",\n    \"constraints\": \"Each communication link must be monitored by at least one device.\",\n    \"optimization\": \"Select the minimum number of computers to deploy monitoring devices.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 4,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Crimsoncloud",
+   "Server Stormbreaker",
+   "Server Windswept",
+   "Server Ravenstone",
+   "Server Nightfall",
+   "Server Blackwood",
+   "Server Willowbrook",
+   "Server Silverstone",
+   "Server Sunflower",
+   "Server Goldleaf"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Crimsoncloud",
+     "Server Blackwood",
+     "Server Willowbrook",
+     "Server Silverstone",
+     "Server Sunflower",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Nightfall",
+     "Server Blackwood",
+     "Server Willowbrook",
+     "Server Silverstone",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Crimsoncloud",
+     "Server Stormbreaker",
+     "Server Windswept",
+     "Server Ravenstone",
+     "Server Nightfall",
+     "Server Blackwood",
+     "Server Willowbrook",
+     "Server Silverstone",
+     "Server Sunflower"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device; the connections are bidirectional\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 5,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Sunflower",
+   "Server Thunderbolt",
+   "Server Sandstorm",
+   "Server Stealthwind",
+   "Server Glacierpeak",
+   "Server Lighthouse",
+   "Server Amberwave",
+   "Server Mirage",
+   "Server Frostbite",
+   "Server Windswept"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Stealthwind",
+     "Server Lighthouse",
+     "Server Amberwave",
+     "Server Mirage",
+     "Server Windswept"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Lighthouse",
+     "Server Amberwave",
+     "Server Mirage",
+     "Server Windswept"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Thunderbolt",
+     "Server Sandstorm",
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Lighthouse",
+     "Server Amberwave",
+     "Server Mirage",
+     "Server Frostbite",
+     "Server Windswept"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 6,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Blackwood",
+   "Server Glacier",
+   "Server Frostbite",
+   "Server Emberlight",
+   "Server Willowbrook",
+   "Server Firefly",
+   "Server Crimsoncloud",
+   "Server Glacierpeak",
+   "Server Starfire",
+   "Server Amberwave"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Glacier",
+     "Server Willowbrook",
+     "Server Firefly",
+     "Server Crimsoncloud",
+     "Server Starfire"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Frostbite",
+     "Server Willowbrook",
+     "Server Firefly",
+     "Server Crimsoncloud",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Glacier",
+     "Server Frostbite",
+     "Server Emberlight",
+     "Server Willowbrook",
+     "Server Firefly",
+     "Server Crimsoncloud",
+     "Server Glacierpeak",
+     "Server Starfire",
+     "Server Amberwave"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device\",\n    \"optimization\": \"Minimize the number of computers selected to deploy monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 7,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Solarflare",
+   "Server Stormbreaker",
+   "Server Seabreeze",
+   "Server Silverstone",
+   "Server Frostmoon",
+   "Server Ravenstone",
+   "Server Redwood",
+   "Server Vortex",
+   "Server Crimsoncloud",
+   "Server Twilight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Stormbreaker",
+     "Server Silverstone",
+     "Server Vortex",
+     "Server Crimsoncloud",
+     "Server Twilight"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Stormbreaker",
+     "Server Seabreeze",
+     "Server Silverstone",
+     "Server Frostmoon",
+     "Server Ravenstone",
+     "Server Vortex"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Solarflare",
+     "Server Stormbreaker",
+     "Server Seabreeze",
+     "Server Silverstone",
+     "Server Frostmoon",
+     "Server Ravenstone",
+     "Server Redwood",
+     "Server Vortex",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored.\",\n    \"constraints\": \"All communication links must be covered by at least one monitoring device; the connections are bidirectional.\",\n    \"optimization\": \"Select the minimum number of computers to deploy monitoring devices.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 8,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Redwood",
+   "Server Glacierpeak",
+   "Server Oceanview",
+   "Server Willowbrook",
+   "Server Nightshade",
+   "Server Solarflare",
+   "Server Windswept",
+   "Server Mirage",
+   "Server Falconeye",
+   "Server Sandstorm"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Glacierpeak",
+     "Server Oceanview",
+     "Server Willowbrook",
+     "Server Mirage",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Glacierpeak",
+     "Server Oceanview",
+     "Server Willowbrook",
+     "Server Mirage",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Glacierpeak",
+     "Server Oceanview",
+     "Server Willowbrook",
+     "Server Nightshade",
+     "Server Solarflare",
+     "Server Windswept",
+     "Server Mirage",
+     "Server Falconeye",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Select the minimum number of computers to deploy monitoring devices such that every communication link is monitored by at least one device.\",\n    \"constraints\": \"All communication links must be monitored; the connections between computers are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for monitoring device installation.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 9,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Firefly",
+   "Server Starfire",
+   "Server Moonlight",
+   "Server Seabreeze",
+   "Server Silverhawk",
+   "Server Blackwood",
+   "Server Solarflare",
+   "Server Thunderstrike",
+   "Server Frostmoon",
+   "Server Crimsoncloud"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Moonlight",
+     "Server Seabreeze",
+     "Server Silverhawk",
+     "Server Blackwood",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Moonlight",
+     "Server Seabreeze",
+     "Server Blackwood",
+     "Server Solarflare",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Starfire",
+     "Server Moonlight",
+     "Server Seabreeze",
+     "Server Silverhawk",
+     "Server Blackwood",
+     "Server Solarflare",
+     "Server Thunderstrike",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored.\",\n    \"constraints\": \"Each communication link must be monitored by at least one device.\",\n    \"optimization\": \"Minimize the number of computers selected to deploy monitoring devices.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 10,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Falconeye",
+   "Server Windmill",
+   "Server Stormbreaker",
+   "Server Windswept",
+   "Server Bluebird",
+   "Server Skyhawk",
+   "Server Oceanview",
+   "Server Stealthwind",
+   "Server Amberwave",
+   "Server Emberfall"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Windmill",
+     "Server Stormbreaker",
+     "Server Skyhawk",
+     "Server Oceanview",
+     "Server Amberwave"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Windmill",
+     "Server Stormbreaker",
+     "Server Skyhawk",
+     "Server Oceanview",
+     "Server Amberwave"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Windmill",
+     "Server Stormbreaker",
+     "Server Windswept",
+     "Server Bluebird",
+     "Server Skyhawk",
+     "Server Oceanview",
+     "Server Stealthwind",
+     "Server Amberwave"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"All communication links must be covered by at least one monitoring device\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 11,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ghostwind",
+   "Server Stormcloud",
+   "Server Amberwave",
+   "Server Darkhorse",
+   "Server Tempest",
+   "Server Emberlight",
+   "Server Bluebird",
+   "Server Nightshade",
+   "Server Silverstream",
+   "Server Ravenstone"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ghostwind",
+     "Server Stormcloud",
+     "Server Amberwave",
+     "Server Bluebird",
+     "Server Silverstream",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Amberwave",
+     "Server Darkhorse",
+     "Server Tempest",
+     "Server Emberlight",
+     "Server Bluebird",
+     "Server Silverstream"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ghostwind",
+     "Server Stormcloud",
+     "Server Amberwave",
+     "Server Darkhorse",
+     "Server Tempest",
+     "Server Emberlight",
+     "Server Bluebird",
+     "Server Nightshade",
+     "Server Silverstream",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"All communication links must be covered by at least one monitoring device\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 12,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Silverstream",
+   "Server Darkhorse",
+   "Server Redwood",
+   "Server Ironbark",
+   "Server Amberwave",
+   "Server Crimsoncloud",
+   "Server Twilight",
+   "Server Nightshade",
+   "Server Glacierpeak"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Silverstream",
+     "Server Redwood",
+     "Server Ironbark",
+     "Server Amberwave",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Silverstream",
+     "Server Redwood",
+     "Server Ironbark",
+     "Server Amberwave",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Silverstream",
+     "Server Darkhorse",
+     "Server Redwood",
+     "Server Ironbark",
+     "Server Amberwave",
+     "Server Crimsoncloud",
+     "Server Twilight",
+     "Server Nightshade",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device; the connections are bidirectional\",\n    \"optimization\": \"Select the minimum number of computers to deploy monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 13,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ironclad",
+   "Server Redwood",
+   "Server Windmill",
+   "Server Vortex",
+   "Server Nightfall",
+   "Server Falconeye",
+   "Server Stormcloud",
+   "Server Sandstorm",
+   "Server Stormbreaker",
+   "Server Oceanview"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Redwood",
+     "Server Windmill",
+     "Server Nightfall",
+     "Server Stormcloud",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Redwood",
+     "Server Windmill",
+     "Server Nightfall",
+     "Server Stormcloud",
+     "Server Sandstorm"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Redwood",
+     "Server Windmill",
+     "Server Vortex",
+     "Server Nightfall",
+     "Server Falconeye",
+     "Server Stormcloud",
+     "Server Sandstorm",
+     "Server Stormbreaker"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored.\",\n    \"constraints\": \"Each communication link must be monitored by at least one device.\",\n    \"optimization\": \"Minimize the number of computers selected to deploy monitoring devices.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 14,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Blackwood",
+   "Server Skyhawk",
+   "Server Frostbite",
+   "Server Vortex",
+   "Server Nightfall",
+   "Server Thunderstrike",
+   "Server Ghostwind",
+   "Server Amberwave",
+   "Server Firefly",
+   "Server Moonlight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Frostbite",
+     "Server Nightfall",
+     "Server Thunderstrike",
+     "Server Ghostwind",
+     "Server Firefly"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Frostbite",
+     "Server Nightfall",
+     "Server Thunderstrike",
+     "Server Ghostwind",
+     "Server Firefly"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Skyhawk",
+     "Server Frostbite",
+     "Server Vortex",
+     "Server Nightfall",
+     "Server Thunderstrike",
+     "Server Ghostwind",
+     "Server Amberwave",
+     "Server Firefly",
+     "Server Moonlight"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 15,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Willowbrook",
+   "Server Glacier",
+   "Server Nightfall",
+   "Server Thunderbolt",
+   "Server Sandstorm",
+   "Server Crimsoncloud",
+   "Server Frostbite",
+   "Server Eaglecrest",
+   "Server Emberfall",
+   "Server Thunderstrike"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Glacier",
+     "Server Nightfall",
+     "Server Thunderbolt",
+     "Server Frostbite",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Nightfall",
+     "Server Thunderbolt",
+     "Server Sandstorm",
+     "Server Crimsoncloud",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Glacier",
+     "Server Nightfall",
+     "Server Thunderbolt",
+     "Server Sandstorm",
+     "Server Crimsoncloud",
+     "Server Frostbite",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Select the minimum number of computers to deploy monitoring devices such that every communication link is monitored by at least one device.\",\n    \"constraints\": \"All communication links must be monitored; the connections between computers are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 16,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Oceanview",
+   "Server Stealthwind",
+   "Server Emberfall",
+   "Server Tempest",
+   "Server Windmill",
+   "Server Ravenstone",
+   "Server Silverhawk",
+   "Server Nightfall",
+   "Server Lighthouse",
+   "Server Thunderbolt"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Tempest",
+     "Server Windmill",
+     "Server Nightfall",
+     "Server Lighthouse",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Tempest",
+     "Server Windmill",
+     "Server Nightfall",
+     "Server Lighthouse",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Stealthwind",
+     "Server Emberfall",
+     "Server Tempest",
+     "Server Windmill",
+     "Server Ravenstone",
+     "Server Silverhawk",
+     "Server Nightfall",
+     "Server Lighthouse",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Select the minimum number of computers to deploy monitoring devices such that every communication link is monitored by at least one device.\",\n    \"constraints\": \"All communication links must be monitored; connections are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for monitoring device deployment.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 17,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Twilight",
+   "Server Glacier",
+   "Server Moonlight",
+   "Server Windswept",
+   "Server Starfire",
+   "Server Oceanview",
+   "Server Redwood",
+   "Server Crimsoncloud",
+   "Server Nightshade",
+   "Server Falconeye"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Glacier",
+     "Server Moonlight",
+     "Server Windswept",
+     "Server Starfire",
+     "Server Oceanview"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Glacier",
+     "Server Moonlight",
+     "Server Windswept",
+     "Server Starfire",
+     "Server Oceanview"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Glacier",
+     "Server Moonlight",
+     "Server Windswept",
+     "Server Starfire",
+     "Server Oceanview",
+     "Server Redwood"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Select the minimum number of computers to deploy monitoring devices such that every communication link is monitored by at least one device.\",\n    \"constraints\": \"All communication links must be monitored; connections between computers are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for monitoring device deployment.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 18,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Vortex",
+   "Server Shadowbrook",
+   "Server Darkhorse",
+   "Server Windswept",
+   "Server Frostmoon",
+   "Server Skyhawk",
+   "Server Mirage",
+   "Server Seabreeze",
+   "Server Silverstream",
+   "Server Stealthwind"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Shadowbrook",
+     "Server Darkhorse",
+     "Server Frostmoon",
+     "Server Seabreeze",
+     "Server Silverstream"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Shadowbrook",
+     "Server Darkhorse",
+     "Server Windswept",
+     "Server Frostmoon",
+     "Server Mirage",
+     "Server Seabreeze"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Shadowbrook",
+     "Server Darkhorse",
+     "Server Windswept",
+     "Server Frostmoon",
+     "Server Skyhawk",
+     "Server Mirage",
+     "Server Seabreeze",
+     "Server Silverstream"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Select the minimum number of computers to deploy monitoring devices such that every communication link is monitored by at least one device.\",\n    \"constraints\": \"All communication links must be monitored; the connections between computers are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 19,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stormbreaker",
+   "Server Eaglecrest",
+   "Server Glacier",
+   "Server Glacierpeak",
+   "Server Emberlight",
+   "Server Thunderstrike",
+   "Server Falconeye",
+   "Server Skyhawk",
+   "Server Seabreeze",
+   "Server Moonlight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Glacier",
+     "Server Glacierpeak",
+     "Server Emberlight",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Glacier",
+     "Server Glacierpeak",
+     "Server Emberlight",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stormbreaker",
+     "Server Eaglecrest",
+     "Server Glacier",
+     "Server Glacierpeak",
+     "Server Emberlight",
+     "Server Thunderstrike",
+     "Server Falconeye",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 20,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Brightstar",
+   "Server Goldleaf",
+   "Server Redwood",
+   "Server Sunflower",
+   "Server Oceanview",
+   "Server Mirage",
+   "Server Lighthouse",
+   "Server Firestorm",
+   "Server Windswept",
+   "Server Ghostwind"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Redwood",
+     "Server Sunflower",
+     "Server Oceanview",
+     "Server Firestorm",
+     "Server Windswept"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Redwood",
+     "Server Sunflower",
+     "Server Oceanview",
+     "Server Firestorm",
+     "Server Windswept"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Goldleaf",
+     "Server Redwood",
+     "Server Sunflower",
+     "Server Oceanview",
+     "Server Mirage",
+     "Server Lighthouse",
+     "Server Firestorm",
+     "Server Windswept",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Select the minimum number of computers to deploy monitoring devices such that every communication link is monitored by at least one device.\",\n    \"constraints\": \"All communication links must be monitored; the connections between computers are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for monitoring device installation.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 21,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Shadowbrook",
+   "Server Seabreeze",
+   "Server Blackwood",
+   "Server Amberwave",
+   "Server Thunderbolt",
+   "Server Stormcloud",
+   "Server Thunderstrike",
+   "Server Firefly",
+   "Server Vortex"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Shadowbrook",
+     "Server Blackwood",
+     "Server Amberwave",
+     "Server Thunderbolt",
+     "Server Firefly"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Seabreeze",
+     "Server Blackwood",
+     "Server Stormcloud",
+     "Server Thunderstrike",
+     "Server Vortex"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Shadowbrook",
+     "Server Seabreeze",
+     "Server Blackwood",
+     "Server Amberwave",
+     "Server Thunderbolt",
+     "Server Stormcloud",
+     "Server Thunderstrike",
+     "Server Firefly",
+     "Server Vortex"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Select the minimum number of computers to deploy monitoring devices such that every communication link is monitored by at least one device.\",\n    \"constraints\": \"All communication links must be monitored; the connections between the computers are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for monitoring device installation.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 22,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Thunderstrike",
+   "Server Emberfall",
+   "Server Emberlight",
+   "Server Ravenstone",
+   "Server Sunflower",
+   "Server Bluebird",
+   "Server Skyhawk",
+   "Server Darkhorse",
+   "Server Tempest",
+   "Server Vortex"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Emberfall",
+     "Server Ravenstone",
+     "Server Sunflower",
+     "Server Bluebird",
+     "Server Darkhorse"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Emberfall",
+     "Server Emberlight",
+     "Server Ravenstone",
+     "Server Sunflower",
+     "Server Bluebird",
+     "Server Skyhawk"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Emberfall",
+     "Server Emberlight",
+     "Server Ravenstone",
+     "Server Sunflower",
+     "Server Bluebird",
+     "Server Skyhawk",
+     "Server Darkhorse",
+     "Server Tempest"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device\",\n    \"optimization\": \"Select the minimum number of computers to deploy monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 23,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Starfire",
+   "Server Glacierpeak",
+   "Server Silverstream",
+   "Server Darkhorse",
+   "Server Blackwood",
+   "Server Sunflower",
+   "Server Mirage",
+   "Server Frostmoon",
+   "Server Stealthwind",
+   "Server Lighthouse"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Glacierpeak",
+     "Server Darkhorse",
+     "Server Sunflower",
+     "Server Stealthwind",
+     "Server Lighthouse"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Glacierpeak",
+     "Server Darkhorse",
+     "Server Sunflower",
+     "Server Stealthwind",
+     "Server Lighthouse"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Glacierpeak",
+     "Server Silverstream",
+     "Server Darkhorse",
+     "Server Blackwood",
+     "Server Sunflower",
+     "Server Mirage",
+     "Server Frostmoon",
+     "Server Stealthwind",
+     "Server Lighthouse"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored.\",\n    \"constraints\": \"Each communication link must be monitored by at least one device.\",\n    \"optimization\": \"Minimize the number of computers selected to deploy monitoring devices.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 24,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Shadowbrook",
+   "Server Ravenstone",
+   "Server Brightstar",
+   "Server Ironbark",
+   "Server Moonlight",
+   "Server Nightshade",
+   "Server Silverstream",
+   "Server Firefly",
+   "Server Bluebird",
+   "Server Willowbrook"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Ironbark",
+     "Server Nightshade",
+     "Server Silverstream",
+     "Server Firefly",
+     "Server Bluebird"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Ironbark",
+     "Server Nightshade",
+     "Server Silverstream",
+     "Server Firefly",
+     "Server Bluebird"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Shadowbrook",
+     "Server Ravenstone",
+     "Server Brightstar",
+     "Server Ironbark",
+     "Server Moonlight",
+     "Server Nightshade",
+     "Server Silverstream",
+     "Server Firefly",
+     "Server Bluebird",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored.\",\n    \"constraints\": \"Each communication link must be monitored by at least one device.\",\n    \"optimization\": \"Select the minimum number of computers to deploy monitoring devices.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 25,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Blackwood",
+   "Server Redwood",
+   "Server Falconeye",
+   "Server Twilight",
+   "Server Vortex",
+   "Server Thunderstrike",
+   "Server Stormbreaker",
+   "Server Nightfall",
+   "Server Windswept"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Blackwood",
+     "Server Falconeye",
+     "Server Twilight",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Blackwood",
+     "Server Falconeye",
+     "Server Twilight",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Blackwood",
+     "Server Redwood",
+     "Server Falconeye",
+     "Server Twilight",
+     "Server Vortex",
+     "Server Thunderstrike",
+     "Server Nightfall"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored.\",\n    \"constraints\": \"Each communication link must be monitored by at least one device.\",\n    \"optimization\": \"Select the minimum number of computers to deploy monitoring devices.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 26,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Nightfall",
+   "Server Starfire",
+   "Server Moonlight",
+   "Server Firefly",
+   "Server Solarflare",
+   "Server Ravenstone",
+   "Server Amberwave",
+   "Server Vortex",
+   "Server Redwood",
+   "Server Bluebird"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Starfire",
+     "Server Moonlight",
+     "Server Ravenstone",
+     "Server Amberwave",
+     "Server Redwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Starfire",
+     "Server Moonlight",
+     "Server Ravenstone",
+     "Server Amberwave",
+     "Server Redwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Starfire",
+     "Server Moonlight",
+     "Server Firefly",
+     "Server Solarflare",
+     "Server Ravenstone",
+     "Server Amberwave",
+     "Server Vortex",
+     "Server Redwood",
+     "Server Bluebird"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Select the minimum number of computers to deploy monitoring devices such that every communication link is monitored by at least one device.\",\n    \"constraints\": \"All communication links must be monitored; the connections between computers are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for monitoring device installation.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 27,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stormcloud",
+   "Server Vortex",
+   "Server Darkhorse",
+   "Server Lighthouse",
+   "Server Stealthwind",
+   "Server Shadowbrook",
+   "Server Seabreeze",
+   "Server Ironbark",
+   "Server Sunflower",
+   "Server Mirage"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Vortex",
+     "Server Darkhorse",
+     "Server Lighthouse",
+     "Server Stealthwind",
+     "Server Seabreeze",
+     "Server Mirage"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Darkhorse",
+     "Server Lighthouse",
+     "Server Stealthwind",
+     "Server Shadowbrook",
+     "Server Seabreeze",
+     "Server Sunflower"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Vortex",
+     "Server Darkhorse",
+     "Server Lighthouse",
+     "Server Stealthwind",
+     "Server Shadowbrook",
+     "Server Seabreeze",
+     "Server Ironbark",
+     "Server Sunflower",
+     "Server Mirage"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored.\",\n    \"constraints\": \"Each communication link must be monitored by at least one device.\",\n    \"optimization\": \"Select the minimum number of computers to deploy monitoring devices.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 28,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Oceanview",
+   "Server Sandstorm",
+   "Server Nightshade",
+   "Server Vortex",
+   "Server Windswept",
+   "Server Brightstar",
+   "Server Goldleaf",
+   "Server Moonlight",
+   "Server Falconeye",
+   "Server Bluewave"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Sandstorm",
+     "Server Vortex",
+     "Server Windswept",
+     "Server Moonlight",
+     "Server Bluewave"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Sandstorm",
+     "Server Vortex",
+     "Server Windswept",
+     "Server Moonlight",
+     "Server Bluewave"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Sandstorm",
+     "Server Nightshade",
+     "Server Vortex",
+     "Server Windswept",
+     "Server Brightstar",
+     "Server Moonlight",
+     "Server Falconeye",
+     "Server Bluewave"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device; the connections between computers are bidirectional\",\n    \"optimization\": \"Select the minimum number of computers to deploy monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 29,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Falconeye",
+   "Server Thunderbolt",
+   "Server Blackwood",
+   "Server Ironbark",
+   "Server Nightfall",
+   "Server Moonlight",
+   "Server Twilight",
+   "Server Darkhorse",
+   "Server Redwood",
+   "Server Bluewave"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Thunderbolt",
+     "Server Blackwood",
+     "Server Ironbark",
+     "Server Moonlight",
+     "Server Redwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Thunderbolt",
+     "Server Blackwood",
+     "Server Ironbark",
+     "Server Moonlight",
+     "Server Redwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Thunderbolt",
+     "Server Blackwood",
+     "Server Ironbark",
+     "Server Nightfall",
+     "Server Moonlight",
+     "Server Twilight",
+     "Server Redwood",
+     "Server Bluewave"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"All communication links must be covered by at least one monitoring device; the connections between computers are bidirectional.\",\n    \"optimization\": \"Select the minimum number of computers to deploy monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 30,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windswept",
+   "Server Shadowbrook",
+   "Server Bluewave",
+   "Server Frostbite",
+   "Server Blackwood",
+   "Server Thunderstrike",
+   "Server Silverhawk",
+   "Server Tempest",
+   "Server Ironclad",
+   "Server Brightstar"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windswept",
+     "Server Shadowbrook",
+     "Server Bluewave",
+     "Server Frostbite",
+     "Server Blackwood",
+     "Server Ironclad"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windswept",
+     "Server Shadowbrook",
+     "Server Bluewave",
+     "Server Frostbite",
+     "Server Blackwood",
+     "Server Ironclad"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windswept",
+     "Server Shadowbrook",
+     "Server Bluewave",
+     "Server Frostbite",
+     "Server Blackwood",
+     "Server Thunderstrike",
+     "Server Ironclad",
+     "Server Brightstar"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored.\",\n    \"constraints\": \"All communication links must be covered by at least one monitoring device; the connections are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 31,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Skyhawk",
+   "Server Redwood",
+   "Server Nightfall",
+   "Server Stormcloud",
+   "Server Ironclad",
+   "Server Falconeye",
+   "Server Thunderbolt",
+   "Server Emberlight",
+   "Server Amberwave",
+   "Server Vortex"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Stormcloud",
+     "Server Ironclad",
+     "Server Falconeye",
+     "Server Amberwave",
+     "Server Vortex"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Redwood",
+     "Server Nightfall",
+     "Server Stormcloud",
+     "Server Ironclad",
+     "Server Falconeye",
+     "Server Emberlight"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Skyhawk",
+     "Server Redwood",
+     "Server Nightfall",
+     "Server Stormcloud",
+     "Server Ironclad",
+     "Server Falconeye",
+     "Server Thunderbolt",
+     "Server Emberlight",
+     "Server Amberwave"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 32,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberfall",
+   "Server Brightstar",
+   "Server Stealthwind",
+   "Server Stormbreaker",
+   "Server Firestorm",
+   "Server Vortex",
+   "Server Stormcloud",
+   "Server Thunderbolt",
+   "Server Ironclad",
+   "Server Crimsoncloud"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Stealthwind",
+     "Server Firestorm",
+     "Server Stormcloud",
+     "Server Ironclad",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Stealthwind",
+     "Server Stormbreaker",
+     "Server Firestorm",
+     "Server Stormcloud",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Brightstar",
+     "Server Stealthwind",
+     "Server Stormbreaker",
+     "Server Firestorm",
+     "Server Vortex",
+     "Server Stormcloud",
+     "Server Thunderbolt",
+     "Server Ironclad",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"All communication links must be covered by at least one monitoring device; connections are bidirectional\",\n    \"optimization\": \"Minimize the number of computers selected for monitoring device installation\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 33,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Darkhorse",
+   "Server Brightstar",
+   "Server Emberlight",
+   "Server Ironbark",
+   "Server Lighthouse",
+   "Server Silverstream",
+   "Server Bluebird",
+   "Server Stormcloud",
+   "Server Nightfall",
+   "Server Ravenstone"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Emberlight",
+     "Server Ironbark",
+     "Server Stormcloud",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Emberlight",
+     "Server Ironbark",
+     "Server Stormcloud",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Brightstar",
+     "Server Emberlight",
+     "Server Ironbark",
+     "Server Lighthouse",
+     "Server Silverstream",
+     "Server Stormcloud",
+     "Server Nightfall",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device; the connections are bidirectional\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 34,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stealthwind",
+   "Server Blackwood",
+   "Server Sunflower",
+   "Server Falconeye",
+   "Server Darkhorse",
+   "Server Willowbrook",
+   "Server Tempest",
+   "Server Emberlight",
+   "Server Redwood",
+   "Server Glacierpeak"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Falconeye",
+     "Server Tempest",
+     "Server Redwood",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Falconeye",
+     "Server Tempest",
+     "Server Redwood",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Blackwood",
+     "Server Sunflower",
+     "Server Falconeye",
+     "Server Darkhorse",
+     "Server Willowbrook",
+     "Server Tempest",
+     "Server Emberlight",
+     "Server Redwood",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Select the minimum number of computers to deploy monitoring devices such that every communication link is monitored by at least one device.\",\n    \"constraints\": \"All communication links must be monitored, and the connections between computers are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 35,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Shadowbrook",
+   "Server Skyhawk",
+   "Server Stealthwind",
+   "Server Darkhorse",
+   "Server Windswept",
+   "Server Lighthouse",
+   "Server Starfire",
+   "Server Falconeye",
+   "Server Bluebird",
+   "Server Sunflower"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Shadowbrook",
+     "Server Skyhawk",
+     "Server Lighthouse",
+     "Server Starfire",
+     "Server Falconeye",
+     "Server Bluebird"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Shadowbrook",
+     "Server Skyhawk",
+     "Server Darkhorse",
+     "Server Windswept",
+     "Server Lighthouse",
+     "Server Starfire",
+     "Server Falconeye"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Shadowbrook",
+     "Server Skyhawk",
+     "Server Stealthwind",
+     "Server Darkhorse",
+     "Server Windswept",
+     "Server Lighthouse",
+     "Server Starfire",
+     "Server Falconeye",
+     "Server Sunflower"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device; the connections are bidirectional\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 36,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Seabreeze",
+   "Server Willowbrook",
+   "Server Lighthouse",
+   "Server Frostmoon",
+   "Server Sandstorm",
+   "Server Ironclad",
+   "Server Windmill",
+   "Server Crimsoncloud",
+   "Server Silverstone",
+   "Server Eaglecrest"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Lighthouse",
+     "Server Frostmoon",
+     "Server Ironclad",
+     "Server Crimsoncloud",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Lighthouse",
+     "Server Frostmoon",
+     "Server Ironclad",
+     "Server Crimsoncloud",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Willowbrook",
+     "Server Lighthouse",
+     "Server Frostmoon",
+     "Server Sandstorm",
+     "Server Ironclad",
+     "Server Windmill",
+     "Server Crimsoncloud",
+     "Server Silverstone",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device; the connections are bidirectional\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 37,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Glacier",
+   "Server Amberwave",
+   "Server Lighthouse",
+   "Server Redwood",
+   "Server Willowbrook",
+   "Server Starfire",
+   "Server Falconeye",
+   "Server Shadowbrook",
+   "Server Mirage",
+   "Server Oceanview"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Amberwave",
+     "Server Starfire",
+     "Server Shadowbrook",
+     "Server Oceanview"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Amberwave",
+     "Server Lighthouse",
+     "Server Willowbrook",
+     "Server Starfire",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Glacier",
+     "Server Amberwave",
+     "Server Lighthouse",
+     "Server Willowbrook",
+     "Server Starfire",
+     "Server Falconeye",
+     "Server Shadowbrook",
+     "Server Mirage",
+     "Server Oceanview"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Select the minimum number of computers to deploy monitoring devices such that every communication link is monitored by at least one device.\",\n    \"constraints\": \"All communication links must be monitored, and the connections between computers are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 38,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Nightshade",
+   "Server Vortex",
+   "Server Silverhawk",
+   "Server Sunflower",
+   "Server Amberwave",
+   "Server Redwood",
+   "Server Crimsoncloud",
+   "Server Goldleaf",
+   "Server Glacierpeak",
+   "Server Brightstar"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Vortex",
+     "Server Silverhawk",
+     "Server Sunflower",
+     "Server Crimsoncloud",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Vortex",
+     "Server Silverhawk",
+     "Server Sunflower",
+     "Server Amberwave",
+     "Server Crimsoncloud",
+     "Server Glacierpeak"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Vortex",
+     "Server Silverhawk",
+     "Server Sunflower",
+     "Server Amberwave",
+     "Server Redwood",
+     "Server Crimsoncloud",
+     "Server Goldleaf",
+     "Server Glacierpeak",
+     "Server Brightstar"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Select the minimum number of computers to deploy monitoring devices such that every communication link is monitored by at least one device.\",\n    \"constraints\": \"All communication links must be monitored; the connections between computers are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for monitoring device deployment.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 39,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Moonlight",
+   "Server Willowbrook",
+   "Server Redwood",
+   "Server Nightshade",
+   "Server Silverstream",
+   "Server Starfire",
+   "Server Ravenstone",
+   "Server Silverstone",
+   "Server Blackwood",
+   "Server Frostmoon"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Redwood",
+     "Server Silverstream",
+     "Server Starfire",
+     "Server Ravenstone",
+     "Server Blackwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Redwood",
+     "Server Silverstream",
+     "Server Starfire",
+     "Server Ravenstone",
+     "Server Blackwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Willowbrook",
+     "Server Redwood",
+     "Server Nightshade",
+     "Server Silverstream",
+     "Server Starfire",
+     "Server Ravenstone",
+     "Server Silverstone",
+     "Server Blackwood",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device; the connections are bidirectional\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 40,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Eaglecrest",
+   "Server Nightshade",
+   "Server Windmill",
+   "Server Emberfall",
+   "Server Skyhawk",
+   "Server Ironclad",
+   "Server Lighthouse",
+   "Server Thunderstrike",
+   "Server Sandstorm",
+   "Server Shadowbrook"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Nightshade",
+     "Server Emberfall",
+     "Server Skyhawk",
+     "Server Ironclad",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Nightshade",
+     "Server Emberfall",
+     "Server Skyhawk",
+     "Server Ironclad",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Nightshade",
+     "Server Windmill",
+     "Server Emberfall",
+     "Server Skyhawk",
+     "Server Ironclad",
+     "Server Lighthouse",
+     "Server Thunderstrike",
+     "Server Sandstorm",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"All communication links must be monitored by at least one device; the connections are bidirectional\",\n    \"optimization\": \"Select the minimum number of computers to deploy monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 41,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Shadowbrook",
+   "Server Silverstone",
+   "Server Frostbite",
+   "Server Oceanview",
+   "Server Goldleaf",
+   "Server Starfire",
+   "Server Silverstream",
+   "Server Solarflare",
+   "Server Ironclad",
+   "Server Blackwood"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Shadowbrook",
+     "Server Silverstone",
+     "Server Frostbite",
+     "Server Goldleaf",
+     "Server Silverstream",
+     "Server Blackwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Shadowbrook",
+     "Server Silverstone",
+     "Server Frostbite",
+     "Server Goldleaf",
+     "Server Solarflare",
+     "Server Blackwood"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Shadowbrook",
+     "Server Silverstone",
+     "Server Frostbite",
+     "Server Goldleaf",
+     "Server Starfire",
+     "Server Silverstream",
+     "Server Solarflare",
+     "Server Ironclad",
+     "Server Blackwood"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored.\",\n    \"constraints\": \"Each communication link must be monitored by at least one device.\",\n    \"optimization\": \"Select the minimum number of computers to deploy monitoring devices.\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 42,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverstream",
+   "Server Willowbrook",
+   "Server Goldleaf",
+   "Server Firefly",
+   "Server Glacier",
+   "Server Windmill",
+   "Server Crimsoncloud",
+   "Server Ironclad",
+   "Server Emberfall",
+   "Server Lighthouse"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Willowbrook",
+     "Server Glacier",
+     "Server Windmill",
+     "Server Ironclad"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Willowbrook",
+     "Server Glacier",
+     "Server Windmill",
+     "Server Ironclad"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Willowbrook",
+     "Server Goldleaf",
+     "Server Firefly",
+     "Server Glacier",
+     "Server Windmill",
+     "Server Crimsoncloud",
+     "Server Ironclad",
+     "Server Lighthouse"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"All communication links must be covered by at least one monitoring device; the connections are bidirectional\",\n    \"optimization\": \"Select the minimum number of computers to deploy monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 43,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stealthwind",
+   "Server Glacierpeak",
+   "Server Silverstone",
+   "Server Oceanview",
+   "Server Seabreeze",
+   "Server Amberwave",
+   "Server Ghostwind",
+   "Server Thunderstrike",
+   "Server Shadowbrook",
+   "Server Starfire"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Silverstone",
+     "Server Oceanview",
+     "Server Amberwave",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Silverstone",
+     "Server Oceanview",
+     "Server Seabreeze",
+     "Server Ghostwind",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Glacierpeak",
+     "Server Silverstone",
+     "Server Oceanview",
+     "Server Seabreeze",
+     "Server Amberwave",
+     "Server Ghostwind",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device\",\n    \"optimization\": \"Minimize the number of computers selected to deploy monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 44,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Twilight",
+   "Server Lighthouse",
+   "Server Stealthwind",
+   "Server Ironclad",
+   "Server Vortex",
+   "Server Eaglecrest",
+   "Server Sandstorm",
+   "Server Crimsoncloud",
+   "Server Ghostwind"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Stealthwind",
+     "Server Ironclad",
+     "Server Vortex",
+     "Server Crimsoncloud",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Stealthwind",
+     "Server Ironclad",
+     "Server Vortex",
+     "Server Crimsoncloud",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Twilight",
+     "Server Lighthouse",
+     "Server Stealthwind",
+     "Server Ironclad",
+     "Server Vortex",
+     "Server Eaglecrest",
+     "Server Sandstorm",
+     "Server Crimsoncloud",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 45,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Seabreeze",
+   "Server Nightfall",
+   "Server Shadowbrook",
+   "Server Crimsoncloud",
+   "Server Ironbark",
+   "Server Blackwood",
+   "Server Glacier",
+   "Server Windmill",
+   "Server Sunflower",
+   "Server Silverhawk"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Nightfall",
+     "Server Shadowbrook",
+     "Server Glacier",
+     "Server Sunflower",
+     "Server Silverhawk"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Nightfall",
+     "Server Crimsoncloud",
+     "Server Ironbark",
+     "Server Blackwood",
+     "Server Glacier",
+     "Server Windmill"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Nightfall",
+     "Server Shadowbrook",
+     "Server Crimsoncloud",
+     "Server Ironbark",
+     "Server Blackwood",
+     "Server Glacier",
+     "Server Windmill",
+     "Server Sunflower"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"All communication links must be covered by at least one monitoring device; the connections are bidirectional\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 46,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Redwood",
+   "Server Seabreeze",
+   "Server Windswept",
+   "Server Tempest",
+   "Server Vortex",
+   "Server Brightstar",
+   "Server Glacierpeak",
+   "Server Lighthouse",
+   "Server Bluebird",
+   "Server Willowbrook"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Seabreeze",
+     "Server Windswept",
+     "Server Tempest",
+     "Server Glacierpeak",
+     "Server Bluebird"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Seabreeze",
+     "Server Windswept",
+     "Server Tempest",
+     "Server Glacierpeak",
+     "Server Bluebird"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Redwood",
+     "Server Seabreeze",
+     "Server Windswept",
+     "Server Tempest",
+     "Server Vortex",
+     "Server Glacierpeak",
+     "Server Lighthouse",
+     "Server Bluebird",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device; the connections are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected to deploy monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 47,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Goldleaf",
+   "Server Willowbrook",
+   "Server Stormcloud",
+   "Server Eaglecrest",
+   "Server Oceanview",
+   "Server Nightshade",
+   "Server Bluebird",
+   "Server Starfire",
+   "Server Windswept",
+   "Server Firestorm"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Eaglecrest",
+     "Server Oceanview",
+     "Server Bluebird",
+     "Server Starfire",
+     "Server Firestorm"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Stormcloud",
+     "Server Eaglecrest",
+     "Server Oceanview",
+     "Server Nightshade",
+     "Server Starfire",
+     "Server Firestorm"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Goldleaf",
+     "Server Willowbrook",
+     "Server Stormcloud",
+     "Server Eaglecrest",
+     "Server Oceanview",
+     "Server Nightshade",
+     "Server Bluebird",
+     "Server Starfire",
+     "Server Windswept",
+     "Server Firestorm"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device; devices can only be installed on the specified computers\",\n    \"optimization\": \"Minimize the number of computers selected to deploy monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 48,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Nightshade",
+   "Server Goldleaf",
+   "Server Sandstorm",
+   "Server Stormbreaker",
+   "Server Amberwave",
+   "Server Firefly",
+   "Server Stealthwind",
+   "Server Tempest",
+   "Server Seabreeze",
+   "Server Emberlight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Goldleaf",
+     "Server Sandstorm",
+     "Server Firefly",
+     "Server Tempest",
+     "Server Emberlight"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Goldleaf",
+     "Server Sandstorm",
+     "Server Stormbreaker",
+     "Server Amberwave",
+     "Server Firefly",
+     "Server Seabreeze"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Goldleaf",
+     "Server Sandstorm",
+     "Server Stormbreaker",
+     "Server Amberwave",
+     "Server Firefly",
+     "Server Stealthwind",
+     "Server Tempest",
+     "Server Seabreeze",
+     "Server Emberlight"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored\",\n    \"constraints\": \"Each communication link must be monitored by at least one device; the connections between computers are bidirectional.\",\n    \"optimization\": \"Minimize the number of computers selected for deploying monitoring devices\"\n}"
+ },
+ {
+  "file_name": "graph_10.json",
+  "graph_index": 49,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Nightfall",
+   "Server Eaglecrest",
+   "Server Ghostwind",
+   "Server Bluewave",
+   "Server Crimsoncloud",
+   "Server Stormcloud",
+   "Server Nightshade",
+   "Server Thunderstrike",
+   "Server Emberfall",
+   "Server Sunflower"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Ghostwind",
+     "Server Bluewave",
+     "Server Stormcloud",
+     "Server Thunderstrike",
+     "Server Sunflower"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Ghostwind",
+     "Server Bluewave",
+     "Server Stormcloud",
+     "Server Thunderstrike",
+     "Server Sunflower"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Nightfall",
+     "Server Eaglecrest",
+     "Server Ghostwind",
+     "Server Bluewave",
+     "Server Crimsoncloud",
+     "Server Stormcloud",
+     "Server Nightshade",
+     "Server Thunderstrike",
+     "Server Emberfall",
+     "Server Sunflower"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "{\n    \"objective\": \"Deploy monitoring devices on computers to ensure all communication links are monitored.\",\n    \"constraints\": \"Each communication link must be monitored by at least one device.\",\n    \"optimization\": \"Minimize the number of computers selected for monitoring device installation.\"\n}"
+ }
+]

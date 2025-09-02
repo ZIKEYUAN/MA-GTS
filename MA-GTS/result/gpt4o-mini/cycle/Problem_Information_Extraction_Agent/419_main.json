@@ -1,0 +1,12 @@
+[
+ {
+  "file_name": "main.json",
+  "graph_index": 1070,
+  "adj": null,
+  "graph_difficulty": "hard",
+  "name_list": null,
+  "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge.\nThe nodes are numbered from 0 to 31, and the edges are: (11,13) (18,30) (14,10) (11,30) (0,11) (23,28) (7,30) (25,5) (31,28) (12,19) (16,10) (8,7) (0,3) (24,8) (22,15) (17,16) (29,5) (6,12) (31,5) (15,0) (31,27) (1,23) (31,4) (20,26) (1,0) (9,18) (9,3) (20,22) (22,19) (2,27) (6,21) (2,10) (1,19) (2,0)\nQ: Is there a cycle in this graph?\nA:",
+  "real_result": "Yes, there is a cycle in this graph.",
+  "response": "{\n    \"objective\": \"Determine if there is a cycle in the undirected graph\",\n    \"constraints\": \"The graph is undirected and consists of nodes numbered from 0 to 31 with specified edges.\",\n    \"optimization\": \"No explicit optimization objectives; the goal is simply to identify the presence of a cycle.\"\n}"
+ }
+]

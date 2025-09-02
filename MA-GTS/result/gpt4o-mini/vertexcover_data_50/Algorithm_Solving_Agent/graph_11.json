@@ -1,0 +1,10315 @@
+[
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 0,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ravenstone",
+   "Server Eaglecrest",
+   "Server Amberwave",
+   "Server Bluewave",
+   "Server Windmill",
+   "Server Emberfall",
+   "Server Stealthwind",
+   "Server Ironclad",
+   "Server Brightstar",
+   "Server Sunflower",
+   "Server Silverstone"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Eaglecrest",
+     "Server Emberfall",
+     "Server Stealthwind",
+     "Server Ironclad",
+     "Server Brightstar"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Eaglecrest",
+     "Server Emberfall",
+     "Server Stealthwind",
+     "Server Ironclad",
+     "Server Brightstar"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ravenstone",
+     "Server Eaglecrest",
+     "Server Amberwave",
+     "Server Bluewave",
+     "Server Windmill",
+     "Server Emberfall",
+     "Server Stealthwind",
+     "Server Ironclad",
+     "Server Brightstar",
+     "Server Sunflower",
+     "Server Silverstone"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing connections between 11 computers. The algorithm specified for solving this problem is the **Vertex Cover Brute Force** method, which examines all possible subsets of nodes to determine the smallest set that covers all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices (in this case, n = 11).\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 1, 5, 6, 7, 8]\n- **Size of Vertex Cover**: 6\n- **Execution Time**: 0.00273 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover for the graph consists of the nodes [0, 1, 5, 6, 7, 8]. This means that these nodes are sufficient to cover all the edges in the graph. \n\n### Node Mapping\nUsing the provided node mapping, we can translate the node IDs into their respective server names:\n- **0**: Server Ravenstone\n- **1**: Server Eaglecrest\n- **5**: Server Emberfall\n- **6**: Server Stealthwind\n- **7**: Server Ironclad\n- **8**: Server Brightstar\n\n### Final Answer\nThe minimum vertex cover for the graph, which includes the servers that need to be monitored to cover all communication links, consists of the following servers:\n- **Server Ravenstone**\n- **Server Eaglecrest**\n- **Server Emberfall**\n- **Server Stealthwind**\n- **Server Ironclad**\n- **Server Brightstar**\n\nThus, the final answer is that the minimum vertex cover includes **6 servers**: **Server Ravenstone, Server Eaglecrest, Server Emberfall, Server Stealthwind, Server Ironclad, and Server Brightstar**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 1,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Seabreeze",
+   "Server Brightstar",
+   "Server Bluebird",
+   "Server Silverhawk",
+   "Server Redwood",
+   "Server Silverstream",
+   "Server Crimsoncloud",
+   "Server Moonlight",
+   "Server Bluewave",
+   "Server Glacierpeak",
+   "Server Ravenstone"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Brightstar",
+     "Server Silverhawk",
+     "Server Redwood",
+     "Server Crimsoncloud",
+     "Server Glacierpeak",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.01
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Brightstar",
+     "Server Silverhawk",
+     "Server Redwood",
+     "Server Crimsoncloud",
+     "Server Glacierpeak",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Brightstar",
+     "Server Bluebird",
+     "Server Silverhawk",
+     "Server Redwood",
+     "Server Silverstream",
+     "Server Crimsoncloud",
+     "Server Moonlight",
+     "Server Bluewave",
+     "Server Glacierpeak",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Summary of the Problem and Algorithm Used\nThe problem at hand is the **Vertex Cover**, which involves selecting the minimum number of vertices such that all edges in the graph are covered. The algorithm specified for solving this problem is the **Vertex Cover Brute Force** method. Given that the graph consists of 11 computers (nodes), this brute force approach is feasible despite its exponential time complexity.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is as follows:\n- **Vertex Cover Set**: [0, 1, 3, 4, 6, 9, 10]\n- **Size of Vertex Cover**: 7\n- **Execution Time**: 0.0016980171203613281 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover for the given graph includes the nodes corresponding to the following servers:\n- **Server Seabreeze** (0)\n- **Server Brightstar** (1)\n- **Server Silverhawk** (3)\n- **Server Redwood** (4)\n- **Server Crimsoncloud** (6)\n- **Server Glacierpeak** (9)\n- **Server Ravenstone** (10)\n\nThis means that by selecting these 7 servers, all communication links (edges) between the servers will be covered.\n\n### Final Answer\nThe minimum vertex cover for the network of servers is achieved by selecting the following servers:\n- **Server Seabreeze**\n- **Server Brightstar**\n- **Server Silverhawk**\n- **Server Redwood**\n- **Server Crimsoncloud**\n- **Server Glacierpeak**\n- **Server Ravenstone**\n\nThis selection covers all communication links in the network with a total of 7 servers."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 2,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Willowbrook",
+   "Server Stormcloud",
+   "Server Lighthouse",
+   "Server Falconeye",
+   "Server Emberfall",
+   "Server Redwood",
+   "Server Firefly",
+   "Server Solarflare",
+   "Server Glacier",
+   "Server Emberlight",
+   "Server Ironclad"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Lighthouse",
+     "Server Emberfall",
+     "Server Firefly",
+     "Server Solarflare",
+     "Server Glacier"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Lighthouse",
+     "Server Emberfall",
+     "Server Firefly",
+     "Server Solarflare",
+     "Server Glacier"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Stormcloud",
+     "Server Lighthouse",
+     "Server Falconeye",
+     "Server Emberfall",
+     "Server Redwood",
+     "Server Firefly",
+     "Server Solarflare",
+     "Server Glacier",
+     "Server Emberlight"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the minimum Vertex Cover for an undirected graph using the Vertex Cover Brute Force algorithm. The graph is represented by an adjacency list, and the goal is to determine the smallest set of nodes (computers) that can monitor all communication links in the network.\n\n### Algorithm Used\nThe algorithm employed is the **Vertex Cover Brute Force**. This method examines all possible subsets of nodes to find the optimal solution, which is feasible given the graph has 11 nodes.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n```\n{\n  'result': {'([0, 2, 4, 6, 7, 8, 9], 7, 0.0020837783813476562)'}\n}\n```\nThis output indicates:\n- The optimal vertex cover consists of the nodes: **[0, 2, 4, 6, 7, 8, 9]**.\n- The size of the vertex cover is **7**.\n- The time taken to compute this result was approximately **0.0021 seconds**.\n\n### Node Mapping\nUsing the provided node mapping, we can translate the node IDs into their corresponding server names:\n- **0**: Server Willowbrook\n- **2**: Server Lighthouse\n- **4**: Server Emberfall\n- **6**: Server Firefly\n- **7**: Server Solarflare\n- **8**: Server Glacier\n- **9**: Server Emberlight\n\n### Final Answer\nThe minimum Vertex Cover for the given graph consists of the following servers:\n- **Server Willowbrook**\n- **Server Lighthouse**\n- **Server Emberfall**\n- **Server Firefly**\n- **Server Solarflare**\n- **Server Glacier**\n- **Server Emberlight**\n\nThus, the final answer is that **7 servers** are needed to monitor all communication links, specifically: **Server Willowbrook, Server Lighthouse, Server Emberfall, Server Firefly, Server Solarflare, Server Glacier, and Server Emberlight**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 3,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Vortex",
+   "Server Silverstream",
+   "Server Silverstone",
+   "Server Tempest",
+   "Server Goldleaf",
+   "Server Starfire",
+   "Server Blackwood",
+   "Server Stealthwind",
+   "Server Bluebird",
+   "Server Silverhawk",
+   "Server Bluewave"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Silverstream",
+     "Server Tempest",
+     "Server Goldleaf",
+     "Server Starfire",
+     "Server Blackwood",
+     "Server Stealthwind"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.01
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Silverstream",
+     "Server Tempest",
+     "Server Goldleaf",
+     "Server Starfire",
+     "Server Blackwood",
+     "Server Stealthwind"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Vortex",
+     "Server Silverstream",
+     "Server Silverstone",
+     "Server Tempest",
+     "Server Goldleaf",
+     "Server Starfire",
+     "Server Blackwood",
+     "Server Stealthwind",
+     "Server Bluebird",
+     "Server Silverhawk",
+     "Server Bluewave"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing computers and their communication links. The algorithm chosen for this task is the **Vertex Cover Brute Force** method, which examines all possible subsets of nodes to ensure that all edges (communication links) are covered.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n```\n{\n  'result': {'([0, 1, 3, 4, 5, 6, 7], 7, 0.0017101764678955078)'}\n}\n```\nThis output indicates that one optimal vertex cover found consists of the nodes `[0, 1, 3, 4, 5, 6, 7]`, covering a total of 7 nodes. The time taken for this computation was approximately 0.0017 seconds.\n\n### Analysis of the Output\nFrom the output, we can interpret the following:\n- The vertex cover includes the nodes corresponding to the following servers:\n  - **Server Vortex** (0)\n  - **Server Silverstream** (1)\n  - **Server Tempest** (3)\n  - **Server Goldleaf** (4)\n  - **Server Starfire** (5)\n  - **Server Blackwood** (6)\n  - **Server Stealthwind** (7)\n\nThis means that by monitoring these servers, all communication links in the graph will be covered.\n\n### Final Answer\nThe optimal vertex cover for the given graph consists of the following servers:\n- **Server Vortex**\n- **Server Silverstream**\n- **Server Tempest**\n- **Server Goldleaf**\n- **Server Starfire**\n- **Server Blackwood**\n- **Server Stealthwind**\n\nThis selection ensures that all communication links are monitored effectively."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 4,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Mirage",
+   "Server Stealthwind",
+   "Server Thunderbolt",
+   "Server Stormbreaker",
+   "Server Solarflare",
+   "Server Silverstone",
+   "Server Seabreeze",
+   "Server Nightshade",
+   "Server Falconeye",
+   "Server Shadowbrook",
+   "Server Silverstream"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Stormbreaker",
+     "Server Silverstone",
+     "Server Nightshade",
+     "Server Shadowbrook",
+     "Server Silverstream"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Stormbreaker",
+     "Server Silverstone",
+     "Server Nightshade",
+     "Server Shadowbrook",
+     "Server Silverstream"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Stealthwind",
+     "Server Thunderbolt",
+     "Server Stormbreaker",
+     "Server Solarflare",
+     "Server Silverstone",
+     "Server Seabreeze",
+     "Server Nightshade",
+     "Server Falconeye",
+     "Server Shadowbrook",
+     "Server Silverstream"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Summary of the Problem and Algorithm Used\nThe problem at hand is to find the Vertex Cover of an undirected graph representing connections between 11 computers. The algorithm chosen for this task is the **Vertex Cover Brute Force** algorithm, which explores all possible subsets of the vertices to determine the minimum set that covers all edges in the graph.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [2, 3, 5, 7, 9, 10]\n- **Size of Vertex Cover**: 6\n- **Execution Time**: 0.001557 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover for the given graph consists of the nodes [2, 3, 5, 7, 9, 10]. This means that by selecting these computers (Servers), all communication links in the graph will be covered.\n\n### Node Mapping Information\nUsing the provided node mapping, we can translate the node IDs into their respective server names:\n- **2**: Server Thunderbolt\n- **3**: Server Stormbreaker\n- **5**: Server Silverstone\n- **7**: Server Nightshade\n- **9**: Server Shadowbrook\n- **10**: Server Silverstream\n\n### Final Answer\nThe minimum vertex cover for the communication links among the computers is achieved by selecting the following servers:\n- **Server Thunderbolt**\n- **Server Stormbreaker**\n- **Server Silverstone**\n- **Server Nightshade**\n- **Server Shadowbrook**\n- **Server Silverstream**\n\nThis selection covers all communication links in the network."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 5,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windswept",
+   "Server Stormbreaker",
+   "Server Glacierpeak",
+   "Server Twilight",
+   "Server Ironclad",
+   "Server Thunderstrike",
+   "Server Emberfall",
+   "Server Emberlight",
+   "Server Oceanview",
+   "Server Stealthwind",
+   "Server Frostmoon"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windswept",
+     "Server Twilight",
+     "Server Thunderstrike",
+     "Server Emberfall",
+     "Server Oceanview",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Ironclad",
+     "Server Thunderstrike",
+     "Server Emberfall",
+     "Server Oceanview",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windswept",
+     "Server Stormbreaker",
+     "Server Glacierpeak",
+     "Server Twilight",
+     "Server Ironclad",
+     "Server Thunderstrike",
+     "Server Emberfall",
+     "Server Emberlight",
+     "Server Oceanview",
+     "Server Stealthwind"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is a **Vertex Cover** problem, where we need to find the minimum set of nodes (computers) that can monitor all communication links (edges) in a network of 11 computers. The selected algorithm for solving this problem is the **Vertex Cover Brute Force** algorithm, which is optimal for small graphs with fewer than 20 nodes.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Parameters**: The algorithm uses the adjacency list of the graph to determine the minimum vertex cover.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: `[0, 3, 5, 6, 8, 10]`\n- **Size of Vertex Cover**: `6`\n- **Execution Time**: `0.00122 seconds`\n\n### Analysis of the Output\nThe result indicates that the minimum set of nodes required to cover all edges in the graph consists of the nodes represented by the indices `[0, 3, 5, 6, 8, 10]`. \n\n### Node Mapping\nUsing the provided node mapping, we can translate these indices into their corresponding server names:\n- **0**: Server Windswept\n- **3**: Server Twilight\n- **5**: Server Thunderstrike\n- **6**: Server Emberfall\n- **8**: Server Oceanview\n- **10**: Server Frostmoon\n\n### Final Answer\nTo ensure that all communication links in the network are monitored, the minimum set of computers needed is:\n- **Servers**: Windswept, Twilight, Thunderstrike, Emberfall, Oceanview, Frostmoon\n\nThus, the final answer is that the minimum set of computers required to monitor all communication links consists of **6 servers**: **Windswept, Twilight, Thunderstrike, Emberfall, Oceanview, and Frostmoon**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 6,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverstream",
+   "Server Vortex",
+   "Server Brightstar",
+   "Server Darkhorse",
+   "Server Sandstorm",
+   "Server Goldleaf",
+   "Server Amberwave",
+   "Server Seabreeze",
+   "Server Falconeye",
+   "Server Ghostwind",
+   "Server Crimsoncloud"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Vortex",
+     "Server Darkhorse",
+     "Server Sandstorm",
+     "Server Seabreeze",
+     "Server Falconeye",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.01
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Vortex",
+     "Server Darkhorse",
+     "Server Goldleaf",
+     "Server Amberwave",
+     "Server Falconeye",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Vortex",
+     "Server Brightstar",
+     "Server Darkhorse",
+     "Server Sandstorm",
+     "Server Goldleaf",
+     "Server Amberwave",
+     "Server Seabreeze",
+     "Server Falconeye",
+     "Server Ghostwind",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the minimum Vertex Cover for an undirected graph representing computers and their bidirectional communication links. The algorithm chosen for this task is the **Vertex Cover Brute Force** method, which evaluates all possible subsets of nodes to determine the minimum number of nodes required to cover all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 1, 3, 4, 7, 8, 9]\n- **Size of Vertex Cover**: 7\n- **Execution Time**: 0.00159 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum Vertex Cover consists of the nodes [0, 1, 3, 4, 7, 8, 9]. In terms of the node mapping provided, these correspond to the following servers:\n- **0**: Server Silverstream\n- **1**: Server Vortex\n- **3**: Server Darkhorse\n- **4**: Server Sandstorm\n- **7**: Server Seabreeze\n- **8**: Server Falconeye\n- **9**: Server Ghostwind\n\nThus, the minimum number of devices needed to monitor all communication links in the network is **7**, and the specific servers that need to be monitored are:\n\n1. Server Silverstream\n2. Server Vortex\n3. Server Darkhorse\n4. Server Sandstorm\n5. Server Seabreeze\n6. Server Falconeye\n7. Server Ghostwind\n\n### Final Answer\nTo cover all communication links in the network, the minimum Vertex Cover consists of the following servers:\n- **Server Silverstream**\n- **Server Vortex**\n- **Server Darkhorse**\n- **Server Sandstorm**\n- **Server Seabreeze**\n- **Server Falconeye**\n- **Server Ghostwind**\n\nThis results in a total of **7 servers** needed for monitoring."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 7,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Moonlight",
+   "Server Eaglecrest",
+   "Server Stormbreaker",
+   "Server Windswept",
+   "Server Silverhawk",
+   "Server Sunflower",
+   "Server Firestorm",
+   "Server Ironbark",
+   "Server Vortex",
+   "Server Goldleaf",
+   "Server Blackwood"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Eaglecrest",
+     "Server Stormbreaker",
+     "Server Silverhawk",
+     "Server Sunflower",
+     "Server Firestorm",
+     "Server Ironbark"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Eaglecrest",
+     "Server Stormbreaker",
+     "Server Sunflower",
+     "Server Vortex",
+     "Server Goldleaf",
+     "Server Blackwood"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Eaglecrest",
+     "Server Stormbreaker",
+     "Server Windswept",
+     "Server Silverhawk",
+     "Server Sunflower",
+     "Server Firestorm",
+     "Server Ironbark",
+     "Server Vortex"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph using the Vertex Cover Brute Force algorithm. This algorithm checks all possible subsets of nodes to ensure that all edges in the graph are covered by at least one node in the subset. Given that the graph consists of 11 nodes, this brute force method is feasible despite its exponential time complexity.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Input**: Adjacency list representing the graph.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 1, 2, 4, 5, 6, 7]\n- **Size of Vertex Cover**: 7\n- **Execution Time**: 0.0016 seconds\n\n### Node Mapping\nUsing the provided node mapping, we can identify the servers corresponding to the nodes in the vertex cover:\n- **Node 0**: Server Moonlight\n- **Node 1**: Server Eaglecrest\n- **Node 2**: Server Stormbreaker\n- **Node 4**: Server Silverhawk\n- **Node 5**: Server Sunflower\n- **Node 6**: Server Firestorm\n- **Node 7**: Server Ironbark\n\n### Final Answer\nThe optimal vertex cover for the given graph consists of the following servers:\n- **Server Moonlight**\n- **Server Eaglecrest**\n- **Server Stormbreaker**\n- **Server Silverhawk**\n- **Server Sunflower**\n- **Server Firestorm**\n- **Server Ironbark**\n\nThis set of servers ensures that all communication links in the network are monitored. The size of the vertex cover is 7."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 8,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberlight",
+   "Server Solarflare",
+   "Server Goldleaf",
+   "Server Vortex",
+   "Server Ravenstone",
+   "Server Ghostwind",
+   "Server Sandstorm",
+   "Server Silverhawk",
+   "Server Ironclad",
+   "Server Amberwave",
+   "Server Stormcloud"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Solarflare",
+     "Server Vortex",
+     "Server Ghostwind",
+     "Server Ironclad",
+     "Server Amberwave",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Solarflare",
+     "Server Vortex",
+     "Server Ghostwind",
+     "Server Ironclad",
+     "Server Amberwave",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Solarflare",
+     "Server Goldleaf",
+     "Server Vortex",
+     "Server Ravenstone",
+     "Server Ghostwind",
+     "Server Sandstorm",
+     "Server Silverhawk",
+     "Server Ironclad",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph using the Vertex Cover Brute Force algorithm. The goal is to determine the minimum set of nodes (computers) that covers all edges (communication links) in the graph.\n\n### Algorithm Used\nThe algorithm employed is the **Vertex Cover Brute Force**. This algorithm examines all possible subsets of nodes to find the minimum vertex cover, which is feasible given the graph's size (11 nodes).\n\n### Tool's Output\nThe output from the algorithm is:\n- **Vertex Cover Set**: `[0, 1, 3, 5, 8, 9, 10]`\n- **Size of Vertex Cover**: `7`\n- **Execution Time**: `0.00175 seconds`\n\n### Node Mapping\nUsing the provided node mapping, we can translate the node IDs in the vertex cover set to their corresponding server names:\n- **0**: Server Emberlight\n- **1**: Server Solarflare\n- **3**: Server Vortex\n- **5**: Server Ghostwind\n- **8**: Server Ironclad\n- **9**: Server Amberwave\n- **10**: Server Stormcloud\n\n### Final Answer\nThe minimum vertex cover for the given graph consists of the following servers:\n- **Server Emberlight**\n- **Server Solarflare**\n- **Server Vortex**\n- **Server Ghostwind**\n- **Server Ironclad**\n- **Server Amberwave**\n- **Server Stormcloud**\n\nThus, the final answer is that the minimum vertex cover includes **7 servers**: **Server Emberlight, Server Solarflare, Server Vortex, Server Ghostwind, Server Ironclad, Server Amberwave, and Server Stormcloud**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 9,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stormcloud",
+   "Server Windmill",
+   "Server Amberwave",
+   "Server Skyhawk",
+   "Server Lighthouse",
+   "Server Crimsoncloud",
+   "Server Moonlight",
+   "Server Seabreeze",
+   "Server Frostmoon",
+   "Server Frostbite",
+   "Server Darkhorse"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Windmill",
+     "Server Amberwave",
+     "Server Skyhawk",
+     "Server Lighthouse",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Windmill",
+     "Server Amberwave",
+     "Server Skyhawk",
+     "Server Lighthouse",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Windmill",
+     "Server Amberwave",
+     "Server Skyhawk",
+     "Server Lighthouse",
+     "Server Crimsoncloud",
+     "Server Moonlight",
+     "Server Frostmoon",
+     "Server Frostbite"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Summary of the Problem and Algorithm Used\nThe problem at hand is to find the **Vertex Cover** of an undirected graph, which is a set of vertices that covers all edges in the graph. The algorithm chosen for this problem is the **Vertex Cover Brute Force** method. This algorithm explores all possible subsets of vertices to find the minimum set that covers all communication links in the graph.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n```\n{\n  'result': {'([0, 1, 2, 3, 4], 5, 0.0005698204040527344)'}\n}\n```\nThis output indicates that the minimum vertex cover consists of the vertices `[0, 1, 2, 3, 4]`, which covers all edges in the graph. The size of this vertex cover is `5`, and the time taken to compute this was approximately `0.00057 seconds`.\n\n### Analysis of the Output\nFrom the output, we can interpret the following:\n- The vertices included in the minimum vertex cover are:\n  - **0**: Server Stormcloud\n  - **1**: Server Windmill\n  - **2**: Server Amberwave\n  - **3**: Server Skyhawk\n  - **4**: Server Lighthouse\n\nThis means that to cover all communication links in the network represented by the graph, we need to include these five servers in our vertex cover.\n\n### Final Answer\nThe minimum vertex cover for the given graph consists of the following servers:\n- **Server Stormcloud**\n- **Server Windmill**\n- **Server Amberwave**\n- **Server Skyhawk**\n- **Server Lighthouse**\n\nThis set of servers ensures that all communication links between the servers are covered."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 10,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberfall",
+   "Server Sunflower",
+   "Server Ironclad",
+   "Server Seabreeze",
+   "Server Blackwood",
+   "Server Shadowbrook",
+   "Server Silverstream",
+   "Server Oceanview",
+   "Server Silverstone",
+   "Server Sandstorm",
+   "Server Vortex"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Ironclad",
+     "Server Seabreeze",
+     "Server Shadowbrook",
+     "Server Silverstone",
+     "Server Sandstorm",
+     "Server Vortex"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.01
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Sunflower",
+     "Server Seabreeze",
+     "Server Blackwood",
+     "Server Shadowbrook",
+     "Server Silverstream",
+     "Server Oceanview",
+     "Server Silverstone"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Sunflower",
+     "Server Ironclad",
+     "Server Seabreeze",
+     "Server Blackwood",
+     "Server Shadowbrook",
+     "Server Silverstream",
+     "Server Oceanview",
+     "Server Silverstone",
+     "Server Sandstorm",
+     "Server Vortex"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph using the Vertex Cover Brute Force algorithm. The goal is to identify the smallest set of nodes such that every edge in the graph is incident to at least one node from this set.\n\n### Algorithm Used\nThe algorithm employed is the **Vertex Cover Brute Force** method, which checks all possible subsets of nodes to find the optimal solution. Given the graph has 11 nodes, this approach is feasible despite its exponential time complexity.\n\n### Tool Output\nThe output from the tool indicates the following:\n- **Vertex Cover Set**: `[1, 2, 3, 5, 8, 9, 10]`\n- **Size of Vertex Cover**: `7`\n- **Execution Time**: `0.0019 seconds`\n\n### Analysis of the Output\nThe resulting vertex cover set consists of the nodes: \n- **Server Sunflower (1)**\n- **Server Ironclad (2)**\n- **Server Seabreeze (3)**\n- **Server Shadowbrook (5)**\n- **Server Silverstone (8)**\n- **Server Sandstorm (9)**\n- **Server Vortex (10)**\n\nThis means that these servers collectively monitor all communication links in the network. The size of the vertex cover is 7, indicating that 7 servers are necessary to cover all edges in the graph.\n\n### Final Answer\nThe optimal vertex cover for the given undirected graph consists of the servers: **Server Sunflower, Server Ironclad, Server Seabreeze, Server Shadowbrook, Server Silverstone, Server Sandstorm, and Server Vortex**. The minimum number of servers required to cover all communication links is **7**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 11,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Mirage",
+   "Server Firefly",
+   "Server Crimsoncloud",
+   "Server Oceanview",
+   "Server Emberlight",
+   "Server Twilight",
+   "Server Seabreeze",
+   "Server Thunderstrike",
+   "Server Ironbark",
+   "Server Ironclad",
+   "Server Vortex"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Firefly",
+     "Server Crimsoncloud",
+     "Server Oceanview",
+     "Server Emberlight",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Firefly",
+     "Server Crimsoncloud",
+     "Server Oceanview",
+     "Server Emberlight",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Mirage",
+     "Server Firefly",
+     "Server Crimsoncloud",
+     "Server Oceanview",
+     "Server Emberlight",
+     "Server Twilight",
+     "Server Seabreeze",
+     "Server Thunderstrike",
+     "Server Ironbark"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to find the minimum vertex cover for an undirected graph using the Vertex Cover Brute Force algorithm. This algorithm examines all possible subsets of nodes to determine the smallest set that covers all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 1, 2, 3, 4, 7]\n- **Size of Vertex Cover**: 6\n- **Execution Time**: 0.000972747802734375 seconds\n\n### Node Mapping\nUsing the provided node mapping, we can interpret the vertex cover set:\n- 0: Server Mirage\n- 1: Server Firefly\n- 2: Server Crimsoncloud\n- 3: Server Oceanview\n- 4: Server Emberlight\n- 7: Server Thunderstrike\n\n### Final Answer\nThe minimum vertex cover for the given graph consists of the following servers:\n- **Servers in Vertex Cover**: Server Mirage, Server Firefly, Server Crimsoncloud, Server Oceanview, Server Emberlight, Server Thunderstrike.\n- **Total Number of Servers in Cover**: 6\n\nThus, the final answer is that the minimum vertex cover includes **6 servers**: Server Mirage, Server Firefly, Server Crimsoncloud, Server Oceanview, Server Emberlight, and Server Thunderstrike."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 12,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Twilight",
+   "Server Darkhorse",
+   "Server Ghostwind",
+   "Server Ironbark",
+   "Server Amberwave",
+   "Server Firefly",
+   "Server Silverstone",
+   "Server Willowbrook",
+   "Server Solarflare",
+   "Server Bluebird",
+   "Server Blackwood"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Darkhorse",
+     "Server Ghostwind",
+     "Server Ironbark",
+     "Server Amberwave",
+     "Server Firefly"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Darkhorse",
+     "Server Ghostwind",
+     "Server Ironbark",
+     "Server Amberwave",
+     "Server Firefly"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Darkhorse",
+     "Server Ghostwind",
+     "Server Ironbark",
+     "Server Amberwave",
+     "Server Firefly",
+     "Server Silverstone"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the minimum Vertex Cover for an undirected graph representing a network of computers and their bidirectional communication links. The algorithm specified for solving this problem is the **Vertex Cover Brute Force** algorithm, which examines all possible subsets of nodes to determine the smallest set that covers all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Result**: `([0, 1, 2, 3, 4, 5], 6, 0.0009369850158691406)`\n  - The first element `[0, 1, 2, 3, 4, 5]` represents the nodes included in the minimum vertex cover.\n  - The second element `6` indicates the size of the vertex cover.\n  - The third element `0.0009369850158691406` is the time taken to compute the result.\n\n### Node Mapping\nUsing the provided node mapping, we can translate the node indices into their corresponding server names:\n- 0: Server Twilight\n- 1: Server Darkhorse\n- 2: Server Ghostwind\n- 3: Server Ironbark\n- 4: Server Amberwave\n- 5: Server Firefly\n\n### Final Answer\nThe minimum vertex cover for the given network of computers consists of the following servers:\n- **Servers in Vertex Cover**: Server Twilight, Server Darkhorse, Server Ghostwind, Server Ironbark, Server Amberwave, Server Firefly\n- **Size of Vertex Cover**: 6\n\nThus, the final answer is that the minimum vertex cover includes **6 servers**: **Server Twilight, Server Darkhorse, Server Ghostwind, Server Ironbark, Server Amberwave, and Server Firefly**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 13,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Falconeye",
+   "Server Glacier",
+   "Server Shadowbrook",
+   "Server Twilight",
+   "Server Windmill",
+   "Server Skyhawk",
+   "Server Blackwood",
+   "Server Crimsoncloud",
+   "Server Firestorm",
+   "Server Stormbreaker",
+   "Server Solarflare"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Glacier",
+     "Server Shadowbrook",
+     "Server Twilight",
+     "Server Windmill",
+     "Server Firestorm",
+     "Server Stormbreaker"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Glacier",
+     "Server Shadowbrook",
+     "Server Twilight",
+     "Server Windmill",
+     "Server Stormbreaker",
+     "Server Solarflare"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Falconeye",
+     "Server Glacier",
+     "Server Shadowbrook",
+     "Server Twilight",
+     "Server Windmill",
+     "Server Skyhawk",
+     "Server Crimsoncloud",
+     "Server Firestorm",
+     "Server Stormbreaker",
+     "Server Solarflare"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing computers and their bidirectional communication links. The algorithm specified for this task is the **Vertex Cover Brute Force** algorithm, which examines all possible subsets of nodes to ensure that all edges in the graph are covered.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: `[0, 1, 2, 3, 4, 8, 9]`\n- **Size of Vertex Cover**: `7`\n- **Execution Time**: `0.002154111862182617 seconds`\n\n### Analysis of the Output\nThe result indicates that the optimal vertex cover for the given graph consists of the nodes represented by the IDs `[0, 1, 2, 3, 4, 8, 9]`. \n\nUsing the node mapping provided:\n- **0**: Server Falconeye\n- **1**: Server Glacier\n- **2**: Server Shadowbrook\n- **3**: Server Twilight\n- **4**: Server Windmill\n- **8**: Server Firestorm\n- **9**: Server Stormbreaker\n\n### Final Answer\nThe optimal vertex cover for the graph, which ensures that all communication links are monitored, includes the following servers:\n- **Server Falconeye**\n- **Server Glacier**\n- **Server Shadowbrook**\n- **Server Twilight**\n- **Server Windmill**\n- **Server Firestorm**\n- **Server Stormbreaker**\n\nThus, the final answer is that the vertex cover consists of these 7 servers."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 14,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Windmill",
+   "Server Vortex",
+   "Server Nightshade",
+   "Server Tempest",
+   "Server Frostmoon",
+   "Server Glacier",
+   "Server Starfire",
+   "Server Bluewave",
+   "Server Thunderstrike",
+   "Server Ravenstone",
+   "Server Moonlight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Vortex",
+     "Server Nightshade",
+     "Server Tempest",
+     "Server Frostmoon",
+     "Server Glacier",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Vortex",
+     "Server Nightshade",
+     "Server Tempest",
+     "Server Frostmoon",
+     "Server Glacier",
+     "Server Thunderstrike"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Windmill",
+     "Server Vortex",
+     "Server Nightshade",
+     "Server Tempest",
+     "Server Frostmoon",
+     "Server Glacier",
+     "Server Starfire",
+     "Server Bluewave",
+     "Server Thunderstrike",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the minimum vertex cover for an undirected graph representing computers and their communication links. The algorithm specified for this task is the **Vertex Cover Brute Force** algorithm, which checks all possible subsets of nodes to determine the minimum set that covers all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Input**: Adjacency list of the graph.\n\n### Tool's Output\nThe output from the tool indicates the following:\n- **Vertex Cover Set**: `[0, 1, 2, 3, 4, 5, 8]`\n- **Size of Vertex Cover**: `7`\n- **Execution Time**: `0.0016329288482666016 seconds`\n\n### Analysis of the Output\nThe vertex cover set `[0, 1, 2, 3, 4, 5, 8]` corresponds to the following servers based on the provided node mapping:\n- **0**: Server Windmill\n- **1**: Server Vortex\n- **2**: Server Nightshade\n- **3**: Server Tempest\n- **4**: Server Frostmoon\n- **5**: Server Glacier\n- **8**: Server Thunderstrike\n\nThis means that the minimum set of servers that can cover all communication links in the network consists of these 7 servers.\n\n### Final Answer\nThe minimum vertex cover for the given network of computers includes the following servers:\n- **Server Windmill**\n- **Server Vortex**\n- **Server Nightshade**\n- **Server Tempest**\n- **Server Frostmoon**\n- **Server Glacier**\n- **Server Thunderstrike**\n\nThis set ensures that all communication links between the servers are covered."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 15,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Firefly",
+   "Server Ghostwind",
+   "Server Darkhorse",
+   "Server Windmill",
+   "Server Frostbite",
+   "Server Silverstream",
+   "Server Willowbrook",
+   "Server Thunderstrike",
+   "Server Lighthouse",
+   "Server Tempest",
+   "Server Ironclad"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Ghostwind",
+     "Server Darkhorse",
+     "Server Windmill",
+     "Server Silverstream",
+     "Server Lighthouse",
+     "Server Tempest"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Ghostwind",
+     "Server Darkhorse",
+     "Server Windmill",
+     "Server Willowbrook",
+     "Server Thunderstrike",
+     "Server Lighthouse"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Ghostwind",
+     "Server Darkhorse",
+     "Server Windmill",
+     "Server Frostbite",
+     "Server Silverstream",
+     "Server Willowbrook",
+     "Server Thunderstrike",
+     "Server Lighthouse",
+     "Server Tempest",
+     "Server Ironclad"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing a network of computers and their bidirectional communication links. The algorithm specified for this task is the **Vertex Cover Brute Force** algorithm, which examines all possible subsets of nodes to determine the minimum set that covers all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 1, 2, 3, 5, 8, 9]\n- **Size of Vertex Cover**: 7\n- **Execution Time**: Approximately 0.00158 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover for the given graph includes the nodes corresponding to the following servers:\n- **Server Firefly** (0)\n- **Server Ghostwind** (1)\n- **Server Darkhorse** (2)\n- **Server Windmill** (3)\n- **Server Silverstream** (5)\n- **Server Lighthouse** (8)\n- **Server Tempest** (9)\n\nThis means that these servers collectively cover all communication links in the network, ensuring that every edge in the graph is incident to at least one of these nodes.\n\n### Final Answer\nThe minimum vertex cover for the network of computers consists of the following servers:\n- **Server Firefly**\n- **Server Ghostwind**\n- **Server Darkhorse**\n- **Server Windmill**\n- **Server Silverstream**\n- **Server Lighthouse**\n- **Server Tempest**\n\nThe size of the vertex cover is **7**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 16,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberfall",
+   "Server Shadowbrook",
+   "Server Silverstream",
+   "Server Ravenstone",
+   "Server Thunderstrike",
+   "Server Amberwave",
+   "Server Vortex",
+   "Server Firefly",
+   "Server Oceanview",
+   "Server Brightstar",
+   "Server Frostbite"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Shadowbrook",
+     "Server Silverstream",
+     "Server Ravenstone",
+     "Server Thunderstrike",
+     "Server Amberwave",
+     "Server Frostbite"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Shadowbrook",
+     "Server Silverstream",
+     "Server Ravenstone",
+     "Server Thunderstrike",
+     "Server Amberwave",
+     "Server Frostbite"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Shadowbrook",
+     "Server Silverstream",
+     "Server Ravenstone",
+     "Server Thunderstrike",
+     "Server Amberwave",
+     "Server Vortex",
+     "Server Firefly",
+     "Server Oceanview",
+     "Server Frostbite"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing computers and their communication links. The algorithm specified for solving this problem is the **Vertex Cover Brute Force** algorithm, which checks all possible subsets of nodes to ensure that all communication links are monitored.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 1, 2, 3, 4, 5, 10]\n- **Size of Vertex Cover**: 7\n- **Execution Time**: 0.001475 seconds\n\n### Analysis of Output\nThe result indicates that the optimal vertex cover for the given graph consists of the nodes [0, 1, 2, 3, 4, 5, 10]. This means that by monitoring these servers, all communication links in the graph will be covered.\n\n### Node Mapping\nUsing the provided node mapping, we can translate the node IDs into their respective server names:\n- **0**: Server Emberfall\n- **1**: Server Shadowbrook\n- **2**: Server Silverstream\n- **3**: Server Ravenstone\n- **4**: Server Thunderstrike\n- **5**: Server Amberwave\n- **10**: Server Frostbite\n\n### Final Answer\nThe optimal vertex cover for the communication links in the graph is achieved by monitoring the following servers:\n- **Server Emberfall**\n- **Server Shadowbrook**\n- **Server Silverstream**\n- **Server Ravenstone**\n- **Server Thunderstrike**\n- **Server Amberwave**\n- **Server Frostbite**\n\nThis set of servers ensures that all communication links are effectively monitored."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 17,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Thunderstrike",
+   "Server Emberfall",
+   "Server Bluewave",
+   "Server Falconeye",
+   "Server Starfire",
+   "Server Emberlight",
+   "Server Eaglecrest",
+   "Server Sandstorm",
+   "Server Windmill",
+   "Server Thunderbolt",
+   "Server Ironbark"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Emberfall",
+     "Server Falconeye",
+     "Server Starfire",
+     "Server Emberlight",
+     "Server Sandstorm",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.01
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Emberfall",
+     "Server Falconeye",
+     "Server Starfire",
+     "Server Emberlight",
+     "Server Sandstorm",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Emberfall",
+     "Server Bluewave",
+     "Server Falconeye",
+     "Server Starfire",
+     "Server Emberlight",
+     "Server Eaglecrest",
+     "Server Sandstorm",
+     "Server Windmill",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing computers and their communication links. The algorithm specified for solving this problem is the **Vertex Cover Brute Force** algorithm, which checks all possible subsets of vertices to ensure that all edges in the graph are covered.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Input**: The adjacency list of the graph.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: `[0, 1, 3, 4, 5, 7, 9]`\n- **Size of Vertex Cover**: `7`\n- **Execution Time**: `0.0016472339630126953 seconds`\n\n### Analysis of the Output\nThe result indicates that the optimal vertex cover consists of the nodes with IDs `[0, 1, 3, 4, 5, 7, 9]`. \n\nUsing the provided node mapping:\n- **0**: Server Thunderstrike\n- **1**: Server Emberfall\n- **3**: Server Falconeye\n- **4**: Server Starfire\n- **5**: Server Emberlight\n- **7**: Server Sandstorm\n- **9**: Server Thunderbolt\n\n### Final Answer\nThe optimal vertex cover for the given graph includes the following servers:\n- **Server Thunderstrike**\n- **Server Emberfall**\n- **Server Falconeye**\n- **Server Starfire**\n- **Server Emberlight**\n- **Server Sandstorm**\n- **Server Thunderbolt**\n\nThus, the final answer is that the vertex cover consists of these 7 servers, ensuring all communication links are monitored."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 18,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberfall",
+   "Server Glacierpeak",
+   "Server Silverstream",
+   "Server Vortex",
+   "Server Oceanview",
+   "Server Stormbreaker",
+   "Server Moonlight",
+   "Server Stealthwind",
+   "Server Emberlight",
+   "Server Sunflower",
+   "Server Tempest"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Glacierpeak",
+     "Server Silverstream",
+     "Server Vortex",
+     "Server Oceanview",
+     "Server Emberlight",
+     "Server Sunflower"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Glacierpeak",
+     "Server Silverstream",
+     "Server Vortex",
+     "Server Oceanview",
+     "Server Emberlight",
+     "Server Sunflower"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Glacierpeak",
+     "Server Silverstream",
+     "Server Vortex",
+     "Server Oceanview",
+     "Server Moonlight",
+     "Server Stealthwind",
+     "Server Emberlight",
+     "Server Sunflower",
+     "Server Tempest"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the **Vertex Cover** of an undirected graph using the **Vertex Cover Brute Force** algorithm. This algorithm checks all possible subsets of nodes to determine the minimum number of nodes required to cover all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool Output\nThe output from the tool indicates the following:\n- **Vertex Cover Set**: [0, 1, 2, 3, 4, 8, 9]\n- **Size of Vertex Cover**: 7\n- **Execution Time**: 0.001555 seconds\n\n### Node Mapping\nUsing the provided node mapping, we can interpret the vertex cover set:\n- 0: Server Emberfall\n- 1: Server Glacierpeak\n- 2: Server Silverstream\n- 3: Server Vortex\n- 4: Server Oceanview\n- 8: Server Emberlight\n- 9: Server Sunflower\n\n### Final Answer\nThe minimum vertex cover for the given graph consists of the following servers:\n- **Server Emberfall**\n- **Server Glacierpeak**\n- **Server Silverstream**\n- **Server Vortex**\n- **Server Oceanview**\n- **Server Emberlight**\n- **Server Sunflower**\n\nThus, the minimum number of servers needed to monitor all communication links is **7**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 19,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Lighthouse",
+   "Server Tempest",
+   "Server Amberwave",
+   "Server Falconeye",
+   "Server Stealthwind",
+   "Server Firefly",
+   "Server Ironbark",
+   "Server Willowbrook",
+   "Server Solarflare",
+   "Server Silverstream",
+   "Server Thunderstrike"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Amberwave",
+     "Server Falconeye",
+     "Server Stealthwind",
+     "Server Firefly",
+     "Server Ironbark"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Amberwave",
+     "Server Falconeye",
+     "Server Stealthwind",
+     "Server Firefly",
+     "Server Ironbark"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Lighthouse",
+     "Server Tempest",
+     "Server Amberwave",
+     "Server Falconeye",
+     "Server Stealthwind",
+     "Server Firefly",
+     "Server Ironbark",
+     "Server Willowbrook",
+     "Server Solarflare"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing communication links between computers. The algorithm specified for this task is the **Vertex Cover Brute Force** algorithm, which explores all possible subsets of nodes to identify the minimum set that covers all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 2, 3, 4, 5, 6]\n- **Size of Vertex Cover**: 6\n- **Execution Time**: 0.000738 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover for the given graph consists of the nodes represented by the IDs [0, 2, 3, 4, 5, 6]. \n\n### Node Mapping\nUsing the provided node mapping, we can translate the node IDs into their corresponding server names:\n- **0**: Server Lighthouse\n- **2**: Server Amberwave\n- **3**: Server Falconeye\n- **4**: Server Stealthwind\n- **5**: Server Firefly\n- **6**: Server Ironbark\n\n### Final Answer\nThe minimum vertex cover for the communication links between the computers is composed of the following servers:\n- **Server Lighthouse**\n- **Server Amberwave**\n- **Server Falconeye**\n- **Server Stealthwind**\n- **Server Firefly**\n- **Server Ironbark**\n\nThus, the final answer is:\n**The minimum vertex cover includes the servers: Server Lighthouse, Server Amberwave, Server Falconeye, Server Stealthwind, Server Firefly, and Server Ironbark.**"
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 20,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberlight",
+   "Server Starfire",
+   "Server Glacier",
+   "Server Lighthouse",
+   "Server Ghostwind",
+   "Server Blackwood",
+   "Server Shadowbrook",
+   "Server Glacierpeak",
+   "Server Ravenstone",
+   "Server Goldleaf",
+   "Server Twilight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Glacier",
+     "Server Lighthouse",
+     "Server Shadowbrook",
+     "Server Ravenstone",
+     "Server Twilight"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Lighthouse",
+     "Server Ghostwind",
+     "Server Blackwood",
+     "Server Shadowbrook",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Starfire",
+     "Server Glacier",
+     "Server Lighthouse",
+     "Server Ghostwind",
+     "Server Blackwood",
+     "Server Shadowbrook",
+     "Server Glacierpeak",
+     "Server Ravenstone",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing computers and their bidirectional communication links. The algorithm specified for this task is the **Vertex Cover Brute Force** algorithm, which examines all possible subsets of nodes to find the minimum set that covers all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n```json\n{\n  \"result\": {\n    \"cover_set\": [0, 2, 3, 6, 8, 10],\n    \"cover_size\": 6,\n    \"execution_time\": 0.0013890266418457031\n  }\n}\n```\n- **Cover Set**: [0, 2, 3, 6, 8, 10]\n- **Cover Size**: 6\n- **Execution Time**: Approximately 0.00139 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover consists of the nodes with IDs [0, 2, 3, 6, 8, 10]. According to the provided node mapping:\n- **Node 0**: Server Emberlight\n- **Node 2**: Server Glacier\n- **Node 3**: Server Lighthouse\n- **Node 6**: Server Shadowbrook\n- **Node 8**: Server Ravenstone\n- **Node 10**: Server Twilight\n\n### Final Answer\nThe minimum vertex cover for the given graph consists of the following servers:\n- **Server Emberlight**\n- **Server Glacier**\n- **Server Lighthouse**\n- **Server Shadowbrook**\n- **Server Ravenstone**\n- **Server Twilight**\n\nThus, the minimum set of computers that covers all communication links includes these six servers."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 21,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Brightstar",
+   "Server Ghostwind",
+   "Server Ironbark",
+   "Server Starfire",
+   "Server Moonlight",
+   "Server Sunflower",
+   "Server Nightfall",
+   "Server Stormbreaker",
+   "Server Frostbite",
+   "Server Silverstream",
+   "Server Goldleaf"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ironbark",
+     "Server Starfire",
+     "Server Sunflower",
+     "Server Nightfall",
+     "Server Frostbite",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ghostwind",
+     "Server Ironbark",
+     "Server Starfire",
+     "Server Moonlight",
+     "Server Sunflower",
+     "Server Nightfall",
+     "Server Frostbite"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Brightstar",
+     "Server Ghostwind",
+     "Server Ironbark",
+     "Server Starfire",
+     "Server Moonlight",
+     "Server Sunflower",
+     "Server Nightfall",
+     "Server Stormbreaker",
+     "Server Frostbite",
+     "Server Silverstream"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph using the Vertex Cover Brute Force algorithm. This algorithm examines all possible subsets of nodes to determine the minimum set that covers all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [2, 3, 5, 6, 8, 10]\n- **Size of Vertex Cover**: 6\n- **Execution Time**: 0.00149 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover for the given graph consists of the nodes [2, 3, 5, 6, 8, 10]. This means that these nodes collectively cover all the edges in the graph. \n\n### Node Mapping\nUsing the provided node mapping, we can translate the node IDs into their corresponding server names:\n- Node 2: Server Ironbark\n- Node 3: Server Starfire\n- Node 5: Server Sunflower\n- Node 6: Server Nightfall\n- Node 8: Server Frostbite\n- Node 10: Server Goldleaf\n\n### Final Answer\nThe minimum vertex cover for the graph consists of the following servers:\n- **Server Ironbark**\n- **Server Starfire**\n- **Server Sunflower**\n- **Server Nightfall**\n- **Server Frostbite**\n- **Server Goldleaf**\n\nThus, the final answer is:\n**The minimum vertex cover includes the servers: Ironbark, Starfire, Sunflower, Nightfall, Frostbite, and Goldleaf.**"
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 22,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stormcloud",
+   "Server Stormbreaker",
+   "Server Blackwood",
+   "Server Ironclad",
+   "Server Goldleaf",
+   "Server Thunderstrike",
+   "Server Falconeye",
+   "Server Ironbark",
+   "Server Nightshade",
+   "Server Glacier",
+   "Server Glacierpeak"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Stormbreaker",
+     "Server Blackwood",
+     "Server Ironclad",
+     "Server Falconeye",
+     "Server Ironbark"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Stormbreaker",
+     "Server Ironclad",
+     "Server Goldleaf",
+     "Server Falconeye",
+     "Server Ironbark"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stormcloud",
+     "Server Stormbreaker",
+     "Server Blackwood",
+     "Server Ironclad",
+     "Server Goldleaf",
+     "Server Falconeye",
+     "Server Ironbark",
+     "Server Nightshade"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the minimum Vertex Cover for an undirected graph representing connections between 11 computers. The algorithm specified for this task is the **Vertex Cover Brute Force** algorithm, which examines all possible subsets of computers to determine the minimum number needed to cover all communication links.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 1, 2, 3, 6, 7]\n- **Size of Vertex Cover**: 6\n- **Execution Time**: 0.0010142326354980469 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum Vertex Cover consists of the nodes [0, 1, 2, 3, 6, 7]. \n\nUsing the provided node mapping:\n- **0**: Server Stormcloud\n- **1**: Server Stormbreaker\n- **2**: Server Blackwood\n- **3**: Server Ironclad\n- **6**: Server Falconeye\n- **7**: Server Ironbark\n\n### Final Answer\nThe minimum Vertex Cover for the given graph consists of the following servers:\n- **Server Stormcloud**\n- **Server Stormbreaker**\n- **Server Blackwood**\n- **Server Ironclad**\n- **Server Falconeye**\n- **Server Ironbark**\n\nThus, a total of **6 servers** are needed to cover all communication links in the network."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 23,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Twilight",
+   "Server Amberwave",
+   "Server Shadowbrook",
+   "Server Nightshade",
+   "Server Silverhawk",
+   "Server Redwood",
+   "Server Ghostwind",
+   "Server Tempest",
+   "Server Willowbrook",
+   "Server Frostmoon",
+   "Server Ironbark"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Amberwave",
+     "Server Silverhawk",
+     "Server Redwood",
+     "Server Ghostwind",
+     "Server Willowbrook",
+     "Server Ironbark"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Shadowbrook",
+     "Server Nightshade",
+     "Server Silverhawk",
+     "Server Redwood",
+     "Server Ghostwind",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Twilight",
+     "Server Amberwave",
+     "Server Shadowbrook",
+     "Server Nightshade",
+     "Server Silverhawk",
+     "Server Redwood",
+     "Server Ghostwind",
+     "Server Tempest",
+     "Server Willowbrook",
+     "Server Frostmoon",
+     "Server Ironbark"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph, which involves determining the smallest set of nodes that covers all edges in the graph. The algorithm specified for this task is the **Vertex Cover Brute Force** method, which explores all possible subsets of nodes to find the optimal solution.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [1, 4, 5, 6, 8, 10]\n- **Size of the Cover**: 6\n- **Execution Time**: 0.001416921615600586 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover consists of the nodes corresponding to the following servers:\n- **Server Amberwave** (1)\n- **Server Silverhawk** (4)\n- **Server Redwood** (5)\n- **Server Ghostwind** (6)\n- **Server Willowbrook** (8)\n- **Server Ironbark** (10)\n\nThis means that by selecting these servers, all communication links (edges) in the graph are covered. The total number of servers in the vertex cover is 6.\n\n### Final Answer\nThe minimum vertex cover for the given undirected graph consists of the following servers:\n- **Server Amberwave**\n- **Server Silverhawk**\n- **Server Redwood**\n- **Server Ghostwind**\n- **Server Willowbrook**\n- **Server Ironbark**\n\nThe size of the vertex cover is **6**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 24,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Starfire",
+   "Server Eaglecrest",
+   "Server Ironclad",
+   "Server Ironbark",
+   "Server Glacierpeak",
+   "Server Oceanview",
+   "Server Stormcloud",
+   "Server Crimsoncloud",
+   "Server Falconeye",
+   "Server Nightfall",
+   "Server Darkhorse"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Eaglecrest",
+     "Server Ironclad",
+     "Server Ironbark",
+     "Server Stormcloud",
+     "Server Crimsoncloud",
+     "Server Falconeye"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.01
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Eaglecrest",
+     "Server Ironclad",
+     "Server Ironbark",
+     "Server Stormcloud",
+     "Server Crimsoncloud",
+     "Server Falconeye"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Starfire",
+     "Server Eaglecrest",
+     "Server Ironclad",
+     "Server Ironbark",
+     "Server Glacierpeak",
+     "Server Oceanview",
+     "Server Stormcloud",
+     "Server Crimsoncloud",
+     "Server Falconeye",
+     "Server Nightfall"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe task is to solve the Vertex Cover problem using the Vertex Cover Brute Force algorithm. The goal is to find the minimum number of computers (nodes) needed to monitor all communication links in an undirected graph representing 11 computers.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 1, 2, 3, 5, 7, 10]\n- **Size of Vertex Cover**: 7\n- **Execution Time**: 0.0014 seconds\n\n### Analysis of Output\nThe result indicates that the minimum vertex cover consists of the nodes [0, 1, 2, 3, 5, 7, 10], which corresponds to the following servers based on the node mapping:\n- **Server Starfire** (0)\n- **Server Eaglecrest** (1)\n- **Server Ironclad** (2)\n- **Server Ironbark** (3)\n- **Server Oceanview** (5)\n- **Server Crimsoncloud** (7)\n- **Server Darkhorse** (10)\n\nThis means that to monitor all communication links in the network of computers, a total of **7 servers** need to be included in the vertex cover.\n\n### Final Answer\nTo cover all communication links among the 11 computers, a minimum of **7 servers** (specifically: Starfire, Eaglecrest, Ironclad, Ironbark, Oceanview, Crimsoncloud, and Darkhorse) are required."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 25,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Blackwood",
+   "Server Firefly",
+   "Server Silverstream",
+   "Server Skyhawk",
+   "Server Windswept",
+   "Server Silverstone",
+   "Server Ironclad",
+   "Server Brightstar",
+   "Server Eaglecrest",
+   "Server Goldleaf",
+   "Server Glacier"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Firefly",
+     "Server Silverstream",
+     "Server Skyhawk",
+     "Server Silverstone",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Firefly",
+     "Server Silverstream",
+     "Server Skyhawk",
+     "Server Silverstone",
+     "Server Eaglecrest"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Blackwood",
+     "Server Firefly",
+     "Server Silverstream",
+     "Server Skyhawk",
+     "Server Windswept",
+     "Server Silverstone",
+     "Server Ironclad",
+     "Server Eaglecrest",
+     "Server Goldleaf"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph, which involves selecting a minimum set of vertices such that every edge in the graph is incident to at least one of the selected vertices. The algorithm specified for this task is the **Vertex Cover Brute Force** method, which explores all possible subsets of vertices to ensure that all communication links are monitored.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: `[0, 1, 2, 3, 5, 8]`\n- **Size of Vertex Cover**: `6`\n- **Execution Time**: `0.0010597705841064453 seconds`\n\n### Analysis of the Output\nThe result indicates that the optimal vertex cover for the given graph consists of the vertices corresponding to the indices `[0, 1, 2, 3, 5, 8]`. \n\n### Node Mapping\nUsing the provided node mapping, we can translate these indices into their respective server names:\n- **0**: Server Blackwood\n- **1**: Server Firefly\n- **2**: Server Silverstream\n- **3**: Server Skyhawk\n- **5**: Server Silverstone\n- **8**: Server Eaglecrest\n\n### Final Answer\nThe minimum vertex cover for the graph consists of the following servers:\n- **Server Blackwood**\n- **Server Firefly**\n- **Server Silverstream**\n- **Server Skyhawk**\n- **Server Silverstone**\n- **Server Eaglecrest**\n\nThus, the final answer is:\n**The optimal vertex cover includes the servers: Blackwood, Firefly, Silverstream, Skyhawk, Silverstone, and Eaglecrest.**"
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 26,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverstream",
+   "Server Tempest",
+   "Server Thunderstrike",
+   "Server Nightshade",
+   "Server Ravenstone",
+   "Server Sandstorm",
+   "Server Crimsoncloud",
+   "Server Windswept",
+   "Server Oceanview",
+   "Server Ghostwind",
+   "Server Moonlight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Tempest",
+     "Server Thunderstrike",
+     "Server Ravenstone",
+     "Server Sandstorm",
+     "Server Crimsoncloud",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Tempest",
+     "Server Thunderstrike",
+     "Server Nightshade",
+     "Server Ravenstone",
+     "Server Crimsoncloud",
+     "Server Windswept",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 8,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Tempest",
+     "Server Thunderstrike",
+     "Server Nightshade",
+     "Server Ravenstone",
+     "Server Sandstorm",
+     "Server Crimsoncloud",
+     "Server Windswept",
+     "Server Ghostwind",
+     "Server Moonlight"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph using the Vertex Cover Brute Force algorithm. This algorithm examines all possible subsets of nodes to ensure that all edges in the graph are covered by at least one node in the subset.\n\n### Algorithm Used\nThe algorithm employed for this problem is **Vertex Cover Brute Force**. Given the small size of the graph (11 nodes), this approach is feasible despite its exponential time complexity.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: `[0, 1, 2, 4, 5, 6, 9]`\n- **Size of the Vertex Cover**: `7`\n- **Execution Time**: `0.0017118453979492188 seconds`\n\n### Analysis of the Output\nThe result indicates that the optimal vertex cover for the graph consists of the nodes with IDs `[0, 1, 2, 4, 5, 6, 9]`. \n\n### Node Mapping\nUsing the provided node mapping, we can translate these node IDs into their corresponding server names:\n- Node 0: Server Silverstream\n- Node 1: Server Tempest\n- Node 2: Server Thunderstrike\n- Node 4: Server Ravenstone\n- Node 5: Server Sandstorm\n- Node 6: Server Crimsoncloud\n- Node 9: Server Ghostwind\n\n### Final Answer\nThe optimal vertex cover for the given graph includes the following servers:\n- **Server Silverstream**\n- **Server Tempest**\n- **Server Thunderstrike**\n- **Server Ravenstone**\n- **Server Sandstorm**\n- **Server Crimsoncloud**\n- **Server Ghostwind**\n\nThis set of servers ensures that all communication links in the network are monitored."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 27,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Frostmoon",
+   "Server Sunflower",
+   "Server Amberwave",
+   "Server Ghostwind",
+   "Server Blackwood",
+   "Server Stormbreaker",
+   "Server Glacier",
+   "Server Mirage",
+   "Server Nightfall",
+   "Server Nightshade",
+   "Server Moonlight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Sunflower",
+     "Server Amberwave",
+     "Server Ghostwind",
+     "Server Blackwood",
+     "Server Stormbreaker",
+     "Server Glacier"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Sunflower",
+     "Server Amberwave",
+     "Server Ghostwind",
+     "Server Blackwood",
+     "Server Stormbreaker",
+     "Server Glacier"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Frostmoon",
+     "Server Sunflower",
+     "Server Amberwave",
+     "Server Ghostwind",
+     "Server Blackwood",
+     "Server Stormbreaker",
+     "Server Glacier",
+     "Server Mirage",
+     "Server Nightfall"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the minimum vertex cover for an undirected graph representing connections between 11 computers. The algorithm specified for solving this problem is the **Vertex Cover Brute Force** algorithm, which explores all possible subsets of nodes to find the optimal solution.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 1, 2, 3, 4, 5, 6]\n- **Size of Vertex Cover**: 7\n- **Execution Time**: 0.00151824951171875 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover consists of 7 nodes, specifically the nodes represented by the indices [0, 1, 2, 3, 4, 5, 6]. \n\n### Node Mapping\nUsing the provided node mapping, we can translate these indices into their corresponding server names:\n- **0**: Server Frostmoon\n- **1**: Server Sunflower\n- **2**: Server Amberwave\n- **3**: Server Ghostwind\n- **4**: Server Blackwood\n- **5**: Server Stormbreaker\n- **6**: Server Glacier\n\n### Final Answer\nThe minimum vertex cover for the given graph consists of the following servers:\n- **Servers in Vertex Cover**: Server Frostmoon, Server Sunflower, Server Amberwave, Server Ghostwind, Server Blackwood, Server Stormbreaker, Server Glacier\n\nThus, the final answer is that the minimum vertex cover includes **7 servers**: **Frostmoon, Sunflower, Amberwave, Ghostwind, Blackwood, Stormbreaker, Glacier**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 28,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Darkhorse",
+   "Server Nightshade",
+   "Server Amberwave",
+   "Server Redwood",
+   "Server Sandstorm",
+   "Server Firestorm",
+   "Server Thunderstrike",
+   "Server Thunderbolt",
+   "Server Shadowbrook",
+   "Server Tempest",
+   "Server Glacier"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Amberwave",
+     "Server Firestorm",
+     "Server Thunderstrike",
+     "Server Thunderbolt",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Amberwave",
+     "Server Redwood",
+     "Server Sandstorm",
+     "Server Firestorm",
+     "Server Thunderstrike",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Nightshade",
+     "Server Amberwave",
+     "Server Redwood",
+     "Server Sandstorm",
+     "Server Firestorm",
+     "Server Thunderstrike",
+     "Server Thunderbolt",
+     "Server Tempest",
+     "Server Glacier"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph using the Vertex Cover Brute Force algorithm. This algorithm examines all possible subsets of nodes to ensure that all edges in the graph are covered by at least one node in the subset. Given that the graph has 11 nodes, this approach is feasible despite its exponential time complexity.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Input**: The adjacency list of the graph representing the connections between the nodes.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is as follows:\n- **Vertex Cover Set**: [0, 2, 5, 6, 7, 8]\n- **Size of Vertex Cover**: 6\n- **Execution Time**: Approximately 0.001 seconds\n\n### Analysis of the Output\nThe result indicates that the optimal vertex cover consists of the nodes with IDs [0, 2, 5, 6, 7, 8]. \n\nUsing the provided node mapping:\n- **0**: Server Darkhorse\n- **2**: Server Amberwave\n- **5**: Server Firestorm\n- **6**: Server Thunderstrike\n- **7**: Server Thunderbolt\n- **8**: Server Shadowbrook\n\n### Final Answer\nThe optimal vertex cover for the given graph consists of the following servers:\n- **Server Darkhorse**\n- **Server Amberwave**\n- **Server Firestorm**\n- **Server Thunderstrike**\n- **Server Thunderbolt**\n- **Server Shadowbrook**\n\nThis set of servers ensures that all communication links in the network are monitored. The size of this vertex cover is 6."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 29,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stealthwind",
+   "Server Windmill",
+   "Server Frostmoon",
+   "Server Silverstone",
+   "Server Bluewave",
+   "Server Solarflare",
+   "Server Ironbark",
+   "Server Ghostwind",
+   "Server Goldleaf",
+   "Server Firestorm",
+   "Server Oceanview"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Frostmoon",
+     "Server Ghostwind",
+     "Server Goldleaf",
+     "Server Oceanview"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Frostmoon",
+     "Server Ghostwind",
+     "Server Goldleaf",
+     "Server Oceanview"
+    ],
+    "min_vertex": 5,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Windmill",
+     "Server Frostmoon",
+     "Server Silverstone",
+     "Server Bluewave",
+     "Server Solarflare",
+     "Server Ironbark",
+     "Server Ghostwind",
+     "Server Goldleaf",
+     "Server Firestorm",
+     "Server Oceanview"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Summary of the Problem and Algorithm Used\nThe problem at hand is related to **Vertex Cover**, where we need to select a subset of nodes (computers) such that every edge (communication link) is incident to at least one selected node. Given that the graph consists of **11 nodes**, we opted for the **VertexCover Brute Force** algorithm, which is suitable for small graphs and guarantees an optimal solution by examining all possible subsets of computers.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: `[0, 2, 7, 8, 10]`\n- **Size of the Vertex Cover**: `5`\n- **Execution Time**: `0.0007269382476806641` seconds\n\n### Analysis of the Output\nThe algorithm has determined that the optimal vertex cover for the given graph consists of the nodes corresponding to the following servers:\n- **Server Stealthwind** (Node 0)\n- **Server Frostmoon** (Node 2)\n- **Server Ghostwind** (Node 7)\n- **Server Goldleaf** (Node 8)\n- **Server Oceanview** (Node 10)\n\nThis means that by selecting these 5 servers, all communication links between the servers will be monitored, satisfying the requirements of the Vertex Cover problem.\n\n### Final Answer\nThe minimum set of computers (servers) that need to be selected to ensure all communication links are monitored consists of:\n- **Server Stealthwind**\n- **Server Frostmoon**\n- **Server Ghostwind**\n- **Server Goldleaf**\n- **Server Oceanview**\n\nThus, the final answer is:\n**Select Servers: Stealthwind, Frostmoon, Ghostwind, Goldleaf, Oceanview (Total: 5 servers)**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 30,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Thunderstrike",
+   "Server Willowbrook",
+   "Server Moonlight",
+   "Server Bluebird",
+   "Server Solarflare",
+   "Server Silverstream",
+   "Server Sunflower",
+   "Server Frostmoon",
+   "Server Brightstar",
+   "Server Oceanview",
+   "Server Starfire"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Bluebird",
+     "Server Solarflare",
+     "Server Silverstream",
+     "Server Oceanview",
+     "Server Starfire"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Bluebird",
+     "Server Solarflare",
+     "Server Silverstream",
+     "Server Oceanview",
+     "Server Starfire"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Thunderstrike",
+     "Server Willowbrook",
+     "Server Moonlight",
+     "Server Bluebird",
+     "Server Solarflare",
+     "Server Silverstream",
+     "Server Sunflower",
+     "Server Frostmoon",
+     "Server Brightstar",
+     "Server Oceanview",
+     "Server Starfire"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the minimum vertex cover for a given undirected graph representing a network of computers. The algorithm specified for this task is the **Vertex Cover Brute Force** method. This approach is suitable given the graph's size (11 nodes), allowing for an exhaustive search despite its exponential time complexity.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Input**: Adjacency list of the graph.\n\n### Tool's Output\nThe output from the vertex cover brute force algorithm is:\n- **Vertex Cover Set**: [1, 3, 4, 5, 9, 10]\n- **Size of Vertex Cover**: 6\n- **Execution Time**: Approximately 0.0015 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover consists of the nodes [1, 3, 4, 5, 9, 10], which means that deploying monitoring devices on these computers will ensure that all communication links in the network are covered. The size of the vertex cover is 6, meaning that a total of 6 devices are required.\n\n### Node Mapping\nUsing the provided node mapping, we can translate the node IDs into their respective server names:\n- **Server Willowbrook (1)**\n- **Server Bluebird (3)**\n- **Server Solarflare (4)**\n- **Server Silverstream (5)**\n- **Server Frostmoon (7)**\n- **Server Starfire (10)**\n\n### Final Answer\nTo monitor all communication links in the network, devices should be deployed on the following servers:\n- **Server Willowbrook**\n- **Server Bluebird**\n- **Server Solarflare**\n- **Server Silverstream**\n- **Server Frostmoon**\n- **Server Starfire**\n\nThis configuration ensures that all connections are monitored with a minimum of 6 devices."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 31,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Nightshade",
+   "Server Ghostwind",
+   "Server Goldleaf",
+   "Server Silverstone",
+   "Server Windmill",
+   "Server Falconeye",
+   "Server Thunderstrike",
+   "Server Sunflower",
+   "Server Darkhorse",
+   "Server Thunderbolt",
+   "Server Twilight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Ghostwind",
+     "Server Goldleaf",
+     "Server Windmill",
+     "Server Sunflower",
+     "Server Thunderbolt",
+     "Server Twilight"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.01
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Ghostwind",
+     "Server Windmill",
+     "Server Thunderstrike",
+     "Server Sunflower",
+     "Server Darkhorse",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Nightshade",
+     "Server Ghostwind",
+     "Server Goldleaf",
+     "Server Silverstone",
+     "Server Windmill",
+     "Server Falconeye",
+     "Server Thunderstrike",
+     "Server Sunflower",
+     "Server Darkhorse",
+     "Server Thunderbolt",
+     "Server Twilight"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing computers and their communication links. The algorithm specified for this task is the **Vertex Cover Brute Force** algorithm, which evaluates all possible subsets of vertices to ensure that all edges (communication links) are covered.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: `[0, 1, 2, 4, 7, 9, 10]`\n- **Size of Vertex Cover**: `7`\n- **Execution Time**: `0.001611948013305664 seconds`\n\n### Node Mapping\nUsing the provided node mapping, we can translate the vertex cover set into meaningful server names:\n- **0**: Server Nightshade\n- **1**: Server Ghostwind\n- **2**: Server Goldleaf\n- **4**: Server Windmill\n- **7**: Server Sunflower\n- **9**: Server Thunderbolt\n- **10**: Server Twilight\n\n### Final Answer\nThe optimal vertex cover for the given graph consists of the following servers:\n- **Server Nightshade**\n- **Server Ghostwind**\n- **Server Goldleaf**\n- **Server Windmill**\n- **Server Sunflower**\n- **Server Thunderbolt**\n- **Server Twilight**\n\nThis set of servers ensures that all communication links in the network are monitored. The size of this vertex cover is **7**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 32,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Firefly",
+   "Server Moonlight",
+   "Server Stormcloud",
+   "Server Emberfall",
+   "Server Silverstream",
+   "Server Redwood",
+   "Server Frostmoon",
+   "Server Amberwave",
+   "Server Sunflower",
+   "Server Bluebird",
+   "Server Nightfall"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Moonlight",
+     "Server Stormcloud",
+     "Server Emberfall",
+     "Server Silverstream",
+     "Server Redwood",
+     "Server Amberwave"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Moonlight",
+     "Server Stormcloud",
+     "Server Emberfall",
+     "Server Silverstream",
+     "Server Redwood",
+     "Server Amberwave"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Moonlight",
+     "Server Stormcloud",
+     "Server Emberfall",
+     "Server Silverstream",
+     "Server Redwood",
+     "Server Frostmoon",
+     "Server Amberwave",
+     "Server Sunflower"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing computers and their communication links. The algorithm specified for solving this problem is the **Vertex Cover Brute Force** algorithm, which examines all possible subsets of nodes to determine the minimum set that covers all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 1, 2, 3, 4, 5, 7]\n- **Size of Vertex Cover**: 7\n- **Execution Time**: 0.001547 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover for the given graph consists of the nodes [0, 1, 2, 3, 4, 5, 7]. \n\nUsing the provided node mapping:\n- 0: Server Firefly\n- 1: Server Moonlight\n- 2: Server Stormcloud\n- 3: Server Emberfall\n- 4: Server Silverstream\n- 5: Server Redwood\n- 7: Server Amberwave\n\n### Final Answer\nThe minimum vertex cover for the communication network consists of the following servers:\n- **Server Firefly**\n- **Server Moonlight**\n- **Server Stormcloud**\n- **Server Emberfall**\n- **Server Silverstream**\n- **Server Redwood**\n- **Server Amberwave**\n\nThus, the minimum set of servers that covers all communication links is **7 servers**: Server Firefly, Server Moonlight, Server Stormcloud, Server Emberfall, Server Silverstream, Server Redwood, and Server Amberwave."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 33,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Glacierpeak",
+   "Server Firefly",
+   "Server Shadowbrook",
+   "Server Eaglecrest",
+   "Server Thunderbolt",
+   "Server Silverstream",
+   "Server Sandstorm",
+   "Server Lighthouse",
+   "Server Oceanview",
+   "Server Frostmoon",
+   "Server Willowbrook"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Glacierpeak",
+     "Server Firefly",
+     "Server Shadowbrook",
+     "Server Silverstream",
+     "Server Sandstorm",
+     "Server Lighthouse",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.01
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Glacierpeak",
+     "Server Eaglecrest",
+     "Server Thunderbolt",
+     "Server Silverstream",
+     "Server Lighthouse",
+     "Server Oceanview",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Glacierpeak",
+     "Server Firefly",
+     "Server Shadowbrook",
+     "Server Eaglecrest",
+     "Server Thunderbolt",
+     "Server Silverstream",
+     "Server Sandstorm",
+     "Server Lighthouse",
+     "Server Oceanview",
+     "Server Frostmoon",
+     "Server Willowbrook"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is the **Vertex Cover** problem, which involves selecting the minimum number of vertices in an undirected graph such that all edges are covered. The algorithm specified for solving this problem is the **Vertex Cover Brute Force** method. This approach is suitable for small graphs, such as the one with 11 computers (nodes) in this case.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Input**: Adjacency list of the graph representing the computers and their bidirectional communication links.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 1, 2, 5, 6, 7, 10]\n- **Number of Vertices in Cover**: 7\n- **Execution Time**: Approximately 0.0016 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover for the given graph consists of the vertices corresponding to the following servers:\n- **Server Glacierpeak** (0)\n- **Server Firefly** (1)\n- **Server Shadowbrook** (2)\n- **Server Silverstream** (5)\n- **Server Sandstorm** (6)\n- **Server Lighthouse** (7)\n- **Server Willowbrook** (10)\n\nThis means that by selecting these 7 servers, all communication links (edges) between the servers will be covered. \n\n### Final Answer\nThe minimum vertex cover for the given graph consists of the following servers:\n- **Server Glacierpeak**\n- **Server Firefly**\n- **Server Shadowbrook**\n- **Server Silverstream**\n- **Server Sandstorm**\n- **Server Lighthouse**\n- **Server Willowbrook**\n\nIn total, **7 servers** are required to cover all communication links in the network."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 34,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ironclad",
+   "Server Crimsoncloud",
+   "Server Moonlight",
+   "Server Thunderstrike",
+   "Server Sunflower",
+   "Server Silverstream",
+   "Server Solarflare",
+   "Server Windswept",
+   "Server Oceanview",
+   "Server Ironbark",
+   "Server Frostmoon"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Sunflower",
+     "Server Silverstream",
+     "Server Solarflare",
+     "Server Windswept",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Moonlight",
+     "Server Sunflower",
+     "Server Silverstream",
+     "Server Solarflare",
+     "Server Windswept",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Crimsoncloud",
+     "Server Moonlight",
+     "Server Thunderstrike",
+     "Server Sunflower",
+     "Server Silverstream",
+     "Server Solarflare",
+     "Server Windswept",
+     "Server Ironbark",
+     "Server Frostmoon"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Summary of the Problem and Algorithm Used\nThe problem at hand is a **Vertex Cover** problem, where the goal is to select the minimum number of vertices (computers) to ensure that all edges (communication links) in the graph are monitored. Given the characteristics of the graph, which consists of 11 nodes, the **VertexCover Brute Force** algorithm was selected for its ability to provide an optimal solution for small graphs.\n\n### Tool's Output\nThe output from the **VertexCover Brute Force** algorithm is as follows:\n- **Vertex Cover Set**: [2, 4, 5, 6, 7, 10]\n- **Number of Vertices in Cover**: 6\n- **Execution Time**: 0.0016 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover consists of the nodes [2, 4, 5, 6, 7, 10]. This means that by selecting these 6 computers, all communication links in the graph will be monitored.\n\n### Node Mapping Information\nUsing the provided node mapping:\n- Node 2 corresponds to **Server Moonlight**\n- Node 4 corresponds to **Server Sunflower**\n- Node 5 corresponds to **Server Silverstream**\n- Node 6 corresponds to **Server Solarflare**\n- Node 7 corresponds to **Server Windswept**\n- Node 10 corresponds to **Server Frostmoon**\n\n### Final Answer\nTo ensure that all communication links are monitored, the following computers should be selected:\n- **Server Moonlight**\n- **Server Sunflower**\n- **Server Silverstream**\n- **Server Solarflare**\n- **Server Windswept**\n- **Server Frostmoon**\n\nThus, the minimum vertex cover consists of these 6 servers."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 35,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Bluewave",
+   "Server Firestorm",
+   "Server Ironclad",
+   "Server Crimsoncloud",
+   "Server Tempest",
+   "Server Windmill",
+   "Server Stealthwind",
+   "Server Emberfall",
+   "Server Amberwave",
+   "Server Sandstorm",
+   "Server Ghostwind"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Bluewave",
+     "Server Firestorm",
+     "Server Tempest",
+     "Server Windmill",
+     "Server Stealthwind",
+     "Server Amberwave",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Bluewave",
+     "Server Firestorm",
+     "Server Tempest",
+     "Server Windmill",
+     "Server Stealthwind",
+     "Server Amberwave",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Bluewave",
+     "Server Firestorm",
+     "Server Ironclad",
+     "Server Crimsoncloud",
+     "Server Tempest",
+     "Server Windmill",
+     "Server Stealthwind",
+     "Server Emberfall",
+     "Server Amberwave",
+     "Server Sandstorm",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem is to find the Vertex Cover of an undirected graph representing connections between computers. The algorithm specified for this task is the **Vertex Cover Brute Force** algorithm, which checks all possible subsets of nodes to find the optimal solution.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Input**: Adjacency list of the graph representing the connections between the computers.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: `[0, 1, 4, 5, 6, 8, 10]`\n- **Size of Vertex Cover**: `7`\n- **Execution Time**: `0.001821279525756836 seconds`\n\n### Analysis of the Output\nThe result indicates that the optimal vertex cover consists of the nodes `[0, 1, 4, 5, 6, 8, 10]`. \n\nUsing the provided node mapping:\n- **0**: Server Bluewave\n- **1**: Server Firestorm\n- **4**: Server Tempest\n- **5**: Server Windmill\n- **6**: Server Stealthwind\n- **8**: Server Amberwave\n- **10**: Server Ghostwind\n\n### Final Answer\nThe optimal vertex cover for the given graph, which ensures that all communication links are monitored, includes the following servers:\n- **Server Bluewave**\n- **Server Firestorm**\n- **Server Tempest**\n- **Server Windmill**\n- **Server Stealthwind**\n- **Server Amberwave**\n- **Server Ghostwind**\n\nThis set of servers (7 in total) will cover all edges in the graph."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 36,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Darkhorse",
+   "Server Ironclad",
+   "Server Ironbark",
+   "Server Windswept",
+   "Server Glacierpeak",
+   "Server Mirage",
+   "Server Bluebird",
+   "Server Vortex",
+   "Server Sunflower",
+   "Server Emberfall",
+   "Server Glacier"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Ironclad",
+     "Server Ironbark",
+     "Server Mirage",
+     "Server Sunflower",
+     "Server Emberfall",
+     "Server Glacier"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.01
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Ironbark",
+     "Server Windswept",
+     "Server Mirage",
+     "Server Bluebird",
+     "Server Vortex",
+     "Server Sunflower"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Darkhorse",
+     "Server Ironclad",
+     "Server Ironbark",
+     "Server Windswept",
+     "Server Glacierpeak",
+     "Server Mirage",
+     "Server Bluebird",
+     "Server Vortex",
+     "Server Sunflower",
+     "Server Emberfall",
+     "Server Glacier"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the minimum vertex cover for an undirected graph representing connections between 11 computers. The algorithm specified for this task is the **Vertex Cover Brute Force** algorithm, which checks all possible subsets of computers to determine the smallest set that covers all communication links.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices (in this case, n = 11).\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 1, 2, 5, 8, 9, 10]\n- **Size of Vertex Cover**: 7\n- **Execution Time**: Approximately 0.00107 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover consists of the nodes [0, 1, 2, 5, 8, 9, 10]. \n\nUsing the provided node mapping:\n- **0**: Server Darkhorse\n- **1**: Server Ironclad\n- **2**: Server Ironbark\n- **5**: Server Mirage\n- **8**: Server Sunflower\n- **9**: Server Emberfall\n- **10**: Server Glacier\n\n### Final Answer\nThe minimum vertex cover for the given graph, which covers all communication links, includes the following servers:\n- **Server Darkhorse**\n- **Server Ironclad**\n- **Server Ironbark**\n- **Server Mirage**\n- **Server Sunflower**\n- **Server Emberfall**\n- **Server Glacier**\n\nThus, the final answer is that the minimum vertex cover consists of **7 servers**: Server Darkhorse, Server Ironclad, Server Ironbark, Server Mirage, Server Sunflower, Server Emberfall, and Server Glacier."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 37,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Thunderbolt",
+   "Server Sunflower",
+   "Server Solarflare",
+   "Server Darkhorse",
+   "Server Emberfall",
+   "Server Ravenstone",
+   "Server Silverstone",
+   "Server Windswept",
+   "Server Stealthwind",
+   "Server Twilight",
+   "Server Sandstorm"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Darkhorse",
+     "Server Emberfall",
+     "Server Ravenstone",
+     "Server Windswept",
+     "Server Stealthwind"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Sunflower",
+     "Server Solarflare",
+     "Server Darkhorse",
+     "Server Emberfall",
+     "Server Ravenstone",
+     "Server Silverstone"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Thunderbolt",
+     "Server Sunflower",
+     "Server Solarflare",
+     "Server Darkhorse",
+     "Server Emberfall",
+     "Server Ravenstone",
+     "Server Silverstone",
+     "Server Windswept",
+     "Server Stealthwind"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the minimum Vertex Cover for an undirected graph representing connections between computers. The algorithm specified for this task is the **Vertex Cover Brute Force** method, which examines all possible subsets of nodes to determine the minimum number needed to cover all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 3, 4, 5, 7, 8]\n- **Size of Vertex Cover**: 6\n- **Execution Time**: 0.0013751983642578125 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum Vertex Cover consists of the nodes represented by the indices [0, 3, 4, 5, 7, 8]. According to the provided node mapping, these indices correspond to the following servers:\n- **0**: Server Thunderbolt\n- **3**: Server Darkhorse\n- **4**: Server Emberfall\n- **5**: Server Ravenstone\n- **7**: Server Windswept\n- **8**: Server Stealthwind\n\nThus, the minimum set of servers needed to monitor all communication links in the network is:\n- **Server Thunderbolt**\n- **Server Darkhorse**\n- **Server Emberfall**\n- **Server Ravenstone**\n- **Server Windswept**\n- **Server Stealthwind**\n\n### Final Answer\nThe minimum Vertex Cover for the given graph consists of the following servers:\n- **Server Thunderbolt**\n- **Server Darkhorse**\n- **Server Emberfall**\n- **Server Ravenstone**\n- **Server Windswept**\n- **Server Stealthwind**\n\nThis set includes a total of **6 servers**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 38,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Seabreeze",
+   "Server Oceanview",
+   "Server Eaglecrest",
+   "Server Frostmoon",
+   "Server Windmill",
+   "Server Lighthouse",
+   "Server Skyhawk",
+   "Server Silverhawk",
+   "Server Emberfall",
+   "Server Willowbrook",
+   "Server Ghostwind"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Eaglecrest",
+     "Server Frostmoon",
+     "Server Windmill",
+     "Server Silverhawk",
+     "Server Emberfall",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.01
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Oceanview",
+     "Server Eaglecrest",
+     "Server Frostmoon",
+     "Server Windmill",
+     "Server Silverhawk",
+     "Server Emberfall",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Seabreeze",
+     "Server Oceanview",
+     "Server Eaglecrest",
+     "Server Frostmoon",
+     "Server Windmill",
+     "Server Lighthouse",
+     "Server Skyhawk",
+     "Server Silverhawk",
+     "Server Emberfall",
+     "Server Willowbrook",
+     "Server Ghostwind"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing connections between 11 computers. The algorithm specified for this task is the **Vertex Cover Brute Force** algorithm, which examines all possible subsets of nodes to ensure that all edges in the graph are covered.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Input**: An adjacency list representing the graph.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [1, 2, 3, 4, 7, 8, 10]\n- **Size of Vertex Cover**: 7\n- **Execution Time**: Approximately 0.00177 seconds\n\n### Analysis of the Output\nThe result indicates that the optimal vertex cover for the given graph includes the nodes corresponding to the following servers:\n- **Server Oceanview** (1)\n- **Server Eaglecrest** (2)\n- **Server Frostmoon** (3)\n- **Server Windmill** (4)\n- **Server Silverhawk** (7)\n- **Server Emberfall** (8)\n- **Server Ghostwind** (10)\n\nThis means that by monitoring these servers, all communication links between the computers will be covered.\n\n### Final Answer\nThe optimal vertex cover for the network of computers consists of the following servers:\n- **Server Oceanview**\n- **Server Eaglecrest**\n- **Server Frostmoon**\n- **Server Windmill**\n- **Server Silverhawk**\n- **Server Emberfall**\n- **Server Ghostwind**\n\nThis set ensures that all communication links are monitored effectively."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 39,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberlight",
+   "Server Emberfall",
+   "Server Glacier",
+   "Server Shadowbrook",
+   "Server Windmill",
+   "Server Ironclad",
+   "Server Tempest",
+   "Server Frostmoon",
+   "Server Bluewave",
+   "Server Bluebird",
+   "Server Moonlight"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Emberfall",
+     "Server Glacier",
+     "Server Shadowbrook",
+     "Server Windmill",
+     "Server Ironclad",
+     "Server Bluewave"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Emberfall",
+     "Server Glacier",
+     "Server Shadowbrook",
+     "Server Windmill",
+     "Server Ironclad",
+     "Server Bluewave"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Emberfall",
+     "Server Glacier",
+     "Server Shadowbrook",
+     "Server Windmill",
+     "Server Ironclad",
+     "Server Tempest",
+     "Server Bluewave",
+     "Server Bluebird"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the minimum vertex cover for an undirected graph representing the connections between 11 computers. The algorithm specified for this task is the **Vertex Cover Brute Force** algorithm, which checks all possible subsets of vertices to find the smallest set that covers all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is as follows:\n- **Vertex Cover Set**: [0, 1, 2, 3, 4, 5, 8]\n- **Size of Vertex Cover**: 7\n- **Execution Time**: 0.001626 seconds\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover consists of the nodes [0, 1, 2, 3, 4, 5, 8]. This means that these computers must be included in the vertex cover to ensure that all communication links (edges) in the graph are covered.\n\n### Node Mapping\nUsing the provided node mapping, we can translate the vertex cover set into the names of the servers:\n- **0**: Server Emberlight\n- **1**: Server Emberfall\n- **2**: Server Glacier\n- **3**: Server Shadowbrook\n- **4**: Server Windmill\n- **5**: Server Ironclad\n- **8**: Server Bluewave\n\n### Final Answer\nThe minimum vertex cover for the given graph consists of the following servers:\n- **Server Emberlight**\n- **Server Emberfall**\n- **Server Glacier**\n- **Server Shadowbrook**\n- **Server Windmill**\n- **Server Ironclad**\n- **Server Bluewave**\n\nThis set of servers ensures that all communication links between the computers are covered."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 40,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverstream",
+   "Server Moonlight",
+   "Server Stealthwind",
+   "Server Vortex",
+   "Server Crimsoncloud",
+   "Server Ironbark",
+   "Server Windmill",
+   "Server Emberfall",
+   "Server Skyhawk",
+   "Server Stormbreaker",
+   "Server Brightstar"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Moonlight",
+     "Server Stealthwind",
+     "Server Vortex",
+     "Server Windmill",
+     "Server Emberfall",
+     "Server Brightstar"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.01
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Moonlight",
+     "Server Vortex",
+     "Server Crimsoncloud",
+     "Server Ironbark",
+     "Server Windmill",
+     "Server Stormbreaker"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverstream",
+     "Server Moonlight",
+     "Server Stealthwind",
+     "Server Vortex",
+     "Server Crimsoncloud",
+     "Server Ironbark",
+     "Server Windmill",
+     "Server Emberfall",
+     "Server Skyhawk",
+     "Server Stormbreaker",
+     "Server Brightstar"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing connections between 11 computers. The algorithm specified for solving this problem is the **Vertex Cover Brute Force** algorithm, which examines all possible subsets of nodes to determine the minimum set that covers all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n```json\n{\n  \"result\": {\n    \"cover_set\": [0, 1, 2, 3, 6, 7, 10],\n    \"cover_size\": 7,\n    \"execution_time\": 0.0016148090362548828\n  }\n}\n```\nThis indicates that the minimum vertex cover consists of the nodes with IDs `[0, 1, 2, 3, 6, 7, 10]`, covering a total of 7 nodes.\n\n### Node Mapping\nUsing the provided node mapping, we can translate the node IDs into their respective server names:\n- **0**: Server Silverstream\n- **1**: Server Moonlight\n- **2**: Server Stealthwind\n- **3**: Server Vortex\n- **6**: Server Windmill\n- **7**: Server Emberfall\n- **10**: Server Brightstar\n\n### Final Answer\nThe minimum vertex cover for the graph consists of the following servers:\n- **Server Silverstream**\n- **Server Moonlight**\n- **Server Stealthwind**\n- **Server Vortex**\n- **Server Windmill**\n- **Server Emberfall**\n- **Server Brightstar**\n\nThus, the final answer is that the minimum vertex cover includes **7 servers**: **Server Silverstream, Server Moonlight, Server Stealthwind, Server Vortex, Server Windmill, Server Emberfall, and Server Brightstar**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 41,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Firefly",
+   "Server Silverstone",
+   "Server Silverhawk",
+   "Server Oceanview",
+   "Server Blackwood",
+   "Server Nightshade",
+   "Server Solarflare",
+   "Server Bluebird",
+   "Server Firestorm",
+   "Server Thunderbolt",
+   "Server Windmill"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Silverstone",
+     "Server Silverhawk",
+     "Server Nightshade",
+     "Server Bluebird",
+     "Server Firestorm"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Silverhawk",
+     "Server Oceanview",
+     "Server Blackwood",
+     "Server Nightshade",
+     "Server Windmill"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Firefly",
+     "Server Silverstone",
+     "Server Silverhawk",
+     "Server Oceanview",
+     "Server Blackwood",
+     "Server Nightshade",
+     "Server Solarflare",
+     "Server Bluebird",
+     "Server Firestorm",
+     "Server Windmill"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing computers and their communication links. The algorithm specified for solving this problem is the **Vertex Cover Brute Force** method, which checks all possible subsets of nodes to ensure that all edges in the graph are covered.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Input**: The adjacency list of the graph, which represents the connections between nodes.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: `[0, 1, 2, 5, 7, 8]`\n- **Size of Vertex Cover**: `6`\n- **Execution Time**: `0.001079 seconds`\n\n### Analysis of the Output\nThe result indicates that the optimal vertex cover for the given graph consists of the nodes represented by the IDs `[0, 1, 2, 5, 7, 8]`. \n\nUsing the node mapping provided:\n- **0**: Server Firefly\n- **1**: Server Silverstone\n- **2**: Server Silverhawk\n- **5**: Server Nightshade\n- **7**: Server Bluebird\n- **8**: Server Firestorm\n\n### Final Answer\nThe optimal vertex cover for the graph, which ensures that all communication links are monitored, includes the following servers:\n- **Server Firefly**\n- **Server Silverstone**\n- **Server Silverhawk**\n- **Server Nightshade**\n- **Server Bluebird**\n- **Server Firestorm**\n\nThus, the final answer is that the vertex cover consists of the servers: **Server Firefly, Server Silverstone, Server Silverhawk, Server Nightshade, Server Bluebird, and Server Firestorm**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 42,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stormbreaker",
+   "Server Seabreeze",
+   "Server Brightstar",
+   "Server Blackwood",
+   "Server Frostbite",
+   "Server Mirage",
+   "Server Solarflare",
+   "Server Thunderstrike",
+   "Server Ironbark",
+   "Server Crimsoncloud",
+   "Server Stormcloud"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stormbreaker",
+     "Server Seabreeze",
+     "Server Brightstar",
+     "Server Blackwood",
+     "Server Thunderstrike",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stormbreaker",
+     "Server Seabreeze",
+     "Server Brightstar",
+     "Server Blackwood",
+     "Server Thunderstrike",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stormbreaker",
+     "Server Seabreeze",
+     "Server Brightstar",
+     "Server Blackwood",
+     "Server Frostbite",
+     "Server Mirage",
+     "Server Solarflare",
+     "Server Thunderstrike",
+     "Server Ironbark",
+     "Server Crimsoncloud",
+     "Server Stormcloud"
+    ],
+    "min_vertex": 11,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing connections between computers. The algorithm specified for this task is the **Vertex Cover Brute Force** method, which examines all possible subsets of nodes to determine the minimum number of nodes required to cover all edges in the graph.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Result**: `([0, 1, 2, 3, 7], 5, 0.0005781650543212891)`\n  - This indicates that the minimum vertex cover consists of the nodes `[0, 1, 2, 3, 7]`.\n  - The size of the vertex cover is `5`.\n  - The time taken to compute this result was approximately `0.000578 seconds`.\n\n### Node Mapping\nUsing the provided node mapping, we can translate the node indices into their respective server names:\n- **0**: Server Stormbreaker\n- **1**: Server Seabreeze\n- **2**: Server Brightstar\n- **3**: Server Blackwood\n- **7**: Server Thunderstrike\n\n### Final Answer\nThe minimum vertex cover for the given graph consists of the following servers:\n- **Servers in Vertex Cover**: Server Stormbreaker, Server Seabreeze, Server Brightstar, Server Blackwood, Server Thunderstrike.\n\nThus, the final answer is:\n**The minimum vertex cover includes the servers: Stormbreaker, Seabreeze, Brightstar, Blackwood, and Thunderstrike.**"
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 43,
+  "adj": [
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Silverhawk",
+   "Server Emberlight",
+   "Server Firefly",
+   "Server Vortex",
+   "Server Crimsoncloud",
+   "Server Ironbark",
+   "Server Nightshade",
+   "Server Thunderstrike",
+   "Server Falconeye",
+   "Server Silverstream",
+   "Server Shadowbrook"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Silverhawk",
+     "Server Firefly",
+     "Server Crimsoncloud",
+     "Server Ironbark",
+     "Server Thunderstrike",
+     "Server Falconeye",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.01
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Emberlight",
+     "Server Firefly",
+     "Server Vortex",
+     "Server Nightshade",
+     "Server Thunderstrike",
+     "Server Silverstream",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Silverhawk",
+     "Server Emberlight",
+     "Server Firefly",
+     "Server Vortex",
+     "Server Crimsoncloud",
+     "Server Ironbark",
+     "Server Nightshade",
+     "Server Thunderstrike",
+     "Server Falconeye",
+     "Server Silverstream"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is the **Vertex Cover** problem, which involves finding the minimum set of vertices such that all edges in the graph are covered. The algorithm specified for solving this problem is the **Vertex Cover Brute Force** method. Given the graph's structure, which consists of 11 computers (nodes), this brute force approach is feasible as it can explore all possible subsets of computers to identify the optimal solution.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Input**: The adjacency list of the graph representing the network of computers.\n\n### Tool's Output\nThe output from the tool indicates the following:\n- **Vertex Cover Set**: `[0, 2, 4, 5, 7, 8, 10]`\n- **Size of the Vertex Cover**: `7`\n- **Execution Time**: `0.00173 seconds`\n\n### Analysis of the Output\nThe result shows that the minimum vertex cover consists of the nodes with IDs `[0, 2, 4, 5, 7, 8, 10]`. According to the provided node mapping, these IDs correspond to the following servers:\n- **0**: Server Silverhawk\n- **2**: Server Firefly\n- **4**: Server Crimsoncloud\n- **5**: Server Ironbark\n- **7**: Server Thunderstrike\n- **8**: Server Falconeye\n- **10**: Server Shadowbrook\n\n### Final Answer\nThe minimum set of servers that covers all communication links in the network is:\n- **Servers**: Server Silverhawk, Server Firefly, Server Crimsoncloud, Server Ironbark, Server Thunderstrike, Server Falconeye, Server Shadowbrook\n\nThis set contains **7 servers** in total."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 44,
+  "adj": [
+   [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Sunflower",
+   "Server Willowbrook",
+   "Server Windswept",
+   "Server Starfire",
+   "Server Oceanview",
+   "Server Skyhawk",
+   "Server Shadowbrook",
+   "Server Falconeye",
+   "Server Seabreeze",
+   "Server Stealthwind",
+   "Server Crimsoncloud"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Willowbrook",
+     "Server Windswept",
+     "Server Starfire",
+     "Server Oceanview",
+     "Server Skyhawk",
+     "Server Seabreeze"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Willowbrook",
+     "Server Windswept",
+     "Server Starfire",
+     "Server Oceanview",
+     "Server Skyhawk",
+     "Server Seabreeze"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Willowbrook",
+     "Server Windswept",
+     "Server Starfire",
+     "Server Oceanview",
+     "Server Skyhawk",
+     "Server Shadowbrook",
+     "Server Falconeye",
+     "Server Seabreeze",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph representing computers and their bidirectional communication links. The algorithm specified for solving this problem is the \"Vertex Cover Brute Force,\" which exhaustively checks all possible subsets of nodes to ensure that all communication links are monitored. Given that there are only 11 computers (nodes), this approach is feasible despite its exponential time complexity.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Input**: Adjacency list of the graph representing the connections between computers.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n```json\n{\n  \"result\": {\n    \"cover_set\": [0, 1, 2, 3, 4, 5, 8],\n    \"cover_size\": 7,\n    \"execution_time\": 0.0014569759368896484\n  }\n}\n```\nThis indicates that the optimal vertex cover consists of the nodes `[0, 1, 2, 3, 4, 5, 8]`, which covers all edges in the graph. The size of this cover is 7, and the execution time for the algorithm was approximately 0.00146 seconds.\n\n### Final Answer\nBased on the output of the algorithm and the node mapping provided, the optimal vertex cover includes the following servers:\n- Server Sunflower (0)\n- Server Willowbrook (1)\n- Server Windswept (2)\n- Server Starfire (3)\n- Server Oceanview (4)\n- Server Skyhawk (5)\n- Server Seabreeze (8)\n\nThus, the final answer is that the optimal vertex cover for the given graph consists of the servers: **Sunflower, Willowbrook, Windswept, Starfire, Oceanview, Skyhawk, and Seabreeze**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 45,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Emberfall",
+   "Server Willowbrook",
+   "Server Frostbite",
+   "Server Frostmoon",
+   "Server Mirage",
+   "Server Skyhawk",
+   "Server Ghostwind",
+   "Server Crimsoncloud",
+   "Server Sunflower",
+   "Server Silverstone",
+   "Server Thunderbolt"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Willowbrook",
+     "Server Frostbite",
+     "Server Frostmoon",
+     "Server Skyhawk",
+     "Server Ghostwind",
+     "Server Silverstone"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Willowbrook",
+     "Server Frostbite",
+     "Server Frostmoon",
+     "Server Mirage",
+     "Server Skyhawk",
+     "Server Ghostwind",
+     "Server Crimsoncloud"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Emberfall",
+     "Server Willowbrook",
+     "Server Frostbite",
+     "Server Frostmoon",
+     "Server Mirage",
+     "Server Skyhawk",
+     "Server Ghostwind",
+     "Server Crimsoncloud",
+     "Server Sunflower",
+     "Server Silverstone"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the **Vertex Cover** of an undirected graph using the **Vertex Cover Brute Force** algorithm. This algorithm checks all possible subsets of vertices to determine the minimum set that covers all edges in the graph. Given that the graph has 11 nodes, this brute force approach is feasible despite its exponential time complexity.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: `[0, 1, 2, 3, 5, 6, 9]`\n- **Size of the Vertex Cover**: `7`\n- **Execution Time**: `0.00159 seconds`\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover consists of the nodes with IDs `[0, 1, 2, 3, 5, 6, 9]`. \n\nUsing the provided node mapping:\n- Node 0: Server Emberfall\n- Node 1: Server Willowbrook\n- Node 2: Server Frostbite\n- Node 3: Server Frostmoon\n- Node 5: Server Skyhawk\n- Node 6: Server Ghostwind\n- Node 9: Server Silverstone\n\n### Final Answer\nThe minimum vertex cover for the given graph, which ensures that all communication links are covered, consists of the following servers:\n- **Server Emberfall**\n- **Server Willowbrook**\n- **Server Frostbite**\n- **Server Frostmoon**\n- **Server Skyhawk**\n- **Server Ghostwind**\n- **Server Silverstone**\n\nThis set of servers (totaling 7) effectively covers all communication links in the network."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 46,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Stealthwind",
+   "Server Tempest",
+   "Server Lighthouse",
+   "Server Solarflare",
+   "Server Twilight",
+   "Server Crimsoncloud",
+   "Server Seabreeze",
+   "Server Falconeye",
+   "Server Ravenstone",
+   "Server Windmill",
+   "Server Nightshade"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Tempest",
+     "Server Solarflare",
+     "Server Crimsoncloud",
+     "Server Falconeye",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Tempest",
+     "Server Solarflare",
+     "Server Crimsoncloud",
+     "Server Falconeye",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 6,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Stealthwind",
+     "Server Tempest",
+     "Server Lighthouse",
+     "Server Solarflare",
+     "Server Twilight",
+     "Server Crimsoncloud",
+     "Server Seabreeze",
+     "Server Falconeye",
+     "Server Ravenstone",
+     "Server Windmill"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the **Vertex Cover** of an undirected graph representing a network of computers and their communication links. The algorithm specified for this task is the **Vertex Cover Brute Force** method, which is optimal for small graphs with fewer than 20 nodes. Given that there are 11 computers in the network, this algorithm will effectively determine the minimum number of computers needed to monitor all communication links.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Input**: Adjacency list of the graph representing the connections between computers.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: `[0, 1, 3, 5, 7, 8]`\n- **Size of Vertex Cover**: `6`\n- **Execution Time**: `0.0011448860168457031 seconds`\n\n### Analysis of the Output\nThe result indicates that the minimum vertex cover consists of the nodes `[0, 1, 3, 5, 7, 8]`, which corresponds to the following servers based on the node mapping:\n- **0**: Server Stealthwind\n- **1**: Server Tempest\n- **3**: Server Solarflare\n- **5**: Server Crimsoncloud\n- **7**: Server Falconeye\n- **8**: Server Ravenstone\n\nThus, the minimum number of computers needed to monitor all communication links in the network is **6**.\n\n### Final Answer\nTo monitor all communication links in the network of computers, the minimum number of computers required is **6**. The specific servers that should be included in the monitoring are:\n- Server Stealthwind\n- Server Tempest\n- Server Solarflare\n- Server Crimsoncloud\n- Server Falconeye\n- Server Ravenstone"
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 47,
+  "adj": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Sunflower",
+   "Server Solarflare",
+   "Server Emberfall",
+   "Server Stormbreaker",
+   "Server Bluebird",
+   "Server Nightshade",
+   "Server Silverhawk",
+   "Server Amberwave",
+   "Server Glacier",
+   "Server Shadowbrook",
+   "Server Thunderbolt"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Solarflare",
+     "Server Emberfall",
+     "Server Nightshade",
+     "Server Silverhawk",
+     "Server Amberwave",
+     "Server Thunderbolt"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Solarflare",
+     "Server Stormbreaker",
+     "Server Bluebird",
+     "Server Nightshade",
+     "Server Silverhawk",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Sunflower",
+     "Server Solarflare",
+     "Server Emberfall",
+     "Server Stormbreaker",
+     "Server Bluebird",
+     "Server Nightshade",
+     "Server Silverhawk",
+     "Server Amberwave",
+     "Server Shadowbrook"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph using the Vertex Cover Brute Force algorithm. This algorithm examines all possible subsets of nodes to ensure that all edges in the graph are covered by at least one node in the subset.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Complexity**: O(2^n * n^2), where n is the number of vertices.\n\n### Tool's Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: [0, 1, 2, 3, 4, 5, 7]\n- **Size of Vertex Cover**: 7\n- **Execution Time**: 0.001469 seconds\n\n### Node Mapping\nUsing the provided node mapping, we can identify the servers corresponding to the vertex cover set:\n- **0**: Server Sunflower\n- **1**: Server Solarflare\n- **2**: Server Emberfall\n- **3**: Server Stormbreaker\n- **4**: Server Bluebird\n- **5**: Server Nightshade\n- **7**: Server Amberwave\n\n### Final Answer\nThe optimal vertex cover for the given graph includes the following servers:\n- **Server Sunflower**\n- **Server Solarflare**\n- **Server Emberfall**\n- **Server Stormbreaker**\n- **Server Bluebird**\n- **Server Nightshade**\n- **Server Amberwave**\n\nThus, the final answer is that the vertex cover consists of **7 servers**: **Server Sunflower, Server Solarflare, Server Emberfall, Server Stormbreaker, Server Bluebird, Server Nightshade, and Server Amberwave**."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 48,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Eaglecrest",
+   "Server Starfire",
+   "Server Vortex",
+   "Server Amberwave",
+   "Server Oceanview",
+   "Server Falconeye",
+   "Server Emberlight",
+   "Server Sandstorm",
+   "Server Moonlight",
+   "Server Nightshade",
+   "Server Brightstar"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Starfire",
+     "Server Vortex",
+     "Server Amberwave",
+     "Server Emberlight",
+     "Server Sandstorm",
+     "Server Moonlight"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Starfire",
+     "Server Vortex",
+     "Server Amberwave",
+     "Server Emberlight",
+     "Server Sandstorm",
+     "Server Moonlight"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Eaglecrest",
+     "Server Starfire",
+     "Server Vortex",
+     "Server Amberwave",
+     "Server Oceanview",
+     "Server Falconeye",
+     "Server Emberlight",
+     "Server Sandstorm",
+     "Server Moonlight"
+    ],
+    "min_vertex": 9,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph using the Vertex Cover Brute Force algorithm. The goal is to identify the smallest set of nodes (computers) such that every edge in the graph is incident to at least one node in this set. Given that the graph has 11 nodes, the brute force approach is feasible despite its exponential time complexity.\n\n### Algorithm Used\n- **Algorithm**: Vertex Cover Brute Force\n- **Input**: The adjacency list of the graph representing the connections between the nodes.\n\n### Tool Output\nThe output from the Vertex Cover Brute Force algorithm is:\n- **Vertex Cover Set**: `[0, 1, 2, 3, 6, 7, 8]`\n- **Size of Vertex Cover**: `7`\n- **Execution Time**: `0.0015 seconds`\n\n### Analysis of the Output\nThe result indicates that the optimal vertex cover consists of the nodes with IDs `[0, 1, 2, 3, 6, 7, 8]`. \n\n### Node Mapping\nUsing the provided node mapping, we can translate the node IDs into their respective server names:\n- **0**: Server Eaglecrest\n- **1**: Server Starfire\n- **2**: Server Vortex\n- **3**: Server Amberwave\n- **6**: Server Emberlight\n- **7**: Server Sandstorm\n- **8**: Server Moonlight\n\n### Final Answer\nThe optimal vertex cover for the given graph consists of the following servers:\n- **Servers in Vertex Cover**: Server Eaglecrest, Server Starfire, Server Vortex, Server Amberwave, Server Emberlight, Server Sandstorm, Server Moonlight.\n\nThis set of servers ensures that all communication links in the network are monitored effectively."
+ },
+ {
+  "file_name": "graph_11.json",
+  "graph_index": 49,
+  "adj": [
+   [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "name_list": [
+   "Server Ironclad",
+   "Server Ghostwind",
+   "Server Silverstone",
+   "Server Ironbark",
+   "Server Darkhorse",
+   "Server Tempest",
+   "Server Stealthwind",
+   "Server Firestorm",
+   "Server Silverstream",
+   "Server Ravenstone",
+   "Server Amberwave"
+  ],
+  "real_result": {
+   "brute_force": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Ghostwind",
+     "Server Silverstone",
+     "Server Stealthwind",
+     "Server Firestorm",
+     "Server Ravenstone",
+     "Server Amberwave"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "greedy": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Ghostwind",
+     "Server Silverstone",
+     "Server Stealthwind",
+     "Server Firestorm",
+     "Server Ravenstone",
+     "Server Amberwave"
+    ],
+    "min_vertex": 7,
+    "cost_time": 0.0
+   },
+   "2_approximation": {
+    "vertex_cover_text": [
+     "Server Ironclad",
+     "Server Ghostwind",
+     "Server Silverstone",
+     "Server Ironbark",
+     "Server Darkhorse",
+     "Server Tempest",
+     "Server Stealthwind",
+     "Server Firestorm",
+     "Server Silverstream",
+     "Server Ravenstone"
+    ],
+    "min_vertex": 10,
+    "cost_time": 0.0
+   }
+  },
+  "response": "### Problem Summary\nThe problem at hand is to find the Vertex Cover of an undirected graph using the Vertex Cover Brute Force algorithm. The goal is to determine the smallest set of nodes such that every edge in the graph is incident to at least one node from this set.\n\n### Algorithm Used\nThe algorithm employed for this task is the **Vertex Cover Brute Force**. This method checks all possible subsets of nodes to find the optimal solution, which is feasible given the graph has 11 nodes.\n\n### Tool's Output\nThe output from the algorithm is:\n- **Vertex Cover Set**: `[0, 1, 2, 6, 7, 9, 10]`\n- **Size of Vertex Cover**: `7`\n- **Execution Time**: `0.0017 seconds`\n\n### Analysis of the Output\nThe vertex cover set identified by the algorithm consists of the nodes:\n- **0**: Server Ironclad\n- **1**: Server Ghostwind\n- **2**: Server Silverstone\n- **6**: Server Stealthwind\n- **7**: Server Firestorm\n- **9**: Server Ravenstone\n- **10**: Server Amberwave\n\nThis means that by monitoring these servers, all communication links (edges) in the graph will be covered, ensuring that every connection is monitored.\n\n### Final Answer\nThe optimal vertex cover for the given graph consists of the following servers:\n- **Server Ironclad**\n- **Server Ghostwind**\n- **Server Silverstone**\n- **Server Stealthwind**\n- **Server Firestorm**\n- **Server Ravenstone**\n- **Server Amberwave**\n\nThis set contains **7 servers** in total."
+ }
+]

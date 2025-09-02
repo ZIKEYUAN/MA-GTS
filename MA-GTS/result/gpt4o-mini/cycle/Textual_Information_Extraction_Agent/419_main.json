@@ -1,0 +1,12 @@
+[
+ {
+  "file_name": "main.json",
+  "graph_index": 1070,
+  "adj": null,
+  "graph_difficulty": "hard",
+  "name_list": null,
+  "question": "In an undirected graph, (i,j) means that node i and node j are connected with an undirected edge.\nThe nodes are numbered from 0 to 31, and the edges are: (11,13) (18,30) (14,10) (11,30) (0,11) (23,28) (7,30) (25,5) (31,28) (12,19) (16,10) (8,7) (0,3) (24,8) (22,15) (17,16) (29,5) (6,12) (31,5) (15,0) (31,27) (1,23) (31,4) (20,26) (1,0) (9,18) (9,3) (20,22) (22,19) (2,27) (6,21) (2,10) (1,19) (2,0)\nQ: Is there a cycle in this graph?\nA:",
+  "real_result": "Yes, there is a cycle in this graph.",
+  "response": "{\n    \"context\": \"The problem involves analyzing an undirected graph to determine if there is a cycle present within it. The graph is defined by its nodes and edges, with specific connections between pairs of nodes.\",\n    \"entities\": [\n        \"undirected graph\",\n        \"nodes\",\n        \"edges\",\n        \"cycle\"\n    ],\n    \"definitions\": {\n        \"undirected graph\": \"A graph in which the edges have no direction, meaning the connection between two nodes is bidirectional.\",\n        \"nodes\": \"The individual points or vertices in the graph, numbered from 0 to 31 in this case.\",\n        \"edges\": \"The connections between the nodes, represented as pairs of nodes (i, j) indicating that node i is connected to node j.\",\n        \"cycle\": \"A path in the graph that starts and ends at the same node, with no other nodes repeated in the path.\"\n    }\n}"
+ }
+]
